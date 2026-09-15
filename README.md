@@ -3,6 +3,12 @@
 一套专注于追踪顶尖 AI Builders、官方博客与深度播客一手动态的自动化系统。
 严格按照**四段式**（中文总结 + 中文全文翻译 + 推荐理由 + 原文链接）标准生成日报，支持工作日自动化调度与**周一自动回溯周末内容**，并以现代化静态网站进行沉淀与历史归档。
 
+## 🌐 线上正式访问地址
+
+🎉 网站已成功发布至 GitHub Pages，无需本地开启任何服务，手机与电脑随时可访问：
+👉 **[https://lukeflora.github.io/ai-daily-news/](https://lukeflora.github.io/ai-daily-news/)**
+👉 历史归档列表：**[https://lukeflora.github.io/ai-daily-news/archive/index.html](https://lukeflora.github.io/ai-daily-news/archive/index.html)**
+
 ---
 
 ## 🌟 核心特性
