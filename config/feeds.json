@@ -1,0 +1,10 @@
+{
+  "note": "AI Builders 集中订阅源。数据由 GitHub 仓库 zarazhangrui/follow-builders 定时更新维护。",
+  "repo": "zarazhangrui/follow-builders",
+  "branch": "main",
+  "feeds": {
+    "x": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
+    "podcasts": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-podcasts.json",
+    "blogs": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-blogs.json"
+  }
+}

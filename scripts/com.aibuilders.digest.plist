@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.aibuilders.digest</string>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/design/Documents/Antigravity/每日AI新闻收集</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/node</string>
+        <string>/Users/design/Documents/Antigravity/每日AI新闻收集/scripts/run-daily.js</string>
+    </array>
+
+    <!-- 开机/登录时自动检测：若当天尚未生成过（如周一刚开机），立即在后台自动补跑 -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- 每周一至周五，早晨 09:00 定时执行 -->
+    <key>StartCalendarInterval</key>
+    <array>
+        <!-- 周一 (Weekday 1) -->
+        <dict>
+            <key>Weekday</key>
+            <integer>1</integer>
+            <key>Hour</key>
+            <integer>9</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <!-- 周二 (Weekday 2) -->
+        <dict>
+            <key>Weekday</key>
+            <integer>2</integer>
+            <key>Hour</key>
+            <integer>9</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <!-- 周三 (Weekday 3) -->
+        <dict>
+            <key>Weekday</key>
+            <integer>3</integer>
+            <key>Hour</key>
+            <integer>9</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <!-- 周四 (Weekday 4) -->
+        <dict>
+            <key>Weekday</key>
+            <integer>4</integer>
+            <key>Hour</key>
+            <integer>9</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <!-- 周五 (Weekday 5) -->
+        <dict>
+            <key>Weekday</key>
+            <integer>5</integer>
+            <key>Hour</key>
+            <integer>9</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+    </array>
+
+    <key>StandardOutPath</key>
+    <string>/Users/design/Documents/Antigravity/每日AI新闻收集/data/daily.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/design/Documents/Antigravity/每日AI新闻收集/data/daily.err.log</string>
+</dict>
+</plist>

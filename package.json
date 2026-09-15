@@ -1,0 +1,20 @@
+{
+  "name": "ai-builders-daily-digest",
+  "version": "1.0.0",
+  "description": "AI Builders 中文日报收集与 HTML 归档网站",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-feeds.js",
+    "fetch:monday": "node scripts/fetch-feeds.js --force-weekend",
+    "generate": "node scripts/generate-digest.js",
+    "build": "node scripts/build-site.js",
+    "preview": "node scripts/server.js",
+    "daily": "node scripts/run-daily.js"
+  },
+  "keywords": ["ai", "news", "digest", "builders", "static-site"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

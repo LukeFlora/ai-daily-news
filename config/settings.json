@@ -1,0 +1,16 @@
+{
+  "siteTitle": "AI Builders 中文日报",
+  "siteDescription": "追踪顶尖 AI Builders、一手技术博客与深度播客，沉淀高信噪比中文每日洞察与独立网站归档。",
+  "language": "zh",
+  "schedule": {
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+    "time": "09:00",
+    "timezone": "Asia/Shanghai",
+    "mondayLookbackHours": 72
+  },
+  "display": {
+    "showOriginalTranslation": true,
+    "collapsibleTranslation": true,
+    "itemsPerPage": 50
+  }
+}
