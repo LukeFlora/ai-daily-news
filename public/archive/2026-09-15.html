@@ -5,22 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Luke的一手消息 - 2026-09-15</title>
   <meta name="description" content="Luke的一手消息：追踪前沿突破 · 汇聚一手洞见。大模型突破、开源工具、AI商业与论文前沿。">
-  <link rel="stylesheet" href="../assets/style.css">
+  <style>
+    /* 强力防御浏览器默认系统按钮样式污染 */
+    button, select {
+      -webkit-appearance: none !important;
+      -moz-appearance: none !important;
+      appearance: none !important;
+      background: transparent !important;
+      border: none;
+      font-family: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="../assets/style.css?v=1789531709874">
 </head>
 <body>
   <div class="newspaper-container">
-    <!-- 顶部状态栏与往期导航 -->
+    <!-- 顶部精简报刊状态导航栏 -->
     <nav class="top-nav-bar">
       <div class="top-nav-left">
-        <button class="calendar-toggle-btn" id="open-calendar-btn" type="button" title="点击打开交互式月度出版日历">📅 日历查阅</button>
-        <span>📖 往期回顾：</span>
+        <button class="calendar-toggle-btn" id="open-calendar-btn" type="button" title="点击打开月度出版日历">
+          <span>📅</span>
+          <span>日历查阅</span>
+        </button>
+        <span class="nav-sep">|</span>
+        <span class="nav-label">📖 往期回顾：</span>
         <select class="vintage-select" onchange="if(this.value) location.href=this.value;">
           <option value="../index.html" >2026-09-16</option><option value="../archive/2026-09-15.html" selected>2026-09-15</option><option value="../archive/2026-09-14.html" >2026-09-14</option>
         </select>
+        <span class="nav-sep">|</span>
         <a class="vintage-link" href="../archive/index.html">时间线总览</a>
       </div>
       <div class="top-nav-right">
         <span>⚡ 每日自动更新 · 打开即读</span>
+        <span class="nav-sep">|</span>
         <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
       </div>
     </nav>
@@ -379,6 +396,6 @@ Piston 彻底颠覆了加油卡模式——它直接抛弃实体卡，建立自�
     window.CURRENT_DATE = "2026-09-15";
     window.RELATIVE_ROOT = "../";
   </script>
-  <script src="../assets/app.js"></script>
+  <script src="../assets/app.js?v=1789531709874"></script>
 </body>
 </html>

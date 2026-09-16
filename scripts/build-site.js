@@ -219,6 +219,7 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
 
   const displayDate = formatDisplayDate(digest.date);
   const issueNumber = `第 ${allDates.length - allDates.indexOf(digest.date)} 期 · 晨报精编`;
+  const ver = Date.now();
 
   return `<!DOCTYPE html>
 <html lang="zh-CN">
@@ -227,22 +228,39 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(title)} - ${escapeHtml(digest.date)}</title>
   <meta name="description" content="${escapeHtml(title)}：${escapeHtml(motto)}。大模型突破、开源工具、AI商业与论文前沿。">
-  <link rel="stylesheet" href="${relativeRoot}assets/style.css">
+  <style>
+    /* 强力防御浏览器默认系统按钮样式污染 */
+    button, select {
+      -webkit-appearance: none !important;
+      -moz-appearance: none !important;
+      appearance: none !important;
+      background: transparent !important;
+      border: none;
+      font-family: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="${relativeRoot}assets/style.css?v=${ver}">
 </head>
 <body>
   <div class="newspaper-container">
-    <!-- 顶部状态栏与往期导航 -->
+    <!-- 顶部精简报刊状态导航栏 -->
     <nav class="top-nav-bar">
       <div class="top-nav-left">
-        <button class="calendar-toggle-btn" id="open-calendar-btn" type="button" title="点击打开交互式月度出版日历">📅 日历查阅</button>
-        <span>📖 往期回顾：</span>
+        <button class="calendar-toggle-btn" id="open-calendar-btn" type="button" title="点击打开月度出版日历">
+          <span>📅</span>
+          <span>日历查阅</span>
+        </button>
+        <span class="nav-sep">|</span>
+        <span class="nav-label">📖 往期回顾：</span>
         <select class="vintage-select" onchange="if(this.value) location.href=this.value;">
           ${dateOptions}
         </select>
+        <span class="nav-sep">|</span>
         <a class="vintage-link" href="${relativeRoot}archive/index.html">时间线总览</a>
       </div>
       <div class="top-nav-right">
         <span>⚡ 每日自动更新 · 打开即读</span>
+        <span class="nav-sep">|</span>
         <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
       </div>
     </nav>
@@ -290,7 +308,7 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
     window.CURRENT_DATE = "${digest.date}";
     window.RELATIVE_ROOT = "${relativeRoot}";
   </script>
-  <script src="${relativeRoot}assets/app.js"></script>
+  <script src="${relativeRoot}assets/app.js?v=${ver}"></script>
 </body>
 </html>`;
 }
@@ -298,6 +316,7 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
 // 渲染归档总览页
 function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
   const allDates = digests.map(d => d.date);
+  const ver = Date.now();
   const rowsHtml = digests.map((d, idx) => {
     const href = idx === 0 ? `${relativeRoot}index.html` : `${relativeRoot}archive/${d.date}.html`;
     const count = (d.sections?.x?.length || 0) + (d.sections?.blogs?.length || 0) + (d.sections?.podcasts?.length || 0);
@@ -318,7 +337,17 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>往期归档 - ${escapeHtml(title)}</title>
-  <link rel="stylesheet" href="${relativeRoot}assets/style.css">
+  <style>
+    button, select {
+      -webkit-appearance: none !important;
+      -moz-appearance: none !important;
+      appearance: none !important;
+      background: transparent !important;
+      border: none;
+      font-family: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="${relativeRoot}assets/style.css?v=${ver}">
 </head>
 <body>
   <div class="newspaper-container archive-container">
@@ -356,7 +385,7 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
     window.CURRENT_DATE = "${digests[0]?.date || ''}";
     window.RELATIVE_ROOT = "${relativeRoot}";
   </script>
-  <script src="${relativeRoot}assets/app.js"></script>
+  <script src="${relativeRoot}assets/app.js?v=${ver}"></script>
 </body>
 </html>`;
 }

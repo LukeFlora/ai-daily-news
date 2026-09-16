@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Luke的一手消息 - 今日精选</title>
+  <style>
+    button, select {
+      -webkit-appearance: none !important;
+      -moz-appearance: none !important;
+      appearance: none !important;
+      background: transparent !important;
+      border: none;
+      font-family: inherit;
+    }
+  </style>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +21,11 @@
     <!-- 顶部导航状态栏 -->
     <nav class="top-nav-bar">
       <div class="top-nav-left">
-        <button class="calendar-toggle-btn" id="open-calendar-btn" type="button" title="点击打开交互式月度出版日历">📅 日历查阅</button>
+        <button class="calendar-toggle-btn" id="open-calendar-btn" type="button" title="点击打开月度出版日历">
+          <span>📅</span>
+          <span>日历查阅</span>
+        </button>
+        <span class="nav-sep">|</span>
         <span style="font-size: 0.8rem; color: #7d7363;">📖 每日数字报刊</span>
       </div>
       <div class="top-nav-right">
