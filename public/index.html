@@ -21,6 +21,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Luke的一手消息">
+  <!-- RSS 2.0 动态订阅源 (Phase 4 体验升级) -->
+  <link rel="alternate" type="application/rss+xml" title="Luke的一手消息" href="./feed.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@600;700;800;900&display=swap" rel="stylesheet">
@@ -45,7 +47,7 @@
       } catch (e) {}
     })();
   </script>
-  <link rel="stylesheet" href="./assets/style.css?v=1789538693308">
+  <link rel="stylesheet" href="./assets/style.css?v=1789540747961">
 </head>
 <body>
   <!-- 太阳耀斑环境光晕 (RedSun Signature Glow) -->
@@ -76,7 +78,7 @@
           <span class="theme-text">亮色模式</span>
         </button>
         <span class="nav-sep">|</span>
-        <span class="nav-label">⚡ 每日自动更新 · 打开即读</span>
+        <a class="vintage-link rss-link" href="./feed.xml" target="_blank" rel="noopener noreferrer" title="通过 RSS 阅读器订阅每日早报">📡 RSS</a>
         <span class="nav-sep">|</span>
         <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
       </div>
@@ -172,7 +174,10 @@
         <a class="source-link" href="https://x.com/thsottiaux/status/2099744972195131850" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -204,7 +209,10 @@
         <a class="source-link" href="https://x.com/rauchg/status/2099653035685445760" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -234,7 +242,10 @@
         <a class="source-link" href="https://x.com/bcherny/status/2099551291601248485" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -264,7 +275,10 @@
         <a class="source-link" href="https://x.com/joshwoodward/status/2099558443078365287" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -292,7 +306,10 @@
         <a class="source-link" href="https://x.com/trq212/status/2099671266068496802" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -321,7 +338,10 @@
         <a class="source-link" href="https://x.com/steipete/status/2099571935495827761" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -349,7 +369,10 @@
         <a class="source-link" href="https://www.anthropic.com/engineering/how-we-contain-claude" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -377,7 +400,10 @@
         <a class="source-link" href="https://www.anthropic.com/engineering/april-23-postmortem" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -405,7 +431,10 @@
         <a class="source-link" href="https://www.anthropic.com/engineering/managed-agents" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -433,7 +462,10 @@
         <a class="source-link" href="https://claude.com/blog/artifacts-in-claude-code" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -456,7 +488,10 @@
         <a class="source-link" href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -486,7 +521,10 @@
         <a class="source-link" href="https://x.com/petergyang/status/2099706366327951658" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -530,7 +568,10 @@
         <a class="source-link" href="https://x.com/levie/status/2099739019517235618" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -560,7 +601,10 @@
         <a class="source-link" href="https://x.com/adityaag/status/2099576440413184148" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -590,7 +634,10 @@
         <a class="source-link" href="https://x.com/mattturck/status/2099634379093848156" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -630,7 +677,10 @@
         <a class="source-link" href="https://x.com/nikunj/status/2099631145268969840" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -658,7 +708,10 @@
         <a class="source-link" href="https://x.com/amasad/status/2099749752892186925" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   
@@ -695,6 +748,26 @@
         <div id="modal-calendar-container"></div>
       </div>
     </div>
+
+    <!-- 视觉海报分享弹窗 (Phase 4 体验升级) -->
+    <div class="poster-modal-backdrop" id="poster-modal-backdrop" style="display: none;">
+      <div class="poster-modal-card">
+        <div class="poster-modal-top">
+          <span class="modal-label">📸 要闻视觉分享海报</span>
+          <button class="poster-close-btn" id="close-poster-modal" type="button" title="关闭海报弹窗">✕</button>
+        </div>
+        <div class="poster-preview-container">
+          <canvas id="poster-canvas" width="750" height="980" style="display: none;"></canvas>
+          <div class="poster-img-wrapper">
+            <img id="poster-preview-img" alt="要闻视觉海报加载中...">
+          </div>
+        </div>
+        <div class="poster-modal-actions">
+          <a id="poster-download-btn" class="poster-act-btn primary" download="luke-ai-news.png" href="#">⬇ 保存海报图片</a>
+          <button id="poster-copy-btn" class="poster-act-btn secondary" type="button">📋 复制海报图片</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script>
@@ -702,6 +775,6 @@
     window.CURRENT_DATE = "2026-09-16";
     window.RELATIVE_ROOT = "./";
   </script>
-  <script src="./assets/app.js?v=1789538693308"></script>
+  <script src="./assets/app.js?v=1789540747961"></script>
 </body>
 </html>

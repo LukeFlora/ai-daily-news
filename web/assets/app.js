@@ -60,6 +60,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 7. PWA 极速离线阅读与主屏幕支持 (Phase 3 体验升级)
   initPWA();
+
+  // 8. 单条要闻视觉海报生成与分享 (Phase 4 体验升级)
+  initPosterShare();
 });
 
 function initCalendarWidget() {
@@ -478,5 +481,281 @@ function initPWA() {
     });
   }
 }
+
+// 8. 单条要闻视觉卡片海报生成器 (Phase 4 体验升级 - 纯原生 Canvas 绘制，0 外部依赖)
+function initPosterShare() {
+  const modalBackdrop = document.getElementById('poster-modal-backdrop');
+  const closeBtn = document.getElementById('close-poster-modal');
+  const previewImg = document.getElementById('poster-preview-img');
+  const downloadBtn = document.getElementById('poster-download-btn');
+  const copyBtn = document.getElementById('poster-copy-btn');
+  const canvas = document.getElementById('poster-canvas') || document.createElement('canvas');
+
+  if (!modalBackdrop || !previewImg) return;
+
+  function closeModal() {
+    modalBackdrop.style.display = 'none';
+    document.body.classList.remove('modal-open');
+  }
+
+  closeBtn?.addEventListener('click', closeModal);
+  modalBackdrop.addEventListener('click', (e) => {
+    if (e.target === modalBackdrop) closeModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modalBackdrop.style.display === 'flex') {
+      closeModal();
+    }
+  });
+
+  // 工具函数：文本自动折行计算与绘制
+  function wrapLines(ctx, text, maxWidth) {
+    const lines = [];
+    const paragraphs = text.split('\n');
+    for (const para of paragraphs) {
+      if (!para) {
+        lines.push('');
+        continue;
+      }
+      let currentLine = '';
+      for (let i = 0; i < para.length; i++) {
+        const testLine = currentLine + para[i];
+        if (ctx.measureText(testLine).width > maxWidth && currentLine.length > 0) {
+          lines.push(currentLine);
+          currentLine = para[i];
+        } else {
+          currentLine = testLine;
+        }
+      }
+      if (currentLine) lines.push(currentLine);
+    }
+    return lines;
+  }
+
+  // 绘制圆角矩形
+  function roundRect(ctx, x, y, width, height, radius, fill, stroke) {
+    ctx.beginPath();
+    ctx.moveTo(x + radius, y);
+    ctx.lineTo(x + width - radius, y);
+    ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+    ctx.lineTo(x + width, y + height - radius);
+    ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+    ctx.lineTo(x + radius, y + height);
+    ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+    ctx.lineTo(x, y + radius);
+    ctx.quadraticCurveTo(x, y, x + radius, y);
+    ctx.closePath();
+    if (fill) ctx.fill();
+    if (stroke) ctx.stroke();
+  }
+
+  document.querySelectorAll('.share-poster-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const card = btn.closest('.news-item');
+      if (!card) return;
+
+      const title = card.querySelector('.item-title')?.textContent?.trim() || '';
+      const category = card.querySelector('.item-category')?.textContent?.trim() || '前沿快讯';
+      const author = card.querySelector('.item-author strong')?.textContent?.trim() || '';
+      const authorRole = card.querySelector('.item-author span')?.textContent?.trim() || '';
+      const brief = card.querySelector('.item-brief')?.textContent?.trim() || '';
+      const summary = card.querySelector('.item-summary')?.textContent?.trim() || '';
+      const pageDate = document.querySelector('.meta-pill.highlight')?.textContent?.trim() || '每日早报';
+
+      // 画布尺寸基准 (宽 750px 高清视网膜规范)
+      const width = 750;
+      const padding = 52;
+      const contentWidth = width - padding * 2;
+      const ctx = canvas.getContext('2d');
+
+      // 1. 预计算内容排版高度
+      ctx.font = 'bold 32px "Mulish", "PingFang SC", sans-serif';
+      const titleLines = wrapLines(ctx, title, contentWidth);
+      const titleHeight = titleLines.length * 46;
+
+      ctx.font = '21px "Inter", "PingFang SC", sans-serif';
+      const briefLines = brief ? wrapLines(ctx, brief, contentWidth - 44) : [];
+      const briefHeight = brief ? (briefLines.length * 34 + 32) : 0;
+
+      ctx.font = '20px "Inter", "PingFang SC", sans-serif';
+      const summaryLines = wrapLines(ctx, summary, contentWidth);
+      const summaryHeight = summaryLines.length * 34;
+
+      // 总高度计算
+      const headerHeight = 110;
+      const catBadgeHeight = 44;
+      const authorHeight = author ? 40 : 0;
+      const footerHeight = 110;
+      const totalHeight = padding + headerHeight + catBadgeHeight + titleHeight + (authorHeight ? authorHeight + 16 : 0) + (briefHeight ? briefHeight + 20 : 0) + 24 + summaryHeight + 40 + footerHeight + padding;
+
+      canvas.width = width;
+      canvas.height = totalHeight;
+
+      // 2. 绘制深渊背景与 RedSun 光晕
+      const bgGradient = ctx.createLinearGradient(0, 0, 0, totalHeight);
+      bgGradient.addColorStop(0, '#0c111e');
+      bgGradient.addColorStop(1, '#05070c');
+      ctx.fillStyle = bgGradient;
+      ctx.fillRect(0, 0, width, totalHeight);
+
+      // 右上角太阳耀斑环境光晕
+      const flareGlow = ctx.createRadialGradient(width - 80, 100, 10, width - 80, 100, 320);
+      flareGlow.addColorStop(0, 'rgba(246, 111, 20, 0.28)');
+      flareGlow.addColorStop(0.5, 'rgba(246, 111, 20, 0.08)');
+      flareGlow.addColorStop(1, 'rgba(6, 9, 16, 0)');
+      ctx.fillStyle = flareGlow;
+      ctx.fillRect(0, 0, width, totalHeight);
+
+      // 卡片高雅细边框
+      ctx.strokeStyle = 'rgba(247, 114, 24, 0.3)';
+      ctx.lineWidth = 2;
+      roundRect(ctx, 16, 16, width - 32, totalHeight - 32, 24, false, true);
+
+      let currentY = padding + 20;
+
+      // 3. 报头区域 (Brand Header)
+      // 品牌胶囊
+      ctx.fillStyle = 'rgba(246, 111, 20, 0.15)';
+      ctx.strokeStyle = 'rgba(246, 111, 20, 0.4)';
+      ctx.lineWidth = 1.5;
+      roundRect(ctx, padding, currentY, 215, 36, 18, true, true);
+      ctx.font = 'bold 16px "Mulish", sans-serif';
+      ctx.fillStyle = '#ffad75';
+      ctx.fillText('✦ Luke的一手消息 ✦', padding + 18, currentY + 24);
+
+      // 日期指示
+      ctx.font = '16px "Inter", sans-serif';
+      ctx.fillStyle = '#828c9e';
+      ctx.textAlign = 'right';
+      ctx.fillText(pageDate, width - padding, currentY + 24);
+      ctx.textAlign = 'left';
+
+      currentY += 56;
+
+      // 分割细线
+      ctx.strokeStyle = 'rgba(255, 255, 255, 0.08)';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(padding, currentY);
+      ctx.lineTo(width - padding, currentY);
+      ctx.stroke();
+
+      currentY += 36;
+
+      // 4. 分类标签胶囊
+      ctx.fillStyle = 'rgba(246, 111, 20, 0.2)';
+      ctx.strokeStyle = '#f66f14';
+      ctx.lineWidth = 1.5;
+      ctx.font = 'bold 16px "Inter", sans-serif';
+      const catWidth = ctx.measureText(category).width + 32;
+      roundRect(ctx, padding, currentY, catWidth, 34, 17, true, true);
+      ctx.fillStyle = '#f66f14';
+      ctx.fillText(category, padding + 16, currentY + 23);
+
+      currentY += 54;
+
+      // 5. 标题绘制
+      ctx.font = 'bold 32px "Mulish", "PingFang SC", sans-serif';
+      ctx.fillStyle = '#ffffff';
+      for (const line of titleLines) {
+        ctx.fillText(line, padding, currentY);
+        currentY += 46;
+      }
+
+      currentY += 6;
+
+      // 6. 作者信息 (如果存在)
+      if (author) {
+        ctx.font = 'bold 18px "Inter", "PingFang SC", sans-serif';
+        ctx.fillStyle = '#ffad75';
+        ctx.fillText(`👤 ${author} ${authorRole}`, padding, currentY);
+        currentY += 36;
+      }
+
+      // 7. 观点提要引言块 (如果存在)
+      if (brief) {
+        currentY += 10;
+        ctx.fillStyle = 'rgba(246, 111, 20, 0.08)';
+        ctx.strokeStyle = 'rgba(247, 114, 24, 0.2)';
+        ctx.lineWidth = 1;
+        roundRect(ctx, padding, currentY, contentWidth, briefHeight, 12, true, true);
+
+        // 左侧品牌橙条
+        ctx.fillStyle = '#f66f14';
+        roundRect(ctx, padding, currentY, 4, briefHeight, 2, true, false);
+
+        ctx.font = '20px "Inter", "PingFang SC", sans-serif';
+        ctx.fillStyle = '#cac4da';
+        let bY = currentY + 30;
+        for (const line of briefLines) {
+          ctx.fillText(line, padding + 22, bY);
+          bY += 34;
+        }
+        currentY += briefHeight + 20;
+      }
+
+      // 8. 详细解读正文
+      currentY += 12;
+      ctx.font = '20px "Inter", "PingFang SC", sans-serif';
+      ctx.fillStyle = '#d0d5e2';
+      for (const line of summaryLines) {
+        ctx.fillText(line, padding, currentY);
+        currentY += 34;
+      }
+
+      // 9. 底部签名栏
+      const footY = totalHeight - padding - 36;
+      ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(padding, footY);
+      ctx.lineTo(width - padding, footY);
+      ctx.stroke();
+
+      ctx.font = '16px "Inter", sans-serif';
+      ctx.fillStyle = '#828c9e';
+      ctx.fillText('⚡ 追踪前沿突破 · 真实一手信源', padding, footY + 30);
+
+      ctx.textAlign = 'right';
+      ctx.fillStyle = '#ffad75';
+      ctx.fillText('lukeflora.github.io/ai-daily-news ↗', width - padding, footY + 30);
+      ctx.textAlign = 'left';
+
+      // 10. 导出并呈现在预览弹窗中
+      const dataUrl = canvas.toDataURL('image/png');
+      previewImg.src = dataUrl;
+      if (downloadBtn) {
+        downloadBtn.href = dataUrl;
+        downloadBtn.download = `luke-news-poster-${Date.now()}.png`;
+      }
+
+      // 复制到剪贴板
+      if (copyBtn) {
+        copyBtn.onclick = async () => {
+          try {
+            canvas.toBlob(async (blob) => {
+              if (!blob) return;
+              if (navigator.clipboard && window.ClipboardItem) {
+                await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+                const orig = copyBtn.textContent;
+                copyBtn.textContent = '✓ 已复制海报图片';
+                setTimeout(() => { copyBtn.textContent = orig; }, 2000);
+              } else {
+                window.open(dataUrl, '_blank');
+              }
+            }, 'image/png');
+          } catch (err) {
+            console.error('复制图片异常:', err);
+            window.open(dataUrl, '_blank');
+          }
+        };
+      }
+
+      modalBackdrop.style.display = 'flex';
+      document.body.classList.add('modal-open');
+    });
+  });
+}
+
 
 

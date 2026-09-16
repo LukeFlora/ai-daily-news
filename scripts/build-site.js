@@ -199,7 +199,10 @@ function renderNewsItem(item) {
         <a class="source-link" href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">
           一手信源 ↗
         </a>
-        <button class="copy-btn" type="button">复制精要</button>
+        <div class="item-footer-actions">
+          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
+          <button class="copy-btn" type="button">复制精编</button>
+        </div>
       </footer>
     </article>
   `;
@@ -258,6 +261,8 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Luke的一手消息">
+  <!-- RSS 2.0 动态订阅源 (Phase 4 体验升级) -->
+  <link rel="alternate" type="application/rss+xml" title="${escapeHtml(title)}" href="${relativeRoot}feed.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@600;700;800;900&display=swap" rel="stylesheet">
@@ -313,7 +318,7 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
           <span class="theme-text">亮色模式</span>
         </button>
         <span class="nav-sep">|</span>
-        <span class="nav-label">⚡ 每日自动更新 · 打开即读</span>
+        <a class="vintage-link rss-link" href="${relativeRoot}feed.xml" target="_blank" rel="noopener noreferrer" title="通过 RSS 阅读器订阅每日早报">📡 RSS</a>
         <span class="nav-sep">|</span>
         <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
       </div>
@@ -416,6 +421,26 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
         <div id="modal-calendar-container"></div>
       </div>
     </div>
+
+    <!-- 视觉海报分享弹窗 (Phase 4 体验升级) -->
+    <div class="poster-modal-backdrop" id="poster-modal-backdrop" style="display: none;">
+      <div class="poster-modal-card">
+        <div class="poster-modal-top">
+          <span class="modal-label">📸 要闻视觉分享海报</span>
+          <button class="poster-close-btn" id="close-poster-modal" type="button" title="关闭海报弹窗">✕</button>
+        </div>
+        <div class="poster-preview-container">
+          <canvas id="poster-canvas" width="750" height="980" style="display: none;"></canvas>
+          <div class="poster-img-wrapper">
+            <img id="poster-preview-img" alt="要闻视觉海报加载中...">
+          </div>
+        </div>
+        <div class="poster-modal-actions">
+          <a id="poster-download-btn" class="poster-act-btn primary" download="luke-ai-news.png" href="#">⬇ 保存海报图片</a>
+          <button id="poster-copy-btn" class="poster-act-btn secondary" type="button">📋 复制海报图片</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script>
@@ -432,17 +457,45 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
 function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
   const allDates = digests.map(d => d.date);
   const ver = Date.now();
-  const rowsHtml = digests.map((d, idx) => {
-    const href = idx === 0 ? `${relativeRoot}index.html` : `${relativeRoot}archive/${d.date}.html`;
+
+  // 按月份对往期归档进行分组聚合 (Phase 4 体验升级)
+  const monthGroups = {};
+  digests.forEach((d, idx) => {
+    const monthKey = d.date.slice(0, 7); // "YYYY-MM"
+    if (!monthGroups[monthKey]) monthGroups[monthKey] = [];
     const count = (d.sections?.x?.length || 0) + (d.sections?.blogs?.length || 0) + (d.sections?.podcasts?.length || 0);
-    return `
-      <a class="archive-row" href="${href}">
+    monthGroups[monthKey].push({
+      date: d.date,
+      displayDate: formatDisplayDate(d.date),
+      issueNum: digests.length - idx,
+      count,
+      href: idx === 0 ? `${relativeRoot}index.html` : `${relativeRoot}archive/${d.date}.html`
+    });
+  });
+
+  const monthBlocksHtml = Object.entries(monthGroups).map(([monthKey, list]) => {
+    const [y, m] = monthKey.split('-');
+    const totalNews = list.reduce((sum, item) => sum + item.count, 0);
+    const rows = list.map(item => `
+      <a class="archive-row" href="${item.href}" data-date="${item.date}">
         <div>
-          <div class="archive-row-date">${escapeHtml(formatDisplayDate(d.date))}</div>
-          <div class="archive-row-meta">第 ${digests.length - idx} 期 · 收录 ${count} 条一手要闻</div>
+          <div class="archive-row-date">${escapeHtml(item.displayDate)}</div>
+          <div class="archive-row-meta">第 ${item.issueNum} 期 · 收录 ${item.count} 条一手要闻</div>
         </div>
         <span class="vintage-link">阅读本期报刊 ➔</span>
       </a>
+    `).join('');
+
+    return `
+      <div class="archive-month-group">
+        <div class="archive-month-title">
+          <span>📅 ${y} 年 ${m} 月</span>
+          <span class="archive-month-count">共 ${list.length} 期出刊 · 聚合 ${totalNews} 条一手洞见</span>
+        </div>
+        <div class="archive-month-list">
+          ${rows}
+        </div>
+      </div>
     `;
   }).join('');
 
@@ -468,6 +521,8 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Luke的一手消息">
+  <!-- RSS 2.0 动态订阅源 (Phase 4 体验升级) -->
+  <link rel="alternate" type="application/rss+xml" title="${escapeHtml(title)}" href="${relativeRoot}feed.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@600;700;800;900&display=swap" rel="stylesheet">
@@ -511,6 +566,8 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
           <span class="theme-text">亮色模式</span>
         </button>
         <span class="nav-sep">|</span>
+        <a class="vintage-link rss-link" href="${relativeRoot}feed.xml" target="_blank" rel="noopener noreferrer" title="通过 RSS 阅读器订阅每日早报">📡 RSS</a>
+        <span class="nav-sep">|</span>
         <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
       </div>
     </nav>
@@ -528,7 +585,7 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
 
     <div class="archive-list">
       <div class="inline-calendar-title" style="margin-top: 1rem;">📜 往期时间线列表</div>
-      ${rowsHtml}
+      ${monthBlocksHtml}
     </div>
 
     <footer class="newspaper-footer">
@@ -553,6 +610,54 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
   <script src="${relativeRoot}assets/app.js?v=${ver}"></script>
 </body>
 </html>`;
+}
+
+// 生成标准 RSS 2.0 动态订阅源 (Phase 4 体验升级)
+function generateRssFeed({ title, motto, digests, siteUrl = 'https://lukeflora.github.io/ai-daily-news/' }) {
+  const items = [];
+  // 提取最近 15 期的所有高质要闻动态
+  for (const d of digests.slice(0, 15)) {
+    const newsItems = extractAndRankNews(d);
+    for (const item of newsItems) {
+      items.push({
+        title: `[${item.category}] ${item.title}`,
+        link: item.sourceUrl || `${siteUrl}archive/${d.date}.html#${item.id}`,
+        guid: `${d.date}-${item.id}`,
+        pubDate: new Date(d.date + 'T09:00:00+08:00').toUTCString(),
+        category: item.category,
+        author: item.author || 'Luke',
+        description: `<![CDATA[
+          <p><strong>板块：</strong>${item.category} ${item.author ? `| <strong>观点作者：</strong>${item.author}` : ''}</p>
+          ${item.brief ? `<p><strong>核心提要：</strong>${item.brief}</p>` : ''}
+          <p><strong>深入解读：</strong>${item.summary}</p>
+          ${item.translation ? `<blockquote><strong>译文精要：</strong><pre style="white-space: pre-wrap;">${item.translation}</pre></blockquote>` : ''}
+          <hr/>
+          <p><a href="${item.sourceUrl}">查看一手信源 ↗</a> | <a href="${siteUrl}">《${title}》在线阅读</a></p>
+        ]]>`
+      });
+    }
+  }
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>${escapeHtml(title)}</title>
+    <link>${siteUrl}</link>
+    <description>${escapeHtml(motto)}</description>
+    <language>zh-CN</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <atom:link href="${siteUrl}feed.xml" rel="self" type="application/rss+xml"/>
+    ${items.map(i => `
+    <item>
+      <title><![CDATA[${i.title}]]></title>
+      <link>${i.link}</link>
+      <guid isPermaLink="false">${i.guid}</guid>
+      <pubDate>${i.pubDate}</pubDate>
+      <category><![CDATA[${i.category}]]></category>
+      <description>${i.description}</description>
+    </item>`).join('')}
+  </channel>
+</rss>`;
 }
 
 // 主流程
@@ -654,6 +759,16 @@ async function main() {
   });
   await writeFile(join(PUBLIC_DIR, 'archive', 'index.html'), archiveIndexHtml, 'utf-8');
   console.log(`- 往期历史时间线已生成: public/archive/index.html`);
+
+  // 6.5 生成 RSS 2.0 动态订阅源 public/feed.xml & public/rss.xml (Phase 4 体验升级)
+  const rssXml = generateRssFeed({
+    title: settings.siteTitle || 'Luke的一手消息',
+    motto: settings.motto || '追踪前沿突破 · 汇聚一手洞见',
+    digests
+  });
+  await writeFile(join(PUBLIC_DIR, 'feed.xml'), rssXml, 'utf-8');
+  await writeFile(join(PUBLIC_DIR, 'rss.xml'), rssXml, 'utf-8');
+  console.log(`- RSS 2.0 动态订阅源已生成: public/feed.xml & public/rss.xml`);
 
   // 7. 同步导出当天 data.json 至 public/data.json 和 ai-daily-lite/data.json
   const rankedLatestNews = extractAndRankNews(latestDigest);

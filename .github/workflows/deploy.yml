@@ -37,17 +37,24 @@ jobs:
         with:
           node-version: 20
 
-      - name: Run Daily Workflow (Fetch, Generate, Build)
+      - name: Build Site or Run Scheduled Daily Workflow
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          node scripts/run-daily.js --force
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "⏰ 定时或手动调度触发：执行全面数据采集、AI提炼与静态编译..."
+            node scripts/run-daily.js --force
+          else
+            echo "🚀 源码更新触发：执行静态站点编译与资源同步..."
+            node scripts/build-site.js
+          fi
 
-      - name: Commit and Push Updated Digests
+      - name: Commit and Push Updated Digests (Only on Schedule/Dispatch)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/ public/
+          git add data/ public/ ai-daily-lite/
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update daily digest [skip ci]" && git push)
 
       - name: Setup Pages
