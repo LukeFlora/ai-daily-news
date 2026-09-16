@@ -301,6 +301,18 @@ async function main() {
 
   await mkdir(DIGESTS_DIR, { recursive: true });
   const digestFile = join(DIGESTS_DIR, `${targetDate}.json`);
+
+  // 防退化保护：如果已有高质量模型/人工精校日报，且当前无 GEMINI_API_KEY，严禁覆盖为模板占位符！
+  if (existsSync(digestFile) && !process.env.GEMINI_API_KEY) {
+    try {
+      const existing = JSON.parse(await readFile(digestFile, 'utf-8'));
+      const sampleSummary = existing.sections?.x?.[0]?.summary || '';
+      if (sampleSummary && !sampleSummary.includes('近期分享了关于技术与产品的最新动态')) {
+        console.log(`[保护机制] 已存在高质量深度精校日报，且当前未配置 GEMINI_API_KEY，保留现有高质量内容，避免退化为占位符。`);
+        return existing;
+      }
+    } catch (e) {}
+  }
   await writeFile(digestFile, JSON.stringify(finalDigest, null, 2), 'utf-8');
 
   console.log(`\n========================================`);
