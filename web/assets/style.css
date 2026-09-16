@@ -1,12 +1,12 @@
 /* ==========================================================================
-   Luke的一手消息 · RedSun 智汇未来风格样式表
+   Luke的一手消息 · RedSun 智汇未来风格样式表 (支持一键暗黑/亮色双模换肤)
    灵感来源：Webflow RedSun AI 旗舰模板
-   视觉特色：宇宙深渊深色背景 (#060910)、太阳耀斑橙色霓虹 (#f66f14)、
-            半透明暗黑磨砂玻璃卡片、内发光弧度微光 (Inset Glow)、圆角胶囊交互
+   视觉特色：宇宙深渊深色背景 (#060910) / 晨曦极简浅色模式 (#f6f8fb)、
+            太阳耀斑橙色微光、半透明磨砂玻璃卡片、圆角胶囊交互
    ========================================================================== */
 
 :root {
-  /* RedSun 官方调色板 */
+  /* 默认：暗黑模式调色板 (RedSun Signature Dark) */
   --color--page-color: #060910;
   --color--brand-color: #f66f14;
   --color--brand-glow: rgba(246, 111, 20, 0.45);
@@ -15,6 +15,9 @@
   --color--elements-stroke: rgba(247, 114, 24, 0.2);
   --color--inner-shadow-color: rgba(246, 112, 20, 0.15);
   --color--card-hover-stroke: rgba(246, 111, 20, 0.65);
+  --color--card-shadow: inset 0 -8px 24px 0 var(--color--inner-shadow-color), 0 10px 30px rgba(0, 0, 0, 0.35);
+  --color--card-hover-shadow: inset 0 -8px 24px 0 rgba(246, 112, 20, 0.25), 0 16px 45px rgba(246, 111, 20, 0.16);
+  --color--lead-shadow: inset 0 -12px 30px 0 rgba(246, 112, 20, 0.22), 0 18px 50px rgba(0, 0, 0, 0.55);
   --color--button-text: #cac4da;
   
   /* 文本色阶 */
@@ -23,6 +26,25 @@
   --text-muted: #828c9e;
   --text-dim: #545c6b;
   --line-subtle: rgba(255, 255, 255, 0.08);
+
+  /* 界面与组件 */
+  --nav-bg: rgba(13, 18, 29, 0.72);
+  --nav-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --modal-bg: #0b0f19;
+  --modal-backdrop: rgba(3, 5, 9, 0.85);
+  --modal-shadow: inset 0 -12px 30px rgba(246, 112, 20, 0.16), 0 25px 60px rgba(0, 0, 0, 0.8);
+  --flare-gradient: radial-gradient(ellipse at 50% 50%, rgba(246, 111, 20, 0.32) 0%, rgba(246, 111, 20, 0.1) 45%, rgba(6, 9, 16, 0) 75%);
+  --title-gradient: linear-gradient(180deg, #ffffff 40%, #cac4da 100%);
+  --pill-bg: rgba(255, 255, 255, 0.04);
+  --pill-border: rgba(255, 255, 255, 0.1);
+  --btn-default-bg: rgba(255, 255, 255, 0.05);
+  --btn-default-border: rgba(255, 255, 255, 0.1);
+  --btn-default-hover-bg: rgba(255, 255, 255, 0.1);
+  --expand-bg: rgba(8, 12, 20, 0.75);
+  --expand-text: #d0d5e2;
+  --expand-border: rgba(247, 114, 24, 0.2);
+  --cal-cell-bg: rgba(255, 255, 255, 0.02);
+  --select-arrow: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23cac4da' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
 
   /* 字体家族 */
   --font-title: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -33,6 +55,48 @@
   --radius-pill: 100px;
   --grid-gap: 1.5rem;
   --max-width: 1240px;
+}
+
+[data-theme="light"] {
+  /* 亮色模式调色板 (晨曦阳光 / 极简科技风格) */
+  --color--page-color: #f6f8fb;
+  --color--brand-color: #e55a00;
+  --color--brand-glow: rgba(229, 90, 0, 0.22);
+  --color--gradient-color-01: #d94f00;
+  --color--elements-bg: rgba(255, 255, 255, 0.92);
+  --color--elements-stroke: rgba(226, 232, 240, 0.9);
+  --color--inner-shadow-color: rgba(229, 90, 0, 0.04);
+  --color--card-hover-stroke: rgba(229, 90, 0, 0.5);
+  --color--card-shadow: inset 0 -8px 24px 0 rgba(229, 90, 0, 0.03), 0 10px 25px -3px rgba(15, 23, 42, 0.05), 0 4px 6px -2px rgba(15, 23, 42, 0.02);
+  --color--card-hover-shadow: inset 0 -8px 24px 0 rgba(229, 90, 0, 0.07), 0 20px 35px -5px rgba(229, 90, 0, 0.1), 0 8px 16px -3px rgba(15, 23, 42, 0.03);
+  --color--lead-shadow: inset 0 -12px 30px 0 rgba(229, 90, 0, 0.06), 0 18px 45px rgba(15, 23, 42, 0.08);
+  --color--button-text: #334155;
+
+  /* 文本色阶 */
+  --text-main: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --text-dim: #94a3b8;
+  --line-subtle: rgba(15, 23, 42, 0.08);
+
+  /* 界面与组件 */
+  --nav-bg: rgba(255, 255, 255, 0.85);
+  --nav-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+  --modal-bg: #ffffff;
+  --modal-backdrop: rgba(15, 23, 42, 0.45);
+  --modal-shadow: 0 25px 60px rgba(15, 23, 42, 0.16);
+  --flare-gradient: radial-gradient(ellipse at 50% 50%, rgba(246, 111, 20, 0.16) 0%, rgba(246, 111, 20, 0.05) 45%, rgba(246, 248, 251, 0) 75%);
+  --title-gradient: linear-gradient(180deg, #0f172a 30%, #334155 100%);
+  --pill-bg: rgba(15, 23, 42, 0.04);
+  --pill-border: rgba(15, 23, 42, 0.09);
+  --btn-default-bg: rgba(15, 23, 42, 0.04);
+  --btn-default-border: rgba(15, 23, 42, 0.1);
+  --btn-default-hover-bg: rgba(15, 23, 42, 0.08);
+  --expand-bg: rgba(241, 245, 249, 0.9);
+  --expand-text: #1e293b;
+  --expand-border: rgba(226, 232, 240, 1);
+  --cal-cell-bg: rgba(15, 23, 42, 0.03);
+  --select-arrow: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23334155' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
 }
 
 * {
@@ -67,6 +131,7 @@ body {
   position: relative;
   overflow-x: hidden;
   min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* 顶部宇宙太阳耀斑环境光晕背景 (RedSun Signature Glow) */
@@ -90,9 +155,10 @@ body {
   transform: translateX(-50%);
   width: 700px;
   height: 420px;
-  background: radial-gradient(ellipse at 50% 50%, rgba(246, 111, 20, 0.32) 0%, rgba(246, 111, 20, 0.1) 45%, rgba(6, 9, 16, 0) 75%);
+  background: var(--flare-gradient);
   filter: blur(55px);
   border-radius: 50%;
+  transition: background 0.3s ease;
 }
 
 .newspaper-container {
@@ -102,12 +168,12 @@ body {
   z-index: 1;
 }
 
-/* 顶部悬浮暗黑磨砂玻璃导航栏 */
+/* 顶部悬浮磨砂玻璃导航栏 */
 .top-nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(13, 18, 29, 0.72);
+  background: var(--nav-bg);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--line-subtle);
@@ -116,7 +182,8 @@ body {
   margin-bottom: 2.5rem;
   flex-wrap: wrap;
   gap: 0.75rem;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  box-shadow: var(--nav-shadow);
+  transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .top-nav-left {
@@ -130,6 +197,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
 .nav-label {
@@ -139,9 +207,53 @@ body {
 }
 
 .nav-sep {
-  color: rgba(255, 255, 255, 0.15);
+  color: var(--line-subtle);
   user-select: none;
   font-size: 0.8rem;
+}
+
+/* 一键换肤按钮 (Theme Toggle Button) */
+.theme-toggle-btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: var(--btn-default-bg);
+  border: 1px solid var(--btn-default-border);
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.32rem 0.85rem;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  line-height: 1.4;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+}
+
+.theme-toggle-btn:hover {
+  border-color: var(--color--brand-color);
+  color: var(--color--brand-color);
+  background: rgba(246, 111, 20, 0.12);
+  transform: translateY(-1px);
+  box-shadow: 0 0 16px var(--color--brand-glow);
+}
+
+.theme-toggle-btn:active {
+  transform: translateY(0);
+}
+
+.theme-toggle-btn .theme-icon {
+  font-size: 0.92rem;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle-btn:hover .theme-icon {
+  transform: rotate(20deg) scale(1.15);
 }
 
 /* RedSun 耀斑日历胶囊按钮 */
@@ -166,6 +278,13 @@ body {
   box-shadow: 0 0 16px rgba(246, 111, 20, 0.25);
 }
 
+[data-theme="light"] .calendar-toggle-btn {
+  background: linear-gradient(135deg, rgba(229, 90, 0, 0.95), rgba(255, 120, 30, 0.9));
+  border-color: rgba(229, 90, 0, 0.8);
+  color: #ffffff;
+  box-shadow: 0 2px 10px rgba(229, 90, 0, 0.3);
+}
+
 .calendar-toggle-btn:hover {
   background: var(--color--brand-color);
   color: #ffffff;
@@ -177,13 +296,13 @@ body {
   transform: translateY(0);
 }
 
-/* 磨砂暗黑下拉选择器 */
+/* 磨砂下拉选择器 */
 .vintage-select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: var(--btn-default-bg);
+  border: 1px solid var(--btn-default-border);
   border-radius: var(--radius-pill);
   color: var(--text-secondary);
   font-family: var(--font-body);
@@ -192,7 +311,7 @@ body {
   padding: 0.3rem 1.6rem 0.3rem 0.8rem;
   cursor: pointer;
   outline: none;
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23cac4da' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-image: var(--select-arrow);
   background-repeat: no-repeat;
   background-position: right 0.5rem center;
   background-size: 0.7rem;
@@ -202,7 +321,7 @@ body {
 
 .vintage-select:hover {
   border-color: var(--color--brand-color);
-  color: #ffffff;
+  color: var(--color--brand-color);
 }
 
 .vintage-link {
@@ -216,7 +335,7 @@ body {
 }
 
 .vintage-link:hover {
-  color: var(--color--gradient-color-01);
+  color: var(--color--brand-color);
 }
 
 .whats-new-badge {
@@ -245,8 +364,8 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--pill-bg);
+  border: 1px solid var(--pill-border);
   padding: 0.35rem 1.1rem;
   border-radius: var(--radius-pill);
   font-size: 0.8rem;
@@ -278,7 +397,7 @@ body {
   letter-spacing: -0.03em;
   line-height: 1.15;
   margin: 0 auto 1.25rem;
-  background: linear-gradient(180deg, #ffffff 40%, #cac4da 100%);
+  background: var(--title-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   max-width: 900px;
@@ -301,8 +420,8 @@ body {
 }
 
 .meta-pill {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--pill-bg);
+  border: 1px solid var(--pill-border);
   border-radius: var(--radius-pill);
   padding: 0.3rem 0.95rem;
   font-size: 0.82rem;
@@ -331,7 +450,7 @@ body {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--color--elements-stroke);
-  box-shadow: inset 0 -8px 24px 0 var(--color--inner-shadow-color), 0 10px 30px rgba(0, 0, 0, 0.35);
+  box-shadow: var(--color--card-shadow);
   border-radius: var(--radius-card);
   padding: 1.6rem;
   position: relative;
@@ -341,7 +460,7 @@ body {
 
 .news-item:hover {
   border-color: var(--color--card-hover-stroke);
-  box-shadow: inset 0 -8px 24px 0 rgba(246, 112, 20, 0.25), 0 16px 45px rgba(246, 111, 20, 0.16);
+  box-shadow: var(--color--card-hover-shadow);
   transform: translateY(-4px);
 }
 
@@ -369,7 +488,7 @@ body {
 
 .item-heat {
   font-size: 0.75rem;
-  color: #ff9d5c;
+  color: var(--color--brand-color);
   font-weight: 600;
   display: inline-flex;
   align-items: center;
@@ -379,7 +498,7 @@ body {
 /* 标题设计 */
 .item-title {
   font-family: var(--font-title);
-  color: #ffffff;
+  color: var(--text-main);
   line-height: 1.4;
   margin-bottom: 0.65rem;
   font-weight: 800;
@@ -397,14 +516,14 @@ body {
 }
 
 .item-author strong {
-  color: #e2e7f3;
+  color: var(--text-main);
 }
 
 /* 导读要点 */
 .item-brief {
   font-size: 0.92rem;
   font-weight: 600;
-  color: var(--text-secondary);
+  color: var(--color--gradient-color-01);
   margin-bottom: 0.75rem;
   line-height: 1.55;
 }
@@ -412,7 +531,7 @@ body {
 /* 核心摘要 */
 .item-summary {
   font-size: 0.88rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   line-height: 1.68;
   margin-bottom: 1.1rem;
   flex-grow: 1;
@@ -421,7 +540,7 @@ body {
 /* 可折叠深度译文与工程细节 */
 .item-expand-box {
   margin: 0.75rem 0 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid var(--line-subtle);
   padding-top: 0.75rem;
 }
 
@@ -449,9 +568,9 @@ body {
 .expand-content {
   display: none;
   font-size: 0.84rem;
-  color: #d0d5e2;
-  background: rgba(8, 12, 20, 0.75);
-  border: 1px solid rgba(247, 114, 24, 0.2);
+  color: var(--expand-text);
+  background: var(--expand-bg);
+  border: 1px solid var(--expand-border);
   border-left: 3px solid var(--color--brand-color);
   border-radius: 12px;
   padding: 0.85rem;
@@ -475,16 +594,16 @@ body {
 .item-footer {
   margin-top: auto;
   padding-top: 0.85rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid var(--line-subtle);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .source-link {
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-main);
+  background: var(--btn-default-bg);
+  border: 1px solid var(--btn-default-border);
   padding: 0.32rem 0.85rem;
   border-radius: var(--radius-pill);
   font-size: 0.78rem;
@@ -497,17 +616,17 @@ body {
 }
 
 .source-link:hover {
-  background: rgba(246, 111, 20, 0.2);
+  background: rgba(246, 111, 20, 0.15);
   border-color: var(--color--brand-color);
-  color: var(--color--gradient-color-01);
-  box-shadow: 0 0 12px rgba(246, 111, 20, 0.3);
+  color: var(--color--brand-color);
+  box-shadow: 0 0 12px var(--color--brand-glow);
 }
 
 .copy-btn {
   -webkit-appearance: none;
   appearance: none;
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--btn-default-bg);
+  border: 1px solid var(--btn-default-border);
   color: var(--text-muted);
   font-size: 0.75rem;
   font-weight: 500;
@@ -518,9 +637,9 @@ body {
 }
 
 .copy-btn:hover {
-  border-color: rgba(247, 114, 24, 0.4);
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.03);
+  border-color: var(--color--brand-color);
+  color: var(--color--brand-color);
+  background: rgba(246, 111, 20, 0.1);
 }
 
 /* 优先级网格跨度 */
@@ -530,7 +649,7 @@ body {
   grid-column: span 4;
   padding: 2.2rem;
   border-color: rgba(246, 111, 20, 0.4);
-  box-shadow: inset 0 -12px 30px 0 rgba(246, 112, 20, 0.22), 0 18px 50px rgba(0, 0, 0, 0.55);
+  box-shadow: var(--color--lead-shadow);
 }
 
 .news-item.priority-lead .item-title {
@@ -586,7 +705,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(3, 5, 9, 0.85);
+  background: var(--modal-backdrop);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   display: none;
@@ -601,9 +720,9 @@ body {
 }
 
 .calendar-modal-card {
-  background: #0b0f19;
-  border: 1px solid rgba(247, 114, 24, 0.35);
-  box-shadow: inset 0 -12px 30px rgba(246, 112, 20, 0.16), 0 25px 60px rgba(0, 0, 0, 0.8);
+  background: var(--modal-bg);
+  border: 1px solid var(--color--elements-stroke);
+  box-shadow: var(--modal-shadow);
   border-radius: 24px;
   width: 100%;
   max-width: 440px;
@@ -623,8 +742,8 @@ body {
   position: absolute;
   top: 1rem;
   right: 1.1rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--btn-default-bg);
+  border: 1px solid var(--btn-default-border);
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -651,7 +770,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid var(--line-subtle);
   padding-bottom: 0.85rem;
   margin-bottom: 1.25rem;
 }
@@ -660,15 +779,15 @@ body {
   font-family: var(--font-title);
   font-size: 1.25rem;
   font-weight: 800;
-  color: #ffffff;
+  color: var(--text-main);
   letter-spacing: -0.01em;
 }
 
 .cal-nav-btn {
   -webkit-appearance: none;
   appearance: none;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--btn-default-bg);
+  border: 1px solid var(--btn-default-border);
   color: var(--text-secondary);
   font-family: var(--font-body);
   padding: 0.3rem 0.8rem;
@@ -683,7 +802,7 @@ body {
   border-color: var(--color--brand-color);
   background-color: var(--color--brand-color);
   color: #ffffff;
-  box-shadow: 0 0 14px rgba(246, 111, 20, 0.5);
+  box-shadow: 0 0 14px var(--color--brand-glow);
 }
 
 .cal-weekdays {
@@ -693,7 +812,7 @@ body {
   font-size: 0.8rem;
   font-weight: 700;
   color: var(--text-dim);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid var(--line-subtle);
   padding-bottom: 0.5rem;
   margin-bottom: 0.75rem;
 }
@@ -716,7 +835,7 @@ body {
   color: var(--text-muted);
   position: relative;
   user-select: none;
-  background-color: rgba(255, 255, 255, 0.02);
+  background-color: var(--cal-cell-bg);
   transition: all 0.2s;
 }
 
@@ -728,7 +847,7 @@ body {
 .cal-cell.cal-has-news {
   background: rgba(246, 111, 20, 0.18);
   border-color: var(--color--brand-color);
-  color: var(--color--gradient-color-01);
+  color: var(--color--brand-color);
   font-weight: 800;
   cursor: pointer;
   box-shadow: 0 0 14px rgba(246, 111, 20, 0.25);
@@ -742,7 +861,7 @@ body {
 }
 
 .cal-cell.cal-current-active {
-  outline: 2px solid #ffffff;
+  outline: 2px solid var(--color--brand-color);
   outline-offset: 2px;
 }
 
@@ -755,7 +874,7 @@ body {
 .cal-legend {
   margin-top: 1.4rem;
   padding-top: 0.85rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid var(--line-subtle);
   font-size: 0.78rem;
   color: var(--text-muted);
   display: flex;
@@ -776,7 +895,7 @@ body {
 .legend-badge.active {
   width: 10px;
   height: 10px;
-  border: 2px solid #ffffff;
+  border: 2px solid var(--color--brand-color);
   border-radius: 3px;
 }
 
@@ -784,7 +903,7 @@ body {
 .inline-calendar-section {
   background: var(--color--elements-bg);
   border: 1px solid var(--color--elements-stroke);
-  box-shadow: inset 0 -8px 24px 0 var(--color--inner-shadow-color);
+  box-shadow: var(--color--card-shadow);
   padding: 1.8rem;
   margin-bottom: 2.5rem;
   border-radius: var(--radius-card);
@@ -795,8 +914,8 @@ body {
   font-size: 1.2rem;
   font-weight: 800;
   margin-bottom: 1.25rem;
-  color: #ffffff;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-main);
+  border-bottom: 1px solid var(--line-subtle);
   padding-bottom: 0.6rem;
 }
 
@@ -807,7 +926,7 @@ body {
 }
 
 .archive-header {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid var(--line-subtle);
   padding-bottom: 1.5rem;
   margin-bottom: 2.2rem;
   text-align: center;
@@ -818,7 +937,7 @@ body {
   font-size: 2.4rem;
   font-weight: 900;
   margin-bottom: 0.6rem;
-  background: linear-gradient(180deg, #ffffff 40%, #cac4da 100%);
+  background: var(--title-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -867,7 +986,7 @@ body {
 }
 
 .footer-divider {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid var(--line-subtle);
   margin-bottom: 1.5rem;
 }
 

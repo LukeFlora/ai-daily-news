@@ -43,6 +43,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 3. 交互式复古日历查阅功能
   initCalendarWidget();
+
+  // 4. 一键换肤功能 (亮色 / 暗黑模式)
+  initThemeToggle();
 });
 
 function initCalendarWidget() {
@@ -210,4 +213,46 @@ function initCalendarWidget() {
   if (inlineContainer) {
     renderCalendarGrid(inlineContainer);
   }
+}
+
+// 4. 一键换肤功能 (亮色 / 暗黑双模即时切换与持久化)
+function initThemeToggle() {
+  const toggleBtn = document.getElementById('theme-toggle-btn');
+  if (!toggleBtn) return;
+
+  const iconEl = toggleBtn.querySelector('.theme-icon');
+  const textEl = toggleBtn.querySelector('.theme-text');
+
+  function updateButtonUI(theme) {
+    if (theme === 'light') {
+      if (iconEl) iconEl.textContent = '🌙';
+      if (textEl) textEl.textContent = '暗黑模式';
+      toggleBtn.setAttribute('title', '点击切换为暗黑模式');
+      toggleBtn.setAttribute('aria-label', '当前为亮色模式，点击切换为暗黑模式');
+    } else {
+      if (iconEl) iconEl.textContent = '☀️';
+      if (textEl) textEl.textContent = '亮色模式';
+      toggleBtn.setAttribute('title', '点击切换为亮色模式');
+      toggleBtn.setAttribute('aria-label', '当前为暗黑模式，点击切换为亮色模式');
+    }
+  }
+
+  // 初始化根据当前 html 标签上的 data-theme 更新按钮状态
+  const activeTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+  updateButtonUI(activeTheme);
+
+  toggleBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+    const nextTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+    document.documentElement.setAttribute('data-theme', nextTheme);
+    try {
+      localStorage.setItem('luke_news_theme', nextTheme);
+    } catch (err) {
+      console.warn('无法持久化主题偏好:', err);
+    }
+
+    updateButtonUI(nextTheme);
+  });
 }

@@ -242,6 +242,18 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
       font-family: inherit;
     }
   </style>
+  <script>
+    (function() {
+      try {
+        var savedTheme = localStorage.getItem('luke_news_theme');
+        if (savedTheme === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
   <link rel="stylesheet" href="${relativeRoot}assets/style.css?v=${ver}">
 </head>
 <body>
@@ -268,6 +280,11 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
         <a class="vintage-link" href="${relativeRoot}archive/index.html">时间线总览</a>
       </div>
       <div class="top-nav-right">
+        <button class="theme-toggle-btn" id="theme-toggle-btn" type="button" title="点击切换 亮色 / 暗黑 模式">
+          <span class="theme-icon">☀️</span>
+          <span class="theme-text">亮色模式</span>
+        </button>
+        <span class="nav-sep">|</span>
         <span class="nav-label">⚡ 每日自动更新 · 打开即读</span>
         <span class="nav-sep">|</span>
         <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
@@ -359,6 +376,18 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
       font-family: inherit;
     }
   </style>
+  <script>
+    (function() {
+      try {
+        var savedTheme = localStorage.getItem('luke_news_theme');
+        if (savedTheme === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
   <link rel="stylesheet" href="${relativeRoot}assets/style.css?v=${ver}">
 </head>
 <body>
@@ -373,6 +402,11 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
         <a class="vintage-link" href="${relativeRoot}index.html">⬅ 返回今日最新日报</a>
       </div>
       <div class="top-nav-right">
+        <button class="theme-toggle-btn" id="theme-toggle-btn" type="button" title="点击切换 亮色 / 暗黑 模式">
+          <span class="theme-icon">☀️</span>
+          <span class="theme-text">亮色模式</span>
+        </button>
+        <span class="nav-sep">|</span>
         <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
       </div>
     </nav>

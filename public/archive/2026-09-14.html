@@ -19,7 +19,19 @@
       font-family: inherit;
     }
   </style>
-  <link rel="stylesheet" href="../assets/style.css?v=1789532551243">
+  <script>
+    (function() {
+      try {
+        var savedTheme = localStorage.getItem('luke_news_theme');
+        if (savedTheme === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="../assets/style.css?v=1789533202259">
 </head>
 <body>
   <!-- 太阳耀斑环境光晕 (RedSun Signature Glow) -->
@@ -45,6 +57,11 @@
         <a class="vintage-link" href="../archive/index.html">时间线总览</a>
       </div>
       <div class="top-nav-right">
+        <button class="theme-toggle-btn" id="theme-toggle-btn" type="button" title="点击切换 亮色 / 暗黑 模式">
+          <span class="theme-icon">☀️</span>
+          <span class="theme-text">亮色模式</span>
+        </button>
+        <span class="nav-sep">|</span>
         <span class="nav-label">⚡ 每日自动更新 · 打开即读</span>
         <span class="nav-sep">|</span>
         <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
@@ -201,6 +218,6 @@
     window.CURRENT_DATE = "2026-09-14";
     window.RELATIVE_ROOT = "../";
   </script>
-  <script src="../assets/app.js?v=1789532551243"></script>
+  <script src="../assets/app.js?v=1789533202259"></script>
 </body>
 </html>
