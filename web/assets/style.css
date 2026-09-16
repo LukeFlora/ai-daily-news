@@ -134,6 +134,11 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+body.modal-open {
+  overflow: hidden !important;
+  touch-action: none;
+}
+
 /* 顶部宇宙太阳耀斑环境光晕背景 (RedSun Signature Glow) */
 .sun-flare-wrapper {
   position: absolute;
@@ -438,6 +443,101 @@ body {
   border-color: rgba(247, 114, 24, 0.35);
   color: var(--color--gradient-color-01);
   background: rgba(246, 111, 20, 0.08);
+}
+
+/* ==========================================================================
+   分类即时筛选导航条 (Category Quick Filter Pills - Phase 1 优化)
+   ========================================================================== */
+
+.category-filter-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.65rem;
+  margin: 1.8rem auto 2.2rem;
+  flex-wrap: wrap;
+  max-width: 960px;
+}
+
+.filter-pill {
+  -webkit-appearance: none;
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: var(--pill-bg);
+  border: 1px solid var(--pill-border);
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.38rem 0.95rem;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  line-height: 1.4;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+}
+
+.filter-pill:hover {
+  border-color: var(--color--brand-color);
+  color: var(--color--brand-color);
+  background: rgba(246, 111, 20, 0.08);
+  transform: translateY(-1px);
+}
+
+.filter-pill.active {
+  background: rgba(246, 111, 20, 0.16);
+  border-color: var(--color--brand-color);
+  color: var(--color--brand-color);
+  box-shadow: 0 0 16px var(--color--brand-glow);
+}
+
+[data-theme="light"] .filter-pill.active {
+  background: rgba(229, 90, 0, 0.1);
+  border-color: #e55a00;
+  color: #e55a00;
+  box-shadow: 0 2px 10px rgba(229, 90, 0, 0.2);
+}
+
+.filter-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.25rem;
+  height: 1.2rem;
+  padding: 0 0.38rem;
+  border-radius: var(--radius-pill);
+  background: var(--pill-bg);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+
+.filter-pill.active .filter-count {
+  background: var(--color--brand-color);
+  color: #ffffff;
+}
+
+.empty-category-notice {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3.5rem 1.5rem;
+  background: var(--color--elements-bg);
+  border: 1px dashed var(--line-subtle);
+  border-radius: var(--radius-card);
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.animate-fade-in {
+  animation: cardFadeIn 0.25s ease-out;
+}
+
+@keyframes cardFadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 /* 4列 RedSun 网格排版 */

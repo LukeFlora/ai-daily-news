@@ -185,7 +185,7 @@ function renderNewsItem(item) {
   ` : '';
 
   return `
-    <article class="news-item priority-${item.priority}" id="${escapeHtml(item.id)}">
+    <article class="news-item priority-${item.priority}" id="${escapeHtml(item.id)}" data-category="${escapeHtml(item.category)}">
       <div class="item-category-wrap">
         <span class="item-category">${escapeHtml(item.category)}</span>
         ${heatBadge}
@@ -221,6 +221,13 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
   const issueNumber = `第 ${allDates.length - allDates.indexOf(digest.date)} 期 · 晨报精编`;
   const ver = Date.now();
 
+  // 计算四大板块实时条目数
+  const countAll = newsItems.length;
+  const countModel = newsItems.filter(i => i.category === '大模型与技术突破').length;
+  const countTools = newsItems.filter(i => i.category === '开源生产力工具').length;
+  const countBiz = newsItems.filter(i => i.category === 'AI 投资与商业').length;
+  const countPaper = newsItems.filter(i => i.category === '论文前沿').length;
+
   return `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -228,6 +235,14 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(title)} - ${escapeHtml(digest.date)}</title>
   <meta name="description" content="${escapeHtml(title)}：${escapeHtml(motto)}。大模型突破、开源工具、AI商业与论文前沿。">
+  <!-- OpenGraph & Twitter 社交媒体分享大卡片优化 -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="${escapeHtml(title)} · ${escapeHtml(digest.date)}">
+  <meta property="og:description" content="${escapeHtml(title)}：${escapeHtml(motto)}。大模型突破、开源工具、AI商业与论文前沿。">
+  <meta property="og:url" content="https://lukeflora.github.io/ai-daily-news/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${escapeHtml(title)} · ${escapeHtml(digest.date)}">
+  <meta name="twitter:description" content="${escapeHtml(title)}：${escapeHtml(motto)}。追踪前沿突破，汇聚一手洞见。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@600;700;800;900&display=swap" rel="stylesheet">
@@ -301,12 +316,38 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
         <span class="meta-pill highlight">📅 ${escapeHtml(displayDate)}</span>
         <span class="meta-pill">🔥 全球高热前沿追踪</span>
         <span class="meta-pill">⚡ 真实一手信源可溯</span>
-      </div>
     </header>
 
+    <!-- 分类即时交互筛选导航条 (Phase 1 体验升级) -->
+    <nav class="category-filter-bar" id="category-filter-bar" aria-label="要闻分类筛选">
+      <button class="filter-pill active" data-category="all" type="button">
+        <span>🔥 全部要闻</span>
+        <span class="filter-count">${countAll}</span>
+      </button>
+      <button class="filter-pill" data-category="大模型与技术突破" type="button">
+        <span>🤖 大模型突破</span>
+        <span class="filter-count">${countModel}</span>
+      </button>
+      <button class="filter-pill" data-category="开源生产力工具" type="button">
+        <span>🛠️ 开源工具</span>
+        <span class="filter-count">${countTools}</span>
+      </button>
+      <button class="filter-pill" data-category="AI 投资与商业" type="button">
+        <span>💰 商业投资</span>
+        <span class="filter-count">${countBiz}</span>
+      </button>
+      <button class="filter-pill" data-category="论文前沿" type="button">
+        <span>📑 论文前沿</span>
+        <span class="filter-count">${countPaper}</span>
+      </button>
+    </nav>
+
     <!-- 主版面 4 列网格 -->
-    <main class="newspaper-grid">
+    <main class="newspaper-grid" id="newspaper-grid">
       ${itemsHtml}
+      <div class="empty-category-notice" id="empty-category-notice" style="display: none;">
+        <span>🔍 本板块今日暂未收录更多动态，请点击上方「🔥 全部要闻」查看全部内容。</span>
+      </div>
     </main>
 
     <!-- 报尾 -->
@@ -364,6 +405,14 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>往期归档 - ${escapeHtml(title)}</title>
+  <meta name="description" content="《${escapeHtml(title)}》历史总览与归档：${escapeHtml(motto)}。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="往期归档 · ${escapeHtml(title)}">
+  <meta property="og:description" content="《${escapeHtml(title)}》历史总览与往期出版记录：${escapeHtml(motto)}。">
+  <meta property="og:url" content="https://lukeflora.github.io/ai-daily-news/archive/index.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="往期归档 · ${escapeHtml(title)}">
+  <meta name="twitter:description" content="《${escapeHtml(title)}》历史总览与往期出版记录。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@600;700;800;900&display=swap" rel="stylesheet">

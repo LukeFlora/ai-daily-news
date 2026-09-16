@@ -46,6 +46,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 4. 一键换肤功能 (亮色 / 暗黑模式)
   initThemeToggle();
+
+  // 5. 分类即时交互筛选功能 (Phase 1 体验升级)
+  initCategoryFilter();
 });
 
 function initCalendarWidget() {
@@ -184,26 +187,34 @@ function initCalendarWidget() {
   const closeBtn = document.getElementById('close-calendar-modal');
 
   if (openBtn && modalBackdrop && modalContainer) {
-    openBtn.addEventListener('click', (e) => {
-      e.preventDefault();
+    function openModal() {
       renderCalendarGrid(modalContainer);
       modalBackdrop.classList.add('open');
+      document.body.classList.add('modal-open');
+    }
+
+    function closeModal() {
+      modalBackdrop.classList.remove('open');
+      document.body.classList.remove('modal-open');
+    }
+
+    openBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      openModal();
     });
 
-    closeBtn?.addEventListener('click', () => {
-      modalBackdrop.classList.remove('open');
-    });
+    closeBtn?.addEventListener('click', closeModal);
 
     modalBackdrop.addEventListener('click', (e) => {
       if (e.target === modalBackdrop) {
-        modalBackdrop.classList.remove('open');
+        closeModal();
       }
     });
 
     // 支持 ESC 键关闭日历
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && modalBackdrop.classList.contains('open')) {
-        modalBackdrop.classList.remove('open');
+        closeModal();
       }
     });
   }
@@ -256,3 +267,45 @@ function initThemeToggle() {
     updateButtonUI(nextTheme);
   });
 }
+
+// 5. 分类即时交互筛选功能 (Category Quick Filter)
+function initCategoryFilter() {
+  const filterBar = document.getElementById('category-filter-bar');
+  if (!filterBar) return;
+
+  const pills = filterBar.querySelectorAll('.filter-pill');
+  const items = document.querySelectorAll('.news-item');
+  const emptyNotice = document.getElementById('empty-category-notice');
+
+  pills.forEach(pill => {
+    pill.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetCat = pill.getAttribute('data-category');
+
+      // 更新分类胶囊激活状态
+      pills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+
+      let visibleCount = 0;
+
+      items.forEach(card => {
+        const itemCat = card.getAttribute('data-category');
+        if (targetCat === 'all' || itemCat === targetCat) {
+          card.style.display = '';
+          // 重新触发卡片平滑淡入动效
+          card.classList.remove('animate-fade-in');
+          void card.offsetWidth; // 触发 reflow 重置动画
+          card.classList.add('animate-fade-in');
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      if (emptyNotice) {
+        emptyNotice.style.display = (visibleCount === 0) ? 'block' : 'none';
+      }
+    });
+  });
+}
+
