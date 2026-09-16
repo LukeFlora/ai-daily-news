@@ -1,19 +1,37 @@
 /* ==========================================================================
-   Luke的一手消息 · 复古报刊风格样式表
-   特色：羊皮纸暖底、古法墨黑文字、复古墨绿强调、经典报头双线、4列网格排版
+   Luke的一手消息 · RedSun 智汇未来风格样式表
+   灵感来源：Webflow RedSun AI 旗舰模板
+   视觉特色：宇宙深渊深色背景 (#060910)、太阳耀斑橙色霓虹 (#f66f14)、
+            半透明暗黑磨砂玻璃卡片、内发光弧度微光 (Inset Glow)、圆角胶囊交互
    ========================================================================== */
 
 :root {
-  --bg-color: #f5edd6;
-  --text-color: #1e1b18;
-  --text-muted: #5c5549;
-  --text-dim: #7d7363;
-  --accent-color: #1b4d3e;
-  --line-color: #dfd5be;
-  --line-dark: #1e1b18;
-  --serif-font: "Songti SC", "Source Han Serif CN", "Noto Serif SC", Georgia, "STSong", serif;
-  --sans-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --grid-gap: 2rem;
+  /* RedSun 官方调色板 */
+  --color--page-color: #060910;
+  --color--brand-color: #f66f14;
+  --color--brand-glow: rgba(246, 111, 20, 0.45);
+  --color--gradient-color-01: #ffad75;
+  --color--elements-bg: rgba(17, 23, 36, 0.65);
+  --color--elements-stroke: rgba(247, 114, 24, 0.2);
+  --color--inner-shadow-color: rgba(246, 112, 20, 0.15);
+  --color--card-hover-stroke: rgba(246, 111, 20, 0.65);
+  --color--button-text: #cac4da;
+  
+  /* 文本色阶 */
+  --text-main: #ffffff;
+  --text-secondary: #cac4da;
+  --text-muted: #828c9e;
+  --text-dim: #545c6b;
+  --line-subtle: rgba(255, 255, 255, 0.08);
+
+  /* 字体家族 */
+  --font-title: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* 布局与圆角 */
+  --radius-card: 20px;
+  --radius-pill: 100px;
+  --grid-gap: 1.5rem;
   --max-width: 1240px;
 }
 
@@ -23,7 +41,7 @@
   padding: 0;
 }
 
-/* 基础表单与按钮全面重置（根除浏览器默认系统灰底与 3D 浮雕边框） */
+/* 全局原生组件外观重置 */
 button, select, input {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -37,35 +55,68 @@ button, select, input {
   margin: 0;
   outline: none;
   box-shadow: none;
-  border-radius: 0;
 }
 
 body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-family: var(--sans-font);
+  background-color: var(--color--page-color);
+  color: var(--text-main);
+  font-family: var(--font-body);
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
-  padding: 1.5rem 1.5rem 5rem;
+  padding: 1.5rem 1.25rem 6rem;
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* 顶部宇宙太阳耀斑环境光晕背景 (RedSun Signature Glow) */
+.sun-flare-wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1200px;
+  height: 520px;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.sun-flare-circle {
+  position: absolute;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px;
+  height: 420px;
+  background: radial-gradient(ellipse at 50% 50%, rgba(246, 111, 20, 0.32) 0%, rgba(246, 111, 20, 0.1) 45%, rgba(6, 9, 16, 0) 75%);
+  filter: blur(55px);
+  border-radius: 50%;
 }
 
 .newspaper-container {
   max-width: var(--max-width);
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
-/* 顶部精简报刊状态导航栏 */
+/* 顶部悬浮暗黑磨砂玻璃导航栏 */
 .top-nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.82rem;
-  color: var(--text-dim);
-  border-bottom: 1px solid var(--line-color);
-  padding-bottom: 0.6rem;
-  margin-bottom: 1.25rem;
+  background: rgba(13, 18, 29, 0.72);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--line-subtle);
+  border-radius: var(--radius-pill);
+  padding: 0.55rem 1.25rem;
+  margin-bottom: 2.5rem;
   flex-wrap: wrap;
   gap: 0.75rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 }
 
 .top-nav-left {
@@ -78,343 +129,446 @@ body {
 .top-nav-right {
   display: flex;
   align-items: center;
-  gap: 0.85rem;
+  gap: 0.75rem;
 }
 
 .nav-label {
   color: var(--text-muted);
+  font-size: 0.8rem;
   font-weight: 500;
 }
 
 .nav-sep {
-  color: var(--line-color);
+  color: rgba(255, 255, 255, 0.15);
   user-select: none;
-}
-
-/* 复古下拉选择器 */
-.vintage-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: transparent;
-  border: 1px solid var(--line-color);
-  border-radius: 0;
-  color: var(--text-color);
-  font-family: var(--sans-font);
   font-size: 0.8rem;
-  padding: 0.22rem 1.4rem 0.22rem 0.55rem;
-  cursor: pointer;
-  outline: none;
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235c5549' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
-  background-repeat: no-repeat;
-  background-position: right 0.35rem center;
-  background-size: 0.7rem;
-  line-height: 1.4;
-  transition: border-color 0.15s;
 }
 
-.vintage-select:hover {
-  border-color: var(--accent-color);
-}
-
-/* 复古报刊风格日历唤起按钮（彻底无系统灰色背景） */
+/* RedSun 耀斑日历胶囊按钮 */
 .calendar-toggle-btn {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
-  background-color: transparent;
-  border: 1px solid var(--line-dark);
-  color: var(--text-color);
-  font-family: var(--serif-font);
-  font-size: 0.82rem;
-  font-weight: 700;
-  padding: 0.2rem 0.65rem;
-  border-radius: 0;
+  gap: 0.4rem;
+  background: linear-gradient(135deg, rgba(246, 111, 20, 0.22), rgba(255, 173, 117, 0.08));
+  border: 1px solid rgba(247, 114, 24, 0.45);
+  color: #ffffff;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.32rem 0.95rem;
+  border-radius: var(--radius-pill);
   cursor: pointer;
   line-height: 1.4;
-  transition: all 0.15s ease;
-  box-shadow: none;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 0 16px rgba(246, 111, 20, 0.25);
 }
 
 .calendar-toggle-btn:hover {
-  background-color: var(--line-dark);
-  color: var(--bg-color);
-  border-color: var(--line-dark);
+  background: var(--color--brand-color);
+  color: #ffffff;
+  box-shadow: 0 0 28px rgba(246, 111, 20, 0.65);
+  transform: translateY(-1px);
 }
 
 .calendar-toggle-btn:active {
-  transform: translateY(1px);
+  transform: translateY(0);
+}
+
+/* 磨砂暗黑下拉选择器 */
+.vintage-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-pill);
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.3rem 1.6rem 0.3rem 0.8rem;
+  cursor: pointer;
+  outline: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23cac4da' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  background-size: 0.7rem;
+  line-height: 1.4;
+  transition: all 0.2s ease;
+}
+
+.vintage-select:hover {
+  border-color: var(--color--brand-color);
+  color: #ffffff;
 }
 
 .vintage-link {
   color: var(--text-muted);
   text-decoration: none;
-  border-bottom: 1px dashed var(--line-color);
-  padding-bottom: 1px;
   font-size: 0.8rem;
-  transition: color 0.15s, border-color 0.15s;
+  font-weight: 500;
+  transition: color 0.2s;
+  padding: 0.2rem 0.4rem;
+  border-radius: 6px;
 }
 
 .vintage-link:hover {
-  color: var(--accent-color);
-  border-bottom-color: var(--accent-color);
+  color: var(--color--gradient-color-01);
 }
 
-/* 经典复古报刊报头 */
+.whats-new-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(246, 111, 20, 0.12);
+  border: 1px solid rgba(247, 114, 24, 0.3);
+  color: var(--color--gradient-color-01);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.22rem 0.75rem;
+  border-radius: var(--radius-pill);
+}
+
+/* RedSun 标志性英雄主报头区域 */
 .newspaper-header {
-  border-bottom: 3px double var(--line-dark);
-  padding-bottom: 0.85rem;
-  margin-bottom: 2.2rem;
   text-align: center;
+  padding: 2.5rem 0 3.5rem;
+  position: relative;
 }
 
-.header-meta-top {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.82rem;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
-  border-bottom: 1px solid var(--line-color);
-  padding-bottom: 0.4rem;
-  margin-bottom: 0.85rem;
+.header-badge-holder {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.35rem 1.1rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  backdrop-filter: blur(8px);
+}
+
+.badge-pulse-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--color--brand-color);
+  box-shadow: 0 0 10px var(--color--brand-color);
+  display: inline-block;
+  animation: pulseDot 2s infinite;
+}
+
+@keyframes pulseDot {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(246, 111, 20, 0.7); }
+  70% { transform: scale(1.1); box-shadow: 0 0 0 8px rgba(246, 111, 20, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(246, 111, 20, 0); }
 }
 
 .newspaper-title {
-  font-family: var(--serif-font);
-  font-size: 3.4rem;
+  font-family: var(--font-title);
+  font-size: 3.8rem;
   font-weight: 900;
-  letter-spacing: 0.02em;
-  margin: 0.5rem 0;
-  color: var(--text-color);
+  letter-spacing: -0.03em;
   line-height: 1.15;
+  margin: 0 auto 1.25rem;
+  background: linear-gradient(180deg, #ffffff 40%, #cac4da 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 900px;
 }
 
-.header-meta-bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.88rem;
-  font-weight: 500;
-  border-top: 1px solid var(--line-color);
-  padding-top: 0.4rem;
+.newspaper-subtitle {
+  font-size: 1.05rem;
   color: var(--text-muted);
+  max-width: 750px;
+  margin: 0 auto 1.8rem;
+  line-height: 1.6;
 }
 
-/* 4列报纸网格排版 */
+.header-meta-pills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.meta-pill {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-pill);
+  padding: 0.3rem 0.95rem;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+.meta-pill.highlight {
+  border-color: rgba(247, 114, 24, 0.35);
+  color: var(--color--gradient-color-01);
+  background: rgba(246, 111, 20, 0.08);
+}
+
+/* 4列 RedSun 网格排版 */
 .newspaper-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: var(--grid-gap);
-  row-gap: 2.5rem;
+  row-gap: 2rem;
 }
 
-/* 新闻模块通用样式 (无卡片墙、无浮夸阴影与圆角) */
+/* RedSun 玻璃拟态卡片通用样式 */
 .news-item {
   display: flex;
   flex-direction: column;
-  border-top: 1px solid var(--line-color);
-  padding-top: 1.1rem;
+  background-color: var(--color--elements-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--color--elements-stroke);
+  box-shadow: inset 0 -8px 24px 0 var(--color--inner-shadow-color), 0 10px 30px rgba(0, 0, 0, 0.35);
+  border-radius: var(--radius-card);
+  padding: 1.6rem;
   position: relative;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
 }
 
+.news-item:hover {
+  border-color: var(--color--card-hover-stroke);
+  box-shadow: inset 0 -8px 24px 0 rgba(246, 112, 20, 0.25), 0 16px 45px rgba(246, 111, 20, 0.16);
+  transform: translateY(-4px);
+}
+
+/* 卡片顶部类别标签与热度徽章 */
 .item-category-wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.85rem;
 }
 
 .item-category {
   display: inline-block;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 700;
-  letter-spacing: 0.06em;
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
-  padding: 0.1rem 0.4rem;
-  border-radius: 0;
+  letter-spacing: 0.05em;
+  color: var(--color--gradient-color-01);
+  background: rgba(246, 111, 20, 0.12);
+  border: 1px solid rgba(247, 114, 24, 0.32);
+  padding: 0.2rem 0.65rem;
+  border-radius: var(--radius-pill);
   line-height: 1.3;
+  text-transform: uppercase;
 }
 
 .item-heat {
-  font-size: 0.72rem;
-  color: var(--text-dim);
-  font-style: italic;
+  font-size: 0.75rem;
+  color: #ff9d5c;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
 }
 
+/* 标题设计 */
 .item-title {
-  font-family: var(--serif-font);
-  color: var(--text-color);
-  line-height: 1.35;
-  margin-bottom: 0.6rem;
+  font-family: var(--font-title);
+  color: #ffffff;
+  line-height: 1.4;
+  margin-bottom: 0.65rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
 }
 
+/* 作者与信源信息 */
 .item-author {
   font-size: 0.8rem;
   color: var(--text-muted);
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.75rem;
   display: flex;
   align-items: center;
   gap: 0.4rem;
 }
 
 .item-author strong {
-  color: var(--text-color);
+  color: #e2e7f3;
 }
 
+/* 导读要点 */
 .item-brief {
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   font-weight: 600;
-  color: #2b2722;
-  margin-bottom: 0.65rem;
-  line-height: 1.5;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+  line-height: 1.55;
 }
 
+/* 核心摘要 */
 .item-summary {
-  font-size: 0.9rem;
-  color: #443e36;
-  line-height: 1.65;
-  margin-bottom: 0.9rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.68;
+  margin-bottom: 1.1rem;
   flex-grow: 1;
 }
 
-/* 可折叠翻译与全文精要 */
+/* 可折叠深度译文与工程细节 */
 .item-expand-box {
-  margin: 0.6rem 0 0.9rem;
-  border-top: 1px dashed var(--line-color);
-  padding-top: 0.6rem;
+  margin: 0.75rem 0 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 0.75rem;
 }
 
 .expand-toggle {
   -webkit-appearance: none;
   appearance: none;
-  background: none;
+  background: transparent;
   border: none;
-  color: var(--accent-color);
+  color: var(--color--gradient-color-01);
   font-size: 0.78rem;
-  font-family: var(--sans-font);
+  font-family: var(--font-body);
   font-weight: 600;
   cursor: pointer;
   padding: 0;
   display: inline-flex;
   align-items: center;
-  gap: 0.3rem;
+  gap: 0.35rem;
+  transition: opacity 0.2s;
 }
 
 .expand-toggle:hover {
-  text-decoration: underline;
+  opacity: 0.8;
 }
 
 .expand-content {
   display: none;
   font-size: 0.84rem;
-  color: #4a443a;
-  background-color: rgba(0, 0, 0, 0.025);
-  padding: 0.75rem;
-  border-left: 2px solid var(--accent-color);
-  margin-top: 0.5rem;
-  line-height: 1.6;
+  color: #d0d5e2;
+  background: rgba(8, 12, 20, 0.75);
+  border: 1px solid rgba(247, 114, 24, 0.2);
+  border-left: 3px solid var(--color--brand-color);
+  border-radius: 12px;
+  padding: 0.85rem;
+  margin-top: 0.6rem;
+  line-height: 1.65;
   white-space: pre-wrap;
   word-break: break-word;
 }
 
 .expand-content.active {
   display: block;
+  animation: fadeIn 0.2s ease-out;
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 卡片底部操作栏 */
 .item-footer {
   margin-top: auto;
-  padding-top: 0.7rem;
-  border-top: 1px solid var(--line-color);
-  font-size: 0.8rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--text-dim);
 }
 
 .source-link {
-  color: var(--text-color);
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.32rem 0.85rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.78rem;
+  font-weight: 600;
   text-decoration: none;
-  border-bottom: 1px solid var(--line-color);
-  font-weight: 500;
-  transition: all 0.15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: all 0.2s ease;
 }
 
 .source-link:hover {
-  color: var(--accent-color);
-  border-bottom-color: var(--accent-color);
+  background: rgba(246, 111, 20, 0.2);
+  border-color: var(--color--brand-color);
+  color: var(--color--gradient-color-01);
+  box-shadow: 0 0 12px rgba(246, 111, 20, 0.3);
 }
 
 .copy-btn {
   -webkit-appearance: none;
   appearance: none;
   background: transparent;
-  border: 1px solid var(--line-color);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   color: var(--text-muted);
-  font-size: 0.72rem;
-  padding: 0.15rem 0.45rem;
-  border-radius: 0;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.3rem 0.7rem;
+  border-radius: var(--radius-pill);
   cursor: pointer;
-  transition: all 0.15s;
+  transition: all 0.2s;
 }
 
 .copy-btn:hover {
-  border-color: var(--accent-color);
-  color: var(--accent-color);
+  border-color: rgba(247, 114, 24, 0.4);
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.03);
 }
 
 /* 优先级网格跨度 */
 
-/* 1. 头条大模块 (Lead): 跨 4 列 (整行) */
+/* 1. 头条特写 (Lead): 跨 4 列 (整行突出) */
 .news-item.priority-lead {
   grid-column: span 4;
-  border-top: 2.5px solid var(--line-dark);
-  padding-top: 1.4rem;
-  margin-bottom: 0.5rem;
+  padding: 2.2rem;
+  border-color: rgba(246, 111, 20, 0.4);
+  box-shadow: inset 0 -12px 30px 0 rgba(246, 112, 20, 0.22), 0 18px 50px rgba(0, 0, 0, 0.55);
 }
 
 .news-item.priority-lead .item-title {
-  font-size: 2.3rem;
-  font-weight: 800;
-  line-height: 1.25;
+  font-size: 2.2rem;
+  font-weight: 900;
+  line-height: 1.3;
 }
 
 .news-item.priority-lead .item-brief {
   font-size: 1.15rem;
-  color: #1a1815;
+  color: var(--color--gradient-color-01);
   margin: 0.8rem 0;
 }
 
 .news-item.priority-lead .item-summary {
-  font-size: 1.02rem;
+  font-size: 1rem;
   max-width: 950px;
-  line-height: 1.7;
+  line-height: 1.75;
 }
 
-/* 2. 重点中模块 (Important): 跨 2 列 (半行) */
+/* 2. 重点聚焦 (Important): 跨 2 列 (半行) */
 .news-item.priority-important {
   grid-column: span 2;
-  border-top: 1.5px solid var(--line-dark);
-  padding-top: 1.1rem;
+  padding: 1.8rem;
 }
 
 .news-item.priority-important .item-title {
-  font-size: 1.45rem;
-  font-weight: 700;
+  font-size: 1.4rem;
+  font-weight: 800;
 }
 
 .news-item.priority-important .item-brief {
-  font-size: 0.98rem;
+  font-size: 0.95rem;
 }
 
-/* 3. 前沿小模块 (Normal): 跨 1 列 (四分之一行) */
+/* 3. 前沿动态 (Normal): 跨 1 列 (四分之一行) */
 .news-item.priority-normal {
   grid-column: span 1;
-  border-top: 1px solid var(--line-color);
 }
 
 .news-item.priority-normal .item-title {
@@ -422,28 +576,19 @@ body {
   font-weight: 700;
 }
 
-.news-item.priority-normal .item-brief {
-  font-size: 0.88rem;
-}
-
-.news-item.priority-normal .item-summary {
-  font-size: 0.84rem;
-}
-
 /* ==========================================================================
-   纯正复古报刊日历查阅组件 (Calendar Widget & Modal)
-   彻底杜绝浏览器默认系统灰底控件，与报纸羊皮纸视觉融为一体
+   RedSun 交互式日历弹窗 (Calendar Modal)
    ========================================================================== */
 
-/* 日历弹窗遮罩 */
 .calendar-modal-backdrop {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(30, 27, 24, 0.45);
-  backdrop-filter: blur(2px);
+  background: rgba(3, 5, 9, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   display: none;
   justify-content: center;
   align-items: center;
@@ -455,47 +600,47 @@ body {
   display: flex;
 }
 
-/* 报纸风格日历卡片 (双线边框、直角、羊皮纸色) */
 .calendar-modal-card {
-  background-color: var(--bg-color);
-  border: 3px double var(--line-dark);
-  box-shadow: 0 16px 36px rgba(30, 27, 24, 0.2);
+  background: #0b0f19;
+  border: 1px solid rgba(247, 114, 24, 0.35);
+  box-shadow: inset 0 -12px 30px rgba(246, 112, 20, 0.16), 0 25px 60px rgba(0, 0, 0, 0.8);
+  border-radius: 24px;
   width: 100%;
   max-width: 440px;
-  padding: 1.75rem 1.5rem 1.25rem;
+  padding: 1.85rem 1.6rem 1.4rem;
   position: relative;
-  animation: calendarPop 0.2s ease-out;
+  animation: calendarPop 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 @keyframes calendarPop {
-  from {
-    opacity: 0;
-    transform: scale(0.96) translateY(8px);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1) translateY(0);
-  }
+  from { opacity: 0; transform: scale(0.95) translateY(12px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
 }
 
 .calendar-close-btn {
   -webkit-appearance: none;
   appearance: none;
   position: absolute;
-  top: 0.75rem;
-  right: 0.75rem;
-  background: transparent;
-  border: none;
-  font-size: 1.4rem;
-  color: var(--text-dim);
+  top: 1rem;
+  right: 1.1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: var(--text-muted);
   cursor: pointer;
-  line-height: 1;
-  padding: 0.2rem 0.4rem;
-  transition: color 0.15s;
+  transition: all 0.2s;
 }
 
 .calendar-close-btn:hover {
-  color: var(--line-dark);
+  background: var(--color--brand-color);
+  color: #ffffff;
+  border-color: var(--color--brand-color);
 }
 
 .vintage-calendar-box {
@@ -506,56 +651,57 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid var(--line-dark);
-  padding-bottom: 0.75rem;
-  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 0.85rem;
+  margin-bottom: 1.25rem;
 }
 
 .cal-month-title {
-  font-family: var(--serif-font);
+  font-family: var(--font-title);
   font-size: 1.25rem;
   font-weight: 800;
-  color: var(--text-color);
-  letter-spacing: 0.04em;
+  color: #ffffff;
+  letter-spacing: -0.01em;
 }
 
 .cal-nav-btn {
   -webkit-appearance: none;
   appearance: none;
-  background: transparent;
-  border: 1px solid var(--line-color);
-  color: var(--text-color);
-  font-family: var(--serif-font);
-  padding: 0.2rem 0.6rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  padding: 0.3rem 0.8rem;
   font-size: 0.8rem;
-  border-radius: 0;
+  font-weight: 600;
+  border-radius: var(--radius-pill);
   cursor: pointer;
-  transition: all 0.15s;
+  transition: all 0.2s;
 }
 
 .cal-nav-btn:hover {
-  border-color: var(--line-dark);
-  background-color: var(--line-dark);
-  color: var(--bg-color);
+  border-color: var(--color--brand-color);
+  background-color: var(--color--brand-color);
+  color: #ffffff;
+  box-shadow: 0 0 14px rgba(246, 111, 20, 0.5);
 }
 
 .cal-weekdays {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   text-align: center;
-  font-family: var(--serif-font);
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  color: var(--text-muted);
-  border-bottom: 1px solid var(--line-color);
-  padding-bottom: 0.4rem;
-  margin-bottom: 0.6rem;
+  color: var(--text-dim);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .cal-days-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 0.35rem;
+  gap: 0.45rem;
 }
 
 .cal-cell {
@@ -565,58 +711,53 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 0.88rem;
-  border-radius: 0;
+  border-radius: 12px;
   border: 1px solid transparent;
   color: var(--text-muted);
   position: relative;
   user-select: none;
-  background-color: rgba(0, 0, 0, 0.015);
+  background-color: rgba(255, 255, 255, 0.02);
+  transition: all 0.2s;
 }
 
 .cal-cell.cal-other-month {
-  opacity: 0.25;
+  opacity: 0.2;
 }
 
-/* 有出刊的日期：复古墨绿色印章质感 */
+/* 有出刊的日期：耀斑橙色微光高亮 */
 .cal-cell.cal-has-news {
-  background: rgba(27, 77, 62, 0.1);
-  border-color: var(--accent-color);
-  color: var(--accent-color);
-  font-family: var(--serif-font);
+  background: rgba(246, 111, 20, 0.18);
+  border-color: var(--color--brand-color);
+  color: var(--color--gradient-color-01);
   font-weight: 800;
   cursor: pointer;
-  box-shadow: 0 1px 3px rgba(27, 77, 62, 0.08);
-  transition: all 0.15s ease;
+  box-shadow: 0 0 14px rgba(246, 111, 20, 0.25);
 }
 
 .cal-cell.cal-has-news:hover {
-  background-color: var(--accent-color);
-  color: #fff;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(27, 77, 62, 0.3);
-}
-
-.cal-cell.cal-has-news:hover .cal-news-dot {
-  color: #fff;
+  background-color: var(--color--brand-color);
+  color: #ffffff;
+  transform: scale(1.08);
+  box-shadow: 0 0 24px rgba(246, 111, 20, 0.75);
 }
 
 .cal-cell.cal-current-active {
-  outline: 2px solid var(--line-dark);
-  outline-offset: -2px;
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
 }
 
 .cal-news-dot {
   font-size: 0.65rem;
   line-height: 1;
-  margin-top: 1px;
+  margin-top: 2px;
 }
 
 .cal-legend {
-  margin-top: 1.25rem;
-  padding-top: 0.75rem;
-  border-top: 1px dashed var(--line-color);
+  margin-top: 1.4rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
   font-size: 0.78rem;
-  color: var(--text-dim);
+  color: var(--text-muted);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -625,51 +766,61 @@ body {
 .legend-item {
   display: flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.4rem;
+}
+
+.legend-badge {
+  display: inline-block;
 }
 
 .legend-badge.active {
   width: 10px;
   height: 10px;
-  border: 2px solid var(--line-dark);
+  border: 2px solid #ffffff;
+  border-radius: 3px;
 }
 
 /* 嵌入式日历 (用于归档页面) */
 .inline-calendar-section {
-  background: rgba(0, 0, 0, 0.015);
-  border: 1px solid var(--line-color);
-  padding: 1.5rem;
+  background: var(--color--elements-bg);
+  border: 1px solid var(--color--elements-stroke);
+  box-shadow: inset 0 -8px 24px 0 var(--color--inner-shadow-color);
+  padding: 1.8rem;
   margin-bottom: 2.5rem;
-  border-radius: 0;
+  border-radius: var(--radius-card);
 }
 
 .inline-calendar-title {
-  font-family: var(--serif-font);
-  font-size: 1.15rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: var(--text-color);
-  border-bottom: 1px solid var(--line-color);
-  padding-bottom: 0.4rem;
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 1.25rem;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 0.6rem;
 }
 
 /* 往期归档时间线列表 */
 .archive-container {
-  max-width: 900px;
+  max-width: 920px;
   margin: 0 auto;
 }
 
 .archive-header {
-  border-bottom: 2px solid var(--line-dark);
-  padding-bottom: 1rem;
-  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 1.5rem;
+  margin-bottom: 2.2rem;
   text-align: center;
 }
 
 .archive-header h1 {
-  font-family: var(--serif-font);
-  font-size: 2.2rem;
-  margin-bottom: 0.5rem;
+  font-family: var(--font-title);
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-bottom: 0.6rem;
+  background: linear-gradient(180deg, #ffffff 40%, #cac4da 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .archive-list {
@@ -682,38 +833,42 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--line-color);
-  padding: 1rem 0;
+  background: var(--color--elements-bg);
+  border: 1px solid var(--line-subtle);
+  border-radius: 16px;
+  padding: 1.25rem 1.6rem;
   text-decoration: none;
-  color: var(--text-color);
-  transition: padding-left 0.2s;
+  color: var(--text-main);
+  transition: all 0.25s ease;
 }
 
 .archive-row:hover {
-  padding-left: 0.5rem;
-  color: var(--accent-color);
+  border-color: var(--color--card-hover-stroke);
+  box-shadow: 0 8px 25px rgba(246, 111, 20, 0.15);
+  transform: translateX(4px);
 }
 
 .archive-row-date {
-  font-family: var(--serif-font);
+  font-family: var(--font-title);
   font-size: 1.2rem;
   font-weight: 700;
 }
 
 .archive-row-meta {
   font-size: 0.85rem;
-  color: var(--text-dim);
+  color: var(--text-muted);
+  margin-top: 0.2rem;
 }
 
 /* 报尾 */
 .newspaper-footer {
-  margin-top: 3.5rem;
+  margin-top: 4rem;
   text-align: center;
 }
 
 .footer-divider {
-  border-top: 3px double var(--line-dark);
-  margin-bottom: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin-bottom: 1.5rem;
 }
 
 .footer-content {
@@ -743,32 +898,34 @@ body {
 
 @media (max-width: 640px) {
   body {
-    padding: 1rem 0.85rem 3rem;
+    padding: 1rem 0.85rem 4rem;
   }
 
   .newspaper-title {
-    font-size: 2.2rem;
-  }
-
-  .header-meta-top,
-  .header-meta-bottom {
-    font-size: 0.72rem;
+    font-size: 2.3rem;
   }
 
   .top-nav-bar {
+    border-radius: 20px;
+    padding: 0.8rem 1rem;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
+  }
+
+  .top-nav-left, .top-nav-right {
+    justify-content: space-between;
   }
 
   .newspaper-grid {
     grid-template-columns: 1fr;
-    gap: 1.75rem;
+    gap: 1.25rem;
   }
 
   .news-item.priority-lead,
   .news-item.priority-important,
   .news-item.priority-normal {
     grid-column: span 1;
+    padding: 1.4rem;
   }
 
   .news-item.priority-lead .item-title {

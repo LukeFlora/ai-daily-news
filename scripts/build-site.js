@@ -228,6 +228,9 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(title)} - ${escapeHtml(digest.date)}</title>
   <meta name="description" content="${escapeHtml(title)}：${escapeHtml(motto)}。大模型突破、开源工具、AI商业与论文前沿。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@600;700;800;900&display=swap" rel="stylesheet">
   <style>
     /* 强力防御浏览器默认系统按钮样式污染 */
     button, select {
@@ -242,16 +245,22 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
   <link rel="stylesheet" href="${relativeRoot}assets/style.css?v=${ver}">
 </head>
 <body>
+  <!-- 太阳耀斑环境光晕 (RedSun Signature Glow) -->
+  <div class="sun-flare-wrapper">
+    <div class="sun-flare-circle"></div>
+  </div>
+
   <div class="newspaper-container">
-    <!-- 顶部精简报刊状态导航栏 -->
+    <!-- 顶部 RedSun 磨砂悬浮导航栏 -->
     <nav class="top-nav-bar">
       <div class="top-nav-left">
+        <div class="whats-new-badge">RedSun AI</div>
         <button class="calendar-toggle-btn" id="open-calendar-btn" type="button" title="点击打开月度出版日历">
           <span>📅</span>
           <span>日历查阅</span>
         </button>
         <span class="nav-sep">|</span>
-        <span class="nav-label">📖 往期回顾：</span>
+        <span class="nav-label">往期回顾：</span>
         <select class="vintage-select" onchange="if(this.value) location.href=this.value;">
           ${dateOptions}
         </select>
@@ -259,24 +268,24 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
         <a class="vintage-link" href="${relativeRoot}archive/index.html">时间线总览</a>
       </div>
       <div class="top-nav-right">
-        <span>⚡ 每日自动更新 · 打开即读</span>
+        <span class="nav-label">⚡ 每日自动更新 · 打开即读</span>
         <span class="nav-sep">|</span>
         <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
       </div>
     </nav>
 
-    <!-- 经典复古报刊报头 -->
+    <!-- RedSun 旗舰主报头 -->
     <header class="newspaper-header">
-      <div class="header-meta-top">
-        <span>${escapeHtml(issueNumber)}</span>
-        <span>${escapeHtml(motto)}</span>
-        <span>一手真实信源</span>
+      <div class="header-badge-holder">
+        <span class="badge-pulse-dot"></span>
+        <span>RedSun 智能动态汇编 · ${escapeHtml(issueNumber)}</span>
       </div>
       <h1 class="newspaper-title">${escapeHtml(title)}</h1>
-      <div class="header-meta-bottom">
-        <span>${escapeHtml(displayDate)}</span>
-        <span>今日前沿四大板块汇编</span>
-        <span>AI 全领域追踪</span>
+      <p class="newspaper-subtitle">${escapeHtml(motto)} | 大模型突破 · 开源生产力工具 · AI 投资商业 · 论文前沿</p>
+      <div class="header-meta-pills">
+        <span class="meta-pill highlight">📅 ${escapeHtml(displayDate)}</span>
+        <span class="meta-pill">🔥 全球高热前沿追踪</span>
+        <span class="meta-pill">⚡ 真实一手信源可溯</span>
       </div>
     </header>
 
@@ -337,6 +346,9 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>往期归档 - ${escapeHtml(title)}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@600;700;800;900&display=swap" rel="stylesheet">
   <style>
     button, select {
       -webkit-appearance: none !important;
@@ -350,10 +362,19 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
   <link rel="stylesheet" href="${relativeRoot}assets/style.css?v=${ver}">
 </head>
 <body>
+  <!-- 太阳耀斑环境光晕 -->
+  <div class="sun-flare-wrapper">
+    <div class="sun-flare-circle"></div>
+  </div>
+
   <div class="newspaper-container archive-container">
     <nav class="top-nav-bar">
-      <a class="vintage-link" href="${relativeRoot}index.html">⬅ 返回今日最新日报</a>
-      <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
+      <div class="top-nav-left">
+        <a class="vintage-link" href="${relativeRoot}index.html">⬅ 返回今日最新日报</a>
+      </div>
+      <div class="top-nav-right">
+        <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
+      </div>
     </nav>
 
     <header class="archive-header">
