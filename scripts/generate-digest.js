@@ -42,13 +42,50 @@ function formatDate(d = new Date()) {
   return `${year}-${month}-${day}`;
 }
 
+// 动态检测支持的 Gemini 模型
+let detectedModel = null;
+
+async function getSupportedModel(apiKey) {
+  if (detectedModel) return detectedModel;
+  const candidates = ['gemini-2.0-flash', 'gemini-1.5-flash', 'gemini-2.5-flash', 'gemini-1.5-flash-8b'];
+  try {
+    const listRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`);
+    if (listRes.ok) {
+      const listData = await listRes.json();
+      const modelNames = (listData.models || []).map(m => m.name.replace('models/', ''));
+      for (const cand of candidates) {
+        if (modelNames.includes(cand)) {
+          detectedModel = cand;
+          console.log(`[Gemini API] 自动适配到最佳模型: ${cand}`);
+          return cand;
+        }
+      }
+      const anyFlash = modelNames.find(m => m.includes('flash') && !m.includes('image'));
+      if (anyFlash) {
+        detectedModel = anyFlash;
+        console.log(`[Gemini API] 自动适配到可用模型: ${anyFlash}`);
+        return anyFlash;
+      }
+    } else {
+      const errText = await listRes.text();
+      console.warn(`[Gemini API] 获取可用模型列表失败 (${listRes.status}):`, errText);
+    }
+  } catch (e) {
+    console.warn(`[Gemini API] 探测模型列表异常:`, e.message);
+  }
+  detectedModel = 'gemini-2.0-flash';
+  return detectedModel;
+}
+
 // 调用 Gemini API（若已配置 GEMINI_API_KEY）
 async function callGemini(prompt, systemInstruction = '') {
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) return null;
 
+  const model = await getSupportedModel(apiKey);
+
   try {
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
     const payload = {
       contents: [{ parts: [{ text: prompt }] }],
       generationConfig: {
@@ -68,7 +105,8 @@ async function callGemini(prompt, systemInstruction = '') {
     });
 
     if (!res.ok) {
-      console.warn(`[Gemini API] 调用异常: ${res.statusText}`);
+      const errBody = await res.text();
+      console.warn(`[Gemini API] 调用异常 (${res.status} ${res.statusText}):`, errBody);
       return null;
     }
 
