@@ -76,6 +76,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 8. 单条要闻视觉海报生成与分享 (Phase 4 体验升级)
   initPosterShare();
+
+  // 9. 热度瀑布流排版计算 (True Masonry Waterfall)
+  initMasonry();
 });
 
 function initCalendarWidget() {
@@ -362,6 +365,11 @@ function initSearchAndFilter() {
     // 无匹配结果空状态
     if (emptyNotice) {
       emptyNotice.style.display = (matchCount === 0) ? 'block' : 'none';
+    }
+
+    // 联动瀑布流重排
+    if (window.triggerMasonryReflow) {
+      window.triggerMasonryReflow();
     }
   }
 
@@ -766,6 +774,68 @@ function initPosterShare() {
 
       modalBackdrop.style.display = 'flex';
       document.body.classList.add('modal-open');
+    });
+  });
+}
+
+// 9. 热度瀑布流排版计算系统 (True Masonry Waterfall System)
+function initMasonry() {
+  const grid = document.getElementById('newspaper-grid');
+  if (!grid) return;
+
+  const rowHeight = 10;
+  const rowGap = 24;
+
+  function layoutMasonry() {
+    // 屏幕宽度小于等于 680px 时使用单列原生流式布局，不锁定网格微行
+    if (window.innerWidth <= 680) {
+      grid.classList.remove('masonry-active');
+      grid.querySelectorAll('.news-card').forEach(card => {
+        card.style.gridRowEnd = '';
+      });
+      return;
+    }
+
+    grid.classList.add('masonry-active');
+    const cards = grid.querySelectorAll('.news-card');
+    cards.forEach(card => {
+      if (card.style.display === 'none') {
+        card.style.gridRowEnd = '';
+        return;
+      }
+      // 计算卡片真实高度并映射为微行跨度
+      const height = card.getBoundingClientRect().height;
+      const span = Math.ceil((height + rowGap) / (rowHeight + rowGap));
+      card.style.gridRowEnd = `span ${span}`;
+    });
+  }
+
+  // 暴露给全局触发器
+  window.triggerMasonryReflow = function() {
+    setTimeout(layoutMasonry, 30);
+  };
+
+  // 初始排版
+  layoutMasonry();
+
+  // 监听窗口缩放防抖
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(layoutMasonry, 80);
+  });
+
+  // 网页字体或媒体资源加载就绪时校准一次
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(layoutMasonry);
+  }
+  window.addEventListener('load', layoutMasonry);
+
+  // 折叠抽屉展开/收起时平滑更新高度跨度
+  document.querySelectorAll('.expand-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      setTimeout(layoutMasonry, 20);
+      setTimeout(layoutMasonry, 240);
     });
   });
 }

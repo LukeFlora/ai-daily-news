@@ -7,7 +7,6 @@
       "brief": "【为何关注】作为 AI 行业的风向标，OpenAI 的产品发布往往定义了当前大模型能力的边界。从业者应重点关注此次更新是否涉及 Agent 架构或推理能力的突破，这将直接影响后续 AI 应用层的开发范式。",
       "summary": "OpenAI CEO Sam Altman 近期在社交媒体预告本周将有重大产品发布，并暗示紧随其后的开发者大会（DevDay）将有更多动作。市场普遍猜测此次更新可能涉及 OpenAI 核心模型的重大迭代或全新 AI 代理产品的落地。",
       "category": "AI 投资与商业",
-      "priority": "lead",
       "sourceName": "Sam Altman (@sama)",
       "sourceUrl": "https://x.com/sama/status/2099872600977760451"
     },
@@ -17,7 +16,6 @@
       "brief": "【为何关注】此举标志着 Claude 从通用对话助手向垂直领域生产力工具的深度转型。对于 AI 从业者而言，这种‘数据+技能+对话’的集成模式，是企业级 AI 应用落地的核心范式，极具参考价值。",
       "summary": "Anthropic 宣布 Salesforce 集成功能正式开启 Beta 测试。该功能将客户账户、销售机会及流水线数据直接引入 Claude，并内置 37 项预设销售技能，助力用户在对话流中高效完成销售准备与预测分析。",
       "category": "大模型与技术突破",
-      "priority": "important",
       "sourceName": "Claude (@claudeai)",
       "sourceUrl": "https://x.com/claudeai/status/2099876515840245772"
     },
@@ -27,7 +25,6 @@
       "brief": "【为何关注】作为 Thibault Sottiaux 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
       "summary": "Thibault Sottiaux 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
       "category": "大模型与技术突破",
-      "priority": "important",
       "sourceName": "Thibault Sottiaux (@thsottiaux)",
       "sourceUrl": "https://x.com/thsottiaux/status/2099922755655479624"
     },
@@ -37,7 +34,6 @@
       "brief": "【为何关注】来自 Anthropic 核心工程团队的最新实践洞察，揭示了 AI Agent 与外部系统交互架构演进的重要趋势：MCP 正在取代传统 CLI 成为新的标准。这对于正在构建 AI 工具链、Agent 开发者以及协议设计者来说，指明了无状态化与轻量级参数设计的最佳实践方向。",
       "summary": "Anthropic Claude Code 团队成员 Thariq 表示，在绝大多数集成场景中，MCP（模型上下文协议）的表现已超越传统的 CLI（命令行工具）。这得益于大模型工具调用能力的显著提升、支持延迟工具（defer tools）以及 MCP 实现无状态化。他还建议开发者在需要组合或筛选数据时，直接在 MCP 工具中添加类似 query 的参数。",
       "category": "开源生产力工具",
-      "priority": "normal",
       "sourceName": "Thariq (@trq212)",
       "sourceUrl": "https://x.com/trq212/status/2099958388230873165"
     },
@@ -47,7 +43,6 @@
       "brief": "【为何关注】Garry Tan的分享展示了AI Agent在复杂工程任务中实现“效率倍增”的实战路径，对于关注AI辅助编程（AI-Native Development）的从业者具有极高的参考价值。此外，他将AI工具链与生物黑客（Biohacking）结合的个人实践，也反映了硅谷顶尖创业者对生产力与生命科学边界的探索。",
       "summary": "YC掌门人Garry Tan近期分享了其在AI辅助开发与生物黑客领域的最新实践。他高度评价了Capy AI在代码修复任务中的效率，并看好Muse在AI领域的竞争前景，同时分享了个人通过多肽疗法实现健康管理的经验。",
       "category": "AI 投资与商业",
-      "priority": "normal",
       "sourceName": "Garry Tan (@garrytan)",
       "sourceUrl": "https://x.com/garrytan/status/2099980972641124629"
     },
@@ -57,7 +52,6 @@
       "brief": "【为何关注】Rauch 的动态揭示了 AI 工程化与 Web 基建演进的两个重要信号：一是 AI 产品架构必须拥抱多模型策略以最大化客户利益；二是 WebAssembly（如 JSPI 特性）正在重构 AI 前端（如 v0.dev）的高性能原生体验。对于关注 AI 前端技术栈、多模型融合以及开源研发路线的从业者具有重要启发。",
       "summary": "Vercel CEO Guillermo Rauch 近期分享了关于 Web 架构与 AI 趋势的核心见解。他宣布正式成立公开研发机构 Vercel Labs，分享团队在前沿技术探索中的成功与失败经验；同时，他强调 AI 的未来必然是“多模型”的，应将模型选择权交给用户；此外，他结合 v0.dev 的实践指出，借助 Safari 27 对 WebAssembly JSPI 的支持，Web 代码正加速走向原生化。",
       "category": "开源生产力工具",
-      "priority": "normal",
       "sourceName": "Guillermo Rauch (@rauchg)",
       "sourceUrl": "https://x.com/rauchg/status/2099974859023683975"
     },
@@ -67,7 +61,6 @@
       "brief": "【为何关注】Amjad 的观点揭示了工程实践中“回归本质”的重要性，提醒开发者在追求通用模型的同时，不要忽视针对特定任务的优化路径。同时，他对行业术语与实际行为脱节的批判，为从业者提供了审视 AI 伦理与企业文化的新视角。",
       "summary": "Replit CEO Amjad Masad 近期对 AI 领域的技术实现与行业乱象发表了犀利见解。他建议在输出域已知的情况下通过训练模型直接生成枚举值的对数概率（logprobs），并批评了当前 AI 行业中命名与实际表现严重背离的“命名诅咒”现象。",
       "category": "大模型与技术突破",
-      "priority": "normal",
       "sourceName": "Amjad Masad (@amasad)",
       "sourceUrl": "https://x.com/amasad/status/2100056178705514703"
     },
@@ -77,7 +70,6 @@
       "brief": "【为何关注】该推文揭示了 AI 评估（Evaluation）与推理成本优化的新方向：通过专用模型替代通用大模型进行逻辑判断。对于 AI 从业者而言，这种‘概率输出’模型在构建高效 AI 工作流和降低推理成本方面具有极高的参考价值。",
       "summary": "Every CEO Dan Shipper 分享了一款极具潜力的基础模型，该模型通过输出概率而非文本，在充当模型评估器（Judge）时展现出惊人的性能。在实际测试中，其速度比同类顶级模型快 25 倍，成本更是降低了 600 倍，预示了 AI 应用层的新范式。",
       "category": "AI 投资与商业",
-      "priority": "normal",
       "sourceName": "Dan Shipper (@danshipper)",
       "sourceUrl": "https://x.com/danshipper/status/2099947471518474522"
     },
@@ -87,7 +79,6 @@
       "brief": "【推荐理由】该案例展示了 AI 产品从“通用聊天”向“场景化工作流”转型的成功路径：通过集成高频业务工具（CRM、支付、营销平台）解决具体痛点，而非单纯提供模型能力。对于研发人员，其“连接器+预设工作流”的架构模式是提升 AI 产品留存率和落地价值的极佳参考。",
       "summary": "Anthropic 宣布扩展“Claude for Small Business”生态，新增 43 个工作流和 27 个第三方集成，覆盖 Shopify、Salesforce、TikTok、Zoom 等主流工具。该项目自 5 月推出以来安装量已突破 90 万次。此次更新重点响应了小企业主在获客、线索生成、业务提案撰写及日常报表处理方面的需求。此外，Anthropic 将在全美 10 个城市开启秋季巡回研讨会，并联合 150 家认证培训机构开展超过 750 场线下培训，旨在通过“AI+工作流”深度嵌入业务场景，帮助小企业实现降本增效。",
       "category": "开源生产力工具",
-      "priority": "normal",
       "sourceName": "Claude Blog",
       "sourceUrl": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs"
     },
@@ -97,7 +88,6 @@
       "brief": "【核心提炼】适合企业软件从业者、AI 创业者及关注技术趋势的职场人。Aaron Levie 对“应用层价值”的独到见解，能帮你打破对 AI 仅是“模型之争”的刻板印象，重新审视产品在企业生态中的定位。",
       "summary": "本期播客邀请了 Box 创始人 Aaron Levie，深入探讨了 AI 时代企业软件的重塑与应用层价值。核心 Takeaway：在 AI 时代，企业应用不再仅仅是“模型包装器”，而是连接通用模型与复杂企业工作流的关键桥梁。反直觉洞见在于，Levie 认为应用层公司正成为新的“实验室”，因为企业真正需要的不是模型本身，而是如何将模型能力深度嵌入业务流程的复杂逻辑。精彩金句：“你要么领先一年，要么落后一年，这完全取决于你的信息流（Feed）。”他强调了在 AI 浪潮中保持高频信息获取与持续实践的重要性，认为被动等待信息是职业发展的致命伤。",
       "category": "AI 投资与商业",
-      "priority": "normal",
       "sourceUrl": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
     },
     {
@@ -106,7 +96,6 @@
       "brief": "【为何关注】该更新展示了多模态 AI 在教育场景的深度落地，特别是语音交互与笔记自动化的结合，为 AI 辅助学习工具的设计提供了极佳的范式。对于关注 AI 产品化与用户增长的从业者，其针对学生群体的全球化免费策略也极具参考价值。",
       "summary": "Google Gemini Notebook 迎来重大更新，重点强化了学生的学习体验。新功能支持多语言实时语音问答，并能自动同步课堂录音笔记，同时面向全球大学生持续提供免费的 Google AI 计划权益。",
       "category": "大模型与技术突破",
-      "priority": "normal",
       "sourceName": "Josh Woodward (@joshwoodward)",
       "sourceUrl": "https://x.com/joshwoodward/status/2099921866014306633"
     },
@@ -116,7 +105,6 @@
       "brief": "【为何关注】Levie 揭示了 AI 落地从“模型驱动”向“流程驱动”转型的必然性，对致力于企业级 AI 应用开发的从业者极具参考价值。它提醒我们，单纯依赖模型性能提升不足以解决企业痛点，构建稳健的中间件与治理层才是真正的护城河。",
       "summary": "Box CEO Aaron Levie 指出，AI 模型能力与企业实际工作流之间存在巨大鸿沟，填补这一缺口的“应用层”将成为未来 AI 产业的核心。他强调，随着模型能力的提升，企业对流程重构、数据治理及人机协作的需求反而会愈发迫切。",
       "category": "AI 投资与商业",
-      "priority": "normal",
       "sourceName": "Aaron Levie (@levie)",
       "sourceUrl": "https://x.com/levie/status/2099976021311398230"
     },
@@ -126,7 +114,6 @@
       "brief": "【为何关注】Peter Steinberger 作为技术圈的资深开发者，其团队扩充往往伴随着开源项目或 AI 代理架构的迭代。关注其团队动态，有助于捕捉 AI 应用层开发的前沿趋势与人才动向。",
       "summary": "AI 领域资深开发者 Peter Steinberger 近期在社交平台宣布，欢迎 Graham 加入其团队。此举预示着其在 AI 代理（Agent）或相关开源项目上的进一步人才布局。",
       "category": "开源生产力工具",
-      "priority": "normal",
       "sourceName": "Peter Steinberger (@steipete)",
       "sourceUrl": "https://x.com/steipete/status/2099960081207242808"
     },
@@ -136,7 +123,6 @@
       "brief": "【为何关注】作为 Peter Yang 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
       "summary": "Peter Yang 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
       "category": "开源生产力工具",
-      "priority": "normal",
       "sourceName": "Peter Yang (@petergyang)",
       "sourceUrl": "https://x.com/petergyang/status/2100027487681953834"
     },
@@ -146,7 +132,6 @@
       "brief": "【为何关注】该案例展示了顶级孵化器如何通过“人才匹配”而非“项目筛选”来捕捉独角兽，对于 AI 创业者和投资人而言，深刻揭示了核心团队的互补性与执行力远比初始创意更具长期价值。",
       "summary": "AI 营销平台 Profound 近日完成 1.8 亿美元 D 轮融资，估值达 18 亿美元，目前已服务三分之一的财富 100 强企业。SPC 合伙人 Aditya Agarwal 分享了该项目的孵化历程，强调了“先有合伙人，后有产品创意”的投资逻辑。",
       "category": "AI 投资与商业",
-      "priority": "normal",
       "sourceName": "Aditya Agarwal (@adityaag)",
       "sourceUrl": "https://x.com/adityaag/status/2099939689738191146"
     },
@@ -156,7 +141,6 @@
       "brief": "【为何关注】在 AI 烧钱竞赛常态化的当下，该建议为盲目追求规模的创业者敲响了警钟。它提醒从业者回归商业本质，通过构建“自我造血”能力来对冲宏观资本环境的波动风险，是极具实战价值的经营哲学。",
       "summary": "FPV Ventures 合伙人 Nikunj Kothari 提醒 AI 创业者，切勿过度依赖外部融资。他建议创始人优先构建具备自我造血能力的生存路径，将资本视为加速器而非救命稻草，以应对未来 6-18 个月资本市场的不确定性。",
       "category": "AI 投资与商业",
-      "priority": "normal",
       "sourceName": "Nikunj Kothari (@nikunj)",
       "sourceUrl": "https://x.com/nikunj/status/2100008917980102863"
     }

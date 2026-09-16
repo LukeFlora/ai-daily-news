@@ -177,31 +177,51 @@ function extractAndRankNews(digest) {
     });
   }
 
-  // 按热度排序
+  // 按热度严格降序排序
   rawList.sort((a, b) => b.heat - a.heat);
 
-  // 赋予排版优先级：最多 1 条 lead、2 条 important，其余 normal
+  // 赋予排版优先级与位次：全量采用单列瀑布流卡片，同时标注热度名次 Rank
   return rawList.map((item, idx) => {
-    let priority = 'normal';
-    if (idx === 0) priority = 'lead';
-    else if (idx === 1 || idx === 2) priority = 'important';
-
     return {
       ...item,
-      priority
+      rank: idx + 1
     };
   });
 }
 
-// 渲染单个复古报纸新闻卡片 (RedSun 黄金 3 列紧凑 5 层架构)
+// 渲染单个复古报纸新闻卡片 (RedSun 瀑布流单列紧凑架构)
 function renderNewsItem(item) {
   const heatFormatted = formatHeatNumber(item.heat);
-  const heatBadge = item.heat > 100 ? `
-    <span class="heat-pill item-heat" title="热度指数 ${item.heat}">
-      <span class="pulse-dot"></span>
-      <span class="heat-num">${heatFormatted}</span>
-    </span>
-  ` : '';
+  let heatBadge = '';
+  if (item.rank === 1) {
+    heatBadge = `
+      <span class="heat-pill item-heat heat-rank-1" title="全网热度 TOP 1：${item.heat}">
+        <span class="rank-crown">👑 TOP 1</span>
+        <span class="heat-num">${heatFormatted}</span>
+      </span>
+    `;
+  } else if (item.rank === 2) {
+    heatBadge = `
+      <span class="heat-pill item-heat heat-rank-2" title="全网热度 TOP 2：${item.heat}">
+        <span class="rank-crown">🥈 TOP 2</span>
+        <span class="heat-num">${heatFormatted}</span>
+      </span>
+    `;
+  } else if (item.rank === 3) {
+    heatBadge = `
+      <span class="heat-pill item-heat heat-rank-3" title="全网热度 TOP 3：${item.heat}">
+        <span class="rank-crown">🥉 TOP 3</span>
+        <span class="heat-num">${heatFormatted}</span>
+      </span>
+    `;
+  } else {
+    heatBadge = `
+      <span class="heat-pill item-heat" title="全网热度指数：${item.heat}">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#${item.rank} · ${heatFormatted}</span>
+      </span>
+    `;
+  }
 
   const cleanedRole = cleanAuthorRole(item.role);
   const authorInfo = item.author ? `
@@ -238,7 +258,7 @@ function renderNewsItem(item) {
   `;
 
   return `
-    <article class="news-item news-card tier-${item.priority} priority-${item.priority}" id="${escapeHtml(item.id)}" data-category="${escapeHtml(item.category)}">
+    <article class="news-item news-card rank-${item.rank} ${item.rank <= 3 ? 'is-top-tier' : ''}" id="${escapeHtml(item.id)}" data-category="${escapeHtml(item.category)}" data-rank="${item.rank}" data-heat="${item.heat}">
       <header class="card-meta-bar item-category-wrap">
         <div class="meta-left">
           <span class="category-chip item-category">${escapeHtml(item.category)}</span>

@@ -746,20 +746,26 @@ body.modal-open {
 }
 
 /* ==========================================================================
-   RedSun 黄金 3 列网格与高阶轻量化卡片系统 (Layout & Card Overhaul)
+   RedSun 真实瀑布流排版体系 (True Waterfall / Masonry System)
    ========================================================================== */
 
-/* 1. 桌面端黄金 3 列网格体系 */
+/* 1. 桌面端黄金 3 列瀑布流网格体系 */
 .newspaper-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.5rem;
-  row-gap: 1.85rem;
+  align-items: start;
   max-width: var(--max-width);
   margin: 0 auto;
 }
 
-/* 2. 卡片容器与 RedSun 日冕玻璃拟态质感 */
+/* 激活微行瀑布流算法时启用紧凑微行与 dense 填充 */
+.newspaper-grid.masonry-active {
+  grid-auto-rows: 10px;
+  grid-auto-flow: dense;
+}
+
+/* 2. 卡片容器与 RedSun 日冕玻璃拟态质感 (全量统一单列宽度，杜绝空洞) */
 .news-card,
 .news-item {
   position: relative;
@@ -772,6 +778,8 @@ body.modal-open {
   box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.08), 0 6px 20px rgba(0, 0, 0, 0.32);
   border-radius: var(--radius-card);
   padding: 1.35rem 1.45rem;
+  grid-column: span 1 !important;
+  margin: 0;
   transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
               border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1),
               box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
@@ -1133,58 +1141,57 @@ body.modal-open {
   box-shadow: 0 2px 8px var(--color--brand-glow);
 }
 
-/* 8. 优先级跨度与节奏 (Editorial Cadence) */
+/* 8. 瀑布流单列卡片体系与热度 TOP 榜单美学 (Waterfall Column System) */
 
-/* 头条 (Lead): 跨 3 列 (全宽巨幕) */
-.news-card.tier-lead,
-.news-item.priority-lead {
-  grid-column: span 3;
-  padding: 1.8rem 2rem;
-  border-color: rgba(246, 111, 20, 0.38);
-  box-shadow: var(--color--lead-shadow);
+/* 所有卡片在网格中统一定为单列宽度 (保证瀑布流完全填充、零空洞) */
+.news-card,
+.news-item {
+  grid-column: span 1 !important;
 }
 
-.news-card.tier-lead .card-headline,
-.news-item.priority-lead .item-title {
-  font-size: 1.85rem;
-  font-weight: 850;
-  line-height: 1.32;
-  -webkit-line-clamp: 3;
-  margin-bottom: 0.95rem;
+/* TOP 1: 金色皇冠耀斑光晕 */
+.news-card.rank-1 {
+  border-color: rgba(246, 111, 20, 0.42);
+  box-shadow: inset 0 1px 0 0 rgba(246, 111, 20, 0.35), 0 8px 26px -4px rgba(246, 111, 20, 0.18), 0 4px 18px rgba(0, 0, 0, 0.35);
 }
 
-.news-card.tier-lead .insight-text,
-.news-item.priority-lead .item-brief {
-  -webkit-line-clamp: 3;
-  font-size: 0.92rem;
-}
-
-/* 重磅聚焦 (Important): 跨 2 列 (双宽) */
-.news-card.tier-important,
-.news-item.priority-important {
-  grid-column: span 2;
-  padding: 1.5rem 1.65rem;
-}
-
-.news-card.tier-important .card-headline,
-.news-item.priority-important .item-title {
-  font-size: 1.32rem;
+.heat-pill.heat-rank-1 {
+  background: linear-gradient(135deg, rgba(246, 111, 20, 0.22) 0%, rgba(255, 173, 117, 0.12) 100%);
+  border-color: #f66f14;
+  color: #ff9d5c;
   font-weight: 800;
-  line-height: 1.38;
-  -webkit-line-clamp: 2;
-  margin-bottom: 0.85rem;
+  box-shadow: 0 0 10px rgba(246, 111, 20, 0.3);
 }
 
-/* 前沿动态 (Normal): 跨 1 列 (单列 380px 黄金宽度) */
-.news-card.tier-normal,
-.news-item.priority-normal {
-  grid-column: span 1;
+/* TOP 2: 银白科技光晕 */
+.news-card.rank-2 {
+  border-color: rgba(203, 213, 225, 0.28);
 }
 
-.news-card.tier-normal .card-headline,
-.news-item.priority-normal .item-title {
-  font-size: 1.15rem;
+.heat-pill.heat-rank-2 {
+  background: rgba(203, 213, 225, 0.12);
+  border-color: rgba(203, 213, 225, 0.35);
+  color: #f1f5f9;
   font-weight: 750;
+}
+
+/* TOP 3: 琥珀铜辉光晕 */
+.news-card.rank-3 {
+  border-color: rgba(217, 119, 6, 0.28);
+}
+
+.heat-pill.heat-rank-3 {
+  background: rgba(217, 119, 6, 0.12);
+  border-color: rgba(217, 119, 6, 0.35);
+  color: #fbbf24;
+  font-weight: 750;
+}
+
+.rank-crown {
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  margin-right: 0.15rem;
 }
 
 /* ==========================================================================
@@ -1745,18 +1752,6 @@ body.modal-open {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.25rem;
   }
-
-  .news-card.tier-lead,
-  .news-item.priority-lead,
-  .news-card.tier-important,
-  .news-item.priority-important {
-    grid-column: span 2;
-  }
-
-  .news-card.tier-normal,
-  .news-item.priority-normal {
-    grid-column: span 1;
-  }
 }
 
 @media (max-width: 680px) {
@@ -1798,23 +1793,9 @@ body.modal-open {
     gap: 1.15rem;
   }
 
-  .news-card.tier-lead,
-  .news-item.priority-lead,
-  .news-card.tier-important,
-  .news-item.priority-important,
-  .news-card.tier-normal,
-  .news-item.priority-normal {
-    grid-column: span 1;
+  .news-card,
+  .news-item {
+    grid-column: span 1 !important;
     padding: 1.25rem 1.2rem;
-  }
-
-  .news-card.tier-lead .card-headline,
-  .news-item.priority-lead .item-title {
-    font-size: 1.45rem;
-  }
-
-  .news-card.tier-important .card-headline,
-  .news-item.priority-important .item-title {
-    font-size: 1.22rem;
   }
 }
