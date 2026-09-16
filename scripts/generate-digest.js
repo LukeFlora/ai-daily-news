@@ -77,45 +77,49 @@ async function getSupportedModel(apiKey) {
   return detectedModel;
 }
 
-// 调用 Gemini API（若已配置 GEMINI_API_KEY）
+// 调用 Gemini API（带多模型容灾回退）
 async function callGemini(prompt, systemInstruction = '') {
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) return null;
 
-  const model = await getSupportedModel(apiKey);
+  // 候选模型列表，遇到 503 高峰或限流时自动平滑切换
+  const candidateModels = ['gemini-3.6-flash', 'gemini-3.1-flash-lite', 'gemini-2.5-flash-lite'];
 
-  try {
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
-    const payload = {
-      contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: {
-        temperature: 0.3,
-        maxOutputTokens: 2048
+  for (const model of candidateModels) {
+    try {
+      const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+      const payload = {
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: {
+          temperature: 0.3,
+          maxOutputTokens: 2048
+        }
+      };
+      if (systemInstruction) {
+        payload.systemInstruction = { parts: [{ text: systemInstruction }] };
       }
-    };
-    if (systemInstruction) {
-      payload.systemInstruction = { parts: [{ text: systemInstruction }] };
+
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+        signal: AbortSignal.timeout(25000)
+      });
+
+      if (res.ok) {
+        const data = await res.json();
+        const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+        if (text) return text;
+      } else {
+        const errBody = await res.text();
+        console.warn(`[Gemini API] 模型 ${model} 响应异常 (${res.status})，切换备选模型...`);
+      }
+    } catch (err) {
+      console.warn(`[Gemini API] 模型 ${model} 异常 (${err.message})，切换备选模型...`);
     }
-
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-      signal: AbortSignal.timeout(30000)
-    });
-
-    if (!res.ok) {
-      const errBody = await res.text();
-      console.warn(`[Gemini API] 调用异常 (${res.status} ${res.statusText}):`, errBody);
-      return null;
-    }
-
-    const data = await res.json();
-    return data?.candidates?.[0]?.content?.parts?.[0]?.text || null;
-  } catch (err) {
-    console.warn(`[Gemini API] 请求失败:`, err.message);
-    return null;
   }
+
+  return null;
 }
 
 // 智能提炼推文（内置高容错处理）
