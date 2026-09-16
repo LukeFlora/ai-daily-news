@@ -47,8 +47,11 @@ document.addEventListener('DOMContentLoaded', () => {
   // 4. 一键换肤功能 (亮色 / 暗黑模式)
   initThemeToggle();
 
-  // 5. 分类即时交互筛选功能 (Phase 1 体验升级)
-  initCategoryFilter();
+  // 5. 关键词即时搜索与分类筛选协同联动 (Phase 2 体验升级)
+  initSearchAndFilter();
+
+  // 6. 返回顶部悬浮微按键 (Phase 2 体验升级)
+  initBackToTop();
 });
 
 function initCalendarWidget() {
@@ -268,44 +271,181 @@ function initThemeToggle() {
   });
 }
 
-// 5. 分类即时交互筛选功能 (Category Quick Filter)
-function initCategoryFilter() {
+// 5. 关键词即时搜索与分类筛选协同联动 (Phase 2 体验升级)
+function initSearchAndFilter() {
   const filterBar = document.getElementById('category-filter-bar');
-  if (!filterBar) return;
-
-  const pills = filterBar.querySelectorAll('.filter-pill');
-  const items = document.querySelectorAll('.news-item');
+  const searchInput = document.getElementById('news-search-input');
+  const clearBtn = document.getElementById('search-clear-btn');
+  const statusHint = document.getElementById('search-status-hint');
   const emptyNotice = document.getElementById('empty-category-notice');
+  const emptyResetBtn = document.getElementById('empty-reset-btn');
+  const items = document.querySelectorAll('.news-item');
 
-  pills.forEach(pill => {
-    pill.addEventListener('click', (e) => {
-      e.preventDefault();
-      const targetCat = pill.getAttribute('data-category');
+  // 若当前页面没有要闻卡片（如纯归档总览页），直接退出
+  if (items.length === 0) return;
 
-      // 更新分类胶囊激活状态
-      pills.forEach(p => p.classList.remove('active'));
-      pill.classList.add('active');
+  let activeCategory = 'all';
+  let activeQuery = '';
 
-      let visibleCount = 0;
+  const pills = filterBar ? filterBar.querySelectorAll('.filter-pill') : [];
 
-      items.forEach(card => {
-        const itemCat = card.getAttribute('data-category');
-        if (targetCat === 'all' || itemCat === targetCat) {
-          card.style.display = '';
-          // 重新触发卡片平滑淡入动效
+  function filterCards() {
+    const query = activeQuery.trim().toLowerCase();
+    const queryWords = query ? query.split(/\s+/).filter(Boolean) : [];
+    let matchCount = 0;
+
+    items.forEach(card => {
+      const itemCat = card.getAttribute('data-category');
+      const catMatches = (activeCategory === 'all' || itemCat === activeCategory);
+
+      let searchMatches = true;
+      if (queryWords.length > 0) {
+        // 全文快速检索：包含标题、简述、详细总结、作者与分类
+        const textContent = (card.textContent || '').toLowerCase();
+        searchMatches = queryWords.every(word => textContent.includes(word));
+      }
+
+      if (catMatches && searchMatches) {
+        const wasHidden = (card.style.display === 'none');
+        card.style.display = '';
+        if (wasHidden) {
           card.classList.remove('animate-fade-in');
           void card.offsetWidth; // 触发 reflow 重置动画
           card.classList.add('animate-fade-in');
-          visibleCount++;
+        }
+        matchCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    // 搜索状态与提示文案
+    if (statusHint) {
+      if (query) {
+        statusHint.textContent = `⚡ 关键词 “${query}” · 共匹配到 ${matchCount} 条相关要闻`;
+        statusHint.style.display = 'block';
+      } else {
+        statusHint.textContent = '';
+        statusHint.style.display = 'none';
+      }
+    }
+
+    // 清除按钮状态
+    if (clearBtn) {
+      clearBtn.style.display = query ? 'inline-flex' : 'none';
+    }
+
+    // 无匹配结果空状态
+    if (emptyNotice) {
+      emptyNotice.style.display = (matchCount === 0) ? 'block' : 'none';
+    }
+  }
+
+  // 1) 分类胶囊点击事件
+  pills.forEach(pill => {
+    pill.addEventListener('click', (e) => {
+      e.preventDefault();
+      activeCategory = pill.getAttribute('data-category') || 'all';
+
+      pills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+
+      filterCards();
+    });
+  });
+
+  // 2) 搜索输入监听
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      activeQuery = searchInput.value || '';
+      filterCards();
+    });
+
+    // 清除按钮点击
+    if (clearBtn) {
+      clearBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        searchInput.value = '';
+        activeQuery = '';
+        filterCards();
+        searchInput.focus();
+      });
+    }
+
+    // 键盘全局快捷键：按 '/' 聚焦搜索，在输入框中按 'Escape' 清空或失焦
+    document.addEventListener('keydown', (e) => {
+      const activeTag = document.activeElement?.tagName;
+      const isInputActive = ['INPUT', 'TEXTAREA', 'SELECT'].includes(activeTag);
+
+      if (e.key === '/' && !isInputActive) {
+        e.preventDefault();
+        searchInput.focus();
+        searchInput.select();
+      } else if (e.key === 'Escape' && document.activeElement === searchInput) {
+        if (searchInput.value) {
+          searchInput.value = '';
+          activeQuery = '';
+          filterCards();
         } else {
-          card.style.display = 'none';
+          searchInput.blur();
+        }
+      }
+    });
+  }
+
+  // 3) 空状态重置按钮
+  if (emptyResetBtn) {
+    emptyResetBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      activeCategory = 'all';
+      pills.forEach(p => {
+        if (p.getAttribute('data-category') === 'all') {
+          p.classList.add('active');
+        } else {
+          p.classList.remove('active');
         }
       });
 
-      if (emptyNotice) {
-        emptyNotice.style.display = (visibleCount === 0) ? 'block' : 'none';
+      if (searchInput) {
+        searchInput.value = '';
+        activeQuery = '';
       }
+      filterCards();
+    });
+  }
+}
+
+// 6. 返回顶部悬浮微按键 (Back to Top)
+function initBackToTop() {
+  const bttBtn = document.getElementById('back-to-top-btn');
+  if (!bttBtn) return;
+
+  let isTicking = false;
+
+  function updateVisibility() {
+    const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollY > 380) {
+      bttBtn.classList.add('visible');
+    } else {
+      bttBtn.classList.remove('visible');
+    }
+    isTicking = false;
+  }
+
+  window.addEventListener('scroll', () => {
+    if (!isTicking) {
+      window.requestAnimationFrame(updateVisibility);
+      isTicking = true;
+    }
+  }, { passive: true });
+
+  bttBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
     });
   });
 }
+
 

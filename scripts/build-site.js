@@ -221,6 +221,13 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
   const issueNumber = `第 ${allDates.length - allDates.indexOf(digest.date)} 期 · 晨报精编`;
   const ver = Date.now();
 
+  // 计算预计阅读时长与字数 (按中文平均阅读速度 ~400 字/分钟)
+  let totalChars = 0;
+  for (const item of newsItems) {
+    totalChars += (item.title || '').length + (item.summary || '').length + (item.brief || '').length + (item.translation || '').length;
+  }
+  const readingMinutes = Math.max(1, Math.ceil(totalChars / 400));
+
   // 计算四大板块实时条目数
   const countAll = newsItems.length;
   const countModel = newsItems.filter(i => i.category === '大模型与技术突破').length;
@@ -314,39 +321,65 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
       <p class="newspaper-subtitle">${escapeHtml(motto)} | 大模型突破 · 开源生产力工具 · AI 投资商业 · 论文前沿</p>
       <div class="header-meta-pills">
         <span class="meta-pill highlight">📅 ${escapeHtml(displayDate)}</span>
+        <span class="meta-pill">⏱️ 预计阅读 ${readingMinutes} 分钟 · 共 ${newsItems.length} 条一手精要</span>
         <span class="meta-pill">🔥 全球高热前沿追踪</span>
         <span class="meta-pill">⚡ 真实一手信源可溯</span>
+      </div>
     </header>
 
-    <!-- 分类即时交互筛选导航条 (Phase 1 体验升级) -->
-    <nav class="category-filter-bar" id="category-filter-bar" aria-label="要闻分类筛选">
-      <button class="filter-pill active" data-category="all" type="button">
-        <span>🔥 全部要闻</span>
-        <span class="filter-count">${countAll}</span>
-      </button>
-      <button class="filter-pill" data-category="大模型与技术突破" type="button">
-        <span>🤖 大模型突破</span>
-        <span class="filter-count">${countModel}</span>
-      </button>
-      <button class="filter-pill" data-category="开源生产力工具" type="button">
-        <span>🛠️ 开源工具</span>
-        <span class="filter-count">${countTools}</span>
-      </button>
-      <button class="filter-pill" data-category="AI 投资与商业" type="button">
-        <span>💰 商业投资</span>
-        <span class="filter-count">${countBiz}</span>
-      </button>
-      <button class="filter-pill" data-category="论文前沿" type="button">
-        <span>📑 论文前沿</span>
-        <span class="filter-count">${countPaper}</span>
-      </button>
-    </nav>
+    <!-- 交互控制中心：即时搜索与分类筛选 (Phase 2 体验升级) -->
+    <section class="newspaper-action-bar" aria-label="要闻搜索与分类筛选">
+      <div class="search-box-wrapper">
+        <div class="search-input-group">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input 
+            type="search" 
+            id="news-search-input" 
+            class="news-search-input" 
+            placeholder="搜索今日要闻（按 / 快速聚焦，如 OpenAI、Claude、开源...）" 
+            autocomplete="off"
+            spellcheck="false"
+            aria-label="搜索今日要闻"
+          >
+          <kbd class="search-kbd-hint" title="按 / 键快速聚焦搜索">/</kbd>
+          <button type="button" id="search-clear-btn" class="search-clear-btn" title="清空搜索" aria-label="清空搜索">✕</button>
+        </div>
+        <div id="search-status-hint" class="search-status-hint" style="display: none;"></div>
+      </div>
+
+      <!-- 分类即时交互筛选导航条 -->
+      <nav class="category-filter-bar" id="category-filter-bar" aria-label="要闻分类筛选">
+        <button class="filter-pill active" data-category="all" type="button">
+          <span>🔥 全部要闻</span>
+          <span class="filter-count">${countAll}</span>
+        </button>
+        <button class="filter-pill" data-category="大模型与技术突破" type="button">
+          <span>🤖 大模型突破</span>
+          <span class="filter-count">${countModel}</span>
+        </button>
+        <button class="filter-pill" data-category="开源生产力工具" type="button">
+          <span>🛠️ 开源工具</span>
+          <span class="filter-count">${countTools}</span>
+        </button>
+        <button class="filter-pill" data-category="AI 投资与商业" type="button">
+          <span>💰 商业投资</span>
+          <span class="filter-count">${countBiz}</span>
+        </button>
+        <button class="filter-pill" data-category="论文前沿" type="button">
+          <span>📑 论文前沿</span>
+          <span class="filter-count">${countPaper}</span>
+        </button>
+      </nav>
+    </section>
 
     <!-- 主版面 4 列网格 -->
     <main class="newspaper-grid" id="newspaper-grid">
       ${itemsHtml}
       <div class="empty-category-notice" id="empty-category-notice" style="display: none;">
-        <span>🔍 本板块今日暂未收录更多动态，请点击上方「🔥 全部要闻」查看全部内容。</span>
+        <div class="empty-notice-icon">🔍</div>
+        <div class="empty-notice-title">未找到匹配的要闻动态</div>
+        <p class="empty-notice-desc">换个关键词试试，或点击下方按钮重置筛选与搜索条件。</p>
+        <button type="button" id="empty-reset-btn" class="empty-reset-btn">清空搜索与筛选</button>
       </div>
     </main>
 
@@ -358,6 +391,12 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
         <p>涵盖大模型与技术突破 · 开源生产力工具 · AI 投资与商业 · 论文前沿 | 纯净无依赖 · 打开即读</p>
       </div>
     </footer>
+
+    <!-- 返回顶部悬浮微按键 (Phase 2 体验升级) -->
+    <button id="back-to-top-btn" class="back-to-top-btn" type="button" aria-label="返回顶部" title="返回顶部">
+      <span class="btt-icon">↑</span>
+      <span class="btt-text">顶部</span>
+    </button>
 
     <!-- 交互式日历弹窗遮罩与容器 -->
     <div class="calendar-modal-backdrop" id="calendar-modal-backdrop">
@@ -482,6 +521,12 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
         <p>坚持关注具备第一手原创观点的 AI Builders · 历史沉淀与持续记录</p>
       </div>
     </footer>
+
+    <!-- 返回顶部悬浮微按键 (Phase 2 体验升级) -->
+    <button id="back-to-top-btn" class="back-to-top-btn" type="button" aria-label="返回顶部" title="返回顶部">
+      <span class="btt-icon">↑</span>
+      <span class="btt-text">顶部</span>
+    </button>
   </div>
 
   <script>

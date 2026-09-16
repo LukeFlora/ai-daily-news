@@ -446,17 +446,159 @@ body.modal-open {
 }
 
 /* ==========================================================================
-   分类即时筛选导航条 (Category Quick Filter Pills - Phase 1 优化)
+   交互控制中心：即时搜索与分类胶囊 (Phase 2 体验升级)
    ========================================================================== */
 
+.newspaper-action-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 1.8rem auto 2.2rem;
+  max-width: 960px;
+  width: 100%;
+}
+
+.search-box-wrapper {
+  width: 100%;
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.search-input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: var(--color--elements-bg);
+  border: 1px solid var(--color--elements-stroke);
+  border-radius: var(--radius-pill);
+  padding: 0.42rem 0.9rem 0.42rem 1.1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.search-input-group:focus-within {
+  border-color: var(--color--brand-color);
+  box-shadow: 0 0 0 3px var(--color--brand-glow), 0 8px 25px rgba(0, 0, 0, 0.28);
+  transform: translateY(-1px);
+}
+
+.search-icon {
+  font-size: 0.92rem;
+  margin-right: 0.55rem;
+  opacity: 0.7;
+  user-select: none;
+  flex-shrink: 0;
+}
+
+.news-search-input {
+  flex: 1;
+  font-size: 0.88rem;
+  font-family: var(--font-body);
+  color: var(--text-main);
+  background: transparent;
+  border: none;
+  outline: none;
+  min-width: 0;
+}
+
+.news-search-input::placeholder {
+  color: var(--text-muted);
+  opacity: 0.75;
+}
+
+/* 去除 Safari/Chrome 原生 search 的清除按键以使用自定义精美按钮 */
+.news-search-input::-webkit-search-cancel-button,
+.news-search-input::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.search-kbd-hint {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.3rem;
+  height: 1.3rem;
+  padding: 0 0.35rem;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: var(--pill-bg);
+  border: 1px solid var(--pill-border);
+  border-radius: 4px;
+  margin-left: 0.5rem;
+  user-select: none;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+
+.search-input-group:focus-within .search-kbd-hint {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.search-clear-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 50%;
+  background: var(--pill-bg);
+  border: 1px solid var(--pill-border);
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  cursor: pointer;
+  margin-left: 0.4rem;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.search-clear-btn:hover {
+  background: var(--color--brand-color);
+  color: #ffffff;
+  border-color: var(--color--brand-color);
+}
+
+.search-status-hint {
+  font-size: 0.8rem;
+  color: var(--color--gradient-color-01);
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+[data-theme="light"] .search-input-group {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.05);
+  border-color: rgba(226, 232, 240, 1);
+}
+
+[data-theme="light"] .search-input-group:focus-within {
+  border-color: #e55a00;
+  box-shadow: 0 0 0 3px rgba(229, 90, 0, 0.18), 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+[data-theme="light"] .search-status-hint {
+  color: #e55a00;
+}
+
+/* 分类即时交互筛选导航条 */
 .category-filter-bar {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.65rem;
-  margin: 1.8rem auto 2.2rem;
   flex-wrap: wrap;
-  max-width: 960px;
+  width: 100%;
 }
 
 .filter-pill {
@@ -520,15 +662,60 @@ body.modal-open {
   color: #ffffff;
 }
 
+/* 空状态卡片提示与重置按键 */
 .empty-category-notice {
   grid-column: 1 / -1;
   text-align: center;
-  padding: 3.5rem 1.5rem;
+  padding: 4rem 2rem;
   background: var(--color--elements-bg);
-  border: 1px dashed var(--line-subtle);
+  border: 1px dashed var(--color--elements-stroke);
   border-radius: var(--radius-card);
+  box-shadow: var(--color--card-shadow);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.empty-notice-icon {
+  font-size: 2.8rem;
+  margin-bottom: 0.8rem;
+  opacity: 0.85;
+}
+
+.empty-notice-title {
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 0.45rem;
+}
+
+.empty-notice-desc {
   color: var(--text-muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  margin-bottom: 1.4rem;
+}
+
+.empty-reset-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  background: var(--color--brand-color);
+  color: #ffffff;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 0.52rem 1.35rem;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition: all 0.22s ease;
+  box-shadow: 0 4px 14px var(--color--brand-glow);
+}
+
+.empty-reset-btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.12);
+  box-shadow: 0 6px 20px var(--color--brand-glow);
 }
 
 .animate-fade-in {
@@ -655,40 +842,49 @@ body.modal-open {
   appearance: none;
   background: transparent;
   border: none;
+.expand-toggle {
   color: var(--color--gradient-color-01);
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-family: var(--font-body);
   font-weight: 600;
   cursor: pointer;
-  padding: 0;
+  padding: 0.2rem 0;
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  transition: opacity 0.2s;
+  transition: all 0.2s ease;
 }
 
 .expand-toggle:hover {
-  opacity: 0.8;
+  color: var(--color--brand-color);
+  transform: translateX(2px);
 }
 
 .expand-content {
   display: none;
-  font-size: 0.84rem;
+  font-size: 0.85rem;
   color: var(--expand-text);
   background: var(--expand-bg);
   border: 1px solid var(--expand-border);
   border-left: 3px solid var(--color--brand-color);
   border-radius: 12px;
-  padding: 0.85rem;
-  margin-top: 0.6rem;
-  line-height: 1.65;
+  padding: 1rem 1.15rem;
+  margin-top: 0.75rem;
+  line-height: 1.78;
+  letter-spacing: 0.015em;
   white-space: pre-wrap;
   word-break: break-word;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+[data-theme="light"] .expand-content {
+  box-shadow: inset 0 1px 4px rgba(15, 23, 42, 0.04);
+  border-left-color: #e55a00;
 }
 
 .expand-content.active {
   display: block;
-  animation: fadeIn 0.2s ease-out;
+  animation: fadeIn 0.22s ease-out;
 }
 
 @keyframes fadeIn {
@@ -1123,6 +1319,78 @@ body.modal-open {
   line-height: 1.8;
 }
 
+/* ==========================================================================
+   返回顶部悬浮微按键 (Back to Top Floating Pill - Phase 2 优化)
+   ========================================================================== */
+
+.back-to-top-btn {
+  position: fixed;
+  bottom: 2.2rem;
+  right: 2.2rem;
+  z-index: 850;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.55rem 0.95rem;
+  border-radius: var(--radius-pill);
+  background: var(--nav-bg);
+  border: 1px solid var(--color--elements-stroke);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(16px);
+  transition: opacity 0.28s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.28s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.2s ease,
+              color 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+.back-to-top-btn.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.back-to-top-btn:hover {
+  border-color: var(--color--brand-color);
+  color: var(--color--brand-color);
+  box-shadow: 0 0 18px var(--color--brand-glow), 0 10px 28px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.btt-icon {
+  font-size: 0.95rem;
+  font-weight: 800;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.back-to-top-btn:hover .btt-icon {
+  transform: translateY(-2px);
+}
+
+[data-theme="light"] .back-to-top-btn {
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.1);
+  border-color: rgba(226, 232, 240, 0.9);
+  color: #334155;
+}
+
+[data-theme="light"] .back-to-top-btn:hover {
+  border-color: #e55a00;
+  color: #e55a00;
+  box-shadow: 0 4px 18px rgba(229, 90, 0, 0.22);
+}
+
 /* 移动端与平板响应式自适应 */
 @media (max-width: 960px) {
   .newspaper-grid {
@@ -1160,6 +1428,20 @@ body.modal-open {
 
   .top-nav-left, .top-nav-right {
     justify-content: space-between;
+  }
+
+  .search-kbd-hint {
+    display: none;
+  }
+
+  .back-to-top-btn {
+    bottom: 1.5rem;
+    right: 1.25rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .btt-text {
+    display: none;
   }
 
   .newspaper-grid {
