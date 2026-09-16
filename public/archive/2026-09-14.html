@@ -1,271 +1,165 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-theme="dark">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Builders 中文日报 - 2026-09-14</title>
-  <meta name="description" content="AI Builders 中文日报，追踪顶尖 AI 创业者、技术博客与播客一手动态。">
+  <title>Luke的一手消息 - 2026-09-14</title>
+  <meta name="description" content="Luke的一手消息：追踪前沿突破 · 汇聚一手洞见。大模型突破、开源工具、AI商业与论文前沿。">
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-
-  <!-- 顶部导航 -->
-  <header class="navbar">
-    <div class="nav-container">
-      <a class="brand" href="../index.html">
-        <div class="brand-icon">AI</div>
-        <span>AI Builders 日报</span>
-      </a>
-
-      <div class="search-box">
-        <span class="search-icon">🔍</span>
-        <input class="search-input" id="search-input" type="text" placeholder="搜索作者、观点、产品...">
-      </div>
-
-      <div class="nav-actions">
-        <select class="nav-btn" onchange="if(this.value) location.href=this.value;" style="cursor: pointer;">
+  <div class="newspaper-container">
+    <!-- 顶部状态栏与往期导航 -->
+    <nav class="top-nav-bar">
+      <div class="top-nav-left">
+        <span>📖 往期回顾：</span>
+        <select class="vintage-select" onchange="if(this.value) location.href=this.value;">
           <option value="../index.html" >2026-09-16</option><option value="../archive/2026-09-15.html" >2026-09-15</option><option value="../archive/2026-09-14.html" selected>2026-09-14</option>
         </select>
-        <a class="nav-btn" href="../archive/index.html">📅 往期归档</a>
-        <button class="nav-btn" id="theme-toggle" type="button">☀️ 浅色</button>
+        <a class="vintage-link" href="../archive/index.html">时间线总览</a>
       </div>
-    </div>
-  </header>
+      <div class="top-nav-right">
+        <span>⚡ 每日自动更新 · 打开即读</span>
+        <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
+      </div>
+    </nav>
 
-  <!-- 主体区域 -->
-  <main class="main-content">
-    <div class="hero-header">
-      <div class="hero-meta">
-        <span class="date-badge">2026-09-14 · 星期一</span>
-        
-    <span class="weekend-badge">🌟 包含周末 72 小时汇总 (周五至周日)</span>
-  
+    <!-- 经典复古报刊报头 -->
+    <header class="newspaper-header">
+      <div class="header-meta-top">
+        <span>第 1 期 · 晨报精编</span>
+        <span>追踪前沿突破 · 汇聚一手洞见</span>
+        <span>一手真实信源</span>
       </div>
-      <h1 class="hero-title">AI Builders 中文日报</h1>
-      <p class="hero-desc">追踪下场干活的开发者与创始人一手动态，沉淀高信噪比中文每日洞察与独立网站归档。</p>
-    </div>
+      <h1 class="newspaper-title">Luke的一手消息</h1>
+      <div class="header-meta-bottom">
+        <span>2026年09月14日 · 星期一</span>
+        <span>今日前沿四大板块汇编</span>
+        <span>AI 全领域追踪</span>
+      </div>
+    </header>
 
-    <!-- 数据仪表盘 -->
-    <div class="stats-bar">
-      <div class="stat-item">
-        <span class="stat-val">10</span>
-        <span class="stat-lbl">AI Builders</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-val">18</span>
-        <span class="stat-lbl">推特要闻</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-val">1</span>
-        <span class="stat-lbl">官方博客</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-val">1</span>
-        <span class="stat-lbl">深度播客</span>
-      </div>
-    </div>
-
-    <!-- 分类 Tabs -->
-    <div class="tabs-container">
-      <div class="tabs">
-        <button class="tab-btn active" data-filter="all">全部动态 (12)</button>
-        <button class="tab-btn" data-filter="x">X / 推特 (10)</button>
-        <button class="tab-btn" data-filter="blog">官方博客 (1)</button>
-        <button class="tab-btn" data-filter="podcast">深度播客 (1)</button>
-      </div>
-    </div>
-
-    <!-- 内容流列表 -->
-    <div class="digest-grid">
+    <!-- 主版面 4 列网格 -->
+    <main class="newspaper-grid">
       
-    <article class="item-card" data-type="x">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar"></div>
-          <div class="author-details">
-            <span class="author-name">Andrej Karpathy</span>
-            <span class="author-role">Founder @ Eureka Labs, former Tesla &amp; OpenAI</span>
-          </div>
-        </div>
-        <span class="source-badge badge-x">X / 推特</span>
+    <article class="news-item priority-lead" id="blog-3">
+      <div class="item-category-wrap">
+        <span class="item-category">开源生产力工具</span>
+        <span class="item-heat">🔥 热度 800</span>
       </div>
-
-      <!-- 1. 中文总结 -->
-      <div class="section-block">
-        <div class="section-label label-summary">💡 中文总结</div>
-        <div class="summary-box">Karpathy 分享了关于构建高质量合成微调数据集与强化学习（RL）奖励函数的心得，指出用弱模型监督强模型的关键在于把评测标准规范化（Rubrics as Specs），这也是通往自主智能体的核心基石。</div>
-      </div>
-
-      <!-- 2. 中文全文翻译（支持折叠展开） -->
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 中文全文翻译</span>
-            <span class="arrow">▼ 展开全文翻译</span>
-          </button>
-          <div class="translation-content">我们正在把越来越多的工程重心从单纯的预训练数据转向精密的合成验证流。当模型达到一定智能水平后，人类标注者的效率已成为主要瓶颈。解决之道在于为评估器制定严格的形式化规范（Rubric Specification），让多 Agent 之间通过自我博弈和环境反馈来持续演进。</div>
-        </div>
-      </div>
-
-      <!-- 3. 推荐理由 -->
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">Karpathy 始终站在大模型训练与智能体工程最前线，他对合成数据与自动评估的洞见直接预示了未来模型训练范式的变迁。</div>
-      </div>
-
-      <!-- 4. 原文链接与工具 -->
-      <div class="card-footer">
-        <a class="source-link" href="https://x.com/karpathy/status/2099123456789012345" target="_blank" rel="noopener noreferrer">
-          🔗 查看推文原文 ↗
-        </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
-    </article>
-  
-    <article class="item-card" data-type="x">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar"></div>
-          <div class="author-details">
-            <span class="author-name">Amjad Masad</span>
-            <span class="author-role">CEO @ Replit</span>
-          </div>
-        </div>
-        <span class="source-badge badge-x">X / 推特</span>
-      </div>
-
-      <!-- 1. 中文总结 -->
-      <div class="section-block">
-        <div class="section-label label-summary">💡 中文总结</div>
-        <div class="summary-box">Replit CEO Amjad Masad 宣布 Replit Agent 的代码生成吞吐量已突破单日千万行，90% 的新应用从零构建无需用户修改任何配置文件。</div>
-      </div>
-
-      <!-- 2. 中文全文翻译（支持折叠展开） -->
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 中文全文翻译</span>
-            <span class="arrow">▼ 展开全文翻译</span>
-          </button>
-          <div class="translation-content">Replit Agent 正在彻底重构普通人创造软件的门槛。过去几周的统计数据显示，用户通过自然语言指令直接交付的完整 Web 应用已超过数十万个，整个从环境搭建、依赖安装到部署发布的闭环已经全由 Agent 接管。</div>
-        </div>
-      </div>
-
-      <!-- 3. 推荐理由 -->
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">展示了 Coding Agent 在消费级与独立开发者市场的巨大普及速度。</div>
-      </div>
-
-      <!-- 4. 原文链接与工具 -->
-      <div class="card-footer">
-        <a class="source-link" href="https://x.com/amasad/status/2099234567890123456" target="_blank" rel="noopener noreferrer">
-          🔗 查看推文原文 ↗
-        </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
-    </article>
-  
+      <h2 class="item-title">Model Context Protocol: Connecting AI to Everything</h2>
       
-    <article class="item-card" data-type="blog">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar" style="background: linear-gradient(135deg, #a855f7, #6366f1); display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:1.2rem;">B</div>
-          <div class="author-details">
-            <span class="author-name">Claude Blog</span>
-            <span class="author-role">Model Context Protocol: Connecting AI to Everything</span>
-          </div>
-        </div>
-        <span class="source-badge badge-blog">技术博客</span>
-      </div>
-
-      <div class="section-block">
-        <div class="section-label label-summary">💡 核心要点</div>
-        <div class="summary-box">介绍 MCP（模型上下文协议）的设计规范与跨工具生态拓展，阐述为何开放标准是 Agent 连接万物的关键。</div>
-      </div>
-
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 核心内容译文</span>
-            <span class="arrow">▼ 展开译文</span>
-          </button>
-          <div class="translation-content">MCP 正在成为开放 AI 生态的基础设施标准，它统一了数据源连接与工具调用的通信协议，让开发者不必为每个平台重复编写适配器。</div>
-        </div>
-      </div>
-
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">MCP 是当前 AI 行业最关键的协议层创新，值得所有开发者紧密跟进。</div>
-      </div>
-
-      <div class="card-footer">
+    <div class="item-author">
+      <strong>Claude Blog</strong>
+      <span>· 官方技术博客</span>
+    </div>
+  
+      <p class="item-brief">【推荐理由】MCP 是当前 AI 行业最关键的协议层创新，值得所有开发者紧密跟进。</p>
+      <p class="item-summary">介绍 MCP（模型上下文协议）的设计规范与跨工具生态拓展，阐述为何开放标准是 Agent 连接万物的关键。</p>
+      
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">MCP 正在成为开放 AI 生态的基础设施标准，它统一了数据源连接与工具调用的通信协议，让开发者不必为每个平台重复编写适配器。</div>
+    </div>
+  
+      <footer class="item-footer">
         <a class="source-link" href="https://claude.com/blog" target="_blank" rel="noopener noreferrer">
-          🔗 查阅官方博客全文 ↗
+          一手信源 ↗
         </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
     </article>
   
+    <article class="news-item priority-important" id="podcast-4">
+      <div class="item-category-wrap">
+        <span class="item-category">大模型与技术突破</span>
+        <span class="item-heat">🔥 热度 500</span>
+      </div>
+      <h2 class="item-title">The State of Code Generation and AI Agents in 2026</h2>
       
-    <article class="item-card" data-type="podcast">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar" style="background: linear-gradient(135deg, #10b981, #059669); display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:1.2rem;">🎙️</div>
-          <div class="author-details">
-            <span class="author-name">Latent Space</span>
-            <span class="author-role">The State of Code Generation and AI Agents in 2026</span>
-          </div>
-        </div>
-        <span class="source-badge badge-podcast">深度播客</span>
-      </div>
-
-      <div class="section-block">
-        <div class="section-label label-summary">💡 核心观点与金句</div>
-        <div class="summary-box">探讨 2026 年代码生成与自主智能体的发展现状，剖析从单轮代码补全到多文件协同 Agent 的跨越。</div>
-      </div>
-
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">Latent Space 播客一直是 AI 开发者圈的必听节目，深度与技术信息密度极高。</div>
-      </div>
-
+      <p class="item-brief">【核心提炼】Latent Space 播客一直是 AI 开发者圈的必听节目，深度与技术信息密度极高。</p>
+      <p class="item-summary">探讨 2026 年代码生成与自主智能体的发展现状，剖析从单轮代码补全到多文件协同 Agent 的跨越。</p>
       
-    <div class="section-block" style="margin-top: 1rem;">
-      <div class="translation-box">
-        <button class="translation-toggle" type="button">
-          <span>📼 播客单集听力文稿与完整译本（附录）</span>
-          <span class="arrow">▼ 展开完整文稿</span>
-        </button>
-        <div class="translation-content" style="max-height: 400px; overflow-y: auto;">Speaker 1 | 00:00 - 00:30
-欢迎收听 Latent Space……</div>
-      </div>
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">编码智能体已经跨越了简单的代码补全阶段，现在的竞争焦点在于长程记忆、环境感知以及多 Agent 协同验证。</div>
     </div>
   
-
-      <div class="card-footer">
+      <footer class="item-footer">
         <a class="source-link" href="https://www.youtube.com/@LatentSpacePod" target="_blank" rel="noopener noreferrer">
-          🔗 收听或观看本期播客 ↗
+          一手信源 ↗
         </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
     </article>
   
+    <article class="news-item priority-important" id="x-karpathy-1">
+      <div class="item-category-wrap">
+        <span class="item-category">论文前沿</span>
+        
+      </div>
+      <h2 class="item-title">Karpathy 分享了关于构建高质量合成微调数据集与强化学习（RL）奖励函...</h2>
+      
+    <div class="item-author">
+      <strong>Andrej Karpathy</strong>
+      <span>· Founder @ Eureka Labs, former Tesla &amp; OpenAI</span>
     </div>
-  </main>
+  
+      <p class="item-brief">【为何关注】Karpathy 始终站在大模型训练与智能体工程最前线，他对合成数据与自动评估的洞见直接预示了未来模型训练范式的变迁。</p>
+      <p class="item-summary">Karpathy 分享了关于构建高质量合成微调数据集与强化学习（RL）奖励函数的心得，指出用弱模型监督强模型的关键在于把评测标准规范化（Rubrics as Specs），这也是通往自主智能体的核心基石。</p>
+      
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">我们正在把越来越多的工程重心从单纯的预训练数据转向精密的合成验证流。当模型达到一定智能水平后，人类标注者的效率已成为主要瓶颈。解决之道在于为评估器制定严格的形式化规范（Rubric Specification），让多 Agent 之间通过自我博弈和环境反馈来持续演进。</div>
+    </div>
+  
+      <footer class="item-footer">
+        <a class="source-link" href="https://x.com/karpathy/status/2099123456789012345" target="_blank" rel="noopener noreferrer">
+          一手信源 ↗
+        </a>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
+    </article>
+  
+    <article class="news-item priority-normal" id="x-amasad-2">
+      <div class="item-category-wrap">
+        <span class="item-category">AI 投资与商业</span>
+        
+      </div>
+      <h2 class="item-title">Replit CEO Amjad Masad 宣布 Replit Agent...</h2>
+      
+    <div class="item-author">
+      <strong>Amjad Masad</strong>
+      <span>· CEO @ Replit</span>
+    </div>
+  
+      <p class="item-brief">【为何关注】展示了 Coding Agent 在消费级与独立开发者市场的巨大普及速度。</p>
+      <p class="item-summary">Replit CEO Amjad Masad 宣布 Replit Agent 的代码生成吞吐量已突破单日千万行，90% 的新应用从零构建无需用户修改任何配置文件。</p>
+      
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">Replit Agent 正在彻底重构普通人创造软件的门槛。过去几周的统计数据显示，用户通过自然语言指令直接交付的完整 Web 应用已超过数十万个，整个从环境搭建、依赖安装到部署发布的闭环已经全由 Agent 接管。</div>
+    </div>
+  
+      <footer class="item-footer">
+        <a class="source-link" href="https://x.com/amasad/status/2099234567890123456" target="_blank" rel="noopener noreferrer">
+          一手信源 ↗
+        </a>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
+    </article>
+  
+    </main>
 
-  <footer class="footer">
-    <p>AI Builders 日报 · 坚持关注拥有原创观点的 Builders · 每日自动更新与归档维护</p>
-    <p style="margin-top: 0.5rem; opacity: 0.7;">数据由 GitHub 上游开源仓库定时聚合 · 纯静态生成部署</p>
-  </footer>
+    <!-- 报尾 -->
+    <footer class="newspaper-footer">
+      <div class="footer-divider"></div>
+      <div class="footer-content">
+        <p>《Luke的一手消息》由 GitHub Actions 每日自动搜集、提炼、排版与部署发布。</p>
+        <p>涵盖大模型与技术突破 · 开源生产力工具 · AI 投资与商业 · 论文前沿 | 纯净无依赖 · 打开即读</p>
+      </div>
+    </footer>
+  </div>
 
   <script src="../assets/app.js"></script>
 </body>

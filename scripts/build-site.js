@@ -3,13 +3,15 @@
 /**
  * build-site.js
  * 
- * 静态网站生成器：
+ * 静态报刊网站生成器（Luke的一手消息 · 复古报刊风格）：
  * 1. 扫描 data/digests/*.json 所有的结构化数据。
- * 2. 编译并输出：
- *    - public/index.html（全站首页，展示最新一期日报）
- *    - public/archive/YYYY-MM-DD.html（每一天的专属静态归档页）
- *    - public/archive/index.html（往期历史归档时间线导航）
- * 3. 拷贝静态资源到 public/assets/。
+ * 2. 依据热度/讨论度智能排序，并精准归类到用户关注的四大板块：
+ *    - 大模型与技术突破
+ *    - 开源生产力工具
+ *    - AI 投资与商业
+ *    - 论文前沿
+ * 3. 按照经典报刊优先级排版（1 条 Lead 头条整行、2 条 Important 重点半行、其余 Normal 小模块）。
+ * 4. 编译输出到 public/（作为 GitHub Pages 线上部署发布目录）及同步更新 ai-daily-lite/data.json。
  */
 
 import { readFile, writeFile, mkdir, readdir, cp } from 'fs/promises';
@@ -25,6 +27,7 @@ const PUBLIC_DIR = join(ROOT_DIR, 'public');
 const ASSETS_SRC = join(ROOT_DIR, 'web', 'assets');
 const ASSETS_DEST = join(PUBLIC_DIR, 'assets');
 const SETTINGS_FILE = join(ROOT_DIR, 'config', 'settings.json');
+const LITE_DATA_FILE = join(ROOT_DIR, 'ai-daily-lite', 'data.json');
 
 // HTML 转义
 function escapeHtml(str = '') {
@@ -43,293 +46,259 @@ function formatDisplayDate(dateStr) {
     const d = new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
     const weekDays = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
     const weekDay = weekDays[d.getDay()];
-    return `${dateStr} · ${weekDay}`;
+    return `${parts[0]}年${parts[1]}月${parts[2]}日 · ${weekDay}`;
   } catch {
     return dateStr;
   }
 }
 
-// 渲染卡片：X / 推特
-function renderXCard(item) {
-  const avatar = item.avatar ? `<img class="author-avatar" src="${escapeHtml(item.avatar)}" alt="${escapeHtml(item.author)}" onerror="this.style.display='none'">` : `<div class="author-avatar"></div>`;
-  const role = item.role ? `<span class="author-role">${escapeHtml(item.role)}</span>` : '';
+// 依据内容特征归类到四大领域
+function detectCategory(title, summary, text = '') {
+  const combined = `${title} ${summary} ${text}`.toLowerCase();
 
-  return `
-    <article class="item-card" data-type="x">
-      <div class="card-header">
-        <div class="author-info">
-          ${avatar}
-          <div class="author-details">
-            <span class="author-name">${escapeHtml(item.author)}</span>
-            ${role}
-          </div>
-        </div>
-        <span class="source-badge badge-x">X / 推特</span>
-      </div>
+  // 1. 开源生产力工具
+  if (/开源|github|mod|模组|插件|terminal|终端|微虚拟机|沙箱|ide|cli|工具|框架|sdk|扩展/.test(combined)) {
+    return '开源生产力工具';
+  }
 
-      <!-- 1. 中文总结 -->
-      <div class="section-block">
-        <div class="section-label label-summary">💡 中文总结</div>
-        <div class="summary-box">${escapeHtml(item.summary)}</div>
-      </div>
+  // 2. AI 投资与商业
+  if (/投资|融资|商业|企业|成本|收入|市场|估值|yc|风投|roi|创投|商业化|交付/.test(combined)) {
+    return 'AI 投资与商业';
+  }
 
-      <!-- 2. 中文全文翻译（支持折叠展开） -->
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 中文全文翻译</span>
-            <span class="arrow">▼ 展开全文翻译</span>
-          </button>
-          <div class="translation-content">${escapeHtml(item.translation)}</div>
-        </div>
-      </div>
+  // 3. 论文前沿
+  if (/论文|arxiv|算法|理论|实验|数学|证明|强化学习|rlvr|推理模型|心智|苏格拉底/.test(combined)) {
+    return '论文前沿';
+  }
 
-      <!-- 3. 推荐理由 -->
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">${escapeHtml(item.recommendation)}</div>
-      </div>
-
-      <!-- 4. 原文链接与工具 -->
-      <div class="card-footer">
-        <a class="source-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
-          🔗 查看推文原文 ↗
-        </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
-    </article>
-  `;
+  // 4. 大模型与技术突破 (默认高频)
+  return '大模型与技术突破';
 }
 
-// 渲染卡片：官方技术博客
-function renderBlogCard(item) {
-  return `
-    <article class="item-card" data-type="blog">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar" style="background: linear-gradient(135deg, #a855f7, #6366f1); display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:1.2rem;">B</div>
-          <div class="author-details">
-            <span class="author-name">${escapeHtml(item.sourceName)}</span>
-            <span class="author-role">${escapeHtml(item.title)}</span>
-          </div>
-        </div>
-        <span class="source-badge badge-blog">技术博客</span>
-      </div>
-
-      <div class="section-block">
-        <div class="section-label label-summary">💡 核心要点</div>
-        <div class="summary-box">${escapeHtml(item.summary)}</div>
-      </div>
-
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 核心内容译文</span>
-            <span class="arrow">▼ 展开译文</span>
-          </button>
-          <div class="translation-content">${escapeHtml(item.translation)}</div>
-        </div>
-      </div>
-
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">${escapeHtml(item.recommendation)}</div>
-      </div>
-
-      <div class="card-footer">
-        <a class="source-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
-          🔗 查阅官方博客全文 ↗
-        </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
-    </article>
-  `;
+// 计算热度分数
+function calculateHeatScore(item) {
+  let score = 0;
+  if (item.rawTweets && Array.isArray(item.rawTweets)) {
+    for (const t of item.rawTweets) {
+      score += (t.likes || 0) + (t.retweets || 0) * 3 + (t.replies || 0) * 2;
+    }
+  }
+  if (item.type === 'blog') score += 600;
+  if (item.type === 'podcast') score += 400;
+  return score || 100;
 }
 
-// 渲染卡片：深度播客
-function renderPodcastCard(item) {
-  const appendixHtml = item.fullTranscript ? `
-    <div class="section-block" style="margin-top: 1rem;">
-      <div class="translation-box">
-        <button class="translation-toggle" type="button">
-          <span>📼 播客单集听力文稿与完整译本（附录）</span>
-          <span class="arrow">▼ 展开完整文稿</span>
-        </button>
-        <div class="translation-content" style="max-height: 400px; overflow-y: auto;">${escapeHtml(item.fullTranscript)}</div>
-      </div>
+// 提取并结构化当天所有新闻条目
+function extractAndRankNews(digest) {
+  const rawList = [];
+
+  // 1. 推文聚合
+  for (const x of (digest.sections?.x || [])) {
+    const heat = calculateHeatScore(x);
+    // 生成精炼标题
+    let title = x.summary.split('。')[0] || `${x.author} 最新前沿观察`;
+    if (title.length > 40) title = title.slice(0, 38) + '...';
+
+    rawList.push({
+      id: `x-${x.handle || 'tweet'}-${rawList.length + 1}`,
+      author: x.author,
+      role: x.role,
+      title: title,
+      brief: x.recommendation ? `【为何关注】${x.recommendation}` : '',
+      summary: x.summary,
+      translation: x.translation,
+      recommendation: x.recommendation,
+      category: detectCategory(title, x.summary, x.translation),
+      heat: heat,
+      sourceName: `${x.author} (@${x.handle})`,
+      sourceUrl: x.url
+    });
+  }
+
+  // 2. 技术博客
+  for (const b of (digest.sections?.blogs || [])) {
+    rawList.push({
+      id: `blog-${rawList.length + 1}`,
+      author: b.sourceName,
+      role: '官方技术博客',
+      title: b.title || `${b.sourceName} 深度工程长文`,
+      brief: b.recommendation ? `【推荐理由】${b.recommendation}` : '',
+      summary: b.summary,
+      translation: b.translation,
+      recommendation: b.recommendation,
+      category: detectCategory(b.title, b.summary, b.translation),
+      heat: 800,
+      sourceName: b.sourceName,
+      sourceUrl: b.url
+    });
+  }
+
+  // 3. 播客
+  for (const p of (digest.sections?.podcasts || [])) {
+    rawList.push({
+      id: `podcast-${rawList.length + 1}`,
+      author: p.sourceName,
+      role: '深度 AI 播客',
+      title: p.title || `${p.sourceName} 深度访谈`,
+      brief: p.recommendation ? `【核心提炼】${p.recommendation}` : '',
+      summary: p.summary,
+      translation: p.translation,
+      recommendation: p.recommendation,
+      category: detectCategory(p.title, p.summary, p.translation),
+      heat: 500,
+      sourceName: p.sourceName,
+      sourceUrl: p.url
+    });
+  }
+
+  // 按热度排序
+  rawList.sort((a, b) => b.heat - a.heat);
+
+  // 赋予排版优先级：最多 1 条 lead、2 条 important，其余 normal
+  return rawList.map((item, idx) => {
+    let priority = 'normal';
+    if (idx === 0) priority = 'lead';
+    else if (idx === 1 || idx === 2) priority = 'important';
+
+    return {
+      ...item,
+      priority
+    };
+  });
+}
+
+// 渲染单个复古报纸新闻模块
+function renderNewsItem(item) {
+  const heatBadge = item.heat > 100 ? `<span class="item-heat">🔥 热度 ${item.heat}</span>` : '';
+  const authorInfo = item.author ? `
+    <div class="item-author">
+      <strong>${escapeHtml(item.author)}</strong>
+      ${item.role ? `<span>· ${escapeHtml(item.role)}</span>` : ''}
+    </div>
+  ` : '';
+
+  const expandHtml = item.translation ? `
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">${escapeHtml(item.translation)}</div>
     </div>
   ` : '';
 
   return `
-    <article class="item-card" data-type="podcast">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar" style="background: linear-gradient(135deg, #10b981, #059669); display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:1.2rem;">🎙️</div>
-          <div class="author-details">
-            <span class="author-name">${escapeHtml(item.showName)}</span>
-            <span class="author-role">${escapeHtml(item.title)}</span>
-          </div>
-        </div>
-        <span class="source-badge badge-podcast">深度播客</span>
+    <article class="news-item priority-${item.priority}" id="${escapeHtml(item.id)}">
+      <div class="item-category-wrap">
+        <span class="item-category">${escapeHtml(item.category)}</span>
+        ${heatBadge}
       </div>
-
-      <div class="section-block">
-        <div class="section-label label-summary">💡 核心观点与金句</div>
-        <div class="summary-box">${escapeHtml(item.summary)}</div>
-      </div>
-
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">${escapeHtml(item.recommendation)}</div>
-      </div>
-
-      ${appendixHtml}
-
-      <div class="card-footer">
-        <a class="source-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
-          🔗 收听或观看本期播客 ↗
+      <h2 class="item-title">${escapeHtml(item.title)}</h2>
+      ${authorInfo}
+      ${item.brief ? `<p class="item-brief">${escapeHtml(item.brief)}</p>` : ''}
+      <p class="item-summary">${escapeHtml(item.summary)}</p>
+      ${expandHtml}
+      <footer class="item-footer">
+        <a class="source-link" href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">
+          一手信源 ↗
         </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
     </article>
   `;
 }
 
-// 组装完整页面 HTML
-function renderPage({ title, digest, allDates, isArchive = false, relativeRoot = '' }) {
-  const xCards = (digest.sections?.x || []).map(renderXCard).join('');
-  const blogCards = (digest.sections?.blogs || []).map(renderBlogCard).join('');
-  const podcastCards = (digest.sections?.podcasts || []).map(renderPodcastCard).join('');
+// 渲染完整页面
+function renderPage({ title, motto, digest, allDates, isArchive = false, relativeRoot = '' }) {
+  const newsItems = extractAndRankNews(digest);
+  const itemsHtml = newsItems.map(renderNewsItem).join('');
 
-  const weekendBadge = digest.isMondayLookback ? `
-    <span class="weekend-badge">🌟 包含周末 72 小时汇总 (周五至周日)</span>
-  ` : '';
-
-  // 往期日期链接下拉选项
+  // 往期日期下拉选项
   const dateOptions = allDates.map(d => {
     const isSelected = d === digest.date ? 'selected' : '';
     const href = d === allDates[0] ? `${relativeRoot}index.html` : `${relativeRoot}archive/${d}.html`;
     return `<option value="${href}" ${isSelected}>${d}</option>`;
   }).join('');
 
+  const displayDate = formatDisplayDate(digest.date);
+  const issueNumber = `第 ${allDates.length - allDates.indexOf(digest.date)} 期 · 晨报精编`;
+
   return `<!DOCTYPE html>
-<html lang="zh-CN" data-theme="dark">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(title)} - ${escapeHtml(digest.date)}</title>
-  <meta name="description" content="AI Builders 中文日报，追踪顶尖 AI 创业者、技术博客与播客一手动态。">
+  <meta name="description" content="${escapeHtml(title)}：${escapeHtml(motto)}。大模型突破、开源工具、AI商业与论文前沿。">
   <link rel="stylesheet" href="${relativeRoot}assets/style.css">
 </head>
 <body>
-
-  <!-- 顶部导航 -->
-  <header class="navbar">
-    <div class="nav-container">
-      <a class="brand" href="${relativeRoot}index.html">
-        <div class="brand-icon">AI</div>
-        <span>AI Builders 日报</span>
-      </a>
-
-      <div class="search-box">
-        <span class="search-icon">🔍</span>
-        <input class="search-input" id="search-input" type="text" placeholder="搜索作者、观点、产品...">
-      </div>
-
-      <div class="nav-actions">
-        <select class="nav-btn" onchange="if(this.value) location.href=this.value;" style="cursor: pointer;">
+  <div class="newspaper-container">
+    <!-- 顶部状态栏与往期导航 -->
+    <nav class="top-nav-bar">
+      <div class="top-nav-left">
+        <span>📖 往期回顾：</span>
+        <select class="vintage-select" onchange="if(this.value) location.href=this.value;">
           ${dateOptions}
         </select>
-        <a class="nav-btn" href="${relativeRoot}archive/index.html">📅 往期归档</a>
-        <button class="nav-btn" id="theme-toggle" type="button">☀️ 浅色</button>
+        <a class="vintage-link" href="${relativeRoot}archive/index.html">时间线总览</a>
       </div>
-    </div>
-  </header>
+      <div class="top-nav-right">
+        <span>⚡ 每日自动更新 · 打开即读</span>
+        <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
+      </div>
+    </nav>
 
-  <!-- 主体区域 -->
-  <main class="main-content">
-    <div class="hero-header">
-      <div class="hero-meta">
-        <span class="date-badge">${formatDisplayDate(digest.date)}</span>
-        ${weekendBadge}
+    <!-- 经典复古报刊报头 -->
+    <header class="newspaper-header">
+      <div class="header-meta-top">
+        <span>${escapeHtml(issueNumber)}</span>
+        <span>${escapeHtml(motto)}</span>
+        <span>一手真实信源</span>
       </div>
-      <h1 class="hero-title">AI Builders 中文日报</h1>
-      <p class="hero-desc">追踪下场干活的开发者与创始人一手动态，沉淀高信噪比中文每日洞察与独立网站归档。</p>
-    </div>
+      <h1 class="newspaper-title">${escapeHtml(title)}</h1>
+      <div class="header-meta-bottom">
+        <span>${escapeHtml(displayDate)}</span>
+        <span>今日前沿四大板块汇编</span>
+        <span>AI 全领域追踪</span>
+      </div>
+    </header>
 
-    <!-- 数据仪表盘 -->
-    <div class="stats-bar">
-      <div class="stat-item">
-        <span class="stat-val">${digest.stats?.buildersCount || 0}</span>
-        <span class="stat-lbl">AI Builders</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-val">${digest.stats?.totalTweets || 0}</span>
-        <span class="stat-lbl">推特要闻</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-val">${digest.stats?.blogCount || 0}</span>
-        <span class="stat-lbl">官方博客</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-val">${digest.stats?.podcastCount || 0}</span>
-        <span class="stat-lbl">深度播客</span>
-      </div>
-    </div>
+    <!-- 主版面 4 列网格 -->
+    <main class="newspaper-grid">
+      ${itemsHtml}
+    </main>
 
-    <!-- 分类 Tabs -->
-    <div class="tabs-container">
-      <div class="tabs">
-        <button class="tab-btn active" data-filter="all">全部动态 (${(digest.stats?.buildersCount || 0) + (digest.stats?.blogCount || 0) + (digest.stats?.podcastCount || 0)})</button>
-        <button class="tab-btn" data-filter="x">X / 推特 (${digest.stats?.buildersCount || 0})</button>
-        <button class="tab-btn" data-filter="blog">官方博客 (${digest.stats?.blogCount || 0})</button>
-        <button class="tab-btn" data-filter="podcast">深度播客 (${digest.stats?.podcastCount || 0})</button>
+    <!-- 报尾 -->
+    <footer class="newspaper-footer">
+      <div class="footer-divider"></div>
+      <div class="footer-content">
+        <p>《${escapeHtml(title)}》由 GitHub Actions 每日自动搜集、提炼、排版与部署发布。</p>
+        <p>涵盖大模型与技术突破 · 开源生产力工具 · AI 投资与商业 · 论文前沿 | 纯净无依赖 · 打开即读</p>
       </div>
-    </div>
-
-    <!-- 内容流列表 -->
-    <div class="digest-grid">
-      ${xCards}
-      ${blogCards}
-      ${podcastCards}
-    </div>
-  </main>
-
-  <footer class="footer">
-    <p>AI Builders 日报 · 坚持关注拥有原创观点的 Builders · 每日自动更新与归档维护</p>
-    <p style="margin-top: 0.5rem; opacity: 0.7;">数据由 GitHub 上游开源仓库定时聚合 · 纯静态生成部署</p>
-  </footer>
+    </footer>
+  </div>
 
   <script src="${relativeRoot}assets/app.js"></script>
 </body>
-</html>
-`;
+</html>`;
 }
 
-// 渲染往期归档时间线页面
-function renderArchiveIndexPage({ title, digests, relativeRoot = '' }) {
-  const itemsHtml = digests.map(d => {
+// 渲染归档总览页
+function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
+  const rowsHtml = digests.map((d, idx) => {
+    const href = idx === 0 ? `${relativeRoot}index.html` : `${relativeRoot}archive/${d.date}.html`;
+    const count = (d.sections?.x?.length || 0) + (d.sections?.blogs?.length || 0) + (d.sections?.podcasts?.length || 0);
     return `
-      <a class="archive-card" href="${relativeRoot}archive/${d.date}.html">
-        <div class="archive-meta">
-          <span class="archive-date">${formatDisplayDate(d.date)}</span>
-          ${d.isMondayLookback ? '<span class="weekend-badge" style="font-size:0.75rem;">🌟 含周末汇总</span>' : ''}
+      <a class="archive-row" href="${href}">
+        <div>
+          <div class="archive-row-date">${escapeHtml(formatDisplayDate(d.date))}</div>
+          <div class="archive-row-meta">第 ${digests.length - idx} 期 · 收录 ${count} 条一手要闻</div>
         </div>
-        <div class="archive-stats">
-          ${d.stats?.buildersCount || 0} 位人物 · ${d.stats?.totalTweets || 0} 条推特 · ${d.stats?.blogCount || 0} 篇博客 · ${d.stats?.podcastCount || 0} 期播客 ↗
-        </div>
+        <span class="vintage-link">阅读本期报刊 ➔</span>
       </a>
     `;
   }).join('');
 
   return `<!DOCTYPE html>
-<html lang="zh-CN" data-theme="dark">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -337,92 +306,88 @@ function renderArchiveIndexPage({ title, digests, relativeRoot = '' }) {
   <link rel="stylesheet" href="${relativeRoot}assets/style.css">
 </head>
 <body>
-  <header class="navbar">
-    <div class="nav-container">
-      <a class="brand" href="${relativeRoot}index.html">
-        <div class="brand-icon">AI</div>
-        <span>AI Builders 日报</span>
-      </a>
-      <div class="nav-actions">
-        <a class="nav-btn" href="${relativeRoot}index.html">🏠 返回最新日报</a>
-        <button class="nav-btn" id="theme-toggle" type="button">☀️ 浅色</button>
-      </div>
-    </div>
-  </header>
+  <div class="newspaper-container archive-container">
+    <nav class="top-nav-bar">
+      <a class="vintage-link" href="${relativeRoot}index.html">⬅ 返回今日最新日报</a>
+      <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
+    </nav>
 
-  <main class="main-content">
-    <div class="hero-header">
-      <h1 class="hero-title">📅 往期日报历史归档</h1>
-      <p class="hero-desc">按日期查看所有历史发布的 AI Builders 每日要闻与深度洞见。</p>
-    </div>
+    <header class="archive-header">
+      <h1>《${escapeHtml(title)}》往期历史总览</h1>
+      <p style="color: var(--text-muted);">${escapeHtml(motto)}</p>
+    </header>
 
     <div class="archive-list">
-      ${itemsHtml}
+      ${rowsHtml}
     </div>
-  </main>
 
-  <footer class="footer">
-    <p>AI Builders 日报 · 坚持关注拥有原创观点的 Builders</p>
-  </footer>
-  <script src="${relativeRoot}assets/app.js"></script>
+    <footer class="newspaper-footer">
+      <div class="footer-divider"></div>
+      <div class="footer-content">
+        <p>坚持关注具备第一手原创观点的 AI Builders · 历史沉淀与持续记录</p>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>`;
 }
 
-// 主构建流程
+// 主流程
 async function main() {
   console.log(`\n========================================`);
-  console.log(`[静态站点生成器] 开始编译网站 HTML`);
+  console.log(`[复古报刊生成器] 开始编译《Luke的一手消息》`);
   console.log(`========================================\n`);
 
   // 1. 读取配置
-  let settings = { siteTitle: 'AI Builders 中文日报' };
+  let settings = {
+    siteTitle: 'Luke的一手消息',
+    motto: '追踪前沿突破 · 汇聚一手洞见'
+  };
   if (existsSync(SETTINGS_FILE)) {
     try {
       settings = JSON.parse(await readFile(SETTINGS_FILE, 'utf-8'));
     } catch {}
   }
 
-  // 2. 扫描 data/digests/*.json
+  // 2. 读取 digest 数据
   if (!existsSync(DIGESTS_DIR)) {
     console.error(`[Error] 未发现任何日报数据目录: ${DIGESTS_DIR}`);
     process.exit(1);
   }
 
   const files = (await readdir(DIGESTS_DIR)).filter(f => f.endsWith('.json')).sort().reverse();
-  if (files.length === 0) {
-    console.error(`[Error] 目录中无 JSON 数据文件，请先执行 npm run generate`);
-    process.exit(1);
-  }
-
   const digests = [];
   for (const f of files) {
     const raw = await readFile(join(DIGESTS_DIR, f), 'utf-8');
     try {
       digests.push(JSON.parse(raw));
-    } catch (e) {
-      console.warn(`[Warn] 解析 JSON 失败: ${f}`);
-    }
+    } catch {}
+  }
+
+  if (digests.length === 0) {
+    console.error(`[Error] 暂无日报数据文件`);
+    process.exit(1);
   }
 
   const allDates = digests.map(d => d.date);
   const latestDigest = digests[0];
 
-  // 3. 准备输出目录
+  // 3. 输出目录准备
   await mkdir(PUBLIC_DIR, { recursive: true });
   await mkdir(join(PUBLIC_DIR, 'archive'), { recursive: true });
   await mkdir(ASSETS_DEST, { recursive: true });
 
-  // 拷贝 assets
+  // 拷贝静态 assets
   if (existsSync(ASSETS_SRC)) {
     await cp(ASSETS_SRC, ASSETS_DEST, { recursive: true });
     console.log(`- 静态资源已同步至 public/assets/`);
   }
 
-  // 4. 生成每一期的专属静态页面 public/archive/YYYY-MM-DD.html
+  // 4. 生成每一期归档页面 public/archive/YYYY-MM-DD.html
   for (const d of digests) {
     const pageHtml = renderPage({
-      title: settings.siteTitle,
+      title: settings.siteTitle || 'Luke的一手消息',
+      motto: settings.motto || '追踪前沿突破 · 汇聚一手洞见',
       digest: d,
       allDates,
       isArchive: true,
@@ -431,32 +396,58 @@ async function main() {
     const destPath = join(PUBLIC_DIR, 'archive', `${d.date}.html`);
     await writeFile(destPath, pageHtml, 'utf-8');
   }
-  console.log(`- 已生成 ${digests.length} 个历史归档静态页面至 public/archive/`);
+  console.log(`- 已生成 ${digests.length} 个历史归档报纸至 public/archive/`);
 
-  // 5. 生成首页 public/index.html (展示最新一期)
+  // 5. 生成首页 public/index.html
   const indexHtml = renderPage({
-    title: settings.siteTitle,
+    title: settings.siteTitle || 'Luke的一手消息',
+    motto: settings.motto || '追踪前沿突破 · 汇聚一手洞见',
     digest: latestDigest,
     allDates,
     isArchive: false,
     relativeRoot: './'
   });
   await writeFile(join(PUBLIC_DIR, 'index.html'), indexHtml, 'utf-8');
-  console.log(`- 最新日报首页已生成: public/index.html (${latestDigest.date})`);
+  console.log(`- 《Luke的一手消息》最新首页已生成: public/index.html (${latestDigest.date})`);
 
-  // 6. 生成归档索引页 public/archive/index.html
+  // 6. 生成往期索引 public/archive/index.html
   const archiveIndexHtml = renderArchiveIndexPage({
-    title: settings.siteTitle,
+    title: settings.siteTitle || 'Luke的一手消息',
+    motto: settings.motto || '追踪前沿突破 · 汇聚一手洞见',
     digests,
     relativeRoot: '../'
   });
   await writeFile(join(PUBLIC_DIR, 'archive', 'index.html'), archiveIndexHtml, 'utf-8');
-  console.log(`- 归档时间线导航已生成: public/archive/index.html`);
+  console.log(`- 往期历史时间线已生成: public/archive/index.html`);
+
+  // 7. 同步导出当天 data.json 至 public/data.json 和 ai-daily-lite/data.json
+  const rankedLatestNews = extractAndRankNews(latestDigest);
+  const structuredData = {
+    date: formatDisplayDate(latestDigest.date),
+    items: rankedLatestNews.map(item => ({
+      id: item.id,
+      title: item.title,
+      brief: item.brief,
+      summary: item.summary,
+      category: item.category,
+      priority: item.priority,
+      sourceName: item.sourceName,
+      sourceUrl: item.sourceUrl
+    }))
+  };
+
+  await writeFile(join(PUBLIC_DIR, 'data.json'), JSON.stringify(structuredData, null, 2), 'utf-8');
+  if (existsSync(join(ROOT_DIR, 'ai-daily-lite'))) {
+    await writeFile(LITE_DATA_FILE, JSON.stringify(structuredData, null, 2), 'utf-8');
+    const litePublicDir = join(PUBLIC_DIR, 'lite');
+    await mkdir(litePublicDir, { recursive: true });
+    await cp(join(ROOT_DIR, 'ai-daily-lite'), litePublicDir, { recursive: true });
+    console.log(`- 同步更新 ai-daily-lite/ 及 public/lite/`);
+  }
 
   console.log(`\n========================================`);
-  console.log(`[完成] 静态网站编译完成！`);
-  console.log(`- 输出目录: ${PUBLIC_DIR}`);
-  console.log(`- 可运行 npm run preview 在浏览器中预览网站。`);
+  console.log(`[完成] 《Luke的一手消息》复古报刊静态网站编译完成！`);
+  console.log(`- 线上部署就绪: public/ 目录随时可发布至 GitHub Pages`);
   console.log(`========================================\n`);
 }
 

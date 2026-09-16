@@ -1,0 +1,9 @@
+{
+  "name": "ai-daily-lite",
+  "version": "1.0.0",
+  "description": "极简原生本地 AI 报纸",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

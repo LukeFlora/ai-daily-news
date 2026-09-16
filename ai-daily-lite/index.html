@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luke的一手消息 - 今日精选</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="newspaper-container">
+    <!-- 报头区域 -->
+    <header class="newspaper-header">
+      <div class="header-meta-top">
+        <span id="issue-number">第 01 期 · 创刊号</span>
+        <span id="paper-motto">追踪前沿突破 · 汇聚一手洞见</span>
+        <span id="paper-edition">每日数字报刊</span>
+      </div>
+      <h1 class="newspaper-title" id="newspaper-name">Luke的一手消息</h1>
+      <div class="header-meta-bottom">
+        <span class="paper-date" id="paper-date">2026年9月16日 · 星期三</span>
+        <span class="paper-weather">今日前沿汇编</span>
+        <span class="paper-source">一手信源精选</span>
+      </div>
+    </header>
+
+    <!-- 主版面区域 (根据优先级自适应排版) -->
+    <main class="newspaper-grid" id="content-grid">
+      <!-- 动态由 app.js 读取 data.json 生成 -->
+    </main>
+
+    <!-- 报尾 -->
+    <footer class="newspaper-footer">
+      <div class="footer-divider"></div>
+      <div class="footer-content">
+        <p>本报内容由本地原生脚本聚合生成 · 纯净无依赖 · 真实信源可溯</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

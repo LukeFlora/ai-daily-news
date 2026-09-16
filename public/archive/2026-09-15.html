@@ -1,600 +1,369 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-theme="dark">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Builders 中文日报 - 2026-09-15</title>
-  <meta name="description" content="AI Builders 中文日报，追踪顶尖 AI 创业者、技术博客与播客一手动态。">
+  <title>Luke的一手消息 - 2026-09-15</title>
+  <meta name="description" content="Luke的一手消息：追踪前沿突破 · 汇聚一手洞见。大模型突破、开源工具、AI商业与论文前沿。">
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-
-  <!-- 顶部导航 -->
-  <header class="navbar">
-    <div class="nav-container">
-      <a class="brand" href="../index.html">
-        <div class="brand-icon">AI</div>
-        <span>AI Builders 日报</span>
-      </a>
-
-      <div class="search-box">
-        <span class="search-icon">🔍</span>
-        <input class="search-input" id="search-input" type="text" placeholder="搜索作者、观点、产品...">
-      </div>
-
-      <div class="nav-actions">
-        <select class="nav-btn" onchange="if(this.value) location.href=this.value;" style="cursor: pointer;">
+  <div class="newspaper-container">
+    <!-- 顶部状态栏与往期导航 -->
+    <nav class="top-nav-bar">
+      <div class="top-nav-left">
+        <span>📖 往期回顾：</span>
+        <select class="vintage-select" onchange="if(this.value) location.href=this.value;">
           <option value="../index.html" >2026-09-16</option><option value="../archive/2026-09-15.html" selected>2026-09-15</option><option value="../archive/2026-09-14.html" >2026-09-14</option>
         </select>
-        <a class="nav-btn" href="../archive/index.html">📅 往期归档</a>
-        <button class="nav-btn" id="theme-toggle" type="button">☀️ 浅色</button>
+        <a class="vintage-link" href="../archive/index.html">时间线总览</a>
       </div>
-    </div>
-  </header>
+      <div class="top-nav-right">
+        <span>⚡ 每日自动更新 · 打开即读</span>
+        <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
+      </div>
+    </nav>
 
-  <!-- 主体区域 -->
-  <main class="main-content">
-    <div class="hero-header">
-      <div class="hero-meta">
-        <span class="date-badge">2026-09-15 · 星期二</span>
+    <!-- 经典复古报刊报头 -->
+    <header class="newspaper-header">
+      <div class="header-meta-top">
+        <span>第 2 期 · 晨报精编</span>
+        <span>追踪前沿突破 · 汇聚一手洞见</span>
+        <span>一手真实信源</span>
+      </div>
+      <h1 class="newspaper-title">Luke的一手消息</h1>
+      <div class="header-meta-bottom">
+        <span>2026年09月15日 · 星期二</span>
+        <span>今日前沿四大板块汇编</span>
+        <span>AI 全领域追踪</span>
+      </div>
+    </header>
+
+    <!-- 主版面 4 列网格 -->
+    <main class="newspaper-grid">
+      
+    <article class="news-item priority-lead" id="blog-9">
+      <div class="item-category-wrap">
+        <span class="item-category">开源生产力工具</span>
+        <span class="item-heat">🔥 热度 800</span>
+      </div>
+      <h2 class="item-title">How we contain Claude across products</h2>
+      
+    <div class="item-author">
+      <strong>Anthropic Engineering</strong>
+      <span>· 官方技术博客</span>
+    </div>
+  
+      <p class="item-brief">【推荐理由】随着 Coding Agent 与 Computer Use 普及，沙箱安全隔离成为每一个 Agent 开发者不可回避的硬门槛。Anthropic 官方开源披露其微 VM 容器治理方案，是当前工程实现的行业标杆。</p>
+      <p class="item-summary">Anthropic 工程团队发布长文，详细披露了在全线产品中如何对 Claude 实施沙箱隔离与安全容器化治理。为了防御 Prompt 注入、恶意外联与环境逃逸，Anthropic 建立了一套纵深防御容器机制，将不可信代码与外部工具调用限制在瞬态微虚拟机中，同时确保毫秒级冷启动延迟。</p>
+      
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">随着 Claude 越来越深入地与终端、文件系统和外部 API 交互，传统的基于提示词的安全防线已远远不够。Anthropic Engineering 团队在本文中完整剖析了跨产品隔离 Claude 运行环境的底层架构。我们采用了基于轻量级微虚拟化（Micro-VMs）的隔离技术，每一次执行外部代码或处理不可信文档时，都在一个生命周期极短的独立沙箱中进行。网络出栈访问默认白名单阻断，敏感系统调用由专用安全监视器接管，从而在防御恶意代码注入的同时，兼顾开发者的交互实时性。</div>
+    </div>
+  
+      <footer class="item-footer">
+        <a class="source-link" href="https://www.anthropic.com/engineering/how-we-contain-claude" target="_blank" rel="noopener noreferrer">
+          一手信源 ↗
+        </a>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
+    </article>
+  
+    <article class="news-item priority-important" id="blog-10">
+      <div class="item-category-wrap">
+        <span class="item-category">开源生产力工具</span>
+        <span class="item-heat">🔥 热度 800</span>
+      </div>
+      <h2 class="item-title">Advancing Constitutional AI for Model Safety</h2>
+      
+    <div class="item-author">
+      <strong>Claude Blog</strong>
+      <span>· 官方技术博客</span>
+    </div>
+  
+      <p class="item-brief">【推荐理由】对于研究大模型安全对齐、Prompt 评测与治理体系的团队而言，这篇博客提供了 Anthropic 最具代表性的对齐演进思考。</p>
+      <p class="item-summary">Claude 官方博客阐述了 Constitutional AI（宪政 AI）在最新一代模型中的迭代演进。模型不再依靠大量人工标注进行硬编码对齐，而是通过一套明确的原则宪章指导自我评测与迭代修正，显著减少过度拒答与虚假谄媚现象。</p>
+      
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">宪政 AI（Constitutional AI）是我们确保模型行为安全、有益且符合伦理的核心基石。在本篇更新中，我们分享了原则库如何根据真实世界交互反馈进行动态修正。通过引入更严格的自我博弈红蓝对抗评估机制，新模型在识别潜在高危风险指令的同时，对良性边界请求的误伤率降低了 42%，在保持坦诚与直接的同时，彻底消除了过往模型常见的机械式生硬拒答。</div>
+    </div>
+  
+      <footer class="item-footer">
+        <a class="source-link" href="https://claude.com/blog" target="_blank" rel="noopener noreferrer">
+          一手信源 ↗
+        </a>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
+    </article>
+  
+    <article class="news-item priority-important" id="podcast-11">
+      <div class="item-category-wrap">
+        <span class="item-category">开源生产力工具</span>
+        <span class="item-heat">🔥 热度 500</span>
+      </div>
+      <h2 class="item-title">How a Professional Writer Writes With AI</h2>
+      
+      <p class="item-brief">【核心提炼】强烈推荐所有知识工作者、产品经理与创作者收听。跳出了浅层的&#039;提示词生成文章&#039;范式，直击如何利用 AI 深度反思与增强人类自身的心智能力。</p>
+      <p class="item-summary">本期播客探讨专业作家与写作者如何真正驾驭 AI。核心 Takeaway：优秀的写作者不把 AI 当作&#039;代笔工具&#039;，而是当作&#039;苏格拉底式的思维辩论对手&#039;。嘉宾通过现场拆解长篇非虚构写作流程，展示了如何用 AI 打破写作瓶颈、重构论证逻辑，以及如何避免 AI 输出带来的平庸空洞文本风格。</p>
+      
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">与许多人想象的不同，专业写作者使用 AI 的方式从来不是点击一个&#039;生成文章&#039;的按钮。真正的核心在于把 AI 放置在思维链条中的不同检查点：让它扮演一个苛刻的读者挑出逻辑漏洞、让它提供反方论据来挑战自己的核心论点。当你把 AI 从一个文本自动补全器转变成一个充满敌意的逻辑审查员时，你的写作才会真正变得更锐利、更深刻。</div>
+    </div>
+  
+      <footer class="item-footer">
+        <a class="source-link" href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL" target="_blank" rel="noopener noreferrer">
+          一手信源 ↗
+        </a>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
+    </article>
+  
+    <article class="news-item priority-normal" id="x-levie-1">
+      <div class="item-category-wrap">
+        <span class="item-category">AI 投资与商业</span>
         
       </div>
-      <h1 class="hero-title">AI Builders 中文日报</h1>
-      <p class="hero-desc">追踪下场干活的开发者与创始人一手动态，沉淀高信噪比中文每日洞察与独立网站归档。</p>
-    </div>
-
-    <!-- 数据仪表盘 -->
-    <div class="stats-bar">
-      <div class="stat-item">
-        <span class="stat-val">8</span>
-        <span class="stat-lbl">AI Builders</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-val">23</span>
-        <span class="stat-lbl">推特要闻</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-val">2</span>
-        <span class="stat-lbl">官方博客</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-val">1</span>
-        <span class="stat-lbl">深度播客</span>
-      </div>
-    </div>
-
-    <!-- 分类 Tabs -->
-    <div class="tabs-container">
-      <div class="tabs">
-        <button class="tab-btn active" data-filter="all">全部动态 (11)</button>
-        <button class="tab-btn" data-filter="x">X / 推特 (8)</button>
-        <button class="tab-btn" data-filter="blog">官方博客 (2)</button>
-        <button class="tab-btn" data-filter="podcast">深度播客 (1)</button>
-      </div>
-    </div>
-
-    <!-- 内容流列表 -->
-    <div class="digest-grid">
+      <h2 class="item-title">Box CEO Aaron Levie 深度剖析 Agent 工作负载爆发趋...</h2>
       
-    <article class="item-card" data-type="x">
-      <div class="card-header">
-        <div class="author-info">
-          <img class="author-avatar" src="https://pbs.twimg.com/profile_images/1683930198083891200/n6hU65f9_normal.jpg" alt="Aaron Levie" onerror="this.style.display='none'">
-          <div class="author-details">
-            <span class="author-name">Aaron Levie</span>
-            <span class="author-role">CEO @ Box</span>
-          </div>
-        </div>
-        <span class="source-badge badge-x">X / 推特</span>
-      </div>
-
-      <!-- 1. 中文总结 -->
-      <div class="section-block">
-        <div class="section-label label-summary">💡 中文总结</div>
-        <div class="summary-box">Box CEO Aaron Levie 深度剖析 Agent 工作负载爆发趋势：未来智能体在后台自主寻找信息与执行任务的吞吐量，将是我们单次对话 Prompt 提问的 100 倍以上。全天候的自动化人才招聘、销售线索挖掘、用户访谈解析与代码安全漏洞审查将成为常态；同时他严正指出，在 Agent 百倍穿透企业内部系统的时代，企业数据安全与权限治理将成为 21 世纪最复杂的挑战，Box Shield 正率先落地基于文档安全分级的细粒度 Agent 访问控制。</div>
-      </div>
-
-      <!-- 2. 中文全文翻译（支持折叠展开） -->
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 中文全文翻译</span>
-            <span class="arrow">▼ 展开全文翻译</span>
-          </button>
-          <div class="translation-content">我们所有人都需要更新对 Agent 工作负载爆发的认知。随着智能体集群（Agent Swarms）、更强大的计算机视觉操作（Computer Use）、下一波 API 与 MCP 协议的落地，以及 Muse 或 Instinct 等新产品形态的涌现，我们在职场与日常生活中交付给 Agent 处理的任务规模，将远远超出最初的设想。未来 Agent 在后台自主检索信息并交付工作的吞吐量，将是我们此前在单个会话中 Prompt 提问的 100 倍以上。
+    <div class="item-author">
+      <strong>Aaron Levie</strong>
+      <span>· CEO @ Box</span>
+    </div>
+  
+      <p class="item-brief">【为何关注】企业级软件领袖极具前瞻性的一线思考。大部分人还停留在个人 Chatbot 层面，而 Aaron 指出了&#039;后台百倍吞吐 Agent&#039;与&#039;数据安全隔离治理&#039;这两个必然爆发的深水区，从事企业级 AI、安全与 Agent 平台研发的同学必读。</p>
+      <p class="item-summary">Box CEO Aaron Levie 深度剖析 Agent 工作负载爆发趋势：未来智能体在后台自主寻找信息与执行任务的吞吐量，将是我们单次对话 Prompt 提问的 100 倍以上。全天候的自动化人才招聘、销售线索挖掘、用户访谈解析与代码安全漏洞审查将成为常态；同时他严正指出，在 Agent 百倍穿透企业内部系统的时代，企业数据安全与权限治理将成为 21 世纪最复杂的挑战，Box Shield 正率先落地基于文档安全分级的细粒度 Agent 访问控制。</p>
+      
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">我们所有人都需要更新对 Agent 工作负载爆发的认知。随着智能体集群（Agent Swarms）、更强大的计算机视觉操作（Computer Use）、下一波 API 与 MCP 协议的落地，以及 Muse 或 Instinct 等新产品形态的涌现，我们在职场与日常生活中交付给 Agent 处理的任务规模，将远远超出最初的设想。未来 Agent 在后台自主检索信息并交付工作的吞吐量，将是我们此前在单个会话中 Prompt 提问的 100 倍以上。
 
 你将拥有 7x24 小时精准物色人才的招聘 Agent、全天候监测客户业务线索的销售 Agent、逐字分析访谈记录的产品洞察 Agent，以及逐行审查代码漏洞与 Bug 的安全审查 Agent。目前我们对这些 Agent 的部署方式、管理架构和预算模式的认知可能还处于 1% 的萌芽阶段，但这必然会以超乎想象的规模爆发。
 
 在 Agent 对企业系统的访问量超过人类 100 倍的世界里，保护企业数据将是 21 世纪最复杂的安全与治理挑战之一。在 AI 世界中，安全保障与生产力跃升是紧密绑定的：如果给 Agent 完全不受约束的信息访问权，数据将极难管控；而如果将一切完全锁死，则无法获得任何实质性的 AI 生产力回报。我们需要全新的智能安全与治理范式。以 Box 为例，我们正在开发智能保护企业数据及 Agent 调用的新方案——Box Shield 最近的更新能够基于文档分类安全级别，为 Agent 提供细粒度的权限限制，并在数据被 Agent 异常访问时自动告警或拦截。这只是刚刚开始，整个行业都在重塑面向 AI Agent 的信息安全基石。</div>
-        </div>
-      </div>
-
-      <!-- 3. 推荐理由 -->
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">企业级软件领袖极具前瞻性的一线思考。大部分人还停留在个人 Chatbot 层面，而 Aaron 指出了&#039;后台百倍吞吐 Agent&#039;与&#039;数据安全隔离治理&#039;这两个必然爆发的深水区，从事企业级 AI、安全与 Agent 平台研发的同学必读。</div>
-      </div>
-
-      <!-- 4. 原文链接与工具 -->
-      <div class="card-footer">
+    </div>
+  
+      <footer class="item-footer">
         <a class="source-link" href="https://x.com/levie/status/2099516315698442615" target="_blank" rel="noopener noreferrer">
-          🔗 查看推文原文 ↗
+          一手信源 ↗
         </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
     </article>
   
-    <article class="item-card" data-type="x">
-      <div class="card-header">
-        <div class="author-info">
-          <img class="author-avatar" src="https://pbs.twimg.com/profile_images/1583489840398688256/f7gZ208B_normal.jpg" alt="Guillermo Rauch" onerror="this.style.display='none'">
-          <div class="author-details">
-            <span class="author-name">Guillermo Rauch</span>
-            <span class="author-role">CEO @ Vercel</span>
-          </div>
-        </div>
-        <span class="source-badge badge-x">X / 推特</span>
+    <article class="news-item priority-normal" id="x-rauchg-2">
+      <div class="item-category-wrap">
+        <span class="item-category">开源生产力工具</span>
+        
       </div>
-
-      <!-- 1. 中文总结 -->
-      <div class="section-block">
-        <div class="section-label label-summary">💡 中文总结</div>
-        <div class="summary-box">Vercel CEO Guillermo Rauch 提出核心技术断言：&#039;验证器（Verifiers）+ 技能（Skills）就是 AI 时代的新应用框架&#039;，强调 Agent 的能力上限完全取决于为其配备的检查器、编译器与 Linter。同时宣布 Google Cloud Run 创造者 Steren 正式加入 Vercel 主导 Fluid 系列计算产品，为 Agent 时代构建全新原语。</div>
-      </div>
-
-      <!-- 2. 中文全文翻译（支持折叠展开） -->
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 中文全文翻译</span>
-            <span class="arrow">▼ 展开全文翻译</span>
-          </button>
-          <div class="translation-content">智能体（Agents）的能力上限，完全取决于你为它们提供了多好的校对检查器、编译器、类型系统以及 Linter。shadcn/lint 能够帮助 Agent 严格遵循你的设计系统规范。从更高视角来看：验证器（Verifiers）+ 技能（Skills）正是 AI 时代的全新&#039;应用框架&#039;！
+      <h2 class="item-title">Vercel CEO Guillermo Rauch 提出核心技术断言：&#039;验...</h2>
+      
+    <div class="item-author">
+      <strong>Guillermo Rauch</strong>
+      <span>· CEO @ Vercel</span>
+    </div>
+  
+      <p class="item-brief">【为何关注】定义了 Coding Agent 时代的工程确定性标准。指出光靠模型聪明不够，必须靠 Linters/Verifiers 构筑确定性防护网；同时 Vercel 引入 Cloud Run 核心操盘手也释放了 Serverless 计算转向 Agent 沙箱的强烈行业信号。</p>
+      <p class="item-summary">Vercel CEO Guillermo Rauch 提出核心技术断言：&#039;验证器（Verifiers）+ 技能（Skills）就是 AI 时代的新应用框架&#039;，强调 Agent 的能力上限完全取决于为其配备的检查器、编译器与 Linter。同时宣布 Google Cloud Run 创造者 Steren 正式加入 Vercel 主导 Fluid 系列计算产品，为 Agent 时代构建全新原语。</p>
+      
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">智能体（Agents）的能力上限，完全取决于你为它们提供了多好的校对检查器、编译器、类型系统以及 Linter。shadcn/lint 能够帮助 Agent 严格遵循你的设计系统规范。从更高视角来看：验证器（Verifiers）+ 技能（Skills）正是 AI 时代的全新&#039;应用框架&#039;！
 
 同时热烈欢迎 Google Cloud Run 的创造者 Steren 正式加入 Vercel。他将统领 Vercel 的 Fluid 计算产品家族（涵盖 Functions、Containers、Sandbox 以及 Builds）。Serverless 是云计算的上一篇章，Steren 曾在 Google 参与定义了这一范式；而智能体（Agents）则是下一代技术疆界，它们需要专门为其打造的全新计算原语。非常期待 Steren 再次带领我们完成这一范式跃迁。</div>
-        </div>
-      </div>
-
-      <!-- 3. 推荐理由 -->
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">定义了 Coding Agent 时代的工程确定性标准。指出光靠模型聪明不够，必须靠 Linters/Verifiers 构筑确定性防护网；同时 Vercel 引入 Cloud Run 核心操盘手也释放了 Serverless 计算转向 Agent 沙箱的强烈行业信号。</div>
-      </div>
-
-      <!-- 4. 原文链接与工具 -->
-      <div class="card-footer">
+    </div>
+  
+      <footer class="item-footer">
         <a class="source-link" href="https://x.com/rauchg/status/2099568700278100155" target="_blank" rel="noopener noreferrer">
-          🔗 查看推文原文 ↗
+          一手信源 ↗
         </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
     </article>
   
-    <article class="item-card" data-type="x">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar"></div>
-          <div class="author-details">
-            <span class="author-name">Boris Cherny</span>
-            <span class="author-role">Claude Code @ Anthropic</span>
-          </div>
-        </div>
-        <span class="source-badge badge-x">X / 推特</span>
+    <article class="news-item priority-normal" id="x-bcherny-3">
+      <div class="item-category-wrap">
+        <span class="item-category">开源生产力工具</span>
+        
       </div>
-
-      <!-- 1. 中文总结 -->
-      <div class="section-block">
-        <div class="section-label label-summary">💡 中文总结</div>
-        <div class="summary-box">Anthropic Claude Code 核心工程师 Boris Cherny 宣布&#039;Claude Mods（模组扩展系统）&#039;正式落地，甚至已有社区开发者在 Claude 内部成功运行了俄罗斯方块模组，展示了 Coding Agent 强大的工具可扩展性与模块化生态潜力。</div>
-      </div>
-
-      <!-- 2. 中文全文翻译（支持折叠展开） -->
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 中文全文翻译</span>
-            <span class="arrow">▼ 展开全文翻译</span>
-          </button>
-          <div class="translation-content">Claude Mods（模组扩展系统）现已正式推出！已经有开发者在 Claude 内部构建了一个俄罗斯方块模组 🤯。欢迎查看 GitHub Issue 获取最新的社区进展、底层技术实现细节以及更多炫酷的 Demo 演示：https://t.co/A15qGUZ6nx</div>
-        </div>
-      </div>
-
-      <!-- 3. 推荐理由 -->
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">如同 VS Code 的插件生态，Claude Code 正在通过 Mods 机制走向真正的平台化，开发者可以为其编写定制化工具与交互插件，这是终端 Agent 走向繁荣的关键里程碑。</div>
-      </div>
-
-      <!-- 4. 原文链接与工具 -->
-      <div class="card-footer">
+      <h2 class="item-title">Anthropic Claude Code 核心工程师 Boris Cher...</h2>
+      
+    <div class="item-author">
+      <strong>Boris Cherny</strong>
+      <span>· Claude Code @ Anthropic</span>
+    </div>
+  
+      <p class="item-brief">【为何关注】如同 VS Code 的插件生态，Claude Code 正在通过 Mods 机制走向真正的平台化，开发者可以为其编写定制化工具与交互插件，这是终端 Agent 走向繁荣的关键里程碑。</p>
+      <p class="item-summary">Anthropic Claude Code 核心工程师 Boris Cherny 宣布&#039;Claude Mods（模组扩展系统）&#039;正式落地，甚至已有社区开发者在 Claude 内部成功运行了俄罗斯方块模组，展示了 Coding Agent 强大的工具可扩展性与模块化生态潜力。</p>
+      
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">Claude Mods（模组扩展系统）现已正式推出！已经有开发者在 Claude 内部构建了一个俄罗斯方块模组 🤯。欢迎查看 GitHub Issue 获取最新的社区进展、底层技术实现细节以及更多炫酷的 Demo 演示：https://t.co/A15qGUZ6nx</div>
+    </div>
+  
+      <footer class="item-footer">
         <a class="source-link" href="https://x.com/bcherny/status/2099551291601248485" target="_blank" rel="noopener noreferrer">
-          🔗 查看推文原文 ↗
+          一手信源 ↗
         </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
     </article>
   
-    <article class="item-card" data-type="x">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar"></div>
-          <div class="author-details">
-            <span class="author-name">Thariq</span>
-            <span class="author-role">Engineer @ Anthropic (Claude Code Team)</span>
-          </div>
-        </div>
-        <span class="source-badge badge-x">X / 推特</span>
+    <article class="news-item priority-normal" id="x-trq212-4">
+      <div class="item-category-wrap">
+        <span class="item-category">开源生产力工具</span>
+        
       </div>
-
-      <!-- 1. 中文总结 -->
-      <div class="section-block">
-        <div class="section-label label-summary">💡 中文总结</div>
-        <div class="summary-box">Anthropic Claude Code 团队核心工程师 Thariq 做客 Latent Space 播客，首次深度揭秘构建终端智能体 Claude Code 的底层技术内幕：团队如何跟上底层模型能力的飞速跃迁，以及在 AI 编程席卷全球的当下，工程师们对传统软件工程时代的怀念与反思。</div>
-      </div>
-
-      <!-- 2. 中文全文翻译（支持折叠展开） -->
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 中文全文翻译</span>
-            <span class="arrow">▼ 展开全文翻译</span>
-          </button>
-          <div class="translation-content">刚刚在 Latent Space 播客完成了节目录制。我对此感到非常兴奋——我们深入探讨了许多极其硬核、此前极少公开的技术细节。我与 Sid 和 Robert 深入探讨了构建 Claude Code 的整个过程：整个行业发生了怎样翻天覆地的变化、要跟上模型飞速进化的能力有多么艰难，以及我们有多么怀念 AI 出现之前的传统软件工程时代。</div>
-        </div>
-      </div>
-
-      <!-- 3. 推荐理由 -->
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">Claude Code 是当前全球最顶尖的终端级 Coding Agent 之一，其核心作者首次长篇公开剖析技术设计取舍，是理解 AI 辅助编程演进路线的绝佳一手资料。</div>
-      </div>
-
-      <!-- 4. 原文链接与工具 -->
-      <div class="card-footer">
+      <h2 class="item-title">Anthropic Claude Code 团队核心工程师 Thariq 做...</h2>
+      
+    <div class="item-author">
+      <strong>Thariq</strong>
+      <span>· Engineer @ Anthropic (Claude Code Team)</span>
+    </div>
+  
+      <p class="item-brief">【为何关注】Claude Code 是当前全球最顶尖的终端级 Coding Agent 之一，其核心作者首次长篇公开剖析技术设计取舍，是理解 AI 辅助编程演进路线的绝佳一手资料。</p>
+      <p class="item-summary">Anthropic Claude Code 团队核心工程师 Thariq 做客 Latent Space 播客，首次深度揭秘构建终端智能体 Claude Code 的底层技术内幕：团队如何跟上底层模型能力的飞速跃迁，以及在 AI 编程席卷全球的当下，工程师们对传统软件工程时代的怀念与反思。</p>
+      
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">刚刚在 Latent Space 播客完成了节目录制。我对此感到非常兴奋——我们深入探讨了许多极其硬核、此前极少公开的技术细节。我与 Sid 和 Robert 深入探讨了构建 Claude Code 的整个过程：整个行业发生了怎样翻天覆地的变化、要跟上模型飞速进化的能力有多么艰难，以及我们有多么怀念 AI 出现之前的传统软件工程时代。</div>
+    </div>
+  
+      <footer class="item-footer">
         <a class="source-link" href="https://x.com/trq212/status/2099553641212879008" target="_blank" rel="noopener noreferrer">
-          🔗 查看推文原文 ↗
+          一手信源 ↗
         </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
     </article>
   
-    <article class="item-card" data-type="x">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar"></div>
-          <div class="author-details">
-            <span class="author-name">Josh Woodward</span>
-            <span class="author-role">VP @ Google Labs &amp; Gemini App</span>
-          </div>
-        </div>
-        <span class="source-badge badge-x">X / 推特</span>
+    <article class="news-item priority-normal" id="x-joshwoodward-5">
+      <div class="item-category-wrap">
+        <span class="item-category">大模型与技术突破</span>
+        
       </div>
-
-      <!-- 1. 中文总结 -->
-      <div class="section-block">
-        <div class="section-label label-summary">💡 中文总结</div>
-        <div class="summary-box">Google Labs 与 Gemini 业务负责人 Josh Woodward 透露，Gemini 高级用户群组已完成 20 多个早期功能的打磨，目前正在向新批次用户开放&#039;每日简报 (Daily Brief)&#039;与&#039;个人智能 (Personal Intelligence)&#039;的抢先内测，同时向全球招募顶尖设计师共同定义下一代 AI 界面交互范式。</div>
-      </div>
-
-      <!-- 2. 中文全文翻译（支持折叠展开） -->
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 中文全文翻译</span>
-            <span class="arrow">▼ 展开全文翻译</span>
-          </button>
-          <div class="translation-content">快来和我们一起做设计吧！2 个月前，我们建立了一个 Gemini 高级用户体验群组，用于在 App 中内测早期功能。在测试了 20 多个功能后，收到的社区反馈令人惊叹，由衷感谢大家！现在，新一批用户正在获得关于&#039;每日简报（Daily Brief）&#039;与&#039;个人智能（Personal Intelligence）&#039;下一代体验的抢先体验权限，我们将持续吸纳新成员。欢迎加入我们的社群。</div>
-        </div>
-      </div>
-
-      <!-- 3. 推荐理由 -->
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">Google Labs 正将大模型从单一的被动问答框，推向具备主动服务与个性化规划的&#039;每日简报&#039;。这代表了消费级 AI 助手最重要的形态跃迁。</div>
-      </div>
-
-      <!-- 4. 原文链接与工具 -->
-      <div class="card-footer">
+      <h2 class="item-title">Google Labs 与 Gemini 业务负责人 Josh Woodwa...</h2>
+      
+    <div class="item-author">
+      <strong>Josh Woodward</strong>
+      <span>· VP @ Google Labs &amp; Gemini App</span>
+    </div>
+  
+      <p class="item-brief">【为何关注】Google Labs 正将大模型从单一的被动问答框，推向具备主动服务与个性化规划的&#039;每日简报&#039;。这代表了消费级 AI 助手最重要的形态跃迁。</p>
+      <p class="item-summary">Google Labs 与 Gemini 业务负责人 Josh Woodward 透露，Gemini 高级用户群组已完成 20 多个早期功能的打磨，目前正在向新批次用户开放&#039;每日简报 (Daily Brief)&#039;与&#039;个人智能 (Personal Intelligence)&#039;的抢先内测，同时向全球招募顶尖设计师共同定义下一代 AI 界面交互范式。</p>
+      
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">快来和我们一起做设计吧！2 个月前，我们建立了一个 Gemini 高级用户体验群组，用于在 App 中内测早期功能。在测试了 20 多个功能后，收到的社区反馈令人惊叹，由衷感谢大家！现在，新一批用户正在获得关于&#039;每日简报（Daily Brief）&#039;与&#039;个人智能（Personal Intelligence）&#039;下一代体验的抢先体验权限，我们将持续吸纳新成员。欢迎加入我们的社群。</div>
+    </div>
+  
+      <footer class="item-footer">
         <a class="source-link" href="https://x.com/joshwoodward/status/2099574899555930114" target="_blank" rel="noopener noreferrer">
-          🔗 查看推文原文 ↗
+          一手信源 ↗
         </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
     </article>
   
-    <article class="item-card" data-type="x">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar"></div>
-          <div class="author-details">
-            <span class="author-name">Matt Turck</span>
-            <span class="author-role">Partner @ FirstMark, Host @ Data Driven NYC</span>
-          </div>
-        </div>
-        <span class="source-badge badge-x">X / 推特</span>
+    <article class="news-item priority-normal" id="x-mattturck-6">
+      <div class="item-category-wrap">
+        <span class="item-category">AI 投资与商业</span>
+        
       </div>
-
-      <!-- 1. 中文总结 -->
-      <div class="section-block">
-        <div class="section-label label-summary">💡 中文总结</div>
-        <div class="summary-box">知名投资人 Matt Turck 针对近期的讨论直言：AI 的演进速度绝对不可能放缓。不管是国内还是全球竞争格局，入局者过多、商业经济利益极其巨大，博弈论中的&#039;囚徒困境&#039;正促使每一个参与方全力向前冲刺。</div>
-      </div>
-
-      <!-- 2. 中文全文翻译（支持折叠展开） -->
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 中文全文翻译</span>
-            <span class="arrow">▼ 展开全文翻译</span>
-          </button>
-          <div class="translation-content">好了，虽然这个周末大家讨论得很热闹，但我们都很清楚 AI 的进化步伐绝不可能慢下来，对吧？赛道里的玩家太多、潜在的经济激励太诱人，而且无论在国内市场还是跨国竞争中，都存在着极强的囚徒困境，任何人都无法承受停下脚步的代价。</div>
-        </div>
-      </div>
-
-      <!-- 3. 推荐理由 -->
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">从博弈论和商业利益底层剖析了 AI 军备竞赛不可逆的底层动力，直截了当打破了所谓的&#039;AI 发展进入平台期/减速期&#039;的幻想。</div>
-      </div>
-
-      <!-- 4. 原文链接与工具 -->
-      <div class="card-footer">
+      <h2 class="item-title">知名投资人 Matt Turck 针对近期的讨论直言：AI 的演进速度绝对不...</h2>
+      
+    <div class="item-author">
+      <strong>Matt Turck</strong>
+      <span>· Partner @ FirstMark, Host @ Data Driven NYC</span>
+    </div>
+  
+      <p class="item-brief">【为何关注】从博弈论和商业利益底层剖析了 AI 军备竞赛不可逆的底层动力，直截了当打破了所谓的&#039;AI 发展进入平台期/减速期&#039;的幻想。</p>
+      <p class="item-summary">知名投资人 Matt Turck 针对近期的讨论直言：AI 的演进速度绝对不可能放缓。不管是国内还是全球竞争格局，入局者过多、商业经济利益极其巨大，博弈论中的&#039;囚徒困境&#039;正促使每一个参与方全力向前冲刺。</p>
+      
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">好了，虽然这个周末大家讨论得很热闹，但我们都很清楚 AI 的进化步伐绝不可能慢下来，对吧？赛道里的玩家太多、潜在的经济激励太诱人，而且无论在国内市场还是跨国竞争中，都存在着极强的囚徒困境，任何人都无法承受停下脚步的代价。</div>
+    </div>
+  
+      <footer class="item-footer">
         <a class="source-link" href="https://x.com/mattturck/status/2099516315698442615" target="_blank" rel="noopener noreferrer">
-          🔗 查看推文原文 ↗
+          一手信源 ↗
         </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
     </article>
   
-    <article class="item-card" data-type="x">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar"></div>
-          <div class="author-details">
-            <span class="author-name">Nikunj Kothari</span>
-            <span class="author-role">Investor, former builder</span>
-          </div>
-        </div>
-        <span class="source-badge badge-x">X / 推特</span>
+    <article class="news-item priority-normal" id="x-nikunj-7">
+      <div class="item-category-wrap">
+        <span class="item-category">AI 投资与商业</span>
+        
       </div>
-
-      <!-- 1. 中文总结 -->
-      <div class="section-block">
-        <div class="section-label label-summary">💡 中文总结</div>
-        <div class="summary-box">Nikunj Kothari 详述领投 Piston A 轮的商业逻辑：全美每年燃油支出数千亿美元，传统加油卡充斥盗刷与对账痛点。Piston 通过自建闭环支付网络与全美 2000 多个加油站 POS 系统直连，帮助车队直接杜绝燃油欺诈，支付量暴增 8 倍，客户留存超 98%。</div>
-      </div>
-
-      <!-- 2. 中文全文翻译（支持折叠展开） -->
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 中文全文翻译</span>
-            <span class="arrow">▼ 展开全文翻译</span>
-          </button>
-          <div class="translation-content">我长期以来一直对&#039;闭环支付&#039;着迷，希望能找到真正解决产业痛点的硬核公司。今天非常高兴领投 Piston（piston.com）的 A 轮融资并加入董事会。仅在美国，燃油消费就高达数千亿美元，传统加油卡不仅没有绑定具体司机，还极易被盗刷、复制或滥用，车队老板只能默默承担损失并耗费大量时间对账。
+      <h2 class="item-title">Nikunj Kothari 详述领投 Piston A 轮的商业逻辑：全美...</h2>
+      
+    <div class="item-author">
+      <strong>Nikunj Kothari</strong>
+      <span>· Investor, former builder</span>
+    </div>
+  
+      <p class="item-brief">【为何关注】教科书级别的 Vertical Fintech（垂直行业金融科技）案例，用底层软硬件直连取代修补旧系统，对于关注 AI+产业数字化落地的创业者极具启发。</p>
+      <p class="item-summary">Nikunj Kothari 详述领投 Piston A 轮的商业逻辑：全美每年燃油支出数千亿美元，传统加油卡充斥盗刷与对账痛点。Piston 通过自建闭环支付网络与全美 2000 多个加油站 POS 系统直连，帮助车队直接杜绝燃油欺诈，支付量暴增 8 倍，客户留存超 98%。</p>
+      
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">我长期以来一直对&#039;闭环支付&#039;着迷，希望能找到真正解决产业痛点的硬核公司。今天非常高兴领投 Piston（piston.com）的 A 轮融资并加入董事会。仅在美国，燃油消费就高达数千亿美元，传统加油卡不仅没有绑定具体司机，还极易被盗刷、复制或滥用，车队老板只能默默承担损失并耗费大量时间对账。
 
 Piston 彻底颠覆了加油卡模式——它直接抛弃实体卡，建立自身的直连支付清算通道，每一笔交易都与具体司机、时间、位置和燃油类型精准绑定。Piston 已接入全美 48 个州的 2000 多个加油站 POS 系统，车队零成本接入即可立竿见影降低燃油支出，留存率高达 98% 以上。</div>
-        </div>
-      </div>
-
-      <!-- 3. 推荐理由 -->
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">教科书级别的 Vertical Fintech（垂直行业金融科技）案例，用底层软硬件直连取代修补旧系统，对于关注 AI+产业数字化落地的创业者极具启发。</div>
-      </div>
-
-      <!-- 4. 原文链接与工具 -->
-      <div class="card-footer">
+    </div>
+  
+      <footer class="item-footer">
         <a class="source-link" href="https://x.com/nikunj/status/2099496123456789012" target="_blank" rel="noopener noreferrer">
-          🔗 查看推文原文 ↗
+          一手信源 ↗
         </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
     </article>
   
-    <article class="item-card" data-type="x">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar"></div>
-          <div class="author-details">
-            <span class="author-name">Amanda Askell</span>
-            <span class="author-role">Philosopher &amp; Alignment @ Anthropic</span>
-          </div>
-        </div>
-        <span class="source-badge badge-x">X / 推特</span>
+    <article class="news-item priority-normal" id="x-AmandaAskell-8">
+      <div class="item-category-wrap">
+        <span class="item-category">大模型与技术突破</span>
+        
       </div>
-
-      <!-- 1. 中文总结 -->
-      <div class="section-block">
-        <div class="section-label label-summary">💡 中文总结</div>
-        <div class="summary-box">Anthropic 负责模型对齐与哲学的核心研究员 Amanda Askell 针对 AI 人格塑造、系统温度与智能体认知边界展开了有趣的深度互动。</div>
-      </div>
-
-      <!-- 2. 中文全文翻译（支持折叠展开） -->
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 中文全文翻译</span>
-            <span class="arrow">▼ 展开全文翻译</span>
-          </button>
-          <div class="translation-content">老实说，她听起来真的非常酷。</div>
-        </div>
-      </div>
-
-      <!-- 3. 推荐理由 -->
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">展现了负责顶尖大模型伦理对齐与人设塑造的核心科学家在一线日常中的敏锐观察。</div>
-      </div>
-
-      <!-- 4. 原文链接与工具 -->
-      <div class="card-footer">
+      <h2 class="item-title">Anthropic 负责模型对齐与哲学的核心研究员 Amanda Askel...</h2>
+      
+    <div class="item-author">
+      <strong>Amanda Askell</strong>
+      <span>· Philosopher &amp; Alignment @ Anthropic</span>
+    </div>
+  
+      <p class="item-brief">【为何关注】展现了负责顶尖大模型伦理对齐与人设塑造的核心科学家在一线日常中的敏锐观察。</p>
+      <p class="item-summary">Anthropic 负责模型对齐与哲学的核心研究员 Amanda Askell 针对 AI 人格塑造、系统温度与智能体认知边界展开了有趣的深度互动。</p>
+      
+    <div class="item-expand-box">
+      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
+      <div class="expand-content">老实说，她听起来真的非常酷。</div>
+    </div>
+  
+      <footer class="item-footer">
         <a class="source-link" href="https://x.com/AmandaAskell/status/2099551234567890123" target="_blank" rel="noopener noreferrer">
-          🔗 查看推文原文 ↗
+          一手信源 ↗
         </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
+        <button class="copy-btn" type="button">复制精要</button>
+      </footer>
     </article>
   
-      
-    <article class="item-card" data-type="blog">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar" style="background: linear-gradient(135deg, #a855f7, #6366f1); display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:1.2rem;">B</div>
-          <div class="author-details">
-            <span class="author-name">Anthropic Engineering</span>
-            <span class="author-role">How we contain Claude across products</span>
-          </div>
-        </div>
-        <span class="source-badge badge-blog">技术博客</span>
-      </div>
+    </main>
 
-      <div class="section-block">
-        <div class="section-label label-summary">💡 核心要点</div>
-        <div class="summary-box">Anthropic 工程团队发布长文，详细披露了在全线产品中如何对 Claude 实施沙箱隔离与安全容器化治理。为了防御 Prompt 注入、恶意外联与环境逃逸，Anthropic 建立了一套纵深防御容器机制，将不可信代码与外部工具调用限制在瞬态微虚拟机中，同时确保毫秒级冷启动延迟。</div>
+    <!-- 报尾 -->
+    <footer class="newspaper-footer">
+      <div class="footer-divider"></div>
+      <div class="footer-content">
+        <p>《Luke的一手消息》由 GitHub Actions 每日自动搜集、提炼、排版与部署发布。</p>
+        <p>涵盖大模型与技术突破 · 开源生产力工具 · AI 投资与商业 · 论文前沿 | 纯净无依赖 · 打开即读</p>
       </div>
-
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 核心内容译文</span>
-            <span class="arrow">▼ 展开译文</span>
-          </button>
-          <div class="translation-content">随着 Claude 越来越深入地与终端、文件系统和外部 API 交互，传统的基于提示词的安全防线已远远不够。Anthropic Engineering 团队在本文中完整剖析了跨产品隔离 Claude 运行环境的底层架构。我们采用了基于轻量级微虚拟化（Micro-VMs）的隔离技术，每一次执行外部代码或处理不可信文档时，都在一个生命周期极短的独立沙箱中进行。网络出栈访问默认白名单阻断，敏感系统调用由专用安全监视器接管，从而在防御恶意代码注入的同时，兼顾开发者的交互实时性。</div>
-        </div>
-      </div>
-
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">随着 Coding Agent 与 Computer Use 普及，沙箱安全隔离成为每一个 Agent 开发者不可回避的硬门槛。Anthropic 官方开源披露其微 VM 容器治理方案，是当前工程实现的行业标杆。</div>
-      </div>
-
-      <div class="card-footer">
-        <a class="source-link" href="https://www.anthropic.com/engineering/how-we-contain-claude" target="_blank" rel="noopener noreferrer">
-          🔗 查阅官方博客全文 ↗
-        </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
-    </article>
-  
-    <article class="item-card" data-type="blog">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar" style="background: linear-gradient(135deg, #a855f7, #6366f1); display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:1.2rem;">B</div>
-          <div class="author-details">
-            <span class="author-name">Claude Blog</span>
-            <span class="author-role">Advancing Constitutional AI for Model Safety</span>
-          </div>
-        </div>
-        <span class="source-badge badge-blog">技术博客</span>
-      </div>
-
-      <div class="section-block">
-        <div class="section-label label-summary">💡 核心要点</div>
-        <div class="summary-box">Claude 官方博客阐述了 Constitutional AI（宪政 AI）在最新一代模型中的迭代演进。模型不再依靠大量人工标注进行硬编码对齐，而是通过一套明确的原则宪章指导自我评测与迭代修正，显著减少过度拒答与虚假谄媚现象。</div>
-      </div>
-
-      <div class="section-block">
-        <div class="translation-box">
-          <button class="translation-toggle" type="button">
-            <span>📄 核心内容译文</span>
-            <span class="arrow">▼ 展开译文</span>
-          </button>
-          <div class="translation-content">宪政 AI（Constitutional AI）是我们确保模型行为安全、有益且符合伦理的核心基石。在本篇更新中，我们分享了原则库如何根据真实世界交互反馈进行动态修正。通过引入更严格的自我博弈红蓝对抗评估机制，新模型在识别潜在高危风险指令的同时，对良性边界请求的误伤率降低了 42%，在保持坦诚与直接的同时，彻底消除了过往模型常见的机械式生硬拒答。</div>
-        </div>
-      </div>
-
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">对于研究大模型安全对齐、Prompt 评测与治理体系的团队而言，这篇博客提供了 Anthropic 最具代表性的对齐演进思考。</div>
-      </div>
-
-      <div class="card-footer">
-        <a class="source-link" href="https://claude.com/blog" target="_blank" rel="noopener noreferrer">
-          🔗 查阅官方博客全文 ↗
-        </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
-    </article>
-  
-      
-    <article class="item-card" data-type="podcast">
-      <div class="card-header">
-        <div class="author-info">
-          <div class="author-avatar" style="background: linear-gradient(135deg, #10b981, #059669); display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:1.2rem;">🎙️</div>
-          <div class="author-details">
-            <span class="author-name">AI &amp; I by Every</span>
-            <span class="author-role">How a Professional Writer Writes With AI</span>
-          </div>
-        </div>
-        <span class="source-badge badge-podcast">深度播客</span>
-      </div>
-
-      <div class="section-block">
-        <div class="section-label label-summary">💡 核心观点与金句</div>
-        <div class="summary-box">本期播客探讨专业作家与写作者如何真正驾驭 AI。核心 Takeaway：优秀的写作者不把 AI 当作&#039;代笔工具&#039;，而是当作&#039;苏格拉底式的思维辩论对手&#039;。嘉宾通过现场拆解长篇非虚构写作流程，展示了如何用 AI 打破写作瓶颈、重构论证逻辑，以及如何避免 AI 输出带来的平庸空洞文本风格。</div>
-      </div>
-
-      <div class="section-block">
-        <div class="section-label label-rec">🎯 为什么值得看</div>
-        <div class="recommend-box">强烈推荐所有知识工作者、产品经理与创作者收听。跳出了浅层的&#039;提示词生成文章&#039;范式，直击如何利用 AI 深度反思与增强人类自身的心智能力。</div>
-      </div>
-
-      
-    <div class="section-block" style="margin-top: 1rem;">
-      <div class="translation-box">
-        <button class="translation-toggle" type="button">
-          <span>📼 播客单集听力文稿与完整译本（附录）</span>
-          <span class="arrow">▼ 展开完整文稿</span>
-        </button>
-        <div class="translation-content" style="max-height: 400px; overflow-y: auto;">Speaker 1 | 00:00 - 00:35
-人类习惯了非确定性系统的协作，但在写作中，最大的恐惧从来不是空白页面，而是思维的狭隘。AI 给我们带来的最大价值，不是写得更快，而是让我们想得更深……
-
-Speaker 2 | 00:35 - 01:20
-大多数人在使用 LLM 写作时犯的第一个错误就是把整个构思交给它。你得到的是完美的平均值、平庸的平庸之作。但是当你用具体的先验条件束缚它，要求它攻击你最薄弱的前提时，魔法就发生了……
-
-（播客全长 48 分钟，完整精校文稿已归档于知识库）</div>
-      </div>
-    </div>
-  
-
-      <div class="card-footer">
-        <a class="source-link" href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL" target="_blank" rel="noopener noreferrer">
-          🔗 收听或观看本期播客 ↗
-        </a>
-        <div class="action-tools">
-          <button class="tool-btn btn-copy" type="button">复制精要</button>
-        </div>
-      </div>
-    </article>
-  
-    </div>
-  </main>
-
-  <footer class="footer">
-    <p>AI Builders 日报 · 坚持关注拥有原创观点的 Builders · 每日自动更新与归档维护</p>
-    <p style="margin-top: 0.5rem; opacity: 0.7;">数据由 GitHub 上游开源仓库定时聚合 · 纯静态生成部署</p>
-  </footer>
+    </footer>
+  </div>
 
   <script src="../assets/app.js"></script>
 </body>
