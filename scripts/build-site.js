@@ -88,6 +88,26 @@ function calculateHeatScore(item) {
   return score || 100;
 }
 
+// 格式化热度数值 (如 28820 -> 28.8k)
+function formatHeatNumber(score) {
+  if (score >= 10000) {
+    return (score / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+  }
+  if (score >= 1000) {
+    return (score / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+  }
+  return String(score);
+}
+
+// 提炼并精简作者所属机构/角色，去除冗长杂乱 handle 尾巴
+function cleanAuthorRole(role) {
+  if (!role) return '';
+  let clean = role.split('.')[0].trim();
+  clean = clean.replace(/^(CEO|Founder|VP|Lead|Researcher|Engineer|Creator)\s*,\s*/i, '');
+  if (clean.length > 26) clean = clean.slice(0, 24) + '...';
+  return clean;
+}
+
 // 提取并结构化当天所有新闻条目
 function extractAndRankNews(digest) {
   const rawList = [];
@@ -95,9 +115,9 @@ function extractAndRankNews(digest) {
   // 1. 推文聚合
   for (const x of (digest.sections?.x || [])) {
     const heat = calculateHeatScore(x);
-    // 生成精炼标题
-    let title = x.summary.split('。')[0] || `${x.author} 最新前沿观察`;
-    if (title.length > 40) title = title.slice(0, 38) + '...';
+    // 生成精炼标题 (不再粗暴截断至 38 字，完整保留核心陈述交由 CSS line-clamp 自然断行)
+    let title = (x.summary.split('。')[0] || `${x.author} 最新前沿观察`).trim();
+    if (title.length > 80) title = title.slice(0, 78) + '...';
 
     rawList.push({
       id: `x-${x.handle || 'tweet'}-${rawList.length + 1}`,
@@ -117,11 +137,14 @@ function extractAndRankNews(digest) {
 
   // 2. 技术博客
   for (const b of (digest.sections?.blogs || [])) {
+    let title = (b.title || `${b.sourceName} 深度工程长文`).trim();
+    if (title.length > 80) title = title.slice(0, 78) + '...';
+
     rawList.push({
       id: `blog-${rawList.length + 1}`,
       author: b.sourceName,
       role: '官方技术博客',
-      title: b.title || `${b.sourceName} 深度工程长文`,
+      title: title,
       brief: b.recommendation ? `【推荐理由】${b.recommendation}` : '',
       summary: b.summary,
       translation: b.translation,
@@ -135,11 +158,14 @@ function extractAndRankNews(digest) {
 
   // 3. 播客
   for (const p of (digest.sections?.podcasts || [])) {
+    let title = (p.title || `${p.sourceName} 深度访谈`).trim();
+    if (title.length > 80) title = title.slice(0, 78) + '...';
+
     rawList.push({
       id: `podcast-${rawList.length + 1}`,
       author: p.sourceName,
       role: '深度 AI 播客',
-      title: p.title || `${p.sourceName} 深度访谈`,
+      title: title,
       brief: p.recommendation ? `【核心提炼】${p.recommendation}` : '',
       summary: p.summary,
       translation: p.translation,
@@ -167,41 +193,80 @@ function extractAndRankNews(digest) {
   });
 }
 
-// 渲染单个复古报纸新闻模块
+// 渲染单个复古报纸新闻卡片 (RedSun 黄金 3 列紧凑 5 层架构)
 function renderNewsItem(item) {
-  const heatBadge = item.heat > 100 ? `<span class="item-heat">🔥 热度 ${item.heat}</span>` : '';
+  const heatFormatted = formatHeatNumber(item.heat);
+  const heatBadge = item.heat > 100 ? `
+    <span class="heat-pill item-heat" title="热度指数 ${item.heat}">
+      <span class="pulse-dot"></span>
+      <span class="heat-num">${heatFormatted}</span>
+    </span>
+  ` : '';
+
+  const cleanedRole = cleanAuthorRole(item.role);
   const authorInfo = item.author ? `
-    <div class="item-author">
-      <strong>${escapeHtml(item.author)}</strong>
-      ${item.role ? `<span>· ${escapeHtml(item.role)}</span>` : ''}
+    <span class="author-label item-author" title="${escapeHtml(item.author)}${cleanedRole ? ' · ' + escapeHtml(cleanedRole) : ''}">
+      <strong>${escapeHtml(item.author)}</strong>${cleanedRole ? `<span> · ${escapeHtml(cleanedRole)}</span>` : ''}
+    </span>
+  ` : '';
+
+  let briefText = item.brief || '';
+  let cleanBrief = briefText.replace(/^【(?:为何关注|推荐理由|核心提炼)】\s*/, '').trim();
+  const insightHtml = cleanBrief ? `
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">${escapeHtml(cleanBrief)}</p>
     </div>
   ` : '';
 
-  const expandHtml = item.translation ? `
-    <div class="item-expand-box">
-      <button class="expand-toggle" type="button">▼ 展开深度译文与细节</button>
-      <div class="expand-content">${escapeHtml(item.translation)}</div>
+  const drawerHtml = `
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle" type="button" aria-expanded="false">
+        <span class="trigger-icon">▼</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content">
+        <p class="drawer-summary item-summary">${escapeHtml(item.summary)}</p>
+        ${item.translation ? `
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">${escapeHtml(item.translation)}</div>
+          </div>
+        ` : ''}
+      </div>
     </div>
-  ` : '';
+  `;
 
   return `
-    <article class="news-item priority-${item.priority}" id="${escapeHtml(item.id)}" data-category="${escapeHtml(item.category)}">
-      <div class="item-category-wrap">
-        <span class="item-category">${escapeHtml(item.category)}</span>
-        ${heatBadge}
-      </div>
-      <h2 class="item-title">${escapeHtml(item.title)}</h2>
-      ${authorInfo}
-      ${item.brief ? `<p class="item-brief">${escapeHtml(item.brief)}</p>` : ''}
-      <p class="item-summary">${escapeHtml(item.summary)}</p>
-      ${expandHtml}
-      <footer class="item-footer">
-        <a class="source-link" href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">
-          一手信源 ↗
+    <article class="news-item news-card tier-${item.priority} priority-${item.priority}" id="${escapeHtml(item.id)}" data-category="${escapeHtml(item.category)}">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">${escapeHtml(item.category)}</span>
+          ${heatBadge}
+        </div>
+        <div class="meta-right">
+          ${authorInfo}
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">${escapeHtml(item.title)}</h3>
+
+      ${insightHtml}
+
+      ${drawerHtml}
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link" href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
         </a>
-        <div class="item-footer-actions">
-          <button class="share-poster-btn" type="button" title="一键生成视觉分享海报">📸 海报</button>
-          <button class="copy-btn" type="button">复制精编</button>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
         </div>
       </footer>
     </article>
