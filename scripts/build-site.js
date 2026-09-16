@@ -232,13 +232,11 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@600;700;800;900&display=swap" rel="stylesheet">
   <style>
-    /* 强力防御浏览器默认系统按钮样式污染 */
+    /* 浏览器原生按钮外观安全重置 (允许类名覆盖 background 与 border) */
     button, select {
-      -webkit-appearance: none !important;
-      -moz-appearance: none !important;
-      appearance: none !important;
-      background: transparent !important;
-      border: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
       font-family: inherit;
     }
   </style>
@@ -320,10 +318,13 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
       </div>
     </footer>
 
-    <!-- 复古日历弹窗遮罩与容器 -->
+    <!-- 交互式日历弹窗遮罩与容器 -->
     <div class="calendar-modal-backdrop" id="calendar-modal-backdrop">
       <div class="calendar-modal-card">
-        <button class="calendar-close-btn" id="close-calendar-modal" type="button" title="关闭日历">✕</button>
+        <div class="calendar-modal-top">
+          <span class="modal-label">📅 《${escapeHtml(title)}》出版日历</span>
+          <button class="calendar-close-btn" id="close-calendar-modal" type="button" title="关闭日历">✕</button>
+        </div>
         <div id="modal-calendar-container"></div>
       </div>
     </div>
@@ -367,12 +368,11 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@600;700;800;900&display=swap" rel="stylesheet">
   <style>
+    /* 浏览器原生按钮外观安全重置 (允许类名覆盖 background 与 border) */
     button, select {
-      -webkit-appearance: none !important;
-      -moz-appearance: none !important;
-      appearance: none !important;
-      background: transparent !important;
-      border: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
       font-family: inherit;
     }
   </style>
