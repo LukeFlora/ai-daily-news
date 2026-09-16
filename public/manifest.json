@@ -1,0 +1,19 @@
+{
+  "name": "Luke的一手消息 · AI 每日早报",
+  "short_name": "Luke的一手消息",
+  "description": "追踪前沿突破 · 汇聚一手洞见。涵盖大模型技术、开源生产力工具、商业投资与论文前沿。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#060910",
+  "theme_color": "#060910",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -17,21 +17,26 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 2. 复制精要按钮
+  // 2. 复制精要按钮 (格式化海报级文案输出)
   document.querySelectorAll('.copy-btn').forEach(btn => {
     btn.addEventListener('click', async () => {
       const card = btn.closest('.news-item');
       if (!card) return;
       const title = card.querySelector('.item-title')?.textContent?.trim() || '';
+      const brief = card.querySelector('.item-brief')?.textContent?.trim() || '';
       const summary = card.querySelector('.item-summary')?.textContent?.trim() || '';
+      const author = card.querySelector('.item-author strong')?.textContent?.trim() || '';
       const source = card.querySelector('.source-link')?.href || '';
 
-      const textToCopy = `【${title}】\n${summary}\n信源：${source}`;
+      let textToCopy = `📰 《Luke的一手消息》精编\n【${title}】`;
+      if (author) textToCopy += `\n👤 观点作者：${author}`;
+      if (brief) textToCopy += `\n💡 核心提要：${brief}`;
+      textToCopy += `\n📌 深入解读：${summary}\n🔗 一手信源：${source}`;
 
       try {
         await navigator.clipboard.writeText(textToCopy);
         const originalText = btn.textContent;
-        btn.textContent = '✓ 已复制';
+        btn.textContent = '✓ 已复制精编';
         setTimeout(() => {
           btn.textContent = originalText;
         }, 1800);
@@ -52,6 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 6. 返回顶部悬浮微按键 (Phase 2 体验升级)
   initBackToTop();
+
+  // 7. PWA 极速离线阅读与主屏幕支持 (Phase 3 体验升级)
+  initPWA();
 });
 
 function initCalendarWidget() {
@@ -446,6 +454,29 @@ function initBackToTop() {
       behavior: 'smooth'
     });
   });
+}
+
+// 7. PWA 极速离线阅读与主屏幕支持 (Phase 3 体验升级)
+function initPWA() {
+  if ('serviceWorker' in navigator && (window.location.protocol === 'https:' || window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+    window.addEventListener('load', () => {
+      const swPath = `${window.RELATIVE_ROOT || './'}sw.js`;
+      navigator.serviceWorker.register(swPath).then((reg) => {
+        reg.onupdatefound = () => {
+          const installingWorker = reg.installing;
+          if (installingWorker) {
+            installingWorker.onstatechange = () => {
+              if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                console.log('[PWA] 《Luke的一手消息》新一期缓存更新就绪。');
+              }
+            };
+          }
+        };
+      }).catch((err) => {
+        console.warn('[PWA] Service Worker 激活受限:', err);
+      });
+    });
+  }
 }
 
 

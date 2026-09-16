@@ -250,6 +250,14 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeHtml(title)} · ${escapeHtml(digest.date)}">
   <meta name="twitter:description" content="${escapeHtml(title)}：${escapeHtml(motto)}。追踪前沿突破，汇聚一手洞见。">
+  <!-- PWA 与浏览器高清图标 (Phase 3 体验升级) -->
+  <link rel="icon" type="image/svg+xml" href="${relativeRoot}assets/icon.svg">
+  <link rel="apple-touch-icon" href="${relativeRoot}assets/icon.svg">
+  <link rel="manifest" href="${relativeRoot}manifest.json">
+  <meta name="theme-color" content="#060910">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Luke的一手消息">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@600;700;800;900&display=swap" rel="stylesheet">
@@ -452,6 +460,14 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="往期归档 · ${escapeHtml(title)}">
   <meta name="twitter:description" content="《${escapeHtml(title)}》历史总览与往期出版记录。">
+  <!-- PWA 与浏览器高清图标 (Phase 3 体验升级) -->
+  <link rel="icon" type="image/svg+xml" href="${relativeRoot}assets/icon.svg">
+  <link rel="apple-touch-icon" href="${relativeRoot}assets/icon.svg">
+  <link rel="manifest" href="${relativeRoot}manifest.json">
+  <meta name="theme-color" content="#060910">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Luke的一手消息">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@600;700;800;900&display=swap" rel="stylesheet">
@@ -590,6 +606,18 @@ async function main() {
     console.log(`- 静态资源已同步至 public/assets/`);
   }
 
+  // 拷贝 PWA 文件 (manifest.json 与 sw.js) 至 public/ 根目录 (Phase 3 体验升级)
+  const swSrc = join(ROOT_DIR, 'web', 'sw.js');
+  const manifestSrc = join(ROOT_DIR, 'web', 'manifest.json');
+  if (existsSync(swSrc)) {
+    await cp(swSrc, join(PUBLIC_DIR, 'sw.js'));
+    console.log(`- PWA Service Worker 已部署至 public/sw.js`);
+  }
+  if (existsSync(manifestSrc)) {
+    await cp(manifestSrc, join(PUBLIC_DIR, 'manifest.json'));
+    console.log(`- PWA Web App Manifest 已部署至 public/manifest.json`);
+  }
+
   // 4. 生成每一期归档页面 public/archive/YYYY-MM-DD.html
   for (const d of digests) {
     const pageHtml = renderPage({
@@ -645,11 +673,18 @@ async function main() {
 
   await writeFile(join(PUBLIC_DIR, 'data.json'), JSON.stringify(structuredData, null, 2), 'utf-8');
   if (existsSync(join(ROOT_DIR, 'ai-daily-lite'))) {
+    // 单源真理自动化：编译时自动同步样式与矢量图标，杜绝版本漂移
+    if (existsSync(join(ASSETS_SRC, 'style.css'))) {
+      await cp(join(ASSETS_SRC, 'style.css'), join(ROOT_DIR, 'ai-daily-lite', 'style.css'));
+    }
+    if (existsSync(join(ASSETS_SRC, 'icon.svg'))) {
+      await cp(join(ASSETS_SRC, 'icon.svg'), join(ROOT_DIR, 'ai-daily-lite', 'icon.svg'));
+    }
     await writeFile(LITE_DATA_FILE, JSON.stringify(structuredData, null, 2), 'utf-8');
     const litePublicDir = join(PUBLIC_DIR, 'lite');
     await mkdir(litePublicDir, { recursive: true });
     await cp(join(ROOT_DIR, 'ai-daily-lite'), litePublicDir, { recursive: true });
-    console.log(`- 同步更新 ai-daily-lite/ 及 public/lite/`);
+    console.log(`- 同步更新 ai-daily-lite/ 及 public/lite/ (已同步最新样式与矢量图标)`);
   }
 
   console.log(`\n========================================`);
