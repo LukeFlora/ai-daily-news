@@ -8,6 +8,17 @@
 </head>
 <body>
   <div class="newspaper-container">
+    <!-- 顶部导航状态栏 -->
+    <nav class="top-nav-bar">
+      <div class="top-nav-left">
+        <button class="calendar-toggle-btn" id="open-calendar-btn" type="button" title="点击打开交互式月度出版日历">📅 日历查阅</button>
+        <span style="font-size: 0.8rem; color: #7d7363;">📖 每日数字报刊</span>
+      </div>
+      <div class="top-nav-right">
+        <span>⚡ 每日一手更新 · 打开即读</span>
+      </div>
+    </nav>
+
     <!-- 报头区域 -->
     <header class="newspaper-header">
       <div class="header-meta-top">
@@ -32,9 +43,17 @@
     <footer class="newspaper-footer">
       <div class="footer-divider"></div>
       <div class="footer-content">
-        <p>本报内容由本地原生脚本聚合生成 · 纯净无依赖 · 真实信源可溯</p>
+        <p>本报内容由原生内置模块聚合生成 · 纯净无依赖 · 真实信源可溯</p>
       </div>
     </footer>
+
+    <!-- 复古日历弹窗遮罩与容器 -->
+    <div class="calendar-modal-backdrop" id="calendar-modal-backdrop">
+      <div class="calendar-modal-card">
+        <button class="calendar-close-btn" id="close-calendar-modal" type="button" title="关闭日历">✕</button>
+        <div id="modal-calendar-container"></div>
+      </div>
+    </div>
   </div>
 
   <script src="app.js"></script>

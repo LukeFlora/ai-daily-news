@@ -18,7 +18,14 @@
       <p style="color: var(--text-muted);">追踪前沿突破 · 汇聚一手洞见</p>
     </header>
 
+    <!-- 交互式月度日历 -->
+    <section class="inline-calendar-section">
+      <div class="inline-calendar-title">📅 月度出版日历 (点击对应日期直接查阅当天报刊)</div>
+      <div id="inline-calendar-container"></div>
+    </section>
+
     <div class="archive-list">
+      <div class="inline-calendar-title" style="margin-top: 1rem;">📜 往期时间线列表</div>
       
       <a class="archive-row" href="../index.html">
         <div>
@@ -53,5 +60,12 @@
       </div>
     </footer>
   </div>
+
+  <script>
+    window.AVAILABLE_DATES = ["2026-09-16","2026-09-15","2026-09-14"];
+    window.CURRENT_DATE = "2026-09-16";
+    window.RELATIVE_ROOT = "../";
+  </script>
+  <script src="../assets/app.js"></script>
 </body>
 </html>

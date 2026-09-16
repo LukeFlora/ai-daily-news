@@ -112,9 +112,133 @@ function renderContent(data) {
   grid.innerHTML = html;
 }
 
+// 交互式日历组件
+function initCalendarWidget() {
+  const currentDate = new Date().toISOString().slice(0, 10);
+  const parts = currentDate.split('-').map(Number);
+  let viewYear = parts[0];
+  let viewMonth = parts[1] - 1;
+
+  function renderCalendar(container) {
+    if (!container) return;
+
+    const firstDay = new Date(viewYear, viewMonth, 1);
+    const lastDay = new Date(viewYear, viewMonth + 1, 0);
+    const totalDays = lastDay.getDate();
+
+    let startDayOfWeek = firstDay.getDay() - 1;
+    if (startDayOfWeek === -1) startDayOfWeek = 6;
+
+    const prevMonthDays = new Date(viewYear, viewMonth, 0).getDate();
+
+    let html = `
+      <div class="vintage-calendar-box">
+        <div class="calendar-ctrl-header">
+          <button class="cal-nav-btn btn-prev" type="button" title="上一月">◀ 上月</button>
+          <div class="cal-month-title">${viewYear} 年 ${viewMonth + 1} 月</div>
+          <button class="cal-nav-btn btn-next" type="button" title="下一月">下月 ▶</button>
+        </div>
+
+        <div class="cal-weekdays">
+          <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+        </div>
+
+        <div class="cal-days-grid">
+    `;
+
+    for (let i = startDayOfWeek - 1; i >= 0; i--) {
+      html += `<div class="cal-cell cal-other-month">${prevMonthDays - i}</div>`;
+    }
+
+    for (let d = 1; d <= totalDays; d++) {
+      const mStr = String(viewMonth + 1).padStart(2, '0');
+      const dStr = String(d).padStart(2, '0');
+      const fullDate = `${viewYear}-${mStr}-${dStr}`;
+      const isToday = (fullDate === currentDate);
+
+      // 本地单日演示，高亮今日出刊
+      const hasNews = isToday;
+
+      html += `
+        <div class="cal-cell ${hasNews ? 'cal-has-news' : ''} ${isToday ? 'cal-current-active' : ''}">
+          <span class="cal-day-num">${d}</span>
+          ${hasNews ? '<span class="cal-news-dot">📰</span>' : ''}
+        </div>
+      `;
+    }
+
+    const filledCells = startDayOfWeek + totalDays;
+    const tailCells = (7 - (filledCells % 7)) % 7;
+    for (let d = 1; d <= tailCells; d++) {
+      html += `<div class="cal-cell cal-other-month">${d}</div>`;
+    }
+
+    html += `
+        </div>
+        <div class="cal-legend">
+          <span class="legend-item"><span class="legend-badge">📰</span> 有报纸出刊</span>
+          <span class="legend-item"><span class="legend-badge active"></span> 当前阅读日期</span>
+        </div>
+      </div>
+    `;
+
+    container.innerHTML = html;
+
+    container.querySelector('.btn-prev')?.addEventListener('click', () => {
+      viewMonth--;
+      if (viewMonth < 0) {
+        viewMonth = 11;
+        viewYear--;
+      }
+      renderCalendar(container);
+    });
+
+    container.querySelector('.btn-next')?.addEventListener('click', () => {
+      viewMonth++;
+      if (viewMonth > 11) {
+        viewMonth = 0;
+        viewYear++;
+      }
+      renderCalendar(container);
+    });
+  }
+
+  const modalBackdrop = document.getElementById('calendar-modal-backdrop');
+  const modalContainer = document.getElementById('modal-calendar-container');
+  const openBtn = document.getElementById('open-calendar-btn');
+  const closeBtn = document.getElementById('close-calendar-modal');
+
+  if (openBtn && modalBackdrop && modalContainer) {
+    openBtn.addEventListener('click', () => {
+      renderCalendar(modalContainer);
+      modalBackdrop.classList.add('open');
+    });
+
+    closeBtn?.addEventListener('click', () => {
+      modalBackdrop.classList.remove('open');
+    });
+
+    modalBackdrop.addEventListener('click', (e) => {
+      if (e.target === modalBackdrop) {
+        modalBackdrop.classList.remove('open');
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modalBackdrop.classList.contains('open')) {
+        modalBackdrop.classList.remove('open');
+      }
+    });
+  }
+}
+
 // 页面加载完成立即初始化
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', init);
+  document.addEventListener('DOMContentLoaded', () => {
+    init();
+    initCalendarWidget();
+  });
 } else {
   init();
+  initCalendarWidget();
 }

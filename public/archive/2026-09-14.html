@@ -12,6 +12,7 @@
     <!-- 顶部状态栏与往期导航 -->
     <nav class="top-nav-bar">
       <div class="top-nav-left">
+        <button class="calendar-toggle-btn" id="open-calendar-btn" type="button" title="点击打开交互式月度出版日历">📅 日历查阅</button>
         <span>📖 往期回顾：</span>
         <select class="vintage-select" onchange="if(this.value) location.href=this.value;">
           <option value="../index.html" >2026-09-16</option><option value="../archive/2026-09-15.html" >2026-09-15</option><option value="../archive/2026-09-14.html" selected>2026-09-14</option>
@@ -159,8 +160,21 @@
         <p>涵盖大模型与技术突破 · 开源生产力工具 · AI 投资与商业 · 论文前沿 | 纯净无依赖 · 打开即读</p>
       </div>
     </footer>
+
+    <!-- 复古日历弹窗遮罩与容器 -->
+    <div class="calendar-modal-backdrop" id="calendar-modal-backdrop">
+      <div class="calendar-modal-card">
+        <button class="calendar-close-btn" id="close-calendar-modal" type="button" title="关闭日历">✕</button>
+        <div id="modal-calendar-container"></div>
+      </div>
+    </div>
   </div>
 
+  <script>
+    window.AVAILABLE_DATES = ["2026-09-16","2026-09-15","2026-09-14"];
+    window.CURRENT_DATE = "2026-09-14";
+    window.RELATIVE_ROOT = "../";
+  </script>
   <script src="../assets/app.js"></script>
 </body>
 </html>

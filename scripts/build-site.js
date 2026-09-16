@@ -234,6 +234,7 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
     <!-- 顶部状态栏与往期导航 -->
     <nav class="top-nav-bar">
       <div class="top-nav-left">
+        <button class="calendar-toggle-btn" id="open-calendar-btn" type="button" title="点击打开交互式月度出版日历">📅 日历查阅</button>
         <span>📖 往期回顾：</span>
         <select class="vintage-select" onchange="if(this.value) location.href=this.value;">
           ${dateOptions}
@@ -274,8 +275,21 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
         <p>涵盖大模型与技术突破 · 开源生产力工具 · AI 投资与商业 · 论文前沿 | 纯净无依赖 · 打开即读</p>
       </div>
     </footer>
+
+    <!-- 复古日历弹窗遮罩与容器 -->
+    <div class="calendar-modal-backdrop" id="calendar-modal-backdrop">
+      <div class="calendar-modal-card">
+        <button class="calendar-close-btn" id="close-calendar-modal" type="button" title="关闭日历">✕</button>
+        <div id="modal-calendar-container"></div>
+      </div>
+    </div>
   </div>
 
+  <script>
+    window.AVAILABLE_DATES = ${JSON.stringify(allDates)};
+    window.CURRENT_DATE = "${digest.date}";
+    window.RELATIVE_ROOT = "${relativeRoot}";
+  </script>
   <script src="${relativeRoot}assets/app.js"></script>
 </body>
 </html>`;
@@ -283,6 +297,7 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
 
 // 渲染归档总览页
 function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
+  const allDates = digests.map(d => d.date);
   const rowsHtml = digests.map((d, idx) => {
     const href = idx === 0 ? `${relativeRoot}index.html` : `${relativeRoot}archive/${d.date}.html`;
     const count = (d.sections?.x?.length || 0) + (d.sections?.blogs?.length || 0) + (d.sections?.podcasts?.length || 0);
@@ -317,7 +332,14 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
       <p style="color: var(--text-muted);">${escapeHtml(motto)}</p>
     </header>
 
+    <!-- 交互式月度日历 -->
+    <section class="inline-calendar-section">
+      <div class="inline-calendar-title">📅 月度出版日历 (点击对应日期直接查阅当天报刊)</div>
+      <div id="inline-calendar-container"></div>
+    </section>
+
     <div class="archive-list">
+      <div class="inline-calendar-title" style="margin-top: 1rem;">📜 往期时间线列表</div>
       ${rowsHtml}
     </div>
 
@@ -328,6 +350,13 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
       </div>
     </footer>
   </div>
+
+  <script>
+    window.AVAILABLE_DATES = ${JSON.stringify(allDates)};
+    window.CURRENT_DATE = "${digests[0]?.date || ''}";
+    window.RELATIVE_ROOT = "${relativeRoot}";
+  </script>
+  <script src="${relativeRoot}assets/app.js"></script>
 </body>
 </html>`;
 }
