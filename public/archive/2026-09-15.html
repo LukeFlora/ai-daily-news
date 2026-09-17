@@ -47,7 +47,7 @@
       } catch (e) {}
     })();
   </script>
-  <link rel="stylesheet" href="../assets/style.css?v=1789615078824">
+  <link rel="stylesheet" href="../assets/style.css?v=1789622921473">
 </head>
 <body>
   <!-- 太阳耀斑环境光晕 (RedSun Signature Glow) -->
@@ -867,48 +867,48 @@ Piston 彻底颠覆了加油卡模式——它直接抛弃实体卡，建立自�
       <span class="btt-icon">↑</span>
       <span class="btt-text">顶部</span>
     </button>
+  </div>
 
-    <!-- 交互式日历弹窗遮罩与容器 -->
-    <div class="calendar-modal-backdrop" id="calendar-modal-backdrop">
-      <div class="calendar-modal-card">
-        <div class="calendar-modal-top">
-          <span class="modal-label">📅 《Luke的一手消息》出版日历</span>
-          <button class="calendar-close-btn" id="close-calendar-modal" type="button" title="关闭日历">✕</button>
-        </div>
-        <div id="modal-calendar-container"></div>
+  <!-- 交互式日历弹窗遮罩与容器 -->
+  <div class="calendar-modal-backdrop" id="calendar-modal-backdrop">
+    <div class="calendar-modal-card">
+      <div class="calendar-modal-top">
+        <span class="modal-label">📅 《Luke的一手消息》出版日历</span>
+        <button class="calendar-close-btn" id="close-calendar-modal" type="button" title="关闭日历">✕</button>
       </div>
+      <div id="modal-calendar-container"></div>
     </div>
+  </div>
 
-    <!-- 视觉海报分享弹窗 (Phase 4 体验升级) -->
-    <div class="poster-modal-backdrop" id="poster-modal-backdrop" style="display: none;">
-      <div class="poster-modal-card">
-        <div class="poster-modal-top">
-          <span class="modal-label">📸 要闻视觉分享海报</span>
-          <button class="poster-close-btn" id="close-poster-modal" type="button" title="关闭海报弹窗">✕</button>
-        </div>
-        <div class="poster-preview-container">
-          <canvas id="poster-canvas" width="750" height="980" style="display: none;"></canvas>
-          <div class="poster-img-wrapper">
-            <img id="poster-preview-img" alt="要闻视觉海报加载中...">
-          </div>
-        </div>
-        <div class="poster-modal-actions">
-          <a id="poster-download-btn" class="poster-act-btn primary" download="luke-ai-news.png" href="#">⬇ 保存海报图片</a>
-          <button id="poster-copy-btn" class="poster-act-btn secondary" type="button">📋 复制海报图片</button>
+  <!-- 视觉海报分享弹窗 (Phase 4 体验升级) -->
+  <div class="poster-modal-backdrop" id="poster-modal-backdrop" style="display: none;">
+    <div class="poster-modal-card">
+      <div class="poster-modal-top">
+        <span class="modal-label">📸 要闻视觉分享海报</span>
+        <button class="poster-close-btn" id="close-poster-modal" type="button" title="关闭海报弹窗">✕</button>
+      </div>
+      <div class="poster-preview-container">
+        <canvas id="poster-canvas" width="750" height="980" style="display: none;"></canvas>
+        <div class="poster-img-wrapper">
+          <img id="poster-preview-img" alt="要闻视觉海报加载中...">
         </div>
       </div>
+      <div class="poster-modal-actions">
+        <a id="poster-download-btn" class="poster-act-btn primary" download="luke-ai-news.png" href="#">⬇ 保存海报图片</a>
+        <button id="poster-copy-btn" class="poster-act-btn secondary" type="button">📋 复制海报图片</button>
+      </div>
     </div>
+  </div>
 
-    <!-- 卡片深度解读悬浮放大弹窗 (Floating Card Modal) -->
-    <div class="card-detail-modal-backdrop" id="card-detail-modal-backdrop" style="display: none;" aria-hidden="true">
-      <div class="card-detail-modal-card" id="card-detail-modal-card" role="dialog" aria-modal="true" aria-labelledby="card-detail-title">
-        <div class="card-detail-modal-top">
-          <span class="modal-label">🔍 要闻深度解读与原帖精译</span>
-          <button class="card-detail-close-btn" id="close-card-detail-modal" type="button" title="关闭弹窗 (Esc)" aria-label="关闭弹窗">✕</button>
-        </div>
-        <div class="card-detail-modal-body" id="card-detail-modal-body">
-          <!-- 由 JS 动态填充卡片全部内容 -->
-        </div>
+  <!-- 卡片深度解读悬浮放大弹窗 (Floating Card Modal) -->
+  <div class="card-detail-modal-backdrop" id="card-detail-modal-backdrop" style="display: none;" aria-hidden="true">
+    <div class="card-detail-modal-card" id="card-detail-modal-card" role="dialog" aria-modal="true" aria-labelledby="card-detail-title">
+      <div class="card-detail-modal-top">
+        <span class="modal-label">🔍 要闻深度解读与原帖精译</span>
+        <button class="card-detail-close-btn" id="close-card-detail-modal" type="button" title="关闭弹窗 (Esc)" aria-label="关闭弹窗">✕</button>
+      </div>
+      <div class="card-detail-modal-body" id="card-detail-modal-body">
+        <!-- 由 JS 动态填充卡片全部内容 -->
       </div>
     </div>
   </div>
@@ -918,6 +918,6 @@ Piston 彻底颠覆了加油卡模式——它直接抛弃实体卡，建立自�
     window.CURRENT_DATE = "2026-09-15";
     window.RELATIVE_ROOT = "../";
   </script>
-  <script src="../assets/app.js?v=1789615078824"></script>
+  <script src="../assets/app.js?v=1789622921473"></script>
 </body>
 </html>
