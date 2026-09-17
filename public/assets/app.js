@@ -1,30 +1,8 @@
 // Luke的一手消息 · 报刊轻量交互与日历查阅脚本 (纯原生 JavaScript)
 
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. 折叠/展开深度背景与细节抽屉
-  document.querySelectorAll('.expand-toggle').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const content = btn.nextElementSibling;
-      if (!content) return;
-      const isOpen = content.classList.contains('active');
-      const textSpan = btn.querySelector('.trigger-text');
-      const iconSpan = btn.querySelector('.trigger-icon');
-
-      if (isOpen) {
-        content.classList.remove('active');
-        btn.setAttribute('aria-expanded', 'false');
-        if (textSpan) textSpan.textContent = '展开深度背景与细节';
-        if (iconSpan) iconSpan.textContent = '▼';
-        if (!textSpan && !iconSpan) btn.textContent = '▼ 展开深度背景与细节';
-      } else {
-        content.classList.add('active');
-        btn.setAttribute('aria-expanded', 'true');
-        if (textSpan) textSpan.textContent = '收起深度背景';
-        if (iconSpan) iconSpan.textContent = '▲';
-        if (!textSpan && !iconSpan) btn.textContent = '▲ 收起深度背景';
-      }
-    });
-  });
+  // 1. 卡片深度背景与原帖精译悬浮放大弹窗 (Floating Card Modal)
+  initCardDetailModal();
 
   // 2. 复制精要按钮 (格式化海报级文案输出)
   document.querySelectorAll('.copy-btn').forEach(btn => {
@@ -501,6 +479,173 @@ function initPWA() {
       });
     });
   }
+}
+
+// 辅助函数：HTML 安全字符转义
+function escapeHtmlUtil(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+// 7.5. 卡片深度背景与原帖精译悬浮放大弹窗 (Floating Card Modal)
+function initCardDetailModal() {
+  const modalBackdrop = document.getElementById('card-detail-modal-backdrop');
+  const modalBody = document.getElementById('card-detail-modal-body');
+  const closeBtn = document.getElementById('close-card-detail-modal');
+
+  if (!modalBackdrop || !modalBody) {
+    // 降级兼容：如果页面未包含弹窗结构，则执行就地折叠展开
+    document.querySelectorAll('.expand-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const content = btn.nextElementSibling;
+        if (!content) return;
+        content.classList.toggle('active');
+      });
+    });
+    return;
+  }
+
+  function closeModal() {
+    modalBackdrop.classList.remove('open');
+    modalBackdrop.style.display = 'none';
+    modalBackdrop.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('modal-open');
+    document.querySelectorAll('.news-card.card-modal-active').forEach(c => {
+      c.classList.remove('card-modal-active');
+    });
+  }
+
+  closeBtn?.addEventListener('click', closeModal);
+  modalBackdrop.addEventListener('click', (e) => {
+    if (e.target === modalBackdrop) closeModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modalBackdrop.style.display === 'flex') {
+      closeModal();
+    }
+  });
+
+  document.querySelectorAll('.card-modal-trigger, .drawer-trigger, .expand-toggle').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+
+      const card = btn.closest('.news-card, .news-item');
+      if (!card) return;
+
+      card.classList.add('card-modal-active');
+
+      const categoryHtml = card.querySelector('.category-chip, .item-category')?.outerHTML || '';
+      const heatHtml = card.querySelector('.heat-pill, .item-heat')?.outerHTML || '';
+      const authorHtml = card.querySelector('.author-label, .item-author')?.outerHTML || '';
+      const title = card.querySelector('.card-headline, .item-title')?.textContent?.trim() || '';
+
+      const insightEl = card.querySelector('.insight-text, .item-brief');
+      const insightRaw = insightEl ? insightEl.textContent.trim() : '';
+      const insightClean = insightRaw.replace(/^【(?:为何关注|推荐理由|核心提炼)】\s*/, '').trim();
+
+      const summary = card.querySelector('.drawer-summary, .item-summary')?.textContent?.trim() || '';
+      const translationBody = card.querySelector('.translation-body')?.textContent?.trim() || '';
+      const sourceUrl = card.querySelector('.source-action, .source-link')?.href || '';
+
+      const detailHtml = `
+        <div class="card-detail-inner">
+          <div class="card-detail-meta-bar">
+            <div class="detail-meta-left">
+              ${categoryHtml}
+              ${heatHtml}
+            </div>
+            <div class="detail-meta-right">
+              ${authorHtml}
+            </div>
+          </div>
+
+          <h2 class="card-detail-title" id="card-detail-title">${escapeHtmlUtil(title)}</h2>
+
+          ${insightClean ? `
+            <div class="card-detail-insight">
+              <div class="detail-insight-badge">✦ 核心洞察 / 为何关注</div>
+              <p class="detail-insight-text">${escapeHtmlUtil(insightClean)}</p>
+            </div>
+          ` : ''}
+
+          ${summary ? `
+            <div class="card-detail-section">
+              <div class="detail-section-header">
+                <span class="detail-section-icon">📌</span>
+                <span class="detail-section-title">深度解读与全景背景</span>
+              </div>
+              <p class="detail-summary-text">${escapeHtmlUtil(summary)}</p>
+            </div>
+          ` : ''}
+
+          ${translationBody ? `
+            <div class="card-detail-section detail-translation-section">
+              <div class="detail-section-header">
+                <span class="detail-section-icon">📜</span>
+                <span class="detail-section-title">原帖中文精译与推文细节</span>
+              </div>
+              <div class="detail-translation-box">
+                <div class="translation-body">${escapeHtmlUtil(translationBody)}</div>
+              </div>
+            </div>
+          ` : ''}
+
+          <div class="card-detail-footer">
+            ${sourceUrl ? `
+              <a class="modal-source-btn" href="${escapeHtmlUtil(sourceUrl)}" target="_blank" rel="noopener noreferrer">
+                <span>查阅一手信源原帖</span>
+                <span class="arrow">↗</span>
+              </a>
+            ` : ''}
+            <div class="modal-footer-actions">
+              <button class="modal-act-btn modal-poster-btn" type="button" title="一键生成视觉分享海报">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+                <span>生成海报</span>
+              </button>
+              <button class="modal-act-btn modal-copy-btn" type="button" title="复制卡片精编">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                <span>复制精编</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      `;
+
+      modalBody.innerHTML = detailHtml;
+
+      // 绑定弹窗内的联动事件
+      const innerPosterBtn = modalBody.querySelector('.modal-poster-btn');
+      innerPosterBtn?.addEventListener('click', () => {
+        closeModal();
+        const posterBtn = card.querySelector('.share-poster-btn');
+        if (posterBtn) posterBtn.click();
+      });
+
+      const innerCopyBtn = modalBody.querySelector('.modal-copy-btn');
+      innerCopyBtn?.addEventListener('click', () => {
+        const copyBtn = card.querySelector('.copy-btn');
+        if (copyBtn) {
+          copyBtn.click();
+          const origText = innerCopyBtn.innerHTML;
+          innerCopyBtn.innerHTML = `<span style="color:var(--color--brand-color);font-weight:700;">✓ 已复制</span>`;
+          setTimeout(() => {
+            innerCopyBtn.innerHTML = origText;
+          }, 1800);
+        }
+      });
+
+      modalBackdrop.style.display = 'flex';
+      modalBackdrop.classList.add('open');
+      modalBackdrop.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('modal-open');
+    });
+  });
 }
 
 // 8. 单条要闻视觉卡片海报生成器 (Phase 4 体验升级 - 纯原生 Canvas 绘制，0 外部依赖)

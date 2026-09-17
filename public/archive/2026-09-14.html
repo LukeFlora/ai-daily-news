@@ -47,7 +47,7 @@
       } catch (e) {}
     })();
   </script>
-  <link rel="stylesheet" href="../assets/style.css?v=1789613868884">
+  <link rel="stylesheet" href="../assets/style.css?v=1789615078825">
 </head>
 <body>
   <!-- 太阳耀斑环境光晕 (RedSun Signature Glow) -->
@@ -179,11 +179,11 @@
 
       
     <div class="deep-dive-drawer item-expand-box">
-      <button class="drawer-trigger expand-toggle" type="button" aria-expanded="false">
-        <span class="trigger-icon">▼</span>
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
         <span class="trigger-text">展开深度背景与细节</span>
       </button>
-      <div class="drawer-panel expand-content">
+      <div class="drawer-panel expand-content" style="display: none;">
         <p class="drawer-summary item-summary">介绍 MCP（模型上下文协议）的设计规范与跨工具生态拓展，阐述为何开放标准是 Agent 连接万物的关键。</p>
         
           <div class="translation-block">
@@ -238,11 +238,11 @@
 
       
     <div class="deep-dive-drawer item-expand-box">
-      <button class="drawer-trigger expand-toggle" type="button" aria-expanded="false">
-        <span class="trigger-icon">▼</span>
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
         <span class="trigger-text">展开深度背景与细节</span>
       </button>
-      <div class="drawer-panel expand-content">
+      <div class="drawer-panel expand-content" style="display: none;">
         <p class="drawer-summary item-summary">探讨 2026 年代码生成与自主智能体的发展现状，剖析从单轮代码补全到多文件协同 Agent 的跨越。</p>
         
           <div class="translation-block">
@@ -301,11 +301,11 @@
 
       
     <div class="deep-dive-drawer item-expand-box">
-      <button class="drawer-trigger expand-toggle" type="button" aria-expanded="false">
-        <span class="trigger-icon">▼</span>
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
         <span class="trigger-text">展开深度背景与细节</span>
       </button>
-      <div class="drawer-panel expand-content">
+      <div class="drawer-panel expand-content" style="display: none;">
         <p class="drawer-summary item-summary">Karpathy 分享了关于构建高质量合成微调数据集与强化学习（RL）奖励函数的心得，指出用弱模型监督强模型的关键在于把评测标准规范化（Rubrics as Specs），这也是通往自主智能体的核心基石。</p>
         
           <div class="translation-block">
@@ -364,11 +364,11 @@
 
       
     <div class="deep-dive-drawer item-expand-box">
-      <button class="drawer-trigger expand-toggle" type="button" aria-expanded="false">
-        <span class="trigger-icon">▼</span>
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
         <span class="trigger-text">展开深度背景与细节</span>
       </button>
-      <div class="drawer-panel expand-content">
+      <div class="drawer-panel expand-content" style="display: none;">
         <p class="drawer-summary item-summary">Replit CEO Amjad Masad 宣布 Replit Agent 的代码生成吞吐量已突破单日千万行，90% 的新应用从零构建无需用户修改任何配置文件。</p>
         
           <div class="translation-block">
@@ -449,6 +449,19 @@
         </div>
       </div>
     </div>
+
+    <!-- 卡片深度解读悬浮放大弹窗 (Floating Card Modal) -->
+    <div class="card-detail-modal-backdrop" id="card-detail-modal-backdrop" style="display: none;" aria-hidden="true">
+      <div class="card-detail-modal-card" id="card-detail-modal-card" role="dialog" aria-modal="true" aria-labelledby="card-detail-title">
+        <div class="card-detail-modal-top">
+          <span class="modal-label">🔍 要闻深度解读与原帖精译</span>
+          <button class="card-detail-close-btn" id="close-card-detail-modal" type="button" title="关闭弹窗 (Esc)" aria-label="关闭弹窗">✕</button>
+        </div>
+        <div class="card-detail-modal-body" id="card-detail-modal-body">
+          <!-- 由 JS 动态填充卡片全部内容 -->
+        </div>
+      </div>
+    </div>
   </div>
 
   <script>
@@ -456,6 +469,6 @@
     window.CURRENT_DATE = "2026-09-14";
     window.RELATIVE_ROOT = "../";
   </script>
-  <script src="../assets/app.js?v=1789613868884"></script>
+  <script src="../assets/app.js?v=1789615078825"></script>
 </body>
 </html>

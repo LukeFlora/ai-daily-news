@@ -241,11 +241,11 @@ function renderNewsItem(item) {
 
   const drawerHtml = `
     <div class="deep-dive-drawer item-expand-box">
-      <button class="drawer-trigger expand-toggle" type="button" aria-expanded="false">
-        <span class="trigger-icon">▼</span>
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
         <span class="trigger-text">展开深度背景与细节</span>
       </button>
-      <div class="drawer-panel expand-content">
+      <div class="drawer-panel expand-content" style="display: none;">
         <p class="drawer-summary item-summary">${escapeHtml(item.summary)}</p>
         ${item.translation ? `
           <div class="translation-block">
@@ -523,6 +523,19 @@ function renderPage({ title, motto, digest, allDates, isArchive = false, relativ
         <div class="poster-modal-actions">
           <a id="poster-download-btn" class="poster-act-btn primary" download="luke-ai-news.png" href="#">⬇ 保存海报图片</a>
           <button id="poster-copy-btn" class="poster-act-btn secondary" type="button">📋 复制海报图片</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 卡片深度解读悬浮放大弹窗 (Floating Card Modal) -->
+    <div class="card-detail-modal-backdrop" id="card-detail-modal-backdrop" style="display: none;" aria-hidden="true">
+      <div class="card-detail-modal-card" id="card-detail-modal-card" role="dialog" aria-modal="true" aria-labelledby="card-detail-title">
+        <div class="card-detail-modal-top">
+          <span class="modal-label">🔍 要闻深度解读与原帖精译</span>
+          <button class="card-detail-close-btn" id="close-card-detail-modal" type="button" title="关闭弹窗 (Esc)" aria-label="关闭弹窗">✕</button>
+        </div>
+        <div class="card-detail-modal-body" id="card-detail-modal-body">
+          <!-- 由 JS 动态填充卡片全部内容 -->
         </div>
       </div>
     </div>
