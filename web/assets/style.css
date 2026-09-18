@@ -927,6 +927,27 @@ body.modal-open {
   font-weight: 400;
 }
 
+.gh-repo-meta {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.lang-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 5px;
+  flex-shrink: 0;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+.source-action.is-github-link {
+  color: var(--color--brand-color);
+  font-weight: 600;
+}
+
 /* 4. Tier 2: 核心叙事标题 (Primary Headline) */
 .card-headline,
 .item-title {

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "fetch": "node scripts/fetch-feeds.js",
+    "fetch:github": "node scripts/fetch-github-trending.js",
     "fetch:monday": "node scripts/fetch-feeds.js --force-weekend",
     "generate": "node scripts/generate-digest.js",
     "build": "node scripts/build-site.js",

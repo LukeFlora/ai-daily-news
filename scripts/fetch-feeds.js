@@ -16,6 +16,7 @@ import { readFile, writeFile, mkdir, readdir } from 'fs/promises';
 import { existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { fetchGithubTrending } from './fetch-github-trending.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -180,12 +181,16 @@ async function main() {
   const podcastFeeds = [];
   const blogFeeds = [];
 
-  // 1. 抓取当前最新的 Feed (main 分支)
-  console.log(`[1/3] 正在拉取最新的主分支 Feed...`);
-  const [latestX, latestPodcasts, latestBlogs] = await Promise.all([
+  // 1. 抓取当前最新的 Feed (main 分支) 与 GitHub 热门开源项目
+  console.log(`[1/3] 正在拉取最新的主分支 Feed 与 GitHub 热门开源项目...`);
+  const [latestX, latestPodcasts, latestBlogs, githubTrending] = await Promise.all([
     fetchJSON(feedsConfig.feeds.x),
     fetchJSON(feedsConfig.feeds.podcasts),
-    fetchJSON(feedsConfig.feeds.blogs)
+    fetchJSON(feedsConfig.feeds.blogs),
+    fetchGithubTrending().catch(err => {
+      console.warn('[GitHub Trending] 抓取出现非致命错误:', err.message);
+      return [];
+    })
   ]);
 
   if (latestX) xFeeds.push(latestX);
@@ -227,10 +232,11 @@ async function main() {
   }
 
   // 3. 数据合并与去重
-  console.log(`[3/3] 正在对推文、博客与播客进行全量合并与去重...`);
+  console.log(`[3/3] 正在对推文、博客、播客与 GitHub 开源项目进行全量合并与去重...`);
   const finalX = mergeXData(xFeeds);
   const finalPodcasts = mergePodcasts(podcastFeeds);
   const finalBlogs = mergeBlogs(blogFeeds);
+  const finalGithub = Array.isArray(githubTrending) ? githubTrending : [];
 
   const totalTweets = finalX.reduce((acc, b) => acc + (b.tweets?.length || 0), 0);
 
@@ -242,11 +248,13 @@ async function main() {
       buildersCount: finalX.length,
       totalTweets,
       podcastEpisodes: finalPodcasts.length,
-      blogPosts: finalBlogs.length
+      blogPosts: finalBlogs.length,
+      githubProjects: finalGithub.length
     },
     x: finalX,
     podcasts: finalPodcasts,
-    blogs: finalBlogs
+    blogs: finalBlogs,
+    githubTrending: finalGithub
   };
 
   // 4. 保存为 raw 数据
@@ -260,6 +268,7 @@ async function main() {
   console.log(`- 包含推文: ${totalTweets} 条`);
   console.log(`- 包含播客: ${finalPodcasts.length} 期`);
   console.log(`- 包含官方博客: ${finalBlogs.length} 篇`);
+  console.log(`- 包含 GitHub 热门开源: ${finalGithub.length} 个`);
   console.log(`- 数据存储于: ${rawFile}`);
   console.log(`======================================================\n`);
 

@@ -5,7 +5,7 @@
     <link>https://lukeflora.github.io/ai-daily-news/</link>
     <description>追踪前沿突破 · 汇聚一手洞见</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 18 Sep 2026 01:10:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 01:45:45 GMT</lastBuildDate>
     <atom:link href="https://lukeflora.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -42,6 +42,40 @@
           <blockquote><strong>译文精要：</strong><pre style="white-space: pre-wrap;">我本周最期待发布的内容将推迟到下周，但在我看来，这绝对值得等待！</pre></blockquote>
           <hr/>
           <p><a href="https://x.com/sama/status/2100351958167220547">查看一手信源 ↗</a> | <a href="https://lukeflora.github.io/ai-daily-news/">《Luke的一手消息》在线阅读</a></p>
+        ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[[开源生产力工具] cloudflare/security-audit-skill: A coding-agent skill for multi-phase...]]></title>
+      <link>https://github.com/cloudflare/security-audit-skill</link>
+      <guid isPermaLink="false">2026-09-18-gh-security-audit-skill-18</guid>
+      <pubDate>Fri, 18 Sep 2026 01:00:00 GMT</pubDate>
+      <category><![CDATA[开源生产力工具]]></category>
+      <description><![CDATA[
+          <p><strong>板块：</strong>开源生产力工具 | <strong>观点作者：</strong>cloudflare/security-audit-skill</p>
+          <p><strong>核心提要：</strong>【为何关注】基于 JavaScript 构建，今日新增 +3,607 颗 Star 爆发增长，推荐关注其架构设计与开源实践。</p>
+          <p><strong>深入解读：</strong>开源项目「cloudflare/security-audit-skill」在 GitHub Trending 榜单引发广泛关注。项目主语言为 JavaScript，今日激增 +3,607 Stars。核心定位：A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings。</p>
+          <blockquote><strong>译文精要：</strong><pre style="white-space: pre-wrap;">项目说明：A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
+
+技术指标：主语言 JavaScript，总计收获 10,723 颗 Star 与 572 次 Fork。</pre></blockquote>
+          <hr/>
+          <p><a href="https://github.com/cloudflare/security-audit-skill">查看一手信源 ↗</a> | <a href="https://lukeflora.github.io/ai-daily-news/">《Luke的一手消息》在线阅读</a></p>
+        ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[[开源生产力工具] alibaba/open-code-review: Fast, efficient, battle-tested at Al...]]></title>
+      <link>https://github.com/alibaba/open-code-review</link>
+      <guid isPermaLink="false">2026-09-18-gh-open-code-review-19</guid>
+      <pubDate>Fri, 18 Sep 2026 01:00:00 GMT</pubDate>
+      <category><![CDATA[开源生产力工具]]></category>
+      <description><![CDATA[
+          <p><strong>板块：</strong>开源生产力工具 | <strong>观点作者：</strong>alibaba/open-code-review</p>
+          <p><strong>核心提要：</strong>【为何关注】基于 Go 构建，今日新增 +3,286 颗 Star 爆发增长，推荐关注其架构设计与开源实践。</p>
+          <p><strong>深入解读：</strong>开源项目「alibaba/open-code-review」在 GitHub Trending 榜单引发广泛关注。项目主语言为 Go，今日激增 +3,286 Stars。核心定位：Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.。</p>
+          <blockquote><strong>译文精要：</strong><pre style="white-space: pre-wrap;">项目说明：Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
+
+技术指标：主语言 Go，总计收获 34,836 颗 Star 与 2,475 次 Fork。</pre></blockquote>
+          <hr/>
+          <p><a href="https://github.com/alibaba/open-code-review">查看一手信源 ↗</a> | <a href="https://lukeflora.github.io/ai-daily-news/">《Luke的一手消息》在线阅读</a></p>
         ]]></description>
     </item>
     <item>
@@ -92,6 +126,23 @@ Cowork 也证实了知识工作者可以做到这一点：把需求简报交给 
         ]]></description>
     </item>
     <item>
+      <title><![CDATA[[开源生产力工具] Tencent/WeKnora: Open-source LLM knowledge platform: ...]]></title>
+      <link>https://github.com/Tencent/WeKnora</link>
+      <guid isPermaLink="false">2026-09-18-gh-weknora-20</guid>
+      <pubDate>Fri, 18 Sep 2026 01:00:00 GMT</pubDate>
+      <category><![CDATA[开源生产力工具]]></category>
+      <description><![CDATA[
+          <p><strong>板块：</strong>开源生产力工具 | <strong>观点作者：</strong>Tencent/WeKnora</p>
+          <p><strong>核心提要：</strong>【为何关注】基于 Go 构建，今日新增 +1,125 颗 Star 爆发增长，推荐关注其架构设计与开源实践。</p>
+          <p><strong>深入解读：</strong>开源项目「Tencent/WeKnora」在 GitHub Trending 榜单引发广泛关注。项目主语言为 Go，今日激增 +1,125 Stars。核心定位：Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.。</p>
+          <blockquote><strong>译文精要：</strong><pre style="white-space: pre-wrap;">项目说明：Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.
+
+技术指标：主语言 Go，总计收获 26,275 颗 Star 与 3,559 次 Fork。</pre></blockquote>
+          <hr/>
+          <p><a href="https://github.com/Tencent/WeKnora">查看一手信源 ↗</a> | <a href="https://lukeflora.github.io/ai-daily-news/">《Luke的一手消息》在线阅读</a></p>
+        ]]></description>
+    </item>
+    <item>
       <title><![CDATA[[开源生产力工具] Vercel CEO Guillermo Rauch 宣布其 AI 工具集取得重大进展，通过引入 GPT Luna 模型，使得安全审查流程在速度上提升了 1...]]></title>
       <link>https://x.com/rauchg/status/2100307962262872105</link>
       <guid isPermaLink="false">2026-09-18-x-rauchg-7</guid>
@@ -124,6 +175,74 @@ Cowork 也证实了知识工作者可以做到这一点：把需求简报交给 
         ]]></description>
     </item>
     <item>
+      <title><![CDATA[[开源生产力工具] NationalSecurityAgency/ghidra: Ghidra is a software reverse enginee...]]></title>
+      <link>https://github.com/NationalSecurityAgency/ghidra</link>
+      <guid isPermaLink="false">2026-09-18-gh-ghidra-22</guid>
+      <pubDate>Fri, 18 Sep 2026 01:00:00 GMT</pubDate>
+      <category><![CDATA[开源生产力工具]]></category>
+      <description><![CDATA[
+          <p><strong>板块：</strong>开源生产力工具 | <strong>观点作者：</strong>NationalSecurityAgency/ghidra</p>
+          <p><strong>核心提要：</strong>【为何关注】基于 Java 构建，今日新增 +912 颗 Star 爆发增长，推荐关注其架构设计与开源实践。</p>
+          <p><strong>深入解读：</strong>开源项目「NationalSecurityAgency/ghidra」在 GitHub Trending 榜单引发广泛关注。项目主语言为 Java，今日激增 +912 Stars。核心定位：Ghidra is a software reverse engineering (SRE) framework。</p>
+          <blockquote><strong>译文精要：</strong><pre style="white-space: pre-wrap;">项目说明：Ghidra is a software reverse engineering (SRE) framework
+
+技术指标：主语言 Java，总计收获 78,511 颗 Star 与 8,685 次 Fork。</pre></blockquote>
+          <hr/>
+          <p><a href="https://github.com/NationalSecurityAgency/ghidra">查看一手信源 ↗</a> | <a href="https://lukeflora.github.io/ai-daily-news/">《Luke的一手消息》在线阅读</a></p>
+        ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[[开源生产力工具] Tencent/BrowserSkill: Let AI agents use your real, logged-...]]></title>
+      <link>https://github.com/Tencent/BrowserSkill</link>
+      <guid isPermaLink="false">2026-09-18-gh-browserskill-21</guid>
+      <pubDate>Fri, 18 Sep 2026 01:00:00 GMT</pubDate>
+      <category><![CDATA[开源生产力工具]]></category>
+      <description><![CDATA[
+          <p><strong>板块：</strong>开源生产力工具 | <strong>观点作者：</strong>Tencent/BrowserSkill</p>
+          <p><strong>核心提要：</strong>【为何关注】基于 TypeScript 构建，今日新增 +1,302 颗 Star 爆发增长，推荐关注其架构设计与开源实践。</p>
+          <p><strong>深入解读：</strong>开源项目「Tencent/BrowserSkill」在 GitHub Trending 榜单引发广泛关注。项目主语言为 TypeScript，今日激增 +1,302 Stars。核心定位：Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.。</p>
+          <blockquote><strong>译文精要：</strong><pre style="white-space: pre-wrap;">项目说明：Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.
+
+技术指标：主语言 TypeScript，总计收获 4,214 颗 Star 与 297 次 Fork。</pre></blockquote>
+          <hr/>
+          <p><a href="https://github.com/Tencent/BrowserSkill">查看一手信源 ↗</a> | <a href="https://lukeflora.github.io/ai-daily-news/">《Luke的一手消息》在线阅读</a></p>
+        ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[[开源生产力工具] JustVugg/colibri: Run frontier MoE models on hardware ...]]></title>
+      <link>https://github.com/JustVugg/colibri</link>
+      <guid isPermaLink="false">2026-09-18-gh-colibri-23</guid>
+      <pubDate>Fri, 18 Sep 2026 01:00:00 GMT</pubDate>
+      <category><![CDATA[开源生产力工具]]></category>
+      <description><![CDATA[
+          <p><strong>板块：</strong>开源生产力工具 | <strong>观点作者：</strong>JustVugg/colibri</p>
+          <p><strong>核心提要：</strong>【为何关注】基于 C 构建，今日新增 +873 颗 Star 爆发增长，推荐关注其架构设计与开源实践。</p>
+          <p><strong>深入解读：</strong>开源项目「JustVugg/colibri」在 GitHub Trending 榜单引发广泛关注。项目主语言为 C，今日激增 +873 Stars。核心定位：Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦。</p>
+          <blockquote><strong>译文精要：</strong><pre style="white-space: pre-wrap;">项目说明：Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦
+
+技术指标：主语言 C，总计收获 35,758 颗 Star 与 3,756 次 Fork。</pre></blockquote>
+          <hr/>
+          <p><a href="https://github.com/JustVugg/colibri">查看一手信源 ↗</a> | <a href="https://lukeflora.github.io/ai-daily-news/">《Luke的一手消息》在线阅读</a></p>
+        ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[[开源生产力工具] addyosmani/agent-skills: Production-grade engineering skills ...]]></title>
+      <link>https://github.com/addyosmani/agent-skills</link>
+      <guid isPermaLink="false">2026-09-18-gh-agent-skills-25</guid>
+      <pubDate>Fri, 18 Sep 2026 01:00:00 GMT</pubDate>
+      <category><![CDATA[开源生产力工具]]></category>
+      <description><![CDATA[
+          <p><strong>板块：</strong>开源生产力工具 | <strong>观点作者：</strong>addyosmani/agent-skills</p>
+          <p><strong>核心提要：</strong>【为何关注】基于 JavaScript 构建，今日新增 +680 颗 Star 爆发增长，推荐关注其架构设计与开源实践。</p>
+          <p><strong>深入解读：</strong>开源项目「addyosmani/agent-skills」在 GitHub Trending 榜单引发广泛关注。项目主语言为 JavaScript，今日激增 +680 Stars。核心定位：Production-grade engineering skills for AI coding agents.。</p>
+          <blockquote><strong>译文精要：</strong><pre style="white-space: pre-wrap;">项目说明：Production-grade engineering skills for AI coding agents.
+
+技术指标：主语言 JavaScript，总计收获 95,869 颗 Star 与 10,146 次 Fork。</pre></blockquote>
+          <hr/>
+          <p><a href="https://github.com/addyosmani/agent-skills">查看一手信源 ↗</a> | <a href="https://lukeflora.github.io/ai-daily-news/">《Luke的一手消息》在线阅读</a></p>
+        ]]></description>
+    </item>
+    <item>
       <title><![CDATA[[大模型与技术突破] AI Builder Zara Zhang 指出 Claude 近期的语气变得过于卖弄，过度追求“聪明感”而非高效沟通]]></title>
       <link>https://x.com/zarazhangrui/status/2100278750776824115</link>
       <guid isPermaLink="false">2026-09-18-x-zarazhangrui-11</guid>
@@ -136,6 +255,23 @@ Cowork 也证实了知识工作者可以做到这一点：把需求简报交给 
           <blockquote><strong>译文精要：</strong><pre style="white-space: pre-wrap;">我发现自己最近使用 Claude 的频率降低了，因为它的说话方式变得让人难以忍受。它总是试图展示自己有多聪明、多有深度，而不是真正把观点表达清楚。</pre></blockquote>
           <hr/>
           <p><a href="https://x.com/zarazhangrui/status/2100278750776824115">查看一手信源 ↗</a> | <a href="https://lukeflora.github.io/ai-daily-news/">《Luke的一手消息》在线阅读</a></p>
+        ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[[开源生产力工具] alphaXiv/OpenResearch: Turn your coding agents into researc...]]></title>
+      <link>https://github.com/alphaXiv/OpenResearch</link>
+      <guid isPermaLink="false">2026-09-18-gh-openresearch-24</guid>
+      <pubDate>Fri, 18 Sep 2026 01:00:00 GMT</pubDate>
+      <category><![CDATA[开源生产力工具]]></category>
+      <description><![CDATA[
+          <p><strong>板块：</strong>开源生产力工具 | <strong>观点作者：</strong>alphaXiv/OpenResearch</p>
+          <p><strong>核心提要：</strong>【为何关注】基于 Rust 构建，今日新增 +939 颗 Star 爆发增长，推荐关注其架构设计与开源实践。</p>
+          <p><strong>深入解读：</strong>开源项目「alphaXiv/OpenResearch」在 GitHub Trending 榜单引发广泛关注。项目主语言为 Rust，今日激增 +939 Stars。核心定位：Turn your coding agents into research agents。</p>
+          <blockquote><strong>译文精要：</strong><pre style="white-space: pre-wrap;">项目说明：Turn your coding agents into research agents
+
+技术指标：主语言 Rust，总计收获 4,970 颗 Star 与 306 次 Fork。</pre></blockquote>
+          <hr/>
+          <p><a href="https://github.com/alphaXiv/OpenResearch">查看一手信源 ↗</a> | <a href="https://lukeflora.github.io/ai-daily-news/">《Luke的一手消息》在线阅读</a></p>
         ]]></description>
     </item>
     <item>

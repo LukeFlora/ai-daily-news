@@ -74,5 +74,15 @@
     { "name": "Aditya Agarwal", "handle": "adityaag" },
     { "name": "Sam Altman", "handle": "sama" },
     { "name": "Claude", "handle": "claudeai" }
-  ]
+  ],
+  "github_trending": {
+    "enabled": true,
+    "channels": [
+      { "name": "全语言热门", "path": "" },
+      { "name": "Python AI 专区", "path": "python" },
+      { "name": "TypeScript/前端", "path": "typescript" }
+    ],
+    "limit": 8,
+    "minStarsToday": 50
+  }
 }

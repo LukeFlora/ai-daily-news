@@ -177,6 +177,39 @@ function extractAndRankNews(digest) {
     });
   }
 
+  // 4. GitHub 热门开源项目
+  for (const gh of (digest.sections?.githubTrending || [])) {
+    const starsToday = gh.starsToday || 0;
+    const totalStars = gh.totalStars || 0;
+    const lang = gh.language || '开源项目';
+    // 热度综合算法：以今日爆发 Star 数为高权重系数，结合总影响力加权
+    const heat = Math.max(350, Math.round(starsToday * 2.5 + Math.min(1200, totalStars * 0.04)));
+
+    let title = (gh.title || `${gh.repo}: 热门开源项目`).trim();
+    if (title.length > 80) title = title.slice(0, 78) + '...';
+
+    rawList.push({
+      id: `gh-${(gh.name || 'repo').toLowerCase().replace(/[^a-z0-9_-]/g, '-')}-${rawList.length + 1}`,
+      author: gh.repo,
+      role: `+${starsToday.toLocaleString()} stars today · ${lang}`,
+      title: title,
+      brief: gh.recommendation ? `【为何关注】${gh.recommendation}` : '',
+      summary: gh.summary,
+      translation: gh.translation,
+      recommendation: gh.recommendation,
+      category: '开源生产力工具',
+      heat: heat,
+      sourceName: `GitHub: ${gh.repo}`,
+      sourceUrl: gh.url || `https://github.com/${gh.repo}`,
+      isGithub: true,
+      language: lang,
+      languageColor: gh.languageColor || '#00ADD8',
+      starsToday,
+      totalStars,
+      forks: gh.forks || 0
+    });
+  }
+
   // 按热度严格降序排序
   rawList.sort((a, b) => b.heat - a.heat);
 
@@ -224,11 +257,21 @@ function renderNewsItem(item) {
   }
 
   const cleanedRole = cleanAuthorRole(item.role);
-  const authorInfo = item.author ? `
-    <span class="author-label item-author" title="${escapeHtml(item.author)}${cleanedRole ? ' · ' + escapeHtml(cleanedRole) : ''}">
-      <strong>${escapeHtml(item.author)}</strong>${cleanedRole ? `<span> · ${escapeHtml(cleanedRole)}</span>` : ''}
-    </span>
-  ` : '';
+  let authorInfo = '';
+  if (item.isGithub) {
+    authorInfo = `
+      <span class="author-label item-author gh-repo-meta" title="${escapeHtml(item.sourceName)}">
+        <span class="lang-dot" style="background-color: ${escapeHtml(item.languageColor || '#00ADD8')}"></span>
+        <strong>${escapeHtml(item.author)}</strong><span> · ${escapeHtml(item.role)}</span>
+      </span>
+    `;
+  } else if (item.author) {
+    authorInfo = `
+      <span class="author-label item-author" title="${escapeHtml(item.author)}${cleanedRole ? ' · ' + escapeHtml(cleanedRole) : ''}">
+        <strong>${escapeHtml(item.author)}</strong>${cleanedRole ? `<span> · ${escapeHtml(cleanedRole)}</span>` : ''}
+      </span>
+    `;
+  }
 
   let briefText = item.brief || '';
   let cleanBrief = briefText.replace(/^【(?:为何关注|推荐理由|核心提炼)】\s*/, '').trim();
@@ -276,8 +319,8 @@ function renderNewsItem(item) {
       ${drawerHtml}
 
       <footer class="card-dock item-footer">
-        <a class="source-action source-link" href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">
-          <span>一手信源</span>
+        <a class="source-action source-link ${item.isGithub ? 'is-github-link' : ''}" href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">
+          <span>${item.isGithub ? '🐙 GitHub 仓库' : '一手信源'}</span>
           <span class="arrow">↗</span>
         </a>
         <div class="dock-controls item-footer-actions">
@@ -561,7 +604,7 @@ function renderArchiveIndexPage({ title, motto, digests, relativeRoot = '' }) {
   digests.forEach((d, idx) => {
     const monthKey = d.date.slice(0, 7); // "YYYY-MM"
     if (!monthGroups[monthKey]) monthGroups[monthKey] = [];
-    const count = (d.sections?.x?.length || 0) + (d.sections?.blogs?.length || 0) + (d.sections?.podcasts?.length || 0);
+    const count = (d.sections?.x?.length || 0) + (d.sections?.blogs?.length || 0) + (d.sections?.podcasts?.length || 0) + (d.sections?.githubTrending?.length || 0);
     monthGroups[monthKey].push({
       date: d.date,
       displayDate: formatDisplayDate(d.date),

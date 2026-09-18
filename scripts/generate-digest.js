@@ -280,6 +280,82 @@ ${transcript.slice(0, 4000)}`;
   };
 }
 
+// 智能提炼 GitHub 热门开源项目
+async function processGithubProject(proj) {
+  const repo = proj.repo;
+  const description = proj.description || '';
+  const lang = proj.language || '开源项目';
+  const starsToday = proj.starsToday || 0;
+  const totalStars = proj.totalStars || 0;
+  const forks = proj.forks || 0;
+  const url = proj.url || `https://github.com/${repo}`;
+
+  if (process.env.GEMINI_API_KEY && (description || repo)) {
+    const prompt = `请为 GitHub 今日热门开源项目 "${repo}" 撰写四段式中文日报条目。
+该项目今日激增 Star: +${starsToday.toLocaleString()}，总 Star: ${totalStars.toLocaleString()}，主编程语言: ${lang}。
+项目简介：${description}
+
+必须严格输出以下 JSON 格式：
+{
+  "title": "项目名: 核心功能与定位中文提炼（15-35字）",
+  "summary": "100-250字中文总结，提炼解决的核心痛点、系统架构、关键特性与适用场景",
+  "translation": "项目技术简介或核心亮点的中文精译",
+  "recommendation": "1-2句推荐理由，说明为什么值得开发者与AI从业者关注，结合今日爆发增速点评",
+  "url": "${url}"
+}`;
+
+    const res = await callGemini(prompt, '你是一个资深技术专家与开源观察家，擅长提炼开源项目的技术架构与落地价值。只输出有效 JSON。');
+    if (res) {
+      try {
+        const cleaned = res.replace(/```json/g, '').replace(/```/g, '').trim();
+        const parsed = JSON.parse(cleaned);
+        return {
+          repo,
+          owner: proj.owner,
+          name: proj.name,
+          title: parsed.title || `${repo}: ${description.slice(0, 30)}`,
+          summary: parsed.summary,
+          translation: parsed.translation || description,
+          recommendation: parsed.recommendation,
+          url: parsed.url || url,
+          language: lang,
+          languageColor: proj.languageColor,
+          starsToday,
+          totalStars,
+          forks,
+          channel: proj.channel
+        };
+      } catch (e) {}
+    }
+  }
+
+  // 内置智能提炼引擎（零配置/无 Key 备选）
+  const cleanDesc = description || '暂无详细描述';
+  const displayTitle = `${repo}: ${cleanDesc.length > 38 ? cleanDesc.slice(0, 36) + '...' : cleanDesc}`;
+  
+  let recReason = `今日在 GitHub 上斩获 +${starsToday.toLocaleString()} 新增 Star（累计 ${totalStars.toLocaleString()} Star），关注度极高，具备优质的工程参考价值。`;
+  if (lang && lang !== 'Unknown') {
+    recReason = `基于 ${lang} 构建，今日新增 +${starsToday.toLocaleString()} 颗 Star 爆发增长，推荐关注其架构设计与开源实践。`;
+  }
+
+  return {
+    repo,
+    owner: proj.owner,
+    name: proj.name,
+    title: displayTitle,
+    summary: `开源项目「${repo}」在 GitHub Trending 榜单引发广泛关注。项目主语言为 ${lang}，今日激增 +${starsToday.toLocaleString()} Stars。核心定位：${cleanDesc}。`,
+    translation: `项目说明：${cleanDesc}\n\n技术指标：主语言 ${lang}，总计收获 ${totalStars.toLocaleString()} 颗 Star 与 ${forks.toLocaleString()} 次 Fork。`,
+    recommendation: recReason,
+    url,
+    language: lang,
+    languageColor: proj.languageColor,
+    starsToday,
+    totalStars,
+    forks,
+    channel: proj.channel
+  };
+}
+
 // 主入口
 async function main() {
   const args = process.argv.slice(2);
@@ -301,7 +377,7 @@ async function main() {
   const rawData = JSON.parse(await readFile(rawFile, 'utf-8'));
 
   // 1. 处理 X/推特
-  console.log(`[1/3] 正在提炼 AI Builders 推特动态 (${rawData.x?.length || 0} 位)...`);
+  console.log(`[1/4] 正在提炼 AI Builders 推特动态 (${rawData.x?.length || 0} 位)...`);
   const xDigests = [];
   for (const b of (rawData.x || [])) {
     const item = await processBuilderTweets(b);
@@ -309,7 +385,7 @@ async function main() {
   }
 
   // 2. 处理官方博客
-  console.log(`[2/3] 正在提炼官方技术博客 (${rawData.blogs?.length || 0} 篇)...`);
+  console.log(`[2/4] 正在提炼官方技术博客 (${rawData.blogs?.length || 0} 篇)...`);
   const blogDigests = [];
   for (const bl of (rawData.blogs || [])) {
     const item = await processBlog(bl);
@@ -317,11 +393,19 @@ async function main() {
   }
 
   // 3. 处理深度播客
-  console.log(`[3/3] 正在提炼深度播客单集 (${rawData.podcasts?.length || 0} 期)...`);
+  console.log(`[3/4] 正在提炼深度播客单集 (${rawData.podcasts?.length || 0} 期)...`);
   const podcastDigests = [];
   for (const p of (rawData.podcasts || [])) {
     const item = await processPodcast(p);
     if (item) podcastDigests.push(item);
+  }
+
+  // 4. 处理 GitHub 热门开源项目
+  console.log(`[4/4] 正在提炼 GitHub 热门开源项目 (${rawData.githubTrending?.length || 0} 个)...`);
+  const githubDigests = [];
+  for (const proj of (rawData.githubTrending || [])) {
+    const item = await processGithubProject(proj);
+    if (item) githubDigests.push(item);
   }
 
   const finalDigest = {
@@ -332,12 +416,14 @@ async function main() {
       buildersCount: xDigests.length,
       totalTweets: rawData.stats?.totalTweets || 0,
       blogCount: blogDigests.length,
-      podcastCount: podcastDigests.length
+      podcastCount: podcastDigests.length,
+      githubCount: githubDigests.length
     },
     sections: {
       x: xDigests,
       blogs: blogDigests,
-      podcasts: podcastDigests
+      podcasts: podcastDigests,
+      githubTrending: githubDigests
     }
   };
 
@@ -350,7 +436,17 @@ async function main() {
       const existing = JSON.parse(await readFile(digestFile, 'utf-8'));
       const sampleSummary = existing.sections?.x?.[0]?.summary || '';
       if (sampleSummary && !sampleSummary.includes('近期分享了关于技术与产品的最新动态')) {
-        console.log(`[保护机制] 已存在高质量深度精校日报，且当前未配置 GEMINI_API_KEY，保留现有高质量内容，避免退化为占位符。`);
+        // 如果已有高精日报尚未包含 githubTrending，合并新提炼的 githubTrending 并保存
+        if (!existing.sections?.githubTrending || existing.sections.githubTrending.length === 0) {
+          existing.sections = existing.sections || {};
+          existing.sections.githubTrending = githubDigests;
+          existing.stats = existing.stats || {};
+          existing.stats.githubCount = githubDigests.length;
+          await writeFile(digestFile, JSON.stringify(existing, null, 2), 'utf-8');
+          console.log(`[保护机制] 已保留现有高质量精校日报，并成功增润补齐 ${githubDigests.length} 条热门开源项目！`);
+        } else {
+          console.log(`[保护机制] 已存在高质量深度精校日报，且当前未配置 GEMINI_API_KEY，保留现有高质量内容。`);
+        }
         return existing;
       }
     } catch (e) {}
@@ -361,8 +457,12 @@ async function main() {
   console.log(`[完成] 四段式结构化日报已生成！`);
   console.log(`- 推特条目: ${xDigests.length} 条`);
   console.log(`- 博客条目: ${blogDigests.length} 条`);
-  console.log(`- 播客条目: ${podcastDigests.length} 条`);
+  console.log(`- 播客条目: ${podcastDigests.length} 期`);
+  console.log(`- GitHub 开源项目: ${githubDigests.length} 条`);
   console.log(`- 保存位置: ${digestFile}`);
+  console.log(`========================================\n`);
+
+  return finalDigest;
   console.log(`========================================\n`);
 
   return finalDigest;

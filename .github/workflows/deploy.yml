@@ -40,6 +40,7 @@ jobs:
       - name: Build Site or Run Scheduled Daily Workflow
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "⏰ 定时或手动调度触发：执行全面数据采集、AI提炼与静态编译..."
