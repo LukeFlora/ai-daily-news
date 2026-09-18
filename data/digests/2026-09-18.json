@@ -1,0 +1,581 @@
+{
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T01:10:55.927Z",
+  "isMondayLookback": false,
+  "stats": {
+    "buildersCount": 16,
+    "totalTweets": 33,
+    "blogCount": 1,
+    "podcastCount": 0
+  },
+  "sections": {
+    "x": [
+      {
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "role": "Claude Code @anthropicai",
+        "avatar": "",
+        "summary": "Anthropic 团队正将 Chat 与 Cowork 模式融合为统一的 Claude 体验，打破了以往工具分化的界限。现在 Claude 在对话中原生内置了 Docs、Slides 和 Design 等创作工具，支持直接生成、在线编辑并导出为 PowerPoint 或 PDF 等格式。这一升级旨在让 Claude 能够在单一上下文中贯穿用户的跨场景任务，打造更简单、高效且强大的智能化工作流。",
+        "translation": "Claude Code 证明了 AI 不仅能回答问题，还能真正胜任实际工作。开发者把功能需求交给 Claude，稍后就能拿到直接交付的代码。如今行业中大部分严肃的工程项目都在以此方式运行。\nCowork 也证实了知识工作者可以做到这一点：把需求简报交给 Claude，稍后就能收到完成的文件。\n今天，Chat 和 Cowork 开始融合成一个统一的 Claude。我们的方向是：打造一个能够随时随地贯穿你所有工作上下文的统一 Claude，简单到人人都能无门槛使用 Claude 的全部能力。\n过去几周我每天都在体验这种全新的工作方式，感觉非常棒——更简单、更快速、也更强大。\n我们正在逐步推出这一更新，并在此过程中不断微调，以确保体验的流畅与可靠。迫不及待想听听大家的想法！\n\n此外，今天 Claude Docs、Claude Slides 和 Claude Design 已经原生融入到每一次对话中。\n向 Claude 要一份演示文稿，你就能直接得到一个支持打开、在线编辑并可导出为 PowerPoint 或 PDF 的成品。文档和设计图亦是如此。无需切换到独立的工具，它们就在对话框里。",
+        "recommendation": "Anthropic 正加速推进 AI 从“问答交互”向“Agent 级生产力工作流”的演进。通过将 Cowork 协作模式与 Docs/Slides/Design 原生工具无缝整合，展示了未来 AI 产品减少工具跳转、强化全流程上下文贯穿的形态趋势，对 AI 应用设计者和 Agent 开发者具有重要启发。",
+        "url": "https://x.com/bcherny/status/2100260544087535639",
+        "rawTweets": [
+          {
+            "id": "2100260544087535639",
+            "text": "Also today: Claude Docs, Claude Slides, and Claude Design are in every conversation.\n\nAsk Claude for a presentation and you get one you can open, edit, and export as PowerPoint or PDF. Same for a document or a design. There's no separate tool to navigate to. They're just in the chat.",
+            "createdAt": "2026-09-16T16:28:29.000Z",
+            "url": "https://x.com/bcherny/status/2100260544087535639",
+            "likes": 2285,
+            "retweets": 131,
+            "replies": 127,
+            "isQuote": true,
+            "quotedTweetId": "2100258492590207079"
+          },
+          {
+            "id": "2100259951398789487",
+            "text": "Claude Code showed that AI could do real work, not just answer questions. Developers hand Claude a feature, come back to shipped code. That's where much of the industry's serious engineering runs now.\n\nCowork proved knowledge workers could do the same: hand Claude the brief, come back to finished files.\n\nToday, chat and Cowork start merging into one Claude. The direction: one Claude that carries context across everything you're working on, wherever you are. Simple enough for everyone to access Claude's full capabilities.\n\nI've been using this experience every day for the last few weeks, and it feels awesome. Simpler, faster, and more powerful.\n\nWe're rolling this out slowly. We'll be fine-tuning the experience as we go to ensure it is fast and reliable. Can't wait to hear what you think.",
+            "createdAt": "2026-09-16T16:26:08.000Z",
+            "url": "https://x.com/bcherny/status/2100259951398789487",
+            "likes": 1388,
+            "retweets": 60,
+            "replies": 161,
+            "isQuote": true,
+            "quotedTweetId": "2100258490740539730"
+          }
+        ]
+      },
+      {
+        "author": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "role": "Codex & ChatGPT @OpenAI",
+        "avatar": "",
+        "summary": "OpenAI 的 Codex 与 ChatGPT 团队开发者 Thibault Sottiaux 分享了关于最新项目“Astra”的核心特性，强调其兼具极速、前沿、高效与普惠性。同时，他也重申了对 ChatGPT 的定义思考，并感慨 AI 工程落地中“物理规律无法违背”的客观现实。",
+        "translation": "[推文 1] 有时候物理规律是无法欺骗的。\n[推文 2] Astra\n✅ 快速\n✅ 前沿\n✅ 高效\n✅ 适合每个人\n[推文 3] 什么是 ChatGPT",
+        "recommendation": "作为 OpenAI 核心产品的构建者，Thibault 的推文透漏了 OpenAI 新一代技术/产品 Astra 的定位与优势。其对物理规律的感叹也揭示了当下前沿大模型在追求极致性能时面临的硬件与算力物理极限，对关注 AI 工程落地与模型效率优化的从业者颇具启发。",
+        "url": "https://x.com/thsottiaux/status/2100363668051603608",
+        "rawTweets": [
+          {
+            "id": "2100363668051603608",
+            "text": "Sometimes physics can't be cheated https://t.co/Sgt4KrRtut",
+            "createdAt": "2026-09-16T23:18:15.000Z",
+            "url": "https://x.com/thsottiaux/status/2100363668051603608",
+            "likes": 5415,
+            "retweets": 105,
+            "replies": 1079,
+            "isQuote": true,
+            "quotedTweetId": "2100351958167220547"
+          },
+          {
+            "id": "2100297380968997327",
+            "text": "Astra\n\n✅ Fast\n✅ Frontier\n✅ Efficient\n✅ For everyone https://t.co/g4C7UizHcd",
+            "createdAt": "2026-09-16T18:54:51.000Z",
+            "url": "https://x.com/thsottiaux/status/2100297380968997327",
+            "likes": 4485,
+            "retweets": 123,
+            "replies": 1318,
+            "isQuote": true,
+            "quotedTweetId": "2100180792601420138"
+          },
+          {
+            "id": "2100295443620007993",
+            "text": "What is ChatGPT",
+            "createdAt": "2026-09-16T18:47:10.000Z",
+            "url": "https://x.com/thsottiaux/status/2100295443620007993",
+            "likes": 1913,
+            "retweets": 58,
+            "replies": 1468,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Peter Yang",
+        "handle": "petergyang",
+        "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "avatar": "",
+        "summary": "Peter Yang 分享了他如何利用 8 项自定义 AI 技能（如 `/podcast-prep`、`/podcast-edit` 等）全流程自动化制作播客，同时在关键环节保持人类的品味与判断。他强调，虽然最新大模型功能强大，但结构化的 AI 技能在引导 AI 执行特定编辑和浏览器操作指令时依然不可或缺。此外，他还推荐了一款面向幼童阅读启蒙的 AI 应用 Once Reading。",
+        "translation": "[推文 1]\n另外我们也特别喜欢随书附赠的这些实体书——里面的故事性比 Bob Books 和其他替代品好得多。\n\n[推文 2]\n我 4 岁半的孩子非常喜欢用 @Once_Reading 学习阅读，尤其是结合照片功能做各种搞怪表情的部分。\n就像 @clairevo 一样，这已经成了我们每天每晚的固定亲子环节！\n另外一定要 Shout out 给创始人 @SebTurn，他真是个超棒的人。\n如果你家有幼童，我强烈建议点击这里免费试用 Once 1 个月：https://t.co/GA2x8NMSzT\n\n[推文 3]\n我使用这 8 项 AI 技能制作了我的整期播客，同时全程融入了我个人的品味与判断。\n\n1. /podcast-prep：研究嘉宾背景并准备访谈指南。\n2. /podcast-edit：审阅原始逐字稿，与我配合挑选片头精彩片段，并标注需要剪辑的时刻。\n3. /podcast-production：协调 5 项子技能，将整期内容转化为 6 种不同的衍生内容资产。\n\n有些人认为最新的大模型会让这些“技能”（Skills）变得多余，但对我来说，它们在引导 AI 遵循我特定的编辑和浏览器操作指令时依然不可替代。\n\n如果你想自动化任何手动工作流，我最新的视频展示了我如何实际应用这些技能，非常值得一看。\n\n📌 在这里观看我演示全部 8 项技能：https://t.co/PYNbe5tlFw",
+        "recommendation": "Peter Yang 展示了如何将复杂工作流拆解为具体的 AI 技能（Skills），并在自动化生产中保持人类决策（Human-in-the-loop）。对于希望利用 AI 自动化处理播客、视频或长文本等多媒体内容的创作者和从业者而言，这一实战工作流极具借鉴价值。",
+        "url": "https://x.com/petergyang/status/2100328939034128856",
+        "rawTweets": [
+          {
+            "id": "2100402721803342098",
+            "text": "Also we love these books that you get - the storytelling in them is much better than bob books and other alternatives. https://t.co/m6pg9kGZhE",
+            "createdAt": "2026-09-17T01:53:27.000Z",
+            "url": "https://x.com/petergyang/status/2100402721803342098",
+            "likes": 3,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2100402704275435872",
+            "text": "My 4.5 year old loves learning to read using @Once_Reading, especially making the silliest faces as part of the photo feature.\n\nIt's become a nightly ritual for us just like it's been for @clairevo!\n\nPlus I have to give a shout out to the founder @SebTurn for being the nicest dude.\n\nIf you have young kids, I highly recommend giving Once a try for 1 month free here: https://t.co/GA2x8NMSzT",
+            "createdAt": "2026-09-17T01:53:22.000Z",
+            "url": "https://x.com/petergyang/status/2100402704275435872",
+            "likes": 19,
+            "retweets": 3,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2100328939034128856",
+            "text": "I use these 8 AI skills to produce my entire podcast while still applying my taste and judgment along the way.\n\n1. /podcast-prep does research on the guest and then preps an interview guide.\n\n2. /podcast-edit reviews the raw transcript, then works with me to pick engaging quotes for the intro reel along with moments to cut.\n\n3. /podcast-production orchestrates 5 skills to turn the full episode into 6 different assets.\n\nSome people think the latest models make skills redundant but they've been indispensable for me to get AI to follow my specific edit and browser-use instructions.\n\nMy latest video highlighting how I actually work with these skills is a good watch if you want to automate any manual workflow.\n\n📌 Watch me demo all 8 skills here: https://t.co/PYNbe5tlFw",
+            "createdAt": "2026-09-16T21:00:15.000Z",
+            "url": "https://x.com/petergyang/status/2100328939034128856",
+            "likes": 25,
+            "retweets": 1,
+            "replies": 8,
+            "isQuote": true,
+            "quotedTweetId": "2100234998875873439"
+          }
+        ]
+      },
+      {
+        "author": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "role": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "avatar": "",
+        "summary": "Meta AI 资深总监 Madhu Guru 发表了关于 AI 安全的产品设计哲学观点。他提出，安全与保障（Safety and Security）应当是 AI 模型及产品本身的原生“功能特性”，而非事后从外部强制附加的“护栏”。这一视角倡导将安全设计融入 AI 开发的全生命周期中。",
+        "translation": "安全与保障是你 AI 产品和模型的**功能特性**——而不是需要从外部强加给你的护栏。",
+        "recommendation": "来自 Meta 及前 Google 核心 AI 领导者的这一洞察，揭示了顶级厂商在 AI 安全理念上的重要范式转变。这启发 AI 开发者与产品经理将安全视作产品体验与竞争力的核心组成部分，而非仅依赖后置拦截和外挂规则。",
+        "url": "https://x.com/realmadhuguru/status/2100312717739667963",
+        "rawTweets": [
+          {
+            "id": "2100312717739667963",
+            "text": "Safety and security are * features * of your AI product and model - not guardrails that need to be imposed on you from the outside. https://t.co/jtN3rzdZV8 https://t.co/J8dM9vHsoN",
+            "createdAt": "2026-09-16T19:55:48.000Z",
+            "url": "https://x.com/realmadhuguru/status/2100312717739667963",
+            "likes": 4,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2099997096896274533"
+          }
+        ]
+      },
+      {
+        "author": "Cat Wu",
+        "handle": "_catwu",
+        "role": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+        "avatar": "",
+        "summary": "Anthropic 宣布将 Claude Cowork 与聊天功能深度整合，并引入 Claude Design 模块，旨在通过单一界面实现从对话到文档、幻灯片及设计生成的无缝切换。系统现已具备智能路由能力，能根据用户意图自动判断任务复杂度并调用相应的代理（Agentic）工作流。",
+        "translation": "今天，我们正在合并 Claude Cowork 与聊天功能，以简化您使用 Claude 的方式！\n\n我们还集成了 Claude Design，让您可以直接要求 Claude 制作幻灯片、设计稿或文档，无需切换标签页或应用程序。\n\n许多用户反馈称，在处理任务时不想纠结于该选择哪款 Claude 产品。随着 Claude 模型能力的不断提升，我们发现 Claude 完全可以为您完成路由工作。根据您的提示词，Claude 将自动决定是给出快速回答，还是执行更深度的代理任务，并选择最适合该任务的输出形式。\n\n您始终拥有完全的控制权：您仍然可以随时停止、重定向，或对 Claude 的工作方式进行更精细的干预。\n\n欢迎尝试并告诉我们您的想法。我们将在未来几周内逐步推广此功能，以确保体验完善。",
+        "recommendation": "该动态展示了 AI 产品从“工具集”向“统一智能体”演进的趋势，即通过模型自主路由（Routing）降低用户认知负荷。对于 AI 从业者而言，这种‘对话即工作流’的交互范式是未来 Agent 产品设计的核心参考。",
+        "url": "https://x.com/_catwu/status/2100260655312089562",
+        "rawTweets": [
+          {
+            "id": "2100260655312089562",
+            "text": "Today, we are merging Claude Cowork and chat to simplify how you use Claude!\n\nWe are also integrating Claude Design so that you can ask Claude to make a Slide, Design, or Doc without needing to switch tabs or apps.\n\nMany of you shared that you didn't want to choose which Claude product to use for any task. As Claude models have become more capable, we've found that Claude can handle the routing for you. Based on your prompt, Claude will decide whether to give a quick answer or do deeper agentic work, and what kind of output best fits the task.\n \nYou're in control the whole time: you can still stop, redirect, or exert finer control over Claude's effort or approach.\n \nGive it a try and let us know what you think. We're rolling this out slowly over the next few weeks to get it right.",
+            "createdAt": "2026-09-16T16:28:55.000Z",
+            "url": "https://x.com/_catwu/status/2100260655312089562",
+            "likes": 1206,
+            "retweets": 54,
+            "replies": 105,
+            "isQuote": true,
+            "quotedTweetId": "2100258490740539730"
+          }
+        ]
+      },
+      {
+        "author": "Thariq",
+        "handle": "trq212",
+        "role": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+        "avatar": "",
+        "summary": "Claude Code 开发者 Thariq 分享了对 Claude Managed Agents (CMA) 的最新实践心得。他认为开发者应直接构建符合业务逻辑的工具接口，而非过度依赖 Bash 脚本，并强调了沙箱环境在代码生成与执行任务中的核心价值。",
+        "translation": "我认为 Claude Managed Agents (CMA) 在此找到了极佳的平衡点：沙箱是可选的，且可以独立于代理循环的其他部分启动。我最近将一个专注于 Bash 工具调用的旧项目迁移到了 CMA，效果非常好！\n\n我认为现在的趋势是，你可以直接为 Claude 提供你所期望的工具形态，而无需通过间接层去“诱导”它。例如，在数据存储方面，你真正需要的是文件系统，还是一个数据库 API？这对我来说是相较于去年的一次认知更新。\n\n与此相关——我认为如果你的目标仅仅是可靠的工具调用，Bash 已不再是唯一选择。但对于涉及代码生成与执行的工作，沙箱加 Bash 依然是极佳的方案。",
+        "recommendation": "该内容揭示了 AI Agent 开发范式的演进：从“暴力”的 Bash 脚本调用转向更结构化、更符合业务逻辑的 API 设计。对于正在构建复杂 Agent 系统的开发者，这提供了关于工具设计与沙箱隔离策略的宝贵参考。",
+        "url": "https://x.com/trq212/status/2100315538472009897",
+        "rawTweets": [
+          {
+            "id": "2100315538472009897",
+            "text": "I think Claude Managed Agents strikes the right balance here, the sandbox is optional and can be spun up independently of the rest of the agent loop.\n\nI recently ported an old project that was focused on bash tool calling to CMA and it worked well!",
+            "createdAt": "2026-09-16T20:07:01.000Z",
+            "url": "https://x.com/trq212/status/2100315538472009897",
+            "likes": 46,
+            "retweets": 1,
+            "replies": 6,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2100315537251463523",
+            "text": "I think increasingly you can just give Claude tools shaped in the way you want vs tricking it with a layer of indirection\n\ne.g. for data storage do you really want a file system or do you want an API to a database\n\nthis is again, an update to me from last year",
+            "createdAt": "2026-09-16T20:07:00.000Z",
+            "url": "https://x.com/trq212/status/2100315537251463523",
+            "likes": 63,
+            "retweets": 0,
+            "replies": 6,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2100315535758217422",
+            "text": "related to this- I think bash is no longer all you need, if your goal is just reliably tool calling\n\nbut sandboxes + bash are still good for work that involves code generation &amp; execution https://t.co/xTptTmEmCE",
+            "createdAt": "2026-09-16T20:07:00.000Z",
+            "url": "https://x.com/trq212/status/2100315535758217422",
+            "likes": 356,
+            "retweets": 13,
+            "replies": 50,
+            "isQuote": true,
+            "quotedTweetId": "2099958388230873165"
+          }
+        ]
+      },
+      {
+        "author": "Guillermo Rauch",
+        "handle": "rauchg",
+        "role": "@vercel CEO",
+        "avatar": "",
+        "summary": "Vercel CEO Guillermo Rauch 宣布其 AI 工具集取得重大进展，通过引入 GPT Luna 模型，使得安全审查流程在速度上提升了 18 倍，同时保持了更高的准确性。这一改进将集成至 Vercel AI Gateway，并有望成为未来的默认配置。",
+        "translation": "我们从 @typesafeai 获得了非凡的成果。在 𝚏𝚡 中，默认模式为自动模式，并配有一个安全审查员来分析每一条指令。目前该审查员运行在 GPT Luna 模型上。Jev 的速度（p95）提升了高达 18 倍，且准确性更高。该功能即将登陆 @vercel AI Gateway，并很可能成为新的默认设置。",
+        "recommendation": "该动态展示了 AI 代理（AI Agents）在生产环境中的演进方向：通过引入专用模型进行实时安全审查，在不牺牲性能的前提下大幅提升系统的鲁棒性。对于构建 AI 应用的开发者而言，如何平衡推理速度与安全性是当前的核心课题，Rauch 的实践提供了极具参考价值的工程范式。",
+        "url": "https://x.com/rauchg/status/2100307962262872105",
+        "rawTweets": [
+          {
+            "id": "2100380166811951410",
+            "text": "https://t.co/e2EuPh7YAt",
+            "createdAt": "2026-09-17T00:23:49.000Z",
+            "url": "https://x.com/rauchg/status/2100380166811951410",
+            "likes": 25,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2100378959653507175"
+          },
+          {
+            "id": "2100307962262872105",
+            "text": "We're seeing extraordinary results from @typesafeai. Default mode in 𝚏𝚡 is auto, with a safety reviewer analyzing every command.\n\nThat reviewer runs on GPT Luna today. Jev is up to 18x faster (p95) *and* more accurate. It's coming to @vercel AI Gateway and likely new default. https://t.co/y5tFnlFN2l",
+            "createdAt": "2026-09-16T19:36:54.000Z",
+            "url": "https://x.com/rauchg/status/2100307962262872105",
+            "likes": 2855,
+            "retweets": 121,
+            "replies": 96,
+            "isQuote": true,
+            "quotedTweetId": "2100300097695232164"
+          },
+          {
+            "id": "2100260457617736051",
+            "text": "https://t.co/8uP1oRz9NP",
+            "createdAt": "2026-09-16T16:28:08.000Z",
+            "url": "https://x.com/rauchg/status/2100260457617736051",
+            "likes": 360,
+            "retweets": 3,
+            "replies": 29,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "role": "Research @AnthropicAI. Opinions are my own!",
+        "avatar": "",
+        "summary": "Anthropic 研究员 Alex Albert 近期展示了团队在产品整合上的重大进展。通过将 Chat 和 Cowork 功能深度融合，并引入幻灯片、文档及设计工具的集成，显著提升了 AI 协作的交互体验。",
+        "translation": "团队在这次合并工作中做得非常出色。最终呈现出的用户体验（UX）比之前的 Chat 或 Cowork 单独使用时要好得多。此外，新增的幻灯片、文档和设计集成功能表现也非常优秀。",
+        "recommendation": "该动态揭示了 AI Agent 从单一对话向多模态工作流整合的演进趋势。对于从业者而言，如何将 AI 能力无缝嵌入生产力工具链是提升用户留存的关键，值得关注其交互逻辑的优化方向。",
+        "url": "https://x.com/alexalbert__/status/2100295757953917120",
+        "rawTweets": [
+          {
+            "id": "2100295757953917120",
+            "text": "The team did an amazing job with this merge. The resulting UX feels so much better than chat or Cowork did on their own.\n\nAnd the new slides/docs/design integrations work very well. https://t.co/YyZYsf8OFE",
+            "createdAt": "2026-09-16T18:48:24.000Z",
+            "url": "https://x.com/alexalbert__/status/2100295757953917120",
+            "likes": 182,
+            "retweets": 5,
+            "replies": 12,
+            "isQuote": true,
+            "quotedTweetId": "2100258490740539730"
+          }
+        ]
+      },
+      {
+        "author": "Aaron Levie",
+        "handle": "levie",
+        "role": "ceo @box - your business lives in content. unleash it with AI",
+        "avatar": "",
+        "summary": "Box CEO Aaron Levie 指出，AI 在企业级应用中仍有大量未被开发的创新空间。他强调，通过极低成本实现高速信息处理与决策能力，将极大优化数据分类、工作流路由及安全判断等关键企业流程，为智能体（Agentic）工作流的落地带来新机遇。",
+        "translation": "令人难以置信的是，AI 创新领域中仍存在着许多我们此前甚至未曾察觉的广阔天地。\n\n能够以极低的成本、极高的效率处理信息，并具备强大的能力，这对大量企业任务而言意义重大。\n\n数据分类任务、工作流内部的路由决策、针对特定领域问题的决策制定、关于安全性的快速判断等，这些都是众多业务流程中的关键环节。\n\n这种模型和方法在企业智能体（Agentic）工作流中可能会产生非常酷的应用效果。",
+        "recommendation": "Levie 揭示了企业 AI 从“生成式内容”向“流程自动化与决策”转型的核心趋势。对于从业者而言，关注如何将 AI 嵌入业务流的“决策节点”而非仅仅是“内容生成”，是构建高价值企业级智能体的关键路径。",
+        "url": "https://x.com/levie/status/2100448648672993540",
+        "rawTweets": [
+          {
+            "id": "2100448648672993540",
+            "text": "Incredibly exciting that there are entire universes of AI innovation that still exist that weren’t even on most of our radars.\n\nBeing able to process information insanely quickly, at crazy low costs, with high levels of capability is huge for a wide number of enterprise tasks.\n\nData classification tasks, routing decisions inside of a workflow, decision making when handed a particular domain problem, quick judgment calls about safety or security, and more all are the gates in a large number of  processes. \n\nThis model and approach could be quite cool in agentic workflows in the enterprise.",
+            "createdAt": "2026-09-17T04:55:56.000Z",
+            "url": "https://x.com/levie/status/2100448648672993540",
+            "likes": 102,
+            "retweets": 7,
+            "replies": 20,
+            "isQuote": true,
+            "quotedTweetId": "2099925682726002904"
+          }
+        ]
+      },
+      {
+        "author": "Garry Tan",
+        "handle": "garrytan",
+        "role": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "avatar": "",
+        "summary": "YC掌门人Garry Tan近期分享了关于AI时代创业的深度洞察，并展示了其个人AGI在多平台交互中的一致性表现。他强调了在AI基础设施之上构建持久化个人智能体的重要性，为开发者提供了新的视角。",
+        "translation": "【推文1】很高兴能参加 @Supabase Select 活动，并与出色的 @kiwicopple 对话，探讨在AI时代如何构建初创公司。欢迎注册并加入我们：https://t.co/jNY2QcB6cU\n\n【推文2】无论我使用哪种交互界面（harness），它都能保持相同的个性，并拥有我个人AGI的完整记忆。https://t.co/4IupWtnh84",
+        "recommendation": "Garry Tan展示了AI Agent在跨平台应用中的记忆一致性，这预示着未来应用开发将从‘功能导向’转向‘智能体导向’。对于AI从业者而言，如何构建具备长期记忆与人格连续性的智能体，将是下一阶段的核心竞争力。",
+        "url": "https://x.com/garrytan/status/2100354983053111365",
+        "rawTweets": [
+          {
+            "id": "2100354983053111365",
+            "text": "Excited to speak at @Supabase Select in conversation with the amazing @kiwicopple about building startups in the time of AI\n\nRegister for the event and join me: https://t.co/jNY2QcB6cU",
+            "createdAt": "2026-09-16T22:43:45.000Z",
+            "url": "https://x.com/garrytan/status/2100354983053111365",
+            "likes": 96,
+            "retweets": 9,
+            "replies": 20,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2100339347669279149",
+            "text": "I can use any harness I want and it's the same personality and full memory of my personal AGI https://t.co/4IupWtnh84",
+            "createdAt": "2026-09-16T21:41:37.000Z",
+            "url": "https://x.com/garrytan/status/2100339347669279149",
+            "likes": 512,
+            "retweets": 14,
+            "replies": 52,
+            "isQuote": true,
+            "quotedTweetId": "2100336264360730692"
+          }
+        ]
+      },
+      {
+        "author": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "role": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd \nYouTube: https://t.co/8xzbGWsHgY",
+        "avatar": "",
+        "summary": "AI Builder Zara Zhang 指出 Claude 近期的语气变得过于卖弄，过度追求“聪明感”而非高效沟通。这种现象反映了当前大模型在交互体验设计上存在的“过度拟人化”与“说教感”问题。",
+        "translation": "我发现自己最近使用 Claude 的频率降低了，因为它的说话方式变得让人难以忍受。它总是试图展示自己有多聪明、多有深度，而不是真正把观点表达清楚。",
+        "recommendation": "该观点精准捕捉了当前 AI 交互中的“过度优化”痛点，对 AI 产品经理和提示词工程师具有极高的参考价值：在追求模型智能的同时，如何保持自然、简洁的沟通语境是提升用户留存的关键。",
+        "url": "https://x.com/zarazhangrui/status/2100278750776824115",
+        "rawTweets": [
+          {
+            "id": "2100278750776824115",
+            "text": "I find myself using Claude less these days because the way it speaks has just become insufferable \n\nLike it’s constantly trying to showcase how smart/sophisticated it is, rather than actually communicating a point across",
+            "createdAt": "2026-09-16T17:40:50.000Z",
+            "url": "https://x.com/zarazhangrui/status/2100278750776824115",
+            "likes": 1830,
+            "retweets": 61,
+            "replies": 306,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Nikunj Kothari",
+        "handle": "nikunj",
+        "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "avatar": "",
+        "summary": "FPV Ventures 合伙人 Nikunj Kothari 分享了其基于 Nous Research 开发的家庭 AI 代理实践，该代理已深度融入其日常生活。相比 Grok 等通用机器人，该定制化代理在处理特定邮件过滤、附件结构化数据提取及浏览器会话管理方面展现出极高的颗粒度和控制力。",
+        "translation": "过去几个月我一直在折腾一个基于 Nous Research 的“家庭”代理，它终于变得非常出色了。这也是我们第一个“群组”机器人，我和妻子每天都会与它互动——观察它在某些任务上失败的过程，反而是学习中最有趣的部分。我曾尝试用 Grok Bot 等类似产品复刻这种体验，但它们无法达到这种颗粒度和控制水平（例如：仅读取特定邮件、将内联附件转换为结构化数据或保持浏览器会话登录状态）。我让它根据自身能力和我们的对话总结一下它的工作内容，你们可以在下方看到它的回复！",
+        "recommendation": "该案例展示了从“通用聊天机器人”向“高权限、特定场景代理”转型的关键趋势。对于 AI 从业者而言，其强调的“颗粒度控制”和“私有数据处理能力”是构建下一代个人化 AI 产品的核心壁垒。",
+        "url": "https://x.com/nikunj/status/2100212813625196917",
+        "rawTweets": [
+          {
+            "id": "2100212813625196917",
+            "text": "Been tinkering with a “Home” @NousResearch agent for a few months and it’s finally gotten really good..\n\nIt’s also our first “group” bot where my wife and I interact with it on a daily basis - which has been fun learning especially when it fails 😅.\n\nI have tried to recreate with Grok Bot and similar and you can’t get this level of granularity and control (eg only read certain emails, convert in line attachments to structured data or logged in browser sessions)\n\nI asked it to share what it does based on the capabilities and our conversations and you can see it’s response below!",
+            "createdAt": "2026-09-16T13:18:49.000Z",
+            "url": "https://x.com/nikunj/status/2100212813625196917",
+            "likes": 44,
+            "retweets": 0,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2100117565150470652",
+            "text": "Before she wakes up and corrects  me, she never “wanted” it in the first place.. \n\nWe threatened to make Tiramisu and that’s when her preference spilled out. \n\nSous chef had a great time eating half the batter 😂 https://t.co/QRRzY9dCpr",
+            "createdAt": "2026-09-16T07:00:20.000Z",
+            "url": "https://x.com/nikunj/status/2100117565150470652",
+            "likes": 5,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2100115958862107100",
+            "text": "Wife wanted Black Forest cake for her birthday..\n\nI haven’t baked in a long long time, so not perfect but think it turned out ok (thanks @ChatGPT)\n\nHappy birthday @shimoleejhaveri - I love you mostest ❤️ https://t.co/5LC3blykHK",
+            "createdAt": "2026-09-16T06:53:57.000Z",
+            "url": "https://x.com/nikunj/status/2100115958862107100",
+            "likes": 158,
+            "retweets": 0,
+            "replies": 17,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Dan Shipper",
+        "handle": "danshipper",
+        "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "avatar": "",
+        "summary": "Every 创始人 Dan Shipper 近期发布重磅预告，暗示浏览器“标签页时代”即将终结。他同时通过对比 LLM 与 JSON 分类器，探讨了 AI 交互范式的深层演变。",
+        "translation": "【推文 1】重磅，重磅，重磅，重磅，重磅。\n【推文 2】他们做到了。标签页时代即将终结。\n【推文 3】LLM 只是自动补全工具 🤝 Jev 只是 JSON 分类器（注：此处用对比手法讽刺了对 AI 能力的过度简化）。",
+        "recommendation": "Shipper 对浏览器交互逻辑的颠覆性预判值得关注，这可能预示着 AI Agent 将直接接管信息流处理。从业者应思考如何跳出传统 UI 框架，构建更原生的 AI 交互体验。",
+        "url": "https://x.com/danshipper/status/2100284086703046903",
+        "rawTweets": [
+          {
+            "id": "2100284086703046903",
+            "text": "big big big big big https://t.co/dzD21vSafx",
+            "createdAt": "2026-09-16T18:02:02.000Z",
+            "url": "https://x.com/danshipper/status/2100284086703046903",
+            "likes": 1166,
+            "retweets": 36,
+            "replies": 24,
+            "isQuote": true,
+            "quotedTweetId": "2100258492590207079"
+          },
+          {
+            "id": "2100269017977987341",
+            "text": "THEY DID IT\n\nTHE END OF THE TABS ERA IS UPON US https://t.co/FJlWFUCcDw",
+            "createdAt": "2026-09-16T17:02:09.000Z",
+            "url": "https://x.com/danshipper/status/2100269017977987341",
+            "likes": 1658,
+            "retweets": 37,
+            "replies": 30,
+            "isQuote": true,
+            "quotedTweetId": "2100258490740539730"
+          },
+          {
+            "id": "2100251499443998766",
+            "text": "LLMs are just            jev is just a JSON \nautocomplete               classifier \n\n                             🤝\n\n                              🚩",
+            "createdAt": "2026-09-16T15:52:32.000Z",
+            "url": "https://x.com/danshipper/status/2100251499443998766",
+            "likes": 308,
+            "retweets": 11,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Aditya Agarwal",
+        "handle": "adityaag",
+        "role": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "avatar": "",
+        "summary": "前 Dropbox CTO Aditya Agarwal 近期强调了协作对于创新思维的重要性，并邀请加州州长候选人 Steve Hilton 到访 SPC，探讨如何以创业公司的视角治理加州。他主张将硅谷的执行力文化引入公共管理，通过问责制推动社会变革。",
+        "translation": "【推文 1】伟大的创意很少在孤立中产生。\n\n【推文 2】如果加州是一家初创公司，董事会会问 CEO 什么问题？几周后，我将在 SPC 接待加州州长候选人 Steve Hilton。议程包括：优先事项、执行力，以及他希望我们如何对他进行问责。点击此处报名参加：https://t.co/ahiXSi3TD5",
+        "recommendation": "Aditya 展现了顶级 Builder 如何将创业思维（如问责制与执行力）跨界应用于公共政策领域。对于 AI 从业者而言，这启发我们思考：如何利用技术思维解决宏观社会问题，以及构建高质量社区对激发创新至关重要。",
+        "url": "https://x.com/adityaag/status/2100347763502329951",
+        "rawTweets": [
+          {
+            "id": "2100347763502329951",
+            "text": "Great ideas rarely emerge from isolation. https://t.co/TyQb4mbjaD",
+            "createdAt": "2026-09-16T22:15:04.000Z",
+            "url": "https://x.com/adityaag/status/2100347763502329951",
+            "likes": 51,
+            "retweets": 3,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2100258438299156860"
+          },
+          {
+            "id": "2100275836792492463",
+            "text": "If California were a startup, what would its board ask the CEO?\n\nI’m hosting CA governor candidate @SteveHiltonx  at @spc  in a couple of weeks. On the agenda: priorities, execution, and what he’d want us to hold him accountable for.\n\nSign up here to attend:\nhttps://t.co/ahiXSi3TD5",
+            "createdAt": "2026-09-16T17:29:15.000Z",
+            "url": "https://x.com/adityaag/status/2100275836792492463",
+            "likes": 11,
+            "retweets": 3,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Sam Altman",
+        "handle": "sama",
+        "role": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+        "avatar": "",
+        "summary": "OpenAI CEO Sam Altman 在社交媒体预告，原定于本周发布的重要产品将推迟至下周上线。尽管发布时间有所调整，但他对该产品的预期依然很高，并表示这绝对值得等待。",
+        "translation": "我本周最期待发布的内容将推迟到下周，但在我看来，这绝对值得等待！",
+        "recommendation": "作为 AI 行业的风向标，Altman 的预告往往暗示着 OpenAI 下一阶段的产品重心。从业者需密切关注下周动态，以评估其对现有 AI 生态及应用层可能带来的冲击与机遇。",
+        "url": "https://x.com/sama/status/2100351958167220547",
+        "rawTweets": [
+          {
+            "id": "2100351958167220547",
+            "text": "the main thing i was excited about launching this week will be next week instead, but imo worth the wait! https://t.co/j8tcW05Fmk",
+            "createdAt": "2026-09-16T22:31:44.000Z",
+            "url": "https://x.com/sama/status/2100351958167220547",
+            "likes": 8692,
+            "retweets": 342,
+            "replies": 988,
+            "isQuote": true,
+            "quotedTweetId": "2099872600977760451"
+          }
+        ]
+      },
+      {
+        "author": "Claude",
+        "handle": "claudeai",
+        "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+        "avatar": "",
+        "summary": "Anthropic 推出 Claude 工作协同套件（Cowork），正式上线 Claude Design、Slides 和 Docs 三大生产力工具。用户现可在对话中直接创建、编辑并导出文档、演示文稿及设计稿，实现从构思到成品的一站式工作流。",
+        "translation": "如果你一直在使用 Cowork，你会发现所有内容都保留在原处：聊天记录、项目、Artifacts、连接器和技能。你可以随时从上次中断的地方继续工作。\n\nClaude Design、Claude Slides 和 Claude Docs 现已在所有付费计划中开启 Beta 测试。阅读更多：https://t.co/ERAuv5UcBV\n\n你可以自行修改文档中的某一行，在幻灯片上给 Claude 留下评论，或者选中元素进行移动。\n\n当内容准备就绪后，你可以直接从 Claude 进行演示，以你常用的格式导出文档，或通过一个链接分享所有内容。\n\n现在，你也可以在对话中直接制作演示文稿、文档和设计稿。\n\n在 Claude Docs 中起草单页文档，用 Claude Slides 将其转化为演示文稿，并在 Claude Design 中制作配套的视觉草图，所有操作均可在同一界面完成。",
+        "recommendation": "Claude 正在从单一的聊天机器人向深度协同工作平台转型，其 Artifacts 生态的闭环能力进一步增强。对于 AI 从业者而言，这种将生成式 AI 直接嵌入生产力工具（而非仅作为辅助）的模式，是未来 AI 原生应用的核心演进方向。",
+        "url": "https://x.com/claudeai/status/2100258495543071016",
+        "rawTweets": [
+          {
+            "id": "2100258495543071016",
+            "text": "If you've been working in Cowork, everything is where you left it: chats, projects, artifacts, connectors, and skills. You can pick up where you left off.\n\nClaude Design, Claude Slides, and Claude Docs are in beta on all paid plans. Read more: https://t.co/ERAuv5UcBV",
+            "createdAt": "2026-09-16T16:20:20.000Z",
+            "url": "https://x.com/claudeai/status/2100258495543071016",
+            "likes": 462,
+            "retweets": 17,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2100258494221812123",
+            "text": "Fix a line in the doc yourself, leave a comment for Claude on a slide, or select an element and move it.\n\nWhen it's ready, present the deck straight from Claude, export the doc in the format you already use, or share everything at one link.",
+            "createdAt": "2026-09-16T16:20:20.000Z",
+            "url": "https://x.com/claudeai/status/2100258494221812123",
+            "likes": 498,
+            "retweets": 13,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2100258492590207079",
+            "text": "You can also now make decks, docs, and designs in your conversation.\n\nDraft the one-pager in Claude Docs, turn it into a deck with Claude Slides, and mock up a matching visual in Claude Design, all from one place. https://t.co/Y0JaJGT3G8",
+            "createdAt": "2026-09-16T16:20:20.000Z",
+            "url": "https://x.com/claudeai/status/2100258492590207079",
+            "likes": 3305,
+            "retweets": 252,
+            "replies": 87,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "sourceName": "Claude Blog",
+        "title": "Claude Cowork and chat are now one Claude",
+        "summary": "Anthropic 宣布将 Claude Cowork 与核心聊天界面合并，实现从简单问答到复杂任务处理的无缝衔接。此次更新引入了 Claude Docs、Slides 及增强版 Design 功能，支持在同一对话中直接生成文档、演示文稿及视觉设计。系统通过统一的上下文管理，允许 AI 在用户离线时持续工作，并支持导出为 PPT 或 PDF。该功能目前已向 Pro 和 Max 计划用户推送，旨在消除用户在不同工具间切换的决策成本，实现“对话即工作流”的闭环体验。",
+        "translation": "从今天起，Claude Cowork 与聊天功能正式合二为一。无论是简单提问还是处理复杂的报告任务，Claude 都能在对话中直接接手，甚至在你合上电脑后继续工作。此次更新还推出了 Claude Docs 和 Slides，Claude Design 也已集成至对话中。用户可以与 Claude 协作编写文档、草拟幻灯片，并直接进行编辑、演示或导出。所有功能目前处于 Beta 测试阶段，企业管理员可自主控制开启时间。通过统一架构，Claude 能自动识别任务需求，调用所需的上下文、技能和连接器，无需用户在不同工具间手动切换。",
+        "recommendation": "该更新展示了“AI Agent 化”的演进方向：从单一的对话框进化为具备长程任务执行能力的生产力中枢。研发团队可借鉴其“统一上下文与任务流”的设计思路，减少用户在不同功能模块间的认知负担，提升 AI 在复杂办公场景中的落地深度。",
+        "url": "https://claude.com/blog/cowork-is-now-claude"
+      }
+    ],
+    "podcasts": []
+  }
+}
