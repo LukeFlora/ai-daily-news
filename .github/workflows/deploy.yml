@@ -2,8 +2,10 @@ name: Daily AI Digest & Deploy to GitHub Pages
 
 on:
   schedule:
-    # 每天早晨 09:00 (UTC 01:00) 晨读更新
-    - cron: '0 1 * * 1-5'
+    # 每天早晨 09:12 (UTC 01:12) 晨读更新 (避开整点 00 分的 GitHub 全球拥堵高峰)
+    - cron: '12 1 * * 1-5'
+    # 每天中午 11:30 (UTC 03:30) 兜底排期 (防止 GitHub 早晨队列积压延迟)
+    - cron: '30 3 * * 1-5'
     # 每天下午 15:30 (UTC 07:30)，上游在 UTC 06:42 更新后自动同步当天最新动态
     - cron: '30 7 * * 1-5'
   workflow_dispatch: # 支持在 GitHub 网页上手动点击运行
