@@ -1,7 +1,7 @@
 {
   "date": "2026-09-25",
   "isMondayLookback": false,
-  "fetchedAt": "2026-09-25T09:00:29.524Z",
+  "fetchedAt": "2026-09-25T12:52:02.002Z",
   "stats": {
     "buildersCount": 11,
     "totalTweets": 23,
@@ -377,6 +377,19 @@
   ],
   "githubTrending": [
     {
+      "repo": "paperclipai/paperclip",
+      "owner": "paperclipai",
+      "name": "paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 1853,
+      "totalStars": 83505,
+      "forks": 15136,
+      "channel": "全语言热门 / TypeScript/前端"
+    },
+    {
       "repo": "vectorize-io/hindsight",
       "owner": "vectorize-io",
       "name": "hindsight",
@@ -384,9 +397,9 @@
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 1668,
-      "totalStars": 28373,
-      "forks": 2819,
+      "starsToday": 1652,
+      "totalStars": 28603,
+      "forks": 2869,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -397,9 +410,9 @@
       "description": "Google's open agentic orchestration runtime",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "starsToday": 1373,
-      "totalStars": 10917,
-      "forks": 529,
+      "starsToday": 1386,
+      "totalStars": 11096,
+      "forks": 534,
       "channel": "全语言热门"
     },
     {
@@ -410,9 +423,9 @@
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 1082,
-      "totalStars": 18028,
-      "forks": 1547,
+      "starsToday": 1048,
+      "totalStars": 18147,
+      "forks": 1552,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -424,22 +437,22 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 934,
-      "totalStars": 77795,
-      "forks": 5093,
+      "totalStars": 77926,
+      "forks": 5098,
       "channel": "TypeScript/前端"
     },
     {
-      "repo": "anthropics/financial-services",
-      "owner": "anthropics",
-      "name": "financial-services",
-      "url": "https://github.com/anthropics/financial-services",
-      "description": "",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 509,
-      "totalStars": 37447,
-      "forks": 5425,
-      "channel": "全语言热门 / Python AI 专区"
+      "repo": "pbakaus/impeccable",
+      "owner": "pbakaus",
+      "name": "impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "starsToday": 527,
+      "totalStars": 70941,
+      "forks": 4306,
+      "channel": "全语言热门"
     },
     {
       "repo": "every-app/open-seo",
@@ -450,34 +463,21 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 441,
-      "totalStars": 20973,
-      "forks": 2689,
+      "totalStars": 20997,
+      "forks": 2693,
       "channel": "TypeScript/前端"
     },
     {
-      "repo": "HKUDS/CLI-Anything",
-      "owner": "HKUDS",
-      "name": "CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "repo": "public-apis/public-apis",
+      "owner": "public-apis",
+      "name": "public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 413,
-      "totalStars": 50448,
-      "forks": 4621,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
-      "repo": "experientiallabs/experiential",
-      "owner": "experientiallabs",
-      "name": "experiential",
-      "url": "https://github.com/experientiallabs/experiential",
-      "description": "Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 481,
-      "totalStars": 6832,
-      "forks": 206,
+      "starsToday": 404,
+      "totalStars": 483066,
+      "forks": 53360,
       "channel": "Python AI 专区"
     }
   ]
