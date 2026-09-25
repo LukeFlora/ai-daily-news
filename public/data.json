@@ -2,52 +2,16 @@
   "date": "2026年09月25日 · 星期五",
   "items": [
     {
-      "id": "x-thsottiaux-4",
-      "title": "OpenAI 开发者 Thibault Sottiaux 预告下周 DevDay 将发布重磅更新，强调 Astra 智能体大幅提升了开发效率",
-      "brief": "【为何关注】该动态揭示了 OpenAI 下一代开发范式的重心：以 Astra 为核心的智能体协作与全生态语音交互。对于 AI 从业者而言，这预示着 AI 辅助开发将从“代码生成”转向“全流程工作流托管”，值得密切关注其对现有生产力工具的重塑。",
-      "summary": "OpenAI 开发者 Thibault Sottiaux 预告下周 DevDay 将发布重磅更新，强调 Astra 智能体大幅提升了开发效率。此外，他分享了 ChatGPT 语音交互在处理编码、邮件及第三方插件生态中的深度应用体验。",
-      "category": "开源生产力工具",
-      "sourceName": "Thibault Sottiaux (@thsottiaux)",
-      "sourceUrl": "https://x.com/thsottiaux/status/2102996313780736363"
-    },
-    {
-      "id": "x-bcherny-3",
-      "title": "Claude Code 核心开发者 Boris Cherny 近期分享了 AI 辅助编程的深度技术细节，揭示了 Claude 如何通过构建程序模型来自动化发...",
-      "brief": "【为何关注】Boris 揭示了 AI 从简单的代码补全向‘模型驱动的自动化调试’进化的路径，这对构建高可靠性 AI 编程工具具有极高参考价值。同时，其性能优化的工程实践对于追求极致响应速度的 AI 产品开发者而言，是不可多得的实战指南。",
-      "summary": "Claude Code 核心开发者 Boris Cherny 近期分享了 AI 辅助编程的深度技术细节，揭示了 Claude 如何通过构建程序模型来自动化发现并修复复杂 Bug。此外，他还分享了提升 AI 应用性能的工程实践经验，并与计算机科学泰斗 Donald Knuth 进行了交流。",
-      "category": "大模型与技术突破",
-      "sourceName": "Boris Cherny (@bcherny)",
-      "sourceUrl": "https://x.com/bcherny/status/2102971275543216623"
-    },
-    {
-      "id": "x-claudeai-17",
-      "title": "Claude 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Claude 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Claude 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
-      "category": "大模型与技术突破",
-      "sourceName": "Claude (@claudeai)",
-      "sourceUrl": "https://x.com/claudeai/status/2102840855258452037"
-    },
-    {
-      "id": "gh-hindsight-21",
-      "title": "vectorize-io/hindsight: Hindsight: Agent Memory That Learns",
-      "brief": "【为何关注】基于 Python 构建，今日新增 +1,668 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
-      "summary": "开源项目「vectorize-io/hindsight」在 GitHub Trending 榜单引发广泛关注。项目主语言为 Python，今日激增 +1,668 Stars。核心定位：Hindsight: Agent Memory That Learns。",
+      "id": "gh-hindsight-14",
+      "title": "Hindsight: 具备自学习与持续进化能力的 AI Agent 动态记忆系统",
+      "brief": "【为何关注】今日暴增超 1,600 Star 的高关注度，体现了社区对 Agent 长期记忆瓶颈的迫切需求。它是将无状态模型转化为‘越用越聪明’的演进型智能体的关键基础设施，极具实操借鉴价值。",
+      "summary": "针对传统 AI Agent 缺乏有效长期记忆、难以从历史交互中汲取经验等痛点，Hindsight 推出了一套可自我学习的 Agent 记忆架构。该系统通过对历史行为的反思、动态上下文检索与记忆重构机制，使智能体能够根据先前的决策反馈持续优化自身行为模式。适用于需要长周期任务执行、个性化对话服务及复杂自适应工作流的 Agent 开发场景。",
       "category": "开源生产力工具",
       "sourceName": "GitHub: vectorize-io/hindsight",
       "sourceUrl": "https://github.com/vectorize-io/hindsight"
     },
     {
-      "id": "x-trq212-7",
-      "title": "Claude Code 开发者 Thariq 近期分享了全新的内容创作模式，旨在通过公开实战 Prompt 与技术细节，帮助开发者复刻其工作流",
-      "brief": "【为何关注】Thariq 这种“开源工作流”的尝试极具参考价值，它将 AI 辅助编程从简单的对话提升到了系统化工程实践的高度。对于 AI 从业者而言，学习如何构建万字级别的结构化 Prompt 来封装复杂逻辑，是提升 AI Agent 生产力的关键路径。",
-      "summary": "Claude Code 开发者 Thariq 近期分享了全新的内容创作模式，旨在通过公开实战 Prompt 与技术细节，帮助开发者复刻其工作流。他展示了如何利用长达 1 万字符的结构化提示词，实现复杂任务的“一键式”高效交付。",
-      "category": "AI 投资与商业",
-      "sourceName": "Thariq (@trq212)",
-      "sourceUrl": "https://x.com/trq212/status/2102870443321676043"
-    },
-    {
-      "id": "gh-ax-22",
+      "id": "gh-ax-15",
       "title": "google/ax: Google's open agentic orchestration ...",
       "brief": "【为何关注】基于 Go 构建，今日新增 +1,373 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
       "summary": "开源项目「google/ax」在 GitHub Trending 榜单引发广泛关注。项目主语言为 Go，今日激增 +1,373 Stars。核心定位：Google's open agentic orchestration runtime。",
@@ -56,16 +20,16 @@
       "sourceUrl": "https://github.com/google/ax"
     },
     {
-      "id": "gh-orca-24",
-      "title": "stablyai/orca: Orca is the ADE for working with a f...",
-      "brief": "【为何关注】基于 TypeScript 构建，今日新增 +934 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
-      "summary": "开源项目「stablyai/orca」在 GitHub Trending 榜单引发广泛关注。项目主语言为 TypeScript，今日激增 +934 Stars。核心定位：Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.。",
+      "id": "gh-orca-17",
+      "title": "Orca：面向多智能体协作的跨平台开发环境（ADE）",
+      "brief": "【为何关注】今日激增近千 Star，反映了开发者对“多智能体编排”从实验转向生产力工具的迫切需求。Orca 成功填补了 AI 代理在多终端协同工作流中的空白，是 AI 工程化落地的关键基础设施。",
+      "summary": "Orca 是一款专为并行智能体集群设计的开发环境（ADE），旨在解决开发者在复杂任务中管理多个 AI 代理的效率瓶颈。系统架构支持桌面端、移动端及远程运行时，允许用户通过自有订阅运行各类主流编码智能体。其核心价值在于将离散的 AI 工具整合为统一的协作流，通过跨平台同步能力，让开发者能够随时随地调度智能体集群执行任务，极大地提升了自动化开发与复杂项目交付的生产力。",
       "category": "开源生产力工具",
       "sourceName": "GitHub: stablyai/orca",
       "sourceUrl": "https://github.com/stablyai/orca"
     },
     {
-      "id": "gh-univer-23",
+      "id": "gh-univer-16",
       "title": "dream-num/univer: The Office Harness for AI Agents — S...",
       "brief": "【为何关注】基于 TypeScript 构建，今日新增 +1,082 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
       "summary": "开源项目「dream-num/univer」在 GitHub Trending 榜单引发广泛关注。项目主语言为 TypeScript，今日激增 +1,082 Stars。核心定位：The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.。",
@@ -74,16 +38,25 @@
       "sourceUrl": "https://github.com/dream-num/univer"
     },
     {
-      "id": "gh-financial-services-25",
-      "title": "anthropics/financial-services: 暂无详细描述",
-      "brief": "【为何关注】基于 Python 构建，今日新增 +509 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
-      "summary": "开源项目「anthropics/financial-services」在 GitHub Trending 榜单引发广泛关注。项目主语言为 Python，今日激增 +509 Stars。核心定位：暂无详细描述。",
+      "id": "x-trq212-4",
+      "title": "Claude Code 开发者 Thariq 近期针对用户反馈优化了“计划模式（Plan Mode）”，计划将其重构为内置模块，并支持自定义快捷键与模式扩展",
+      "brief": "【为何关注】Thariq 展示了如何通过模块化设计（Modularity）来平衡 AI 工具的灵活性与用户个性化需求，对于构建开发者工具（DevTools）的从业者极具参考价值。他关于 AI 如何放大而非替代人类创造力的观点，也为 AI 产品设计提供了重要的人文视角。",
+      "summary": "Claude Code 开发者 Thariq 近期针对用户反馈优化了“计划模式（Plan Mode）”，计划将其重构为内置模块，并支持自定义快捷键与模式扩展。此外，他分享了对 AI 与创意产业深度融合的思考，致力于通过工具赋能创作者。",
+      "category": "开源生产力工具",
+      "sourceName": "Thariq (@trq212)",
+      "sourceUrl": "https://x.com/trq212/status/2103259550325575806"
+    },
+    {
+      "id": "gh-financial-services-18",
+      "title": "Financial Services: 基于Claude构建的金融行业AI自动化解决方案",
+      "brief": "【为何关注】作为AI巨头官方背书的垂直领域方案，今日激增500+ Star反映了开发者对高可靠性、合规化AI落地的迫切需求，是金融科技从业者不可错过的架构范式。",
+      "summary": "该项目由Anthropic官方发布，旨在为金融服务领域提供一套标准化的AI应用架构。它通过集成Claude模型，解决了金融机构在合规性、数据处理及复杂决策分析中的痛点。系统架构采用模块化设计，支持文档自动化处理、实时市场分析及智能合规审查。项目核心特性在于其对金融语境的深度适配，能够高效处理非结构化财务数据，显著降低人工审计成本。适用于银行、投资机构及金融科技公司，是构建企业级金融AI应用的基石。",
       "category": "开源生产力工具",
       "sourceName": "GitHub: anthropics/financial-services",
       "sourceUrl": "https://github.com/anthropics/financial-services"
     },
     {
-      "id": "gh-cli-anything-27",
+      "id": "gh-cli-anything-20",
       "title": "HKUDS/CLI-Anything: \"CLI-Anything: Making ALL Software A...",
       "brief": "【为何关注】基于 Python 构建，今日新增 +413 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
       "summary": "开源项目「HKUDS/CLI-Anything」在 GitHub Trending 榜单引发广泛关注。项目主语言为 Python，今日激增 +413 Stars。核心定位：\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/。",
@@ -92,16 +65,16 @@
       "sourceUrl": "https://github.com/HKUDS/CLI-Anything"
     },
     {
-      "id": "x-rauchg-9",
-      "title": "Vercel CEO Guillermo Rauch 深入拆解了 AI Agent 的架构，提出将“大脑、双手、文件”解耦以实现云端高效运行",
-      "brief": "【为何关注】Rauch 的观点揭示了 AI Agent 从“单机原型”向“生产级云原生架构”演进的必然趋势。对于开发者而言，将 Agent 的计算、工具与存储解耦，是降低成本、提升安全性和实现复杂任务持久化的关键架构模式。",
-      "summary": "Vercel CEO Guillermo Rauch 深入拆解了 AI Agent 的架构，提出将“大脑、双手、文件”解耦以实现云端高效运行。同时，他发布了全新存储产品 Drives，并分享了利用 AI 优化终端启动性能的实战经验。",
+      "id": "x-amasad-5",
+      "title": "Replit CEO Amjad Masad 宣布，AI 工具 Muse 现已支持直接在 Replit 上构建应用程序",
+      "brief": "【为何关注】Replit 作为 AI Coding 领域的先锋，正不断扩展其生态圈与工具链集成。关注 Muse 与 Replit 的结合，能为 AI 开发者洞察全流程自动建站与应用生成的最新演进方向提供切入点。",
+      "summary": "Replit CEO Amjad Masad 宣布，AI 工具 Muse 现已支持直接在 Replit 上构建应用程序。这一集成进一步推动了生成式 AI 与云端开发环境的深度结合，让用户能够更高效地将 AI 概念转化为实际可运行的代码与应用。",
       "category": "开源生产力工具",
-      "sourceName": "Guillermo Rauch (@rauchg)",
-      "sourceUrl": "https://x.com/rauchg/status/2102947745132924993"
+      "sourceName": "Amjad Masad (@amasad)",
+      "sourceUrl": "https://x.com/amasad/status/2103129037011120525"
     },
     {
-      "id": "gh-open-seo-26",
+      "id": "gh-open-seo-19",
       "title": "every-app/open-seo: Open source alternative to Semrush a...",
       "brief": "【为何关注】基于 TypeScript 构建，今日新增 +441 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
       "summary": "开源项目「every-app/open-seo」在 GitHub Trending 榜单引发广泛关注。项目主语言为 TypeScript，今日激增 +441 Stars。核心定位：Open source alternative to Semrush and Ahrefs。",
@@ -110,148 +83,111 @@
       "sourceUrl": "https://github.com/every-app/open-seo"
     },
     {
-      "id": "x-ryolu_-11",
-      "title": "Cursor 与 Notion 前设计师 Ryo Lu 深刻反思了 AI 时代的“效率陷阱”",
-      "brief": "【为何关注】作为曾参与 Cursor 和 Notion 等顶尖工具设计的开发者，Ryo Lu 的反思极具警示意义。对于 AI 从业者而言，这篇推文提醒我们：在追求 Agent 规模化与自动化效率的同时，必须回归“以人为本”的初衷，警惕技术带来的虚假繁荣与认知异化。",
-      "summary": "Cursor 与 Notion 前设计师 Ryo Lu 深刻反思了 AI 时代的“效率陷阱”。他指出，AI 不应仅仅是加速生产的工具，若一味追求自动化与规模化而丧失了深度思考与审美，人类终将沦为机器的管理者，陷入无意义的忙碌。",
-      "category": "开源生产力工具",
-      "sourceName": "Ryo Lu (@ryolu_)",
-      "sourceUrl": "https://x.com/ryolu_/status/2102933485795369213"
-    },
-    {
-      "id": "x-garrytan-12",
-      "title": "YC掌门人Garry Tan近日密集发声，强调AI Agent正在重塑获客逻辑，并看好Muse等前沿AI产品的潜力",
-      "brief": "【为何关注】Garry Tan精准捕捉了AI Agent从“工具”向“需求创造者”转型的范式转移。对于从业者而言，理解‘Agent to Agent’的获客新路径，是把握下一波AI商业化红利的关键。",
-      "summary": "YC掌门人Garry Tan近日密集发声，强调AI Agent正在重塑获客逻辑，并看好Muse等前沿AI产品的潜力。他认为市场尚未完全消化AI带来的深远变革，创业者应关注如何利用Agent构建新的增长飞轮。",
-      "category": "AI 投资与商业",
-      "sourceName": "Garry Tan (@garrytan)",
-      "sourceUrl": "https://x.com/garrytan/status/2102974165800399274"
-    },
-    {
-      "id": "gh-experiential-28",
-      "title": "experientiallabs/experiential: Experiential is the open source, zer...",
-      "brief": "【为何关注】基于 Python 构建，今日新增 +481 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
-      "summary": "开源项目「experientiallabs/experiential」在 GitHub Trending 榜单引发广泛关注。项目主语言为 Python，今日激增 +481 Stars。核心定位：Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own.。",
+      "id": "gh-experiential-21",
+      "title": "Experiential：零加价、自托管的AI模型网关与优化平台",
+      "brief": "【为何关注】今日激增 481 Star，反映了开发者对摆脱昂贵 API 中间商、追求模型自主可控的强烈需求。其“流量学习+模型自训练”的闭环架构，是 AI 工程化落地的极佳实践。",
+      "summary": "Experiential 是一个开源的 AI 模型网关，旨在解决企业在调用多源模型时的成本与效率痛点。它支持 BYOK（自带密钥）及 1000+ 市场模型，核心架构通过流量学习机制，自动优化模型路由以降低成本，并能基于用户历史调用数据训练专属的轻量化模型。该项目通过零加价模式，为开发者提供了一个可控、透明且具备自我进化能力的 AI 推理基础设施，特别适用于对数据隐私敏感、追求极致推理成本优化的企业级应用场景。",
       "category": "开源生产力工具",
       "sourceName": "GitHub: experientiallabs/experiential",
       "sourceUrl": "https://github.com/experientiallabs/experiential"
     },
     {
-      "id": "blog-18",
-      "title": "How we contain Claude across products",
+      "id": "x-rauchg-6",
+      "title": "Vercel CEO Guillermo Rauch 分享了过去两个月 Vercel AI Gateway 上的模型消费数据变化",
+      "brief": "【为何关注】Vercel 作为一线开发者聚合平台，其 API 网关数据能够真实反映当下 AI 应用层的真实消耗与选型偏好。该数据不仅揭示了顶尖模型厂商之间白热化的份额拉锯，更印证了国产大模型在国际开发者生态中日益增强的竞争力，对 AI 生态观察与技术选型具有极高参考价值。",
+      "summary": "Vercel CEO Guillermo Rauch 分享了过去两个月 Vercel AI Gateway 上的模型消费数据变化。尽管 Anthropic 仍居消费榜首，但份额从 69% 大幅下滑至 40%；OpenAI 凭借强劲新模型将消费占比提升至 24%，并在 Token 总量和图像生成领域占据领先。值得关注的是，国产模型 Kimi K3 和 DeepSeek 成功吸纳了 Anthropic 近半的流失份额，展示出强劲的海外开发者渗透力。",
+      "category": "开源生产力工具",
+      "sourceName": "Guillermo Rauch (@rauchg)",
+      "sourceUrl": "https://x.com/rauchg/status/2103216656747262419"
+    },
+    {
+      "id": "x-steipete-9",
+      "title": "资深开发者 Peter Steinberger 分享了利用 AI 工具 Daybreak 修复开源依赖内存泄漏的实战经验，并指出在 AI Agent 任务规...",
+      "brief": "【为何关注】Peter 的实战建议揭示了 AI 辅助编程的关键心法：通过量化目标（如覆盖率限制）来约束 Agent 的行为边界，能有效避免 AI 偷懒或过度执行，是提升工程化落地能力的极佳参考。",
+      "summary": "资深开发者 Peter Steinberger 分享了利用 AI 工具 Daybreak 修复开源依赖内存泄漏的实战经验，并指出在 AI Agent 任务规划中，设定具体且具有挑战性的目标（而非笼统指令）能显著提升代码维护效率。",
+      "category": "开源生产力工具",
+      "sourceName": "Peter Steinberger (@steipete)",
+      "sourceUrl": "https://x.com/steipete/status/2103200311641076100"
+    },
+    {
+      "id": "blog-12",
+      "title": "Claude for Small Business launches new workflows, integrations, and training p...",
       "brief": "【推荐理由】官方技术博客通常代表了顶尖团队的第一手工程范式，推荐从事相关技术架构与 AI 研发的同学阅读。",
-      "summary": "Anthropic Engineering 发布了关于「How we contain Claude across products」的技术博文，详细阐述了其工程实践与前沿设计方案。",
+      "summary": "Claude Blog 发布了关于「Claude for Small Business launches new workflows, integrations, and training programs」的技术博文，详细阐述了其工程实践与前沿设计方案。",
       "category": "开源生产力工具",
-      "sourceName": "Anthropic Engineering",
-      "sourceUrl": "https://www.anthropic.com/engineering/how-we-contain-claude"
-    },
-    {
-      "id": "blog-19",
-      "title": "An update on recent Claude Code quality reports",
-      "brief": "【推荐理由】官方技术博客通常代表了顶尖团队的第一手工程范式，推荐从事相关技术架构与 AI 研发的同学阅读。",
-      "summary": "Anthropic Engineering 发布了关于「An update on recent Claude Code quality reports」的技术博文，详细阐述了其工程实践与前沿设计方案。",
-      "category": "开源生产力工具",
-      "sourceName": "Anthropic Engineering",
-      "sourceUrl": "https://www.anthropic.com/engineering/april-23-postmortem"
-    },
-    {
-      "id": "blog-20",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
-      "brief": "【推荐理由】官方技术博客通常代表了顶尖团队的第一手工程范式，推荐从事相关技术架构与 AI 研发的同学阅读。",
-      "summary": "Anthropic Engineering 发布了关于「Scaling Managed Agents: Decoupling the brain from the hands」的技术博文，详细阐述了其工程实践与前沿设计方案。",
-      "category": "开源生产力工具",
-      "sourceName": "Anthropic Engineering",
-      "sourceUrl": "https://www.anthropic.com/engineering/managed-agents"
-    },
-    {
-      "id": "x-petergyang-5",
-      "title": "AI Builder Peter Yang 近期对 Claude Opus 5.5 给予高度评价，称其在智能、速度及交互体验上表现卓越",
-      "brief": "【为何关注】Peter Yang 的观点精准捕捉了当前 AI 开发者生态的痛点：即顶级模型与高效开发框架（Harness）的割裂。对于从业者而言，关注他关于 Claude Opus 5.5 的评价及工作流优化技巧，有助于在快速迭代的 AI 工具链中找到提升生产力的最优解。",
-      "summary": "AI Builder Peter Yang 近期对 Claude Opus 5.5 给予高度评价，称其在智能、速度及交互体验上表现卓越。同时，他指出当前 AI 领域呈现出“模型与工具分化”的趋势，并分享了利用 AI 彻底革新企业级 PPT 制作的实操心得。",
-      "category": "开源生产力工具",
-      "sourceName": "Peter Yang (@petergyang)",
-      "sourceUrl": "https://x.com/petergyang/status/2102956775645552645"
-    },
-    {
-      "id": "x-joshwoodward-2",
-      "title": "Google Gemini 正在加速扩展其应用生态集成，通过引入更多用户喜爱的第三方应用，进一步强化 AI 助手在工作流中的实用性",
-      "brief": "【为何关注】此动态反映了 Google 在 AI Agent 领域的战略重心，即通过生态互联提升 Gemini 的生产力价值。对于从业者而言，关注 Gemini 的集成路径有助于洞察 AI 助手从“对话工具”向“全能执行者”转型的产品演进逻辑。",
-      "summary": "Google Gemini 正在加速扩展其应用生态集成，通过引入更多用户喜爱的第三方应用，进一步强化 AI 助手在工作流中的实用性。Josh Woodward 此次公开征集用户反馈，旨在通过社区驱动的方式优化 Gemini 的功能优先级。",
-      "category": "开源生产力工具",
-      "sourceName": "Josh Woodward (@joshwoodward)",
-      "sourceUrl": "https://x.com/joshwoodward/status/2102800209894056351"
-    },
-    {
-      "id": "x-adityaag-16",
-      "title": "前Facebook高管Aditya Agarwal近日发文，盛赞扎克伯格在顺境下的统治力，并强调团队稳定性（Longevity）远比规模（Size）更能决定...",
-      "brief": "【为何关注】Aditya Agarwal从资深工程管理者视角提出了“团队AUC”概念，提醒AI创业者在组建团队时，应优先考虑成员间的默契度与长期协作带来的边际收益，而非盲目追求人才堆砌。",
-      "summary": "前Facebook高管Aditya Agarwal近日发文，盛赞扎克伯格在顺境下的统治力，并强调团队稳定性（Longevity）远比规模（Size）更能决定产出效率。他提出应将“团队协作时长”作为评估企业核心竞争力的关键指标。",
-      "category": "AI 投资与商业",
-      "sourceName": "Aditya Agarwal (@adityaag)",
-      "sourceUrl": "https://x.com/adityaag/status/2102948781813792996"
+      "sourceName": "Claude Blog",
+      "sourceUrl": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs"
     },
     {
       "id": "x-swyx-1",
-      "title": "Swyx 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Swyx 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Swyx 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
-      "category": "开源生产力工具",
+      "title": "AI 意见领袖 Swyx 宣布其内容矩阵进入爆发期，通过“拒绝平庸（Scaling without Slop）”策略，YouTube 订阅增长速度提升近 3...",
+      "brief": "【为何关注】Swyx 的增长曲线验证了在 AI 时代，高质量、去水份的内容策略远胜于单纯的流量堆砌。对于 AI 从业者而言，他关于 AEO（AI 引擎优化）的实践经验是未来内容分发的重要参考，值得关注其后续的媒体转型布局。",
+      "summary": "AI 意见领袖 Swyx 宣布其内容矩阵进入爆发期，通过“拒绝平庸（Scaling without Slop）”策略，YouTube 订阅增长速度提升近 30 倍。他正筹备 Latent Space 与 AINews 的下一阶段，并呼吁行业会议优化议程设置以提升沟通效率。",
+      "category": "大模型与技术突破",
       "sourceName": "Swyx (@swyx)",
-      "sourceUrl": "https://x.com/swyx/status/2102938490518609983"
+      "sourceUrl": "https://x.com/swyx/status/2103361254433993165"
     },
     {
-      "id": "x-amasad-8",
-      "title": "Replit CEO Amjad Masad 近期在社交媒体上表达了对教育创新的思考，强调理想的大学应鼓励年轻人打破常规、质疑既定信念并挑战不可能",
-      "brief": "【为何关注】Amjad Masad 作为 AI 开发者工具领域的领军人物，其对人才培养的思考反映了硅谷前沿对于“创新者基因”的重视。对于 AI 从业者而言，这种打破思维定势的视角是构建颠覆性产品与技术路线的核心驱动力。",
-      "summary": "Replit CEO Amjad Masad 近期在社交媒体上表达了对教育创新的思考，强调理想的大学应鼓励年轻人打破常规、质疑既定信念并挑战不可能。他通过分享相关链接，持续推动关于培养颠覆性人才与重塑教育范式的讨论。",
+      "id": "podcast-13",
+      "title": "Who Feeds the GPUs? Inside AI's Hidden $30B Layer | Renen Hallak, VAST Data",
+      "brief": "【核心提炼】如果你想跳出模型层面的炒作，从底层架构视角理解AI算力瓶颈与数据流转逻辑，本期节目是必听之作。它揭示了支撑xAI等顶级AI玩家背后的硬核基础设施逻辑，极具行业洞察价值。",
+      "summary": "本期播客探讨了AI繁荣背后的“隐形基石”——数据基础设施。核心Takeaway：AI工厂的本质不仅是算力堆叠，更是对数据存取速度与规模的极致重构。反直觉洞见在于，AI时代的数据需求呈指数级爆炸，客户对存储的需求在短时间内从PB级跃升至EB级，这种增长速度远超传统IT预期。Renen Hallak指出，VAST Data所处的中间层即是AI时代的“操作系统”，负责将海量非结构化数据高效喂给GPU。金句：“在未来十年，我们将见证比过去一千年还要巨大的技术变革。”",
+      "category": "开源生产力工具",
+      "sourceUrl": "https://www.youtube.com/@DataDrivenNYC/videos"
+    },
+    {
+      "id": "x-joshwoodward-2",
+      "title": "Google Labs 副总裁 Josh Woodward 推荐了旗下实验性项目 Dreambeans",
+      "brief": "【为何关注】该项目展示了 AI 产品设计的新思路：从“沉浸式屏幕时间”转向“AI 驱动的现实社交”。对于关注 AI 如何赋能线下生活及行为设计的从业者，这是一个极具启发性的案例。",
+      "summary": "Google Labs 副总裁 Josh Woodward 推荐了旗下实验性项目 Dreambeans。该应用通过每日限量的“豆子”机制，引导用户走出数字世界，参与现实生活中的社交活动。",
+      "category": "论文前沿",
+      "sourceName": "Josh Woodward (@joshwoodward)",
+      "sourceUrl": "https://x.com/joshwoodward/status/2103182635992514569"
+    },
+    {
+      "id": "x-petergyang-3",
+      "title": "AI 创作者 Peter Yang 近日发文感叹多模态 AI 的爆发式迭代，指出 Astra 在 3D 模型生成领域带来了巨大突破，而 Opus 亦彻底改变...",
+      "brief": "【为何关注】Peter Yang 敏锐地记录了多模态 AI 从 3D 到视频生成领域的极速范式演进。这提醒 AI 从业者不仅要跟进文本模型，更需时刻关注多模态生成工具的实用化突破，并在 Prompt 工程中保持灵活有趣的探索心态。",
+      "summary": "AI 创作者 Peter Yang 近日发文感叹多模态 AI 的爆发式迭代，指出 Astra 在 3D 模型生成领域带来了巨大突破，而 Opus 亦彻底改变了视频生成体验。此外，他还幽默地分享了 Prompt 技巧，表示在提示词中对 AI 进行适当“奉承”确实能提升输出效果。",
       "category": "大模型与技术突破",
-      "sourceName": "Amjad Masad (@amasad)",
-      "sourceUrl": "https://x.com/amasad/status/2102799031038878172"
+      "sourceName": "Peter Yang (@petergyang)",
+      "sourceUrl": "https://x.com/petergyang/status/2103318850641260959"
     },
     {
-      "id": "x-danshipper-15",
-      "title": "Every 创始人 Dan Shipper 宣布，其团队即将举办一场由 AI Agent 全程策划的线下聚会",
-      "brief": "【为何关注】该案例展示了 AI Agent 从“数字任务”向“物理世界执行”的跨越，是探索 AI 代理在复杂现实场景中落地能力的绝佳样本。对于关注 Agent 工作流与现实世界交互的从业者，这场实验的反馈结果极具参考价值。",
-      "summary": "Every 创始人 Dan Shipper 宣布，其团队即将举办一场由 AI Agent 全程策划的线下聚会。从菜单设计到嘉宾名单筛选，AI 的执行能力将迎来一场真实的“派对测试”。",
-      "category": "大模型与技术突破",
-      "sourceName": "Dan Shipper (@danshipper)",
-      "sourceUrl": "https://x.com/danshipper/status/2102826854357016793"
-    },
-    {
-      "id": "x-levie-10",
-      "title": "Aaron Levie 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Aaron Levie 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Aaron Levie 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
-      "category": "大模型与技术突破",
-      "sourceName": "Aaron Levie (@levie)",
-      "sourceUrl": "https://x.com/levie/status/2102934874470617303"
-    },
-    {
-      "id": "x-steipete-14",
-      "title": "资深开发者 Peter Steinberger 近期高度评价 Astra 的表现，并指出浏览器环境正在逐步取代传统的 VNC 远程桌面方案",
-      "brief": "【为何关注】Peter 作为技术老兵，其对 Astra 的认可暗示了 AI Agent 在浏览器自动化领域的突破。对于从业者而言，关注“浏览器即终端”的交互范式变革，是优化 AI 工作流效率的关键。",
-      "summary": "资深开发者 Peter Steinberger 近期高度评价 Astra 的表现，并指出浏览器环境正在逐步取代传统的 VNC 远程桌面方案。这一趋势反映了 AI 交互正向更轻量、更原生的 Web 端迁移。",
-      "category": "大模型与技术突破",
-      "sourceName": "Peter Steinberger (@steipete)",
-      "sourceUrl": "https://x.com/steipete/status/2103001790069526564"
-    },
-    {
-      "id": "x-realmadhuguru-6",
-      "title": "Meta AI 高管 Madhu Guru 反驳了关于 AI 代理（Agent）应用场景的观点，指出消费者对“任务处理”的需求并非单一模式",
-      "brief": "【为何关注】该观点精准拆解了 AI Agent 的产品哲学：不要试图用一种交互逻辑解决所有问题。对于从业者而言，识别哪些场景需要“极致效率（零摩擦）”，哪些场景需要“辅助决策（过程参与）”，是构建下一代 AI 产品体验的关键。",
-      "summary": "Meta AI 高管 Madhu Guru 反驳了关于 AI 代理（Agent）应用场景的观点，指出消费者对“任务处理”的需求并非单一模式。他强调，AI 的核心价值在于根据任务属性（如娱乐性浏览 vs. 极度痛苦的琐事）提供差异化的摩擦力消除方案，而非一刀切的自动化。",
+      "id": "x-mattturck-7",
+      "title": "知名投资人 Matt Turck 对话 VAST Data CEO Renen Hallak，深度剖析了 AI 基础设施中被低估的“中间层”软件架构",
+      "brief": "【为何关注】该访谈是理解 AI 硬件之外“软件基础设施”价值的最佳窗口，尤其适合关注 AI 算力集群构建、数据存储瓶颈及企业级 AI 落地挑战的从业者。通过 VAST Data 的视角，你可以清晰看到为何传统数据库在处理万亿级向量时会失效，以及 AI 基础设施领域真正的商业护城河所在。",
+      "summary": "知名投资人 Matt Turck 对话 VAST Data CEO Renen Hallak，深度剖析了 AI 基础设施中被低估的“中间层”软件架构。两人探讨了从 AI 工厂构建、数据存储瓶颈到多智能体系统等关键议题，揭示了 VAST Data 如何在 AI 浪潮中实现盈利并支撑起 SpaceX、Mistral 等头部企业的底层逻辑。",
       "category": "AI 投资与商业",
-      "sourceName": "Madhu Guru (@realmadhuguru)",
-      "sourceUrl": "https://x.com/realmadhuguru/status/2102777931764498536"
+      "sourceName": "Matt Turck (@mattturck)",
+      "sourceUrl": "https://x.com/mattturck/status/2103167536141353053"
     },
     {
-      "id": "x-nikunj-13",
-      "title": "FPV Ventures 合伙人 Nikunj Kothari 近期在社交媒体分享了其在种子轮投资中的资源获取策略与行业洞察",
-      "brief": "【为何关注】Nikunj Kothari 拥有从 Atlassian 到 Opendoor 的早期核心团队背景，其视角兼具创业实战与资本逻辑。关注他可以洞察硅谷顶级风投如何挖掘 AI 早期项目，对于寻求融资的 AI 创业者具有极高的参考价值。",
-      "summary": "FPV Ventures 合伙人 Nikunj Kothari 近期在社交媒体分享了其在种子轮投资中的资源获取策略与行业洞察。作为拥有丰富早期创业与投资背景的资深人士，他通过幽默的方式展示了顶级风投如何通过人脉网络筛选优质 AI 初创项目。",
+      "id": "x-danshipper-10",
+      "title": "Every CEO Dan Shipper 最近分享了令人关注的 AI 前沿动态，并举行了一场“实时共写”（Write-along）直播活动",
+      "brief": "【为何关注】Dan Shipper 是 AI 驱动内容生产与工作流革新的先锋人物，其“实时共写”活动直观展示了人机协同创作的真实过程。推荐关注 AI 内容生成、交互设计及生产力工具的从业者参考，能为探索 AI 辅助创作落地带来实用启发。",
+      "summary": "Every CEO Dan Shipper 最近分享了令人关注的 AI 前沿动态，并举行了一场“实时共写”（Write-along）直播活动。作为专注 AI 写作与生产力工具领域的深度探索者，Dan 持续展示如何将 AI 融入实际创作流程中。这些动态直观呈现了人机协同创作的最新实践与互动模式。",
+      "category": "开源生产力工具",
+      "sourceName": "Dan Shipper (@danshipper)",
+      "sourceUrl": "https://x.com/danshipper/status/2103283846645166283"
+    },
+    {
+      "id": "x-nikunj-8",
+      "title": "FPV Ventures 合伙人 Nikunj Kothari 近期探讨了 AI 在垂直行业（如贸易领域）的落地潜力，强调定制化软件是中小企业实现差异化竞争...",
+      "brief": "【为何关注】Nikunj 的观点揭示了 AI 投资从通用大模型向垂直领域“最后一公里”定制化应用转移的趋势。对于 AI 从业者而言，关注如何通过 AI 解决传统行业（如贸易、服务业）的精细化运营痛点，是构建护城河的关键启发。",
+      "summary": "FPV Ventures 合伙人 Nikunj Kothari 近期探讨了 AI 在垂直行业（如贸易领域）的落地潜力，强调定制化软件是中小企业实现差异化竞争的关键。他认为 AI 正在重塑企业收入生命周期，并看好通过 AI 提供独特客户与员工体验的商业模式。",
       "category": "AI 投资与商业",
       "sourceName": "Nikunj Kothari (@nikunj)",
-      "sourceUrl": "https://x.com/nikunj/status/2102990479608717700"
+      "sourceUrl": "https://x.com/nikunj/status/2103360292973633770"
+    },
+    {
+      "id": "x-adityaag-11",
+      "title": "前 Dropbox CTO 及 SPC 合伙人 Aditya Agarwal 近期与 Steve Hilton 在 SPC 展开深度对话，共同探讨加州的未来...",
+      "brief": "【为何关注】Aditya Agarwal 作为硅谷资深技术领袖，其对区域生态与科技建设的思考具有极高的参考价值。关注此类对话有助于 AI 从业者理解技术创新与宏观政策环境之间的协同效应。",
+      "summary": "前 Dropbox CTO 及 SPC 合伙人 Aditya Agarwal 近期与 Steve Hilton 在 SPC 展开深度对话，共同探讨加州的未来发展路径。双方一致认为，尽管面临挑战，但仍需持续投入建设，以推动区域及行业的进一步演进。",
+      "category": "大模型与技术突破",
+      "sourceName": "Aditya Agarwal (@adityaag)",
+      "sourceUrl": "https://x.com/adityaag/status/2103230206005612661"
     }
   ]
 }

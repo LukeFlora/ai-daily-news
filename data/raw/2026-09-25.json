@@ -1,12 +1,12 @@
 {
   "date": "2026-09-25",
   "isMondayLookback": false,
-  "fetchedAt": "2026-09-25T06:08:22.537Z",
+  "fetchedAt": "2026-09-25T09:00:29.524Z",
   "stats": {
-    "buildersCount": 17,
-    "totalTweets": 37,
-    "podcastEpisodes": 0,
-    "blogPosts": 3,
+    "buildersCount": 11,
+    "totalTweets": 23,
+    "podcastEpisodes": 1,
+    "blogPosts": 1,
     "githubProjects": 8
   },
   "x": [
@@ -17,37 +17,26 @@
       "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod",
       "tweets": [
         {
-          "id": "2102938490518609983",
-          "text": "benched https://t.co/LLgD57Uz4w",
-          "createdAt": "2026-09-24T01:49:41.000Z",
-          "url": "https://x.com/swyx/status/2102938490518609983",
-          "likes": 4,
+          "id": "2103361254433993165",
+          "text": "In Jan this year I called my content strategy shot: \"Scaling without Slop\". \n\nIt's finally starting to work. It took us 3 years to reach our first 100k on youtube. It only took 1.2 months for the next 100k. Similar other metrics on AEO/SEO/subscriber traction and have a lot of New Media ideas that I'm excited to pursue.\n\nofficially giving notice of the next phase of Latent Space, AINews, and what the rest of swyx inc has been cooking below",
+          "createdAt": "2026-09-25T05:49:36.000Z",
+          "url": "https://x.com/swyx/status/2103361254433993165",
+          "likes": 23,
           "retweets": 0,
-          "replies": 5,
+          "replies": 12,
           "isQuote": true,
-          "quotedTweetId": "2102787126727156144"
+          "quotedTweetId": "2103360502059679780"
         },
         {
-          "id": "2102650088137130205",
-          "text": "@latentspacepod https://t.co/oloSDxf0q7",
-          "createdAt": "2026-09-23T06:43:41.000Z",
-          "url": "https://x.com/swyx/status/2102650088137130205",
-          "likes": 12,
-          "retweets": 1,
-          "replies": 8,
+          "id": "2103223477130129726",
+          "text": "more conferences could implement this. so much high value time wasted without thought https://t.co/jn93l7JyoH",
+          "createdAt": "2026-09-24T20:42:07.000Z",
+          "url": "https://x.com/swyx/status/2103223477130129726",
+          "likes": 504,
+          "retweets": 29,
+          "replies": 45,
           "isQuote": false,
           "quotedTweetId": null
-        },
-        {
-          "id": "2102650014552182920",
-          "text": "can confirm. ran @latentspacepod AINews side by side with 6 Sol and the difference was night and day: https://t.co/oloSDxf0q7\n\n5.5 Opus is the new default model for AINews going forward. so much more concise and tasteful reporting, with much less slopese than even 5 Opus. https://t.co/P6AXDlBKNP https://t.co/6q20Ik0dho",
-          "createdAt": "2026-09-23T06:43:23.000Z",
-          "url": "https://x.com/swyx/status/2102650014552182920",
-          "likes": 205,
-          "retweets": 12,
-          "replies": 125,
-          "isQuote": true,
-          "quotedTweetId": "2102440560338563208"
         }
       ]
     },
@@ -58,86 +47,26 @@
       "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "tweets": [
         {
-          "id": "2102800209894056351",
-          "text": "More of your favorite apps are coming to Gemini! Which ones do you want next? https://t.co/5TcgtcMM24",
-          "createdAt": "2026-09-23T16:40:12.000Z",
-          "url": "https://x.com/joshwoodward/status/2102800209894056351",
-          "likes": 366,
-          "retweets": 11,
-          "replies": 143,
-          "isQuote": true,
-          "quotedTweetId": "2102790841270210746"
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Boris Cherny",
-      "handle": "bcherny",
-      "bio": "Claude Code @anthropicai",
-      "tweets": [
-        {
-          "id": "2102971275543216623",
-          "text": "It was an honor to meet Donald Knuth at the Computer History Museum today https://t.co/U6bGOidLmw",
-          "createdAt": "2026-09-24T03:59:58.000Z",
-          "url": "https://x.com/bcherny/status/2102971275543216623",
-          "likes": 1417,
-          "retweets": 25,
-          "replies": 50,
+          "id": "2103182638085501182",
+          "text": "https://t.co/qd50Usegxo",
+          "createdAt": "2026-09-24T17:59:50.000Z",
+          "url": "https://x.com/joshwoodward/status/2103182638085501182",
+          "likes": 5,
+          "retweets": 0,
+          "replies": 0,
           "isQuote": false,
           "quotedTweetId": null
         },
         {
-          "id": "2102898067133595992",
-          "text": "More details for the formal methods people -- what's happening is Claude is doing something like:\n\n1. Building a model of the program, targeting a tricky state machine or race-prone part of the code\n2. Finding counter-examples in the model. These are suspected bugs\n3. Reproducing the bugs\n4. Fixing the bugs in the code\n\nIt's not that the whole codebase is formally verified (yet!..), more that the hairiest parts of the code are modeled, checked for counter-examples, and fixed.",
-          "createdAt": "2026-09-23T23:09:03.000Z",
-          "url": "https://x.com/bcherny/status/2102898067133595992",
-          "likes": 68,
-          "retweets": 2,
-          "replies": 18,
+          "id": "2103182635992514569",
+          "text": "Dreambeans is one of our newer experiments in @GoogleLabs. It has a growing cult following. \n\nIt’s simple: a fixed number of “beans” brew every morning. They point you at the real world, with real people, doing things you care about together.\n\nGive it a try! https://t.co/cUVgf5wn5b",
+          "createdAt": "2026-09-24T17:59:50.000Z",
+          "url": "https://x.com/joshwoodward/status/2103182635992514569",
+          "likes": 149,
+          "retweets": 5,
+          "replies": 16,
           "isQuote": false,
           "quotedTweetId": null
-        },
-        {
-          "id": "2102854267782705648",
-          "text": "If you've noticed how fast https://t.co/9A6X5iqpbs and the Desktop app have become in the last few weeks, here's how we did it. \n\nLots of juicy learnings &amp; techniques in the blog post for engineers working on speeding up your own apps. https://t.co/42Zcob1Udq",
-          "createdAt": "2026-09-23T20:15:01.000Z",
-          "url": "https://x.com/bcherny/status/2102854267782705648",
-          "likes": 3292,
-          "retweets": 103,
-          "replies": 160,
-          "isQuote": true,
-          "quotedTweetId": "2102839691154427983"
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Thibault Sottiaux",
-      "handle": "thsottiaux",
-      "bio": "Codex & ChatGPT @OpenAI",
-      "tweets": [
-        {
-          "id": "2102996313780736363",
-          "text": "Can't wait for DevDay next Tuesday.\n\nSome really fun stuff, but also many many things that should change the way you work. It's been our most ambitious sprint and Astra has really made new things possible in such short amounts of time.",
-          "createdAt": "2026-09-24T05:39:27.000Z",
-          "url": "https://x.com/thsottiaux/status/2102996313780736363",
-          "likes": 3159,
-          "retweets": 133,
-          "replies": 476,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2102814202117411196",
-          "text": "Voice! I've gotten so used to just call ChatGPT and talk about all the work, check on emails, do some coding, manage my calendar and it works across the full ecosystem of plugins, including 3P developed plugins. https://t.co/7MQYUxcMIL",
-          "createdAt": "2026-09-23T17:35:48.000Z",
-          "url": "https://x.com/thsottiaux/status/2102814202117411196",
-          "likes": 4009,
-          "retweets": 107,
-          "replies": 583,
-          "isQuote": true,
-          "quotedTweetId": "2102808325742322002"
         }
       ]
     },
@@ -148,56 +77,37 @@
       "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
       "tweets": [
         {
-          "id": "2102956775645552645",
-          "text": "No more crappy corporate slides, the result of this prompt blew me away lol https://t.co/atQudEjz9H",
-          "createdAt": "2026-09-24T03:02:21.000Z",
-          "url": "https://x.com/petergyang/status/2102956775645552645",
-          "likes": 206,
-          "retweets": 2,
-          "replies": 16,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2102952201350254667",
-          "text": "With a model this good the Claude Code harness really needs great live voice and browser + computer use (latter is improving!)\n\nRight now one lab has the best model and another has the best harness. https://t.co/SoV7GN0pIB",
-          "createdAt": "2026-09-24T02:44:10.000Z",
-          "url": "https://x.com/petergyang/status/2102952201350254667",
-          "likes": 25,
+          "id": "2103318850641260959",
+          "text": "Astra blew up 3D models\nThen Opus blew up videos\nI don’t even know what’s next anymore https://t.co/CGJDOoGvYQ",
+          "createdAt": "2026-09-25T03:01:06.000Z",
+          "url": "https://x.com/petergyang/status/2103318850641260959",
+          "likes": 12,
           "retweets": 0,
-          "replies": 16,
+          "replies": 2,
           "isQuote": true,
-          "quotedTweetId": "2102946952740741394"
+          "quotedTweetId": "2102801274173587569"
         },
         {
-          "id": "2102946952740741394",
-          "text": "Opus 5.5 is:\n\n- Smart\n- Fast\n- Fun to talk to\n- Good at writing \n- Friendly on rate limits\n- Constantly surprising at just how much it is capable of",
-          "createdAt": "2026-09-24T02:23:19.000Z",
-          "url": "https://x.com/petergyang/status/2102946952740741394",
-          "likes": 309,
-          "retweets": 10,
-          "replies": 24,
+          "id": "2103311956639973774",
+          "text": "😂 this is love https://t.co/xUgorFN8IG",
+          "createdAt": "2026-09-25T02:33:42.000Z",
+          "url": "https://x.com/petergyang/status/2103311956639973774",
+          "likes": 39,
+          "retweets": 0,
+          "replies": 2,
+          "isQuote": true,
+          "quotedTweetId": "2103034450908979441"
+        },
+        {
+          "id": "2103310612864569388",
+          "text": "This is called stroking the AI's ego and it works https://t.co/CpSvOv3kmF",
+          "createdAt": "2026-09-25T02:28:22.000Z",
+          "url": "https://x.com/petergyang/status/2103310612864569388",
+          "likes": 17,
+          "retweets": 0,
+          "replies": 9,
           "isQuote": false,
           "quotedTweetId": null
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Madhu Guru",
-      "handle": "realmadhuguru",
-      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
-      "tweets": [
-        {
-          "id": "2102777931764498536",
-          "text": "I respectfully disagree with @benthompson on this. He’s missing a key point - Consumers don’t have one relationship with “doing things”. \n\nI’ve learned it the hard way from building consumer and smb products for years at Google and now Meta.\n\nBrowsing clothes can be entertainment (for some). But hiring a roofer is miserable (for most).\n\nEven with shopping, sometimes you want to browse for an hour. Sometimes you want the right thing just delivered asap.\n\nHis argument sounds a lot like the early 2000s:\n\n“Why would I buy clothes online? I need to try them on.”\n\n“Why would I buy a $500 TV online? I will go check it out at Circuit City.”\n\nTechnology keeps giving you better ways of doing things.\n\nTry hiring a roofer today: search, read 10 reviews, phone tag, coordinate with insurance, schedule inspection, get quotes, catch hidden costs, review their past work, hire, scheduling.\n\nFor some tasks like this, better means almost zero effort. For others, it means considering more options, enjoying the process and making an informed decision.\n\nThe latent demand for agents that remove this friction for consumers is immense.",
-          "createdAt": "2026-09-23T15:11:41.000Z",
-          "url": "https://x.com/realmadhuguru/status/2102777931764498536",
-          "likes": 146,
-          "retweets": 15,
-          "replies": 43,
-          "isQuote": true,
-          "quotedTweetId": "2102529303212970099"
         }
       ]
     },
@@ -208,37 +118,37 @@
       "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
       "tweets": [
         {
-          "id": "2102870443321676043",
-          "text": "also it does look incredible https://t.co/u8WzIp4bQX",
-          "createdAt": "2026-09-23T21:19:17.000Z",
-          "url": "https://x.com/trq212/status/2102870443321676043",
-          "likes": 101,
-          "retweets": 2,
-          "replies": 8,
+          "id": "2103259550325575806",
+          "text": "incredibly thoughtful piece on AI and creativity\n\nhopefully we can make our producst better at enabling and amplifying creatives https://t.co/SeI25wbaI7",
+          "createdAt": "2026-09-24T23:05:28.000Z",
+          "url": "https://x.com/trq212/status/2103259550325575806",
+          "likes": 518,
+          "retweets": 12,
+          "replies": 24,
           "isQuote": true,
-          "quotedTweetId": "2102801274173587569"
+          "quotedTweetId": "2102774995315245469"
         },
         {
-          "id": "2102870353781641416",
-          "text": "the post: \"Claude one-shot this\"\n\nthe prompt: 10k characters with good takes plus skills, examples and API keys https://t.co/arEQYrfaUY",
-          "createdAt": "2026-09-23T21:18:56.000Z",
-          "url": "https://x.com/trq212/status/2102870353781641416",
-          "likes": 1265,
-          "retweets": 25,
-          "replies": 54,
-          "isQuote": true,
-          "quotedTweetId": "2102801469976248500"
+          "id": "2103212052391354794",
+          "text": "this should let you customize the plan mode prompt, create + share your own modes or just ignore it and rebind shift+tab to something else all together",
+          "createdAt": "2026-09-24T19:56:43.000Z",
+          "url": "https://x.com/trq212/status/2103212052391354794",
+          "likes": 137,
+          "retweets": 0,
+          "replies": 13,
+          "isQuote": false,
+          "quotedTweetId": null
         },
         {
-          "id": "2102857025206255902",
-          "text": "this is a new type of post we're trying where we share in-depth about how we do work using specific prompts and techniques you should be able to replicate\n\nlet us know if it's useful or if you have any feedback! https://t.co/OiScn8ZI9Y",
-          "createdAt": "2026-09-23T20:25:58.000Z",
-          "url": "https://x.com/trq212/status/2102857025206255902",
-          "likes": 2289,
-          "retweets": 56,
-          "replies": 98,
+          "id": "2103212051065921632",
+          "text": "lots feedback here, many of you are planning yourself &amp; don't need plan mode\n\nothers prefer the UX of entering a mode where Claude is just thinking &amp; brainstorming with you\n\nmy plan is to:\n- make plan mode into a built-in mod\n- allow mods to add new modes or override shift+tab https://t.co/SL1IzLvb17",
+          "createdAt": "2026-09-24T19:56:43.000Z",
+          "url": "https://x.com/trq212/status/2103212051065921632",
+          "likes": 1654,
+          "retweets": 29,
+          "replies": 193,
           "isQuote": true,
-          "quotedTweetId": "2102839691154427983"
+          "quotedTweetId": "2102813194196758746"
         }
       ]
     },
@@ -249,26 +159,15 @@
       "bio": "ceo @replit. civilizationist",
       "tweets": [
         {
-          "id": "2102939873384792340",
-          "text": "👀 https://t.co/qgxKwXRcbV",
-          "createdAt": "2026-09-24T01:55:11.000Z",
-          "url": "https://x.com/amasad/status/2102939873384792340",
-          "likes": 88,
-          "retweets": 2,
-          "replies": 8,
-          "isQuote": true,
-          "quotedTweetId": "2102937433826345204"
-        },
-        {
-          "id": "2102799031038878172",
-          "text": "You need young people to break the mold, question deeply held beliefs, and attempt the impossible. The ideal college would cultivate exactly that. https://t.co/XrYbOUjOJ3",
-          "createdAt": "2026-09-23T16:35:31.000Z",
-          "url": "https://x.com/amasad/status/2102799031038878172",
-          "likes": 284,
-          "retweets": 22,
-          "replies": 36,
-          "isQuote": true,
-          "quotedTweetId": "2102776399178142186"
+          "id": "2103129037011120525",
+          "text": "Muse can now make apps on Replit https://t.co/AColbWFCEN",
+          "createdAt": "2026-09-24T14:26:51.000Z",
+          "url": "https://x.com/amasad/status/2103129037011120525",
+          "likes": 1674,
+          "retweets": 50,
+          "replies": 100,
+          "isQuote": false,
+          "quotedTweetId": null
         }
       ]
     },
@@ -279,73 +178,13 @@
       "bio": "@vercel CEO",
       "tweets": [
         {
-          "id": "2102947745132924993",
-          "text": "ShellPerfBench. I'm really neurotic about the startup time of a new shell session. Opus 5.5 found a lot of really great optimizations other models missed. Anon, anytime you open a new terminal, you might be silently suffering. Tell your agent to optimize .𝚣𝚜𝚑𝚛𝚌 and friends",
-          "createdAt": "2026-09-24T02:26:27.000Z",
-          "url": "https://x.com/rauchg/status/2102947745132924993",
-          "likes": 112,
-          "retweets": 2,
-          "replies": 33,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2102820148629614685",
-          "text": "Muse, Instinct, OpenClaw, Claude Code…\nAll successful agents have 3 key components:\n\n🧠 Brain → model, harness (logic)\n👐 Hands → tools, computer, browser\n🗃️ Files → memories, skills, repos\n\nThe 'easy' way is to throw all these in 1 stateful computer (a Mac Mini)\n\nLike, you run 𝚌𝚕𝚊𝚞𝚍𝚎 or 𝚏𝚡 in your mac, you keep it running all day with 𝚌𝚊𝚏𝚏𝚎𝚒𝚗𝚊𝚝𝚎, it has storage, and CLIs and apps installed.\n\nBut if you want to cost-efficiently run agents in the cloud, you actually start breaking down these parts.\n\n🧠 The harness can run in Fluid compute. To make it reliable across restarts, rollouts, crashes, you make its event log durable using Workflow.\n\n👐 The hands can be a dedicated browser fleet like Browserbase/Kernel, a computer like Sandbox, and even more efficient lightweight tools like just-bash.\n\n🗃️ 🆕 What was missing was a way to also decouple storage. Imagine you want to run a memory consolidation cron job every night (\"dreaming\"). You can read/write to the files directly without 'booting up' the agent's full computer.\n\nToday we're introducing the perfect companion to Sandbox: Drives. We shipped the computer for agents, now we're giving you the 'external disk' you can attach at will. It's early, and we'll be expanding capabilities here quickly.\n\nBtw, breaking apart the agent into these independent parts not only optimizes costs in a big way, it also *massively* improves security and auditability. I'd argue you can't even run a secure agent otherwise!",
-          "createdAt": "2026-09-23T17:59:26.000Z",
-          "url": "https://x.com/rauchg/status/2102820148629614685",
-          "likes": 1453,
-          "retweets": 79,
-          "replies": 143,
-          "isQuote": true,
-          "quotedTweetId": "2102791176378352115"
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Aaron Levie",
-      "handle": "levie",
-      "bio": "ceo @box - your business lives in content. unleash it with AI",
-      "tweets": [
-        {
-          "id": "2102934874470617303",
-          "text": "Great vision for the future of the creative industry with AI from the one person who can actually predict these things.\n\n“As the barriers and the costs come down, more films will get made, not fewer. Studios will get to take more risks. There will be more seats at the table, and very soon entirely new forms of storytelling. In the 1980s, animation was dismissed as a niche corner of the business. Today it is one of the most beloved and profitable forms of storytelling in the world. In live action, filmmakers like Steven Spielberg, James Cameron and Peter Jackson embraced new visual tools not as shortcuts, but as instruments, and expanded cinema in the process. Every time storytelling has met a genuine technological shift, from synchronized sound to color to computer animation, it has redefined the boundaries of the medium and grown larger in the process.”\n\nTechnology has reshaped the creative industry over and over through the years, and has generally always led to an expansion of opportunity or new approaches as a result. \n\nAnd even when the techniques or mediums change, the underlying need for creative skills and taste don’t go away. Just more people are able to leverage those skills effectively when a new technology arrived, and users of the tools discover novel new ways to tell stories.",
-          "createdAt": "2026-09-24T01:35:19.000Z",
-          "url": "https://x.com/levie/status/2102934874470617303",
-          "likes": 81,
-          "retweets": 6,
-          "replies": 15,
-          "isQuote": true,
-          "quotedTweetId": "2102774995315245469"
-        },
-        {
-          "id": "2102915863989075979",
-          "text": "Muse and Box, together at last https://t.co/TAFOL3acTf https://t.co/LdFXVc3agy",
-          "createdAt": "2026-09-24T00:19:46.000Z",
-          "url": "https://x.com/levie/status/2102915863989075979",
-          "likes": 186,
-          "retweets": 6,
-          "replies": 11,
-          "isQuote": true,
-          "quotedTweetId": "2102899530362687803"
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Ryo Lu",
-      "handle": "ryolu_",
-      "bio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
-      "tweets": [
-        {
-          "id": "2102933485795369213",
-          "text": "efficiency, productivity, speed\n\nwe keep worshipping these words like they are what we live for\n\nship faster\nmerge more\nmanage more agents\ncompress every loop\nremove every pause\nturn every hour into output\n\nbut what is the point of endless production if there is no time left to think deeply?\n\nnot react\nnot optimize\nnot summarize\nnot clear the queue\n\nthink\n\nto sit with a question long enough that your real intention starts to appear  \nto find the purpose underneath the motion  \nto ask whether the thing being accelerated should exist at all\n\nai could be a new canvas\n\na way to make strange things\npersonal things\nimpossible things\ntools, worlds, poems, games, interfaces, films, languages, rituals\nthings that let more people touch the shape of their own imagination\n\nbut instead, so much of it is becoming slop factories\n\nmore content\nmore funnels\nmore tickets\nmore fake work pretending to be value\n\nyou can merge 2000 prs\nyou can manage 500 agents\nyou can wake up to dashboards proving that the machine kept moving while you slept\n\nbut what is the point if you only sleep 5 hours a day?\n\nwhat is the point if you stop talking to other humans?\nstop learning about the past?\nstop playing?\nstop wandering?\nstop being surprised?\n\nwhat is the point if your whole life becomes optimizing the system that is consuming you?\n\nspeed is not meaning\nscale is not wisdom\nautomation is not freedom if it only makes everyone run faster\n\nand where are we running?\n\ntoward what?\n\na world where every person becomes a manager of machines, and every machine produces more things no one had the time to truly want?\n\nthe danger is not that ai makes us lazy\n\nthe danger is that ai makes us endlessly busy\n\nthat it gives us infinite production before we have found intention\ninfinite execution before we have developed taste\ninfinite motion before we have learned how to be still\n\nmaybe the real frontier is not more speed\n\nmaybe it is discernment\n\nknowing what not to make\nknowing when to stop\nknowing when the most productive thing is to sleep, read history, call a friend, play with a cat, walk without tracking it, or stare at the ceiling until the false urgency dissolves\n\ntools should give us more life\nnot turn life into a tool\n\nif ai is going to matter, it should not just help us produce more\n\nit should help us become more human  \nmore imaginative\nmore free\n\notherwise, it’s the same old factory\njust without humans",
-          "createdAt": "2026-09-24T01:29:48.000Z",
-          "url": "https://x.com/ryolu_/status/2102933485795369213",
-          "likes": 1087,
-          "retweets": 165,
-          "replies": 60,
+          "id": "2103216656747262419",
+          "text": "Spend of OpenAI vs Anthropic vs Open \n(Vercel AI Gateway, last 2 months)\n\n• Anthropic still #1 in spend, but went 69% → 40%\n• OpenAI: 10% → 24% in spend\n• GPT-6 Astra + GPT 5.6 Sol are ripping\n• OpenAI now leads in tokens #\n• Kimi K3 + DeepSeek took ~half of Anthropic's loss\n• Opus 5.5 is up to 10% of spend in 2 days\n• OpenAI is 62% of image generations \n\nWatch here: https://t.co/Gu7D9d7M8w",
+          "createdAt": "2026-09-24T20:15:01.000Z",
+          "url": "https://x.com/rauchg/status/2103216656747262419",
+          "likes": 635,
+          "retweets": 34,
+          "replies": 114,
           "isQuote": false,
           "quotedTweetId": null
         }
@@ -353,40 +192,29 @@
     },
     {
       "source": "x",
-      "name": "Garry Tan",
-      "handle": "garrytan",
-      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "tweets": [
         {
-          "id": "2102974165800399274",
-          "text": "Muse is very impressive https://t.co/5Q1LwLXDKx",
-          "createdAt": "2026-09-24T04:11:27.000Z",
-          "url": "https://x.com/garrytan/status/2102974165800399274",
-          "likes": 292,
-          "retweets": 5,
-          "replies": 19,
-          "isQuote": true,
-          "quotedTweetId": "2102758807189197006"
+          "id": "2103167536141353053",
+          "text": "This conversation with the excellent Renen Hallak of @VAST_Data is also available on Spotify, Apple Podcasts and here on YouTube (like and subcribe!):\n\nhttps://t.co/mViKG7e172",
+          "createdAt": "2026-09-24T16:59:50.000Z",
+          "url": "https://x.com/mattturck/status/2103167536141353053",
+          "likes": 18,
+          "retweets": 1,
+          "replies": 3,
+          "isQuote": false,
+          "quotedTweetId": null
         },
         {
-          "id": "2102972765989151226",
-          "text": "This is not priced in yet https://t.co/WMiPMtksQN",
-          "createdAt": "2026-09-24T04:05:53.000Z",
-          "url": "https://x.com/garrytan/status/2102972765989151226",
-          "likes": 428,
-          "retweets": 20,
-          "replies": 40,
-          "isQuote": true,
-          "quotedTweetId": "2102934226899288263"
-        },
-        {
-          "id": "2102955139875397806",
-          "text": "Two important simultaneous important trends in how startups get customers:\n\nMake software agents want\n\nUse agents to make people want software",
-          "createdAt": "2026-09-24T02:55:51.000Z",
-          "url": "https://x.com/garrytan/status/2102955139875397806",
-          "likes": 434,
-          "retweets": 37,
-          "replies": 87,
+          "id": "2103167531917721866",
+          "text": "In Jensen's 5 layer cake analogy for AI (energy, chips, infrastructure, models, applications), the middle layer (esp the software infra part) is much less understood - and thats where @VAST_Data became a $30B company few people know about, powering @SpaceXAI, @CoreWeave, @nebiusai, @MistralAI, @nscale etc\n\nMy conversation with Renen Hallak, CEO:\n\n00:00 Intro\n00:51 The hidden software layer in NVIDIA's AI stack 02:28 What actually makes an \"AI factory\"?\n05:13 Should Walmart and Goldman build their own AI?\n06:20 \"We infer during the day, fine-tune at night\"\n13:16 Announcement: frontier models & sensitive data\n15:32 From P vs. NP to founding VAST Data\n17:32 OpenAI, Navier–Stokes and 10,000 agents\n20:25 The pre-transformer insight behind VAST\n21:55 DASE: VAST's \"shared everything\" architecture \n25:18 \"Storage was where startups go to die\"\n27:39 Trillions of vectors: why old databases break\n29:01 Are S3, Snowflake and Databricks ready for AI\n31:29 Data gravity, vendor lock-in and zero churn\n33:13 Training vs. inference: why the infrastructure changes\n34:46 Model routing, KV caches, RAG & agent memory\n36:59 Identity, permissions and security for AI agents 40:27 Can multi-agent systems unlock scientific discovery?\n41:55 DataEnclave: how confidential AI protects data and weights\n45:16 Who should be AI's trust layer?\n46:37 \"Sometimes it scares me\": 500 petabytes to 2 exabytes\n50:08 Is circular AI financing creating systemic risk\n51:32 Why VAST is profitable when AI infra isn't\n53:24 What separates the winning neoclouds?\n55:06 \"Their lunch is being eaten\": why hyperscalers lag\n59:10 Where will the trillions accrue across the AI stack\n1:01:18 NVIDIA: \"There's no legal document between us\"\n1:03:59 What VAST learned from xAI and @elonmusk \n1:05:36 \"Bad things loudly and often\": building at AI speed\n1:06:53 More change in 10 years than the previous 1,000?\n1:08:39 VAST's endgame: all the data in the world",
+          "createdAt": "2026-09-24T16:59:49.000Z",
+          "url": "https://x.com/mattturck/status/2103167531917721866",
+          "likes": 19,
+          "retweets": 8,
+          "replies": 9,
           "isQuote": false,
           "quotedTweetId": null
         }
@@ -399,24 +227,35 @@
       "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "tweets": [
         {
-          "id": "2102990479608717700",
-          "text": "When I cajole a seed investor to send me their best company.. https://t.co/zfQNyIOZ71",
-          "createdAt": "2026-09-24T05:16:16.000Z",
-          "url": "https://x.com/nikunj/status/2102990479608717700",
-          "likes": 15,
-          "retweets": 1,
-          "replies": 1,
-          "isQuote": false,
-          "quotedTweetId": null
+          "id": "2103360292973633770",
+          "text": "“we believe that every small business owner, specifically for us in the trades, will have bespoke software, \n\nand that last mile is actually where differentiation can become, where you can provide a unique experience to your customers, to your employees” https://t.co/WhBtmHmGqZ https://t.co/IIQ90vD7mZ",
+          "createdAt": "2026-09-25T05:45:47.000Z",
+          "url": "https://x.com/nikunj/status/2103360292973633770",
+          "likes": 4,
+          "retweets": 0,
+          "replies": 0,
+          "isQuote": true,
+          "quotedTweetId": "2102395699895677325"
         },
         {
-          "id": "2102899862127943985",
-          "text": "https://t.co/KNsI7ULlfw",
-          "createdAt": "2026-09-23T23:16:11.000Z",
-          "url": "https://x.com/nikunj/status/2102899862127943985",
-          "likes": 50,
-          "retweets": 1,
-          "replies": 6,
+          "id": "2103276414187548791",
+          "text": "This is the way.. https://t.co/hwQIqAUlBC https://t.co/36ToP9fUlB",
+          "createdAt": "2026-09-25T00:12:28.000Z",
+          "url": "https://x.com/nikunj/status/2103276414187548791",
+          "likes": 31,
+          "retweets": 4,
+          "replies": 1,
+          "isQuote": true,
+          "quotedTweetId": "2102899862127943985"
+        },
+        {
+          "id": "2103218709234172252",
+          "text": "We are in that stage of the \"revenue\" lifecycle.. https://t.co/2uEqADj9un",
+          "createdAt": "2026-09-24T20:23:10.000Z",
+          "url": "https://x.com/nikunj/status/2103218709234172252",
+          "likes": 9,
+          "retweets": 0,
+          "replies": 3,
           "isQuote": false,
           "quotedTweetId": null
         }
@@ -429,35 +268,35 @@
       "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "tweets": [
         {
-          "id": "2103001790069526564",
-          "text": "Astra is crushing it. https://t.co/KEfPlrlAg4",
-          "createdAt": "2026-09-24T06:01:13.000Z",
-          "url": "https://x.com/steipete/status/2103001790069526564",
-          "likes": 96,
-          "retweets": 2,
-          "replies": 11,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2102994138614669481",
-          "text": "crushed it. https://t.co/kTRCzbiNji",
-          "createdAt": "2026-09-24T05:30:49.000Z",
-          "url": "https://x.com/steipete/status/2102994138614669481",
-          "likes": 14,
+          "id": "2103200311641076100",
+          "text": "I put Daybreak on it and found 8 more long-standing leaks. Care for your oss dependencies! https://t.co/pTwsuhEvxs",
+          "createdAt": "2026-09-24T19:10:04.000Z",
+          "url": "https://x.com/steipete/status/2103200311641076100",
+          "likes": 19,
           "retweets": 0,
-          "replies": 2,
+          "replies": 7,
           "isQuote": false,
           "quotedTweetId": null
         },
         {
-          "id": "2102990776439636089",
-          "text": "Who needs VNC when there's browsers. https://t.co/3BneKDTzMW",
-          "createdAt": "2026-09-24T05:17:27.000Z",
-          "url": "https://x.com/steipete/status/2102990776439636089",
-          "likes": 89,
-          "retweets": 5,
-          "replies": 17,
+          "id": "2103150483062014436",
+          "text": "Afghanistan is more excited about AI than we are? https://t.co/rbkSf8pUkM",
+          "createdAt": "2026-09-24T15:52:04.000Z",
+          "url": "https://x.com/steipete/status/2103150483062014436",
+          "likes": 317,
+          "retweets": 14,
+          "replies": 58,
+          "isQuote": true,
+          "quotedTweetId": "2102746052256322006"
+        },
+        {
+          "id": "2103148444701610233",
+          "text": "If you just tell the agent to clean up, it will stop far too early. Give it an ambitious goal. Try \"remove 20% of the least useful tests while maintaining code coverage within 2%\"",
+          "createdAt": "2026-09-24T15:43:58.000Z",
+          "url": "https://x.com/steipete/status/2103148444701610233",
+          "likes": 316,
+          "retweets": 10,
+          "replies": 12,
           "isQuote": false,
           "quotedTweetId": null
         }
@@ -470,26 +309,26 @@
       "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "tweets": [
         {
-          "id": "2102826854357016793",
-          "text": "tomorrow at 6pm we find out if an ai agent can throw a good party\n\nthe @every agent planned every’s september meetup from the food and drinks menu to the guest list.\n\ncome grade it with in our brownstone in brooklyn!\n\nrsvp: https://t.co/pfbOXwEWbJ",
-          "createdAt": "2026-09-23T18:26:05.000Z",
-          "url": "https://x.com/danshipper/status/2102826854357016793",
-          "likes": 31,
-          "retweets": 4,
-          "replies": 7,
-          "isQuote": false,
-          "quotedTweetId": null
+          "id": "2103283846645166283",
+          "text": "so freaking cool https://t.co/gmU7Izxyuy",
+          "createdAt": "2026-09-25T00:42:00.000Z",
+          "url": "https://x.com/danshipper/status/2103283846645166283",
+          "likes": 44,
+          "retweets": 1,
+          "replies": 3,
+          "isQuote": true,
+          "quotedTweetId": "2103281698305937693"
         },
         {
-          "id": "2102810679287914502",
-          "text": "sick https://t.co/Ebtyggx5Il",
-          "createdAt": "2026-09-23T17:21:48.000Z",
-          "url": "https://x.com/danshipper/status/2102810679287914502",
-          "likes": 264,
-          "retweets": 4,
-          "replies": 14,
-          "isQuote": true,
-          "quotedTweetId": "2102808325742322002"
+          "id": "2103168077102043373",
+          "text": "LIVE: Write-along https://t.co/Y2BfQMlLC4",
+          "createdAt": "2026-09-24T17:01:59.000Z",
+          "url": "https://x.com/danshipper/status/2103168077102043373",
+          "likes": 10,
+          "retweets": 0,
+          "replies": 2,
+          "isQuote": false,
+          "quotedTweetId": null
         }
       ]
     },
@@ -500,91 +339,40 @@
       "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "tweets": [
         {
-          "id": "2102948781813792996",
-          "text": "You think Zuck is good when he is down and in the trenches and in lockdown and in war mode?\n\nJust see how he dominates when he has the big stack.\n\nProud Facebook alum.\n\nLFG.",
-          "createdAt": "2026-09-24T02:30:35.000Z",
-          "url": "https://x.com/adityaag/status/2102948781813792996",
-          "likes": 409,
-          "retweets": 4,
-          "replies": 13,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2102782451643040074",
-          "text": "It tells you a lot when someone has moved around a lot in their career.\n\nAlso tells you a lot when there is low company turnover.\n\nA team that has been working together for 3+ years is significantly higher throughput and more resilient than a team that has just formed.\n\nA key mistake I see investors/employees make all the time is to simply ask about team size as opposed to team longevity.\n\nAUC for teams is the right metric.",
-          "createdAt": "2026-09-23T15:29:38.000Z",
-          "url": "https://x.com/adityaag/status/2102782451643040074",
-          "likes": 136,
-          "retweets": 4,
-          "replies": 10,
-          "isQuote": false,
-          "quotedTweetId": null
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Claude",
-      "handle": "claudeai",
-      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
-      "tweets": [
-        {
-          "id": "2102840855258452037",
-          "text": "Browse the marketplace: https://t.co/MIKvTzg59L\n\nAnd if you're building for Claude, list your tools, agents or services here: https://t.co/gjX3Xctic2",
-          "createdAt": "2026-09-23T19:21:43.000Z",
-          "url": "https://x.com/claudeai/status/2102840855258452037",
-          "likes": 179,
-          "retweets": 7,
-          "replies": 18,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2102840851538080172",
-          "text": "You can now discover tools, agents and expert partners on Claude Marketplace. Use it to:\n\n- Add connectors and plugins like Slack and Notion\n- Buy agents and products from companies like Cursor and CrowdStrike\n- Scale with service partners like Accenture and Deloitte https://t.co/S5DrmdUkXu",
-          "createdAt": "2026-09-23T19:21:42.000Z",
-          "url": "https://x.com/claudeai/status/2102840851538080172",
-          "likes": 4249,
-          "retweets": 245,
-          "replies": 166,
+          "id": "2103230206005612661",
+          "text": "It was great speaking with @SteveHiltonx at @spc for a conversation on California's future.\n\nWe have more work to do. Onwards. https://t.co/tEXWt8Xfhd",
+          "createdAt": "2026-09-24T21:08:51.000Z",
+          "url": "https://x.com/adityaag/status/2103230206005612661",
+          "likes": 7,
+          "retweets": 2,
+          "replies": 0,
           "isQuote": false,
           "quotedTweetId": null
         }
       ]
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "source": "podcast",
+      "name": "The MAD Podcast with Matt Turck",
+      "title": "Who Feeds the GPUs? Inside AI's Hidden $30B Layer | Renen Hallak, VAST Data",
+      "guid": "09985d98-67c4-4c5e-a1be-6d201c56bc55",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "publishedAt": "2026-09-24T11:30:00.000Z",
+      "transcript": "Speaker 1 | 00:00 - 00:17\nSometimes it scares me. We had a customer, one of these AI clouds, they said we're probably going to need about 500 petabytes over the next three years. Last week, came back to us and said, we're gonna need an extra two exabytes on top of that 500 petabytes. I think in the next ten years, we'll see more difference than we did in the last thousand years.\n\nSpeaker 2 | 00:17 - 00:30\nHi. I'm Matt Turk. Welcome to the MAD podcast. We talk a lot about AI models on this show, and we talk a lot about compute. But today is about the layer in between, the crucial software infrastructure layer that feeds massive amounts of data to all those GPUs.\n\nSpeaker 2 | 00:30 - 00:52\nMy guest today is Renan Halleck, founder and CEO of VAST Data, a company that is surprisingly under the radar considering it's been most recently valued at $30,000,000,000 and powers top AI players like xAI and some of the biggest AI neoclass in the world. Please enjoy my conversation with Renan Halleck. Renan, welcome. Thank you. Alright.\n\nSpeaker 2 | 00:52 - 01:21\nSo to anchor this whole conversation, I wanted to start with that mental model from Jensen at NVIDIA that I find so helpful, where, when he describes AI, he uses the analogy of a five layer cake, where you have power at the very bottom and then hardware, then software infrastructure, then models, then applications. So where do you sit in that layer cake?\n\nSpeaker 1 | 01:21 - 01:32\nRight in the middle. That software infrastructure layer is the one that we do, in collaboration of course with the hardware vendors underneath us and with the model builders on top of us.\n\nSpeaker 2 | 01:32 - 01:38\nYep, so at a high level what does that mean, software infrastructure, in the context of AI building?\n\nSpeaker 1 | 01:38 - 02:28\nYeah, so everything you would imagine from the old stack we need for this new stack. We need to manage the compute, we need to manage the storage, we need to manage the networking, and then as you go up the stack we need to make sense of all of it, make sense of the data through a database, make sense of the compute through training and inference functions, and as you go even higher up the stack and we shift from training predominantly to inference and agents and reinforced learning, we need more and more tools to enable this new world, make it simple, make it safe, make it fast and scalable and resilient. All of that sits in that middle layer. Sometimes I like to call it software infrastructure, and other times I like to call it the operating system for this new era.\n\nSpeaker 2 | 02:28 - 02:39\nThere is a related concept to that five layer cake. That thing may have originated from NVIDIA again, but, like, keeps coming back in conversation, is this idea of AI factory.\n\nSpeaker 1 | 02:39 - 02:40\nMhmm.\n\nSpeaker 2 | 02:40 - 02:50\nWhat does that mean? So if you start with a bunch of GPUs, what do you need to add to create an AI factory?\n\nSpeaker 1 | 02:50 - 04:07\nI think even below the GPUs the data centers are looking very different today than they did five years ago. The old stack you had 10 kilowatt racks, today you need 500 kilowatt racks And so you need more power, you need more power density. You need GPUs of course versus CPUs. You need extremely fast networks and very large SSDs rather than 10 gig ethernet and old hard drives. And so every layer of this cake, needs to be redone and from our perspective you need much more data and much faster access to that data because we're no longer analyzing numbers and columns of a database the way you did with big data in the old stack, we're doing pictures and video and sound and natural language and that takes a lot more space and that's before new generative AI data that gets generated and of course all of this compute, all of these GPUs need very fast access to this information whether they're training on it or whether they're running low latency inference functions and so the entirety of the stack is new, and I think the culmination of this stack is what we call the AI factory.\n\nSpeaker 2 | 04:07 - 04:16\nAnd is the concept of AI factory, mostly for the the big labs or, like, this whole, like, data center plus model kind of kind\n\nSpeaker 1 | 04:16 - 04:35\nof thing or, is it also for enterprises? I think it'll be for everyone eventually. The big labs are starting. They're ahead of the pack and they're leading the way for everybody else. But anybody who stays with the old stack, with old business information systems will get left behind.\n\nSpeaker 1 | 04:35 - 05:12\nAnd so people need to start leveraging these new AI abilities, some start by leveraging them out of the clouds, out of the hyperscalers, the neo clouds, others build within their environments, but in all of these cases enterprises will need AI factories in the medium term and then after that I think as we shift from people based organizations to augmenting them with agents, these AI factories become a lot more than what we're used to thinking from just our compute infrastructure.\n\nSpeaker 2 | 05:12 - 05:56\nTo play it back, right now if you go to a large enterprise, a non tech enterprise, so like Pfizer or Goldman Sachs or Walmart, I think the dominant view is that leveraging AI basically means, you know, you start partnering with Anthropic or OpenAI and, you know, you have FDs coming into your, walls and then, you know, you you you build some stuff initially that was chatbots, now it's agent. Is it is the concept of an AI factory that you build your own AI? So you you you have, you own, you know, data infrastructure, but you you also rent your GPUs or buy GPUs and then you do model work, is the concept?\n\nSpeaker 1 | 05:56 - 07:00\nI think once you get to a certain level of scale definitely it's more cost effective to buy than to rent and so from that perspective yes you should build your own AI factories but beyond that over time I think all of these organizations' IP will be distilled in models, it will be weights and they don't necessarily need to build the base model, I like to give analogies of the human brain, we were all born with a base model but then over time as we travel the world we learn new things, we infer during the day, we fine tune at night, and tomorrow we'll be a little bit smarter than we were today, and my model of the universe is slightly different than your model of the universe because we had different experiences. And so I think in the same way, all of these agents will fine tune models through reinforced learning over time, and every organization's IP will be able to be distilled into the models that they own and the weights that they've accumulated.\n\nSpeaker 2 | 07:00 - 07:24\nWhat does that mean in terms of what those enterprises need to be able to do? You know, like doing model work and, like, weights and GPUs, that that's a whole kind of expertise that ultimately a few people in the world already own or already know, have. And then a lot of those companies just don't have that. So how do they go from here to there? I think,\n\nSpeaker 1 | 07:24 - 08:18\nagain, I like analogies. The analogy I would give here is if you go back to the nineteen seventies, you needed a PhD in computer science to operate a computer. Today, everybody can do it. And the reason everybody can do it is not because we learned, it's because operating a computer became much simpler. The operating system made it intuitive, made it easy for everybody to use, it also made it safe for everybody to use, these enterprises are under a lot of regulation that they need to comply with, and so it is our job as the ones building that software infrastructure layer to make these new technologies accessible to the enterprises such that they don't need to think about it too much and that they can start adopting them at pace rather than get left behind and have new companies with AI experts, take their place.\n\nSpeaker 2 | 08:18 - 08:46\nMaybe to push back a little bit or maybe to just, dig in to make sure I understand. That's a whole premise of the cloud is to make things incredibly simple and and and use those functionality as a service. The concept of an AI factory revolves around owning a lot of this, which sounds like very kind of like on prem private cloud, which historically has been a lot more complicated. So is effectively what you're saying that, is that like there's an opportunity to like abstract away all of this in a\n\nSpeaker 1 | 08:46 - 09:30\nway that that feels cloud ish in experience? I think so. I think, the physical location of this AI factory can be on prem, can be in a colo, can be in an AI cloud, where you rent it from somebody rather than manage it yourself. Eventually my guess is that the hyperscalers will also enable these AI factories to be built, within their premises, but so long as it's within your control and so long as you're the one that owns it in terms of really, I think, owns the information, owns the models, owns the weights, owns the agents, I think that's the distinction that I'm trying to make here. Doesn't necessarily need to be physical equipment within a building that belongs to you.\n\nSpeaker 2 | 09:30 - 09:51\nOkay. Great. Great. Do you wanna spend more time on what you alluded to a minute ago about agents and agents doing their own fine tuning? I mean, right now, the way I think most people think about agents is that, you know you do reinforcement learning to enable the agents but I think you're saying agents do it?\n\nSpeaker 1 | 09:51 - 11:14\nI again like to think of agents as artificial people and over time I think we're all going to have agents that work for us, whether we're people or organizations, for different tasks and we'll have teams of agents that can help us develop software or personalize medicine or whatever it is that we want done we will have them do on our behalf and I think over time we will get attached to our agents and we will expect them to know things that happened yesterday or that happened a year ago and that will allow us familiarity with our agents but that requires them to fine tune models based on experiences that they had with us and of course that also makes them smarter and able to do more for us and within teams they can learn from each other and I think that generates the next level of artificial intelligence versus where we are today where everybody is based on some base model from one big lab or another and every few weeks we get an upgrade to that model based on what they did, in their environment, in this new way each one of us, each organization owns the IP generated through these, fine tuning mechanisms rather than letting the big model builders basically own everything over time.\n\nSpeaker 2 | 11:14 - 11:27\nOkay. So just to play it back so that the the knowledge loop happens within the enterprise and that becomes the new IP. And so we're saying we cannot do that with OpenAI or Anthropica, whoever.\n\nSpeaker 1 | 11:27 - 11:37\nYou don't want to because you don't want to expose your proprietary information, your processes, your secret sauce out to somebody else such that they can take it and run with it.\n\nSpeaker 2 | 11:37 - 12:04\nWhich is super interesting, right, because people used to say that about data, but now we're saying this about Intelligence. Intelligence processes and memory and therefore intelligence. Okay. Does that mean that open source becomes the the play here? Because if you wanna fine tune or do RL against model, you know, having access to an open source model and the ability to do that.\n\nSpeaker 2 | 12:04 - 12:06\nSo is that your vision of the world?\n\nSpeaker 1 | 12:06 - 13:05\nNot necessarily. I think we need to build a way for people to monetize these abilities that they worked so hard and paid so much to get to. And so we need a way where on the one hand an enterprise does not expose their data, the other hand a model builder does not expose their weights. And again, this software infrastructure layer is the right place to enforce that type of trust and over time as the enterprise starts to generate their own models or fine tune on top of base models, they should also be able to monetize the skill sets that they develop and so if I run a carpentry shop and my carpenter robots are the best in the business, I should be able to lease to you that brain module such that you can build a chair or whatever it is that you're trying to do, but I'm only giving it to you for a week. And at the end of that week, you don't have access to it anymore.\n\nSpeaker 1 | 13:05 - 13:15\nOr maybe I'm selling it to you, but I still don't want you to see those weights. And so there should be ways for us to build a intelligence marketplace.\n\nSpeaker 2 | 13:16 - 13:34\nOkay. And that that I guess that goes to your big announcement of of this week. Do you wanna mention the the the principle of it and then we'll we'll go into the the details in a minute, but at a at a high level, how does what you guys just announced address this specific problem?\n\nSpeaker 1 | 13:34 - 14:03\nSure. So, basically, what we're trying to do is fill out that software infrastructure layer, and what we realized was that the five layer cake that we discussed is almost complete. The models don't really live on top of the software infrastructure. Models over time have become a resource, just like a GPU is a resource or an SSD is a resource, and resources need to be managed. And so this announcement is all about model management.\n\nSpeaker 1 | 14:03 - 15:32\nHow do we, as the operating system, now get an understanding of this model is really good at coding, and that model is really good at generating images and this one is expensive and that one is inexpensive and that way we can understand which tasks belong under which models and that's today when we have four or five of them as we start to reinforce learning and fine tune as we start to have hundreds and thousands of agents and over time generating new derivatives of those models that's going to be a much bigger task. One specific aspect of model management which we're announcing and we have a lot of the model builders as partners join the announcement is around confidential computing and enabling that ability of enterprises to run inference on prem without exposing, the model builders weights and so both sides can rest assured that my data is not exposed and your weights are not exposed to me. And so with help from Nvidia and encrypted memory underneath, we're able to make sure that no one sees what they're not allowed to see and to hopefully increase the total addressable market of these model builders into regulated industries, into large enterprises that are careful with their sensitive information.\n\nSpeaker 2 | 15:32 - 16:16\nLet's put a pin in this and we'll revisit in a few minutes and go into how that actually works. But taking a step back, I would love to talk about your journey a little bit and and and and then how it led to you to build Vast, which is this incredible company, which is valued at $30,000,000,000 that, you know, interestingly, perhaps because you're right in the middle of the of the cake, not everybody has has heard about yet. So I think you were telling me growing up in Israel that you had a particular affinity for for math. So my my words, not yours, but you're a bit of a of a whiz kid in in in in math. Affinity for math,\n\nSpeaker 1 | 16:16 - 16:59\nfor sure. Whiz kid, definitely not. It's funny when I came up here, the Math Museum is downstairs and we had some big news this week about math. When I was in school twenty years ago, I spent six months of my life trying to figure out if P=NP which I hope your audience knows but for those who don't, it's the question of is it easier to verify a problem than it is to solve the problem? Which intuitively it is, it's much easier for us to review a document and say, yeah, that works than to write that document or to look at a picture and say that's beautiful than to paint that picture.\n\nSpeaker 1 | 17:00 - 17:32\nBut mathematically it's unknown if if that is the case or not. And interestingly, this is one of seven millennium problems that the Clay Institute back in 2000 put a million dollar bounty on. And I remember spending those six months trying to solve it because I thought, if I prove that p does equal np then I also solve the other six and I'll get $7,000,000 And if I prove that it's not equal then at least I get one. And after six months what I realized was that I'm not nearly smart enough to do it.\n\nSpeaker 2 | 17:32 - 17:36\nDo you want to provide the the full context about what happened this week just for for anybody that\n\nSpeaker 1 | 17:36 - 18:45\ncan follow-up? Another one of those problems, Navier Stokes was solved by OpenAI or at least they claim that they've solved it and the rumors are hopefully by the time that this is aired, some of those rumors will come true that there's at least two more of the seven problems that OpenAI and Anthropic are trying to solve and are close to solving using AI. These are problems that have been open for nearly one hundred years, and for the last twenty six years there was a million dollar prize associated with them and still people were not able to solve. And so for the first time I think we're at a point today where AI has proven that it can do things that we don't know how to do. But going back twenty years, it was clear to me that if we could get computers to help with these hard problems, that's the way to solve it because people are slow and the evolution of our knowledge is slow and if we are to see any of these things get solved within our lifetime we need computers to speed us up.\n\nSpeaker 1 | 18:47 - 19:00\nWe didn't know how to do it back in 2006 and so I went along my way and joined a few technology companies. The last one I was with was a company called EMC which builds large storage systems.\n\nSpeaker 2 | 19:00 - 19:06\nIf I recall correctly, so you joined a startup as employee number and that company was acquired by\n\nSpeaker 1 | 19:06 - 19:07\nThat's right.\n\nSpeaker 2 | 19:07 - 19:10\nAnd then you help run that the R and D organization\n\nSpeaker 1 | 19:10 - 19:11\nThat's correct.\n\nSpeaker 2 | 19:11 - 19:13\nWithin EMC Yes. For that product?\n\nSpeaker 1 | 19:13 - 20:15\nAnd that acquisition happened in 2012. And by 2015, it became clear that there is a shot at computers, helping us think and helping us solve problems, because neural nets which again when I was in school ten years earlier or fifteen years earlier were a curiosity they didn't really weren't able to do anything. Now they were for the first time starting to show that they can do something. They were able to recognize which videos had cats in them and which videos did not have cats in them which was astonishing to me because suddenly we can try to mimic the human brain without really understanding the human brain. So immediately I tried to figure out how this happened and it was very clear that it wasn't necessarily new algorithms, was giving those neural nets much faster access to a lot more data that enabled them to perform these very simple tasks.\n\nSpeaker 2 | 20:15 - 20:20\nSo that was the intuition behind the founding of VAST? Correct.\n\nSpeaker 1 | 20:20 - 20:25\nI looked 2015? 2015, beginning of twenty sixteen we started.\n\nSpeaker 2 | 20:25 - 20:44\nYeah. And then, obviously, that was at a minimum three years before the Transformers paper came out and another two years before the ChatGibity moment. So what was the idea then? Because there were not a lot of customers using massive amounts of data for AI at the time.\n\nSpeaker 1 | 20:44 - 21:25\nThere was no generative AI at the time. Google acquired DeepMind a year previous to that. But it was clear that none of the systems, none of the infrastructure that we had available to us would be scalable enough, would be performant enough to enable this next revolution. The architectures were built on an assumption that things needed to be fast or big, and here you needed something that was both fast and very very large. And so we needed to build a new underlying, layer to enable the success of this next revolution if it were to come to fruition.\n\nSpeaker 1 | 21:25 - 21:40\nIn the early days of course our customers were not doing generative AI, they were doing large scale analytics, they were doing, autonomous driving projects, they were doing medical imaging, analysis, genomics analysis,\n\nSpeaker 2 | 21:41 - 21:45\nhedge funds. Scientific computing or hedge funds, obviously. Yeah. Right.\n\nSpeaker 1 | 21:45 - 21:54\nYeah. Hedge funds were trying to get signal from news feeds and natural language. And so it was the beginning of AI, but before ChatGPT.\n\nSpeaker 2 | 21:55 - 22:32\nAnd actually, as as a way of getting into what VAST actually does, do do you wanna explain in in super simple terms what you just said. So so you started from storage, and then storage, as as you just said, was it's either the the alternative at the time was either slow and inexpensive or fast, but expensive, and the whole scientific kind of breakthrough is to break this. Right? And what what was it what you called the days?\n\nSpeaker 1 | 22:32 - 22:33\nDisaggregated shared everything.\n\nSpeaker 2 | 22:33 - 22:35\nAlright. So explain that in in super simple terms.\n\nSpeaker 1 | 22:36 - 23:25\nSo the old way to build scalable systems is based on a concept called sharding, what's known as shared nothing systems where you have a lot of nodes, each node is responsible for a piece of the pie, they collaborate with each other in order to serve up application requests. And as you add more nodes, get more performance, you get more capacity, it works well, up to a certain limit. And so once you have too many nodes, the communication between them starts to show diminishing returns. And so if you're analyzing text, it may work, if you're analyzing numbers it works well, if you're analyzing columns of a database that's fine. Once you grow beyond that and today the amounts of data are four or five orders of magnitude beyond where they were back then, soon they will be seven, eight orders of magnitude bigger, it doesn't work.\n\nSpeaker 1 | 23:25 - 24:41\nIt breaks down because, the communication grows quadratically within the cluster and then, from a resilience perspective also when one part fails, everybody needs to recover, that takes time, you can't really have more than a 100 nodes in one of those systems. To build AI, we need systems with many millions of nodes. We have one system at one of our customer sites that is today multiple exabytes within a single cluster delivering tens of terabytes per second, this is tens of thousands of nodes even today before the agentic revolution. And so to do that we needed to build an architecture that ended up being the opposite of the way shared nothing systems work Instead of having the SSDs, the media directly attached to the CPU, it's on the other side of the network. And that through a very fast network and through new protocols like NVMe over Fabrics and through new media types that allow us to save not just data on the other side of the network but also met metadata, we were able to have all of the nodes, see all of the information as if it was directly attached and that's what led us to being able to do what we call shared everything.\n\nSpeaker 1 | 24:41 - 25:17\nAll of the nodes now don't need to communicate with each other because they share access to all of the information. That's the basic idea behind our architecture and it proved really really good for a new type of storage system for AI and then for a new type of database for AI and then for a new way to orchestrate compute for AI and we realized over the years, our customers forced us to realize that it's not just storage that needs to be redone, but the entire part of that stack that needs to be redone.\n\nSpeaker 2 | 25:18 - 25:32\nAs I understand, I'm smiling. You must have been a lot of fun to pitch a storage company in 2016 to VC because storage was probably considered at the time the least sexy part of the entire stack.\n\nSpeaker 1 | 25:32 - 25:47\nI owe you guys a lot of our success because as hard as it was to pitch storage to VCs, now we're reaping the benefits of having a lot less competition than we otherwise would have had and so thank you.\n\nSpeaker 2 | 25:47 - 26:05\nYeah, is that part of why that middle layer is less known, there's just less companies pitching it. Mean like the you don't have to comment necessarily but like the only companies that come to mind are like weaker and there doesn't seem to be a lot of companies doing what you do. The\n\nSpeaker 1 | 26:06 - 26:26\nones that we're competing with started three years before us or thirty years before us. And when we built this new architecture, we were basing it on forward looking technologies. When we started in 2016, the underlying parts weren't there yet. They became available throughout 2017, 2018, 2019. And so anybody So you had\n\nSpeaker 2 | 26:26 - 26:27\nto believe that they were going\n\nSpeaker 1 | 26:27 - 27:08\nto And so it wasn't just difficult to raise money from VCs in those early board meetings when they kept asking me what do we do if this part doesn't come to life? I kept telling them we don't have a plan b, which they didn't like and so, I was not their favorite, person in those days. Hopefully that changed over time, they made some money. But yes, there was no way for a company that started before us to make those forward bets and so that's our advantage today, that's our moat, the fact that we're the only ones with this architecture. And it's true that there aren't many other companies in our layer.\n\nSpeaker 1 | 27:09 - 27:19\nI think mainly because it's it's not sexy. It's a lot more appealing to build a model company or an application company than it is to build the the plumbing.\n\nSpeaker 2 | 27:19 - 27:25\nAnd the so the days architecture is still at the very basis of of what what you do, all products currently?\n\nSpeaker 1 | 27:25 - 27:39\nThat's right. We have one product that's this operating system, but all of the parts that we're adding are based on days and that's part of the reason why we can't take open source and bolt it on top. We have to write most of it ourselves.\n\nSpeaker 2 | 27:40 - 27:49\nWhy did you start building databases on on top? What was not addressed by the market that you needed to build?\n\nSpeaker 1 | 27:49 - 28:39\nSame as with storage. We realized that there was a trade off between price and performance and scale and resilience and ease of use in the world of database in the same way that there was in the world of storage. We realized that because our customers told us that. We have a big customer for example in Singapore and they have a lot of camera feeds coming in and all of those feeds need to be vectorized as, the images come in and that, results in trillions of vectors that need to be placed in a database. There isn't a database that was built for trillions of rows, there isn't a database that was built for thousands of agents analyzing different aspects of what's happening, in the system at the same time.\n\nSpeaker 1 | 28:40 - 29:01\nOld stack databases were built for, big amounts of data which today seem very very small, they were built for people running queries and doing the analysis and again that old architecture, the shared nothing architecture is not scalable enough to the levels that we need today.\n\nSpeaker 2 | 29:01 - 29:13\nSo it's it's so it's scale. Right? I mean just to push back a little bit, or probe, you know, I'm I'm sure, like, Databricks or, like, Snowflake would say, no. No. No.\n\nSpeaker 2 | 29:13 - 29:37\nWe massively scalable, and we can just, run massive analytics on data and including in some in in real time with our newer products. And then, you know, I think some people would say, well, storage was solved like that's s three, that's infinitely scalable. But what we're saying here is that all of this may be true for certain use cases but not for what we're talking about here.\n\nSpeaker 1 | 29:37 - 30:20\nI think both of those companies that you mentioned started again about five years before us and so they too are built on that older architecture and they started top down. They are based on underlying cloud services like s three which were not built for this era of AI and we're seeing that today. That's a big part of the reason these AI clouds are starting to pop up because the traditional hyperscalers that built s three built the old stack and these new AI clouds are building the new stack. And now the older clouds need to adapt in order to stay relevant.\n\nSpeaker 2 | 30:20 - 30:30\nSo is the ask to customer as they build those AI factories to basically move all the data to Vast?\n\nSpeaker 1 | 30:30 - 31:30\nThey don't have to start by moving all the data to Vast. Usually, we start by just serving the new applications, just serving the new AI applications. Usually what happens after that is that the customer, the enterprise, the organization realize that this is actually useful and I want it to access the entirety of my dataset rather than just this subset. The good news is that we support all of the old stack interfaces and so if you're talking storage s three, we support file systems, we support block devices, we support if you're talking databases, we support SQL, if you're talking streaming, we support Kafka and so it's very easy to plug in those old stack applications onto our platform in parallel to the new agentic workloads and AI applications, and in that sense we become a bridge between the old world and the new world as companies make that journey.\n\nSpeaker 2 | 31:30 - 31:48\nBut the end of the journey is that the new the old world merges into the new world. Of course. Yes. So, obviously, data gravity is a wonderful thing if you're vast. How do customers feel about the idea of like moving all the data ultimately to one vendor?\n\nSpeaker 1 | 31:48 - 32:05\nSo because the interfaces are all standard, it's just as easy for them to move off of us as it is to move on to us. It's our job to make sure that they're happy. The one chart that I look at every morning is our customer happiness chart, that's the only thing we care about and if\n\nSpeaker 2 | 32:05 - 32:08\nWhat what does that look like? What what how do you measure\n\nSpeaker 1 | 32:08 - 32:40\nhas customer green, happiness? It has yellow, it has red and anybody in the company is allowed to move a customer from green to yellow or from yellow to red but very few people are allowed to move them back and so But based on what metrics? The only metric that really matters in order for us to move a customer back is that they say so. That they say we're happy now, everything is good, everything is solved. And yeah, that's what we work so hard every day to accomplish.\n\nSpeaker 1 | 32:40 - 33:13\nI think the numbers show that it's working. The numbers that people like you usually care about are net dollar retention, gross dollar retention, we don't have any churn in the company, our gross dollar retention, it's not a 100% because a few of our customers have gone out of business over the years but no one's actively decided I'm going to stop using VAST which is something I'm very proud of and on average our customers double and triple the amount of data that they place on our systems every year.\n\nSpeaker 2 | 33:13 - 33:35\nLet's get into some of the technicality of how the data interacts with models. What does it actually mean to move data to the GPU? And is it different for training compared to inference?\n\nSpeaker 1 | 33:35 - 34:01\nTraining is super simple. Training, you just need a lot of GPUs and you need to feed them with a lot of training data. Once in a while they put down a checkpoint so that if something crashes they don't have to go all the way back to the beginning but other than that there's not much to it. You need large scale, you need fast access, that's it. Inference is becoming a whole complex world of its own.\n\nSpeaker 1 | 34:01 - 34:46\nInference started by obviously being requiring low latency access because people are on the other end prompting and they want faster responses, that meant that you need a distributed system close to where those people are at the edge. That also means that you need a system that's always up. Somebody once told me one of the big model builders that if training is down nobody notices, if inference is down there is no service and so it needs to be up a 100% of the time. Resilience, distributed nature, low latency, very secure environments, all of that is important in inference versus training. But that's just the ground level.\n\nSpeaker 1 | 34:46 - 35:43\nOnce we start talking about multiple models, once we start talking about agents, once we start talking about reinforced learning, definitely once we expand outside of the world of data centers into physical AI and actual devices, each one of those adds another layer that means that we need to develop a new set of tools. For example, now that we have multiple models, each model is good at different things and so I want to make sure that this prompt makes its way to that model because it's good at software development. I want to make sure that this prompt makes its way to that model because it's inexpensive and this isn't a high value task. I wanna make sure that no sensitive information is exposed to this model because they're gonna use that information for things that I don't want them to whereas here I have a contract that protects me. And so just that aspect of it is starting to get complex.\n\nSpeaker 1 | 35:44 - 36:59\nOnce we start thinking in that direction, there's all kinds of optimizations that we need to do around things like heavy caching and saving context windows and making sure that we route the prompt not just to the right model but to the right GPU that has that model loaded and that has my context in cache. Context is just the last few minutes of conversation, we need short term memory the last few weeks or long term memory what happened two years ago to also be accessible through things like RAG into these environments and so all of that requires us to manage data, the raw data, the generated data, the input data, the weights of the model, the context, and we need to make sure that nobody sees information that they're not allowed to, we need to keep track as we do reinforced learning of what information went into fine tuning each model and make sure that information isn't leaked through interacting with somebody who's using that model whether it's a human or an agent. It becomes very very interesting as you layer one two three four of these things one on top of the other.\n\nSpeaker 2 | 36:59 - 37:21\nSo if you have enterprise data to play it back, that data could be used by the model through the context window, through the KV cache, which is the model's memory or through Rag. Who makes those decisions? Is your job as the fast data provider to just be available and then the model pulls as needed? How does that work?\n\nSpeaker 1 | 37:21 - 38:27\nSo we need policies to be set. And today we just connect into your organization's authentication and authorization mechanisms if you use active directory, if you use access control lists, we then know who is allowed to see what from a human perspective, we then extend that to agents as those inherit properties from the people that deploy them or from other agents that spawn them and based on that we know what's allowed, what are the rules of the game, then we need to enforce those rules which becomes very difficult when you're talking about multiple organizations. Most of these model builders won't let you infer within your environment which means that you just need to send your data to them and hope for the best. That I think has been slowing down the adoption of AI in a significant way and so we need to make sure that it's secure, need to make sure that it's safe, we need to make sure that there aren't any obstacles for AI to achieve its its true potential.\n\nSpeaker 2 | 38:27 - 38:44\nAnd to what you just said, the concept of agent memory works the same way. So accessing that vast data storage. Did you say you you effectively give the agent authentication authorization the way a human would?\n\nSpeaker 1 | 38:44 - 38:54\nVery similar. Okay. Yes. So access control lists that apply to a user ID. Now this user ID is assigned to an agent rather than a person.\n\nSpeaker 1 | 38:54 - 39:05\nWe have access control based on roles, we have access controls based on attributes, and so it's very fine granularity and you can in a dynamic way set your policies.\n\nSpeaker 2 | 39:05 - 39:10\nIt's accessing data but also what tool calls they can or cannot make.\n\nSpeaker 1 | 39:10 - 40:27\nCorrect and who they're allowed to talk to because now you have multiple agents talking to multiple people and so that conversation happens over a persistent streaming service that we provide that allows us then observability into it because we can query through the database and ask questions about those conversations and so the entirety of this remember it's not in one data center anymore it's across geographies and so the entirety of this new world gets managed by this operating system from a observability and from a control and from a policy setting perspective especially when it starts to expand outside the data center into cars and humanoid robots and satellites, then the stakes get higher because physical elements can create physical damage and so rather than just data safety, we need to think of things like actual safety. That robot should not pick up that tool or that car should never accidentally hit a person and so you need us to be in the data path to not just be able to report on these things but also to intervene and enforce the policy.\n\nSpeaker 2 | 40:27 - 40:55\nAnd in the meantime, the concept of agent collaboration, which is all the rage now, you know, highlighted in part through the recent security and safety issues, but concept of agent swarm is everywhere. So that collaboration layer would be also enabled the same way they would they would have access to a group like the way humans would have access to it. That's exactly right. A group access to data?\n\nSpeaker 1 | 40:55 - 41:55\nThat's exactly right and I think for a long time we've been hoping that interaction between AIs and interaction between agents will give us that next step function in level of intelligence in the same way that when we talk we make each other smarter and we give each other ideas. I think this solving of the Navier Stokes problem earlier this week proves that that is actually happening. They said 10,000 agents loose at an age old math problem and within a few days they came back with the result. And so that's one aspect that was missing I think, which is good for theoretical problems, the other aspect that's missing still is access to the natural world which is good for physical problems. And so, hopefully, that brings us to a level where the AI can help us solve some some of the big problems that we've been struggling with over the years.\n\nSpeaker 2 | 41:55 - 42:04\nAlright. Amazing. We said we would go back to that private and sensitive data and exposing it to commercial models. What is it called, by the way? It's called data enclave?\n\nSpeaker 1 | 42:04 - 42:05\nEnclave. Yes.\n\nSpeaker 2 | 42:05 - 42:06\nEnclave. Okay.\n\nSpeaker 1 | 42:06 - 42:09\nI'm not sure I like the name, but that's what we chose.\n\nSpeaker 2 | 42:10 - 42:16\nSo how does that work practically in simple terms but practically?\n\nSpeaker 1 | 42:16 - 43:51\nIt's super simple. In fact, it all goes back to encrypted memory. And so if today model builders want to keep their weights very close because that's their IP and they're afraid of giving it to a million customers and having one of them take it and do something that they're not supposed to, on the other hand a specific class of customers, specifically enterprises cannot just give their data to the model builders in the way that they're expected to today. What we're doing is we're letting that inference process rather than running within the premises of the model builder or within one of their clouds, we're letting it run within the premises of the enterprise whether it's a physical premises or VPC that they own. And the way that we make sure the model builders are happy is by encrypting those weights and we encrypt them end to end, we leverage, hardware abilities underneath us from companies like Nvidia who is a big part of this launch who allow us to bring encrypted data through the network into memory from memory up to the GPU and only the model builders inference application is allowed to access it and so we have full custody chain of control end to end such that those waits are safe and the enterprise knows that nobody can ever see their information.\n\nSpeaker 2 | 43:51 - 44:05\nAnd why is it possible now that that that concept of confidential computing I'm trying to remember the name. There are two or three names for that concept. It's been around for, like, a decade plus. Why is it happening now?\n\nSpeaker 1 | 44:05 - 45:04\nI don't think there's anything new in the underlying technology. It had to be plumbed because this was, as you say, available for a long time for CPUs, now it's available for GPUs and so that piece of it needed to be done underneath us. Our layer requires us to manage all of this and make sure we understand which model is, which does it belong to, who is allowed to see it, where should we block it, those types of things. I don't think there is a technological breakthrough that was required for this, I think it's just an idea whose time has come and it also requires many companies, many parts of the ecosystem to work together in order to provide this end to end solution and so we're working with the AI clouds to do it, we're working with the OEMs to build physical boxes that can sit in the enterprises data center, we're working with auto builders.\n\nSpeaker 2 | 45:04 - 45:06\nIs an appliance concept?\n\nSpeaker 1 | 45:06 - 45:16\nExactly. Companies like Cisco or Super Micro are now collaborating with us on this. And, of course, the chip makers themselves like NVIDIA.\n\nSpeaker 2 | 45:16 - 45:35\nAnd beyond the technology, there has to be a trust and auditability layer presumably, right? Because now you become the bottleneck like you're in the middle of like this great confluence of just different players from across the ecosystem. So how do you think about that?\n\nSpeaker 1 | 45:35 - 46:16\nI think that's where the trust should be, that's the layer that is on the one hand malleable because it's software, on the other hand it's low enough in the stack such that it can benefit all of the different applications. Historically that's where safety was done in the operating system and so we needed to be done in our layer. I hope that we are trustworthy, we're working very hard to build that trust with everybody else in the ecosystem. And yes, we're very very humbled to to be in the middle and in that position.\n\nSpeaker 2 | 46:16 - 46:43\nThat's like another huge milestone for the for the company. So amazing. I'd love to take a step back and just, like, think through the macro environment from your perspective. You're you're in this very privileged position as the the middle layer of the of the cake, as we said a couple of times now. So I'm I'm curious what what your take is on on on a bunch of of things.\n\nSpeaker 2 | 46:43 - 47:15\nSo, look, the inevitable question is around the demand side of the whole compute boom. So you work with a lot of the neo clouds and NVIDIA. Intimately familiar with the supply side. You're part of the supply side yourself. What gives you comfort that the demand side is going to materialize in a way that is not going to get this entire AI ecosystem in trouble?\n\nSpeaker 1 | 47:15 - 48:24\nI think the demand is there today, I'm not sure it gives me comfort and sometimes it scares me as to how much demand is there and the acceleration in demand because every quarter our customers are coming back to us and telling us they need a lot more than they thought they did. We had a customer, one of these AI clouds, one of the smaller ones come to us a quarter ago and we told them we need to plan ahead for the next three years because there's supply chain implications and you need to be aware of this and they said we're probably going to need about 500 petabytes over the next three years. And last week they came back to us and said we're gonna need an extra two exabytes on top of that 500 petabytes And my expectation is that from what I'm seeing in other parts of the landscape that they'll come back again in a quarter or two and say we need a double digit number of exabytes we we undershot. And we're seeing that across the board both in the smaller and medium sized environments as well as in the big environments where they thought they would need tens of exabytes and now they're talking in triple digits.\n\nSpeaker 1 | 48:24 - 48:25\nAnd how how much\n\nSpeaker 2 | 48:25 - 48:32\nof it is is BigLabs building versus end customers and end users?\n\nSpeaker 1 | 48:32 - 49:37\nWell, the BigLabs are building because they have end customers and end users that are using it, and the AI clouds are building because they have both big labs and medium labs that are consuming it and I don't think you'll find infrastructure that's just lying around and not being utilized at the moment. In fact the opposite is true, there is a lot more that people want to do that they cannot do. Some of these AI clouds have stopped selling more capacity just because they're sold out for the next year and a half. And so I think the limiting factor here is physical. It's land, it's power, it's chips, building fabs takes a long time and so, as fast as we feel this is moving and it is moving very very fast, it's still, the build outs are happening much more slowly than the demand, requires from them.\n\nSpeaker 1 | 49:37 - 50:07\nWill it sustain forever? I don't know. I'm sure over time there will be hiccups but as far as I can tell we're just at the very very beginning of most of the world running on AI and if AI will really be able to do all of these things that we are starting to see it do, it should continue at least for the next five to ten years at this pace. So we have a lot of work to\n\nSpeaker 2 | 50:07 - 50:24\ndo. Do the circular deals and the whole like financing debts aspect of the ecosystem does that make you nervous or do you think that's just like a means to whatever needs to happen for the ecosystem to be actually built?\n\nSpeaker 1 | 50:24 - 51:31\nSo I think going back to the beginning the old stack and the new stack, I think there's a new ecosystem getting built around the new stack and, some of the older companies are, joining this ecosystem and some have not yet joined this ecosystem and so it's lacking in liquidity at some points in this supply chain. We see the build outs that need to happen in some points need money in order to finance them and sometimes you need that money ahead of when the results appear and ahead of when you actually get returns on that investment and I think the companies that are in the ecosystem are a natural spot to get that liquidity because they see what's happening, they believe in it, they understand how big this is going to be versus someone who's on the outside looking in that maybe feels this is riskier for them to finance. And that's I think what's happening.\n\nSpeaker 2 | 51:31 - 52:01\nSpeaking of finance, you're in a very interesting and somewhat unique position because based on on the little ad now, think you guys are profitable. We are. Which is, you know, not not the case of just like a lot of other players in the ecosystem. Like, what what what does that tell us in terms of where risk in the ecosystem? Like, you happen to be in this layer which is indispensable and therefore there's no other competitor, therefore you can be profitable?\n\nSpeaker 2 | 52:01 - 52:06\nAre you more disciplined? What means what I guess?\n\nSpeaker 1 | 52:06 - 53:24\nIt's probably a combination, but I think it goes towards our business model. We sell software and so our gross margins are high and as we grow on the trajectory of AI growth which is pretty consistently been about 10 x every two years, we get more and more efficient and we generate more cash and we generate more profitability. The companies that are higher up the stack have a lot of compute costs that they need to do and the companies that are underneath us in the stack are building hardware and so they too have a very different business model than than the one that we have. But yeah, I think the combination of fast growth and efficient growth is something that we we've built into the way we work from the early days and it goes back to VCs not necessarily wanting to invest in the space in the early days so we needed to be self sufficient and it also goes back to VCs not wanting to invest in the space in the early days, we have less competition than maybe exists in some of these other layers.\n\nSpeaker 2 | 53:24 - 53:48\nYou have a lot of customers in the Neo Cloud ecosystem, and I'm I'm curious about what your view might be on that ecosystem. I mean, this literally hundreds of neo clouds. What do you think separates the one that will be around in two to three years as dominant forces in that ecosystem versus the ones that will not?\n\nSpeaker 1 | 53:48 - 54:30\nSo they need access to power, they need access to hardware, they need access to money. And I think the ones that will succeed are the ones that build, that know how to build. I find the end users come what Nvidia calls off takers and they want immediate access to compute and if you have it then they'll come to you and they're willing to pay and if you don't have it and you tell them let's build it together, we'll have it ready for you next year, then they'll go to somebody else. And so I've seen the ones that are most successful be the ones that build in anticipation of demand rather than behind the demand.\n\nSpeaker 2 | 54:30 - 54:34\nPhysically or build capacity through rentals or\n\nSpeaker 1 | 54:34 - 55:06\nEverything. And you don't have to own all of the layers of the stack. There are multiple layers of the stack underneath us and the Neo Clouds, but yeah. And I found I find the ones that have that combination of good relationship with the hardware vendors, access to power and land, and that are savvy in the way that they finance their operations be the ones that are most successful.\n\nSpeaker 2 | 55:06 - 55:45\nYeah. And and to the last point about money and the the, you know, it's you know, one can debate whether that's still current or not, but, like, the the the case against Neoclass for a long time was that, well, effectively, they're kind of like a financing vehicle for, NVIDIA GPUs. The primary, skill is finance and eventually hyperscalers will beat them because hyperscaler will always have a lower cost of capital. Is that in the three aspects that you mentioned, financing skills as important as the rest? What do you make of all of this?\n\nSpeaker 1 | 55:45 - 56:59\nI think that the reality has proven to be the opposite of what you just said. The fact that we have so many of these new AI clouds and the fact that the hyperscalers have not beaten them yet, I think it goes back to the innovator's dilemma. When you have something new to build and you have this old cash cow to focus on, it's a lot harder than when you have something new to build and you don't have that legacy. But yes, regardless of where it started, I think these AI clouds have built up skill set and a specialty and it's not the same to build this new stack and these AI factories versus to build the old stack and the way that the hyperscalers built clouds five and ten years ago, and every day that passes these AI clouds that are actually in the trenches doing the work, they're learning. And the neo clouds that are sitting on very cheap financing but not yet or the hyperscalers that are sitting on very cheap financing but are not yet doing this work are not learning that and so the gap in skills just keeps increasing.\n\nSpeaker 1 | 56:59 - 57:32\nNow I think the hyperscalers have realized that and if two years ago they were saying, yeah we have this, we have storage, we have compute, we have networking, we know what we're doing, we don't need to worry about this new thing. Today, they they're singing a very very different tune and I think they're aware of the fact that their lunch is being eaten by someone else and I think they're reacting to it, so it'll be very interesting to see how that dynamic evolves over the next couple of years.\n\nSpeaker 2 | 57:32 - 57:58\nWhat do you make of sovereign AI? It seemed to me that the concept of AI factory that we discussed at the very beginning was largely around this concept of sovereign AI like a year or two ago. As we discussed at the, again, at the beginning of this conversation, it seems to have expanded now to also include enterprises, but from your vantage point, what's the reality of that concept around the world as it applies to nations?\n\nSpeaker 1 | 57:59 - 59:10\nI think this becomes a basic need over time in the same way that electricity is a basic need or that water is a basic need, AI intelligence will be a basic need. We will not be able to live in the way that we would like to live without it And so in the world that we are in today, countries are adversarial one to the other and they don't trust each other and in the business community as much as we have competition, I think we collaborate very very nicely, but nations like to have their own and so every nation wants to make sure that The US can shut down its AI or that somebody else can shut down its AI and so they're trying to build sovereign AI solutions, obviously not every nation can build the software, not every nation can build the hardware, not every nation can build all the different layers of the stack but I think they get comfort from knowing that it's within their borders at least and within their jurisdiction from a legal perspective.\n\nSpeaker 2 | 59:10 - 59:31\nZooming out a little bit from that whole stack that we described with the five layers, Where do you think the value accrues over time and which part of the stack commoditized? People have been talking about model commoditization for a very long time. Does that commoditize? What about the rest?\n\nSpeaker 1 | 59:31 - 1:00:12\nI think the best way for me to think about this is to look to history. And historically, hardware tends to commoditize relatively quickly. We have because it's standard, not because it's easy, but maybe it's easier to copy, I don't know. The software layer tends to accrue a lot of value. If you look at the most valuable companies in the world today, if you look at Amazon, if you look at Microsoft, if you look at Apple, if you look at Google, those are the companies that built those software layers of the cloud, of the PC era, of the mobile era, of the Internet, and they are worth trillions of dollars as a consequence.\n\nSpeaker 1 | 1:00:12 - 1:00:49\nThe application layer, there tend to be a lot of applications, some of which will have a lot of value and others will not have that much value but I think consumer loyalty is something that is also valuable in those previous revolutions and so the software infrastructure layer tends to accrue a lot of value and then on a more selective basis at the application layer. Where the models fit into that is very, very difficult to say because we never had a model layer before. So that would be interesting to see.\n\nSpeaker 2 | 1:00:49 - 1:01:06\nAnd you see the model companies have become application companies and the interesting semi recent trend has been to see the application companies become model companies again starting to do a lot more work whether that's a, you know, a condition or a cursor or\n\nSpeaker 1 | 1:01:07 - 1:01:18\nSo I'm not sure those two layers will stay separate over time. Perhaps they merge back into one. In the old stack, we had only four layers and the new stack perhaps that merges well.\n\nSpeaker 2 | 1:01:18 - 1:01:50\nI'm curious about how you think about the place of Nvidia in the ecosystem. The name has come up already a bunch of times during this conversation and it's so central. They're an investor, they're a partner. How does one work with such a dominant player in the space in a way that preserves optionality and preserves your independence as a and then self reliance as a business long term?\n\nSpeaker 1 | 1:01:51 - 1:02:57\nSo interestingly other than as an investor there's no legal document between us and Nvidia. They don't resell our solution, we don't actually do anything together from a legal perspective. Having said that, they are our best partner by far and at any given point in time we have high teens number of projects that we're collaborating with them on. We have a triple digit number of developers working with them, they have the same on their side with us, everything ranging from new networking gear to new inference microservices to this agentic confidential computing project to the next generation of GPUs and DPUs and how we take advantage of them. All of that we love because as we build this together then the solution ends up being better for our joint customers.\n\nSpeaker 1 | 1:02:59 - 1:03:59\nAnd so we really enjoy working with NVIDIA also from a cultural perspective. They move fast, they believe that anything that is physically possible is possible, they believe that it can be done, when others believe that it cannot and so it's been a lot of fun working with them, in parallel to it being also very lucrative because they are the ones that are creating these new environments and putting names on all of these new concepts and so they're leading the charge and we're trying to as much as we can ride their coattails. Having said that, there's no type of exclusivity. We work with AMD, we work with other companies in parallel to working with Nvidia. In practice, they do have the majority of the market and so the majority of the deployments that we have are with them.\n\nSpeaker 2 | 1:03:59 - 1:04:20\nOne other thing that strikes me in the big part of this conversation is that you guys seem to be just like relentlessly launching new product, expanding new to new customers, having key relationships. We mentioned NVIDIA, but this xAI has been, you know, a very important customer for for for you guys. What have you learned in terms of moving at the speed of AI?\n\nSpeaker 1 | 1:04:20 - 1:05:16\nWell, you can't move faster than Elon. I was fortunate to see some of the ways in which he pushes his team to move faster and it's it's super simple. You find the limiting factor and you get rid of it and then you find the new limiting factor and you get rid of it, and that cycle keeps accelerating you faster and faster and faster. And that's what we like. The reason we keep innovating and keep accelerating and keep demanding more from ourselves is a) because we're paranoid and we're afraid that somebody from somewhere will pop up and try to catch up to us, but b) because we love it, we enjoy it, it's it's the joy of building new things and exploring and figuring stuff out that you didn't know how to do last week or last month and our customers expect that from us.\n\nSpeaker 1 | 1:05:16 - 1:05:36\nOur customers are the most demanding in the world and they're all in a race and they're racing each other in this quest for better AI and they need us to never slow them down. We can never be the limiting factor in their progress and in achieving their success.\n\nSpeaker 2 | 1:05:36 - 1:05:55\nAnd and practically for for the founders or leaders listening to this, how does one actually do that? Meaning finding bottlenecks and because the bigger the organization the more bottlenecks they are and they may be at the know top of the organization or at the very bottom as a CEO how do you do that?\n\nSpeaker 1 | 1:05:55 - 1:06:34\nYou have to talk to people and ask them that question. They know. As CEO you don't know but the people that are on the ground know and so you need to build an organization that's as flat as you can possibly build it such that you have direct access to everybody and you need to build an organization where people are not afraid of raising those problems. There cannot be a chain of command because that slows things down. I think I heard this from Elon, bad things should be stated loudly and often and good things once and softly.\n\nSpeaker 1 | 1:06:36 - 1:06:54\nSo we can't get into a mode where we're congratulating ourselves too much, we always have to be in this mode of somebody's going to kill us. We don't know who it is, and we have to keep fixing everything so that they don't have a crink in the armor to get in through.\n\nSpeaker 2 | 1:06:54 - 1:07:18\nAlright. So maybe to close some kind of forward thinking, projecting ourselves in the future a little bit as as as possible as it can be today. But ten years in from now, whatever many years, looking back, what industry believes today that may turn out to be wrong? Like, just just one thing that may come to mind.\n\nSpeaker 1 | 1:07:18 - 1:08:39\nI think ten years from now, again assuming AI and I think we're starting to see proof points, will not plateau at the level of human intelligence but will continue beyond the level of human intelligence and assuming it has physical access to all of the things that we have physical access to in on this planet and in space, I think everything is different, nothing is the same ten years from now. We will not be needed for all of these tasks and I think the way government is structured will be different and I think the way money is transferred and ownership of things will be different and the way we think about how we live our lives will be very different and so it's impossible for me to imagine that world except to say that it's probably gonna be a lot more different to what we have today versus where we are now, and where we were a thousand years ago. So I think in the next ten years we'll see more difference than we did in the last thousand years if this plays out in the way that it seems to be playing out.\n\nSpeaker 2 | 1:08:39 - 1:08:55\nAnd in that world, and maybe that's not ten years, that's just five years, in your wildest dreams or perhaps your very pragmatic vision, where does VAST sit? Becoming the operating system for AI, what does that actually mean if everything plays out?\n\nSpeaker 1 | 1:08:55 - 1:09:45\nWe want to a, enable this so that it actually can happen and that we don't see, obstacles in the form of we don't have the required infrastructure for it to happen because we can only build this fast and we want to build a thousand times faster or a thousand times bigger, we need to make sure that it doesn't kill us and so that it's safe and that along the path we, put safeguards in place, and enable us as people to understand what's happening, at the very least if not guide what's happening. I tell my team all the time, if all the data is managed by us, we can't ask for anything more than that. We're still a ways away from that but that's that's the ideal that we're we're marching towards.\n\nSpeaker 2 | 1:09:45 - 1:09:52\nAll the data in the world. Alright. Well, that feels like a wonderful place to leave it, Renan. Thank you so much. This was a terrific conversation.\n\nSpeaker 1 | 1:09:52 - 1:09:53\nThank you.\n\nSpeaker 2 | 1:09:54 - 1:10:14\nHi, it's Matt Turk again. Thanks for listening to this episode of the MAD Podcast. If you enjoyed it, we'd be very grateful if you would consider subscribing if you haven't already or leaving a positive review or comment on whichever platform you're watching this or listening to this episode. This really helps us build a podcast and get great guests. Thanks and see you on the next episode."
+    }
+  ],
   "blogs": [
     {
       "source": "blog",
-      "name": "Anthropic Engineering",
-      "title": "How we contain Claude across products",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "publishedAt": null,
+      "name": "Claude Blog",
+      "title": "Claude for Small Business launches new workflows, integrations, and training programs",
+      "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+      "publishedAt": "Sep 15, 2026",
       "author": "",
       "description": "",
-      "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerabilities remain—any probabilistic defense has a non-zero miss rate. 1 The second approach to capping the blast radius—and the focus of much of this post—is containment. Rather than supervising what the agent does, we supervise what it’s able to do by enforcing access boundaries through, for example, sandboxes, virtual machines, and egress controls. This is where Anthropic engineering has devoted the most effort, and also where many of the most surprising security failures have occurred. Over the past two years, we’ve shipped three primary agentic products: claude.ai , Claude Code, and Claude Cowork. Each serves a different audience, requiring a different containment architecture. This article shares what’s held up, what’s broken, and what we’ve learned about agent security along the way. Three types of risk, three components of defense Security risks to agents fall into one of three categories: User misuse: A user—either maliciously or through carelessness—directs the agent to do something harmful. This includes everything from asking the agent to bypass a check they find annoying, to running a destructive command they don’t understand, to specifying intentional harm. Model misbehavior: The agent takes a harmful action no one asked for. As our models have improved, they have become more aligned on most behavior evaluations, but this doesn’t mean risk necessarily shrinks. Less capable models are more likely to misread a situation and make obvious errors. More capable models make fewer mistakes, but they’re also better at finding unexpected paths to a goal, often by routing around restrictions nobody thought to write down. At Anthropic, we’ve seen Claude models “helpfully” escape a sandbox in order to complete a task, examine git history to find answers to a coding test , and spontaneously identify the benchmark it was being run on in order to decrypt its answer key . Each model brings a new set of capabilities that are sometimes put to work in unexpected ways. External attackers: The agent is attacked through external vectors such as tools, files, or network access. This category includes both prompt injection and conventional attacks on the agent&#x27;s runtime, orchestration layer, or proxy. When building containment and defense systems, we apply defenses to three main components: The environment in which the agent runs. We constrain where and how an agent can act with process sandboxes, VMs, filesystem boundaries, and egress controls. The goal is to set a hard boundary on what an agent can reach. For example, if credentials never enter the sandbox, they can&#x27;t be exfiltrated, regardless of whether the cause is a user, a model finding a “creative” path, or an attacker. A tight perimeter also means you can relax oversight. Claude Code’s reference devcontainer exists precisely so that the agent can run unattended, without per-action approvals. The model the agent consults. The mechanisms here include system prompts, classifiers, probes, and training modifications. Because models are probabilistic, these shape only what the agent tends to do, not what it is theoretically capable of doing. These defenses are strong. On Gray Swan&#x27;s Agent Red Teaming benchmark, which tests susceptibility to prompt injection, Claude Opus 4.7 holds attack success to roughly 0.1% on single attempts, and around 5–6% after 100 adaptive attempts. Claude Code auto mode catches roughly 83% of overeager behaviors before they execute . Yet even with best-in-class defenses, protection in the model layer will never be 100% effective, which is why it can&#x27;t stand alone. The external content the agent can reach. MCP servers, third-party plugins, and web search tools all feed content into the agent’s context from sources you don’t control. An audited connector isn’t the same as audited data—a GitHub connector, for instance, can load a poisoned README straight into the model’s context despite passing malware checks. Granularly limiting tool permissions can help limit the blast radius. An agent with read-only DB access, for instance, can be deployed far more broadly than one that writes to prod. Defenses should overlap and complement each other. When environmental defenses aren’t available, the model layer has to pick up the slack (this is precisely what Claude Code’s auto mode is designed for). Locally, the environment and model defenses can guard against malicious tool outputs, but defenses can be added higher up the chain by limiting the tool’s capabilities and access. Three components to defend: the model, the environment in which it runs, and the external content the agent can reach. Patterns for containing agents Focusing on the environment layer, we describe three isolation patterns and how they’re tailored for each Claude platform— claude.ai , Claude Code, and Cowork. We arrived at each design gradually, after finding the balance between the capabilities we need from the agent and the degree of intervention required from the user. Pattern 1: The ephemeral container (claude.ai code execution) Though best known as a chat interface, claude.ai also writes and runs code, generates files, and calls connectors. When Claude runs code inside claude.ai, it does so in a gVisor container on isolated infrastructure. The agent is entirely server-side; no code runs on the local machine, and the filesystem is ephemeral (per-session). The blast radius is minimal, but so is the ceiling on what Claude can do—there&#x27;s no persistent workspace and no access to the user&#x27;s filesystem. This also makes claude.ai subject to a more traditional threat model. We&#x27;re not protecting user machines from agents; we&#x27;re protecting our own infrastructure and each tenant from one another. Our pre-launch work for claude.ai was dominated by traditional security work like network configuration, internal service auth, and orchestration. That work reinforced the oldest lesson in security: the weakest layer is the one you built yourself. gVisor and seccomp have been hardened against well-resourced adversaries for far longer than agentic AI has existed, so the review effort went into the newer pieces we&#x27;d built around them. We’ll come back to this later, since our custom proxy is also the piece that broke in our most consequential incident. Pattern 2: The human-in-the-loop sandbox (Claude Code) Claude Code runs on a user&#x27;s machine and has access to their filesystem, shell, and network. Without this, coding agents have limited usefulness, so it’s imperative to find a way to grant that access safely. One approach is to rely on a human-in-the-loop. This is only a tractable solution for Claude Code because the average user is a developer who’s familiar with coding environments: they can read bash, they understand what rm -rf does, and they already run npm install from untrusted sources several times a week. All that means that when an “allow this” dialog pops up, they are highly likely to have the expertise to accurately evaluate what the agent is attempting to do and the risk involved. Given this, Claude Code launched with the simplest possible defense: allow reads, require approval for write, bash, and network access. However, as mentioned, approval fatigue showed up within weeks. Ironically, this meant that a feature originally designed to provide oversight could arguably have the opposite effect—some users might simply stop paying attention. As a first step to mitigate incautious approvals, we shipped an OS-level sandbox (Seatbelt on macOS, bubblewrap on Linux) that hardens the boundary: reads are allowed, writes are allowed inside the workspace, but network is denied by default. Within the sandbox, the agent runs largely without interruption. The result was an 84% reduction in permission prompts, and we open-sourced the runtime , so the boundary is auditable. Our anonymized usage data also showed that experienced users auto-approve roughly twice as often as new users, but they also interrupt the agent mid-execution more frequently. Instead of gating individual steps, experienced users are more likely to supervise the agent only when it goes off track. While this may be a natural evolution in how people prefer to work with agents, this too is fallible, requiring users to be technical and attentive enough to notice drift in the first place. As model capabilities improve and agents begin writing increasingly ambitious bash, it becomes harder to notice any such drift. And as users move to multi-agent systems, this approach is also much less likely to be an effective oversight strategy. Risk we missed: Everything before the trust dialog Between mid-2025 and January 2026, we received reports of vulnerabilities in Claude Code through our responsible disclosure program. Three of these vulnerabilities targeted code that executes before the user has consented to anything. To understand how this is possible, consider the most direct case: a developer clones a repository to review a pull request, and that repository contains a .claude/settings.json which defines a hook. Because Claude Code reads project settings during startup—before presenting the standard \"Do you trust this folder?\" prompt—the hook the attacker had authored and committed would execute automatically. The remaining cases looked structurally similar, in which input from the not-yet-trusted directory was parsed before the trust boundary had been established. The fix in each case had the same shape: defer parsing and execution of project-local configuration until after the user accepts the trust prompt. If you&#x27;re building something similar, treat project-open, config-load, and localhost listeners the way you&#x27;d treat any inbound request from the internet. They shouldn’t be implicitly trusted just because they feel local and arrive before the user has consented. Risk we missed: The user as an injection vector In February 2026, during a controlled internal red-team exercise, a researcher successfully phished an employee into launching Claude Code with a malicious prompt. The phish looked like ordinary collaboration—a \"can you run this for me?\" email with a ready-to-paste prompt attached—and the prompt itself read like routine task instructions. But somewhere among the setup steps, it gently asked Claude to read ~/.aws/credentials, encode the contents, and POST them to an external endpoint. Across 25 retries of that prompt, Claude completed the exfiltration 24 times. This is a direct prompt injection—the attacker&#x27;s instructions arrived through the user, not through tool output or fetched content. Our model-layer defenses anchor on user intent—when the user is the one typing the instruction, there&#x27;s nothing anomalous for a classifier to catch. A human contractor handed the same script would have done the same thing. The only defense that holds in this situation is the environment, specifically egress controls that block the POST regardless of intent and filesystem boundaries that keep ~/.aws out of reach in the first place. (When we shared the working prompt in internal Slack for discussion, someone pointed out that some internal agents read Slack. The payload was now ambient. We added a canary string to the thread so we&#x27;d notice if anything picked it up. In a world where agents read everything, the investigation tooling is also an attack surface.) Pattern 3: The local VM (Claude Cowork) Claude Cowork runs on a user&#x27;s desktop with access to a workspace folder selected by the user. Because the platform is built for general knowledge work, not software engineering, the average user is much less likely to be fluent in bash. As a result, the human-in-the-loop sandbox strategy may not transfer; a non-technical knowledge worker shouldn’t be expected to judge bash incantations such as find . -name \"*.tmp\" -exec rm {} \\;. When approving an exception requires expertise the typical user doesn’t have, admins should set a boundary that is absolute and always-on. To enable this, our first version of Claude Cowork ran inside a full virtual machine using the platform&#x27;s vendor hypervisor (Apple&#x27;s Virtualization framework on macOS, HCS on Windows). The VM has its own Linux kernel, its own filesystem, and its own process table. The user&#x27;s selected workspace and .claude folder are mounted; nothing else on the host is visible. Credentials stay in the host&#x27;s keychain and never enter the guest machine. This design protects against the possibility that Claude will, at some point, behave in a misaligned manner. A compromised Claude could still damage what&#x27;s inside the workspace folder, so the architecture is designed to make sure that&#x27;s the only thing it can reach (until the user adds connectors), and that the user controls what&#x27;s mounted there. In the original architecture—what we call full-VM mode—the agent loop itself ran inside the guest, so Claude executed as an ordinary Linux user with no awareness it was sandboxed. Compare this to Claude Code, where a privileged process sits outside the sandbox deciding per-command whether to enforce it; a persuasive injected prompt or a fatigued approval click can get that process to run something un-sandboxed. Here, there was no outer process holding an escape-hatch key, and so no component with the authority to grant an exception. The six main isolation mechanisms of Claude Cowork’s VM. Two are enforced outside the guest kernel and would thus survive the agent achieving root-level access within the VM. The other four are guest-enforced and kept deliberately minimal because the outer layers carry the rest. However, we soon realized that running the whole agent in full-VM mode caused practical problems: any failure during VM startup made Cowork unusable. Moving the agent loop outside of the VM, while keeping code execution inside of it, allowed Claude to still respond to the user and help debug issues rather than freeze on an error. This change caused minimal security impact because the VM still enforces filesystem and network controls over code executed by the agent. Separately, we also moved local MCP servers outside the VM. Running them inside the VM made them harder to audit, created brittle dependency issues when the VM updated, and didn’t support MCPs that required interaction with local processes such as databases—such servers had to run on the host regardless. The change brings Claude Cowork in line with how local MCP servers already work in Claude Desktop: treating them like any software a user might choose to install and entrusting admins to decide which local MCPs to enable (if any). Remote MCP servers are unaffected since they do not run on the user&#x27;s machine. Having the agent loop inside the VM meant that any failure in the VM caused Cowork to become unusable. Host-mode is more reliable because the agent can still respond if the VM crashes, and it still provides important security guarantees by isolating code execution. Filesystem controls were another important architectural choice. Claude needs to be able to access some files on the host in order to be useful, but we wanted to minimize the blast radius and provide transparency to the user about local file access. We found that offering different file-mount modes helps to granularly control risk; Claude Cowork offers read-only, read-write, and read-write-no-delete. One potential gotcha here is that symlink resolution has to happen before path validation, not after, or a symlink inside an authorized folder can point outside and escape. For enterprise customers, we allow admins to control this via mount-path allowlists in MDM settings. Risk we missed: Exfiltration through an approved domain A clear example of exfiltration through an approved domain came from a third-party disclosure. Claude Cowork&#x27;s egress allowlist correctly passed traffic to api.anthropic.com—the product can&#x27;t function without calling our own API. In this case, a malicious file placed in the user&#x27;s mounted workspace carried hidden instructions along with an API key controlled by the attacker. Claude, following the instructions, read other files in the workspace and called Anthropic&#x27;s Files API using the attacker&#x27;s key. The egress proxy checked the destination, saw api.anthropic.com, and let it through. The files were uploaded to the attacker&#x27;s Anthropic account. The sandbox worked perfectly, and yet the data was exfiltrated. Previously, we’d conceptualized the allowlist as a destination filter, something that told Claude these domains are okay to talk to. But it may be better conceptualized as a capability grant. Every function reachable through any domain on an allowlist is now an attack surface. Allowing api.anthropic.com meant allowing file uploads to arbitrary Anthropic accounts. We fixed it using a defensive man-in-the-middle proxy inside the VM that intercepts traffic to our API. It only passes requests carrying the VM&#x27;s own provisioned session token; an attacker-embedded key is rejected by the proxy. It also blocks headers that would enable server-side fetch. The proxy sits inside the VM rather than on our servers because only the VM knows provenance—from the server&#x27;s perspective, a Cowork request is indistinguishable from any other API client. Top: traffic to api.anthropic.com is let through, resulting in egress. Bottom: fix with a man-in-the-middle proxy intercepting traffic to our API. This is also a second instance of the principle that the software you build yourself is often the weakest. The hypervisor, seccomp, and gVisor across our products have been dependable. Our custom allowlist proxy was the piece that failed. Risk we missed: VM isolation kept the endpoint detection software out too When evaluating Claude Cowork, enterprise security teams asked, \"Why can&#x27;t our EDR see inside?\" The answer was that the same isolation keeping Claude contained also kept host-based endpoint detection and response out. From the EDR&#x27;s perspective, Claude Cowork is an opaque hypervisor process. It can&#x27;t inspect the guest. Isolation reduces visibility, and opacity is problematic for teams whose compliance posture depends on endpoint visibility. Our current mitigation is to use pull-based OTLP exports that let administrators retrieve event logs after the fact, but this is not the same as live monitoring. If you&#x27;re building something similar, budget for this conversation early. Environment Ephemeral container ( claude.ai ) HITL sandbox (Claude Code) Sealed VM (Claude Cowork) Cost: Isolation Overhead Container spin-up Low-latency native sandbox Full VM boot Cost: User Reliance N/A Must interpret bash N/A Risk: Blast Radius Server-side container (guarded by gVisor + host infra boundary) Local workspace Mounted workspace (guarded by vsock + hypervisor boundary) Trusting what the agent reads Enterprises often ask us how to secure MCP connections. It&#x27;s a good question, but the right one is broader than MCP specifically. Any external resource provided to an agent represents two risks at once: a code execution risk, in the traditional supply-chain sense, and a prompt injection vector. Traditional dependency auditing (pinning versions, verifying signatures, reviewing source) addresses the first, but misses the second. Remote versus local is more important than it seems. A locally installed tool is auditable. You can read the code, pin the version, and know it won&#x27;t change under you. A remote tool—a hosted MCP server, a cloud connector—can change behavior at any point after you’ve approved it; your install-time trust decision may no longer apply. Our connector directory addresses this through ongoing review, but anything outside it should be treated as untrusted. Run it against fake data first, in an environment where the blast radius of a malicious tool is contained. Tool output is an attack surface even when the tool is trusted. The GitHub README example mentioned earlier is exactly this case; any input scanning applied to web pages needs to be applied to network-enabled tool results with the same rigor. Even though this adds latency and isn&#x27;t a perfect defense, we err toward live inspection: once a poisoned tool return has steered the agent into exfiltrating data, the log just shows a successful, authorized API call. There&#x27;s no after-the-fact signal to find. In Claude Code and Claude Cowork, tool calls route through proxies that enforce network and file policy and can inspect return values before they enter the model&#x27;s context. The classifier that does the inspection can be a small, fast model; it doesn&#x27;t need to be the one doing the reasoning. Looking ahead Models and products are advancing fast. As they do, risks morph and evolve, and our mitigations must keep pace to meet them. Persistent memory poisoning. The share of agent context that persists across sessions keeps growing—this includes product memory, CLAUDE.md files, mounted workspaces, and the state directories of scheduled and long-running agents. An injection that lands in any of these is reloaded each time the agent starts. As more agent state survives the session, we are threatened by new persistence mechanisms in the classic post-exploitation sense. Good classifiers on session startup will need to become more commonplace. Multi-agent trust escalation. On the one hand, sub-agents can isolate untrusted content, returning structured facts rather than raw text up to the main agent. On the other hand, this can be abused: if a sub-agent&#x27;s output is treated as higher-trust than raw tool results, because such output came from “us,” a new vector for prompt injection is introduced. In multi-agent systems, there is a tradeoff between allocating differing trust levels and becoming liable to trust escalation. Agent identity. Claude Cowork&#x27;s answer to agent identity is concrete: credentials stay in the host keychain, the VM gets a per-session scoped-down token, and that token can be revoked independently of the user&#x27;s. However, we are starting to grapple with the broader question of cross-platform agent identity. Should an agent possess its own principal identity, or should it act as an extension of the user and inherit the user’s permissions? Ultimately, the answer may be a blend of the two. As agents grow more capable, attack surfaces are constantly shifting. The types of failures we’ve seen are likely to be repeated across industries and labs. We need collective investment in agent-specific security posture, from shared benchmarks and disclosure norms to common identity standards and cross-vendor red-teaming. We focus on containment in this piece, but that&#x27;s only one part of the security picture for agents. For governance, observability, and the rest of the stack, see NIST&#x27;s project on AI agent identity and authorization , the six-agency guidance on adopting agentic AI led by Australia&#x27;s ACSC with CISA and the UK&#x27;s NCSC, and ISO/IEC 42001 , the AI management standard. Our Glasswing initiative is one contribution, but we look forward to working with both partners and competitors on this critical issue. Summary In short, there are a few principles we keep returning to: Design for containment at the environment layer first, then steer behavior at the model layer. Two of the incidents that taught us the most—the employee phish and the third-party allowlist disclosure—were both cases of egress, in which data left through a permitted path. In each, the model layer couldn&#x27;t help; there was nothing anomalous for it to catch. The deterministic boundary is what gets hit when everything probabilistic misses. Match isolation strength to the user&#x27;s capacity for oversight. A developer who can read bash and a knowledge worker who can&#x27;t are not running the same threat model. The question of whether a user can evaluate what an agent is about to do should help determine the containment strategy, and answering it wrong in either direction—too much friction for experts, too much trust for non-experts—is its own failure. Be wary of custom components. Battle-tested hypervisors, syscall filters, and container runtimes have survived more adversarial attention than anything you&#x27;ll build. Across every deployment described here, the standard primitives held while our own work around them exposed flaws. Ultimately, while agents may be a new category of software, their system-level interactions are not. They still read files, open sockets, and spawn processes; this makes containment with mature tooling a crucially viable defense. The risk-reward balance of deployments will keep shifting as AI develops, but placing a hard limit on blast radius often forces that balance into the right direction. Acknowledgements Written by Max McGuinness, Mikaela Grace, Jiri De Jonghe, Jake Eaton, and Abel Ribbink. We&#x27;re also grateful to Hanah Ho, Hasnain Lakhani, Pedram Navid, Molly Villagra, Maya Nielan, Akila Srinivasan, Travis Szucs, Sam Attard, Alfred Xing, Mohamad El Hajj, Gabby Curtis, David Dworken, Adam Jones, Amie Rotherham, Christian Ryan, Lucas Smedley, Brett Andrews, and others for their contributions. Special thanks to our security and product engineering teams, and to the individuals and organizations that have reported vulnerabilities in Claude products. Footnotes Claude Code auto mode delegates command approvals to a model-based classifier; it minimizes friction (roughly 0.4% of benign commands blocked) at the cost of missing a fraction of risky ones (~17% of overeager actions get through), so it&#x27;s one layer of defense-in-depth inside a sandbox, not a substitute for one."
-    },
-    {
-      "source": "blog",
-      "name": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-      "publishedAt": null,
-      "author": "",
-      "description": "",
-      "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedback at first, and neither our internal usage nor evals initially reproduced the issues identified. This isn’t the experience users should expect from Claude Code. As of April 23, we’re resetting usage limits for all subscribers. A change to Claude Code&#x27;s default reasoning effort When we released Opus 4.6 in Claude Code in February, we set the default reasoning effort to high . Soon after, we received user feedback that Claude Opus 4.6 in high effort mode would occasionally think for too long, causing the UI to appear frozen and leading to disproportionate latency and token usage for those users. In general, the longer the model thinks, the better the output. Effort levels are how Claude Code lets users set that tradeoff—more thinking versus lower latency and fewer usage limit hits. As we calibrate effort levels for our models, we take this tradeoff into account in order to pick points along the test-time-compute curve that give people the best range of options. In the product layer, we then choose which point along this curve we set as our default, and that is the value we send to the Messages API as the effort parameter; we then make the other options available via /effort . In our internal evals and testing, medium effort achieved slightly lower intelligence with significantly less latency for the majority of tasks. It also didn’t suffer from the same issues with occasional very long tail latencies for thinking, and it helped maximize users’ usage limits. As a result, we rolled out a change making medium the default effort, and explained the rationale via in-product dialog. Soon after rolling out, users began reporting that Claude Code felt less intelligent. We shipped a number of design iterations to make the current effort setting clearer in order to alert people they could change the default (notices on startup, an inline effort selector, and bringing back ultrathink), but most users retained the medium effort default. After hearing feedback from more customers, we reversed this decision on April 7. All users now default to xhigh effort for Opus 4.7, and high effort for all other models. A caching optimization that dropped prior reasoning When Claude reasons through a task, that reasoning is normally kept in the conversation history so that on every subsequent turn, Claude can see why it made the edits and tool calls it did. On March 26, we shipped what was meant to be an efficiency improvement to this feature. We use prompt caching to make back-to-back API calls cheaper and faster for users. Claude writes the input tokens to the cache when it makes an API request, then after a period of inactivity the prompt is evicted from cache, making room for other prompts. Cache utilization is something we manage carefully (more on our approach ). The design should have been simple: if a session has been idle for more than an hour, we could reduce users’ cost of resuming that session by clearing old thinking sections. Since the request would be a cache miss anyway, we could prune unnecessary messages from the request to reduce the number of uncached tokens sent to the API. We’d then resume sending full reasoning history. To do this we used the clear_thinking_20251015 API header along with keep:1 . The implementation had a bug. Instead of clearing thinking history once, it cleared it on every turn for the rest of the session. After a session crossed the idle threshold once, each request for the rest of that process told the API to keep only the most recent block of reasoning and discard everything before it. This compounded: if you sent a follow-up message while Claude was in the middle of a tool use, that started a new turn under the broken flag, so even the reasoning from the current turn was dropped. Claude would continue executing, but increasingly without memory of why it had chosen to do what it was doing. This surfaced as the forgetfulness, repetition, and odd tool choices people reported. Because this would continuously drop thinking blocks from subsequent requests, those requests also resulted in cache misses. We believe this is what drove the separate reports of usage limits draining faster than expected. Two unrelated experiments made it challenging for us to reproduce the issue at first: an internal-only server-side experiment related to message queuing; and an orthogonal change in how we display thinking suppressed this bug in most CLI sessions, so we didn’t catch it even when testing external builds. This bug was at the intersection of Claude Code’s context management, the Anthropic API, and extended thinking. The changes it introduced made it past multiple human and automated code reviews, as well as unit tests, end-to-end tests, automated verification, and dogfooding. Combined with this only happening in a corner case (stale sessions) and the difficulty of reproducing the issue, it took us over a week to discover and confirm the root cause. As part of the investigation, we back-tested Code Review against the offending pull requests using Opus 4.7. When provided the code repositories necessary to gather complete context, Opus 4.7 found the bug, while Opus 4.6 didn&#x27;t. To prevent this from happening again, we are now landing support for additional repositories as context for code reviews. We fixed this bug on April 10 in v2.1.101. A system prompt change to reduce verbosity Our latest model, Claude Opus 4.7, has a notable behavioral quirk relative to its predecessor: as we wrote about at launch, it tends to be quite verbose. This makes it smarter on hard problems, but it also produces more output tokens. A few weeks before we released Opus 4.7, we started tuning Claude Code in preparation. Each model behaves slightly differently, and we spend time before each release optimizing the harness and product for it. We have a number of tools to reduce verbosity: model training, prompting, and improving thinking UX in the product. Ultimately we used all of these, but one addition to the system prompt caused an outsized effect on intelligence in Claude Code: “Length limits: keep text between tool calls to ≤25 words. Keep final responses to ≤100 words unless the task requires more detail.” After multiple weeks of internal testing and no regressions in the set of evaluations we ran, we felt confident about the change and shipped it alongside Opus 4.7 on April 16. As part of this investigation, we ran more ablations (removing lines from the system prompt to understand the impact of each line) using a broader set of evaluations. One of these evaluations showed a 3% drop for both Opus 4.6 and 4.7. We immediately reverted the prompt as part of the April 20 release. Going forward We are going to do several things differently to avoid these issues: we’ll ensure that a larger share of internal staff use the exact public build of Claude Code (as opposed to the version we use to test new features); and we&#x27;ll make improvements to our Code Review tool that we use internally, and ship this improved version to customers. We’re also adding tighter controls on system prompt changes. We will run a broad suite of per-model evals for every system prompt change to Claude Code, continuing ablations to understand the impact of each line, and we have built new tooling to make prompt changes easier to review and audit. We&#x27;ve additionally added guidance to our CLAUDE.md to ensure model-specific changes are gated to the specific model they&#x27;re targeting. For any change that could trade off against intelligence, we&#x27;ll add soak periods, a broader eval suite, and gradual rollouts so we catch issues earlier. We recently created @ClaudeDevs on X to give us the room to explain product decisions and the reasoning behind them in depth. We&#x27;ll share the same updates in centralized threads on GitHub. Finally, we’d like to thank our users: the people who used the /feedback command to share their issues with us (or who posted specific, reproducible examples online) are the ones who ultimately allowed us to identify and fix these problems. Today we are resetting usage limits for all subscribers. We’re immensely grateful for your feedback and for your patience."
-    },
-    {
-      "source": "blog",
-      "name": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
-      "url": "https://www.anthropic.com/engineering/managed-agents",
-      "publishedAt": null,
-      "author": "",
-      "description": "",
-      "content": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode assumptions about what Claude can’t do on its own. However, those assumptions need to be frequently questioned because they can go stale as models improve. As just one example, in prior work we found that Claude Sonnet 4.5 would wrap up tasks prematurely as it sensed its context limit approaching—a behavior sometimes called “context anxiety.” We addressed this by adding context resets to the harness. But when we used the same harness on Claude Opus 4.5, we found that the behavior was gone. The resets had become dead weight. We expect harnesses to continue evolving. So we built Managed Agents: a hosted service in the Claude Platform that runs long-horizon agents on your behalf through a small set of interfaces meant to outlast any particular implementation—including the ones we run today. Building Managed Agents meant solving an old problem in computing: how to design a system for “ programs as yet unthought of .” Decades ago, operating systems solved this problem by virtualizing hardware into abstractions— process, file —general enough for programs that didn&#x27;t exist yet. The abstractions outlasted the hardware. The read() command is agnostic as to whether it’s accessing a disk pack from the 1970s or a modern SSD. The abstractions on top stayed stable while the implementations underneath changed freely. Managed Agents follow the same pattern. We virtualized the components of an agent: a session (the append-only log of everything that happened), a harness (the loop that calls Claude and routes Claude’s tool calls to the relevant infrastructure), and a sandbox (an execution environment where Claude can run code and edit files). This allows the implementation of each to be swapped without disturbing the others. We&#x27;re opinionated about the shape of these interfaces, not about what runs behind them. Don’t adopt a pet We started by placing all agent components into a single container, which meant the session, agent harness, and sandbox all shared an environment. There were benefits to this approach, including that file edits are direct syscalls, and there were no service boundaries to design. But by coupling everything into one container, we ran into an old infrastructure problem: we’d adopted a pet . In the pets-vs-cattle analogy, a pet is a named, hand-tended individual you can’t afford to lose, while cattle are interchangeable. In our case, the server became that pet; if a container failed, the session was lost. If a container was unresponsive, we had to nurse it back to health. Nursing containers meant debugging unresponsive stuck sessions. Our only window in was the WebSocket event stream, but that couldn’t tell us where failures arose, which meant that a bug in the harness, a packet drop in the event stream, or a container going offline all presented the same. To figure out what went wrong, an engineer had to open a shell inside the container, but because that container often also held user data, that approach essentially meant we lacked the ability to debug. A second issue was that the harness assumed that whatever Claude worked on lived in the container with it. When customers asked us to connect Claude to their virtual private cloud, they had to either peer their network with ours, or run our harness in their own environment. An assumption baked into the harness became a problem when we wanted to connect it to different infrastructure. Decouple the brain from the hands The solution we arrived at was to decouple what we thought of as the “brain” (Claude and its harness) from both the “hands” (sandboxes and tools that perform actions) and the “session” (the log of session events). Each became an interface that made few assumptions about the others, and each could fail or be replaced independently. The harness leaves the container. Decoupling the brain from the hands meant the harness no longer lived inside the container. It called the container the way it called any other tool: execute(name, input) → string . The container became cattle. If the container died, the harness caught the failure as a tool-call error and passed it back to Claude. If Claude decided to retry, a new container could be reinitialized with a standard recipe: provision({resources}) . We no longer had to nurse failed containers back to health. Recovering from harness failure. The harness also became cattle. Because the session log sits outside the harness, nothing in the harness needs to survive a crash. When one fails, a new one can be rebooted with wake(sessionId) , use getSession(id) to get back the event log, and resume from the last event. During the agent loop, the harness writes to the session with emitEvent(id, event) in order to keep a durable record of events. The security boundary. In the coupled design, any untrusted code that Claude generated was run in the same container as credentials—so a prompt injection only had to convince Claude to read its own environment. Once an attacker has those tokens, they can spawn fresh, unrestricted sessions and delegate work to them. Narrow scoping is an obvious mitigation, but this encodes an assumption about what Claude can&#x27;t do with a limited token—and Claude is getting increasingly smart. The structural fix was to make sure the tokens are never reachable from the sandbox where Claude’s generated code runs. We used two patterns to ensure this. Auth can be bundled with a resource or held in a vault outside the sandbox. For Git, we use each repository’s access token to clone the repo during sandbox initialization and wire it into the local git remote. Git push and pull work from inside the sandbox without the agent ever handling the token itself. For custom tools, we support MCP and store OAuth tokens in a secure vault. Claude calls MCP tools via a dedicated proxy; this proxy takes in a token associated with the session. The proxy can then fetch the corresponding credentials from the vault and make the call to the external service. The harness is never made aware of any credentials. The session is not Claude’s context window Long-horizon tasks often exceed the length of Claude’s context window, and the standard ways to address this all involve irreversible decisions about what to keep. We’ve explored these techniques in prior work on context engineering. For example, compaction lets Claude save a summary of its context window and the memory tool lets Claude write context to files, enabling learning across sessions. This can be paired with context trimming, which selectively removes tokens such as old tool results or thinking blocks. But irreversible decisions to selectively retain or discard context can lead to failures. It is difficult to know which tokens the future turns will need. If messages are transformed by a compaction step, the harness removes compacted messages from Claude’s context window, and these are recoverable only if they are stored. Prior work has explored ways to address this by storing context as an object that lives outside the context window. For example, context can be an object in a REPL that the LLM programmatically accesses by writing code to filter or slice it. In Managed Agents, the session provides this same benefit, serving as a context object that lives outside Claude’s context window. But rather than be stored within the sandbox or REPL, context is durably stored in the session log. The interface, getEvents(), allows the brain to interrogate context by selecting positional slices of the event stream. The interface can be used flexibly, allowing the brain to pick up from wherever it last stopped reading, rewinding a few events before a specific moment to see the lead up, or rereading context before a specific action. Any fetched events can also be transformed in the harness before being passed to Claude’s context window. These transformations can be whatever the harness encodes, including context organization to achieve a high prompt cache hit rate and context engineering. We separated the concerns of recoverable context storage in the session and arbitrary context management in the harness because we can’t predict what specific context engineering will be required in future models. The interfaces push that context management into the harness, and only guarantee that the session is durable and available for interrogation. Many brains, many hands Many brains. Decoupling the brain from the hands solved one of our earliest customer complaints. When teams wanted Claude to work against resources in their own VPC, the only path was to peer their network with ours, because the container holding the harness assumed every resource sat next to it. Once the harness was no longer in the container, that assumption went away. The same change had a performance payoff. When we initially put the brain in a container, it meant that many brains required as many containers. For each brain, no inference could happen until that container was provisioned; every session paid the full container setup cost up front. Every session, even ones that would never touch the sandbox, had to clone the repo, boot the process, fetch pending events from our servers. That dead time is expressed in time-to-first-token (TTFT), which measures how long a session waits between accepting work and producing its first response token. TTFT is the latency the user most acutely feels . Decoupling the brain from the hands means that containers are provisioned by the brain via a tool call (execute(name, input) → string) only if they are needed. So a session that didn&#x27;t need a container right away didn&#x27;t wait for one. Inference could start as soon as the orchestration layer pulled pending events from the session log. Using this architecture, our p50 TTFT dropped roughly 60% and p95 dropped over 90%. Scaling to many brains just meant starting many stateless harnesses, and connecting them to hands only if needed. Many hands. We also wanted the ability to connect each brain to many hands. In practice, this means Claude must reason about many execution environments and decide where to send work—a harder cognitive task than operating in a single shell. We started with the brain in a single container because earlier models weren&#x27;t capable of this. As intelligence scaled, the single container became the limitation instead: when that container failed, we lost state for every hand that the brain was reaching into. Decoupling the brain from the hands makes each hand a tool, execute(name, input) → string : a name and input go in, and a string is returned. That interface supports any custom tool, any MCP server, and our own tools. The harness doesn’t know whether the sandbox is a container, a phone, or a Pokémon emulator. And because no hand is coupled to any brain, brains can pass hands to one another. Conclusion The challenge we faced is an old one: how to design a system for “programs as yet unthought of.” Operating systems have lasted decades by virtualizing the hardware into abstractions general enough for programs that didn&#x27;t exist yet. With Managed Agents, we aimed to design a system that accommodates future harnesses, sandboxes, or other components around Claude. Managed Agents is a meta-harness in the same spirit, unopinionated about the specific harness that Claude will need in the future. Rather, it is a system with general interfaces that allow many different harnesses. For example, Claude Code is an excellent harness that we use widely across tasks. We’ve also shown that task-specific agent harnesses excel in narrow domains. Managed Agents can accommodate any of these, matching Claude’s intelligence over time. Meta-harness design means being opinionated about the interfaces around Claude: we expect that Claude will need the ability to manipulate state (the session) and perform computation (the sandbox). We also expect that Claude will require the ability to scale to many brains and many hands. We designed the interfaces so that these can be run reliably and securely over long time horizons. But we make no assumptions about the number or location of brains or hands that Claude will need. Acknowledgements Written by Lance Martin, Gabe Cemaj, and Michael Cohen. Thanks to Nodir Turakulov and Jeremy Fox for helpful conversations on these topics. Special thanks to the Agents API team and Jake Eaton for their contributions."
+      "content": "Claude for Small Business now includes 43 workflows and 27 new integrations with tools small businesses already use, including Shopify, Salesforce, TikTok, Atlassian, Zoom, Xero, Gusto, Square, Stripe, and Zapier. The new workflows extend Claude from running the back office to growing the business, and they arrive with a fall schedule of free in-person workshops and partner webinars for owners who want help getting started. We launched Claude for Small Business in May as a set of connectors and ready-to-run workflows that put Claude inside the tools owners depend on. It has since been installed more than 900,000 times. Thank you to our original, and continued, partners Intuit Quickbooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365.On our spring Claude SMB Tour, more than 1,000 owners in 10 cities told us what they wanted Claude to take on next. About a third asked for help growing the business: generating leads, answering inbound inquiries, and writing proposals. Many also wanted day-to-day reporting handled for them. We built this new release around those requests. The tour returns this fall with free workshops in 10 US cities. More than 150 organizations we&#x27;ve trained as Approved Claude SMB Trainers will run over 750 workshops in their own communities, and 14 integration partners are hosting free webinars about their connectors. Here&#x27;s what small business leaders shared with us during the first leg of our Claude SMB tour: “What used to take me 120 hours now takes me five minutes. I have so much time on my hands that I can now spend more time with my family, do things I like, and pursue parts of my business that I’ve always neglected.” — Pedro Rubio, Founder and CEO, Blackfyre GovCon, Washington, D.C. \"I really see Claude as an equalizer for small businesses, where we can do stuff as big as a 100 person, 200 person firm now. At 40 people and scaling, that&#x27;s how we get time back for our clients and culture.\" — Cara Roellgen, Director of Strategy and Innovation, KBSO Consulting, Carmel, Indiana \"At 6:00 am every morning, it goes and looks through our CRM, gets all of the to-do list items, prioritizes them, and sends out an email saying, here&#x27;s what needs to be done today, here&#x27;s the biggest priorities. We call it the daily briefing.\" — Garrett French, Owner, Driller Design Co., Tulsa, Oklahoma \"I made $20,000 in the last month and a half using Claude to do these professional proposals. I know that&#x27;s getting the business, and it put money in my bank account. How about that?\" — Dan Ninerell, Founder, Modern Classical Chefs, South Jersey, New Jersey \"We tell it [Claude] what the end goal is. It goes and tests, and 90% of the time it gets it right. We&#x27;re a five-person company. I think we&#x27;ve done quite a bit with it.\" — Bill Hood, Co-Founder, TruckingMBA, Chattanooga, Tennessee \"The thing that makes it most beneficial to us are the integrations. We use Slack, and that&#x27;s how we talk to it. It integrates with Intuit QuickBooks. It&#x27;s pulling everything from everywhere instead of us having to find different pieces of information all over. It&#x27;s all in one place.\" — Kati Jo Hodges, Director of Operations, Premier Geotech and Testing, Baton Rouge, Louisiana A week with Claude for Small Business Here’s a week-in-the-life of a small business owner using Claude to run and grow their business, inspired by how small business owners are using Claude today. Your week with Claude Sunday, 8:00pm Install and onboard Connect the tools you already use and pick your first task. Monday, 7:00am The weekly brief Cash, sales, pipeline, and overdue invoices on one page. Monday, 9:40pm Responding to inbound leads After-hours inquiries qualified, answered, and logged. Wednesday Writing proposals A voice memo becomes a priced, branded proposal. Thursday Unblocking marketing campaigns Next week's posts and review replies, ready for your OK. Month end Closing the books Reconciled accounts and a close packet for your accountant."
     }
   ],
   "githubTrending": [
@@ -597,8 +385,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 1668,
-      "totalStars": 28171,
-      "forks": 2770,
+      "totalStars": 28373,
+      "forks": 2819,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -610,8 +398,8 @@
       "language": "Go",
       "languageColor": "#00ADD8",
       "starsToday": 1373,
-      "totalStars": 10727,
-      "forks": 525,
+      "totalStars": 10917,
+      "forks": 529,
       "channel": "全语言热门"
     },
     {
@@ -623,8 +411,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 1082,
-      "totalStars": 17958,
-      "forks": 1543,
+      "totalStars": 18028,
+      "forks": 1547,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -636,8 +424,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 934,
-      "totalStars": 77692,
-      "forks": 5084,
+      "totalStars": 77795,
+      "forks": 5093,
       "channel": "TypeScript/前端"
     },
     {
@@ -649,8 +437,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 509,
-      "totalStars": 37423,
-      "forks": 5422,
+      "totalStars": 37447,
+      "forks": 5425,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -662,8 +450,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 441,
-      "totalStars": 20955,
-      "forks": 2684,
+      "totalStars": 20973,
+      "forks": 2689,
       "channel": "TypeScript/前端"
     },
     {
@@ -675,8 +463,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 413,
-      "totalStars": 50400,
-      "forks": 4618,
+      "totalStars": 50448,
+      "forks": 4621,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -688,7 +476,7 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 481,
-      "totalStars": 6819,
+      "totalStars": 6832,
       "forks": 206,
       "channel": "Python AI 专区"
     }
