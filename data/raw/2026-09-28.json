@@ -1,0 +1,1032 @@
+{
+  "date": "2026-09-28",
+  "isMondayLookback": true,
+  "fetchedAt": "2026-09-28T06:47:07.274Z",
+  "stats": {
+    "buildersCount": 18,
+    "totalTweets": 66,
+    "podcastEpisodes": 2,
+    "blogPosts": 2,
+    "githubProjects": 8
+  },
+  "x": [
+    {
+      "source": "x",
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "tweets": [
+        {
+          "id": "2103911959544610829",
+          "text": "Resets all propagated. That will be all. Have a fantastic weekend.",
+          "createdAt": "2026-09-26T18:17:54.000Z",
+          "url": "https://x.com/thsottiaux/status/2103911959544610829",
+          "likes": 13920,
+          "retweets": 440,
+          "replies": 1872,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103637477760311522",
+          "text": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work\n\nsorry about the brief disruption!\n\n(and yes we have a special spare codex when things are down to help us out) https://t.co/Qy0da4L1jq",
+          "createdAt": "2026-09-26T00:07:13.000Z",
+          "url": "https://x.com/thsottiaux/status/2103637477760311522",
+          "likes": 12780,
+          "retweets": 671,
+          "replies": 2196,
+          "isQuote": true,
+          "quotedTweetId": "2103622639386574979"
+        },
+        {
+          "id": "2103622639386574979",
+          "text": "o no :(",
+          "createdAt": "2026-09-25T23:08:15.000Z",
+          "url": "https://x.com/thsottiaux/status/2103622639386574979",
+          "likes": 2687,
+          "retweets": 44,
+          "replies": 481,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103620061156290622",
+          "text": "We are aware that codex is down and are working hard to bring back normal service.",
+          "createdAt": "2026-09-25T22:58:00.000Z",
+          "url": "https://x.com/thsottiaux/status/2103620061156290622",
+          "likes": 10596,
+          "retweets": 574,
+          "replies": 2255,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "tweets": [
+        {
+          "id": "2104066667361992892",
+          "text": "Not sure what happened to Claude limits they went from barely usable to basically unlimited 😂",
+          "createdAt": "2026-09-27T04:32:39.000Z",
+          "url": "https://x.com/petergyang/status/2104066667361992892",
+          "likes": 422,
+          "retweets": 10,
+          "replies": 80,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2104059554204188833",
+          "text": "Building an app with Gemini audio API to teach me conversational Japanese. \n\n10 lessons and 10 phrases per lesson. https://t.co/KjO8XNS1EV",
+          "createdAt": "2026-09-27T04:04:23.000Z",
+          "url": "https://x.com/petergyang/status/2104059554204188833",
+          "likes": 30,
+          "retweets": 1,
+          "replies": 4,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2104003094615052443",
+          "text": "I am using @antigravity for the first time (to try Google's new audio APIs) and who do I give feedback to...",
+          "createdAt": "2026-09-27T00:20:02.000Z",
+          "url": "https://x.com/petergyang/status/2104003094615052443",
+          "likes": 139,
+          "retweets": 3,
+          "replies": 46,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103696644558704796",
+          "text": "I think Muse has an incredible UI and mascot but the underlying model it’s questionable how smart it is.\n\nMakes sense if it’s not that smart since this is meant to scale to a billion people",
+          "createdAt": "2026-09-26T04:02:19.000Z",
+          "url": "https://x.com/petergyang/status/2103696644558704796",
+          "likes": 12,
+          "retweets": 1,
+          "replies": 1,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103693608729932025",
+          "text": "Ok all memes aside I had Grok @bot and Muse track the same Japan flight itinerary and Muse suggested a price that was $1K+ more than Grok Bot. \n\nWhen I asked Muse why it said it searched Duffel instead of Google Flights...wtf is Duffel? https://t.co/l2vTOsPIRd",
+          "createdAt": "2026-09-26T03:50:15.000Z",
+          "url": "https://x.com/petergyang/status/2103693608729932025",
+          "likes": 83,
+          "retweets": 1,
+          "replies": 21,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103690110726558123",
+          "text": "Where's Jack Bauer and 24 https://t.co/FNcSb6sBAt",
+          "createdAt": "2026-09-26T03:36:21.000Z",
+          "url": "https://x.com/petergyang/status/2103690110726558123",
+          "likes": 28,
+          "retweets": 1,
+          "replies": 5,
+          "isQuote": true,
+          "quotedTweetId": "2103489320606675028"
+        },
+        {
+          "id": "2103318850641260959",
+          "text": "Astra blew up 3D models\nThen Opus blew up videos\nI don’t even know what’s next anymore https://t.co/CGJDOoGvYQ",
+          "createdAt": "2026-09-25T03:01:06.000Z",
+          "url": "https://x.com/petergyang/status/2103318850641260959",
+          "likes": 12,
+          "retweets": 0,
+          "replies": 2,
+          "isQuote": true,
+          "quotedTweetId": "2102801274173587569"
+        },
+        {
+          "id": "2103311956639973774",
+          "text": "😂 this is love https://t.co/xUgorFN8IG",
+          "createdAt": "2026-09-25T02:33:42.000Z",
+          "url": "https://x.com/petergyang/status/2103311956639973774",
+          "likes": 39,
+          "retweets": 0,
+          "replies": 2,
+          "isQuote": true,
+          "quotedTweetId": "2103034450908979441"
+        },
+        {
+          "id": "2103310612864569388",
+          "text": "This is called stroking the AI's ego and it works https://t.co/CpSvOv3kmF",
+          "createdAt": "2026-09-25T02:28:22.000Z",
+          "url": "https://x.com/petergyang/status/2103310612864569388",
+          "likes": 17,
+          "retweets": 0,
+          "replies": 9,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Thariq",
+      "handle": "trq212",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "tweets": [
+        {
+          "id": "2103897226154328502",
+          "text": "Just about 1 year ago I posted one of the first posts about using Claude Code to make videos.\n\nEach of these actually took a long time to iterate with Claude and get right, pointing out details that were wrong, etc.\n\nCrazy how far things have come. https://t.co/nooto6qxEj",
+          "createdAt": "2026-09-26T17:19:21.000Z",
+          "url": "https://x.com/trq212/status/2103897226154328502",
+          "likes": 1101,
+          "retweets": 32,
+          "replies": 99,
+          "isQuote": true,
+          "quotedTweetId": "1947706205172068624"
+        },
+        {
+          "id": "2103577116445175948",
+          "text": "If you want to see interactive explainers of benchmarks and demos I built, you can read it on our new dev site here: https://t.co/oSTZrBggXM",
+          "createdAt": "2026-09-25T20:07:21.000Z",
+          "url": "https://x.com/trq212/status/2103577116445175948",
+          "likes": 140,
+          "retweets": 6,
+          "replies": 10,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103577115010687067",
+          "text": "I use effort low a lot more when I want to stay in the loop, and effort max is basically only if I want zero input or want to find security vulnerabilities. https://t.co/KdDBikNwCL",
+          "createdAt": "2026-09-25T20:07:21.000Z",
+          "url": "https://x.com/trq212/status/2103577115010687067",
+          "likes": 321,
+          "retweets": 23,
+          "replies": 14,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103576349499855160",
+          "text": "What is effort really? When do you change it it and why not just use max effort for everything?\n\nI dove deep into this problem, looking into evals and doing my own tests and I was quite surprised by the results. https://t.co/KO2D51j34H",
+          "createdAt": "2026-09-25T20:04:18.000Z",
+          "url": "https://x.com/trq212/status/2103576349499855160",
+          "likes": 3517,
+          "retweets": 260,
+          "replies": 201,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103259550325575806",
+          "text": "incredibly thoughtful piece on AI and creativity\n\nhopefully we can make our producst better at enabling and amplifying creatives https://t.co/SeI25wbaI7",
+          "createdAt": "2026-09-24T23:05:28.000Z",
+          "url": "https://x.com/trq212/status/2103259550325575806",
+          "likes": 518,
+          "retweets": 12,
+          "replies": 24,
+          "isQuote": true,
+          "quotedTweetId": "2102774995315245469"
+        },
+        {
+          "id": "2103212052391354794",
+          "text": "this should let you customize the plan mode prompt, create + share your own modes or just ignore it and rebind shift+tab to something else all together",
+          "createdAt": "2026-09-24T19:56:43.000Z",
+          "url": "https://x.com/trq212/status/2103212052391354794",
+          "likes": 137,
+          "retweets": 0,
+          "replies": 13,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103212051065921632",
+          "text": "lots feedback here, many of you are planning yourself &amp; don't need plan mode\n\nothers prefer the UX of entering a mode where Claude is just thinking &amp; brainstorming with you\n\nmy plan is to:\n- make plan mode into a built-in mod\n- allow mods to add new modes or override shift+tab https://t.co/SL1IzLvb17",
+          "createdAt": "2026-09-24T19:56:43.000Z",
+          "url": "https://x.com/trq212/status/2103212051065921632",
+          "likes": 1654,
+          "retweets": 29,
+          "replies": 193,
+          "isQuote": true,
+          "quotedTweetId": "2102813194196758746"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "bio": "@vercel CEO",
+      "tweets": [
+        {
+          "id": "2103951116648280266",
+          "text": "Hello world, Lisa Rauch 👧.\nWhat an amazing and beautiful world to be born in. https://t.co/dQZ05ofUM0",
+          "createdAt": "2026-09-26T20:53:30.000Z",
+          "url": "https://x.com/rauchg/status/2103951116648280266",
+          "likes": 7770,
+          "retweets": 30,
+          "replies": 730,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103939888513274147",
+          "text": "Reject non-understanding.\n\nSlop grenades are not just code and PRs. We run a real risk that *reading* gets entirely discounted, because of the exhaustion of getting low-quality and unverified AI prose being thrown at you all the time.\n\nThere's a thread going viral about a 'perf improvement' attributed to a compiler change. The PR *description* itself has the AI telling this person it's *not* due to the compiler change, it's how the algorithms and data structures have changed. And the implication is that a similar win could have been attained otherwise.\n\nI want AI in the service of understanding the universe and enhancing human cognition and creativity.",
+          "createdAt": "2026-09-26T20:08:53.000Z",
+          "url": "https://x.com/rauchg/status/2103939888513274147",
+          "likes": 1715,
+          "retweets": 124,
+          "replies": 122,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103580284021354795",
+          "text": "Cool https://t.co/cPDSk0E6oZ 😂",
+          "createdAt": "2026-09-25T20:19:56.000Z",
+          "url": "https://x.com/rauchg/status/2103580284021354795",
+          "likes": 178,
+          "retweets": 6,
+          "replies": 11,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103564484602384855",
+          "text": "We're helping world-class organizations like @klaviyo build agentic deployment platforms.\n\n① Connect every agent (claude, codex, cursor…)\n② Configure SSO via their IDP (Okta, Entra)\n③ Now everyone can cook, securely®\n\nWhat happens to SaaS once every company sets this up? I get this question a lot 😁\n\nFirst, the data must come from somewhere. These apps only work if they can be infused with business data.\n\nThis is why we see the big enterprise SaaS players suddenly prioritize shipping CLIs and MCPs. Or dust off APIs they were neglecting for years.\n\nThe new 'procurement bar' will be how ergonomic your product is for *agents*, rather than humans. How easily they can navigate your ontology and work with your data.\n\nOnce that's in place, there's a long tail of SaaS applications that I suspect will never be bought again. They'll be generated. They'll be more secure, more performant, more modern, and tailored to each company's and employee's needs.",
+          "createdAt": "2026-09-25T19:17:10.000Z",
+          "url": "https://x.com/rauchg/status/2103564484602384855",
+          "likes": 183,
+          "retweets": 14,
+          "replies": 47,
+          "isQuote": true,
+          "quotedTweetId": "2103560561577636126"
+        },
+        {
+          "id": "2103543983557517340",
+          "text": "The growth of https://t.co/5JpYvhlpkR has been mind-boggling. I watched it grow from idea, to first ship, to 𝚗𝚙𝚡 𝚜𝚔𝚒𝚕𝚕𝚜 being on every README of the internet.\n\nWe used to write code, now we write English. https://t.co/jrmPFjQKms",
+          "createdAt": "2026-09-25T17:55:42.000Z",
+          "url": "https://x.com/rauchg/status/2103543983557517340",
+          "likes": 331,
+          "retweets": 7,
+          "replies": 43,
+          "isQuote": true,
+          "quotedTweetId": "2103541839399907424"
+        },
+        {
+          "id": "2103216656747262419",
+          "text": "Spend of OpenAI vs Anthropic vs Open \n(Vercel AI Gateway, last 2 months)\n\n• Anthropic still #1 in spend, but went 69% → 40%\n• OpenAI: 10% → 24% in spend\n• GPT-6 Astra + GPT 5.6 Sol are ripping\n• OpenAI now leads in tokens #\n• Kimi K3 + DeepSeek took ~half of Anthropic's loss\n• Opus 5.5 is up to 10% of spend in 2 days\n• OpenAI is 62% of image generations \n\nWatch here: https://t.co/Gu7D9d7M8w",
+          "createdAt": "2026-09-24T20:15:01.000Z",
+          "url": "https://x.com/rauchg/status/2103216656747262419",
+          "likes": 635,
+          "retweets": 34,
+          "replies": 114,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "tweets": [
+        {
+          "id": "2104068570938499350",
+          "text": "Most people get mad on social media but don’t know what to do to actually effect change\n\nWe think you should come to a Garry’s List event and meet other people and organize to make it happen \n\nMad about our kids educations? Come to a house party and organize for merit. https://t.co/jyzrVxv0SI",
+          "createdAt": "2026-09-27T04:40:13.000Z",
+          "url": "https://x.com/garrytan/status/2104068570938499350",
+          "likes": 32,
+          "retweets": 2,
+          "replies": 9,
+          "isQuote": true,
+          "quotedTweetId": "2104019760010969194"
+        },
+        {
+          "id": "2103989902476259702",
+          "text": "This is my favorite way to fix bugs now\n@capydotai with GStack /autoplan on a production issue \n\nGPT-6 medium reasoning https://t.co/mE6Oj60CCP",
+          "createdAt": "2026-09-26T23:27:37.000Z",
+          "url": "https://x.com/garrytan/status/2103989902476259702",
+          "likes": 152,
+          "retweets": 9,
+          "replies": 38,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103932595956506885",
+          "text": "Be chalant\n\nDon’t LARP https://t.co/IoqHpwiuEV",
+          "createdAt": "2026-09-26T19:39:54.000Z",
+          "url": "https://x.com/garrytan/status/2103932595956506885",
+          "likes": 499,
+          "retweets": 23,
+          "replies": 48,
+          "isQuote": true,
+          "quotedTweetId": "2103588051243159592"
+        },
+        {
+          "id": "2103649988282905001",
+          "text": "Astra is very impressive https://t.co/7BMRh6zl1Y",
+          "createdAt": "2026-09-26T00:56:55.000Z",
+          "url": "https://x.com/garrytan/status/2103649988282905001",
+          "likes": 204,
+          "retweets": 6,
+          "replies": 21,
+          "isQuote": true,
+          "quotedTweetId": "2103648679169257737"
+        },
+        {
+          "id": "2103470568104468517",
+          "text": "Legalize personalized education https://t.co/LHb0NwzZnZ",
+          "createdAt": "2026-09-25T13:03:58.000Z",
+          "url": "https://x.com/garrytan/status/2103470568104468517",
+          "likes": 3345,
+          "retweets": 480,
+          "replies": 305,
+          "isQuote": true,
+          "quotedTweetId": "2102415623288660002"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "tweets": [
+        {
+          "id": "2104030951370322145",
+          "text": "Hope you got out today ✌️ https://t.co/fbB6qHsWdR",
+          "createdAt": "2026-09-27T02:10:44.000Z",
+          "url": "https://x.com/nikunj/status/2104030951370322145",
+          "likes": 25,
+          "retweets": 0,
+          "replies": 3,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103360292973633770",
+          "text": "“we believe that every small business owner, specifically for us in the trades, will have bespoke software, \n\nand that last mile is actually where differentiation can become, where you can provide a unique experience to your customers, to your employees” https://t.co/WhBtmHmGqZ https://t.co/IIQ90vD7mZ",
+          "createdAt": "2026-09-25T05:45:47.000Z",
+          "url": "https://x.com/nikunj/status/2103360292973633770",
+          "likes": 4,
+          "retweets": 0,
+          "replies": 0,
+          "isQuote": true,
+          "quotedTweetId": "2102395699895677325"
+        },
+        {
+          "id": "2103276414187548791",
+          "text": "This is the way.. https://t.co/hwQIqAUlBC https://t.co/36ToP9fUlB",
+          "createdAt": "2026-09-25T00:12:28.000Z",
+          "url": "https://x.com/nikunj/status/2103276414187548791",
+          "likes": 31,
+          "retweets": 4,
+          "replies": 1,
+          "isQuote": true,
+          "quotedTweetId": "2102899862127943985"
+        },
+        {
+          "id": "2103218709234172252",
+          "text": "We are in that stage of the \"revenue\" lifecycle.. https://t.co/2uEqADj9un",
+          "createdAt": "2026-09-24T20:23:10.000Z",
+          "url": "https://x.com/nikunj/status/2103218709234172252",
+          "likes": 9,
+          "retweets": 0,
+          "replies": 3,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+      "tweets": [
+        {
+          "id": "2103883264054505493",
+          "text": "Now I see why some people talk about AGI. This is so clever! https://t.co/it621aH3EM",
+          "createdAt": "2026-09-26T16:23:53.000Z",
+          "url": "https://x.com/steipete/status/2103883264054505493",
+          "likes": 1609,
+          "retweets": 98,
+          "replies": 70,
+          "isQuote": true,
+          "quotedTweetId": "2103584703215497217"
+        },
+        {
+          "id": "2103654562523705675",
+          "text": "keep thinking https://t.co/m9hPGboarc",
+          "createdAt": "2026-09-26T01:15:06.000Z",
+          "url": "https://x.com/steipete/status/2103654562523705675",
+          "likes": 104,
+          "retweets": 5,
+          "replies": 10,
+          "isQuote": true,
+          "quotedTweetId": "2103581166658060631"
+        },
+        {
+          "id": "2103648679169257737",
+          "text": "The biggest design mistake I made when we moved OC to sqlite: using sync db access. When it was just an agent that reports to you on Slack or iMessage this was fine; now that one agent might do 50 sessions in parallel and the whole team works on it, it is limiting.\n\nI have a /goal with Astra that so far landed 575 PRs to move everything to to async workers. We ship these improvements as we make progress. Pretty insane how even huge refactors are no longer scary.",
+          "createdAt": "2026-09-26T00:51:43.000Z",
+          "url": "https://x.com/steipete/status/2103648679169257737",
+          "likes": 1043,
+          "retweets": 46,
+          "replies": 82,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103615459426001163",
+          "text": "day of the dead https://t.co/ivXMULng59",
+          "createdAt": "2026-09-25T22:39:43.000Z",
+          "url": "https://x.com/steipete/status/2103615459426001163",
+          "likes": 98,
+          "retweets": 5,
+          "replies": 4,
+          "isQuote": true,
+          "quotedTweetId": "2103615298725409110"
+        },
+        {
+          "id": "2103200311641076100",
+          "text": "I put Daybreak on it and found 8 more long-standing leaks. Care for your oss dependencies! https://t.co/pTwsuhEvxs",
+          "createdAt": "2026-09-24T19:10:04.000Z",
+          "url": "https://x.com/steipete/status/2103200311641076100",
+          "likes": 19,
+          "retweets": 0,
+          "replies": 7,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103150483062014436",
+          "text": "Afghanistan is more excited about AI than we are? https://t.co/rbkSf8pUkM",
+          "createdAt": "2026-09-24T15:52:04.000Z",
+          "url": "https://x.com/steipete/status/2103150483062014436",
+          "likes": 317,
+          "retweets": 14,
+          "replies": 58,
+          "isQuote": true,
+          "quotedTweetId": "2102746052256322006"
+        },
+        {
+          "id": "2103148444701610233",
+          "text": "If you just tell the agent to clean up, it will stop far too early. Give it an ambitious goal. Try \"remove 20% of the least useful tests while maintaining code coverage within 2%\"",
+          "createdAt": "2026-09-24T15:43:58.000Z",
+          "url": "https://x.com/steipete/status/2103148444701610233",
+          "likes": 316,
+          "retweets": 10,
+          "replies": 12,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "tweets": [
+        {
+          "id": "2103894152316645620",
+          "text": "Plato's Protagoras, as a short film by Opus 5.5\n\nscene 2: https://t.co/4NAbBgui65 https://t.co/MUkpMRbskK",
+          "createdAt": "2026-09-26T17:07:09.000Z",
+          "url": "https://x.com/danshipper/status/2103894152316645620",
+          "likes": 19,
+          "retweets": 0,
+          "replies": 5,
+          "isQuote": true,
+          "quotedTweetId": "2103850415930708437"
+        },
+        {
+          "id": "2103850415930708437",
+          "text": "i wrote a novelization of Plato’s Protagoras\n\nthen i had Opus 5.5 turn it into a movie (scene 1); https://t.co/9Kib5BfpGt",
+          "createdAt": "2026-09-26T14:13:21.000Z",
+          "url": "https://x.com/danshipper/status/2103850415930708437",
+          "likes": 60,
+          "retweets": 2,
+          "replies": 16,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103678798827020298",
+          "text": "i asked opus 5.5 to explain why personal benchmarks are so important (this is one shot) https://t.co/GE9OFZ0CvQ",
+          "createdAt": "2026-09-26T02:51:24.000Z",
+          "url": "https://x.com/danshipper/status/2103678798827020298",
+          "likes": 48,
+          "retweets": 2,
+          "replies": 7,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103283846645166283",
+          "text": "so freaking cool https://t.co/gmU7Izxyuy",
+          "createdAt": "2026-09-25T00:42:00.000Z",
+          "url": "https://x.com/danshipper/status/2103283846645166283",
+          "likes": 44,
+          "retweets": 1,
+          "replies": 3,
+          "isQuote": true,
+          "quotedTweetId": "2103281698305937693"
+        },
+        {
+          "id": "2103168077102043373",
+          "text": "LIVE: Write-along https://t.co/Y2BfQMlLC4",
+          "createdAt": "2026-09-24T17:01:59.000Z",
+          "url": "https://x.com/danshipper/status/2103168077102043373",
+          "likes": 10,
+          "retweets": 0,
+          "replies": 2,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Boris Cherny",
+      "handle": "bcherny",
+      "bio": "Claude Code @anthropicai",
+      "tweets": [
+        {
+          "id": "2103691327699550598",
+          "text": "Can’t wait to see what you build. https://t.co/IzsiejH1fa",
+          "createdAt": "2026-09-26T03:41:11.000Z",
+          "url": "https://x.com/bcherny/status/2103691327699550598",
+          "likes": 481,
+          "retweets": 12,
+          "replies": 43,
+          "isQuote": true,
+          "quotedTweetId": "2103577007938228300"
+        },
+        {
+          "id": "2103538666597691552",
+          "text": "Tag writes >50% of my PRs every day. It also does ~100% of my data analysis, and fixes most of our product feedback + bugs.\n\nIt's not like a regular Slack bot. It is proactive, programmable, it has memory, it has access to your connectors. With Opus 5.5 and Fable 5.1, it has strong judgement.\n\nExample prompts I use:\n\n- \"@Claude react to threads in this channel with ✅ when resolved\"\n- \"@Claude from now on, attempt to repro every bug in this channel end to end, running the full app. once you reproduce the bug, put up a pr to fix it and tag the right team for code review\"\n- \"@Claude brainstorm ~100 hypotheses for what could explain this weird data, use a workflow to in/validate. spend 10m tokens or so digging very deep. draw a chart with the result.\"\n- \"@Claude make me an interactive game explaining how this part of the code works, then make a slide deck explaining it for others on the team\"\n\nhttps://t.co/gmsALM8Lvs",
+          "createdAt": "2026-09-25T17:34:34.000Z",
+          "url": "https://x.com/bcherny/status/2103538666597691552",
+          "likes": 1096,
+          "retweets": 52,
+          "replies": 159,
+          "isQuote": true,
+          "quotedTweetId": "2103223133843145035"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "bio": "(soon) member of product staff @openai. prev head of product @linear",
+      "tweets": [
+        {
+          "id": "2103639287367696603",
+          "text": "basically",
+          "createdAt": "2026-09-26T00:14:24.000Z",
+          "url": "https://x.com/thenanyu/status/2103639287367696603",
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103623390842294609",
+          "text": "AGI https://t.co/MBqJzksRob",
+          "createdAt": "2026-09-25T23:11:14.000Z",
+          "url": "https://x.com/thenanyu/status/2103623390842294609",
+          "likes": 52,
+          "retweets": 1,
+          "replies": 2,
+          "isQuote": true,
+          "quotedTweetId": "2103493980591669712"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "bio": "ceo @replit. civilizationist",
+      "tweets": [
+        {
+          "id": "2103632415185133992",
+          "text": "We’ve been thinking a lot about what it means to build the self-driving company. A big part of that is putting the ability to understand a business in everyone's hands. \n\nAtta has built a beautiful approach to business analysis and data visualization, and they share our belief that useful intelligence should be accessible to everyone.\n\nWelcoming Omar, Amine, and the Atta team to Replit!",
+          "createdAt": "2026-09-25T23:47:06.000Z",
+          "url": "https://x.com/amasad/status/2103632415185133992",
+          "likes": 242,
+          "retweets": 10,
+          "replies": 24,
+          "isQuote": true,
+          "quotedTweetId": "2103515238243221725"
+        },
+        {
+          "id": "2103129037011120525",
+          "text": "Muse can now make apps on Replit https://t.co/AColbWFCEN",
+          "createdAt": "2026-09-24T14:26:51.000Z",
+          "url": "https://x.com/amasad/status/2103129037011120525",
+          "likes": 1674,
+          "retweets": 50,
+          "replies": 100,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "tweets": [
+        {
+          "id": "2103629073595728372",
+          "text": "You can’t automate what you can’t measure. This means that evals are one of the gates to diffusion of AI in the enterprise. \n\nWe can test our deterministic processes through software, but most enterprises have no useful way of understanding how their non-deterministic processes are working today. Specifically the work that agents are doing for them.\n\nEvals are mission critical for enterprises adopting AI because you have no other way of knowing what’s working, what’s broken, what changed, what improved, what you can do more of, etc. if you don’t have a good sense of how agents work in your environment today. All changes, upgrades, and deployments are downstream from good evals.\n\nNot only are we going to get vastly more domain specific evals over time for the labs and across the industry, but every enterprise will also need a clear sense of how agents are performing in their environment as well. Huge opportunity.",
+          "createdAt": "2026-09-25T23:33:49.000Z",
+          "url": "https://x.com/levie/status/2103629073595728372",
+          "likes": 195,
+          "retweets": 22,
+          "replies": 45,
+          "isQuote": true,
+          "quotedTweetId": "2103294972590018584"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "tweets": [
+        {
+          "id": "2103550183506337835",
+          "text": "Sooo. many. startups. \n\nBut all investors want to invest in the same 10-30.\n\nThis has always been true, but probably never to this extent.  \n\nHyper power law.",
+          "createdAt": "2026-09-25T18:20:20.000Z",
+          "url": "https://x.com/mattturck/status/2103550183506337835",
+          "likes": 140,
+          "retweets": 2,
+          "replies": 26,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103167536141353053",
+          "text": "This conversation with the excellent Renen Hallak of @VAST_Data is also available on Spotify, Apple Podcasts and here on YouTube (like and subcribe!):\n\nhttps://t.co/mViKG7e172",
+          "createdAt": "2026-09-24T16:59:50.000Z",
+          "url": "https://x.com/mattturck/status/2103167536141353053",
+          "likes": 18,
+          "retweets": 1,
+          "replies": 3,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103167531917721866",
+          "text": "In Jensen's 5 layer cake analogy for AI (energy, chips, infrastructure, models, applications), the middle layer (esp the software infra part) is much less understood - and thats where @VAST_Data became a $30B company few people know about, powering @SpaceXAI, @CoreWeave, @nebiusai, @MistralAI, @nscale etc\n\nMy conversation with Renen Hallak, CEO:\n\n00:00 Intro\n00:51 The hidden software layer in NVIDIA's AI stack 02:28 What actually makes an \"AI factory\"?\n05:13 Should Walmart and Goldman build their own AI?\n06:20 \"We infer during the day, fine-tune at night\"\n13:16 Announcement: frontier models & sensitive data\n15:32 From P vs. NP to founding VAST Data\n17:32 OpenAI, Navier–Stokes and 10,000 agents\n20:25 The pre-transformer insight behind VAST\n21:55 DASE: VAST's \"shared everything\" architecture \n25:18 \"Storage was where startups go to die\"\n27:39 Trillions of vectors: why old databases break\n29:01 Are S3, Snowflake and Databricks ready for AI\n31:29 Data gravity, vendor lock-in and zero churn\n33:13 Training vs. inference: why the infrastructure changes\n34:46 Model routing, KV caches, RAG & agent memory\n36:59 Identity, permissions and security for AI agents 40:27 Can multi-agent systems unlock scientific discovery?\n41:55 DataEnclave: how confidential AI protects data and weights\n45:16 Who should be AI's trust layer?\n46:37 \"Sometimes it scares me\": 500 petabytes to 2 exabytes\n50:08 Is circular AI financing creating systemic risk\n51:32 Why VAST is profitable when AI infra isn't\n53:24 What separates the winning neoclouds?\n55:06 \"Their lunch is being eaten\": why hyperscalers lag\n59:10 Where will the trillions accrue across the AI stack\n1:01:18 NVIDIA: \"There's no legal document between us\"\n1:03:59 What VAST learned from xAI and @elonmusk \n1:05:36 \"Bad things loudly and often\": building at AI speed\n1:06:53 More change in 10 years than the previous 1,000?\n1:08:39 VAST's endgame: all the data in the world",
+          "createdAt": "2026-09-24T16:59:49.000Z",
+          "url": "https://x.com/mattturck/status/2103167531917721866",
+          "likes": 19,
+          "retweets": 8,
+          "replies": 9,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "bio": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "tweets": [
+        {
+          "id": "2103567198690349362",
+          "text": "There is an extensive and ongoing review related to our agents’ use of internet access during training and evaluation. We’ve been publishing summaries at the link below and will continue to.\n\nWe have not been as fast as we would have liked but we are trying to balance our desire for transparency with gaining a clear understanding from petabytes of agent activity logs, and working with impacted organizations.\n\nWe are prioritizing as best as we can based on severity, and adding resources. Hugging Face is still the most severe event we’ve seen. We will be as transparent as we can be subject to things like vulnerabilities in other companies that our agents have found, which will be their call to disclose or not.",
+          "createdAt": "2026-09-25T19:27:57.000Z",
+          "url": "https://x.com/sama/status/2103567198690349362",
+          "likes": 4856,
+          "retweets": 311,
+          "replies": 782,
+          "isQuote": true,
+          "quotedTweetId": "2103566736356458911"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Claude",
+      "handle": "claudeai",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "tweets": [
+        {
+          "id": "2103515672777290083",
+          "text": "What are you going to explore with Opus 5.5 this weekend?",
+          "createdAt": "2026-09-25T16:03:12.000Z",
+          "url": "https://x.com/claudeai/status/2103515672777290083",
+          "likes": 194,
+          "retweets": 2,
+          "replies": 59,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103515670428238179",
+          "text": "https://t.co/3kIQ5LKes3",
+          "createdAt": "2026-09-25T16:03:11.000Z",
+          "url": "https://x.com/claudeai/status/2103515670428238179",
+          "likes": 293,
+          "retweets": 3,
+          "replies": 4,
+          "isQuote": true,
+          "quotedTweetId": "2103059885361598633"
+        },
+        {
+          "id": "2103515668171853944",
+          "text": "https://t.co/7zcjE09JYh",
+          "createdAt": "2026-09-25T16:03:11.000Z",
+          "url": "https://x.com/claudeai/status/2103515668171853944",
+          "likes": 315,
+          "retweets": 9,
+          "replies": 3,
+          "isQuote": true,
+          "quotedTweetId": "2102475701844676747"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Swyx",
+      "handle": "swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod",
+      "tweets": [
+        {
+          "id": "2103361254433993165",
+          "text": "In Jan this year I called my content strategy shot: \"Scaling without Slop\". \n\nIt's finally starting to work. It took us 3 years to reach our first 100k on youtube. It only took 1.2 months for the next 100k. Similar other metrics on AEO/SEO/subscriber traction and have a lot of New Media ideas that I'm excited to pursue.\n\nofficially giving notice of the next phase of Latent Space, AINews, and what the rest of swyx inc has been cooking below",
+          "createdAt": "2026-09-25T05:49:36.000Z",
+          "url": "https://x.com/swyx/status/2103361254433993165",
+          "likes": 23,
+          "retweets": 0,
+          "replies": 12,
+          "isQuote": true,
+          "quotedTweetId": "2103360502059679780"
+        },
+        {
+          "id": "2103223477130129726",
+          "text": "more conferences could implement this. so much high value time wasted without thought https://t.co/jn93l7JyoH",
+          "createdAt": "2026-09-24T20:42:07.000Z",
+          "url": "https://x.com/swyx/status/2103223477130129726",
+          "likes": 504,
+          "retweets": 29,
+          "replies": 45,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Josh Woodward",
+      "handle": "joshwoodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "tweets": [
+        {
+          "id": "2103182638085501182",
+          "text": "https://t.co/qd50Usegxo",
+          "createdAt": "2026-09-24T17:59:50.000Z",
+          "url": "https://x.com/joshwoodward/status/2103182638085501182",
+          "likes": 5,
+          "retweets": 0,
+          "replies": 0,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2103182635992514569",
+          "text": "Dreambeans is one of our newer experiments in @GoogleLabs. It has a growing cult following. \n\nIt’s simple: a fixed number of “beans” brew every morning. They point you at the real world, with real people, doing things you care about together.\n\nGive it a try! https://t.co/cUVgf5wn5b",
+          "createdAt": "2026-09-24T17:59:50.000Z",
+          "url": "https://x.com/joshwoodward/status/2103182635992514569",
+          "likes": 149,
+          "retweets": 5,
+          "replies": 16,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "tweets": [
+        {
+          "id": "2103230206005612661",
+          "text": "It was great speaking with @SteveHiltonx at @spc for a conversation on California's future.\n\nWe have more work to do. Onwards. https://t.co/tEXWt8Xfhd",
+          "createdAt": "2026-09-24T21:08:51.000Z",
+          "url": "https://x.com/adityaag/status/2103230206005612661",
+          "likes": 7,
+          "retweets": 2,
+          "replies": 0,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+      "guid": "51c4092c-b309-11f1-8603-fb8d30e1277f",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "publishedAt": "2026-09-18T10:00:00.000Z",
+      "transcript": "Speaker 1 | 00:05 - 00:31\nHi, listeners. Welcome back to No Priors. Today, I'm here with Stefano Erman, who is a longtime Stanford professor and now co founder and CEO of Inception. Stefano has a extraordinarily broad body of work around generative modeling, but is especially well known as one of the fathers of diffusion. We talk about his company challenging the large labs and why speed and efficiency are going to be the name of the game in AI over the next few years.\n\nSpeaker 1 | 00:31 - 00:35\nWelcome, Stefano. Stefano, thanks so much for being here.\n\nSpeaker 2 | 00:35 - 00:35\nGreat to be here.\n\nSpeaker 1 | 00:35 - 00:42\nI would love for us to just start with a little bit of your research background and how you ended up starting your company.\n\nSpeaker 2 | 00:42 - 01:01\nFor sure. Yeah. I've been doing research in generative models for like basically my entire career. I started at Stanford in 2014 as an assistant professor, I was working on building generative models. Back then, the the research area was not particularly hot.\n\nSpeaker 2 | 01:01 - 01:35\nYou know, the the the models were not quite working well. We were still, like, building little generative models over MNIST, and it was, like, a big success if you could generate these grainy images of digits. And it was even hard to publish papers back then on that topic, and you had to justify training a generative model as a way to learn features from unlabeled data that then could maybe help you do better at supervised learning because that was the thing that everybody cared about. But then things took over, of course. And so it was at the right place at the right time working on the right thing.\n\nSpeaker 2 | 01:35 - 01:40\nAnd so I've been doing research in that space since the beginning, basically.\n\nSpeaker 1 | 01:40 - 01:47\nDid you have like a, besides a curiosity in the area, a personal hope for what the models would do back in 2014 and 'fifteen?\n\nSpeaker 2 | 01:48 - 02:18\nYeah, I mean, I always felt like that was going to be the that was the right way to think about learning from unlabeled data, that building a generative model is really the right way to make sure you understand the structure in the data. That was kind of like the way I was getting at. I was not even dreaming about the kind of capabilities that these LLMs that we have today could do that. But I was thinking more from a, I think, world models perspective. Like, I was working a lot on images and so thinking about, okay.\n\nSpeaker 2 | 02:18 - 02:41\nLike, I have a world model. I can imagine what's gonna happen if I were to stand up and walk out the door. Like, I can kinda, like, picture that in my mind, and that's important to make decisions and kinda model predictive control when having this kind of model of the world requires some generative capabilities. And so I always felt like, okay, that's the right direction to work on. I felt like this is going to be very hard as a problem.\n\nSpeaker 2 | 02:41 - 02:51\nSo this is going to keep me busy for my whole career, and so it's a good problem to work on. And then, of course, I was very wrong and things evolved much faster than I was expecting.\n\nSpeaker 1 | 02:51 - 02:59\nYeah, I think that's kind of universally true, though. And sort of walk me through the state of your research and how that led you to start the company.\n\nSpeaker 2 | 02:59 - 03:11\nYeah, so I was working on generative models of images, initially working on autoregressive models, which were very slow and kind of like very blurry, and then VAEs and then GANs took over.\n\nSpeaker 1 | 03:11 - 03:11\nYes.\n\nSpeaker 2 | 03:11 - 03:45\nAnd back then, we were very unhappy with the state of generative models for images. Like, the GANs were they they they worked, but they were very unstable to train, very hard to reproduce results. So And we were trying to see, is there a way to build something that is as good as a GAN, but it's more principled? And so we started working on score based generative models, which are basically what eventually became diffusion models back in 2019 with my PhD student, Yang Song. And so we came up with this idea of, let's train a neural network to denoise images.\n\nSpeaker 2 | 03:46 - 04:27\nAnd if you can denoise an image, then you really are understanding enough about the structure of the image that it should be possible to build a generative procedure based on these denoisers. And that basically became the underlying technology of modern diffusion models, where instead of generating images left to right, one pixel at a time, you start from pure noise, and then you gradually refine the object until you get a clean picture at the end. And that started back in 2019 in my lab. And then it took over the space. And even today, the best models for image generation, video generation, music to some extent, a lot of the protein stuff, they are based on diffusion.\n\nSpeaker 2 | 04:27 - 05:07\nAnd so my group has worked a lot on various kinds of diffusion models, technique for accelerating them to generate samples very quickly, to improve the quality of these models. And so since we were able to get them to work on images, I started thinking about, okay, how do we get diffusion models to work on text or code generation and discrete objects? Is there a way to move beyond autoregressive models to something that it's more parallel, with built in error correction? And so I've been doing a bunch of research at Stanford on getting diffusion models to work on text and code generation. We had a breakthrough in 2024.\n\nSpeaker 2 | 05:07 - 05:33\nWe published a paper basically showing that for the first time, it was possible to match the quality of an autoregressive model at the GPT-two scale. So less than a billion parameters, still fairly academic. But we were able to train, basically, still a transformer model as a diffusion model on the same data. We were able to match the quality, like the same perplexity. And you were fitting the data just as well as an autoregressive model with the same number of parameters.\n\nSpeaker 2 | 05:33 - 06:00\nBut the diffusion model was significantly faster. Because it's diffusion, because you're outputting many tokens at the same time, we were able to generate text like 10x faster compared to the autoregressive model. And so that felt very, very exciting. And I really wanted to see what happens if you scale up, if you train bigger models. And so I started Inception, a company to basically scale up the technology and try to build commercial scale diffusion based language models.\n\nSpeaker 1 | 06:00 - 06:44\nEveryone has now seen the outputs of diffusion models in particular images. And I would argue that it's increasingly a dominant form of like generated short form video from diffusion models is like a dominant form of entertainment in other parts of the world, and it will likely become so here. It's kind of unbelievable, at least to me, even having followed the field for, the last decade plus the quality that is possible today. So I think that is kind of obvious, right? And it's such a big use case in images and video generation that folks are even creating, you know, hardware to support better performance here.\n\nSpeaker 1 | 06:45 - 07:04\nIt's not intuitive that would work for other fields or that, you know, this is a interesting competitive direction to the current, you know, full transformer focus like AGI Labs. Can you offer some intuition on that?\n\nSpeaker 2 | 07:04 - 07:41\nYeah. So it's a very interesting kind of like state of the world right now from a researcher perspective, because like there is two main paradigms, two ways of building generative models that is autoregressive, where you have a model that predicts the token or the next pixel, and then you generate left to right, one token at a time. And then there's diffusion, which is coarse to fine generation, iterative denoising generation. And as you said, we have continuous modalities where diffusion dominate. There is discrete modalities, text and code, where primarily all the big labs are betting on the same architecture, autoregressive models.\n\nSpeaker 2 | 07:42 - 07:59\nAnd as we move towards more and more multimodal models and there is this idea that maybe we'll have a model that can handle all modalities and will know everything about the world. What architecture will that be? Like, will it be an autoregressive model? Will it be a diffusion model? Nobody knows.\n\nSpeaker 2 | 07:59 - 08:26\nI think that I think the jury is still out there. At inception, we're betting on diffusion models because we believe that what matters eventually will be inference time scaling. And there are fundamental reasons for why diffusion models are better than autoregressive models at inference time. So even if you think about the story of autoregressive models, there was an inflection point in 2017 when people switched from RNNs to transformers. Right?\n\nSpeaker 2 | 08:26 - 08:44\nAnd was that? The problem was that RNNs had to essentially process tokens sequentially, one at a time. And training was very slow. And so people came up with this idea of, let's have an architecture that allows you to process many tokens at the same time in parallel. And that was the transformer.\n\nSpeaker 2 | 08:44 - 09:11\nAnd that was the thing that scaled better for training and that enabled a lot of the successes behind LLMs. But if you think about inference, now not training inference generation, autoregressive models are still sequential. The computation is one left to right, one token at a time. You cannot generate the tenth token until you've generated everything that comes before it. That kind of workload does not map well to GPUs.\n\nSpeaker 2 | 09:12 - 09:34\nThat kind of workload is extremely memory bound. You're spending most of your time moving around weights across the memory hierarchy, and you're doing very little arithmetic. And that's a fundamental problem of autoregressive models. And so what's the equivalent? If you think RNNs, transformers, autoregressive models, the equivalent at inference time is a diffusion based is a diffusion model.\n\nSpeaker 2 | 09:34 - 10:28\nBecause a diffusion model is built to have, at inference time, a workload where you process many tokens at the same time. And so the workload that we have at inference time in a diffusion model, it's basically very, very similar to the workload you have for training, where you're processing many tokens at the same time in parallel. And so it's built to essentially have an inference workload that maps really, really well to map moles, but the kind of things GPUs do really, really well. And so we bet on trying to build the architecture and trying to build the kind of models that will scale best at inference time because economics are dominated by the kind of intelligence per watt, the intelligence per dollar that you're able to get from the models. If you think about a lot of the advances with the reasoning models, a lot of it is scaling test and compute.\n\nSpeaker 2 | 10:28 - 10:59\nRight? And so being able to scale better along that axis will also matter. And even if you think about RL post training, a lot of the bottleneck is generating rollouts, like letting the model explore and then scoring the trajectories and then improving the model based on the kind of things it finds. And so inference is, again, a key bottleneck for our outpost training. And so if you have a model that scales better at inference time, then automatically you're gonna get better scaling during our output training.\n\nSpeaker 2 | 10:59 - 11:10\nAnd so that's why we decided to bet on a diffusion based LLM because it's inherently more parallel. And the bitter lesson is that the more parallel solution is the one that is eventually going to win.\n\nSpeaker 1 | 11:11 - 11:40\nHow did you think about applicability or what experiments did you run-in terms of cracking the nut on discrete versus continuous modalities? Because I think people have also shaped the existing dominant paradigm through new tokenization efforts or methods to make video and voice work, for example. You're not in the same token oriented paradigm. How do you make it work here?\n\nSpeaker 2 | 11:41 - 12:08\nYeah, so there was a lot of research that went into figuring out how to apply a technology that was inherently very tied to continuous structuring the data. So if you think about a diffusion model, it's learning how to denoise images. And it makes sense for continuous data. Because if you think about even two pixel colors, you can interpolate between them and it will still make sense. But if you think about two words, there is not necessarily something in between them.\n\nSpeaker 2 | 12:08 - 12:21\nIt's all discrete. And so it required a lot of R and D and a new science that had to be developed to figure out how to extend those kind of ideas to discrete spaces.\n\nSpeaker 1 | 12:21 - 12:23\nWhat can you claim about how well it works today?\n\nSpeaker 2 | 12:23 - 12:56\nWe think it works really well. So we've been able to train diffusion based LLMs that are comparable in quality with the speed optimized models for Frontier Labs. So our Mercury models are on par with the HICU models, flash models, mini nano models from OpenAI, if you look at benchmarks, while being significantly faster. So we've crossed, I think, the we went from pure research prototypes to things that are actually used. We are serving these models in production today.\n\nSpeaker 2 | 12:56 - 13:20\nWe did all the work of figuring out how to even just build a serving engine. You cannot run this diffusion based LLMs on the LLM or SGLAN. We have to build our own serving engine, and we can handle a lot of the complexity of real production workloads. And we've solved all these challenges, and we can deliver this new experience end to end to real customers today.\n\nSpeaker 1 | 13:20 - 13:29\nActually, a great time to just talk about where inception is as a company. Like how many people? What are you guys actually serving? Sort of state of research? Yeah.\n\nSpeaker 2 | 13:29 - 13:51\nYeah. So we are about two years old, around 50 people, spending a lot of time still on R and D, kind of like figuring out what's the right way to train these models, how to accelerate the inference. Like, it's not obvious how you even if you think about an autoregressive model, it's pretty clear. There's not a lot of you can do there in terms of like, okay. You generate one token at a time, and that's it.\n\nSpeaker 2 | 13:51 - 14:37\nIn a diffusion based model, we know that there is a lot of different possibilities for trading compute for quality at inference time. Like, even if you think about image diffusion models or video diffusion models, there is a lot of techniques that you can use to accelerate sampling of distillation or fancy differential equation solving techniques that allow you to sample very, very quickly from these models. And so there is a lot of research on the training, on the inference, and then engineering, just thinking about data mixes, evolves, RL post training infrastructure. There is a lot of work that needs to happen to figure out how to build recipes that work for this new model. And we try to leverage existing things as much as possible.\n\nSpeaker 2 | 14:37 - 14:55\nFor example, it's still a transformer based model. So you don't have to throw away a lot of the work that has been done on good architectures. We still use attention. We still use a lot of the public data sets that people have created and evils and benchmarks. So we're start up.\n\nSpeaker 2 | 14:55 - 15:15\nWe try to be scrappy. We try to use existing things as much as possible and focus the aspects where we can have the highest impact and then where we can be the most differentiated. And right now it's speed. In the future, who knows? Like, it's possible that a diffusion based language model will be maybe significantly more intelligent than an autoregressive one.\n\nSpeaker 2 | 15:15 - 15:30\nNobody knows. That's why I think this is very exciting because we're developing these really powerful AI systems, but it's all very fresh. It's all very new. I doubt we've discovered the best way of building the systems. There's got to be alternative.\n\nSpeaker 2 | 15:30 - 15:48\nThere's got to be other ways of building these models. And eventually, yeah, efficiency will be very important. If you think about the AI factory, how is that going to work? I think nobody really knows. And just being able to play in that space and thinking about alternative ways of creating intelligence, I think is exciting.\n\nSpeaker 1 | 15:48 - 16:46\nAbsolutely. And I also think that in a increasingly like fundamentally compute and supply constrained environment. I wouldn't say that there wasn't very focused research on efficiency of models, but it was a second order sort of consideration for many of the industrial research efforts versus like pure capability scaling on what we've got, right? And new methods in that. But I just think if you fundamentally believe that we can use all of the power we have and there will be economic reasons to do so, then I think the focus on efficiency is gonna go dramatically up, You know, I think many people now argue like one of the most important decisions for a company in the AI space is like, how do we use the power we have between, you know, training and the most valuable use cases for any what?\n\nSpeaker 1 | 16:46 - 16:54\nOn that topic, like here in, you know, September '26, where does speed win? Like where do people care enough about this already?\n\nSpeaker 2 | 16:54 - 17:20\nYeah, it is basically applications where latency matters. I mean, generally speaking, I think everyone cares about speed in the sense that if you can give me the same quality but faster, people will always pick the faster solution. And we're seeing it with this faster versions of even the models from Frontier Labs. People are willing to pay more to get access to faster models. Right?\n\nSpeaker 2 | 17:20 - 17:32\nAnd I think once you get used to a fast model, it's hard to go back. It's kind of like broadband, right? And then it gets faster and faster. Then if you were able to try, even the people cannot go back once you get the fast model.\n\nSpeaker 1 | 17:32 - 17:37\nAre there customers that you can talk about publicly that care about this today?\n\nSpeaker 2 | 17:37 - 17:55\nThere are a few that we can mention, like in the voice space, for example, Open Call is an example. They they are building like voice agents. They you know, speed, of course. The the pipeline is like, you have an ASR model. You have an LLM that it's kinda like doing all the tool calls and figuring out what to say next.\n\nSpeaker 2 | 17:55 - 18:18\nIt has to be a reasoning LLM typically to to have the highest level of quality. And then there is a text to speech component at the end. Speed matters a lot to them. They were previously using serving their LLM on Cerebras. So they were using custom chips to get to the kind of speed that they need to deliver the best experience to their customers.\n\nSpeaker 2 | 18:19 - 18:51\nAnd then they switched over to our diffusion based LLMs, because they can essentially get the same speed as what you would get if you were to run an autoregressive model on custom hardware. If you have a diffusion based LLM that it's built to be parallel, it's accelerating at the software level, then you can get the same speed on NVIDIA GPUs, which means much more availability. I mean, GPUs are scarce, but there's more of that than custom chips and lower costs, higher quality. So that's an example in voice space.\n\nSpeaker 1 | 18:51 - 19:09\nYeah, I was actually gonna ask you how you think this interacts with the hardware landscape as well, given we've seen enough now demand from use cases where like, yes, I want a big expensive chip with a lot of SRAM and people will pay for the outputs of that. Yeah. In coding and other use cases.\n\nSpeaker 2 | 19:09 - 19:14\nYeah, for sure. For sure. And I think hardware is one way to accelerate things. And the good thing\n\nSpeaker 1 | 19:14 - 19:16\nabout- And software might be better if we can Exactly. Use the existing\n\nSpeaker 2 | 19:17 - 19:27\nAnd especially they're complementary. That's the exciting piece is that to some extent, the gains that you get from the software, they are multiplicative with the gains you get from the hardware.\n\nSpeaker 1 | 19:27 - 19:33\nAnd maybe someday people develop a system, you know, hardware that fits even better the models that you're building.\n\nSpeaker 2 | 19:33 - 19:35\nFor sure. For sure. Yeah.\n\nSpeaker 1 | 19:35 - 20:06\nYeah. If we just like zoom out to the, you know, inception in the broader industry, I think there is a vein of concern, and correct me if I'm wrong, that it's very hard to invest in new architectures today because some, if there are advances in architecture or methods, it will simply be absorbed by large players with the resources to scale compute. Talk to me about how you think about going and competing as David in this situation.\n\nSpeaker 2 | 20:06 - 20:52\nYeah, it's a very valid point and something that it's also top of mind for us. I think initially for us, for sure, the moat is sort of like the IP, the trade secrets, the ideas that we and our researchers have build these models and make them better. As we mature as a company, and one of the reasons we are not just doing pure research, we're also like, we've developed a product and we have real customers and we are getting feedback on the models from the real world, is that by doing that, we are also developing components that are also very important to deploy these models. For example, like a serving engine. You know, if you don't have the serving engine, you can't really serve these models in production.\n\nSpeaker 2 | 20:52 - 21:28\nAnd so by forcing ourselves from the very beginning to go out and and deploy something end to end, we're learning a lot about how to serve these models and how to build software that it's needed to run these models. And that, again, becomes IP. Even if you train the diffusion based LLM, if you don't have the serving engine, if you don't have the VLLM equivalent to serve it, you're still stuck and you still cannot use it. Along the same lines, we are working with real customers and we're getting feedback on the models. We figure out what works, what doesn't.\n\nSpeaker 2 | 21:28 - 21:42\nWe collect data sometimes from them. We create evals based on what they're seeing. And so that again becomes part of technical mode because of course those things are a little bit harder to replicate.\n\nSpeaker 1 | 21:42 - 22:27\nYou can tell me if this doesn't make sense as a question to ask technically, but one of the things that diffusion models benefit from structurally in images or video generation is, you know, you're replicating something where there should be some consistent structure in the world, Voice as well, right? It is whatever is really possible and most likely. There are like some of the fields where AI has been most valuable to date. I'd say like, you know, a lot of the input data you use to train like code data, for example, it's very messy, right? And, you know, one could argue that a lot of it doesn't actually have the like correct real structure you're looking for.\n\nSpeaker 1 | 22:27 - 22:33\nHow do you think about that when it's like a human generated input data versus images, video, voice?\n\nSpeaker 2 | 22:33 - 23:14\nYeah, it's a good question. And fundamentally, if you think about whenever you train a generative model, what you're doing is whether it's an autoregressive model or, to some extent, even a diffusion model is you are trying to identify structure in the data by essentially building a compression scheme. That might not be obvious, but whenever you train these models, you're effectively trying to identify common structure by trying to find an efficient way of compressing the data. And so the more you can compress the data, the more structure, the more patterns you're identifying, and that's how these models work, which is the amazing thing. It's just like by predicting the next word, you are learning something about the structure of the data.\n\nSpeaker 2 | 23:14 - 23:50\nAnd that's the same whether you're using a diffusion model or you're using an autoregressive model, both methods are essentially trying to learn a compression scheme. And when I mentioned the original 2024 paper when we showed that we are achieving parity with autoregressive models, the metric that we're using is basically perplexity, which is a notion of how much structure have you identified in the data. And so even though it might not seem obvious, we were actually able to identify at the GPT-two scale, the same amount of structure as an autoregressive model.\n\nSpeaker 1 | 23:50 - 24:05\nYes. I think like that empirical result is there, but the intuition would be like, well, code is not, the dataset that you are working on is not like grounded in physics, right? There's a lot of noise in there and it sounds like that is, you believe that's a manageable problem.\n\nSpeaker 2 | 24:05 - 24:40\nYeah, there is noise in And so to the extent, you know, the numbers don't lie, to the extent that you are able to drive the perplexity down, then it means that you can actually build a compression scheme that will get you that level of compression. And so the structure must be there and the model must have been able to uncover it. And then it's more a question of an inductive bias. Like, is transformer a better way of identifying those patterns or something else? Is next token prediction the right modeling framework, or is it more like denoising?\n\nSpeaker 2 | 24:40 - 24:46\nAnd that's very much an empirical question that I think at the moment we don't have tools even to understand.\n\nSpeaker 1 | 24:46 - 25:12\nCan I ask a question just because you used a voice customer as the example here? One of the benefits that some people building these AI products have identified of having an LLM in the middle of this voice pipeline is they understand how to do alignment a little bit better there or controllability. I imagine that has to look different for a diffusion based model. Can you talk about that?\n\nSpeaker 2 | 25:12 - 25:34\nYes, that's a key value proposition. And one of the things that they always look into is, yeah, to what extent a lot of the value they provide is like the harness and making sure that the models indeed are doing the right thing. And the interesting thing about diffusion based LLM is that we've built everything to be backwards compatible. So it's still like the API is the same. It's still OpenAI compatible, text in, text out.\n\nSpeaker 2 | 25:34 - 25:57\nAnd it so happens that the models we've trained are good at following instructions. They're good at outputting, if you're using JSONs, like structure outputs, they can handle all of those things. And it was good enough. It was better in fact than the models they were using before. And so they are still able to provide the level of service to their customers by using Mercury.\n\nSpeaker 1 | 25:57 - 26:01\nWell, very simple if the interfaces are the same and you could just use your same stack.\n\nSpeaker 2 | 26:01 - 26:40\nIt could be that I think that's actually a very interesting point is that we know that diffusion models are typically easier to control compared to autoregressive models. And the reason is that if you think about an autoregressive model, you kind of have to wait until you've generated the full object to know whether or not it satisfies, let's say, a constraint or whether or not it's a line or whether or not whatever, it's on brand, whatever it is that the objective function that you care about. Maybe you're generating a molecule and you care about solubility. And then you kind of have to wait until you have the full object to be able to score it with some reward function. But a diffusion model, it's more coarse to fine generation.\n\nSpeaker 2 | 26:40 - 26:41\nFrom the very So\n\nSpeaker 1 | 26:41 - 26:41\nprogressively do it.\n\nSpeaker 2 | 26:41 - 27:11\nYeah. From the very beginning, you know, is this object the kind of thing I want or not? And you can steer the generation in the direction provided by an external reward function or some set of constraints. And so there is a lot of evidence in the academic literature, at least, that diffusion models are easier to control and there are different ways of steering them that are just not possible with autoregressive models. So that would be a different interface for the model that maybe might not be even available for autoregressive models.\n\nSpeaker 2 | 27:12 - 27:26\nI think that's something that we've been thinking a lot about, like what would be the right what's the right product experience that we can build around new capabilities that are just not provided by autoregressive models.\n\nSpeaker 1 | 27:26 - 27:35\nAre there capabilities that you imagine Inception's models having at scale that today's models don't have beyond performance?\n\nSpeaker 2 | 27:35 - 27:44\nYeah, that's the thing. Don't know. That's the emerging It's emergent. Yes, yes. Like right now the wedges speed, we know they are much faster.\n\nSpeaker 2 | 27:44 - 28:21\nThat was the initial bet because that was easier to test. It's also like easy to measure and it's obviously valuable. That's why I find it so exciting is that as we learn more about how to train these models, we don't know what we're going to find. And there is a decent amount of evidence in the academic literature, for example, that diffusion based models are more data efficient compared to autoregressive models. And the intuition is just like, if you think about training a diffusion model, you're learning by denoising.\n\nSpeaker 2 | 28:21 - 28:33\nYou start with an image, you add noise, and then you learn how to remove the noise. And so it's effectively doing data augmentation in the sense that the same image is augmented by many noisy views.\n\nSpeaker 1 | 28:33 - 28:33\nOkay.\n\nSpeaker 2 | 28:33 - 28:45\nYeah. And so they tend to be a little bit more data efficient. And so if that holds up at scale and then you believe, then maybe we'll get into Tasks\n\nSpeaker 1 | 28:45 - 28:47\nwhere we have less data.\n\nSpeaker 2 | 28:47 - 29:04\nYeah, where data becomes the bottleneck, then it becomes more interesting, right? And so, we'll see. That's why it's so exciting because things are changing and then this technology is so important and so valuable that having something differentiated, I think will create value.\n\nSpeaker 1 | 29:04 - 29:20\nIf we project out five years, that's actually way too in AI world. If we project out two years, oh, what do you think is the workload split between diffusion and traditional models?\n\nSpeaker 2 | 29:20 - 29:53\nI think we're still, we're not at the frontier level of intelligence. And I think a lot of the workloads do require frontier level intelligence. But on my estimates, so even if you just go to OpenRouter has this very nice way of looking at all the different use cases, and you can see the research and conversational and coding and software engineering and the log processing log. They have a nice hard taxonomy, basically, of tasks. And I was doing some estimates, and I think that is between 2030% where latency is really, really important.\n\nSpeaker 2 | 29:53 - 30:05\nAnd so at the very least, as a lower bound, I think it could be Addressable. Yeah. Addressable by models that are within a given latency budget, they would give you the highest possible quality.\n\nSpeaker 1 | 30:05 - 30:12\nAnd then just, all technology approaches have trade offs. What are the challenges of working with diffusion models?\n\nSpeaker 2 | 30:12 - 30:47\nYeah, it's a different stack. And so one of the challenges is that we have to build a lot of things in house. And there is not a mature sort of like ecosystem of, if anything about the serving engine or like kernels, like a lot of the things had to be developed in house. And so there is not really anything open source or there are some open source models, but they're not particularly good. And so that makes it a little bit more difficult to deploy, to get customers to try things, they're not used to it.\n\nSpeaker 2 | 30:47 - 30:50\nSo that's been one of the challenges.\n\nSpeaker 1 | 30:50 - 31:14\nI imagine that also reflects externally, right? You know, in a landscape where folks at some sophistication where they would care about cost and performance. And then you might, for certain use cases, you will care about cost and performance the beginning. There is an increasing amount of interest in post training, right? And so I imagine in a new architecture that's even more challenging.\n\nSpeaker 2 | 31:14 - 31:39\nSo we have to build our own stock for doing SFT, for doing RLHF, doing RL. I mean, that becomes IP to some extent. It's one of the reasons we decided not to open source everything was really to keep the IP a little bit closer to us and not opening it. But then there are downsides. There is less an opportunity for the community to contribute.\n\nSpeaker 2 | 31:39 - 31:46\nIt's harder to adopt. It's hard to do on prem kind of like deployments. And so there are pros and cons with the two choices.\n\nSpeaker 1 | 31:46 - 32:03\nCan you talk about, you know, scale of your own training and then like current or aspirational, and then at 50 people, I'm sure you're continuing to hire like why researchers or engineers or others should consider investing in this direction or working at Inception.\n\nSpeaker 2 | 32:03 - 32:24\nYeah. So we're not able to share much about the training, the size of the models or the flops or all of that. It's kind of like a trade secret, but we are continuing to push the frontier. And Inception is a great place to be if you want to be have an opportunity to shape the direction of the field. Like it's still a relatively small field.\n\nSpeaker 2 | 32:24 - 32:49\nThere is a lot to be invented. And so a lot of the people that decided to come to inception instead of joining one of the other labs is really that they want to have ownership. And they like to invent new things. They like to be in a space where there's more of a greenfield and more opportunities to try things that is less that it's known or available out there. It's a little bit more open ended.\n\nSpeaker 2 | 32:49 - 32:52\nAnd so we tend to attract those kinds of people.\n\nSpeaker 1 | 32:52 - 33:09\nI think one thing that is both exciting and causes some despair amongst research friends is the ability to use models for recursive self improvement in the research field itself. Given you're working on a very different direction, what is your view on this?\n\nSpeaker 2 | 33:09 - 33:13\nYeah, I mean, it's something that we Explicitly,\n\nSpeaker 1 | 33:13 - 33:16\nit sounds like you still feel there is work for you and your team to do.\n\nSpeaker 2 | 33:16 - 33:38\nOh yeah, Yeah. I think we're not there yet. Maybe we don't have access to the models that other folks have, but I feel like there is still I mean, we use models a lot, of course, and it has accelerated the speed at which we can iterate, try ideas. We use models from Frontier Labs. It's been great.\n\nSpeaker 2 | 33:38 - 34:04\nIt has accelerated our development process a lot. At the same time, I think at least that right now, I don't know what it's gonna be in six months or a year, but right now the human ingenuity is still super important. The ability to come up with the right ideas and kind of like prune the space and kind of like identify directions that are more promising has been really important to us.\n\nSpeaker 1 | 34:04 - 34:22\n50 people is not that many people for, let's say like a full stack research serving product company, or however you would think about describing it. How do you organize and then how do you think about how you allocate your resources here?\n\nSpeaker 2 | 34:22 - 34:57\nIt's a small team, but everyone is very talented and they work very hard and we have access to agents that are making us a lot more productive. And so I think the numbers are sufficient to do a lot. And in fact, often I feel like that the the baronet is more compute than than than people. But, yeah, the the team is organized. Like, there is a there is a product team effectively that is handling the platform and working with customers to make them successful with our models.\n\nSpeaker 2 | 34:57 - 35:12\nAnd then so there is basically a team that it's serving the current best version of the model. And then there is a team that it's building the next version of the model. And that includes training, RL, inference. And so that's more research.\n\nSpeaker 1 | 35:12 - 35:36\nStefano, one last question for you. You know, the 24 paper was a super interesting result, made a big splash. You've been working in this field for a long time. A lot of folks would say that, would claim that, you know, academic AI research is very challenged in this era of, you know, being able to scale resources a great deal. Like this is certainly true to some degree, given you started a commercial company around it as well.\n\nSpeaker 1 | 35:36 - 35:46\nBut how did you get confidence in the directions that you were working in having impact or being promising before you really had those 24 results?\n\nSpeaker 2 | 35:46 - 36:24\nYeah, and I think it was like a collection of results that I had been working on in my lab. Not necessarily like, of course, is like the early diffusion work that we did in the lab, but we showed at the kind of scale of models that we could train on academically, we were able to beat GANs. And so and then while being much more stable, and then the whole thing took over and then became stable diffusion, mid journey, sort of all of that started from ideas that were developed in academia in my lab. But that's not the only one. I was 2,000 co advisors.\n\nSpeaker 2 | 36:24 - 36:42\nI worked on flash attention, for example. That's another thing that came out from academia that then eventually had a huge impact in industry. Or another example is DPO. That was another project that started out as a rotation project in my group. It's an algorithm that is used to align LLMs and diffusion models and everywhere.\n\nSpeaker 2 | 36:43 - 37:23\nAnd that's, again, something that was developed entirely in academia. And it was just like based on a clever insight, like some interesting mathematical structure that you have in that problem that allows you to come up with a very different and more efficient way of post training and aligning these models. So there are gems, there are lots of opportunities for finding new and better ways of solving important problems. One of the nice things about academia is that it allows you to take this contrarian bets. As you said, there is the challenge that maybe we don't have enough resources and there's never enough resources.\n\nSpeaker 2 | 37:23 - 37:49\nAnd if we had more compute, we could be more efficient. But you have access to amazing students and everyone is kind of like trying to develop the new thing. People are not scared about taking bets. And that's why academia has been so impactful, I think, where even in the AI space, a lot of the important ideas have roots or even were created in academia.\n\nSpeaker 1 | 37:49 - 37:52\nAwesome. Super inspirational. Thanks so much for being here, Stefano.\n\nSpeaker 2 | 37:52 - 37:53\nThanks so much for having me.\n\nSpeaker 1 | 37:55 - 38:12\nFind us on Twitter no priors pod. Subscribe to our YouTube channel if you wanna see our faces. Follow the show on Apple Podcasts, Spotify, or wherever you listen. That way you get a new episode every week. And sign up for emails or find transcripts for every episode at know-priors.com."
+    },
+    {
+      "source": "podcast",
+      "name": "The MAD Podcast with Matt Turck",
+      "title": "Who Feeds the GPUs? Inside AI's Hidden $30B Layer | Renen Hallak, VAST Data",
+      "guid": "09985d98-67c4-4c5e-a1be-6d201c56bc55",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "publishedAt": "2026-09-24T11:30:00.000Z",
+      "transcript": "Speaker 1 | 00:00 - 00:17\nSometimes it scares me. We had a customer, one of these AI clouds, they said we're probably going to need about 500 petabytes over the next three years. Last week, came back to us and said, we're gonna need an extra two exabytes on top of that 500 petabytes. I think in the next ten years, we'll see more difference than we did in the last thousand years.\n\nSpeaker 2 | 00:17 - 00:30\nHi. I'm Matt Turk. Welcome to the MAD podcast. We talk a lot about AI models on this show, and we talk a lot about compute. But today is about the layer in between, the crucial software infrastructure layer that feeds massive amounts of data to all those GPUs.\n\nSpeaker 2 | 00:30 - 00:52\nMy guest today is Renan Halleck, founder and CEO of VAST Data, a company that is surprisingly under the radar considering it's been most recently valued at $30,000,000,000 and powers top AI players like xAI and some of the biggest AI neoclass in the world. Please enjoy my conversation with Renan Halleck. Renan, welcome. Thank you. Alright.\n\nSpeaker 2 | 00:52 - 01:21\nSo to anchor this whole conversation, I wanted to start with that mental model from Jensen at NVIDIA that I find so helpful, where, when he describes AI, he uses the analogy of a five layer cake, where you have power at the very bottom and then hardware, then software infrastructure, then models, then applications. So where do you sit in that layer cake?\n\nSpeaker 1 | 01:21 - 01:32\nRight in the middle. That software infrastructure layer is the one that we do, in collaboration of course with the hardware vendors underneath us and with the model builders on top of us.\n\nSpeaker 2 | 01:32 - 01:38\nYep, so at a high level what does that mean, software infrastructure, in the context of AI building?\n\nSpeaker 1 | 01:38 - 02:28\nYeah, so everything you would imagine from the old stack we need for this new stack. We need to manage the compute, we need to manage the storage, we need to manage the networking, and then as you go up the stack we need to make sense of all of it, make sense of the data through a database, make sense of the compute through training and inference functions, and as you go even higher up the stack and we shift from training predominantly to inference and agents and reinforced learning, we need more and more tools to enable this new world, make it simple, make it safe, make it fast and scalable and resilient. All of that sits in that middle layer. Sometimes I like to call it software infrastructure, and other times I like to call it the operating system for this new era.\n\nSpeaker 2 | 02:28 - 02:39\nThere is a related concept to that five layer cake. That thing may have originated from NVIDIA again, but, like, keeps coming back in conversation, is this idea of AI factory.\n\nSpeaker 1 | 02:39 - 02:40\nMhmm.\n\nSpeaker 2 | 02:40 - 02:50\nWhat does that mean? So if you start with a bunch of GPUs, what do you need to add to create an AI factory?\n\nSpeaker 1 | 02:50 - 04:07\nI think even below the GPUs the data centers are looking very different today than they did five years ago. The old stack you had 10 kilowatt racks, today you need 500 kilowatt racks And so you need more power, you need more power density. You need GPUs of course versus CPUs. You need extremely fast networks and very large SSDs rather than 10 gig ethernet and old hard drives. And so every layer of this cake, needs to be redone and from our perspective you need much more data and much faster access to that data because we're no longer analyzing numbers and columns of a database the way you did with big data in the old stack, we're doing pictures and video and sound and natural language and that takes a lot more space and that's before new generative AI data that gets generated and of course all of this compute, all of these GPUs need very fast access to this information whether they're training on it or whether they're running low latency inference functions and so the entirety of the stack is new, and I think the culmination of this stack is what we call the AI factory.\n\nSpeaker 2 | 04:07 - 04:16\nAnd is the concept of AI factory, mostly for the the big labs or, like, this whole, like, data center plus model kind of kind\n\nSpeaker 1 | 04:16 - 04:35\nof thing or, is it also for enterprises? I think it'll be for everyone eventually. The big labs are starting. They're ahead of the pack and they're leading the way for everybody else. But anybody who stays with the old stack, with old business information systems will get left behind.\n\nSpeaker 1 | 04:35 - 05:12\nAnd so people need to start leveraging these new AI abilities, some start by leveraging them out of the clouds, out of the hyperscalers, the neo clouds, others build within their environments, but in all of these cases enterprises will need AI factories in the medium term and then after that I think as we shift from people based organizations to augmenting them with agents, these AI factories become a lot more than what we're used to thinking from just our compute infrastructure.\n\nSpeaker 2 | 05:12 - 05:56\nTo play it back, right now if you go to a large enterprise, a non tech enterprise, so like Pfizer or Goldman Sachs or Walmart, I think the dominant view is that leveraging AI basically means, you know, you start partnering with Anthropic or OpenAI and, you know, you have FDs coming into your, walls and then, you know, you you you build some stuff initially that was chatbots, now it's agent. Is it is the concept of an AI factory that you build your own AI? So you you you have, you own, you know, data infrastructure, but you you also rent your GPUs or buy GPUs and then you do model work, is the concept?\n\nSpeaker 1 | 05:56 - 07:00\nI think once you get to a certain level of scale definitely it's more cost effective to buy than to rent and so from that perspective yes you should build your own AI factories but beyond that over time I think all of these organizations' IP will be distilled in models, it will be weights and they don't necessarily need to build the base model, I like to give analogies of the human brain, we were all born with a base model but then over time as we travel the world we learn new things, we infer during the day, we fine tune at night, and tomorrow we'll be a little bit smarter than we were today, and my model of the universe is slightly different than your model of the universe because we had different experiences. And so I think in the same way, all of these agents will fine tune models through reinforced learning over time, and every organization's IP will be able to be distilled into the models that they own and the weights that they've accumulated.\n\nSpeaker 2 | 07:00 - 07:24\nWhat does that mean in terms of what those enterprises need to be able to do? You know, like doing model work and, like, weights and GPUs, that that's a whole kind of expertise that ultimately a few people in the world already own or already know, have. And then a lot of those companies just don't have that. So how do they go from here to there? I think,\n\nSpeaker 1 | 07:24 - 08:18\nagain, I like analogies. The analogy I would give here is if you go back to the nineteen seventies, you needed a PhD in computer science to operate a computer. Today, everybody can do it. And the reason everybody can do it is not because we learned, it's because operating a computer became much simpler. The operating system made it intuitive, made it easy for everybody to use, it also made it safe for everybody to use, these enterprises are under a lot of regulation that they need to comply with, and so it is our job as the ones building that software infrastructure layer to make these new technologies accessible to the enterprises such that they don't need to think about it too much and that they can start adopting them at pace rather than get left behind and have new companies with AI experts, take their place.\n\nSpeaker 2 | 08:18 - 08:46\nMaybe to push back a little bit or maybe to just, dig in to make sure I understand. That's a whole premise of the cloud is to make things incredibly simple and and and use those functionality as a service. The concept of an AI factory revolves around owning a lot of this, which sounds like very kind of like on prem private cloud, which historically has been a lot more complicated. So is effectively what you're saying that, is that like there's an opportunity to like abstract away all of this in a\n\nSpeaker 1 | 08:46 - 09:30\nway that that feels cloud ish in experience? I think so. I think, the physical location of this AI factory can be on prem, can be in a colo, can be in an AI cloud, where you rent it from somebody rather than manage it yourself. Eventually my guess is that the hyperscalers will also enable these AI factories to be built, within their premises, but so long as it's within your control and so long as you're the one that owns it in terms of really, I think, owns the information, owns the models, owns the weights, owns the agents, I think that's the distinction that I'm trying to make here. Doesn't necessarily need to be physical equipment within a building that belongs to you.\n\nSpeaker 2 | 09:30 - 09:51\nOkay. Great. Great. Do you wanna spend more time on what you alluded to a minute ago about agents and agents doing their own fine tuning? I mean, right now, the way I think most people think about agents is that, you know you do reinforcement learning to enable the agents but I think you're saying agents do it?\n\nSpeaker 1 | 09:51 - 11:14\nI again like to think of agents as artificial people and over time I think we're all going to have agents that work for us, whether we're people or organizations, for different tasks and we'll have teams of agents that can help us develop software or personalize medicine or whatever it is that we want done we will have them do on our behalf and I think over time we will get attached to our agents and we will expect them to know things that happened yesterday or that happened a year ago and that will allow us familiarity with our agents but that requires them to fine tune models based on experiences that they had with us and of course that also makes them smarter and able to do more for us and within teams they can learn from each other and I think that generates the next level of artificial intelligence versus where we are today where everybody is based on some base model from one big lab or another and every few weeks we get an upgrade to that model based on what they did, in their environment, in this new way each one of us, each organization owns the IP generated through these, fine tuning mechanisms rather than letting the big model builders basically own everything over time.\n\nSpeaker 2 | 11:14 - 11:27\nOkay. So just to play it back so that the the knowledge loop happens within the enterprise and that becomes the new IP. And so we're saying we cannot do that with OpenAI or Anthropica, whoever.\n\nSpeaker 1 | 11:27 - 11:37\nYou don't want to because you don't want to expose your proprietary information, your processes, your secret sauce out to somebody else such that they can take it and run with it.\n\nSpeaker 2 | 11:37 - 12:04\nWhich is super interesting, right, because people used to say that about data, but now we're saying this about Intelligence. Intelligence processes and memory and therefore intelligence. Okay. Does that mean that open source becomes the the play here? Because if you wanna fine tune or do RL against model, you know, having access to an open source model and the ability to do that.\n\nSpeaker 2 | 12:04 - 12:06\nSo is that your vision of the world?\n\nSpeaker 1 | 12:06 - 13:05\nNot necessarily. I think we need to build a way for people to monetize these abilities that they worked so hard and paid so much to get to. And so we need a way where on the one hand an enterprise does not expose their data, the other hand a model builder does not expose their weights. And again, this software infrastructure layer is the right place to enforce that type of trust and over time as the enterprise starts to generate their own models or fine tune on top of base models, they should also be able to monetize the skill sets that they develop and so if I run a carpentry shop and my carpenter robots are the best in the business, I should be able to lease to you that brain module such that you can build a chair or whatever it is that you're trying to do, but I'm only giving it to you for a week. And at the end of that week, you don't have access to it anymore.\n\nSpeaker 1 | 13:05 - 13:15\nOr maybe I'm selling it to you, but I still don't want you to see those weights. And so there should be ways for us to build a intelligence marketplace.\n\nSpeaker 2 | 13:16 - 13:34\nOkay. And that that I guess that goes to your big announcement of of this week. Do you wanna mention the the the principle of it and then we'll we'll go into the the details in a minute, but at a at a high level, how does what you guys just announced address this specific problem?\n\nSpeaker 1 | 13:34 - 14:03\nSure. So, basically, what we're trying to do is fill out that software infrastructure layer, and what we realized was that the five layer cake that we discussed is almost complete. The models don't really live on top of the software infrastructure. Models over time have become a resource, just like a GPU is a resource or an SSD is a resource, and resources need to be managed. And so this announcement is all about model management.\n\nSpeaker 1 | 14:03 - 15:32\nHow do we, as the operating system, now get an understanding of this model is really good at coding, and that model is really good at generating images and this one is expensive and that one is inexpensive and that way we can understand which tasks belong under which models and that's today when we have four or five of them as we start to reinforce learning and fine tune as we start to have hundreds and thousands of agents and over time generating new derivatives of those models that's going to be a much bigger task. One specific aspect of model management which we're announcing and we have a lot of the model builders as partners join the announcement is around confidential computing and enabling that ability of enterprises to run inference on prem without exposing, the model builders weights and so both sides can rest assured that my data is not exposed and your weights are not exposed to me. And so with help from Nvidia and encrypted memory underneath, we're able to make sure that no one sees what they're not allowed to see and to hopefully increase the total addressable market of these model builders into regulated industries, into large enterprises that are careful with their sensitive information.\n\nSpeaker 2 | 15:32 - 16:16\nLet's put a pin in this and we'll revisit in a few minutes and go into how that actually works. But taking a step back, I would love to talk about your journey a little bit and and and and then how it led to you to build Vast, which is this incredible company, which is valued at $30,000,000,000 that, you know, interestingly, perhaps because you're right in the middle of the of the cake, not everybody has has heard about yet. So I think you were telling me growing up in Israel that you had a particular affinity for for math. So my my words, not yours, but you're a bit of a of a whiz kid in in in in math. Affinity for math,\n\nSpeaker 1 | 16:16 - 16:59\nfor sure. Whiz kid, definitely not. It's funny when I came up here, the Math Museum is downstairs and we had some big news this week about math. When I was in school twenty years ago, I spent six months of my life trying to figure out if P=NP which I hope your audience knows but for those who don't, it's the question of is it easier to verify a problem than it is to solve the problem? Which intuitively it is, it's much easier for us to review a document and say, yeah, that works than to write that document or to look at a picture and say that's beautiful than to paint that picture.\n\nSpeaker 1 | 17:00 - 17:32\nBut mathematically it's unknown if if that is the case or not. And interestingly, this is one of seven millennium problems that the Clay Institute back in 2000 put a million dollar bounty on. And I remember spending those six months trying to solve it because I thought, if I prove that p does equal np then I also solve the other six and I'll get $7,000,000 And if I prove that it's not equal then at least I get one. And after six months what I realized was that I'm not nearly smart enough to do it.\n\nSpeaker 2 | 17:32 - 17:36\nDo you want to provide the the full context about what happened this week just for for anybody that\n\nSpeaker 1 | 17:36 - 18:45\ncan follow-up? Another one of those problems, Navier Stokes was solved by OpenAI or at least they claim that they've solved it and the rumors are hopefully by the time that this is aired, some of those rumors will come true that there's at least two more of the seven problems that OpenAI and Anthropic are trying to solve and are close to solving using AI. These are problems that have been open for nearly one hundred years, and for the last twenty six years there was a million dollar prize associated with them and still people were not able to solve. And so for the first time I think we're at a point today where AI has proven that it can do things that we don't know how to do. But going back twenty years, it was clear to me that if we could get computers to help with these hard problems, that's the way to solve it because people are slow and the evolution of our knowledge is slow and if we are to see any of these things get solved within our lifetime we need computers to speed us up.\n\nSpeaker 1 | 18:47 - 19:00\nWe didn't know how to do it back in 2006 and so I went along my way and joined a few technology companies. The last one I was with was a company called EMC which builds large storage systems.\n\nSpeaker 2 | 19:00 - 19:06\nIf I recall correctly, so you joined a startup as employee number and that company was acquired by\n\nSpeaker 1 | 19:06 - 19:07\nThat's right.\n\nSpeaker 2 | 19:07 - 19:10\nAnd then you help run that the R and D organization\n\nSpeaker 1 | 19:10 - 19:11\nThat's correct.\n\nSpeaker 2 | 19:11 - 19:13\nWithin EMC Yes. For that product?\n\nSpeaker 1 | 19:13 - 20:15\nAnd that acquisition happened in 2012. And by 2015, it became clear that there is a shot at computers, helping us think and helping us solve problems, because neural nets which again when I was in school ten years earlier or fifteen years earlier were a curiosity they didn't really weren't able to do anything. Now they were for the first time starting to show that they can do something. They were able to recognize which videos had cats in them and which videos did not have cats in them which was astonishing to me because suddenly we can try to mimic the human brain without really understanding the human brain. So immediately I tried to figure out how this happened and it was very clear that it wasn't necessarily new algorithms, was giving those neural nets much faster access to a lot more data that enabled them to perform these very simple tasks.\n\nSpeaker 2 | 20:15 - 20:20\nSo that was the intuition behind the founding of VAST? Correct.\n\nSpeaker 1 | 20:20 - 20:25\nI looked 2015? 2015, beginning of twenty sixteen we started.\n\nSpeaker 2 | 20:25 - 20:44\nYeah. And then, obviously, that was at a minimum three years before the Transformers paper came out and another two years before the ChatGibity moment. So what was the idea then? Because there were not a lot of customers using massive amounts of data for AI at the time.\n\nSpeaker 1 | 20:44 - 21:25\nThere was no generative AI at the time. Google acquired DeepMind a year previous to that. But it was clear that none of the systems, none of the infrastructure that we had available to us would be scalable enough, would be performant enough to enable this next revolution. The architectures were built on an assumption that things needed to be fast or big, and here you needed something that was both fast and very very large. And so we needed to build a new underlying, layer to enable the success of this next revolution if it were to come to fruition.\n\nSpeaker 1 | 21:25 - 21:40\nIn the early days of course our customers were not doing generative AI, they were doing large scale analytics, they were doing, autonomous driving projects, they were doing medical imaging, analysis, genomics analysis,\n\nSpeaker 2 | 21:41 - 21:45\nhedge funds. Scientific computing or hedge funds, obviously. Yeah. Right.\n\nSpeaker 1 | 21:45 - 21:54\nYeah. Hedge funds were trying to get signal from news feeds and natural language. And so it was the beginning of AI, but before ChatGPT.\n\nSpeaker 2 | 21:55 - 22:32\nAnd actually, as as a way of getting into what VAST actually does, do do you wanna explain in in super simple terms what you just said. So so you started from storage, and then storage, as as you just said, was it's either the the alternative at the time was either slow and inexpensive or fast, but expensive, and the whole scientific kind of breakthrough is to break this. Right? And what what was it what you called the days?\n\nSpeaker 1 | 22:32 - 22:33\nDisaggregated shared everything.\n\nSpeaker 2 | 22:33 - 22:35\nAlright. So explain that in in super simple terms.\n\nSpeaker 1 | 22:36 - 23:25\nSo the old way to build scalable systems is based on a concept called sharding, what's known as shared nothing systems where you have a lot of nodes, each node is responsible for a piece of the pie, they collaborate with each other in order to serve up application requests. And as you add more nodes, get more performance, you get more capacity, it works well, up to a certain limit. And so once you have too many nodes, the communication between them starts to show diminishing returns. And so if you're analyzing text, it may work, if you're analyzing numbers it works well, if you're analyzing columns of a database that's fine. Once you grow beyond that and today the amounts of data are four or five orders of magnitude beyond where they were back then, soon they will be seven, eight orders of magnitude bigger, it doesn't work.\n\nSpeaker 1 | 23:25 - 24:41\nIt breaks down because, the communication grows quadratically within the cluster and then, from a resilience perspective also when one part fails, everybody needs to recover, that takes time, you can't really have more than a 100 nodes in one of those systems. To build AI, we need systems with many millions of nodes. We have one system at one of our customer sites that is today multiple exabytes within a single cluster delivering tens of terabytes per second, this is tens of thousands of nodes even today before the agentic revolution. And so to do that we needed to build an architecture that ended up being the opposite of the way shared nothing systems work Instead of having the SSDs, the media directly attached to the CPU, it's on the other side of the network. And that through a very fast network and through new protocols like NVMe over Fabrics and through new media types that allow us to save not just data on the other side of the network but also met metadata, we were able to have all of the nodes, see all of the information as if it was directly attached and that's what led us to being able to do what we call shared everything.\n\nSpeaker 1 | 24:41 - 25:17\nAll of the nodes now don't need to communicate with each other because they share access to all of the information. That's the basic idea behind our architecture and it proved really really good for a new type of storage system for AI and then for a new type of database for AI and then for a new way to orchestrate compute for AI and we realized over the years, our customers forced us to realize that it's not just storage that needs to be redone, but the entire part of that stack that needs to be redone.\n\nSpeaker 2 | 25:18 - 25:32\nAs I understand, I'm smiling. You must have been a lot of fun to pitch a storage company in 2016 to VC because storage was probably considered at the time the least sexy part of the entire stack.\n\nSpeaker 1 | 25:32 - 25:47\nI owe you guys a lot of our success because as hard as it was to pitch storage to VCs, now we're reaping the benefits of having a lot less competition than we otherwise would have had and so thank you.\n\nSpeaker 2 | 25:47 - 26:05\nYeah, is that part of why that middle layer is less known, there's just less companies pitching it. Mean like the you don't have to comment necessarily but like the only companies that come to mind are like weaker and there doesn't seem to be a lot of companies doing what you do. The\n\nSpeaker 1 | 26:06 - 26:26\nones that we're competing with started three years before us or thirty years before us. And when we built this new architecture, we were basing it on forward looking technologies. When we started in 2016, the underlying parts weren't there yet. They became available throughout 2017, 2018, 2019. And so anybody So you had\n\nSpeaker 2 | 26:26 - 26:27\nto believe that they were going\n\nSpeaker 1 | 26:27 - 27:08\nto And so it wasn't just difficult to raise money from VCs in those early board meetings when they kept asking me what do we do if this part doesn't come to life? I kept telling them we don't have a plan b, which they didn't like and so, I was not their favorite, person in those days. Hopefully that changed over time, they made some money. But yes, there was no way for a company that started before us to make those forward bets and so that's our advantage today, that's our moat, the fact that we're the only ones with this architecture. And it's true that there aren't many other companies in our layer.\n\nSpeaker 1 | 27:09 - 27:19\nI think mainly because it's it's not sexy. It's a lot more appealing to build a model company or an application company than it is to build the the plumbing.\n\nSpeaker 2 | 27:19 - 27:25\nAnd the so the days architecture is still at the very basis of of what what you do, all products currently?\n\nSpeaker 1 | 27:25 - 27:39\nThat's right. We have one product that's this operating system, but all of the parts that we're adding are based on days and that's part of the reason why we can't take open source and bolt it on top. We have to write most of it ourselves.\n\nSpeaker 2 | 27:40 - 27:49\nWhy did you start building databases on on top? What was not addressed by the market that you needed to build?\n\nSpeaker 1 | 27:49 - 28:39\nSame as with storage. We realized that there was a trade off between price and performance and scale and resilience and ease of use in the world of database in the same way that there was in the world of storage. We realized that because our customers told us that. We have a big customer for example in Singapore and they have a lot of camera feeds coming in and all of those feeds need to be vectorized as, the images come in and that, results in trillions of vectors that need to be placed in a database. There isn't a database that was built for trillions of rows, there isn't a database that was built for thousands of agents analyzing different aspects of what's happening, in the system at the same time.\n\nSpeaker 1 | 28:40 - 29:01\nOld stack databases were built for, big amounts of data which today seem very very small, they were built for people running queries and doing the analysis and again that old architecture, the shared nothing architecture is not scalable enough to the levels that we need today.\n\nSpeaker 2 | 29:01 - 29:13\nSo it's it's so it's scale. Right? I mean just to push back a little bit, or probe, you know, I'm I'm sure, like, Databricks or, like, Snowflake would say, no. No. No.\n\nSpeaker 2 | 29:13 - 29:37\nWe massively scalable, and we can just, run massive analytics on data and including in some in in real time with our newer products. And then, you know, I think some people would say, well, storage was solved like that's s three, that's infinitely scalable. But what we're saying here is that all of this may be true for certain use cases but not for what we're talking about here.\n\nSpeaker 1 | 29:37 - 30:20\nI think both of those companies that you mentioned started again about five years before us and so they too are built on that older architecture and they started top down. They are based on underlying cloud services like s three which were not built for this era of AI and we're seeing that today. That's a big part of the reason these AI clouds are starting to pop up because the traditional hyperscalers that built s three built the old stack and these new AI clouds are building the new stack. And now the older clouds need to adapt in order to stay relevant.\n\nSpeaker 2 | 30:20 - 30:30\nSo is the ask to customer as they build those AI factories to basically move all the data to Vast?\n\nSpeaker 1 | 30:30 - 31:30\nThey don't have to start by moving all the data to Vast. Usually, we start by just serving the new applications, just serving the new AI applications. Usually what happens after that is that the customer, the enterprise, the organization realize that this is actually useful and I want it to access the entirety of my dataset rather than just this subset. The good news is that we support all of the old stack interfaces and so if you're talking storage s three, we support file systems, we support block devices, we support if you're talking databases, we support SQL, if you're talking streaming, we support Kafka and so it's very easy to plug in those old stack applications onto our platform in parallel to the new agentic workloads and AI applications, and in that sense we become a bridge between the old world and the new world as companies make that journey.\n\nSpeaker 2 | 31:30 - 31:48\nBut the end of the journey is that the new the old world merges into the new world. Of course. Yes. So, obviously, data gravity is a wonderful thing if you're vast. How do customers feel about the idea of like moving all the data ultimately to one vendor?\n\nSpeaker 1 | 31:48 - 32:05\nSo because the interfaces are all standard, it's just as easy for them to move off of us as it is to move on to us. It's our job to make sure that they're happy. The one chart that I look at every morning is our customer happiness chart, that's the only thing we care about and if\n\nSpeaker 2 | 32:05 - 32:08\nWhat what does that look like? What what how do you measure\n\nSpeaker 1 | 32:08 - 32:40\nhas customer green, happiness? It has yellow, it has red and anybody in the company is allowed to move a customer from green to yellow or from yellow to red but very few people are allowed to move them back and so But based on what metrics? The only metric that really matters in order for us to move a customer back is that they say so. That they say we're happy now, everything is good, everything is solved. And yeah, that's what we work so hard every day to accomplish.\n\nSpeaker 1 | 32:40 - 33:13\nI think the numbers show that it's working. The numbers that people like you usually care about are net dollar retention, gross dollar retention, we don't have any churn in the company, our gross dollar retention, it's not a 100% because a few of our customers have gone out of business over the years but no one's actively decided I'm going to stop using VAST which is something I'm very proud of and on average our customers double and triple the amount of data that they place on our systems every year.\n\nSpeaker 2 | 33:13 - 33:35\nLet's get into some of the technicality of how the data interacts with models. What does it actually mean to move data to the GPU? And is it different for training compared to inference?\n\nSpeaker 1 | 33:35 - 34:01\nTraining is super simple. Training, you just need a lot of GPUs and you need to feed them with a lot of training data. Once in a while they put down a checkpoint so that if something crashes they don't have to go all the way back to the beginning but other than that there's not much to it. You need large scale, you need fast access, that's it. Inference is becoming a whole complex world of its own.\n\nSpeaker 1 | 34:01 - 34:46\nInference started by obviously being requiring low latency access because people are on the other end prompting and they want faster responses, that meant that you need a distributed system close to where those people are at the edge. That also means that you need a system that's always up. Somebody once told me one of the big model builders that if training is down nobody notices, if inference is down there is no service and so it needs to be up a 100% of the time. Resilience, distributed nature, low latency, very secure environments, all of that is important in inference versus training. But that's just the ground level.\n\nSpeaker 1 | 34:46 - 35:43\nOnce we start talking about multiple models, once we start talking about agents, once we start talking about reinforced learning, definitely once we expand outside of the world of data centers into physical AI and actual devices, each one of those adds another layer that means that we need to develop a new set of tools. For example, now that we have multiple models, each model is good at different things and so I want to make sure that this prompt makes its way to that model because it's good at software development. I want to make sure that this prompt makes its way to that model because it's inexpensive and this isn't a high value task. I wanna make sure that no sensitive information is exposed to this model because they're gonna use that information for things that I don't want them to whereas here I have a contract that protects me. And so just that aspect of it is starting to get complex.\n\nSpeaker 1 | 35:44 - 36:59\nOnce we start thinking in that direction, there's all kinds of optimizations that we need to do around things like heavy caching and saving context windows and making sure that we route the prompt not just to the right model but to the right GPU that has that model loaded and that has my context in cache. Context is just the last few minutes of conversation, we need short term memory the last few weeks or long term memory what happened two years ago to also be accessible through things like RAG into these environments and so all of that requires us to manage data, the raw data, the generated data, the input data, the weights of the model, the context, and we need to make sure that nobody sees information that they're not allowed to, we need to keep track as we do reinforced learning of what information went into fine tuning each model and make sure that information isn't leaked through interacting with somebody who's using that model whether it's a human or an agent. It becomes very very interesting as you layer one two three four of these things one on top of the other.\n\nSpeaker 2 | 36:59 - 37:21\nSo if you have enterprise data to play it back, that data could be used by the model through the context window, through the KV cache, which is the model's memory or through Rag. Who makes those decisions? Is your job as the fast data provider to just be available and then the model pulls as needed? How does that work?\n\nSpeaker 1 | 37:21 - 38:27\nSo we need policies to be set. And today we just connect into your organization's authentication and authorization mechanisms if you use active directory, if you use access control lists, we then know who is allowed to see what from a human perspective, we then extend that to agents as those inherit properties from the people that deploy them or from other agents that spawn them and based on that we know what's allowed, what are the rules of the game, then we need to enforce those rules which becomes very difficult when you're talking about multiple organizations. Most of these model builders won't let you infer within your environment which means that you just need to send your data to them and hope for the best. That I think has been slowing down the adoption of AI in a significant way and so we need to make sure that it's secure, need to make sure that it's safe, we need to make sure that there aren't any obstacles for AI to achieve its its true potential.\n\nSpeaker 2 | 38:27 - 38:44\nAnd to what you just said, the concept of agent memory works the same way. So accessing that vast data storage. Did you say you you effectively give the agent authentication authorization the way a human would?\n\nSpeaker 1 | 38:44 - 38:54\nVery similar. Okay. Yes. So access control lists that apply to a user ID. Now this user ID is assigned to an agent rather than a person.\n\nSpeaker 1 | 38:54 - 39:05\nWe have access control based on roles, we have access controls based on attributes, and so it's very fine granularity and you can in a dynamic way set your policies.\n\nSpeaker 2 | 39:05 - 39:10\nIt's accessing data but also what tool calls they can or cannot make.\n\nSpeaker 1 | 39:10 - 40:27\nCorrect and who they're allowed to talk to because now you have multiple agents talking to multiple people and so that conversation happens over a persistent streaming service that we provide that allows us then observability into it because we can query through the database and ask questions about those conversations and so the entirety of this remember it's not in one data center anymore it's across geographies and so the entirety of this new world gets managed by this operating system from a observability and from a control and from a policy setting perspective especially when it starts to expand outside the data center into cars and humanoid robots and satellites, then the stakes get higher because physical elements can create physical damage and so rather than just data safety, we need to think of things like actual safety. That robot should not pick up that tool or that car should never accidentally hit a person and so you need us to be in the data path to not just be able to report on these things but also to intervene and enforce the policy.\n\nSpeaker 2 | 40:27 - 40:55\nAnd in the meantime, the concept of agent collaboration, which is all the rage now, you know, highlighted in part through the recent security and safety issues, but concept of agent swarm is everywhere. So that collaboration layer would be also enabled the same way they would they would have access to a group like the way humans would have access to it. That's exactly right. A group access to data?\n\nSpeaker 1 | 40:55 - 41:55\nThat's exactly right and I think for a long time we've been hoping that interaction between AIs and interaction between agents will give us that next step function in level of intelligence in the same way that when we talk we make each other smarter and we give each other ideas. I think this solving of the Navier Stokes problem earlier this week proves that that is actually happening. They said 10,000 agents loose at an age old math problem and within a few days they came back with the result. And so that's one aspect that was missing I think, which is good for theoretical problems, the other aspect that's missing still is access to the natural world which is good for physical problems. And so, hopefully, that brings us to a level where the AI can help us solve some some of the big problems that we've been struggling with over the years.\n\nSpeaker 2 | 41:55 - 42:04\nAlright. Amazing. We said we would go back to that private and sensitive data and exposing it to commercial models. What is it called, by the way? It's called data enclave?\n\nSpeaker 1 | 42:04 - 42:05\nEnclave. Yes.\n\nSpeaker 2 | 42:05 - 42:06\nEnclave. Okay.\n\nSpeaker 1 | 42:06 - 42:09\nI'm not sure I like the name, but that's what we chose.\n\nSpeaker 2 | 42:10 - 42:16\nSo how does that work practically in simple terms but practically?\n\nSpeaker 1 | 42:16 - 43:51\nIt's super simple. In fact, it all goes back to encrypted memory. And so if today model builders want to keep their weights very close because that's their IP and they're afraid of giving it to a million customers and having one of them take it and do something that they're not supposed to, on the other hand a specific class of customers, specifically enterprises cannot just give their data to the model builders in the way that they're expected to today. What we're doing is we're letting that inference process rather than running within the premises of the model builder or within one of their clouds, we're letting it run within the premises of the enterprise whether it's a physical premises or VPC that they own. And the way that we make sure the model builders are happy is by encrypting those weights and we encrypt them end to end, we leverage, hardware abilities underneath us from companies like Nvidia who is a big part of this launch who allow us to bring encrypted data through the network into memory from memory up to the GPU and only the model builders inference application is allowed to access it and so we have full custody chain of control end to end such that those waits are safe and the enterprise knows that nobody can ever see their information.\n\nSpeaker 2 | 43:51 - 44:05\nAnd why is it possible now that that that concept of confidential computing I'm trying to remember the name. There are two or three names for that concept. It's been around for, like, a decade plus. Why is it happening now?\n\nSpeaker 1 | 44:05 - 45:04\nI don't think there's anything new in the underlying technology. It had to be plumbed because this was, as you say, available for a long time for CPUs, now it's available for GPUs and so that piece of it needed to be done underneath us. Our layer requires us to manage all of this and make sure we understand which model is, which does it belong to, who is allowed to see it, where should we block it, those types of things. I don't think there is a technological breakthrough that was required for this, I think it's just an idea whose time has come and it also requires many companies, many parts of the ecosystem to work together in order to provide this end to end solution and so we're working with the AI clouds to do it, we're working with the OEMs to build physical boxes that can sit in the enterprises data center, we're working with auto builders.\n\nSpeaker 2 | 45:04 - 45:06\nIs an appliance concept?\n\nSpeaker 1 | 45:06 - 45:16\nExactly. Companies like Cisco or Super Micro are now collaborating with us on this. And, of course, the chip makers themselves like NVIDIA.\n\nSpeaker 2 | 45:16 - 45:35\nAnd beyond the technology, there has to be a trust and auditability layer presumably, right? Because now you become the bottleneck like you're in the middle of like this great confluence of just different players from across the ecosystem. So how do you think about that?\n\nSpeaker 1 | 45:35 - 46:16\nI think that's where the trust should be, that's the layer that is on the one hand malleable because it's software, on the other hand it's low enough in the stack such that it can benefit all of the different applications. Historically that's where safety was done in the operating system and so we needed to be done in our layer. I hope that we are trustworthy, we're working very hard to build that trust with everybody else in the ecosystem. And yes, we're very very humbled to to be in the middle and in that position.\n\nSpeaker 2 | 46:16 - 46:43\nThat's like another huge milestone for the for the company. So amazing. I'd love to take a step back and just, like, think through the macro environment from your perspective. You're you're in this very privileged position as the the middle layer of the of the cake, as we said a couple of times now. So I'm I'm curious what what your take is on on on a bunch of of things.\n\nSpeaker 2 | 46:43 - 47:15\nSo, look, the inevitable question is around the demand side of the whole compute boom. So you work with a lot of the neo clouds and NVIDIA. Intimately familiar with the supply side. You're part of the supply side yourself. What gives you comfort that the demand side is going to materialize in a way that is not going to get this entire AI ecosystem in trouble?\n\nSpeaker 1 | 47:15 - 48:24\nI think the demand is there today, I'm not sure it gives me comfort and sometimes it scares me as to how much demand is there and the acceleration in demand because every quarter our customers are coming back to us and telling us they need a lot more than they thought they did. We had a customer, one of these AI clouds, one of the smaller ones come to us a quarter ago and we told them we need to plan ahead for the next three years because there's supply chain implications and you need to be aware of this and they said we're probably going to need about 500 petabytes over the next three years. And last week they came back to us and said we're gonna need an extra two exabytes on top of that 500 petabytes And my expectation is that from what I'm seeing in other parts of the landscape that they'll come back again in a quarter or two and say we need a double digit number of exabytes we we undershot. And we're seeing that across the board both in the smaller and medium sized environments as well as in the big environments where they thought they would need tens of exabytes and now they're talking in triple digits.\n\nSpeaker 1 | 48:24 - 48:25\nAnd how how much\n\nSpeaker 2 | 48:25 - 48:32\nof it is is BigLabs building versus end customers and end users?\n\nSpeaker 1 | 48:32 - 49:37\nWell, the BigLabs are building because they have end customers and end users that are using it, and the AI clouds are building because they have both big labs and medium labs that are consuming it and I don't think you'll find infrastructure that's just lying around and not being utilized at the moment. In fact the opposite is true, there is a lot more that people want to do that they cannot do. Some of these AI clouds have stopped selling more capacity just because they're sold out for the next year and a half. And so I think the limiting factor here is physical. It's land, it's power, it's chips, building fabs takes a long time and so, as fast as we feel this is moving and it is moving very very fast, it's still, the build outs are happening much more slowly than the demand, requires from them.\n\nSpeaker 1 | 49:37 - 50:07\nWill it sustain forever? I don't know. I'm sure over time there will be hiccups but as far as I can tell we're just at the very very beginning of most of the world running on AI and if AI will really be able to do all of these things that we are starting to see it do, it should continue at least for the next five to ten years at this pace. So we have a lot of work to\n\nSpeaker 2 | 50:07 - 50:24\ndo. Do the circular deals and the whole like financing debts aspect of the ecosystem does that make you nervous or do you think that's just like a means to whatever needs to happen for the ecosystem to be actually built?\n\nSpeaker 1 | 50:24 - 51:31\nSo I think going back to the beginning the old stack and the new stack, I think there's a new ecosystem getting built around the new stack and, some of the older companies are, joining this ecosystem and some have not yet joined this ecosystem and so it's lacking in liquidity at some points in this supply chain. We see the build outs that need to happen in some points need money in order to finance them and sometimes you need that money ahead of when the results appear and ahead of when you actually get returns on that investment and I think the companies that are in the ecosystem are a natural spot to get that liquidity because they see what's happening, they believe in it, they understand how big this is going to be versus someone who's on the outside looking in that maybe feels this is riskier for them to finance. And that's I think what's happening.\n\nSpeaker 2 | 51:31 - 52:01\nSpeaking of finance, you're in a very interesting and somewhat unique position because based on on the little ad now, think you guys are profitable. We are. Which is, you know, not not the case of just like a lot of other players in the ecosystem. Like, what what what does that tell us in terms of where risk in the ecosystem? Like, you happen to be in this layer which is indispensable and therefore there's no other competitor, therefore you can be profitable?\n\nSpeaker 2 | 52:01 - 52:06\nAre you more disciplined? What means what I guess?\n\nSpeaker 1 | 52:06 - 53:24\nIt's probably a combination, but I think it goes towards our business model. We sell software and so our gross margins are high and as we grow on the trajectory of AI growth which is pretty consistently been about 10 x every two years, we get more and more efficient and we generate more cash and we generate more profitability. The companies that are higher up the stack have a lot of compute costs that they need to do and the companies that are underneath us in the stack are building hardware and so they too have a very different business model than than the one that we have. But yeah, I think the combination of fast growth and efficient growth is something that we we've built into the way we work from the early days and it goes back to VCs not necessarily wanting to invest in the space in the early days so we needed to be self sufficient and it also goes back to VCs not wanting to invest in the space in the early days, we have less competition than maybe exists in some of these other layers.\n\nSpeaker 2 | 53:24 - 53:48\nYou have a lot of customers in the Neo Cloud ecosystem, and I'm I'm curious about what your view might be on that ecosystem. I mean, this literally hundreds of neo clouds. What do you think separates the one that will be around in two to three years as dominant forces in that ecosystem versus the ones that will not?\n\nSpeaker 1 | 53:48 - 54:30\nSo they need access to power, they need access to hardware, they need access to money. And I think the ones that will succeed are the ones that build, that know how to build. I find the end users come what Nvidia calls off takers and they want immediate access to compute and if you have it then they'll come to you and they're willing to pay and if you don't have it and you tell them let's build it together, we'll have it ready for you next year, then they'll go to somebody else. And so I've seen the ones that are most successful be the ones that build in anticipation of demand rather than behind the demand.\n\nSpeaker 2 | 54:30 - 54:34\nPhysically or build capacity through rentals or\n\nSpeaker 1 | 54:34 - 55:06\nEverything. And you don't have to own all of the layers of the stack. There are multiple layers of the stack underneath us and the Neo Clouds, but yeah. And I found I find the ones that have that combination of good relationship with the hardware vendors, access to power and land, and that are savvy in the way that they finance their operations be the ones that are most successful.\n\nSpeaker 2 | 55:06 - 55:45\nYeah. And and to the last point about money and the the, you know, it's you know, one can debate whether that's still current or not, but, like, the the the case against Neoclass for a long time was that, well, effectively, they're kind of like a financing vehicle for, NVIDIA GPUs. The primary, skill is finance and eventually hyperscalers will beat them because hyperscaler will always have a lower cost of capital. Is that in the three aspects that you mentioned, financing skills as important as the rest? What do you make of all of this?\n\nSpeaker 1 | 55:45 - 56:59\nI think that the reality has proven to be the opposite of what you just said. The fact that we have so many of these new AI clouds and the fact that the hyperscalers have not beaten them yet, I think it goes back to the innovator's dilemma. When you have something new to build and you have this old cash cow to focus on, it's a lot harder than when you have something new to build and you don't have that legacy. But yes, regardless of where it started, I think these AI clouds have built up skill set and a specialty and it's not the same to build this new stack and these AI factories versus to build the old stack and the way that the hyperscalers built clouds five and ten years ago, and every day that passes these AI clouds that are actually in the trenches doing the work, they're learning. And the neo clouds that are sitting on very cheap financing but not yet or the hyperscalers that are sitting on very cheap financing but are not yet doing this work are not learning that and so the gap in skills just keeps increasing.\n\nSpeaker 1 | 56:59 - 57:32\nNow I think the hyperscalers have realized that and if two years ago they were saying, yeah we have this, we have storage, we have compute, we have networking, we know what we're doing, we don't need to worry about this new thing. Today, they they're singing a very very different tune and I think they're aware of the fact that their lunch is being eaten by someone else and I think they're reacting to it, so it'll be very interesting to see how that dynamic evolves over the next couple of years.\n\nSpeaker 2 | 57:32 - 57:58\nWhat do you make of sovereign AI? It seemed to me that the concept of AI factory that we discussed at the very beginning was largely around this concept of sovereign AI like a year or two ago. As we discussed at the, again, at the beginning of this conversation, it seems to have expanded now to also include enterprises, but from your vantage point, what's the reality of that concept around the world as it applies to nations?\n\nSpeaker 1 | 57:59 - 59:10\nI think this becomes a basic need over time in the same way that electricity is a basic need or that water is a basic need, AI intelligence will be a basic need. We will not be able to live in the way that we would like to live without it And so in the world that we are in today, countries are adversarial one to the other and they don't trust each other and in the business community as much as we have competition, I think we collaborate very very nicely, but nations like to have their own and so every nation wants to make sure that The US can shut down its AI or that somebody else can shut down its AI and so they're trying to build sovereign AI solutions, obviously not every nation can build the software, not every nation can build the hardware, not every nation can build all the different layers of the stack but I think they get comfort from knowing that it's within their borders at least and within their jurisdiction from a legal perspective.\n\nSpeaker 2 | 59:10 - 59:31\nZooming out a little bit from that whole stack that we described with the five layers, Where do you think the value accrues over time and which part of the stack commoditized? People have been talking about model commoditization for a very long time. Does that commoditize? What about the rest?\n\nSpeaker 1 | 59:31 - 1:00:12\nI think the best way for me to think about this is to look to history. And historically, hardware tends to commoditize relatively quickly. We have because it's standard, not because it's easy, but maybe it's easier to copy, I don't know. The software layer tends to accrue a lot of value. If you look at the most valuable companies in the world today, if you look at Amazon, if you look at Microsoft, if you look at Apple, if you look at Google, those are the companies that built those software layers of the cloud, of the PC era, of the mobile era, of the Internet, and they are worth trillions of dollars as a consequence.\n\nSpeaker 1 | 1:00:12 - 1:00:49\nThe application layer, there tend to be a lot of applications, some of which will have a lot of value and others will not have that much value but I think consumer loyalty is something that is also valuable in those previous revolutions and so the software infrastructure layer tends to accrue a lot of value and then on a more selective basis at the application layer. Where the models fit into that is very, very difficult to say because we never had a model layer before. So that would be interesting to see.\n\nSpeaker 2 | 1:00:49 - 1:01:06\nAnd you see the model companies have become application companies and the interesting semi recent trend has been to see the application companies become model companies again starting to do a lot more work whether that's a, you know, a condition or a cursor or\n\nSpeaker 1 | 1:01:07 - 1:01:18\nSo I'm not sure those two layers will stay separate over time. Perhaps they merge back into one. In the old stack, we had only four layers and the new stack perhaps that merges well.\n\nSpeaker 2 | 1:01:18 - 1:01:50\nI'm curious about how you think about the place of Nvidia in the ecosystem. The name has come up already a bunch of times during this conversation and it's so central. They're an investor, they're a partner. How does one work with such a dominant player in the space in a way that preserves optionality and preserves your independence as a and then self reliance as a business long term?\n\nSpeaker 1 | 1:01:51 - 1:02:57\nSo interestingly other than as an investor there's no legal document between us and Nvidia. They don't resell our solution, we don't actually do anything together from a legal perspective. Having said that, they are our best partner by far and at any given point in time we have high teens number of projects that we're collaborating with them on. We have a triple digit number of developers working with them, they have the same on their side with us, everything ranging from new networking gear to new inference microservices to this agentic confidential computing project to the next generation of GPUs and DPUs and how we take advantage of them. All of that we love because as we build this together then the solution ends up being better for our joint customers.\n\nSpeaker 1 | 1:02:59 - 1:03:59\nAnd so we really enjoy working with NVIDIA also from a cultural perspective. They move fast, they believe that anything that is physically possible is possible, they believe that it can be done, when others believe that it cannot and so it's been a lot of fun working with them, in parallel to it being also very lucrative because they are the ones that are creating these new environments and putting names on all of these new concepts and so they're leading the charge and we're trying to as much as we can ride their coattails. Having said that, there's no type of exclusivity. We work with AMD, we work with other companies in parallel to working with Nvidia. In practice, they do have the majority of the market and so the majority of the deployments that we have are with them.\n\nSpeaker 2 | 1:03:59 - 1:04:20\nOne other thing that strikes me in the big part of this conversation is that you guys seem to be just like relentlessly launching new product, expanding new to new customers, having key relationships. We mentioned NVIDIA, but this xAI has been, you know, a very important customer for for for you guys. What have you learned in terms of moving at the speed of AI?\n\nSpeaker 1 | 1:04:20 - 1:05:16\nWell, you can't move faster than Elon. I was fortunate to see some of the ways in which he pushes his team to move faster and it's it's super simple. You find the limiting factor and you get rid of it and then you find the new limiting factor and you get rid of it, and that cycle keeps accelerating you faster and faster and faster. And that's what we like. The reason we keep innovating and keep accelerating and keep demanding more from ourselves is a) because we're paranoid and we're afraid that somebody from somewhere will pop up and try to catch up to us, but b) because we love it, we enjoy it, it's it's the joy of building new things and exploring and figuring stuff out that you didn't know how to do last week or last month and our customers expect that from us.\n\nSpeaker 1 | 1:05:16 - 1:05:36\nOur customers are the most demanding in the world and they're all in a race and they're racing each other in this quest for better AI and they need us to never slow them down. We can never be the limiting factor in their progress and in achieving their success.\n\nSpeaker 2 | 1:05:36 - 1:05:55\nAnd and practically for for the founders or leaders listening to this, how does one actually do that? Meaning finding bottlenecks and because the bigger the organization the more bottlenecks they are and they may be at the know top of the organization or at the very bottom as a CEO how do you do that?\n\nSpeaker 1 | 1:05:55 - 1:06:34\nYou have to talk to people and ask them that question. They know. As CEO you don't know but the people that are on the ground know and so you need to build an organization that's as flat as you can possibly build it such that you have direct access to everybody and you need to build an organization where people are not afraid of raising those problems. There cannot be a chain of command because that slows things down. I think I heard this from Elon, bad things should be stated loudly and often and good things once and softly.\n\nSpeaker 1 | 1:06:36 - 1:06:54\nSo we can't get into a mode where we're congratulating ourselves too much, we always have to be in this mode of somebody's going to kill us. We don't know who it is, and we have to keep fixing everything so that they don't have a crink in the armor to get in through.\n\nSpeaker 2 | 1:06:54 - 1:07:18\nAlright. So maybe to close some kind of forward thinking, projecting ourselves in the future a little bit as as as possible as it can be today. But ten years in from now, whatever many years, looking back, what industry believes today that may turn out to be wrong? Like, just just one thing that may come to mind.\n\nSpeaker 1 | 1:07:18 - 1:08:39\nI think ten years from now, again assuming AI and I think we're starting to see proof points, will not plateau at the level of human intelligence but will continue beyond the level of human intelligence and assuming it has physical access to all of the things that we have physical access to in on this planet and in space, I think everything is different, nothing is the same ten years from now. We will not be needed for all of these tasks and I think the way government is structured will be different and I think the way money is transferred and ownership of things will be different and the way we think about how we live our lives will be very different and so it's impossible for me to imagine that world except to say that it's probably gonna be a lot more different to what we have today versus where we are now, and where we were a thousand years ago. So I think in the next ten years we'll see more difference than we did in the last thousand years if this plays out in the way that it seems to be playing out.\n\nSpeaker 2 | 1:08:39 - 1:08:55\nAnd in that world, and maybe that's not ten years, that's just five years, in your wildest dreams or perhaps your very pragmatic vision, where does VAST sit? Becoming the operating system for AI, what does that actually mean if everything plays out?\n\nSpeaker 1 | 1:08:55 - 1:09:45\nWe want to a, enable this so that it actually can happen and that we don't see, obstacles in the form of we don't have the required infrastructure for it to happen because we can only build this fast and we want to build a thousand times faster or a thousand times bigger, we need to make sure that it doesn't kill us and so that it's safe and that along the path we, put safeguards in place, and enable us as people to understand what's happening, at the very least if not guide what's happening. I tell my team all the time, if all the data is managed by us, we can't ask for anything more than that. We're still a ways away from that but that's that's the ideal that we're we're marching towards.\n\nSpeaker 2 | 1:09:45 - 1:09:52\nAll the data in the world. Alright. Well, that feels like a wonderful place to leave it, Renan. Thank you so much. This was a terrific conversation.\n\nSpeaker 1 | 1:09:52 - 1:09:53\nThank you.\n\nSpeaker 2 | 1:09:54 - 1:10:14\nHi, it's Matt Turk again. Thanks for listening to this episode of the MAD Podcast. If you enjoyed it, we'd be very grateful if you would consider subscribing if you haven't already or leaving a positive review or comment on whichever platform you're watching this or listening to this episode. This really helps us build a podcast and get great guests. Thanks and see you on the next episode."
+    }
+  ],
+  "blogs": [
+    {
+      "source": "blog",
+      "name": "Claude Blog",
+      "title": "Claude Cowork and chat are now one Claude",
+      "url": "https://claude.com/blog/cowork-is-now-claude",
+      "publishedAt": "Sep 16, 2026",
+      "author": "",
+      "description": "",
+      "content": "Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. It’s rolling out on Pro and Max plans over the next few weeks, with more plans to follow. What Claude makes doesn’t need its own place either. Claude Docs and Claude Slides are new today, and Claude Design now works inside your conversations too. Ask for a document, and you and Claude write it together. Ask for a presentation, and Claude drafts the slides. You can edit directly, present straight from Claude, or download as PowerPoint or PDF. All three are in beta on paid plans, and Enterprise admins choose when to turn them on. If you use Claude Design on its own, it keeps working as before. We built Cowork as a separate place for bigger work, and Design for visual work. People used both, and told us the frustrating part was deciding where a task belonged. What they’d started in one also didn’t carry into the other. So we stopped making you choose. Claude can now figure out what a task needs, so what Cowork and Design can do is available from any conversation, with the context, skills, and connectors you already have. “I could have Claude pull up [my legal research database], and it would pull all the cases, read them, figure out which other cases I might need, download them, and store them in a folder for my personal review.” - Andrew Keller, Senior Economist What it looks like A weekly report is due at noon. Before you head out, you ask Claude what moved in the pipeline last week, then add: “Write it the way we always do, flag anything that slipped, and put the highlights in five slides for the leadership meeting.” If something’s unclear, Claude asks. You can check progress from your phone on the way to the office. By the time you’re at your desk, the report is waiting as a doc with notes from your teammate, and the slides are ready to open, adjust, and download as PowerPoint. Both came out of the same conversation, so the slides already match the report. You fix a line yourself, leave a comment for Claude on a slide, and share it. Schedule it for every Monday, and Claude starts on the report without being asked. Anything you make with Claude Design, Slides, or Docs lives at one shareable link you can open on your phone. You can select an element and move it, or tell Claude what you want changed. You can choose how Claude checks in with you. By default, Claude asks before taking an action. If you’d rather let it keep working and check in only when something needs a closer look, you can turn that on. You keep the final say. Getting started If you mostly use chat, you don’t have to do anything different. When you want to hand over something bigger, try the next report or deck you’d normally build yourself. If you’ve been working in Cowork, everything is where you left it: your chats, projects, artifacts, connectors, and skills. When you open the app, pick up where you left off. This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans. There’s nothing to turn on. Team and Free plans will follow soon, and Enterprise admins will hear from us at least 30 days before anything changes for their organizations. The full list of capabilities is in the Help Center . If you’ve been saving up a big messy project, now’s the time."
+    },
+    {
+      "source": "blog",
+      "name": "Claude Blog",
+      "title": "Claude for Small Business launches new workflows, integrations, and training programs",
+      "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+      "publishedAt": "Sep 15, 2026",
+      "author": "",
+      "description": "",
+      "content": "Claude for Small Business now includes 43 workflows and 27 new integrations with tools small businesses already use, including Shopify, Salesforce, TikTok, Atlassian, Zoom, Xero, Gusto, Square, Stripe, and Zapier. The new workflows extend Claude from running the back office to growing the business, and they arrive with a fall schedule of free in-person workshops and partner webinars for owners who want help getting started. We launched Claude for Small Business in May as a set of connectors and ready-to-run workflows that put Claude inside the tools owners depend on. It has since been installed more than 900,000 times. Thank you to our original, and continued, partners Intuit Quickbooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365.On our spring Claude SMB Tour, more than 1,000 owners in 10 cities told us what they wanted Claude to take on next. About a third asked for help growing the business: generating leads, answering inbound inquiries, and writing proposals. Many also wanted day-to-day reporting handled for them. We built this new release around those requests. The tour returns this fall with free workshops in 10 US cities. More than 150 organizations we&#x27;ve trained as Approved Claude SMB Trainers will run over 750 workshops in their own communities, and 14 integration partners are hosting free webinars about their connectors. Here&#x27;s what small business leaders shared with us during the first leg of our Claude SMB tour: “What used to take me 120 hours now takes me five minutes. I have so much time on my hands that I can now spend more time with my family, do things I like, and pursue parts of my business that I’ve always neglected.” — Pedro Rubio, Founder and CEO, Blackfyre GovCon, Washington, D.C. \"I really see Claude as an equalizer for small businesses, where we can do stuff as big as a 100 person, 200 person firm now. At 40 people and scaling, that&#x27;s how we get time back for our clients and culture.\" — Cara Roellgen, Director of Strategy and Innovation, KBSO Consulting, Carmel, Indiana \"At 6:00 am every morning, it goes and looks through our CRM, gets all of the to-do list items, prioritizes them, and sends out an email saying, here&#x27;s what needs to be done today, here&#x27;s the biggest priorities. We call it the daily briefing.\" — Garrett French, Owner, Driller Design Co., Tulsa, Oklahoma \"I made $20,000 in the last month and a half using Claude to do these professional proposals. I know that&#x27;s getting the business, and it put money in my bank account. How about that?\" — Dan Ninerell, Founder, Modern Classical Chefs, South Jersey, New Jersey \"We tell it [Claude] what the end goal is. It goes and tests, and 90% of the time it gets it right. We&#x27;re a five-person company. I think we&#x27;ve done quite a bit with it.\" — Bill Hood, Co-Founder, TruckingMBA, Chattanooga, Tennessee \"The thing that makes it most beneficial to us are the integrations. We use Slack, and that&#x27;s how we talk to it. It integrates with Intuit QuickBooks. It&#x27;s pulling everything from everywhere instead of us having to find different pieces of information all over. It&#x27;s all in one place.\" — Kati Jo Hodges, Director of Operations, Premier Geotech and Testing, Baton Rouge, Louisiana A week with Claude for Small Business Here’s a week-in-the-life of a small business owner using Claude to run and grow their business, inspired by how small business owners are using Claude today. Your week with Claude Sunday, 8:00pm Install and onboard Connect the tools you already use and pick your first task. Monday, 7:00am The weekly brief Cash, sales, pipeline, and overdue invoices on one page. Monday, 9:40pm Responding to inbound leads After-hours inquiries qualified, answered, and logged. Wednesday Writing proposals A voice memo becomes a priced, branded proposal. Thursday Unblocking marketing campaigns Next week's posts and review replies, ready for your OK. Month end Closing the books Reconciled accounts and a close packet for your accountant."
+    }
+  ],
+  "githubTrending": [
+    {
+      "repo": "vectorize-io/hindsight",
+      "owner": "vectorize-io",
+      "name": "hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 4520,
+      "totalStars": 38405,
+      "forks": 5020,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 3086,
+      "totalStars": 40864,
+      "forks": 4854,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "owner": "paperclipai",
+      "name": "paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 2401,
+      "totalStars": 90760,
+      "forks": 15728,
+      "channel": "全语言热门 / TypeScript/前端"
+    },
+    {
+      "repo": "dream-num/univer",
+      "owner": "dream-num",
+      "name": "univer",
+      "url": "https://github.com/dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 895,
+      "totalStars": 20776,
+      "forks": 1767,
+      "channel": "全语言热门 / TypeScript/前端"
+    },
+    {
+      "repo": "pacifio/atlas",
+      "owner": "pacifio",
+      "name": "atlas",
+      "url": "https://github.com/pacifio/atlas",
+      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "starsToday": 588,
+      "totalStars": 8134,
+      "forks": 334,
+      "channel": "TypeScript/前端"
+    },
+    {
+      "repo": "mobile-next/mobile-mcp",
+      "owner": "mobile-next",
+      "name": "mobile-mcp",
+      "url": "https://github.com/mobile-next/mobile-mcp",
+      "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 577,
+      "totalStars": 8009,
+      "forks": 687,
+      "channel": "TypeScript/前端"
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "owner": "heygen-com",
+      "name": "hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 304,
+      "totalStars": 53719,
+      "forks": 4895,
+      "channel": "TypeScript/前端"
+    },
+    {
+      "repo": "microsoft/data-formulator",
+      "owner": "microsoft",
+      "name": "data-formulator",
+      "url": "https://github.com/microsoft/data-formulator",
+      "description": "🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 112,
+      "totalStars": 17457,
+      "forks": 1714,
+      "channel": "Python AI 专区"
+    }
+  ]
+}
