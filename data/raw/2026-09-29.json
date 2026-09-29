@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
   "isMondayLookback": false,
-  "fetchedAt": "2026-09-29T10:02:23.210Z",
+  "fetchedAt": "2026-09-29T14:13:57.852Z",
   "stats": {
     "buildersCount": 18,
     "totalTweets": 34,
@@ -533,19 +533,6 @@
   "blogs": [],
   "githubTrending": [
     {
-      "repo": "vectorize-io/hindsight",
-      "owner": "vectorize-io",
-      "name": "hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 4561,
-      "totalStars": 41833,
-      "forks": 5613,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
       "repo": "debpalash/VoiceStudio",
       "owner": "debpalash",
       "name": "VoiceStudio",
@@ -553,9 +540,22 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 3221,
-      "totalStars": 45988,
-      "forks": 5224,
+      "starsToday": 4712,
+      "totalStars": 46741,
+      "forks": 5287,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "owner": "vectorize-io",
+      "name": "hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 2541,
+      "totalStars": 42179,
+      "forks": 5663,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -566,10 +566,23 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 3197,
-      "totalStars": 93782,
-      "forks": 15971,
+      "starsToday": 2412,
+      "totalStars": 94028,
+      "forks": 16002,
       "channel": "全语言热门 / TypeScript/前端"
+    },
+    {
+      "repo": "NVIDIA/OpenShell",
+      "owner": "NVIDIA",
+      "name": "OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "starsToday": 978,
+      "totalStars": 10100,
+      "forks": 1385,
+      "channel": "全语言热门"
     },
     {
       "repo": "dream-num/univer",
@@ -579,10 +592,23 @@
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 1099,
-      "totalStars": 21555,
-      "forks": 1822,
+      "starsToday": 692,
+      "totalStars": 21657,
+      "forks": 1828,
       "channel": "全语言热门 / TypeScript/前端"
+    },
+    {
+      "repo": "t8y2/dbx",
+      "owner": "t8y2",
+      "name": "dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "starsToday": 460,
+      "totalStars": 21713,
+      "forks": 2074,
+      "channel": "全语言热门"
     },
     {
       "repo": "mvschwarz/openrig",
@@ -592,49 +618,23 @@
       "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 734,
-      "totalStars": 2017,
-      "forks": 150,
+      "starsToday": 733,
+      "totalStars": 2147,
+      "forks": 159,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
-      "repo": "byoungd/up",
-      "owner": "byoungd",
-      "name": "up",
-      "url": "https://github.com/byoungd/up",
-      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "starsToday": 327,
-      "totalStars": 65328,
-      "forks": 6556,
-      "channel": "全语言热门"
-    },
-    {
-      "repo": "moeru-ai/airi",
-      "owner": "moeru-ai",
-      "name": "airi",
-      "url": "https://github.com/moeru-ai/airi",
-      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "repo": "oblien/openship",
+      "owner": "oblien",
+      "name": "openship",
+      "url": "https://github.com/oblien/openship",
+      "description": "Self-hosted deployment platform",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 274,
-      "totalStars": 49775,
-      "forks": 4959,
-      "channel": "TypeScript/前端"
-    },
-    {
-      "repo": "mobile-next/mobile-mcp",
-      "owner": "mobile-next",
-      "name": "mobile-mcp",
-      "url": "https://github.com/mobile-next/mobile-mcp",
-      "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "starsToday": 449,
-      "totalStars": 8353,
-      "forks": 723,
-      "channel": "TypeScript/前端"
+      "starsToday": 436,
+      "totalStars": 13612,
+      "forks": 1215,
+      "channel": "全语言热门 / TypeScript/前端"
     }
   ]
 }
