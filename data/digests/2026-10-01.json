@@ -1,0 +1,736 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T07:12:27.498Z",
+  "isMondayLookback": false,
+  "stats": {
+    "buildersCount": 17,
+    "totalTweets": 34,
+    "blogCount": 0,
+    "podcastCount": 1,
+    "githubCount": 8
+  },
+  "sections": {
+    "x": [
+      {
+        "author": "Swyx",
+        "handle": "swyx",
+        "role": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod",
+        "avatar": "",
+        "summary": "AI 开发者 Swyx 分享了其播客 Latent Space 登顶 Apple Podcasts 热门榜单（甚至超越 MKBHD）的喜讯，强调优质内容无需刻意做平台优化；同时他高度赞誉硬件协同工具 Flow，称其正如 Git+GitHub 改变软件工程一样重塑硬件研发范式；此外他还吐槽了某些专业科技媒体未经署名裁剪视频的现象。",
+        "translation": "[推文 1] 在专业科技媒体行业里，裁剪掉别人的 Logo 并且连一个简单的 YouTube 视频都不标注来源，这是正常操作吗？还是说这行业到底是怎么运作的？\n\n[推文 2] 我真的完全没有针对 Apple Podcasts 做过任何优化（而且非常讨厌 Spotify），所以能和一些行业传奇一同登上顶级播客榜单、甚至超越了 @MKBHD，这简直太疯狂了。\n\n[推文 3] Flow 正在为硬件工程带来当年 Git+GitHub 为软件工程带来的变革。它通过统一协调数千名利益相关者，加速了从汽车到火箭等复杂、不可逆且高价值的开发流程。一旦体验过 Flow，你就再也退不回‘电子表格_最终版_最终版_v23’的时代了。非常自豪能先成为朋友，再成为其小微投资人（smol investor）。",
+        "recommendation": "Swyx 主持的 Latent Space 是目前 AI 领域最顶级的技术播客之一，其洞察极具前瞻性。本次动态不仅印证了技术社区深度内容的价值，更揭示了软件工程协同范式（如 Git 思想）正在向硬件及 AI 硬件生态快速渗透的行业新趋势，对 AI 创业者与开发者均具启发意义。",
+        "url": "https://x.com/swyx/status/2105538561672085751",
+        "rawTweets": [
+          {
+            "id": "2105538561672085751",
+            "text": "is it normal to crop out other people's logo and not attribute to a simple youtube video or how does this work in professional tech media https://t.co/RMciDG1IJS https://t.co/Wfmcnmv9b7",
+            "createdAt": "2026-10-01T06:01:26.000Z",
+            "url": "https://x.com/swyx/status/2105538561672085751",
+            "likes": 93,
+            "retweets": 0,
+            "replies": 20,
+            "isQuote": true,
+            "quotedTweetId": "2104201900723700068"
+          },
+          {
+            "id": "2105419486383964544",
+            "text": "i genuinely dont do anything to optimize for apple  podcasts (and actively hate spotify) so being on the top podcast list here among some industry legends  and even beating @MKBHD is pretty fkin nuts https://t.co/myUbdjzfyr",
+            "createdAt": "2026-09-30T22:08:17.000Z",
+            "url": "https://x.com/swyx/status/2105419486383964544",
+            "likes": 5,
+            "retweets": 0,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2105348724331606411",
+            "text": "Flow is doing for hardware engineering what Git+GitHub did for software engineering. It's enabled so much acceleration due to aligning thousands of stakeholders for complex, irreversible, high value pipelines from cars to rockets. \n\nYou cannot go back to spreadsheet_final_FINAL_v23 once you've been in Flow.\n\nproud to be a friend first, and smol investor second.",
+            "createdAt": "2026-09-30T17:27:06.000Z",
+            "url": "https://x.com/swyx/status/2105348724331606411",
+            "likes": 67,
+            "retweets": 2,
+            "replies": 45,
+            "isQuote": true,
+            "quotedTweetId": "2105328725978132494"
+          }
+        ]
+      },
+      {
+        "author": "Josh Woodward",
+        "handle": "joshwoodward",
+        "role": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "avatar": "",
+        "summary": "Google 实验室及 Gemini 产品副总裁 Josh Woodward 发推发布了关于“Gemini 4 Argon”的最新动态。作为 Google AI 团队的核心负责人，这一表态预示着 Gemini 模型家族迎来代号为 Argon 的新版本或重要架构更新。这标志着谷歌在加速推进下一代大语言模型的迭代与产品化落地。",
+        "translation": "Gemini 4 Argon！https://t.co/my712dCXrs",
+        "recommendation": "Josh Woodward 作为 Google AI Studio 和 Gemini 的核心管理者，其高调官宣意味着 Gemini 体系迎来重大版本更新。AI 从业者与开发者应密切关注 Argon 代号背后的模型能力升级与开发者工具链调优。",
+        "url": "https://x.com/joshwoodward/status/2105396307250782446",
+        "rawTweets": [
+          {
+            "id": "2105396307250782446",
+            "text": "Gemini 4 Argon! https://t.co/my712dCXrs",
+            "createdAt": "2026-09-30T20:36:10.000Z",
+            "url": "https://x.com/joshwoodward/status/2105396307250782446",
+            "likes": 1319,
+            "retweets": 59,
+            "replies": 38,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "role": "Codex & ChatGPT @OpenAI",
+        "avatar": "",
+        "summary": "OpenAI 开发者 Thibault Sottiaux 透露，GPT-6.1 Sol 已成为 OpenAI 有史以来 API 和订阅端需求量最大的模型，团队已通过扩容将服务速度提升近两倍。此外，ChatGPT 现已支持直接构建与部署 MCP（模型上下文协议）服务器，并支持自定义共享权限。同时他还展示了其个人 AI 助手（dot）联网检索照片并完成肖像创作的交互体验。",
+        "translation": "[推文 1] 顺便补充一点，你现在可以直接通过 ChatGPT 构建和部署 MCP 服务器了。你可以将其访问权限限制给特定人员，也可以分享给全世界。\n\n[推文 2] GPT-6.1 Sol 几乎是我们有史以来在 API 和订阅端需求量最大的模型。在 ChatGPT 和 Codex 中，我们此前承受着巨大的高负载，但目前已上线更多容量，未来几小时内速度将大幅改善，达到昨天服务速度的近两倍。\n\n[推文 3] 我让我的 dot 给我画张画。在发给我一张偏卡通风格的图片后，我让它再努力一点，去互联网上找一张我最近的照片。它做得更好了。下面的视频是我在点击浏览我的 dot 的电脑界面。",
+        "recommendation": "ChatGPT 直接集成 MCP 服务器的构建与部署，极大降低了上下文生态与工具扩展的门槛，标志着大模型正在向“应用一体化平台”演进。同时，GPT-6.1 Sol 的爆火也反映了开发者对高性能推理与代码模型的极高需求，值得 AI 从业者持续关注其工程落地与应用闭环。",
+        "url": "https://x.com/thsottiaux/status/2105519215092584786",
+        "rawTweets": [
+          {
+            "id": "2105519215092584786",
+            "text": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it with the world. https://t.co/KZwGmxL9ew",
+            "createdAt": "2026-10-01T04:44:34.000Z",
+            "url": "https://x.com/thsottiaux/status/2105519215092584786",
+            "likes": 2082,
+            "retweets": 126,
+            "replies": 194,
+            "isQuote": true,
+            "quotedTweetId": "2105428405571428785"
+          },
+          {
+            "id": "2105464274747527543",
+            "text": "GPT-6.1 Sol is our most demanded model pretty much ever both across both the API and subscriptions. \n\nWithin ChatGPT & Codex, we were under heavy load, but have brough more capacity online and the speed should get much better in the coming hours, reaching almost twice the speed compared to what we served yesterday.",
+            "createdAt": "2026-10-01T01:06:15.000Z",
+            "url": "https://x.com/thsottiaux/status/2105464274747527543",
+            "likes": 8735,
+            "retweets": 358,
+            "replies": 1025,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2105395200248156556",
+            "text": "Asked my dot to paint me. After sending me something cartoonish, I asked it to try a bit harder and to find a recent picture of me on the internet. It did better.\n\nBelow video is me clicking through my dot's computer. https://t.co/AutVg2erlh",
+            "createdAt": "2026-09-30T20:31:46.000Z",
+            "url": "https://x.com/thsottiaux/status/2105395200248156556",
+            "likes": 2284,
+            "retweets": 42,
+            "replies": 381,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Peter Yang",
+        "handle": "petergyang",
+        "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "avatar": "",
+        "summary": "知名 AI 内容创作者 Peter Yang 对最新发布的 Google Gemini 4 给出了高度评价，认为其表现惊艳，同时指出 Google 接下来需要在编程开发框架（Antigravity）及个人 Agent（Spark）生态上持续发力。此外，他也分享了参加 DevDay 期间现场用户的积极反馈与线上评论区差异的幽默感悟，折射出当前 AI 社区的真实生态。",
+        "translation": "[推文 1] 我在 DevDay 遇到的人：“非常喜欢你的频道！谢谢你！”\nYouTube 评论区的人：“该死的 AI 吹客 🥲”\n\n[推文 2] 事情越来越火爆了 🌶️\n\n[推文 3] 谷歌在 Gemini 4 上真是发了大招！现在他们只需要在编程框架（Antigravity）和个人 Agent（Spark）上更有竞争力就行了。",
+        "recommendation": "Peter Yang 敏锐地指出了大模型竞争的下半场焦点：除了基座模型能力（如 Gemini 4），决定开发者与终端用户粘性的关键在于编程套件（Coding Harness）与个人 Agent 的应用生态。这对关注 AI 产品落地和应用层开发的从业者极具启发意义。",
+        "url": "https://x.com/petergyang/status/2105486915147645063",
+        "rawTweets": [
+          {
+            "id": "2105486915147645063",
+            "text": "People I met at DevDay: I love your channel! Thank you!\n\nPeople in YouTube comments: Fing AI shill \n\n🥲",
+            "createdAt": "2026-10-01T02:36:13.000Z",
+            "url": "https://x.com/petergyang/status/2105486915147645063",
+            "likes": 48,
+            "retweets": 0,
+            "replies": 16,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2105427638236180883",
+            "text": "This is getting nuclear 🌶️ https://t.co/vFIgF8GRFH",
+            "createdAt": "2026-09-30T22:40:40.000Z",
+            "url": "https://x.com/petergyang/status/2105427638236180883",
+            "likes": 99,
+            "retweets": 2,
+            "replies": 3,
+            "isQuote": true,
+            "quotedTweetId": "2105412175707902198"
+          },
+          {
+            "id": "2105393240392585359",
+            "text": "Google cooked on Gemini 4! \n\nNow they just need to be more competitive on coding harness (Antigravity) + personal agent (Spark). https://t.co/shCRH678Ow",
+            "createdAt": "2026-09-30T20:23:59.000Z",
+            "url": "https://x.com/petergyang/status/2105393240392585359",
+            "likes": 171,
+            "retweets": 5,
+            "replies": 42,
+            "isQuote": true,
+            "quotedTweetId": "2105388084154056939"
+          }
+        ]
+      },
+      {
+        "author": "Nan Yu",
+        "handle": "thenanyu",
+        "role": "product, codex @openai. prev head of product @linear",
+        "avatar": "",
+        "summary": "前 Linear 产品负责人 Nan Yu 加入 OpenAI 一周后分享观察，称其企业文化中“极度偏向行动”的特质令人印象深刻。尽管公司规模已大幅扩张，但这种从讨论到交付的极速反馈机制依然保持着初创企业的敏捷与活力。",
+        "translation": "对比不同公司内部文化中被视为理所当然的准则是一件很有趣的事。我加入 OpenAI 仅一周左右，最让我感到震撼的是这里‘极度偏向行动’的文化。这种特质体现在大大小小的方方面面……有时你只是随口讨论了一个潜在功能，等你回到工位时，相关的 PR（代码合并请求）就已经摆在面前了。又或者你在 Slack 上随口说一句‘下周一起吃个午饭吧’，五分钟内日历上就出现了会议邀请。这种文化也有其弊端，因为它常让人感觉一切都处于一触即发的状态，事情随时会发生变动。但这种能量是无法通过教学获得的，一旦失去，就极难找回。OpenAI 已经不再是一家小公司了，它在旧金山拥有多栋大型办公楼，能保持这种能量实属难得。",
+        "recommendation": "对于 AI 创业者和团队管理者而言，该推文揭示了高增长阶段如何通过“极速反馈”机制对抗大公司病。它启发我们思考：在追求技术突破的同时，如何通过制度设计维持团队的敏捷性与执行力。",
+        "url": "https://x.com/thenanyu/status/2105316751802348005",
+        "rawTweets": [
+          {
+            "id": "2105316751802348005",
+            "text": "It’s interesting to contrast, what different companies take for granted in their internal cultures\n\nI’ve only been at OpenAI for about a week, and the thing that stands out is absurdly high bias towards action\n\nThis shows up in ways big and small…\n\nSometimes you have a casual discussion about a possible feature, and the PR is sitting in front of you by the time you get back to your desk \n\nOr you meet someone on Slack and say: “let’s grab lunch next week” and the meeting invites on your calendar within the next five minutes\n\nThis has its downsides. because it often feels like everything’s behind a hair trigger, and things just change out from under you— but you can’t really teach this energy, and if you ever lose it, it’s unbelievably hard to get it back\n\nOpen AI is not a tiny company anymore. It’s got several massive buildings in San Francisco, it’s impressive that this energy still persists",
+            "createdAt": "2026-09-30T15:20:03.000Z",
+            "url": "https://x.com/thenanyu/status/2105316751802348005",
+            "likes": 180,
+            "retweets": 0,
+            "replies": 11,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Thariq",
+        "handle": "trq212",
+        "role": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+        "avatar": "",
+        "summary": "Anthropic Claude Code 团队工程师 Thariq 分享了他在独立游戏原型开发中的实践与思考。他透露目前的项目仍处于原型阶段，在角色大跳等控制方案和画面表现上经历了多次变体尝试。他指出，个人做原型虽有趣，但要打造出高完成度的正式作品，仍需 2-3 人的精干团队及专业美术/设计的深度协作。",
+        "translation": "我希望这个角色拥有高跳技能，但目前还没有找到满意的方式将其融入控制方案中，我已经尝试了大约 2-3 种变体。\n\n这些都还只是原型水准，画面质量和手感还没达到能让大家游玩的程度。要制作一款真正的游戏，我可能需要对这个角色进行 3-4 次迭代变体，并在游戏中设计大约 8-10 个角色。\n\n虽然做原型很有趣，但我认为最理想的状态是与 2-3 人的小团队共同开发。现在的动画和设计虽然还凑合，但如果有专业领域的大牛加入，能把它做得好得多。",
+        "recommendation": "展示了顶尖 AI 工程师在利用 AI 工具进行跨界独立开发（如游戏制作）时的真实迭代路径。阐明了从“个人快速原型验证”走向“高完成度产品”时，在专业设计、控制手感及团队分工上的必然演进，对兼顾 AI 编程与产品创意的全栈开发者极具借鉴意义。",
+        "url": "https://x.com/trq212/status/2105333509246386546",
+        "rawTweets": [
+          {
+            "id": "2105333509246386546",
+            "text": "While prototypes are fun, I think ideally I'd work on this with a small group of 2-3 people. \n\nThe animations, design, etc. are fine but someone with expertise could help make it much better.",
+            "createdAt": "2026-09-30T16:26:38.000Z",
+            "url": "https://x.com/trq212/status/2105333509246386546",
+            "likes": 103,
+            "retweets": 0,
+            "replies": 14,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2105333507711271060",
+            "text": "This all prototype quality. The graphics and feel are not high quality enough for you to play.\n\nTo make a real game I'd probably go through 3-4 variations of this character, and have maybe 8-10 characters in the game.",
+            "createdAt": "2026-09-30T16:26:38.000Z",
+            "url": "https://x.com/trq212/status/2105333507711271060",
+            "likes": 73,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2105333506226503710",
+            "text": "I want this character to have a big jump, but so far I haven't been able to fit into the control scheme in a way I like. \n\nI've tried maybe 2-3 variations. https://t.co/gRoR3HOw9j",
+            "createdAt": "2026-09-30T16:26:37.000Z",
+            "url": "https://x.com/trq212/status/2105333506226503710",
+            "likes": 55,
+            "retweets": 0,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Google Labs",
+        "handle": "GoogleLabs",
+        "role": "Google’s home for our latest AI tools and experiments.",
+        "avatar": "",
+        "summary": "Google Labs 宣布其定制化工作流实验项目 Opal 将于 2026 年 11 月 17 日正式下线。该项目的核心功能与经验已成功转化为 Gemini 应用中的“技能（Skills）”功能，标志着 Google 将定制化 AI 能力从实验阶段正式推向全球产品化应用。",
+        "translation": "💠 Opal 在 Skills 中焕发新生！💠\n\n当我们最初在 Google Labs 发布 Opal 时，这是一项旨在探索用户如何自定义工作流的实验。你们展现出的惊人创造力让我们获益良多——它不仅启发了 Labs 开发的 Gems，如今更支持了 @GeminiApp 中“技能（Skills）”功能的全球发布！✨\n\n“技能”是一种更快捷的自动化重复任务方式，允许用户直接在对话中保存自定义指令，这正是基于我们从 Opal 中获得的经验构建的。随着“技能”在全球范围内的推广，我们将告别 Opal。该实验项目将于 2026 年 11 月 17 日正式关闭。\n\n无论你是在 labs.google 平台上构建过迷你应用，还是在 Gemini 中尝试过 Gems，感谢你们共同塑造了可定制 AI 的未来。Opal 的精神将延续在你未来构建的每一个“技能”中。💙",
+        "recommendation": "此动态展示了 Google 如何通过“实验-反馈-产品化”的闭环迭代 AI 功能。对于从业者而言，Opal 到 Skills 的演进揭示了 AI 交互设计的趋势：从复杂的独立应用转向更轻量、更嵌入式的自动化指令集。",
+        "url": "https://x.com/GoogleLabs/status/2105352889665564838",
+        "rawTweets": [
+          {
+            "id": "2105352889665564838",
+            "text": "💠 Opal shines on in Skills! 💠\n\nWhen we launched Opal in Google Labs, it was an experiment to learn how you customize your workflows. Your incredible creativity taught us so much — first inspiring Gems made by Labs, and today, supporting the global launch of skills in @GeminiApp! ✨\n\nSkills are a faster way to automate repetitive tasks and save custom instructions right in chat - built from the learnings we had from Opal. As skills roll out globally, we will be saying a bittersweet farewell to Opal. The experiment will be shutting down on Nov 17, 2026.\n\nWhether you built mini-apps on https://t.co/YOHh8P89yg or tried Gems in Gemini, thank you for shaping the future of customizable AI. Opal lives on in every skill you build next. 💙",
+            "createdAt": "2026-09-30T17:43:39.000Z",
+            "url": "https://x.com/GoogleLabs/status/2105352889665564838",
+            "likes": 312,
+            "retweets": 19,
+            "replies": 9,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Amjad Masad",
+        "handle": "amasad",
+        "role": "ceo @replit. civilizationist",
+        "avatar": "",
+        "summary": "Replit 首席执行官 Amjad Masad 近日宣布，平台已支持 Meta VR 应用的一键开发与发布。这一更新大幅降低了 XR 内容的创作门槛，标志着 Replit 正从 Web 开发向空间计算领域加速渗透。",
+        "translation": "制作并一键发布 Meta VR 应用。 https://t.co/LW53Qw7CfJ",
+        "recommendation": "Amjad 正在将 Replit 打造为全栈开发者的“空间计算入口”，通过简化 VR 应用的部署流程，为 AI 辅助编程在 XR 领域的落地提供了极佳的实验场。对于关注 AI 驱动开发（AI-native development）与空间计算融合的从业者，这一动态值得密切追踪。",
+        "url": "https://x.com/amasad/status/2105321112389443805",
+        "rawTweets": [
+          {
+            "id": "2105321112389443805",
+            "text": "Make and one-click publish Meta VR apps. https://t.co/LW53Qw7CfJ",
+            "createdAt": "2026-09-30T15:37:22.000Z",
+            "url": "https://x.com/amasad/status/2105321112389443805",
+            "likes": 137,
+            "retweets": 10,
+            "replies": 33,
+            "isQuote": true,
+            "quotedTweetId": "2105319681259147583"
+          }
+        ]
+      },
+      {
+        "author": "Guillermo Rauch",
+        "handle": "rauchg",
+        "role": "@vercel CEO",
+        "avatar": "",
+        "summary": "Vercel CEO Guillermo Rauch 近期强调了 AI Gateway 在处理海量 Token 流量时的安全性与合规性，并推出了旨在解决 Agent 开发中凭证管理难题的 Connect 平台。他指出，在 AI 开发领域，连接性与数据隐私已成为继代码生成后的核心挑战。",
+        "translation": "【推文 1】大多数 Token 聚合器充斥着极端噪音，主要源于：① 那些利用你的数据进行训练的提供商所提供的 Token 促销；② 声称具备“零数据留存（ZDR）”但名不副实的提供商。Vercel AI Gateway 是目前全球最大的可信数据源，能够洞察全球 AI Token 流向，因为我们拥有来自真实客户的真实使用场景、大规模的平台支撑（40万+付费客户及数千家企业），且不收取任何加价。值得注意的是，每周我们都会拒绝那些声称具备 ZDR 但背景存疑、信誉不佳的公司的“免费 Token”促销。我们并不追求“接入最多提供商”，因为大多数提供商质量堪忧，你真正需要的是“最好的”提供商。我们在网关工程、法律合规、隐私保护及后台运营上投入了同等精力，以负责任地处理每天数万亿次的 Token 请求。我们致力于长远发展。\n\n【推文 2】如果你运营着一项服务，并希望触达超过 2000 万开发者及其即将发布的数十亿个 Agent，请加入 Connect。随着代码编写变得“免费”，构建应用的终极挑战在于“连接”。Connect 不仅更简单，而且更安全。对于 Agent 和应用来说，现在的 Agent 构建世界深受静态凭证之苦，你不得不为每个构建的 Agent 或应用提供一堆密钥。这不仅是开发者体验（DX）的噩梦，更是巨大的安全隐患。Connect 解决了这个问题。\n\n【推文 3】速度更快了。",
+        "recommendation": "Rauch 的观点揭示了 AI 基础设施从“模型调用”向“合规与连接”转型的趋势。对于 AI 从业者而言，如何解决 Agent 的凭证安全（Credential Management）以及如何选择可信的 AI 网关，是构建企业级 AI 应用必须面对的工程化课题。",
+        "url": "https://x.com/rauchg/status/2105476587756138942",
+        "rawTweets": [
+          {
+            "id": "2105476587756138942",
+            "text": "Most token aggregators have extreme noise from ① token promos from/to providers that train on your data or ② providers that *claim* to be ZDR.\n\nVercel AI Gateway is the largest trustworthy datasource to understand global AI token flows, because we have real usage, from real customers, an at-scale platform (400k+ paying customers and thousands of enterprises), and zero markup.\n\nNotably… every week we turn down \"free token\" promos from companies that come to us with dubious claims of Zero Data Retention (ZDR) and questionable reputations. We also don't get a kick out of having the \"most providers\". Most providers suck. You want the *best* providers.\n\nWe put in as much work in engineering our gateway, as in our legal, compliance, privacy, and backoffice operations to responsibly serve trillions of tokens every day. We're here for the long haul.",
+            "createdAt": "2026-10-01T01:55:11.000Z",
+            "url": "https://x.com/rauchg/status/2105476587756138942",
+            "likes": 132,
+            "retweets": 4,
+            "replies": 35,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2105390544096841942",
+            "text": "If you run a service and want to get in front of 20M+ developers and the billions of agents they'll ship, add yourself to Connect.\n\nWith code now being 'free', the final boss of building is connecting to stuff. Connect is both easier and more secure¹. For agents and for apps.\n\n¹ The world of building agents is plagued with static credentials. You're supposed to give a bunch of keys to each agent or app you build. It's DX hell, but it's also a massive liability. Connect fixes this.",
+            "createdAt": "2026-09-30T20:13:16.000Z",
+            "url": "https://x.com/rauchg/status/2105390544096841942",
+            "likes": 441,
+            "retweets": 20,
+            "replies": 51,
+            "isQuote": true,
+            "quotedTweetId": "2105382468782370950"
+          },
+          {
+            "id": "2105285688820400259",
+            "text": "Faster https://t.co/Uw0ftBmUwe",
+            "createdAt": "2026-09-30T13:16:37.000Z",
+            "url": "https://x.com/rauchg/status/2105285688820400259",
+            "likes": 137,
+            "retweets": 4,
+            "replies": 21,
+            "isQuote": true,
+            "quotedTweetId": "2105266410792341801"
+          }
+        ]
+      },
+      {
+        "author": "Aaron Levie",
+        "handle": "levie",
+        "role": "ceo @box - your business lives in content. unleash it with AI",
+        "avatar": "",
+        "summary": "Box CEO Aaron Levie 指出，AI 在企业落地并非简单的软件部署，而是工作流的深度重构。他认为，随着 AI Agent 从工具转向直接产出工作成果，企业需要全新的实施策略，这将催生大量专注于 AI 部署与集成的新型服务机构。",
+        "translation": "目前，成为 AI 经济的部署层蕴藏着巨大的机遇。企业更换工作流所需的工作量往往远超人们的预期。显然，这就是 AI 应用层在软件和 Agent 形式下的未来形态，同时也为服务型公司开启了新的机遇。\n\n遗留系统需要迁移至云端，数据组织与访问方式需要更新，软件需要以全新的方式与 Agent 连接，工作流需要为 Agent 进行重构，流程中需要明确人机协作（HITL）模式，评估体系需要建立并维护，且随着新模型和新能力的出现，整个系统需要持续迭代。这份清单可能还会更长。\n\nAI 不同于单纯的软件部署。过去，你只需实施一种已知类别的技术，随后客户便可自行运行。而 AI Agent 是在为组织提供实际的工作增强，这涉及完全不同的复杂性。你部署的不再仅仅是赋能工具，而是流程中的工作产出。这需要截然不同的实施与赋能流程。\n\n因此，这将催生许多新型公司，并为现有企业提供将 AI 渗透到组织内部的新路径。我们将看到针对不同行业、不同规模公司以及不同内部问题的解决方案。传统的系统集成商（SI）将进行现代化改造与适应（当然有些显然无法适应），同时也将有新的参与者在这一时期创立，利用这一窗口期。现在是成为 AI 领域一线部署工程师（FDE）或相关机构的绝佳时机。",
+        "recommendation": "Levie 深刻洞察了 AI 从“工具”向“劳动力”转型的本质，提醒从业者关注 AI 实施过程中的复杂性。对于 AI 创业者而言，这不仅是技术研发的战场，更是服务与流程重构的蓝海，建议重点关注如何解决企业级 AI 部署的“最后一公里”问题。",
+        "url": "https://x.com/levie/status/2105354449795621179",
+        "rawTweets": [
+          {
+            "id": "2105354449795621179",
+            "text": "There's a huge opportunity right now in being the deployment layer for AI into the economy. The amount of work it takes to change out workflows in enterprises tends to be far greater than anyone realizes or would prefer. Clearly this is what the applied layer of AI is going to look like in the form of software and agents, but also it opens up new services firms opportunities.\n\nLegacy systems need to be moved to the cloud, data organization and access needs to be updated, software needs to be connected to agents in new ways, workflows need to be reengineered for agents, HITL needs to be figured out for the process, evals need to be generated and maintained, and the entire system needs to be continually updated as new models get released and new capabilities emerge. And the full list may even be longer.\n\nAI is not the same as just deploying software. Software you generally did the implementation of an existing, well understood category of technology, then stepped back and the customer kept running. With AI agents, you're delivering actual work augmentation to the organization, which has a completely different set of complexities associated with it. You're no longer deploying tools that the company is merely enabled by, you're deploying work output in a process. Completely different implementation and enablement process.\n\nAs a result, this is going to open up lots of new kinds of firms and plays for existing firms to diffuse AI into organizations. We're going to see approaches by industry, by size of company, and by problem inside of companies. Traditional SIs will modernize and adapt (some will clearly not adapt as well), and new entrants will also be founded in this period that take advantage of this window. Great time to be an FDE or FDE firm.",
+            "createdAt": "2026-09-30T17:49:51.000Z",
+            "url": "https://x.com/levie/status/2105354449795621179",
+            "likes": 853,
+            "retweets": 90,
+            "replies": 79,
+            "isQuote": true,
+            "quotedTweetId": "2105288737408131326"
+          }
+        ]
+      },
+      {
+        "author": "Garry Tan",
+        "handle": "garrytan",
+        "role": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "avatar": "",
+        "summary": "Garry Tan 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
+        "translation": "*chefs kiss* https://t.co/uJEcB8IPJU\n\nOther code editors let you top down coordinate child agents\n\nI’ve never really seen this where agent swarms speak to one another as peers and self coordinate allowing you to organically explore the space instead of pre-arrange it, have you?\n\nCapy is special https://t.co/brMCMFttvW\n\nI asked Secretary Duffy what Americans should be able to do, if we get this decade right, that they can't do today.\n\nSean Duffy is the Secretary of Transportation, and he sat down with me at our Startup Industrial Base event in DC today. He went straight to how our country's air traffic gets managed.\n\nAt the command center, people sit in front of six screens with a paper flight chart above them, trying to make the calls on weather and routing.\n\nHis example: four planes reach the same runway at the same time and only one can land. See it two hours out, speed up two, slow one down, and each one lands when the runway is open. \"Like, not complicated stuff, but we don't do any of this.\"\n\nPaper and pencil and minimal human augmentation from software looks like this: Say an airport can take 15 planes in a 15 minute window. \"Well, the airlines will schedule 32.\" He says he's handing the airlines that data and asking them to spread out.\n\nThe tool is SMART, from Air Space Intelligence, a small company he says competed with the biggest companies and won. It predicts. His stage example: a 2.5 hour ground stop might only need 45 minutes. He's taken heat for supposedly handing air traffic control to AI. Duffy's answer? \"it's dumb AI, not smart AI.\" Controllers still make every call.\n\nNone of this needs a breakthrough. It needs the will of the people to know they need to use software and be ok with AI augmentation instead of insisting on a paper chart and copper wire.",
+        "recommendation": "作为 Garry Tan 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
+        "url": "https://x.com/garrytan/status/2105472268482875898",
+        "rawTweets": [
+          {
+            "id": "2105472268482875898",
+            "text": "*chefs kiss* https://t.co/uJEcB8IPJU",
+            "createdAt": "2026-10-01T01:38:01.000Z",
+            "url": "https://x.com/garrytan/status/2105472268482875898",
+            "likes": 242,
+            "retweets": 3,
+            "replies": 13,
+            "isQuote": true,
+            "quotedTweetId": "2105443852702150767"
+          },
+          {
+            "id": "2105449821645480046",
+            "text": "Other code editors let you top down coordinate child agents\n\nI’ve never really seen this where agent swarms speak to one another as peers and self coordinate allowing you to organically explore the space instead of pre-arrange it, have you?\n\nCapy is special https://t.co/brMCMFttvW",
+            "createdAt": "2026-10-01T00:08:49.000Z",
+            "url": "https://x.com/garrytan/status/2105449821645480046",
+            "likes": 125,
+            "retweets": 11,
+            "replies": 35,
+            "isQuote": true,
+            "quotedTweetId": "2105263275604689025"
+          },
+          {
+            "id": "2105395957357588561",
+            "text": "I asked Secretary Duffy what Americans should be able to do, if we get this decade right, that they can't do today.\n\nSean Duffy is the Secretary of Transportation, and he sat down with me at our Startup Industrial Base event in DC today. He went straight to how our country's air traffic gets managed.\n\nAt the command center, people sit in front of six screens with a paper flight chart above them, trying to make the calls on weather and routing.\n\nHis example: four planes reach the same runway at the same time and only one can land. See it two hours out, speed up two, slow one down, and each one lands when the runway is open. \"Like, not complicated stuff, but we don't do any of this.\"\n\nPaper and pencil and minimal human augmentation from software looks like this: Say an airport can take 15 planes in a 15 minute window. \"Well, the airlines will schedule 32.\" He says he's handing the airlines that data and asking them to spread out.\n\nThe tool is SMART, from Air Space Intelligence, a small company he says competed with the biggest companies and won. It predicts. His stage example: a 2.5 hour ground stop might only need 45 minutes. He's taken heat for supposedly handing air traffic control to AI. Duffy's answer? \"it's dumb AI, not smart AI.\" Controllers still make every call.\n\nNone of this needs a breakthrough. It needs the will of the people to know they need to use software and be ok with AI augmentation instead of insisting on a paper chart and copper wire.",
+            "createdAt": "2026-09-30T20:34:47.000Z",
+            "url": "https://x.com/garrytan/status/2105395957357588561",
+            "likes": 117,
+            "retweets": 15,
+            "replies": 17,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Matt Turck",
+        "handle": "mattturck",
+        "role": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "avatar": "",
+        "summary": "著名风投人 Matt Turck 发文指出，部分 SaaS 企业观察到顶级 AI 独角兽 Anthropic 的年度经常性收入（ARR）增长正在趋于平缓。这一现象表明，即便是头部大模型厂商，在经历了前期的爆发式增长后，也开始面临商业化续费与可持续增长的考验。这一信号对重新审视 AI 原生应用与传统 SaaS 的竞争边界具有深远意义。",
+        "translation": "SaaS 公司正目睹 Anthropic 的 ARR（年度经常性收入）增长趋于平缓。",
+        "recommendation": "Matt Turck 是知名风险投资人及 MAD (AI & Data) 行业生态图谱的发布者。Anthropic 作为头部大模型厂商，其 ARR 增长放缓的迹象反映了当前 AI 商业化落地的真实瓶颈，非常值得关注大模型变现、AI+SaaS 转型以及 AI 投资趋势的从业者深思。",
+        "url": "https://x.com/mattturck/status/2105261211906384132",
+        "rawTweets": [
+          {
+            "id": "2105261211906384132",
+            "text": "SaaS companies seeing Anthropic’s ARR growth flatline https://t.co/n03y57emMG https://t.co/k0Iz0PxQ4P",
+            "createdAt": "2026-09-30T11:39:21.000Z",
+            "url": "https://x.com/mattturck/status/2105261211906384132",
+            "likes": 549,
+            "retweets": 11,
+            "replies": 22,
+            "isQuote": true,
+            "quotedTweetId": "2104940023015690748"
+          }
+        ]
+      },
+      {
+        "author": "Nikunj Kothari",
+        "handle": "nikunj",
+        "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "avatar": "",
+        "summary": "FPV Ventures 合伙人 Nikunj Kothari 分享了他作为顶级 VC 投资人的 AI 自动化边界。他表示虽然已将大部分日常工作自动化，但依然坚持亲自完成三件事：发掘并撰写 Outbound 邮件、与创始人面对面交流，以及撰写拒绝反馈信。同时，他也在公开征集具有极致体验的 Multiplayer（多玩家/协同）AI 创新项目。",
+        "translation": "[推文 1]\n我已经把绝大部分工作自动化了，但以下几项除外：\na) 挖掘源头并撰写主动联系邮件（我确信再多的技术在这方面也无济于事）\nb) 会见创始人（主要是线下亲自见面，Zoom 体验太糟了）\nc) 撰写拒绝信/通话反馈（至今依然坚持亲自撰写每一封，坦白说这是这项工作中最难的部分）\n（另外，我没有行政助理，也从未打算雇一个……这或许会成为我著名的‘打脸预言’吧）\n链接: https://x.com/nikunj/status/2105532229866942772\n\n[推文 2]\n依然在寻找这个……\n如果你正在构建体验极其出色的多玩家（Multiplayer）交互体验，请通过私信联系我或在此回复 Demo！\n链接: https://x.com/nikunj/status/2105397656994652178",
+        "recommendation": "此动态深刻揭示了高信任度行业中 AI 自动化的能力边界，为 AI 创业者思考‘人机协作分工’提供了绝佳视角。它提醒我们：在追求高效自动化的同时，涉及深度共情、关系建立和同理心沟通的场景依然是人类不可替代的核心壁垒。",
+        "url": "https://x.com/nikunj/status/2105532229866942772",
+        "rawTweets": [
+          {
+            "id": "2105532229866942772",
+            "text": "I have automated most of my job away except the following..\n\na) sourcing and writing outbound emails (convinced no amount of tech helps here)\n\nb) meeting founders (primarily in person, zoom sucks)\n\nc) writing pass notes/calls (still write every single one by hand & frankly the hardest part of the job)\n\n(and no I don't have an EA or ever intend to hire one.. might be famous last words)",
+            "createdAt": "2026-10-01T05:36:17.000Z",
+            "url": "https://x.com/nikunj/status/2105532229866942772",
+            "likes": 51,
+            "retweets": 0,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2105397656994652178",
+            "text": "Still looking for this..\n\nIf you are building an insanely good multiplayer experience, please DM or reply here with a demo! https://t.co/xFUQZ2DBhJ",
+            "createdAt": "2026-09-30T20:41:32.000Z",
+            "url": "https://x.com/nikunj/status/2105397656994652178",
+            "likes": 68,
+            "retweets": 1,
+            "replies": 36,
+            "isQuote": true,
+            "quotedTweetId": "2086438339419496449"
+          }
+        ]
+      },
+      {
+        "author": "Peter Steinberger",
+        "handle": "steipete",
+        "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "avatar": "",
+        "summary": "AI 开发者 Peter Steinberger 近期聚焦于优化多智能体协作的交互体验，通过简化 OC harness 的 UI 逻辑来减少冗余信息干扰。同时，他也在反思 CI 与 GitHub 在开发工作流中的效率瓶颈，探索更高效的工程协作模式。",
+        "translation": "【推文 1】我发现聊天流中智能体之间的通信过程越来越令人烦躁。我已将 OC harness 中的可见性调整为仅显示单行，并支持按需展开。我相信其他人也会效仿这种做法。\n\n【推文 2】CI 和 GitHub 到底谁在拖慢我的开发效率，这真是一场激烈的博弈。是时候重新思考我们的工作方式了。（尽管我依然热爱 GitHub，也完全理解他们面临的挑战！）",
+        "recommendation": "Peter 作为资深开发者，其对多智能体交互 UI 的极简主义改造，为解决 AI 协作中的“信息过载”问题提供了极佳范式。他对于开发工具链效率的深度反思，对所有追求极致工程效率的 AI 团队具有重要的参考价值。",
+        "url": "https://x.com/steipete/status/2105362785534361996",
+        "rawTweets": [
+          {
+            "id": "2105362785534361996",
+            "text": "I'm finding inter-agent communication in the chat stream increasingly irritating. Changed the visibility in the OC harness to just a single line that can be expanded.\n\nPretty sure others will follow. https://t.co/YUcQBzY6P3 https://t.co/PUDFHgTsxt",
+            "createdAt": "2026-09-30T18:22:58.000Z",
+            "url": "https://x.com/steipete/status/2105362785534361996",
+            "likes": 229,
+            "retweets": 7,
+            "replies": 50,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2105341288958869952",
+            "text": "It’s a fierce fight between CI and GitHub on what slows me down. Time to rethink how we work. (love GH tho and fully see their struggles!) https://t.co/b7huPchFxg",
+            "createdAt": "2026-09-30T16:57:33.000Z",
+            "url": "https://x.com/steipete/status/2105341288958869952",
+            "likes": 370,
+            "retweets": 6,
+            "replies": 88,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Dan Shipper",
+        "handle": "danshipper",
+        "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "avatar": "",
+        "summary": "Every 创始人兼 CEO Dan Shipper 密切关注着最新的大模型动态。在得知某款重磅模型尚未正式上线后，他松了一口气并表达了强烈的期待，随后直接喊话谷歌 CEO Sundar Pichai 希望能对该模型进行“Vibe Check”（体验实测）。同时，他也同步推荐了 Every 团队最新推出的 AI 深度分析文章。",
+        "translation": "[推文 1] 我们准备好进行 vibe check（实测）了！https://t.co/JPL4r035aG\n[推文 2] 在 @every 上阅读全文：https://t.co/TYqbX7w6Ew\n[推文 3] 好吧，我还以为这个模型已经发布了，呼。@sundarpichai 很想对它进行一次 vibe check。",
+        "recommendation": "Dan Shipper 作为顶级 AI 前沿内容平台 Every 的掌门人，对大模型能力演进有着极佳的嗅觉。“Vibe Check”（基于真实场景的直觉式实测）正逐渐取代死板的基准测试，成为评估模型实际应用价值的核心手段，值得 AI 开发者与产品经理关注其评估视角。",
+        "url": "https://x.com/danshipper/status/2105443942330503416",
+        "rawTweets": [
+          {
+            "id": "2105443942330503416",
+            "text": "we will be ready to vibe check! https://t.co/JPL4r035aG",
+            "createdAt": "2026-09-30T23:45:27.000Z",
+            "url": "https://x.com/danshipper/status/2105443942330503416",
+            "likes": 12,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2105415181245276224"
+          },
+          {
+            "id": "2105399004649689347",
+            "text": "read it on @every: https://t.co/TYqbX7w6Ew",
+            "createdAt": "2026-09-30T20:46:53.000Z",
+            "url": "https://x.com/danshipper/status/2105399004649689347",
+            "likes": 10,
+            "retweets": 2,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2105391711950393423",
+            "text": "Okay i thought this model was already out phew. \n\n@sundarpichai would love to vibe check it",
+            "createdAt": "2026-09-30T20:17:55.000Z",
+            "url": "https://x.com/danshipper/status/2105391711950393423",
+            "likes": 15,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Aditya Agarwal",
+        "handle": "adityaag",
+        "role": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "avatar": "",
+        "summary": "前 Dropbox CTO Aditya Agarwal 指出，AI 时代创业门槛虽降低，但对初创公司的“野心”要求却大幅提升。他建议创业者必须构建该想法的“最大化版本”，因为平庸的起步在当前环境下已难以获得资本与人才青睐。",
+        "translation": "我在 @spc 经常问大家的一个问题是：“这家公司的最大化版本是什么？”\n\n也许这在过去一直如此……但如果你今天正在创业，唯一的出路就是拥有最宏大、最大胆、最极致的愿景，并思考它如何改变未来的走向。\n\n如果你起步太小，你将很难获得融资、招募到顶尖人才，最终也难以在未来留下印记。\n\n这就是 AI 的悖论：它让构建产品变得更容易，但同时也大幅提高了成为一家伟大初创公司的准入门槛。",
+        "recommendation": "对于 AI 创业者而言，这是一剂清醒剂：不要被“开发容易”的表象迷惑，AI 时代的竞争核心已转向愿景的深度与广度。该观点提醒从业者在规划产品时，应从第一天起就思考如何利用 AI 的杠杆效应实现颠覆性增长。",
+        "url": "https://x.com/adityaag/status/2105339569139056776",
+        "rawTweets": [
+          {
+            "id": "2105339569139056776",
+            "text": "The question I keep on asking everyone @spc is \"What is the maximalist version of this company?\".\n\nPerhaps this has always been true....but if you are building a company today, then the only way is to have the boldest, most audacious and maximalist version of the idea and how it can change the arc of the future.\n\nIf you start small, you will struggle to get funding, hire great people and ultimately to make a dent in the future.\n\nThis is the paradox of AI. It makes building easier but dramatically raises the floor on what it means to be a great startup.",
+            "createdAt": "2026-09-30T16:50:43.000Z",
+            "url": "https://x.com/adityaag/status/2105339569139056776",
+            "likes": 28,
+            "retweets": 2,
+            "replies": 7,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Claude",
+        "handle": "claudeai",
+        "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+        "avatar": "",
+        "summary": "Anthropic 宣布将在旧金山科技周（10月6-8日）及斯德哥尔摩（10月14日）举办“Claude Founder House”线下活动。活动涵盖技术讲座、工作坊及团队面对面交流，旨在为开发者和创业者提供深度互动与构建 Claude 生态的平台。",
+        "translation": "Claude Founder House 即将登陆旧金山科技周（10月6日至8日）和斯德哥尔摩（10月14日）。欢迎参加我们的讲座、工作坊以及与团队的面对面交流环节，并与其他使用 Claude 进行构建的开发者们建立联系。无论你是创始人、CEO 还是开发者，都有适合你的专属议程。",
+        "recommendation": "对于 AI 创业者而言，这是直接获取 Anthropic 官方技术支持与产品路线图的第一手渠道。通过参与此类线下社区，开发者能更深入理解 Claude 的 API 应用场景，并与核心生态构建者建立高质量的人脉连接。",
+        "url": "https://x.com/claudeai/status/2105370681613672773",
+        "rawTweets": [
+          {
+            "id": "2105370681613672773",
+            "text": "Register for San Francisco: https://t.co/B6aqG8jBo7\n\nRegister for Stockholm: https://t.co/FtLED2aeoo",
+            "createdAt": "2026-09-30T18:54:21.000Z",
+            "url": "https://x.com/claudeai/status/2105370681613672773",
+            "likes": 74,
+            "retweets": 1,
+            "replies": 15,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2105370680485417401",
+            "text": "Claude Founder House is coming to SF Tech Week (Oct 6–8) and Stockholm (Oct 14).\n\nCome for talks, workshops, and office hours with our team, plus time to meet others building with Claude. Whether you're a founder, a CEO, or a builder, there's a session for you. https://t.co/LiXccCEV7t",
+            "createdAt": "2026-09-30T18:54:20.000Z",
+            "url": "https://x.com/claudeai/status/2105370680485417401",
+            "likes": 2434,
+            "retweets": 129,
+            "replies": 147,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "showName": "AI & I by Every",
+        "title": "How Sam Altman Uses Dots to Take Back His Time",
+        "summary": "在本期播客中，Sam Altman 揭示了 OpenAI 如何通过“Dots”（一种内部协作与知识沉淀系统）来应对指数级增长的开发需求。核心 Takeaway 是：AI 并没有取代人类，反而因为人类对“人”的关注本能，使得 AI 时代的生产力需求呈现出无限的潜能。反直觉洞见在于，尽管 AI 自动化能力飞速提升，但社会对“人”的关注度反而更高了——我们关心的始终是 AI 背后的创造者与意图，而非单纯的计算结果。金句：“我们并不关心机器做了什么，我们痴迷的是机器背后的人。”",
+        "translation": "Sam Altman 在访谈中指出，尽管 AI 编码能力大幅提升，但开发者面临的门槛反而更高，因为人类对产品的需求是无限的。他强调，AI 的未来依然是“以人为中心”的，因为公众对艺术、产品或公司背后的“人”有着天然的执着。此外，他提到 OpenAI 内部通过“Dots”系统实现高效协作，并以身作则，通过提升内部生产力来应对日益增长的发布需求。",
+        "recommendation": "如果你想了解 OpenAI 如何在极高压下保持创新节奏，以及 Sam Altman 对 AI 时代人类价值的深刻洞察，这期播客是必听之作。它不仅揭示了顶尖团队的协作哲学，更从宏观视角重新定义了人与 AI 的共生关系。",
+        "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+        "fullTranscript": "Do you do all your prompting on Ultrafast?\n\nI do.\n\nThat's sick.\n\nYeah.\n\nThat's crazy.\n\nYou know, seven people's dots can, working together, create something new that kind of existed in all of our heads to some degree, but was like an emergent thing.\n\nHey, this is Dan Shipper.\n\nYou might be wondering what happened to AI and I.\n\nThis is the same show, we are just rebranding it to the Every Podcast.\n\nI'm really excited for our first episode with Sam Waltman.\n\nHere it is.\n\nSam, welcome to the show.\n\nThanks for having me.\n\nPsyched to have you here.\n\nSo we're here at Dev Day.\n\nI think if you had told me four years ago that the coding models were at this level of capability, I would have been like, wow, I don't know if there would be a lot of developers at Dev Day.\n\nbut there's more developers than ever, it seems like, and more work to do than ever.\n\nSo what has the, like, riding the increasing capabilities of coding models and seeing the impact on engineering taught you about the future of engineering and more broadly, like, the future of work with AI?\n\nI think people just want so much more stuff.\n\nPeople's expectations are so high.\n\nAnd I think that's a wonderful thing.\n\nI think this is why we'll all have this incredible future in front of us to explore.\n\nBut developers, they've never been able to do more, but there's never been a higher bar either.\n\nAnd I think that's great.\n\nI think that's like a nice thing about society.\n\nIs that something that surprised you?\n\nDid you expect that to happen?\n\nI think I was never as doomery about the job stuff as other people, but it still has surprised me somewhat on the upside of just how much latent demand existed in the world and also how much people have remained at the center of everything that is happening with AI.\n\nDo you think there's a limit to that, or do you think that translates pretty cleanly to other areas of work?\n\nI think there will be some areas of work\n\nwhere there's actually not much creativity required and we don't care about the person doing it.\n\nAnd many of those tasks or jobs will be done by AI.\n\nBut I think there's so much other stuff people want in the world, there's gonna be no shortage of new things to go do.\n\nI think that's been one of the lessons of recent time.\n\nWhy do you think it's so human-centered even though we talk a lot about automation?\n\nI mean, one observation is we just, we don't care that much about what the machines do.\n\nAnd in some sense we never have.\n\nAnd we're just like, we're obsessed with other people.\n\nWe want to know about the person behind the art or the person behind the company or the idea or the product.\n\nAnd I think this is like a wonderful, positive surprise that we probably should have all known before.\n\nI agree.\n\nI've been thinking, if an agent solves a Navier Stokes in a data center, but no one finds out, did it really solve it?\n\nYou know?\n\nI think that was a great example where 10,000 agents worked super hard for four days in perfect coordination with each other and did this amazing thing.\n\nAnd almost none of the public reaction was about that actually the problem being solved.\n\nA lot of talk about the interpretation, a lot of talk about like the people involved in it in different ways.\n\nThat was a good thing.\n\nYeah.\n\nSo it's Dev Day.\n\nYou launched, by my count, 22 new things today.\n\nWhich I've been at all four Dev Days.\n\nAnd I think last year was like nine.\n\nAnd the year before that was like four or five.\n\nSo it's a lot more than usual.\n\nJust wait for next year.\n\nOK.\n\nI'm tired.\n\nI'm tired.\n\nWe cut a bunch of things that we were going to launch today just because you have to fit it in the 50 minutes.\n\nBut we were going to launch a lot of things.\n\ntry to practice what we preach.\n\nAnd if we are saying these tools can make people much more productive and build more and that people want more stuff, like, we better build more ourselves.\n\nWhat are the new kind of bottlenecks and best practices for doing that?\n\nBecause I can see for myself, and I assume you guys are seeing this too, like, now that you can build everything, you're like, what should we build and how do we make it all coherent?\n\nHow do you think about that?\n\nMoving to...\n\nthis world of sort of persistent intelligence, active intelligence, whatever people wanna call it, this idea that you're gonna have these agents that are running in the background 24 seven, connected to your systems, doing stuff proactively for you.\n\nThis is clearly a direction that feels important to explore.\n\nI think we're gonna see amazing stuff happen there.\n\nAnother thing we really wanted to do is there's just, there are now so many ideas that are capable of being built and what we are missing is the creative spirit\n\nto figure them out and build them.\n\nSo we wanted to really open up our ecosystem, let people build apps in ChatGPT in the same way that we get to do them, let people bring their subscription wherever they'd like, have the marketplace, and really try to let people get connected to all the stuff that people will now be able to build.\n\nYeah, I mean, just looking at all the platform features that you launched and the way that you talk about platforms, it reminds me a lot of the way that Bill Gates used to talk about Windows as a platform, where you create more value than you capture.\n\nWhat have you learned, you know, you said this in your keynote and I've observed it as well, there's, at DevDay, there's always an app store.\n\nYou've been taking swings at app stores for a while.\n\nWhat have you learned about building a platform and what do you think makes this one different?\n\nI mean, we clearly have not yet figured out the App Store equivalent, but we have figured out how to build a platform that a lot of people are building incredible value on top of.\n\nI think there are really kind of two schools of thought among people building AI model companies.\n\nThere are people that believe or hope that there's only going to be one company in the world.\n\nAnd then there are people like us that believe we are going to see a renaissance in the number of companies and just an absolute...\n\nlowering of the bar to people, one-person companies, small team companies, creating incredible new products and services.\n\nAnd we want to go as hard as we can with the platform to enable people to do that.\n\nAnd although I think we haven't figured out the App Store yet, that's totally fair.\n\nI think we have figured out how to help millions of people build and create significant new products and companies.\n\nIf you had to narrow in, you said you talked at the keynote about an industrial revolution versus a renaissance, which you just mentioned now.\n\nIf you had to narrow in on the key things that make the difference between those two worlds and maybe opening the eyes part in it, but maybe even the broader ecosystem, what do you think those things are?\n\nOne take on this would be that the renaissance was fundamentally centered around people and the industrial revolution was fundamentally centered around machines.\n\nThere were a lot of good things about the Industrial Revolution.\n\nIt had a hugely positive impact on the world in many ways.\n\nBut I think a lot of people did not have a purely positive personal impact from that.\n\nAnd this feeling that people had these like rich lives and did all these things.\n\nAnd yeah, of course, they like struggled and wanted more and better stuff.\n\nAnd that's the part the Industrial Revolution did deliver in some ways.\n\nBut they were kind of turned into, in many cases,\n\nIt's like cog in a machine doing some extremely specialized thing and kind of like disconnected from a lot of the parts that made life good.\n\nI get sad to hear people talk about like, oh, AI is going to automate everything.\n\nThere's going to be no role for humans.\n\nWe're going to be like,\n\nhouse cats and the AI will decide how to reward us and tell us what to do.\n\nI have heard people say that.\n\nThat's certainly not what we think.\n\nYeah.\n\nWhat I am hopeful for is that this is just a huge new wave of scientific discovery, art, company formation, like everybody that wants to start a new thing.\n\nAnd that people do get the benefits of all the economic growth and the new stuff happening here.\n\nBut also people get to,\n\nback in control of their lives and ability to kind of do the things they want and spend their time the way they want.\n\nOne of the things that strikes me about the Renaissance versus the Industrial Revolution is, in the Renaissance, you have a sort of different understanding of what it means to be a person and like an individual.\n\nYeah.\n\nas opposed to sort of the cog in the machine.\n\nDo you feel like you're starting to see any difference in how we think of ourselves as human that's comparable to the way that we changed how we think of ourselves during the Renaissance?\n\nI mean, so much happened during the Renaissance.\n\nIt's hard to say there's like this one thing, but definitely a big part of it was about people sort of reconnecting to a lot of things that had in the distant past.\n\nAnd you do hear...\n\nAnd then also like this kind of combination of that with this crazy futurism and discovery of science and engineering and just sort of this feeling that the human potential had massively expanded.\n\nAnd you do hear people talk about both of those things simultaneously with AI, which is kind of how I got interested in this as an analogy in the first place.\n\nI mean, this is like a very trivial example relative to what is going to be possible or already is possible.\n\nBut...\n\nThe Dots, the new thing we launched today, is the first thing that has given me back control of my mornings and my mental space in the mornings.\n\nI used to love the early mornings.\n\nIt's my favorite time of the day to work.\n\nIt's like maximum creativity.\n\nThat's when I would do the really deep, complicated project of the day.\n\nAnd then now I run this big company and something is going wrong all the time.\n\nAnd overnight, a lot of stuff happens.\n\nAnd if I don't check my phone right away, then...\n\nyou know, sometimes it was fine.\n\nAnd sometimes there was like a real disaster that if I ignored for an hour, just got much worse.\n\nThe problem had been that as I checked my phone, I polluted my brain with all these other things and I lost the deep work period.\n\nBut now I trust my dot to go have good judgment about what I need to think about, not think about if there's something very urgent, otherwise handle things for me.\n\nAnd I get this space for kind of like creativity or to just hang out with my kids back.\n\nAnd that has been like,\n\nyou know, it sounds small, but like a significant improvement to my life.\n\nThat's what I was going to ask is so it look, it seems like it's deflecting a lot of things that you might have had to deal with immediately that you can just like leave for later because you're confident you get the thing you need when, when you check it in the moment.\n\nYeah.\n\nI mean, two, two things that happened today about that, um, during the\n\nThe keynote, we had like a big seven production.\n\nThis is the risk of live demos and trying to deploy many new features at once.\n\nI was recurring.\n\nSo that happened.\n\nTebow got a message from his dot five minutes before the demo saying, just to let you know, I see that you're in the Dev Day keynote.\n\nI know you were working on it.\n\nI know what the demo is because I was able to look at the presentation in space or whatever.\n\nAnd this set is probably going to make the demo not work.\n\nwould you like me to try to fix it?\n\nThere's like a few minutes to go.\n\nAnd now it couldn't fix it yet, but like maybe the next version will be able to go fix that in prod.\n\nAnd like, think about that whole, like all the stuff that had to come together to make that work.\n\nJust right now, before I came here, I've been in like back-to-back stuff all day.\n\nvery, very behind on all of my normal stuff.\n\nMy dot, just before I had walked into the last thing said, you have one little break between now and this thing you're gonna go to with Dan, you have to pay attention to this one thing.\n\nI never would have found that otherwise.\n\nAnd like, it would have been a big mess.\n\nAnd just the fact that I don't have to worry about that feels super different.\n\nWhat's your Dot's name?\n\nDottie.\n\nI had Alfred earlier.\n\nAnd then many people are calling it Dottie for now.\n\nBut I'm trying to think of a great name.\n\nMine's name is Boo.\n\nThat's a good one.\n\nWhat do you think so far?\n\nI know it's super early and still rough.\n\nI like it.\n\nIt has become the default way that I use chat, which I think is a very promising thing.\n\nMe too.\n\nAnd I shared with you, I think I'm in the beta.\n\nSo I was in the early period.\n\nSo I think it has limits.\n\nIt has been a little bit buggy for me.\n\nThere's a lot of different surfaces that it can be used on, like mobile and it has its own cloud computer and all that kind of stuff.\n\nAnd I think those kinds of things, getting that cleaned up is a big deal, but yeah.\n\nI think this is the kind of thing where it's going to get better rapidly each week from here, but it's going to definitely take some time to smooth it all up.\n\nI had a similar example where I was trying to reschedule a flight, and it was like, hey, you have a meeting during this flight that you're rescheduling, but it wasn't on my calendar.\n\nIt had just read it in Slack.\n\nYeah.\n\nAnd then it was like, yeah.\n\nThat thing about the ability to bring context together from across your entire life and really do things in ways that would be hard even for an attentive person to get right has been super impressive.\n\nThat's been one of the things I found most useful about it.\n\nWhat had to happen from a research perspective to make this possible?\n\nThis is a very complicated system with a lot of stuff, but maybe most important was Astra.\n\nWe needed a, you needed a smart enough model.\n\nAnd then there were a lot of other things you had to build too, but getting the model over the intelligence\n\nbar was a key part.\n\nYou've told me that there's been a couple times, not just for scheduling or things that are urgent, like filtering, but there have been a couple times where it's helped you see something or make a decision with OpenAI that you could not have, you said you couldn't have hired someone to do that.\n\nLike it'd just be too complicated.\n\nDo you have any specific examples you can share?\n\nThere was one new feature that I was kind of excited about, and it would have been very hard to explain it,\n\nto people in enough detail to get it built.\n\nAnd even then there were like a lot of ways to do it and I wouldn't have been confident in which one.\n\nAnd I just like, I would just like constantly jot notes as I thought of something or as I was like on a walk or whatever to my dot.\n\nAnd then the dot went off and built like five or six versions.\n\nI was able to give feedback.\n\nI was able to iterate.\n\nAnd it was just like whenever I had a spare moment or had an idea and the kind of like,\n\nthe ability to just like dump that in raw form, the ability to like get and give pretty continuous feedback on it was very cool.\n\nAnd then, so there's like many categories like that where like,\n\nan idea that would be, you'd be so unsure about, or it would be too much effort for you or for someone else to build, you can actually just kind of like continually iterate on.\n\nAnd it's like, it's pretty cool to go to sleep and like just leave a long voice note as you're kind of drifting off with a bunch of thoughts and like wake up in the morning, not only is the thing built, but it like went off and did like the next seven steps.\n\nIt's the best.\n\nAnd it's like, all right, this is like a very cool way to express\n\nstuff.\n\nAnd then also, there's a set of tasks that I would normally give up on, or that I would have given up on before.\n\nThere was a thing that I was sure I had seen in Slack.\n\nAnd Slack search is obviously terrible, so I mostly use Codex to search it.\n\nAnd I had been searching for this thing, because I wanted to find it again.\n\nI wanted to reference it.\n\nAnd I spent a good 10 or 20 minutes trying to search with Codex and find this, and I kept trying different things.\n\nAnd\n\ndidn't find it.\n\nAnd I was like, man, maybe I dreamed it and this didn't really happen because Codex doesn't usually fail.\n\nAnd I kind of gave up on it.\n\nAnd then the next day, my dot was like, hey, I noticed you were trying to do this thing and you didn't find it.\n\nBut I kept thinking about it overnight and I found it for you.\n\nAnd I was like, what?\n\nAnd it was a screenshot.\n\nI had forgotten in my head it was a screenshot, not text in Slack.\n\nAnd it just sat there very patiently looking for something to do to be helpful to me and looked at image-react every screenshot and found the thing.\n\nAnd I was like, that's really...\n\nI would have given up on that.\n\nI think there's a... We're constantly feeling there's way too much to read in Slack, on email, and all that kind of stuff.\n\nAnd it's perfect for that amount of context to just get you the right thing at the right time.\n\nPeople have talked about the need to have an agent...\n\ndeal with the just onslaught of the internet and all of the various things trying to like hack our attention and distract us and whatever.\n\nAnd I have definitely learned in the few weeks that I've been using dots that although technology is very wonderful in many ways, the kind of like crazy attention hacking of social media and phones and notifications had gotten way worse than I realized for me personally.\n\nYou hear a lot about AI tools on this show, but the one that's truly at the center of your work is your CRM.\n\nIt's where all of your customer context lives and where the work either happens or gets missed.\n\nAdio delivers the work that you never had time to focus on before and more.\n\nIt picks up leads at 2 a.m., it catches renewals before they slip, and drafts the follow-up before you've even thought to send one.\n\nAsk Adio anything about your business from this week's forecast to which deals have gone quiet and get the answer in seconds.\n\nAnd because it's extensible with an API and an MCP, your agents work right alongside your team to build pipeline, advance deals, and grow accounts around the clock.\n\nTry Adio for free at adio.com slash every.\n\nThat's adio, A-T-T-I-O dot com slash every.\n\nAnd now back to the episode.\n\nTell me about space.\n\nIt's a big bet to do three like office suite type tools in one launch.\n\nWe didn't set out wanting to do this.\n\nAnd then we realized, and I'm sure you've realized your own version of this too, that software was really not designed on the whole for collaborating with AI.\n\nAnd you can use it yourself, or you can have AI use it on your behalf.\n\nBut to really collaborate closely, especially when it's multiple people and multiple people's AIs all working together, like a lot of the current abstractions we have break down.\n\nSo this is definitely an ambitious bet, but I think the space of human AI collaboration is really important to explore.\n\nHow are you working with it?\n\nLike, are you reviewing docs in space, or are you making docs, and do you have expectations for how much of it you're typing versus how much of it your dot is doing for you, and also with the docs that you get?\n\nLike, are you reviewing it from that perspective, too?\n\nIf there's, like, a new idea, I like writing the old-fashioned way because it helps me, like, think about it.\n\nSo I still do that and then maybe have my dot or other people's dot, like,\n\ndo the follow-ups.\n\nBut one of the things that I have found most amazing about it, and I don't think we have a word for this yet, but for lack of a better word, these live documents, creating a doc that is going to automatically update as people interact or as other things change in the world.\n\nAnd something that like many of our dots can work with together, not only to like share information, but actually like, you know, seven people's dots can working together create something new that kind of existed in all of our heads to some degree, but was like an emergent thing.\n\nThat's been very fun as we think about new features to explore.\n\nIs there a specific live doc that has been most useful for you?\n\nI have switched.\n\nLike the dashboard, I think everybody's probably got like a dashboard that they look at every day for how the company's doing and the way they care about.\n\nAnd I used to share one with everybody else or many other people.\n\nAnd I now have one that is kind of like a changing summary of the business just for me based off of like the evolving things that I'm caring about or not caring about.\n\nlike looks at all my Slack messages, makes me a new thing, like constantly updates it.\n\nAnd it's like, oh, this just feels like a living document.\n\nThat's sick.\n\nWhat do you care about now?\n\nA lot on my mind recently is just how we're thinking about the safety alignment and security challenge in front of us.\n\nBut, you know, six months ago, I probably cared more about\n\nrevenue and growth and metrics of this sort of traditional part of the business.\n\nSo watching that evolve, I've actually been thinking about how I can like, because I'd be very curious to see what my dot thinks I care about each day the most over time.\n\nAnd we don't currently have a good way to visualize that.\n\nThat is really interesting.\n\nI have not been able to get my dot to figure out a cool way to do that.\n\nI've been one.\n\nI would love to see that over the course of years.\n\nI think that's really cool.\n\nI've been wanting one that just like, it's a live dashboard of my mood.\n\nBecause I have my dot, like when I get a Slack message and I'm like, I don't know if I wanna look at this Slack message, I have my dot go look at it.\n\nAnd then I'm like, should I look at this now or later?\n\nAnd it's like, you should look later.\n\nAnd I kinda want like a live thing of my mood so it knows.\n\nTotally, yeah, yeah, I want that too.\n\nI would use that.\n\nVery cool.\n\nTell me about Decisions API.\n\nI feel like the Decisions API is one of the sneaky, most important things today, because Jev is this new hot thing that has honestly changed how we think about building things internally.\n\nDecisions API, did you start that from Jev, or has it been in the works for a while?\n\nHow do you think about it?\n\nDiogo used to work at OpenAI, and Diogo's awesome, and he was talking about this class of ideas for a long time.\n\nAnd we had been...\n\nworking on trying to figure out how to make it work.\n\nWe, like the number one request of Luna, and this is like an example of how people always want like more cheaper, faster, better.\n\nBut the number one request with Luna, even though people love that model, was I want it to be even cheaper and even faster.\n\nAnd so we have been thinking about how we could push it further in that direction.\n\nDefinitely seeing the response to JEV made us more excited to prioritize things in that direction.\n\nAnd like Diogo has inspired me for a long time on thinking about this.\n\nBut I think you will see us try to push in different ways in the spirit of make the technology super fast and super low cost for common use cases.\n\nHow do you think about, you know, if something like Jeff comes out, it's a kind of new type of model, and then OpenAI can add like a decisions API.\n\nHow do you think about how that changes the race between NeoLabs and labs and what OpenAI can cover and what a new lab can focus on?\n\nAs I understand the approach of JEV, it's pretty different.\n\nAnd I don't think we can go, well, maybe we could go do something from scratch like that.\n\nBut I think we have other things to go do.\n\nYou know, like we wanna make the best, cheapest, fastest, most capable model at every point on the Pareto curve of cost and speed and modality.\n\nBut I think there will be new approaches, new architectures, new technologies that are things we just can't cover all of.\n\nBut for the mainline workhorse, we will try to deliver that.\n\nSo I've been in your ear a lot about Codex Native apps for a little while now.\n\nDAN GALPINIUSSKI- You finally did it.\n\nI'm psyched.\n\nSo plug-in extensions.\n\nYeah, and also being able to bring your tokens from your ChatDBT subscription to an app developer, it changes the equation for someone like me where normally you're thinking about, okay, how much AI can I let my users use so that it doesn't bankrupt me?\n\nAnd then you're like, should I use lower-priced models and then the experience is worse?\n\nBut if someone can bring their subscription, I'm like, great, you can use whatever model you want under your subscription.\n\nWhat are you most excited about for the kinds of applications and products that can be built at the application layer in this new world?\n\nI mean, I'm most excited for the ones that we haven't thought of.\n\nLike, there's many reasons that we wanted to do this.\n\nBut one of the biggest is, and why we do this Big Dev Day thing, is just this very deep belief that there are way more good ideas outside of our building than inside.\n\nAnd I don't know what I'm going to love the most as like a ChatGPT native app, a plugin extension, but I am very confident that there will be things that I really do love that I cannot imagine today.\n\nAnd that no one at OpenAI really could imagine with conviction today.\n\nAnd that's why, I mean, that's one of the reasons why this is so important to do.\n\nLike we want to find a way to get that creative spirit into people's hands and we want to find a way to help.\n\nbuilders connect with people who are going to find the technology useful.\n\nIn terms of bringing your ChatGPT subscription with you everywhere, we just want that ourselves.\n\nThere's all this great stuff that people are building.\n\nThere's all these new apps.\n\nWe want to try them.\n\nAnd I hate having to sign up for 100 subscriptions.\n\nAnd also, when I try something, I'm like, hey, I'd like to be able to use this with full juice AI.\n\nSo we want to make it just super easy for people to take it with them.\n\nAnd it's your subscription.\n\nLike, you should get to use wherever you want.\n\nDo you think anyone at the app layer is doing this well today?\n\nLike building interesting apps?\n\nWell, not with the new stuff just because it's brand new.\n\nBut yes, I mean, I think there's an unbelievable, for all of the fear people had a couple of years ago about, man, AI model companies are just going to eat everything.\n\nThere is an unbelievable amount of\n\nsignificant new companies, great new products, building this stuff all of the time.\n\nI've never seen startups get as successful as quickly.\n\nDoes that change, you know, you were part of Y Combinator before OpenAI, does that change how you think about when people ask you about how do I start a startup or how do I think about how to grow, like all that kind of stuff?\n\nI would love to be a startup investor again.\n\nI mean, because like, oh man, what a fun time.\n\nLike the watching what people are doing right now, getting to spend time with some of these founders, which I don't get nearly as much as I like,\n\nIt is just a golden age.\n\nWhat are you looking for?\n\nI mean, obviously, besides the founder themselves, what are you looking for in the shape of things that you'd be like, oh, man, I want to invest in that?\n\nI was always a very founder-driven investor.\n\nLike, I have my pet project, like anybody else.\n\nBut my whole MO as an investor was, like, find the absolute best founders I can.\n\nthat are working on the ambitious projects and be willing to take a lot of risk with them.\n\nYeah, I feel like there's always that narrative of the net labs are gonna eat everything and Dev Day is like, the tweet that always works is like, OpenAI just killed X startup or whatever.\n\nThe tweet works because people like Doomerism, but it never actually happens.\n\nYeah, why is that?\n\nWhy does it never happen?\n\nYeah.\n\nWell, A,\n\nI think we have a lot of conviction that empowering builders and not just trying to be like the one giant evil megacorp is important.\n\nSo I think we took a lot of steps today that no other AI lab would do about saying, we're going to give you all of the same tools we use.\n\nWe've always pushed the frontier on model access.\n\nAnd so I think we're uniquely committed in the industry to doing this and we really do love developers.\n\nI think that's partly I just also love startups, and that's where I came from.\n\nBut I also think, speaking of like a new renaissance, it's just there is so much to explore.\n\nPeople are going to do such incredible stuff.\n\nWe are going to have such a tiny fraction of that vision ourselves that, you know, like the world has a fundamentally new enabler.\n\nI mean, I don't even know what this is like fire or something.\n\nThis is like a real change to what's possible.\n\nYou know, maybe we like brought it down from the mountain, but we want to give it to everybody and we want people to like do stuff with it.\n\nThere's a lot of basic startup lore.\n\nLike you should always have a co-founder or, you know, even the structure of how Y Combinator does investments that is based on a previous, for example, cost structure.\n\nYeah.\n\nIf you were going to start those things from scratch or think about them from scratch, like what do you think changes?\n\nThere are a few things that are probably just like\n\nIn variance, you know, you've got to like make something people want that device was good or agents want one years ago.\n\nYeah, okay.\n\nWell Yes, but at least By our understanding of the world today like at some level people.\n\nYeah, you got it.\n\nUm so there's some stuff that just hasn't changed and then there's a lot of other things like How much work you can get done with one person or two people or whatever that feels totally different and I don't\n\nthink there has been enough re-examination of that in this sort of startup conveyor belt of Silicon Valley yet.\n\nAs a person who's running a gigantic company and generally probably wouldn't have time for building stuff, and it now seems like you are, how does that change how you are able to lead or what you're able to do that you can make stuff on the side?\n\nI mean, we are not a gigantic company, first of all.\n\nI don't know, like maybe the big tech companies have like 100 times more people than we do, something like that.\n\nBut I am way, I really believe in if you lower friction a little bit, people build way more.\n\nAnd I have really felt that now with dots and these like, you know, little chunks of time I have, or even like a long chunk of time where I can like have this interactive thing and get a lot done.\n\nI feel like I will do something that is not just like a little side project for myself like I used to do with Codex, but I hope I launch something into the world.\n\nI hope I actually make a cool new thing and get it over the threshold.\n\nAnd does that go out on Sam Altman.com or are you talking about a real OpenAI product?\n\nI meant like I would try to build a plugin extension or something and put it out.\n\nDAN GALPINIUSSKI- Maybe I'll ship a real OpenAI product.\n\nWho knows?\n\nIt feels like all bets are off now.\n\nDAN GALPINIUSSKI- And so you have to make that decision.\n\nDo I?\n\nDAN GALPINIUSSKI- You know what?\n\nI will do that.\n\nI'm inspired now.\n\nDAN GALPINIUSSKI- What's do you have?\n\nDAN GALPINIUSSKI- No, I don't know.\n\nI don't even think about it.\n\nNow I want to do something.\n\nDAN GALPINIUSSKI- I love it.\n\nI love it.\n\nBut you do have to make that decision of you could just put a team on that.\n\nSo what does that add that instead of having to put a team on it, you can now be like, oh, I'm going\n\nWell, I think today was an example of this.\n\nLike you talked about how the amount of stuff every dev day has gone up.\n\nLike we could not have done all of this stuff without having AI to help us.\n\nAnd if this works, like next year we will put the teams on it and I will do something and more people will do something.\n\nAnd we'll have like a crazy amount of amazing stuff.\n\nOr just one really great thing, that'd be fine too.\n\nBut hopefully, the total amount of utility we put out into the world goes up.\n\nDo you do all your prompting on Ultrafast?\n\nI do.\n\nThat's sick.\n\nYeah.\n\nThat's crazy.\n\nNo, I've been thinking about this.\n\nI worry that in some ways, we kind of get out of touch with people building on our tools.\n\nAnd we try to put all these constraints on ourselves.\n\nI'm very aware that not everybody is going to be able to use Ultrafast all the time for everything, but I have such a hard time dragging it back over.\n\nGiven that you're living in that future, that I think all of us can experience a little taste of it, what is different about the Ultrafast world in terms of how you can use these tools?\n\nThere was an amazing talk, I don't know, 15, 20 years ago from Brett Victor about kind of the principles that he thought people...\n\nhow he did his work.\n\nAnd one of the things, I'm gonna get this a little bit wrong, but it was something like creators should have an immediate connection to what they're creating.\n\nAnd how speed and the feedback loop was so important.\n\nAnd I did not realize what a difference that makes to my kind of iterative thinking loop to have responses come in so quickly.\n\nBut in terms of trying to build something, trying to think through a problem, it's like a wild difference.\n\nI know you've been thinking for a long time about AI as a democratizing force to allow anyone to build stuff.\n\nAnd in the sort of ultra-fast world or in the Astros and more expensive model world, I know you're also thinking about that means something, that people can pay more for better intelligence.\n\nSo what are you thinking there?\n\nSo historically, what we have mostly focused on and I think done a great job of is bringing down the price of IQ.\n\nAnd we have made hugely more capable models that get dramatically, dramatically cheaper every few months or every year.\n\nNow, there's this new vector that is clearly going to be very important of speed.\n\nAnd we are putting the investments in place.\n\nLike our own chip is going to be an incredible contributor to letting us get very fast inference in the hands of everybody to say nothing of what the models will do to\n\nimprove research and our inference stack and everything else.\n\nAnd I think we now realize that we've got to go invest in the democratization of this like we have for model intelligence.\n\nSo when can I expect to use Ultrafast for all my prompts?\n\nyou can pay us for it and do it now.\n\nI don't think I can afford it.\n\nI think we can deliver 8X at a great price in the not distant future, but then we'll have 100X faster.\n\nAnd they'll also be like GPT-7 galaxy or whatever.\n\nSo I think the right way to think about this is as far as I can see,\n\nThere will always be a real frontier in terms of intelligence or speed or whatever else at a higher price.\n\nBut I think you can also bet that we will keep doing what we've done of just a ridiculous, like put Moore's law to shame, relentless focus on driving value per dollar up and up and up kind of in this big compounding way.\n\nAmazing.\n\nSam, thank you so much.\n\nThank you.\n\nThank you all for coming.\n\nI didn't realize there was going to be like a live audience, but that was fun.\n\nSee you."
+      }
+    ],
+    "githubTrending": [
+      {
+        "repo": "debpalash/VoiceStudio",
+        "owner": "debpalash",
+        "name": "VoiceStudio",
+        "title": "VoiceStudio: 全本地化开源语音克隆与多语言音视频处理平台",
+        "summary": "VoiceStudio 是 ElevenLabs 的开源替代方案，旨在解决语音合成与克隆对云端服务的依赖及隐私顾虑。该项目基于 Python 构建，集成了语音克隆、音色设计、视频配音、听写转录及有声书制作等全栈功能，支持多达 646 种语言。其核心架构强调“完全本地化运行”，通过高效的推理引擎实现低延迟的音频处理，特别适合对数据隐私敏感、需要大规模多语言内容创作及自动化音视频处理的开发者与内容创作者使用。",
+        "translation": "VoiceStudio 是 ElevenLabs 的开源、完全本地化替代方案，支持 646 种语言的语音克隆、音色设计、视频配音、听写、转录及有声书制作。",
+        "recommendation": "今日激增 3,400+ Star，反映了开发者对本地化 AI 语音工具的强烈需求。其打破商业 API 垄断的架构设计，是构建私有化 AI 语音工作流的极佳参考。",
+        "url": "https://github.com/debpalash/VoiceStudio",
+        "language": "Python",
+        "languageColor": "#3572A5",
+        "starsToday": 3483,
+        "totalStars": 50781,
+        "forks": 5630,
+        "channel": "全语言热门 / Python AI 专区"
+      },
+      {
+        "repo": "NVIDIA/OpenShell",
+        "owner": "NVIDIA",
+        "name": "OpenShell",
+        "title": "NVIDIA/OpenShell: 英伟达打造的安全私密自主 AI Agent 运行沙盒",
+        "summary": "OpenShell 是 NVIDIA 基于 Rust 开发的自主 AI Agent 安全私密运行时，旨在解决 Agent 执行本地代码与命令行指令时的安全风险与数据隐私痛点。它为 Agent 提供了隔离的沙盒执行环境，具备细粒度的访问控制、权限隔离与安全审计功能，防止恶意指令入侵宿主系统。该项目非常适合需要部署企业级 Agent、自动化代码执行及敏感数据处理等高风险 AI 落地场景。",
+        "translation": "OpenShell 是专门面向自主 AI Agent 打造的安全、私密运行时环境。",
+        "recommendation": "随着 Agent 逐渐具备自主操作系统和代码执行能力，安全沙盒已成为生产落地的前置刚需；英伟达官方出品加上单日暴涨超 1200 Star，绝对值得 AI 开发者与架构师第一时间跟进。",
+        "url": "https://github.com/NVIDIA/OpenShell",
+        "language": "Rust",
+        "languageColor": "#dea584",
+        "starsToday": 1281,
+        "totalStars": 13205,
+        "forks": 1572,
+        "channel": "全语言热门"
+      },
+      {
+        "repo": "t8y2/dbx",
+        "owner": "t8y2",
+        "name": "dbx",
+        "title": "dbx: 25MB超轻量跨平台数据库客户端，集成AI助手与MCP协议",
+        "summary": "dbx 是一款基于 Rust 构建的超轻量级跨平台数据库管理客户端，体积仅 25 MB。它解决了传统数据库工具体量臃肿、多数据库适配繁琐的痛点，支持 MySQL、PostgreSQL、Redis、MongoDB 及达梦等 100+ 种数据库。系统提供桌面端、Docker、CLI 三种形态，内置 AI 助手与 MCP（Model Context Protocol）服务，能够无缝连接大模型生态，实现智能 SQL 生成与数据分析，适合全栈开发者及 AI Agent 落地场景。",
+        "translation": "体积仅 25 MB 的轻量级跨平台数据库客户端，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、SQL Server 及达梦等 100+ 种数据库。提供桌面端、Docker 及 CLI 形态，内置 AI 助手与 MCP 服务。",
+        "recommendation": "作为基于 Rust 实现的高性能数据库工具，dbx 不仅极致轻量，更率先集成了 MCP 协议，打通了大模型与底层数据库的天然屏障。今日 Star 单日激增超 1,100，是 AI 时代极具代表性的下一代开发者工具。",
+        "url": "https://github.com/t8y2/dbx",
+        "language": "Rust",
+        "languageColor": "#dea584",
+        "starsToday": 1138,
+        "totalStars": 23424,
+        "forks": 2162,
+        "channel": "全语言热门"
+      },
+      {
+        "repo": "byoungd/up",
+        "owner": "byoungd",
+        "name": "up",
+        "title": "byoungd/up: 涵盖AI学习、英语进阶与个人成长的综合性人生进阶指南",
+        "summary": "该项目是由开发者韩先凯梳理的综合性个人成长与技术进阶指南，旨在解决开发者在职业发展、AI技术浪潮与跨语言交流中的认知焦虑与路径迷茫。项目系统化地盘点了AI学习路线、高价值英语教程、个人效能提升技巧以及实用的生活经验。内容采用结构化的 Markdown 形式呈现，覆盖从基础AI概念普及到深度应用实践，适合希望打破认知边界、提升综合竞争力的开发者、AI从业者及终身学习者。",
+        "translation": "一份可能让你受益匪浅的高级进阶指南，涵盖AI学习路径、英语提升教程与个人成长经验提炼。",
+        "recommendation": "项目已斩获超6.6万Star并在单日增长700+，反映出开发者群体对“AI+英语+个人成长”复合能力构建的强需求。内容干货满满，是AI时代快速补齐认知短板与软实力的绝佳指南。",
+        "url": "https://github.com/byoungd/up",
+        "language": "JavaScript",
+        "languageColor": "#f1e05a",
+        "starsToday": 743,
+        "totalStars": 66504,
+        "forks": 6645,
+        "channel": "全语言热门"
+      },
+      {
+        "repo": "HunxByts/GhostTrack",
+        "owner": "HunxByts",
+        "name": "GhostTrack",
+        "title": "GhostTrack: 基于 Python 的多维度手机号码与地理位置开源追踪工具",
+        "summary": "GhostTrack 是一款专注于开源情报（OSINT）与安全侦察的轻量级工具，主要解决网络安全调查中手机号解析与 IP 定位繁琐的痛点。项目基于 Python 开发，整合了多个地理位置 API 与通信情报源，支持快速查询手机号码的运营商、国家、时区等关键元数据，并能通过 IP 地址定位具体地理坐标。其简单易用的 CLI 交互设计非常适合渗透测试人员、安全研究员及反诈调查员在安全分析与威胁情报收集场景中使用。",
+        "translation": "用于精准定位地理位置与手机号码信息的开源情报（OSINT）追踪与侦察工具。",
+        "recommendation": "单日暴涨 635 赞且总赞突破 1.6 万，足见其在安全情报领域的火爆程度；该项目展示了如何高效聚合开源 API 进行信息收集，非常值得网络安全与 Python 开发者学习借鉴。",
+        "url": "https://github.com/HunxByts/GhostTrack",
+        "language": "Python",
+        "languageColor": "#3572A5",
+        "starsToday": 635,
+        "totalStars": 16065,
+        "forks": 2223,
+        "channel": "Python AI 专区"
+      },
+      {
+        "repo": "firecrawl/firecrawl",
+        "owner": "firecrawl",
+        "name": "firecrawl",
+        "title": "Firecrawl: 为 AI Agent 打造的网页数据检索与抓取 API 服务",
+        "summary": "Firecrawl 解决了大模型与 AI Agent 难以高效获取高质量 Web 数据的痛点。它提供了一套强劲的 Web 数据 API，能自动处理反爬验证与动态 JS 渲染，直接将复杂网页转换为最适合大模型解析的 Markdown 或结构化 JSON。项目支持全网搜索、深度爬取、单页提取及自定义 Schema 转换，极大简化了 RAG 知识库构建与智能体实时数据源集成的开发链路。",
+        "translation": "利用来自网络及更多渠道的数据，全面赋能你的 AI 智能体。这是一个集搜索、抓取与多数据源接入于一体的 Web 数据 API 平台。",
+        "recommendation": "作为 LLM 时代的数据基础设施，Firecrawl 是构建高性能 RAG 系统和 AI Agent 的必备利器。今日 Star 激增 555+ 充分展现了开发者对高效、开箱即用的大模型 Web 数据接入方案的强烈需求。",
+        "url": "https://github.com/firecrawl/firecrawl",
+        "language": "TypeScript",
+        "languageColor": "#3178c6",
+        "starsToday": 555,
+        "totalStars": 187275,
+        "forks": 9996,
+        "channel": "TypeScript/前端"
+      },
+      {
+        "repo": "oblien/openship",
+        "owner": "oblien",
+        "name": "openship",
+        "title": "OpenShip: 开源自托管应用部署平台，打造轻量级私有 PaaS",
+        "summary": "OpenShip 是一款基于 TypeScript 开发的开源自托管应用部署平台，旨在替代 Vercel、Heroku 等商业 PaaS 服务。它解决了开发者面对云厂商绑定、高额算力成本及数据隐私安全等痛点。平台采用轻量化架构，支持基于 Docker 的多语言项目自动化构建、一键部署、自定义域名配置及环境变量管理。极其适合独立开发者与中小技术团队构建私有 DevOps 基础设施，实现灵活、可控且低成本的持续交付。",
+        "translation": "一个可完全自主掌控的自托管应用部署平台，提供一站式代码构建、容器化发布与服务管理能力。",
+        "recommendation": "单日暴涨 581 Star 凸显了开发者对降本增效与私有部署平台的强烈需求。OpenShip 为寻求摆脱商业 PaaS 束缚的开发者与 AI 团队提供了极佳的开源替代方案。",
+        "url": "https://github.com/oblien/openship",
+        "language": "TypeScript",
+        "languageColor": "#3178c6",
+        "starsToday": 581,
+        "totalStars": 14235,
+        "forks": 1272,
+        "channel": "TypeScript/前端"
+      },
+      {
+        "repo": "harry0703/MoneyPrinterTurbo",
+        "owner": "harry0703",
+        "name": "MoneyPrinterTurbo",
+        "title": "MoneyPrinterTurbo：基于AI自动化工作流的一键短视频生成引擎",
+        "summary": "MoneyPrinterTurbo 是一款旨在解决短视频内容生产效率瓶颈的自动化工具。它通过集成大语言模型（LLM）与多媒体处理流水线，实现了从主题输入到高清视频输出的全链路自动化。系统架构上，它将文案创作、语音合成、素材匹配与剪辑渲染深度整合，极大降低了自媒体内容创作的门槛。该项目适用于营销号运营、知识分享类博主及自动化内容生产场景，通过标准化的工作流替代了繁琐的人工剪辑，是目前 AI 视频生成领域极具落地价值的开源实践。",
+        "translation": "利用 AI 大模型与自动化工作流，根据主题或关键词一键生成高清短视频。",
+        "recommendation": "今日激增超400星，反映了开发者对 AI 视频自动化生产的强劲需求。其模块化架构为构建个人内容工厂提供了极佳的参考范式，值得 AI 应用开发者深入研究。",
+        "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+        "language": "Python",
+        "languageColor": "#3572A5",
+        "starsToday": 431,
+        "totalStars": 127692,
+        "forks": 19972,
+        "channel": "全语言热门 / Python AI 专区"
+      }
+    ]
+  }
+}
