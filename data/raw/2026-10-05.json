@@ -1,11 +1,11 @@
 {
   "date": "2026-10-05",
   "isMondayLookback": true,
-  "fetchedAt": "2026-10-05T06:57:56.545Z",
+  "fetchedAt": "2026-10-05T10:44:54.101Z",
   "stats": {
     "buildersCount": 23,
-    "totalTweets": 101,
-    "podcastEpisodes": 3,
+    "totalTweets": 119,
+    "podcastEpisodes": 4,
     "blogPosts": 5,
     "githubProjects": 8
   },
@@ -16,6 +16,17 @@
       "handle": "thsottiaux",
       "bio": "Codex & ChatGPT @OpenAI",
       "tweets": [
+        {
+          "id": "2106845241357824205",
+          "text": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin. https://t.co/0oFXZ7LY5T",
+          "createdAt": "2026-10-04T20:33:43.000Z",
+          "url": "https://x.com/thsottiaux/status/2106845241357824205",
+          "likes": 20724,
+          "retweets": 1140,
+          "replies": 3210,
+          "isQuote": true,
+          "quotedTweetId": "2106610099720720811"
+        },
         {
           "id": "2106610099720720811",
           "text": "All right, we’re locking in. Only things being worked on are simplifications, more efficiency for more usage, groundbreaking features or new models. \n\nSometimes you have to invest ahead of the curve, but feedback is clear that you all want things to get simpler. On it.",
@@ -124,6 +135,39 @@
       "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
       "tweets": [
         {
+          "id": "2106926956554195018",
+          "text": "I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess (sorry).\n\nHere's a clip from my dots review about this. What I'd simplify:\n\n1. Work vs. Codex\n2. Spaces vs. Pages vs. Sites\n3. The model and effort picker\nProbably alot more\n\nMy hot take is that the whole Work launch was a mistake. Just like Claude folded Cowork back into Chat, I don't think Work needs its own brand.\n\nAnyway, excited to see my primary harness get much better.\n\n📌 See my full dots review here: https://t.co/kUtg3RPk7l",
+          "createdAt": "2026-10-05T01:58:25.000Z",
+          "url": "https://x.com/petergyang/status/2106926956554195018",
+          "likes": 67,
+          "retweets": 2,
+          "replies": 22,
+          "isQuote": true,
+          "quotedTweetId": "2106610099720720811"
+        },
+        {
+          "id": "2106897211766530299",
+          "text": "I asked Sam, co-founder of @meetgranola, how he feels about people skipping his UI and instead just using the MCP to get the job done.\n\nHere's what he said:\n\n\"There's definitely a pang of sadness to that as a UI designer.\n\nWe fought it for a while. We were like, no, we really need to keep everybody in the Granola UI for everything.\n\nBut as soon as you become a big enough enterprise, it's inevitable you have all of this internal tooling. If Granola doesn't play nice with that internal tooling, then it's a non-starter.\n\nAt this point we're at peace with the fact that for a bunch of workflows, the best way to use Granola is to capture the context, then use it through your internal agent.\"\n\n📌 Watch the full episode here: https://t.co/4f5zTNl4Kc",
+          "createdAt": "2026-10-05T00:00:14.000Z",
+          "url": "https://x.com/petergyang/status/2106897211766530299",
+          "likes": 77,
+          "retweets": 2,
+          "replies": 14,
+          "isQuote": true,
+          "quotedTweetId": "2106749997442285981"
+        },
+        {
+          "id": "2106825485624004691",
+          "text": "\"The easier it gets to build stuff, the more it matters to really sweat the details and go the extra mile.\"\n\nFrom Sam, co-founder of @meetgranola:\n\n\"One, you've got to build something interesting. Two, [most people] get to version one and push it out the door.\n\nInstead, hold yourself accountable, not just to shipping something, but to answering: Does the person actually get daily value out of it?\"\n\n📌 Watch the full episode here: https://t.co/4f5zTNl4Kc",
+          "createdAt": "2026-10-04T19:15:13.000Z",
+          "url": "https://x.com/petergyang/status/2106825485624004691",
+          "likes": 25,
+          "retweets": 0,
+          "replies": 7,
+          "isQuote": true,
+          "quotedTweetId": "2106749997442285981"
+        },
+        {
           "id": "2106593772863955419",
           "text": "I'm watching Foundation now season 1 episode 3 and can't decide if I really love it or not. \n\nDoes it get much better? The emperor plot is good the rest seems meh so far. https://t.co/mpOYshnd0G",
           "createdAt": "2026-10-04T03:54:28.000Z",
@@ -210,6 +254,716 @@
           "replies": 2,
           "isQuote": true,
           "quotedTweetId": "2103514287180485057"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "bio": "@vercel CEO",
+      "tweets": [
+        {
+          "id": "2106885457212825983",
+          "text": "It’s hard to fathom https://t.co/OL0LzGtvAw getting even faster, but it’s now… much faster 😂\n\nAs models speed up (as with Astra 𝚞𝚕𝚝𝚛𝚊𝚏𝚊𝚜𝚝), harness overhead matters more and more.\n\nNext release will feature even better performance for session storage and retrieval, and a big unlock for cloud durability in libfx.",
+          "createdAt": "2026-10-04T23:13:31.000Z",
+          "url": "https://x.com/rauchg/status/2106885457212825983",
+          "likes": 202,
+          "retweets": 7,
+          "replies": 40,
+          "isQuote": true,
+          "quotedTweetId": "2106882944770171353"
+        },
+        {
+          "id": "2106863842450133114",
+          "text": "DHH is fundamentally right about Rust. For context, Vercel has been undergoing a Rust-ification (carcinization, technically 🦀) for a while.\n\nOne of the first projects we migrated was Turborepo, from Go to Rust¹. The migration completed, but the RoI was actually quite controversial internally.\n\nWhile Rust was in our eyes better for low-level OS access, something crucial for a build system like Turbo, the human migration costs were very sustantive.\n\nGo is very fast. It's beautifully designed. It's easy to iterate on. We were very conflicted about the migration, because it was *humans* writing the code, *even if we knew Rust was a better choice*.\n\nThe calculus has now changed. What's \"best for humans\" is no longer necessarily \"best for business\". \n\nFWIW, it's also quite unlikely that Rust is the end-all-be-all toolchain. I'm quite certain there's greener pasture ahead, because Rust itself was designed before the 'supersonic tsunami' of agents hit.\n\n¹ https​://vercel.com/blog/how-turborepo-is-porting-from-go-to-rust",
+          "createdAt": "2026-10-04T21:47:38.000Z",
+          "url": "https://x.com/rauchg/status/2106863842450133114",
+          "likes": 1918,
+          "retweets": 87,
+          "replies": 118,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106848085267902815",
+          "text": "Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand, because it's for human consumption. The documentation internals are AI English, because they're for agents.\n\nThis little rule of thumb can make the world better. Blogs, tweets, READMEs: human communication. It's not even about \"em dashes\" or lack thereof. It's that it's the story-telling moment where you want to connect with other humans through their words.",
+          "createdAt": "2026-10-04T20:45:01.000Z",
+          "url": "https://x.com/rauchg/status/2106848085267902815",
+          "likes": 993,
+          "retweets": 36,
+          "replies": 119,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106524265034162421",
+          "text": "Summer is finally here! 🌞⛱️ https://t.co/ZBeqhh3ZwF",
+          "createdAt": "2026-10-03T23:18:16.000Z",
+          "url": "https://x.com/rauchg/status/2106524265034162421",
+          "likes": 868,
+          "retweets": 7,
+          "replies": 49,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106516538836856945",
+          "text": "Security will become a larger and larger function in software companies. Security is verification engineering (eg: “my code is probably memory-safe”), as well as capital allocation (“what surface should I throw most tokens at?”)\n\nFor startups, it’s a challenge and opportunity. As the world’s paranoia grows given ever-more-sophisticated AI adversaries, how can you trust a 2-person-and-a-dog company?\n\nBut conversely, given the dire state of global cybersecurity and increasing reliance on centralization, as always, there’re vast areas that small teams can now disrupt that I’m excited to invest in.",
+          "createdAt": "2026-10-03T22:47:34.000Z",
+          "url": "https://x.com/rauchg/status/2106516538836856945",
+          "likes": 587,
+          "retweets": 32,
+          "replies": 86,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106503460384538793",
+          "text": "AI will make everything free, including itself. The last domino to fall will be free energy, which is humanity’s final frontier.",
+          "createdAt": "2026-10-03T21:55:36.000Z",
+          "url": "https://x.com/rauchg/status/2106503460384538793",
+          "likes": 3229,
+          "retweets": 193,
+          "replies": 286,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106139305131569178",
+          "text": "Wonderful writeup on Jev + Python https://t.co/imdwexC2nn",
+          "createdAt": "2026-10-02T21:48:35.000Z",
+          "url": "https://x.com/rauchg/status/2106139305131569178",
+          "likes": 174,
+          "retweets": 4,
+          "replies": 12,
+          "isQuote": true,
+          "quotedTweetId": "2106139101422567748"
+        },
+        {
+          "id": "2106133123973214497",
+          "text": "Amazing. Love to see the https://t.co/ZRAOxqyRNt team ship so fast ▲ https://t.co/xvy2urxGnv",
+          "createdAt": "2026-10-02T21:24:01.000Z",
+          "url": "https://x.com/rauchg/status/2106133123973214497",
+          "likes": 242,
+          "retweets": 4,
+          "replies": 8,
+          "isQuote": true,
+          "quotedTweetId": "2106099383037309211"
+        },
+        {
+          "id": "2105872023482515825",
+          "text": "Here's the app. One thing I've been liking is to ask models to 'teach me back' what they did¹ by including \"quines\".\n\nQuines² are programs that output their own source code. So, in this demo you can reveal step by step the Svelte code powering it!\n\nhttps://t.co/CTTyWd2w3I\n\n¹ Understanding is still great 😆\n² https://t.co/Ck4QwZt0cL",
+          "createdAt": "2026-10-02T04:06:30.000Z",
+          "url": "https://x.com/rauchg/status/2105872023482515825",
+          "likes": 14,
+          "retweets": 0,
+          "replies": 5,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2105837842362732965",
+          "text": "SvelteKit 3 is a wonder. Congrats to the team. So excited for Async Svelte &amp; Remote Functions to cook.\n\nI built a tiny app, it built &amp; deployed in 15 seconds end-to-end, it’s instant, and fx + opus figured it all out effortlessly.\nhttps://t.co/LFoUKMKLSV",
+          "createdAt": "2026-10-02T01:50:40.000Z",
+          "url": "https://x.com/rauchg/status/2105837842362732965",
+          "likes": 400,
+          "retweets": 21,
+          "replies": 29,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2105723481413550427",
+          "text": "The future is verification-engineering.\nProofs, (e2e) tests, benchmarks, linters… \n\nSome tests will be deterministic, some agentic. This looks great. https://t.co/ZSwn1UEupp",
+          "createdAt": "2026-10-01T18:16:15.000Z",
+          "url": "https://x.com/rauchg/status/2105723481413550427",
+          "likes": 2490,
+          "retweets": 124,
+          "replies": 77,
+          "isQuote": true,
+          "quotedTweetId": "2105675143464763540"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "tweets": [
+        {
+          "id": "2106893015063421357",
+          "text": "We’re already starting to see what kind of new jobs AI is creating. \n\nAI requires significant technical work and surrounding services to deploy into the economy. This means jobs for AI engineers that build applied AI products sold to (or within) enterprises, FDEs to deploy agents into companies, new services firms for deploying AI, and more. \n\nAnd even the published stats of new jobs undercount all the existing jobs that are transitioning to new areas of AI work in an enterprise. Many prior data, research, and software jobs large enterprises are also being repositioned for working with AI. \n\nEvery bank, life sciences company, manufacturer, and even law firm is bringing on more technical talent -or repositioning existing roles- to help with agent deployment in their companies. It’s a lot easier to picture what AI can replace vs. what it creates until it starts happening. Now we’re seeing what this looks like.",
+          "createdAt": "2026-10-04T23:43:33.000Z",
+          "url": "https://x.com/levie/status/2106893015063421357",
+          "likes": 565,
+          "retweets": 63,
+          "replies": 79,
+          "isQuote": true,
+          "quotedTweetId": "2106777112552390986"
+        },
+        {
+          "id": "2106802940879192260",
+          "text": "This metric may tell us more about the business model of consumer AI than the state of AI. AI for consumers almost inevitably will be subsidized and monetized via commerce, ads, or purchases of devices and other services. This metric may level off lower than we think. https://t.co/HGKoWJGHci",
+          "createdAt": "2026-10-04T17:45:38.000Z",
+          "url": "https://x.com/levie/status/2106802940879192260",
+          "likes": 259,
+          "retweets": 22,
+          "replies": 55,
+          "isQuote": true,
+          "quotedTweetId": "2105726958021885977"
+        },
+        {
+          "id": "2106583814709633413",
+          "text": "AI agent adoption is still very bimodal right now. You have coding and coding adjacent tasks which have taken off, and then everything else. \n\nAnd even within coding, you have a very wide continuum of adoption patterns, with some likely a small percentage of developers deploying background agents working on projects in parallel, and the rest of everyone else still working with agents 1:1. \n\nThen, there’s the entire rest of knowledge work where real agentic adoption is still very early. The reason for this is that most of the workflows still need to reengineered to work with agents. \n\nThis isn’t the same as deploying a chat system for better research efficiency, but instead requires workflows to be rebuilt, data to be wired up in new ways, new practices for accountability and liability of decisions when agents are in the mix, governance and compliance paradigm changes, security upgrades, and more. \n\nWe’re still so unbelievably early in what this is going to look like outside of a few categories of work right now. This is why you can basically expect 100X more agent adoption from what we’ve seen so far.",
+          "createdAt": "2026-10-04T03:14:54.000Z",
+          "url": "https://x.com/levie/status/2106583814709633413",
+          "likes": 187,
+          "retweets": 15,
+          "replies": 63,
+          "isQuote": true,
+          "quotedTweetId": "2106103404355301777"
+        },
+        {
+          "id": "2105695329513504976",
+          "text": "A big trend with most enterprises that I talk to is deploying internal FDEs into departments in their organization to help bridge the capabilities of AI into their underlying workflows. \n\nThis requires a high level of technical expertise, an understanding of AI, and the ability to understand the workflows and processes that the enterprise is trying to automate. There’s no shortcut to getting automation without this combination of skills (either in one person or multiple). \n\nWhat’s exciting is this is an entirely new function in most enterprises, which is going to create a ton of new roles in the economy.\n\n“Every generation of technology creates jobs that didn't exist before it, jobs that arise from an immediate need in an emergent industry. The Automation Engineer is a key example of those jobs for this generation. Nobody has ten years of experience doing this yet, because ten years ago the tools that made it possible didn't exist (it didn’t even exist two years ago).”\n\nIf you have software skills and are diving into AI, this is an area to go deep on.",
+          "createdAt": "2026-10-01T16:24:23.000Z",
+          "url": "https://x.com/levie/status/2105695329513504976",
+          "likes": 574,
+          "retweets": 71,
+          "replies": 61,
+          "isQuote": true,
+          "quotedTweetId": "2105659201221804372"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Ryo Lu",
+      "handle": "ryolu_",
+      "bio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "tweets": [
+        {
+          "id": "2106777615801713054",
+          "text": "a bit more work later…\nfull bleed desktop + side dock\nlil computer in your pocket https://t.co/KJ5TwRsPSz https://t.co/UYkEWHyDnY",
+          "createdAt": "2026-10-04T16:05:00.000Z",
+          "url": "https://x.com/ryolu_/status/2106777615801713054",
+          "likes": 399,
+          "retweets": 10,
+          "replies": 10,
+          "isQuote": true,
+          "quotedTweetId": "2105775325385040243"
+        },
+        {
+          "id": "2106343073127256507",
+          "text": "https://t.co/TNhsT7hCvW",
+          "createdAt": "2026-10-03T11:18:17.000Z",
+          "url": "https://x.com/ryolu_/status/2106343073127256507",
+          "likes": 124,
+          "retweets": 5,
+          "replies": 2,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106337039201505453",
+          "text": "convergence to the mean\n\nwhen everyone looks at everyone else to decide what to make, we eventually stop making anything of our own.\n\nwe copy what works. borrow the language, the aesthetic, the features. we call it learning from the market, following best practices, staying competitive. together, everything starts to feel familiar. polished, interchangeable. nothing wrong. nothing alive.\n\nthe mean isn’t necessarily bad. it’s where everything lands when we remove the reasons for it to be different.\n\nnumbers are easier to compare than feelings, so we make things that produce numbers. we study what gets attention, then shape ourselves around it. eventually the feedback stops informing the work and starts authoring it. we’re no longer asking what we want to say. we’re asking what will be rewarded for saying.\n\nai makes this loop frictionless. it can draw from more references than we could see in a lifetime. but access to every perspective isn’t the same as having one. it hasn’t lived a particular life that makes one detail unbearable and another beautiful. when we ask it to choose for us without bringing any intention of our own, we get something plausible, easy to approve.\n\nthen we ship it, measure it, copy it, and feed it back into the next round. a tidal wave of mid.\n\nthis changes not just the work, but the people making it.\n\nwe describe ourselves in categories platforms can distribute and markets understand. designer. founder. creator. pick a niche. build a brand. be consistent. the parts that don’t fit become inconvenient, even when those contradictions might produce our most interesting work. we become easier to classify and harder to tell apart.\n\ni think we need to approach making things more like artists.\n\nan artist develops a perspective through the work. making, noticing, choosing, failing, returning. learning what matters even when nobody else cares. craft gives that perspective a form precise enough for someone else to experience.\n\nthe life outside the work matters too. the places you’ve lived, the people you’ve loved, the things you’re embarrassed to care about. these aren’t distractions from having something to say. they’re how you come to have something to say.\n\nwe understand this with music, paintings, photographs, movies. we expect a person to be present in the choices. we want to experience something we wouldn’t have encountered without them.\n\nsoftware can do this too.\n\na piece of software expresses beliefs about how life should feel. what deserves your attention. what you should be free to change. whether a task should feel like paperwork or play. even a small interaction can carry someone’s care, humor, or curiosity.\n\nbut we rarely talk about software as a medium. we talk about it as an industry. markets to capture, workflows to optimize, competitors to catch up with. we add a feature because someone else has it, without asking whether it belongs. products accumulate the same parts and lose what made them worth choosing.\n\nunderneath the branding, it’s all the same thing.\n\nartists learn from others too. the question is whether you’re absorbing those influences into a point of view, or using them to avoid developing one.\n\nwhat are you trying to let someone feel, understand, or do? why this particular shape? what have you noticed that the existing tools don’t seem to notice?\n\nthose questions don’t have answers you can borrow from a competitor’s roadmap.\n\nif we can make almost anything, deciding what deserves to exist becomes more important, not less. speed gives us more chances to exercise judgment. it doesn’t remove the responsibility.\n\ni don’t want a world where every person becomes a more efficient distributor of the same ideas. i want people to use these tools to go further into what they actually care about. to make things specific enough that we can feel someone behind them.\n\nwhat is the point of everyone being able to make something, if we all end up making the same thing?",
+          "createdAt": "2026-10-03T10:54:18.000Z",
+          "url": "https://x.com/ryolu_/status/2106337039201505453",
+          "likes": 1776,
+          "retweets": 224,
+          "replies": 94,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2105775325385040243",
+          "text": "flip phone. full desktop. \na whole little world.\n\nryOS on iPhone Duo https://t.co/JxmdBqWlgh",
+          "createdAt": "2026-10-01T21:42:15.000Z",
+          "url": "https://x.com/ryolu_/status/2105775325385040243",
+          "likes": 329,
+          "retweets": 6,
+          "replies": 15,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "tweets": [
+        {
+          "id": "2106901111106097210",
+          "text": "When everyone is building the same primitives it does speak to needs that will only intensify from here\n\nAnd we will eventually converge on the correct OS https://t.co/tTdL1LMmzx",
+          "createdAt": "2026-10-05T00:15:43.000Z",
+          "url": "https://x.com/garrytan/status/2106901111106097210",
+          "likes": 310,
+          "retweets": 15,
+          "replies": 51,
+          "isQuote": true,
+          "quotedTweetId": "2106444310187290762"
+        },
+        {
+          "id": "2106102038706970794",
+          "text": "Capy is like a 24/7 standup for your agents https://t.co/cNQwkWMxSz",
+          "createdAt": "2026-10-02T19:20:30.000Z",
+          "url": "https://x.com/garrytan/status/2106102038706970794",
+          "likes": 7,
+          "retweets": 0,
+          "replies": 3,
+          "isQuote": true,
+          "quotedTweetId": "2106096482155950256"
+        },
+        {
+          "id": "2106092289173213444",
+          "text": "Surprising cool @capydotai cross-session coordination I wasn't expecting: My GBrain collaborator Sina started a fix wave that is even steering around all of the things I'm already working on across multiple Capy threads. All model agnostic. https://t.co/P5TUYlEfRs",
+          "createdAt": "2026-10-02T18:41:45.000Z",
+          "url": "https://x.com/garrytan/status/2106092289173213444",
+          "likes": 98,
+          "retweets": 8,
+          "replies": 47,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106063850453991758",
+          "text": "My goal with GBrain:\n\nI want our agents to feel as native, expressive, and inevitable as the web eventually did—not as a chatbot feature, but as a personal Jiminy Cricket that knows you and helps you 24/7 always on, always thinking ahead, always improving.",
+          "createdAt": "2026-10-02T16:48:45.000Z",
+          "url": "https://x.com/garrytan/status/2106063850453991758",
+          "likes": 441,
+          "retweets": 16,
+          "replies": 72,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2105814135388979414",
+          "text": "When people say McCoy is not an extremist you can tell those people are gaslighting you https://t.co/ESw2ANPS37",
+          "createdAt": "2026-10-02T00:16:28.000Z",
+          "url": "https://x.com/garrytan/status/2105814135388979414",
+          "likes": 26,
+          "retweets": 4,
+          "replies": 3,
+          "isQuote": true,
+          "quotedTweetId": "2105813296318455857"
+        },
+        {
+          "id": "2105809148365717985",
+          "text": "This guy is now the frontrunner for D8 Supervisor in SF. \n\nYou should probably be looking for alternatives. \n\nhttps://t.co/wYufh7iXH9 https://t.co/1orp7aYohx",
+          "createdAt": "2026-10-01T23:56:39.000Z",
+          "url": "https://x.com/garrytan/status/2105809148365717985",
+          "likes": 14,
+          "retweets": 1,
+          "replies": 1,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2105796174464815210",
+          "text": "Harm accelerationist Gary McCoy is going to ruin San Francisco https://t.co/pcOuGg9L8x",
+          "createdAt": "2026-10-01T23:05:06.000Z",
+          "url": "https://x.com/garrytan/status/2105796174464815210",
+          "likes": 70,
+          "retweets": 10,
+          "replies": 13,
+          "isQuote": true,
+          "quotedTweetId": "2105730417181810827"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "tweets": [
+        {
+          "id": "2106821381765956044",
+          "text": "Still one aspect of AI that's most poorly understood outside AI circles... \"models are grown, not built\" and we don't *really* know how they work.  Hence the urgent need for better interpretability -- @eric_ho @GoodfireAI https://t.co/VCDuEk2r72 https://t.co/iIV93Rjz28",
+          "createdAt": "2026-10-04T18:58:54.000Z",
+          "url": "https://x.com/mattturck/status/2106821381765956044",
+          "likes": 5,
+          "retweets": 1,
+          "replies": 4,
+          "isQuote": true,
+          "quotedTweetId": "2105685876218925081"
+        },
+        {
+          "id": "2106076198027890750",
+          "text": "People call the Bay Area a monoculture, but that's totally unfair: it has both neo-clouds AND neo-labs",
+          "createdAt": "2026-10-02T17:37:49.000Z",
+          "url": "https://x.com/mattturck/status/2106076198027890750",
+          "likes": 107,
+          "retweets": 5,
+          "replies": 5,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2105835377290289601",
+          "text": "AI Podcasts be like:\n\nCold open: \"AI is about to destroy humanity.  RSI is leading to a hard take off that we won't be able to control.\"\n\n&lt;&lt; but first, a message from our sponsors: meet AgentTina, your agentic workflow orchestration solution for faster AI deployments&gt;&gt;",
+          "createdAt": "2026-10-02T01:40:53.000Z",
+          "url": "https://x.com/mattturck/status/2105835377290289601",
+          "likes": 18,
+          "retweets": 0,
+          "replies": 3,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2105685880639717513",
+          "text": "This great conversation on the rise of AI interpretability with @eric_ho of @GoodfireAI is also available on Spotify, Apple Podcasts, @snipd_app and here on YouTube (like and subscribe!):\n\nhttps://t.co/7TSOLBCvuZ",
+          "createdAt": "2026-10-01T15:46:50.000Z",
+          "url": "https://x.com/mattturck/status/2105685880639717513",
+          "likes": 8,
+          "retweets": 2,
+          "replies": 0,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2105685876218925081",
+          "text": "Reward hacking, and the race to see inside AI models: my conversation with @eric_ho, CEO of @GoodfireAI \n\nIs this the beginning of the interp exponential?\n\n00:00 Cold open & intro\n01:06 \"Amoral students with an absent teacher\"\n02:49 What is reward hacking?\n04:13 Models cheat up to 96% of the time\n06:08 Do models know they're cheating?\n08:10 The Hugging Face hack: why tests missed it\n11:35 \"The dumbest models we'll ever deal with\"\n11:58 Should AI slow down?\n13:56 Mechanistic interpretability 101\n16:06 Models are grown, not built\n19:10 How labs do alignment today\n21:30 Is this an alignment crisis?\n23:26 Why agents changed everything\n25:38 Chain-of-thought monitoring is fading\n27:49 Neuralese: AI that stops thinking in English\n29:28 A model caught evading its own monitor\n30:42 Open vs. closed models\n32:11 Activation monitoring in production\n35:00 Learning from superhuman AI\n36:15 The most underrated field in AI\n38:24 What is a probe?\n39:52 What is steering? Golden Gate Claude\n40:53 Why build Goodfire outside the labs\n42:46 Do you need frontier model access?\n44:16 Inside the paper: an MRI for the model\n47:28 Dialing sycophancy up and down\n49:16 Probes vs. chain-of-thought monitors\n51:44 Cutting monitoring costs by 90%\n53:28 So what can we do about it?\n55:41 Giving gradient descent a choice\n57:24 RL from feature rewards\n1:00:03 Silico and Goodfire's business\n1:01:25 A new Alzheimer's biomarker\n1:03:38 Decoding neural networks by 2028?\n1:06:00 What engineers can do tomorrow\n1:07:35 Are we at risk? \"I want people to believe\"\n\nGreat group of folks and friends involved @deedydas @MenloVentures @fendien @Work_Bench @BCapitalGroup @AnthropicAI",
+          "createdAt": "2026-10-01T15:46:49.000Z",
+          "url": "https://x.com/mattturck/status/2105685876218925081",
+          "likes": 17,
+          "retweets": 5,
+          "replies": 6,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEajezlL \nYouTube: https://t.co/8xzbGWtf6w",
+      "tweets": [
+        {
+          "id": "2106876921082712250",
+          "text": "The way Opus 5.5 just silently goes off to make something for 20+ minutes and comes back with a complete masterpiece https://t.co/KhPLgeSl7q",
+          "createdAt": "2026-10-04T22:39:36.000Z",
+          "url": "https://x.com/zarazhangrui/status/2106876921082712250",
+          "likes": 511,
+          "retweets": 9,
+          "replies": 42,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106782239493427588",
+          "text": "X profiles are replacing resumes https://t.co/1WDh5pGxZ2",
+          "createdAt": "2026-10-04T16:23:22.000Z",
+          "url": "https://x.com/zarazhangrui/status/2106782239493427588",
+          "likes": 151,
+          "retweets": 4,
+          "replies": 18,
+          "isQuote": true,
+          "quotedTweetId": "1939824720838631801"
+        },
+        {
+          "id": "2106779057220378725",
+          "text": "Currently reading https://t.co/4rjrnvReWU",
+          "createdAt": "2026-10-04T16:10:43.000Z",
+          "url": "https://x.com/zarazhangrui/status/2106779057220378725",
+          "likes": 112,
+          "retweets": 1,
+          "replies": 13,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106405482852434359",
+          "text": "How will the world change if coding agents get 10x better?",
+          "createdAt": "2026-10-03T15:26:16.000Z",
+          "url": "https://x.com/zarazhangrui/status/2106405482852434359",
+          "likes": 96,
+          "retweets": 3,
+          "replies": 61,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2105753728183828692",
+          "text": "Frontend code is probably the most expressive medium for storytelling of our times yet many people are just using it to make SaaS landing pages",
+          "createdAt": "2026-10-01T20:16:26.000Z",
+          "url": "https://x.com/zarazhangrui/status/2105753728183828692",
+          "likes": 119,
+          "retweets": 1,
+          "replies": 13,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "tweets": [
+        {
+          "id": "2106957269212742135",
+          "text": "Maybe I’m just old school, but I just can’t believe how people make investments over a Zoom call.. and sometimes by just meeting the CEO. \n\nThere’s so much alpha in meeting founders at their own office. \n\nBesides “vibes”, you get to see what the energy of the office is like, how the coworkers react and work with each other, how the cofounders answer and complement each other, what the beta product releases look like, how they collaborate etc etc. \n\nYes, I get it there’s time pressure, and you often have to move fast. But even then I always ask to meet at offices for final meetings and founders often tell me I’m the only one that has ever asked. \n\nWhat’s the point of calling them into your own conference room and parrot the same deck??",
+          "createdAt": "2026-10-05T03:58:53.000Z",
+          "url": "https://x.com/nikunj/status/2106957269212742135",
+          "likes": 104,
+          "retweets": 0,
+          "replies": 19,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106576328648741278",
+          "text": "Me: Enjoying the warm weekend..\n\nMe: Also refreshing that El Nino forecast 🤯 https://t.co/RBSTBC1nw4",
+          "createdAt": "2026-10-04T02:45:09.000Z",
+          "url": "https://x.com/nikunj/status/2106576328648741278",
+          "likes": 10,
+          "retweets": 0,
+          "replies": 3,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106488814940414455",
+          "text": "It'll be interesting to see how this innovator's dilemma plays out in the next few years as personal agents become inevitable..\n\nAmazon is protecting it's \"ads\" cash cow and *cough* the brand. \n\nDoordash, albeit smaller, is opening the gates (slowly) with their CLIs and allowing to order via text.",
+          "createdAt": "2026-10-03T20:57:24.000Z",
+          "url": "https://x.com/nikunj/status/2106488814940414455",
+          "likes": 23,
+          "retweets": 0,
+          "replies": 7,
+          "isQuote": true,
+          "quotedTweetId": "2106396307476951105"
+        },
+        {
+          "id": "2106452873513201930",
+          "text": "Again do it for a bit to explore the edges and maybe find the right purpose. \n\nBut tokenmaxxing for the sake of doing it is not honestly useful in this era.",
+          "createdAt": "2026-10-03T18:34:35.000Z",
+          "url": "https://x.com/nikunj/status/2106452873513201930",
+          "likes": 1,
+          "retweets": 0,
+          "replies": 0,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106183850544239038",
+          "text": "When in doubt, always make more bubble solution 🫧 https://t.co/OXJ9btVIO0",
+          "createdAt": "2026-10-03T00:45:35.000Z",
+          "url": "https://x.com/nikunj/status/2106183850544239038",
+          "likes": 21,
+          "retweets": 1,
+          "replies": 2,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106072546206773574",
+          "text": "If you are a home automation nerd, this is a fun prompt to try on Claude Code / Codex (edit based on your own setup):\n\n\"Can you sniff network packets in our house and see what else can we automate? For context: We have a Hermes agent that runs a lot of things like the personal Gmail, thermostat, Doordash, Amazon etc. \n\nTrying to see what else we can connect to. We have an Apple TV that we can talk to if we need for HomeKit related stuff but no other bridge that runs home assistant.\n\nGive me a full list of devices that you find and research how they can be connected to an agent.\"",
+          "createdAt": "2026-10-02T17:23:18.000Z",
+          "url": "https://x.com/nikunj/status/2106072546206773574",
+          "likes": 47,
+          "retweets": 0,
+          "replies": 9,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106053219487228081",
+          "text": "\"Everyone you meet is fighting a battle you know nothing about. Be kind. Always.\" \n\nRobin Williams. \n\nPrescient as always.",
+          "createdAt": "2026-10-02T16:06:30.000Z",
+          "url": "https://x.com/nikunj/status/2106053219487228081",
+          "likes": 82,
+          "retweets": 4,
+          "replies": 6,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2105852023510118878",
+          "text": "Been reading a LOT of chatter on X about how SF culture is “gatekeeping” and how it all comes down to who you know..\n\nWhile that’s definitely true in pockets, what’s made SF great is how open even extremely smart/accomplished people are to meet for coffee. And how willing people are to open doors for you even when they’ve just met you. I benefitted from this again and again when I first moved here, and I still benefit from it even as I’ve been here for 10+ years. \n\nSF is probably the only place where when you quit your job people say congratulations, and immediately jump into asking what’s next and try to help you. \n\nWith any given hype cycle, I’m sure this wanes to a certain degree. And a lot of tourists will come and go expecting a different SF. But I still see the grace and the abundance mindset from most of the folks I meet and that makes me more bullish on this city ever than before. \n\nLet’s keep paying it forward!!",
+          "createdAt": "2026-10-02T02:47:01.000Z",
+          "url": "https://x.com/nikunj/status/2105852023510118878",
+          "likes": 108,
+          "retweets": 2,
+          "replies": 13,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+      "tweets": [
+        {
+          "id": "2106796559400882209",
+          "text": "bug fixes &amp; performance improvements https://t.co/E4BHpRVRjf",
+          "createdAt": "2026-10-04T17:20:16.000Z",
+          "url": "https://x.com/steipete/status/2106796559400882209",
+          "likes": 484,
+          "retweets": 6,
+          "replies": 26,
+          "isQuote": true,
+          "quotedTweetId": "2106435782110068975"
+        },
+        {
+          "id": "2106489264443981978",
+          "text": "laughing about how we all are building the same thing. https://t.co/SidDrycoLi",
+          "createdAt": "2026-10-03T20:59:11.000Z",
+          "url": "https://x.com/steipete/status/2106489264443981978",
+          "likes": 609,
+          "retweets": 14,
+          "replies": 32,
+          "isQuote": true,
+          "quotedTweetId": "2106464778998956056"
+        },
+        {
+          "id": "2106446147791597774",
+          "text": "Do I know anyone at Google who could help? We're now over a week in review limbo for OpenClaw's Android app.",
+          "createdAt": "2026-10-03T18:07:52.000Z",
+          "url": "https://x.com/steipete/status/2106446147791597774",
+          "likes": 6315,
+          "retweets": 106,
+          "replies": 164,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106076508020506722",
+          "text": "This was by far my favorite slide at DevDay.\nKudos to the team! https://t.co/AQtPzNTZhx",
+          "createdAt": "2026-10-02T17:39:03.000Z",
+          "url": "https://x.com/steipete/status/2106076508020506722",
+          "likes": 1199,
+          "retweets": 23,
+          "replies": 53,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2105805164305359019",
+          "text": "holy https://t.co/qt50yrncnf",
+          "createdAt": "2026-10-01T23:40:49.000Z",
+          "url": "https://x.com/steipete/status/2105805164305359019",
+          "likes": 1016,
+          "retweets": 28,
+          "replies": 27,
+          "isQuote": true,
+          "quotedTweetId": "2105240703383027897"
+        },
+        {
+          "id": "2105778011635400949",
+          "text": "\"Today, we’re releasing two Cloudflare-trained decision models, Clef and Clef-flash\" \nhttps://t.co/E8cYq4w7Fz\n\nNever seen an idea spreading so fast.",
+          "createdAt": "2026-10-01T21:52:56.000Z",
+          "url": "https://x.com/steipete/status/2105778011635400949",
+          "likes": 1377,
+          "retweets": 112,
+          "replies": 69,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2105773541652308145",
+          "text": "\"AI agents are aeroplanes for the mind: faster and more powerful than the bicycle, harder to control, costlier when they crash.\"",
+          "createdAt": "2026-10-01T21:35:10.000Z",
+          "url": "https://x.com/steipete/status/2105773541652308145",
+          "likes": 45,
+          "retweets": 6,
+          "replies": 11,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "tweets": [
+        {
+          "id": "2106892868564431255",
+          "text": "dot has become my primary interface to AI over the last few weeks.\n\nmy dot's name is boo. he's cute! \n\nin a year, i bet i'll still be interacting in this way with @ChatGPT—e.g. as an always-on persistent agent—but boo will have disappeared. it reminds me a lot of early OpenClaw days—we loved the little personality quirks of our Claws, but we dropped them as soon as there was something functionally more powerful available",
+          "createdAt": "2026-10-04T23:42:58.000Z",
+          "url": "https://x.com/danshipper/status/2106892868564431255",
+          "likes": 114,
+          "retweets": 4,
+          "replies": 21,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106144801653506531",
+          "text": "here is my official @OpenAI DevDay FOOD vibe check \n\n(I know you’ve been waiting) https://t.co/JnLpqALBg7",
+          "createdAt": "2026-10-02T22:10:25.000Z",
+          "url": "https://x.com/danshipper/status/2106144801653506531",
+          "likes": 38,
+          "retweets": 2,
+          "replies": 9,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2106126787424002158",
+          "text": "oldie but goodie https://t.co/FMTJOtSRGk",
+          "createdAt": "2026-10-02T20:58:50.000Z",
+          "url": "https://x.com/danshipper/status/2106126787424002158",
+          "likes": 8,
+          "retweets": 1,
+          "replies": 1,
+          "isQuote": true,
+          "quotedTweetId": "1715455201992196101"
+        },
+        {
+          "id": "2106043635947225392",
+          "text": "dev day vlog is LIVE!!! https://t.co/yy6tx11pZz",
+          "createdAt": "2026-10-02T15:28:25.000Z",
+          "url": "https://x.com/danshipper/status/2106043635947225392",
+          "likes": 42,
+          "retweets": 1,
+          "replies": 7,
+          "isQuote": true,
+          "quotedTweetId": "2106043308342681945"
+        },
+        {
+          "id": "2105811214827696302",
+          "text": "we published a sick guide to getting started with open models on @every: https://t.co/ZLCBB2WtSh",
+          "createdAt": "2026-10-02T00:04:52.000Z",
+          "url": "https://x.com/danshipper/status/2105811214827696302",
+          "likes": 49,
+          "retweets": 8,
+          "replies": 6,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2105728002487353520",
+          "text": "we (@hammer_mt) used Jev to ingest every time i took a position on something in @every's slack\n\nthen he measured how often i contradict myself:\n\n0% \n\nhonestly super proud of this lol https://t.co/Mtv9ukhZXb",
+          "createdAt": "2026-10-01T18:34:12.000Z",
+          "url": "https://x.com/danshipper/status/2105728002487353520",
+          "likes": 37,
+          "retweets": 0,
+          "replies": 7,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2105706430384710075",
+          "text": "so @hammer_mt has been trying to automate me.\n\napparently i only agree 34% of the time when im asked for my opinion or given options and that's one of the reasons the models don't do well pretending to be me\n\nfood for thought! https://t.co/UCxqWWhwO8",
+          "createdAt": "2026-10-01T17:08:29.000Z",
+          "url": "https://x.com/danshipper/status/2105706430384710075",
+          "likes": 14,
+          "retweets": 1,
+          "replies": 11,
+          "isQuote": false,
+          "quotedTweetId": null
         }
       ]
     },
@@ -386,362 +1140,6 @@
           "likes": 359,
           "retweets": 4,
           "replies": 17,
-          "isQuote": false,
-          "quotedTweetId": null
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Guillermo Rauch",
-      "handle": "rauchg",
-      "bio": "@vercel CEO",
-      "tweets": [
-        {
-          "id": "2106524265034162421",
-          "text": "Summer is finally here! 🌞⛱️ https://t.co/ZBeqhh3ZwF",
-          "createdAt": "2026-10-03T23:18:16.000Z",
-          "url": "https://x.com/rauchg/status/2106524265034162421",
-          "likes": 868,
-          "retweets": 7,
-          "replies": 49,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2106516538836856945",
-          "text": "Security will become a larger and larger function in software companies. Security is verification engineering (eg: “my code is probably memory-safe”), as well as capital allocation (“what surface should I throw most tokens at?”)\n\nFor startups, it’s a challenge and opportunity. As the world’s paranoia grows given ever-more-sophisticated AI adversaries, how can you trust a 2-person-and-a-dog company?\n\nBut conversely, given the dire state of global cybersecurity and increasing reliance on centralization, as always, there’re vast areas that small teams can now disrupt that I’m excited to invest in.",
-          "createdAt": "2026-10-03T22:47:34.000Z",
-          "url": "https://x.com/rauchg/status/2106516538836856945",
-          "likes": 587,
-          "retweets": 32,
-          "replies": 86,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2106503460384538793",
-          "text": "AI will make everything free, including itself. The last domino to fall will be free energy, which is humanity’s final frontier.",
-          "createdAt": "2026-10-03T21:55:36.000Z",
-          "url": "https://x.com/rauchg/status/2106503460384538793",
-          "likes": 3229,
-          "retweets": 193,
-          "replies": 286,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2106139305131569178",
-          "text": "Wonderful writeup on Jev + Python https://t.co/imdwexC2nn",
-          "createdAt": "2026-10-02T21:48:35.000Z",
-          "url": "https://x.com/rauchg/status/2106139305131569178",
-          "likes": 174,
-          "retweets": 4,
-          "replies": 12,
-          "isQuote": true,
-          "quotedTweetId": "2106139101422567748"
-        },
-        {
-          "id": "2106133123973214497",
-          "text": "Amazing. Love to see the https://t.co/ZRAOxqyRNt team ship so fast ▲ https://t.co/xvy2urxGnv",
-          "createdAt": "2026-10-02T21:24:01.000Z",
-          "url": "https://x.com/rauchg/status/2106133123973214497",
-          "likes": 242,
-          "retweets": 4,
-          "replies": 8,
-          "isQuote": true,
-          "quotedTweetId": "2106099383037309211"
-        },
-        {
-          "id": "2105872023482515825",
-          "text": "Here's the app. One thing I've been liking is to ask models to 'teach me back' what they did¹ by including \"quines\".\n\nQuines² are programs that output their own source code. So, in this demo you can reveal step by step the Svelte code powering it!\n\nhttps://t.co/CTTyWd2w3I\n\n¹ Understanding is still great 😆\n² https://t.co/Ck4QwZt0cL",
-          "createdAt": "2026-10-02T04:06:30.000Z",
-          "url": "https://x.com/rauchg/status/2105872023482515825",
-          "likes": 14,
-          "retweets": 0,
-          "replies": 5,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2105837842362732965",
-          "text": "SvelteKit 3 is a wonder. Congrats to the team. So excited for Async Svelte &amp; Remote Functions to cook.\n\nI built a tiny app, it built &amp; deployed in 15 seconds end-to-end, it’s instant, and fx + opus figured it all out effortlessly.\nhttps://t.co/LFoUKMKLSV",
-          "createdAt": "2026-10-02T01:50:40.000Z",
-          "url": "https://x.com/rauchg/status/2105837842362732965",
-          "likes": 400,
-          "retweets": 21,
-          "replies": 29,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2105723481413550427",
-          "text": "The future is verification-engineering.\nProofs, (e2e) tests, benchmarks, linters… \n\nSome tests will be deterministic, some agentic. This looks great. https://t.co/ZSwn1UEupp",
-          "createdAt": "2026-10-01T18:16:15.000Z",
-          "url": "https://x.com/rauchg/status/2105723481413550427",
-          "likes": 2490,
-          "retweets": 124,
-          "replies": 77,
-          "isQuote": true,
-          "quotedTweetId": "2105675143464763540"
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Aaron Levie",
-      "handle": "levie",
-      "bio": "ceo @box - your business lives in content. unleash it with AI",
-      "tweets": [
-        {
-          "id": "2106583814709633413",
-          "text": "AI agent adoption is still very bimodal right now. You have coding and coding adjacent tasks which have taken off, and then everything else. \n\nAnd even within coding, you have a very wide continuum of adoption patterns, with some likely a small percentage of developers deploying background agents working on projects in parallel, and the rest of everyone else still working with agents 1:1. \n\nThen, there’s the entire rest of knowledge work where real agentic adoption is still very early. The reason for this is that most of the workflows still need to reengineered to work with agents. \n\nThis isn’t the same as deploying a chat system for better research efficiency, but instead requires workflows to be rebuilt, data to be wired up in new ways, new practices for accountability and liability of decisions when agents are in the mix, governance and compliance paradigm changes, security upgrades, and more. \n\nWe’re still so unbelievably early in what this is going to look like outside of a few categories of work right now. This is why you can basically expect 100X more agent adoption from what we’ve seen so far.",
-          "createdAt": "2026-10-04T03:14:54.000Z",
-          "url": "https://x.com/levie/status/2106583814709633413",
-          "likes": 187,
-          "retweets": 15,
-          "replies": 63,
-          "isQuote": true,
-          "quotedTweetId": "2106103404355301777"
-        },
-        {
-          "id": "2105695329513504976",
-          "text": "A big trend with most enterprises that I talk to is deploying internal FDEs into departments in their organization to help bridge the capabilities of AI into their underlying workflows. \n\nThis requires a high level of technical expertise, an understanding of AI, and the ability to understand the workflows and processes that the enterprise is trying to automate. There’s no shortcut to getting automation without this combination of skills (either in one person or multiple). \n\nWhat’s exciting is this is an entirely new function in most enterprises, which is going to create a ton of new roles in the economy.\n\n“Every generation of technology creates jobs that didn't exist before it, jobs that arise from an immediate need in an emergent industry. The Automation Engineer is a key example of those jobs for this generation. Nobody has ten years of experience doing this yet, because ten years ago the tools that made it possible didn't exist (it didn’t even exist two years ago).”\n\nIf you have software skills and are diving into AI, this is an area to go deep on.",
-          "createdAt": "2026-10-01T16:24:23.000Z",
-          "url": "https://x.com/levie/status/2105695329513504976",
-          "likes": 574,
-          "retweets": 71,
-          "replies": 61,
-          "isQuote": true,
-          "quotedTweetId": "2105659201221804372"
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Ryo Lu",
-      "handle": "ryolu_",
-      "bio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
-      "tweets": [
-        {
-          "id": "2106343073127256507",
-          "text": "https://t.co/TNhsT7hCvW",
-          "createdAt": "2026-10-03T11:18:17.000Z",
-          "url": "https://x.com/ryolu_/status/2106343073127256507",
-          "likes": 124,
-          "retweets": 5,
-          "replies": 2,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2106337039201505453",
-          "text": "convergence to the mean\n\nwhen everyone looks at everyone else to decide what to make, we eventually stop making anything of our own.\n\nwe copy what works. borrow the language, the aesthetic, the features. we call it learning from the market, following best practices, staying competitive. together, everything starts to feel familiar. polished, interchangeable. nothing wrong. nothing alive.\n\nthe mean isn’t necessarily bad. it’s where everything lands when we remove the reasons for it to be different.\n\nnumbers are easier to compare than feelings, so we make things that produce numbers. we study what gets attention, then shape ourselves around it. eventually the feedback stops informing the work and starts authoring it. we’re no longer asking what we want to say. we’re asking what will be rewarded for saying.\n\nai makes this loop frictionless. it can draw from more references than we could see in a lifetime. but access to every perspective isn’t the same as having one. it hasn’t lived a particular life that makes one detail unbearable and another beautiful. when we ask it to choose for us without bringing any intention of our own, we get something plausible, easy to approve.\n\nthen we ship it, measure it, copy it, and feed it back into the next round. a tidal wave of mid.\n\nthis changes not just the work, but the people making it.\n\nwe describe ourselves in categories platforms can distribute and markets understand. designer. founder. creator. pick a niche. build a brand. be consistent. the parts that don’t fit become inconvenient, even when those contradictions might produce our most interesting work. we become easier to classify and harder to tell apart.\n\ni think we need to approach making things more like artists.\n\nan artist develops a perspective through the work. making, noticing, choosing, failing, returning. learning what matters even when nobody else cares. craft gives that perspective a form precise enough for someone else to experience.\n\nthe life outside the work matters too. the places you’ve lived, the people you’ve loved, the things you’re embarrassed to care about. these aren’t distractions from having something to say. they’re how you come to have something to say.\n\nwe understand this with music, paintings, photographs, movies. we expect a person to be present in the choices. we want to experience something we wouldn’t have encountered without them.\n\nsoftware can do this too.\n\na piece of software expresses beliefs about how life should feel. what deserves your attention. what you should be free to change. whether a task should feel like paperwork or play. even a small interaction can carry someone’s care, humor, or curiosity.\n\nbut we rarely talk about software as a medium. we talk about it as an industry. markets to capture, workflows to optimize, competitors to catch up with. we add a feature because someone else has it, without asking whether it belongs. products accumulate the same parts and lose what made them worth choosing.\n\nunderneath the branding, it’s all the same thing.\n\nartists learn from others too. the question is whether you’re absorbing those influences into a point of view, or using them to avoid developing one.\n\nwhat are you trying to let someone feel, understand, or do? why this particular shape? what have you noticed that the existing tools don’t seem to notice?\n\nthose questions don’t have answers you can borrow from a competitor’s roadmap.\n\nif we can make almost anything, deciding what deserves to exist becomes more important, not less. speed gives us more chances to exercise judgment. it doesn’t remove the responsibility.\n\ni don’t want a world where every person becomes a more efficient distributor of the same ideas. i want people to use these tools to go further into what they actually care about. to make things specific enough that we can feel someone behind them.\n\nwhat is the point of everyone being able to make something, if we all end up making the same thing?",
-          "createdAt": "2026-10-03T10:54:18.000Z",
-          "url": "https://x.com/ryolu_/status/2106337039201505453",
-          "likes": 1776,
-          "retweets": 224,
-          "replies": 94,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2105775325385040243",
-          "text": "flip phone. full desktop. \na whole little world.\n\nryOS on iPhone Duo https://t.co/JxmdBqWlgh",
-          "createdAt": "2026-10-01T21:42:15.000Z",
-          "url": "https://x.com/ryolu_/status/2105775325385040243",
-          "likes": 329,
-          "retweets": 6,
-          "replies": 15,
-          "isQuote": false,
-          "quotedTweetId": null
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Zara Zhang",
-      "handle": "zarazhangrui",
-      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEajezlL \nYouTube: https://t.co/8xzbGWtf6w",
-      "tweets": [
-        {
-          "id": "2106405482852434359",
-          "text": "How will the world change if coding agents get 10x better?",
-          "createdAt": "2026-10-03T15:26:16.000Z",
-          "url": "https://x.com/zarazhangrui/status/2106405482852434359",
-          "likes": 96,
-          "retweets": 3,
-          "replies": 61,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2105753728183828692",
-          "text": "Frontend code is probably the most expressive medium for storytelling of our times yet many people are just using it to make SaaS landing pages",
-          "createdAt": "2026-10-01T20:16:26.000Z",
-          "url": "https://x.com/zarazhangrui/status/2105753728183828692",
-          "likes": 119,
-          "retweets": 1,
-          "replies": 13,
-          "isQuote": false,
-          "quotedTweetId": null
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Nikunj Kothari",
-      "handle": "nikunj",
-      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
-      "tweets": [
-        {
-          "id": "2106576328648741278",
-          "text": "Me: Enjoying the warm weekend..\n\nMe: Also refreshing that El Nino forecast 🤯 https://t.co/RBSTBC1nw4",
-          "createdAt": "2026-10-04T02:45:09.000Z",
-          "url": "https://x.com/nikunj/status/2106576328648741278",
-          "likes": 10,
-          "retweets": 0,
-          "replies": 3,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2106488814940414455",
-          "text": "It'll be interesting to see how this innovator's dilemma plays out in the next few years as personal agents become inevitable..\n\nAmazon is protecting it's \"ads\" cash cow and *cough* the brand. \n\nDoordash, albeit smaller, is opening the gates (slowly) with their CLIs and allowing to order via text.",
-          "createdAt": "2026-10-03T20:57:24.000Z",
-          "url": "https://x.com/nikunj/status/2106488814940414455",
-          "likes": 23,
-          "retweets": 0,
-          "replies": 7,
-          "isQuote": true,
-          "quotedTweetId": "2106396307476951105"
-        },
-        {
-          "id": "2106452873513201930",
-          "text": "Again do it for a bit to explore the edges and maybe find the right purpose. \n\nBut tokenmaxxing for the sake of doing it is not honestly useful in this era.",
-          "createdAt": "2026-10-03T18:34:35.000Z",
-          "url": "https://x.com/nikunj/status/2106452873513201930",
-          "likes": 1,
-          "retweets": 0,
-          "replies": 0,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2106183850544239038",
-          "text": "When in doubt, always make more bubble solution 🫧 https://t.co/OXJ9btVIO0",
-          "createdAt": "2026-10-03T00:45:35.000Z",
-          "url": "https://x.com/nikunj/status/2106183850544239038",
-          "likes": 21,
-          "retweets": 1,
-          "replies": 2,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2106072546206773574",
-          "text": "If you are a home automation nerd, this is a fun prompt to try on Claude Code / Codex (edit based on your own setup):\n\n\"Can you sniff network packets in our house and see what else can we automate? For context: We have a Hermes agent that runs a lot of things like the personal Gmail, thermostat, Doordash, Amazon etc. \n\nTrying to see what else we can connect to. We have an Apple TV that we can talk to if we need for HomeKit related stuff but no other bridge that runs home assistant.\n\nGive me a full list of devices that you find and research how they can be connected to an agent.\"",
-          "createdAt": "2026-10-02T17:23:18.000Z",
-          "url": "https://x.com/nikunj/status/2106072546206773574",
-          "likes": 47,
-          "retweets": 0,
-          "replies": 9,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2106053219487228081",
-          "text": "\"Everyone you meet is fighting a battle you know nothing about. Be kind. Always.\" \n\nRobin Williams. \n\nPrescient as always.",
-          "createdAt": "2026-10-02T16:06:30.000Z",
-          "url": "https://x.com/nikunj/status/2106053219487228081",
-          "likes": 82,
-          "retweets": 4,
-          "replies": 6,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2105852023510118878",
-          "text": "Been reading a LOT of chatter on X about how SF culture is “gatekeeping” and how it all comes down to who you know..\n\nWhile that’s definitely true in pockets, what’s made SF great is how open even extremely smart/accomplished people are to meet for coffee. And how willing people are to open doors for you even when they’ve just met you. I benefitted from this again and again when I first moved here, and I still benefit from it even as I’ve been here for 10+ years. \n\nSF is probably the only place where when you quit your job people say congratulations, and immediately jump into asking what’s next and try to help you. \n\nWith any given hype cycle, I’m sure this wanes to a certain degree. And a lot of tourists will come and go expecting a different SF. But I still see the grace and the abundance mindset from most of the folks I meet and that makes me more bullish on this city ever than before. \n\nLet’s keep paying it forward!!",
-          "createdAt": "2026-10-02T02:47:01.000Z",
-          "url": "https://x.com/nikunj/status/2105852023510118878",
-          "likes": 108,
-          "retweets": 2,
-          "replies": 13,
-          "isQuote": false,
-          "quotedTweetId": null
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Peter Steinberger",
-      "handle": "steipete",
-      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
-      "tweets": [
-        {
-          "id": "2106489264443981978",
-          "text": "laughing about how we all are building the same thing. https://t.co/SidDrycoLi",
-          "createdAt": "2026-10-03T20:59:11.000Z",
-          "url": "https://x.com/steipete/status/2106489264443981978",
-          "likes": 609,
-          "retweets": 14,
-          "replies": 32,
-          "isQuote": true,
-          "quotedTweetId": "2106464778998956056"
-        },
-        {
-          "id": "2106446147791597774",
-          "text": "Do I know anyone at Google who could help? We're now over a week in review limbo for OpenClaw's Android app.",
-          "createdAt": "2026-10-03T18:07:52.000Z",
-          "url": "https://x.com/steipete/status/2106446147791597774",
-          "likes": 6315,
-          "retweets": 106,
-          "replies": 164,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2106076508020506722",
-          "text": "This was by far my favorite slide at DevDay.\nKudos to the team! https://t.co/AQtPzNTZhx",
-          "createdAt": "2026-10-02T17:39:03.000Z",
-          "url": "https://x.com/steipete/status/2106076508020506722",
-          "likes": 1199,
-          "retweets": 23,
-          "replies": 53,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2105805164305359019",
-          "text": "holy https://t.co/qt50yrncnf",
-          "createdAt": "2026-10-01T23:40:49.000Z",
-          "url": "https://x.com/steipete/status/2105805164305359019",
-          "likes": 1016,
-          "retweets": 28,
-          "replies": 27,
-          "isQuote": true,
-          "quotedTweetId": "2105240703383027897"
-        },
-        {
-          "id": "2105778011635400949",
-          "text": "\"Today, we’re releasing two Cloudflare-trained decision models, Clef and Clef-flash\" \nhttps://t.co/E8cYq4w7Fz\n\nNever seen an idea spreading so fast.",
-          "createdAt": "2026-10-01T21:52:56.000Z",
-          "url": "https://x.com/steipete/status/2105778011635400949",
-          "likes": 1377,
-          "retweets": 112,
-          "replies": 69,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2105773541652308145",
-          "text": "\"AI agents are aeroplanes for the mind: faster and more powerful than the bicycle, harder to control, costlier when they crash.\"",
-          "createdAt": "2026-10-01T21:35:10.000Z",
-          "url": "https://x.com/steipete/status/2105773541652308145",
-          "likes": 45,
-          "retweets": 6,
-          "replies": 11,
           "isQuote": false,
           "quotedTweetId": null
         }
@@ -957,206 +1355,6 @@
     },
     {
       "source": "x",
-      "name": "Garry Tan",
-      "handle": "garrytan",
-      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
-      "tweets": [
-        {
-          "id": "2106102038706970794",
-          "text": "Capy is like a 24/7 standup for your agents https://t.co/cNQwkWMxSz",
-          "createdAt": "2026-10-02T19:20:30.000Z",
-          "url": "https://x.com/garrytan/status/2106102038706970794",
-          "likes": 7,
-          "retweets": 0,
-          "replies": 3,
-          "isQuote": true,
-          "quotedTweetId": "2106096482155950256"
-        },
-        {
-          "id": "2106092289173213444",
-          "text": "Surprising cool @capydotai cross-session coordination I wasn't expecting: My GBrain collaborator Sina started a fix wave that is even steering around all of the things I'm already working on across multiple Capy threads. All model agnostic. https://t.co/P5TUYlEfRs",
-          "createdAt": "2026-10-02T18:41:45.000Z",
-          "url": "https://x.com/garrytan/status/2106092289173213444",
-          "likes": 98,
-          "retweets": 8,
-          "replies": 47,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2106063850453991758",
-          "text": "My goal with GBrain:\n\nI want our agents to feel as native, expressive, and inevitable as the web eventually did—not as a chatbot feature, but as a personal Jiminy Cricket that knows you and helps you 24/7 always on, always thinking ahead, always improving.",
-          "createdAt": "2026-10-02T16:48:45.000Z",
-          "url": "https://x.com/garrytan/status/2106063850453991758",
-          "likes": 441,
-          "retweets": 16,
-          "replies": 72,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2105814135388979414",
-          "text": "When people say McCoy is not an extremist you can tell those people are gaslighting you https://t.co/ESw2ANPS37",
-          "createdAt": "2026-10-02T00:16:28.000Z",
-          "url": "https://x.com/garrytan/status/2105814135388979414",
-          "likes": 26,
-          "retweets": 4,
-          "replies": 3,
-          "isQuote": true,
-          "quotedTweetId": "2105813296318455857"
-        },
-        {
-          "id": "2105809148365717985",
-          "text": "This guy is now the frontrunner for D8 Supervisor in SF. \n\nYou should probably be looking for alternatives. \n\nhttps://t.co/wYufh7iXH9 https://t.co/1orp7aYohx",
-          "createdAt": "2026-10-01T23:56:39.000Z",
-          "url": "https://x.com/garrytan/status/2105809148365717985",
-          "likes": 14,
-          "retweets": 1,
-          "replies": 1,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2105796174464815210",
-          "text": "Harm accelerationist Gary McCoy is going to ruin San Francisco https://t.co/pcOuGg9L8x",
-          "createdAt": "2026-10-01T23:05:06.000Z",
-          "url": "https://x.com/garrytan/status/2105796174464815210",
-          "likes": 70,
-          "retweets": 10,
-          "replies": 13,
-          "isQuote": true,
-          "quotedTweetId": "2105730417181810827"
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Matt Turck",
-      "handle": "mattturck",
-      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
-      "tweets": [
-        {
-          "id": "2106076198027890750",
-          "text": "People call the Bay Area a monoculture, but that's totally unfair: it has both neo-clouds AND neo-labs",
-          "createdAt": "2026-10-02T17:37:49.000Z",
-          "url": "https://x.com/mattturck/status/2106076198027890750",
-          "likes": 107,
-          "retweets": 5,
-          "replies": 5,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2105835377290289601",
-          "text": "AI Podcasts be like:\n\nCold open: \"AI is about to destroy humanity.  RSI is leading to a hard take off that we won't be able to control.\"\n\n&lt;&lt; but first, a message from our sponsors: meet AgentTina, your agentic workflow orchestration solution for faster AI deployments&gt;&gt;",
-          "createdAt": "2026-10-02T01:40:53.000Z",
-          "url": "https://x.com/mattturck/status/2105835377290289601",
-          "likes": 18,
-          "retweets": 0,
-          "replies": 3,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2105685880639717513",
-          "text": "This great conversation on the rise of AI interpretability with @eric_ho of @GoodfireAI is also available on Spotify, Apple Podcasts, @snipd_app and here on YouTube (like and subscribe!):\n\nhttps://t.co/7TSOLBCvuZ",
-          "createdAt": "2026-10-01T15:46:50.000Z",
-          "url": "https://x.com/mattturck/status/2105685880639717513",
-          "likes": 8,
-          "retweets": 2,
-          "replies": 0,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2105685876218925081",
-          "text": "Reward hacking, and the race to see inside AI models: my conversation with @eric_ho, CEO of @GoodfireAI \n\nIs this the beginning of the interp exponential?\n\n00:00 Cold open & intro\n01:06 \"Amoral students with an absent teacher\"\n02:49 What is reward hacking?\n04:13 Models cheat up to 96% of the time\n06:08 Do models know they're cheating?\n08:10 The Hugging Face hack: why tests missed it\n11:35 \"The dumbest models we'll ever deal with\"\n11:58 Should AI slow down?\n13:56 Mechanistic interpretability 101\n16:06 Models are grown, not built\n19:10 How labs do alignment today\n21:30 Is this an alignment crisis?\n23:26 Why agents changed everything\n25:38 Chain-of-thought monitoring is fading\n27:49 Neuralese: AI that stops thinking in English\n29:28 A model caught evading its own monitor\n30:42 Open vs. closed models\n32:11 Activation monitoring in production\n35:00 Learning from superhuman AI\n36:15 The most underrated field in AI\n38:24 What is a probe?\n39:52 What is steering? Golden Gate Claude\n40:53 Why build Goodfire outside the labs\n42:46 Do you need frontier model access?\n44:16 Inside the paper: an MRI for the model\n47:28 Dialing sycophancy up and down\n49:16 Probes vs. chain-of-thought monitors\n51:44 Cutting monitoring costs by 90%\n53:28 So what can we do about it?\n55:41 Giving gradient descent a choice\n57:24 RL from feature rewards\n1:00:03 Silico and Goodfire's business\n1:01:25 A new Alzheimer's biomarker\n1:03:38 Decoding neural networks by 2028?\n1:06:00 What engineers can do tomorrow\n1:07:35 Are we at risk? \"I want people to believe\"\n\nGreat group of folks and friends involved @deedydas @MenloVentures @fendien @Work_Bench @BCapitalGroup @AnthropicAI",
-          "createdAt": "2026-10-01T15:46:49.000Z",
-          "url": "https://x.com/mattturck/status/2105685876218925081",
-          "likes": 17,
-          "retweets": 5,
-          "replies": 6,
-          "isQuote": false,
-          "quotedTweetId": null
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Dan Shipper",
-      "handle": "danshipper",
-      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
-      "tweets": [
-        {
-          "id": "2106144801653506531",
-          "text": "here is my official @OpenAI DevDay FOOD vibe check \n\n(I know you’ve been waiting) https://t.co/JnLpqALBg7",
-          "createdAt": "2026-10-02T22:10:25.000Z",
-          "url": "https://x.com/danshipper/status/2106144801653506531",
-          "likes": 38,
-          "retweets": 2,
-          "replies": 9,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2106126787424002158",
-          "text": "oldie but goodie https://t.co/FMTJOtSRGk",
-          "createdAt": "2026-10-02T20:58:50.000Z",
-          "url": "https://x.com/danshipper/status/2106126787424002158",
-          "likes": 8,
-          "retweets": 1,
-          "replies": 1,
-          "isQuote": true,
-          "quotedTweetId": "1715455201992196101"
-        },
-        {
-          "id": "2106043635947225392",
-          "text": "dev day vlog is LIVE!!! https://t.co/yy6tx11pZz",
-          "createdAt": "2026-10-02T15:28:25.000Z",
-          "url": "https://x.com/danshipper/status/2106043635947225392",
-          "likes": 42,
-          "retweets": 1,
-          "replies": 7,
-          "isQuote": true,
-          "quotedTweetId": "2106043308342681945"
-        },
-        {
-          "id": "2105811214827696302",
-          "text": "we published a sick guide to getting started with open models on @every: https://t.co/ZLCBB2WtSh",
-          "createdAt": "2026-10-02T00:04:52.000Z",
-          "url": "https://x.com/danshipper/status/2105811214827696302",
-          "likes": 49,
-          "retweets": 8,
-          "replies": 6,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2105728002487353520",
-          "text": "we (@hammer_mt) used Jev to ingest every time i took a position on something in @every's slack\n\nthen he measured how often i contradict myself:\n\n0% \n\nhonestly super proud of this lol https://t.co/Mtv9ukhZXb",
-          "createdAt": "2026-10-01T18:34:12.000Z",
-          "url": "https://x.com/danshipper/status/2105728002487353520",
-          "likes": 37,
-          "retweets": 0,
-          "replies": 7,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2105706430384710075",
-          "text": "so @hammer_mt has been trying to automate me.\n\napparently i only agree 34% of the time when im asked for my opinion or given options and that's one of the reasons the models don't do well pretending to be me\n\nfood for thought! https://t.co/UCxqWWhwO8",
-          "createdAt": "2026-10-01T17:08:29.000Z",
-          "url": "https://x.com/danshipper/status/2105706430384710075",
-          "likes": 14,
-          "retweets": 1,
-          "replies": 11,
-          "isQuote": false,
-          "quotedTweetId": null
-        }
-      ]
-    },
-    {
-      "source": "x",
       "name": "Claude",
       "handle": "claudeai",
       "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
@@ -1309,6 +1507,15 @@
   "podcasts": [
     {
       "source": "podcast",
+      "name": "No Priors",
+      "title": "Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+      "guid": "e2eb4b88-b7c1-11f1-a5c5-4b2557d321bc",
+      "url": "https://www.youtube.com/watch?v=TCpRwJBQvW0",
+      "publishedAt": "2026-09-24T10:00:00.000Z",
+      "transcript": "Speaker 1 | 00:00 - 00:25\nEvery company on the planet has a celebrated persona. In a world where you believe that alpha comes from engineering and AI, you need to create a culture whereby the celebrated persona is the engineer, and that's what's required. You think about your typical investment in a fund, and you're typically trying to figure out how do we start to package to sell this thing in three That is just a very different framing for how we think about technological transformation and what what are the investments you're willing to bring to bear here. What we do is scarce. We're trying to do one deal per year.\n\nSpeaker 1 | 00:25 - 00:26\nThat's it. Our job is to do one.\n\nSpeaker 2 | 00:33 - 00:58\nHi, listeners. Welcome back to No Priors. Today, I'm here with Michael Lee, cofounder and CEO of Sequence Holdings. They just announced the largest AI take private to date with the Dell family office of Baldwin for $7,700,000,000. We talk about this, the Sequence story, how AI transformation is actually going to permeate the economy and what transfers from public investing to private equity to operating.\n\nSpeaker 2 | 00:58 - 01:01\nWelcome, Michael. Michael, thanks for doing this.\n\nSpeaker 1 | 01:01 - 01:02\nThanks for having me.\n\nSpeaker 2 | 01:02 - 01:18\nSo you started Sequence Holdings, which is a permanent holding company that works with management teams to buy and refound their businesses to be market leaders with AI. We should talk about that, and it's a very exciting model. But you also announced this big transaction in Baldwin. Tell us about it.\n\nSpeaker 1 | 01:18 - 01:53\nYeah. You know, we started the company twenty months ago really with an eye towards can we partner with world class businesses and management teams, working closely with our frontier engineering team to forge market leaders. The brokerage space is an area that we've been spending a lot of time on since the founding of the business. We've met dozens of insurance brokers, and Baldwin was truly N of one of all the insurance brokers that we've met. It was it's been a privilege over the last few months to spend a lot of time with Trevor Baldwin and the management team, and we could not be more excited about the journey that lies ahead between us, the Baldwin team, and the Dell family office that supported us in this transaction.\n\nSpeaker 2 | 01:54 - 02:09\nI want to zoom all the way out to a little bit about, you know, your background, you and your co founder Alex, how this idea for Sequence came about, because you've been, you know, an investor, now, you know, a hybrid investor operator. Like, tell me about how you arrived at the idea to begin with.\n\nSpeaker 1 | 02:09 - 02:15\nYou know, when I first joined Lone Pine in 2017, one of the first areas that I was asked to cover was AI.\n\nSpeaker 2 | 02:16 - 02:17\nThat's actually quite early.\n\nSpeaker 1 | 02:17 - 02:38\nYeah. It was, you know, as I'm sure you recall, it's kind of when AlphaGo came out. It's actually when the first transformer paper came out, and there was a lot of excitement at the time around what would be commercially viable if you scale these architectures. And at the time, these were convolutional neural nets, GANs, LSTMs, and the like. And, you know, I think we all know how the story ends, which is we obviously saw a lot of exciting things come out of it.\n\nSpeaker 1 | 02:38 - 03:15\nBut as you scaled these architectures, there were degrading effects over time to scale. You know, I share that context because, you know, when the models came out or ChatGPT came out at the end of twenty two, you know, what became obvious to me at least is that the world had forever changed. You know, we finally had an architecture that we knew could scale infinitely. Now, whether or not that was possible, what would come from that was not clear, but we knew we did know that we could scale with compute, that the architecture would improve. And, you know, like an investor, I started to think about what were the impacts to the world, and I kind of felt strongly that AI would have an uneven impact on the economy.\n\nSpeaker 1 | 03:15 - 03:27\nThere are certain parts of the economy that I felt that AI just wouldn't impact at all. Right? Take restaurants, golf courses, things like that. There are certain industries that I just felt like a startup would win. Right?\n\nSpeaker 1 | 03:27 - 04:07\nTake coding, for example. Like, Conviction and Sequence going to go buy an outsourced coding services business feels like a terrible idea, which you will give money to Cognition or toanthropic. But there, as a student of business, there have always been certain industries where I felt like the incumbent had all the advantages, and that could be brand, that could be scale, network effects, regulatory. And in light of what is going to be the biggest technological shift of lifetime, I felt very strongly that if you could acquire the right incumbent, inherit the advantages of being that incumbent, could you forge the market leader? And the kernel of that idea is the one that really is upon which Sequence was founded upon.\n\nSpeaker 1 | 04:07 - 04:36\nCame up with the idea in early twenty three, had a handful of people try to get me to leave Lone Pine to go do it then. Just wasn't the right time for me. And then I remember going for a walk with my wife in '24, letting her know that, hey, it's pretty rare in life to be in the middle of the most important technological change of our lifetime. Having the kernel of an idea, I felt very strongly about, and feeling very strongly that I could pull together the team to go and pull it off. And so that's why we started a sequence and couldn't be more excited about kind of what we've been able to achieve to date and kind of what we see ahead of us.\n\nSpeaker 2 | 04:36 - 05:01\nIt's a super first principles approach to, you know, what is the macro chain to this happening technology? How's it going to impact the economy? But, you know, many investors, at least venture investors, would be like, oh no, incumbents have a bunch of advantages. I guess it's just not for us. How did you think about, you know, scale and the idea of being able to engage with or even own incumbents?\n\nSpeaker 2 | 05:01 - 05:05\nThat's a, I guess you can just do things, but that's an ambitious premise.\n\nSpeaker 1 | 05:06 - 05:37\nI think it's more just, it's the business model that meets the opportunity today. So like if we take a giant step back, you know, and at least at sequence, when we think about what's happening with AI today, we think we're living through the equivalence of the next industrial revolution. And, you know, what we generally see in most enterprises, what I typically see from a lot the software companies that are producing AI agents today, is this giant push to give small machines to every human in the human assembly line and to speed up work. And like, there's nothing wrong with that. That's great.\n\nSpeaker 1 | 05:37 - 06:22\nIt's better than nothing. But as you know, when you have machines that can work 20 fourseven, that can scale with electricity, that can accomplish what no individual human or group of humans can do, the right answer is to think about how do you start to reorganize what an organization should be to meet the opportunity of what's available to you with technology. And that's the context upon which we're sitting in. And I think for the, really in the first time, we have a real opportunity here to partner with amazing companies, with great leadership teams, partnering with our platform and our engineering team, and really thinking critically around how do we reorganize the organization? How do we lean into what's best in terms of what the technology can do, what can humans do, and rethink how we can compete in these various industries?\n\nSpeaker 1 | 06:23 - 06:32\nAnd I think it's just really more of an opportunity piece more so than an ambition piece in that, like, I just think this has to happen, and I don't see it a natural way for it to happen unless you do it through our approach.\n\nSpeaker 2 | 06:32 - 06:43\nCan you talk a little bit about the structure of the company? Like, why a permanent holding company? You know, what does ownership enable you to do that being a, you know, a vendor or partner doesn't?\n\nSpeaker 1 | 06:43 - 07:05\nYeah, I think there's two parts to that question. So in terms of like the holding company structure itself, you know, when I thought about what is required to accomplish what Sequence Holdings wants to do, which is how do we partner with world class organizations? How do we bring frontier engineering to bear? How do we build a platform that we can share across all of our portfolio companies? The only natural way to do this was through a holding company.\n\nSpeaker 1 | 07:05 - 07:41\nHow do we build a business whereby we can forge market leaders? How do we align the duration of capital with the sustained investment and operational commitments that are going to be required to drive the transformation end to end? How do we create an organization that culturally is oriented around forging market leaders, not deploying capital? And lastly, like how do you create the right structure upon which you can take the retained earnings in your business to rethink about how do you support your existing companies and net new investments. And so when I think about the opportunities in front of us, the only natural way to go do this was through a holding company.\n\nSpeaker 1 | 07:42 - 07:54\nIn terms of your second question around, like, ownership, you know, let's maybe just play this out through an example. Let's say that you're an incredible business. You know, I won't pick on one. Let's say we're a Fortune 500 company. You have unlimited resources.\n\nSpeaker 1 | 07:55 - 08:27\nThe if I challenge you to say, hey, you're the CEO of this Fortune 500 company today, and your job is to refound yourself, you're stuck with three options. One is I'm gonna go do it myself. The structural challenge with that, and it's not a bad one, is just it's impossible to recruit and retain the talent required to go and do this refounding. And the the answer to that is actually much more obvious than people think, which is every company on the planet has a celebrated persona. So let's take Blackstone, for example, an incredible organization, one that I admire a lot.\n\nSpeaker 1 | 08:27 - 08:51\nAnd in fact, I make every person a sequence where you can king of capital. But the celebrated persona of Blackstone is the investor. And that's why they're able to aggregate the greatest investors in the world. In a world where you believe that alpha comes from engineering and AI, you need to create a culture whereby the celebrated persona is the engineer. And that's what's required.\n\nSpeaker 1 | 08:51 - 09:35\nIt's the reason why does Palantir exist? You know, I'm sure Alex Karp would hate how I would describe this, but it is foundationally an organization that has aggregated world class engineers that celebrates the engineer, and foundationally, what they do is it's a wrapper to sell it to other organizations that are not able to get that talent. So that leads me to my second point. If you can't get the talent to do it yourself, then there's this huge multi trillion dollar industry that I got formed called the services industry, and these are great companies, Accenture, McKinsey, Palantir, that have do celebrate the engineer, that do celebrate change in technology. But the challenge that you have when you partner with a service provider in terms of rethinking and refounding your business is an incentives problem.\n\nSpeaker 1 | 09:36 - 10:05\nServices companies optimize for kind of three things: getting in your wallet, staying in your wallet, growing the share of your wallet. It is a path towards incrementalism. To compound that, services providers can actually change the things that you really need to really kind of meet the moment. How do you change how the people are organized, who's working in these organizations, and the incentives? And so if you can't do it yourself, you can't use vendors, and you have the third option, which is what a lot of people do, which is they go buy software.\n\nSpeaker 1 | 10:05 - 10:31\nThe challenge with buying software is twofold. The obvious one is that it's beta. If it's available to everybody, it's available to everybody. I think the part that's more nuanced that I think people often miss is that if you and I were starting a software company, the thing we would optimize for is what is a workflow that's reasonably homogenous that exists in a lot of places, And then how do we install it fast enough but deeply enough such that we can sell a lot, but it's sticky? Those are the\n\nSpeaker 2 | 10:31 - 10:33\ngenetics Structurally, yes. That sounds very attractive.\n\nSpeaker 1 | 10:33 - 10:54\nThat would be the genetics of what we'd look for. What that means, though, is that you're always going to sell to a workflow as it's designed today, as humans are set up in that human assembly line today. It's the only way you can sell a product. You can't sell a product around a new human assembly line that doesn't exist today because that's how you think it is. And so when we think about why does our motion work, it's how do you have ownership so therefore you're aligned?\n\nSpeaker 1 | 10:54 - 11:21\nHow do you create an organization like Sequence Holdings that celebrates to engineer and bring frontier engineering to bear? And then three, how do you drive a long term horizon and economic model such that we're aligned with management around how do we think about how do we forge the best version of this company possible based on the technology that's available today. And so that's how we think about our business model. It's why we think it works. And the early evidence from kind of Bank South and kind of what we've observed in the field today have proven that out today.\n\nSpeaker 2 | 11:21 - 11:38\nWant to talk a little bit about BankSouth as well. But in, you know, you have a team that includes a bunch of like Scale and Palantir DNA. You are trying to keep the quality bar really high. What is compelling to the team, the engineers that work at Sequence?\n\nSpeaker 1 | 11:38 - 12:00\nI think it's a bunch of things. I think the first is really it's an opportunity to kind of work on the companies that actually are the capillaries upon which people interact with. You know, the AI model companies are phenomenal. We would not be here today if it weren't for Anthropic, OpenAI, xAI, and the like. But the reality is, is like the impact to everybody's day to day lives really are going to be impacted by the companies that serve them today.\n\nSpeaker 1 | 12:01 - 12:47\nAnd so for us, it's the opportunity to partner with really important companies that play an important role in the economy, and really thinking about how do we bring world class technology to bear to deliver differentiated experiences for their customers. And I think that mission is like quite powerful. I think, you know, when I think broadly about the two engineering personas that we typically hire from, I think, you know, call it the four deployed engineers, the, I think that the thing that appeals to them is the opportunity to be really aligned with the value that they create. I think that's an extremely rewarding experience, and I think the ability to drive the type of change that would not be possible if you were a service provider is quite appealing. I think the other hand, which is probably not as fun for venture capitalists to think about is like, you know, when I talk to application software engineers, it's, hey, we're one of the few business models in the world that's completely immune to what the model's going to do.\n\nSpeaker 1 | 12:47 - 13:08\nAs the model performances improve, we celebrate here at Sequence, and that like, that gives us more tools to bring to bear in the companies that we partner with. And like, there's no real existential risk to whether or not our business will be around. And I think those were kind of things that have appealed. I think the mission is probably the thing that drives it at the end the day, but I do think there are tangibles when we talk with candidates that have been quite appealing for kind of what we're trying to build.\n\nSpeaker 2 | 13:08 - 13:35\nI remember when you first told me, hey, we think we're going go buy a piece of a bank and partner with the BankSouth team. I might have reacted with some mild horror about the difficulty and regulatory concerns around that. And I was like, Michael, you must know that there's a reason that banking is not a popular private equity sector traditionally. Tell us a little bit about how you, you know, chose financial services and then what you've learned in the BankSouth partnership so far.\n\nSpeaker 1 | 13:36 - 14:00\nYeah. So, you know, I think it's worthwhile to take a step back and thinking about how did this investment come to be, and then kind of maybe to tackle kind of how and why it's been kind of the perfect place for us to start our business. So, you know, when we started this business, call it March of last year, when you first kind of wrote the first investment, the sequence, you know, we had a cold start problem, right? So the holding company model's a weird business. Like, without money, you can't do a deal.\n\nSpeaker 1 | 14:00 - 14:24\nIf you don't have a deal, you can't hire engineers. If you can't hire engineers, they want us to give you money. Thankfully, you you were willing to support us. You know, we were able to get a handful of engineers to come work with us, but yet we were stuck with kind of the cold start problem of nothing to really to do. And one of the things that we were debating at the time was, do we just go buy something to prove to the world that we can buy something and change it, or do we wait for the right asset?\n\nSpeaker 1 | 14:24 - 14:52\nAnd as I think you know, we've always had a bias towards scale and enterprise. Unfortunately, there not are a lot of investors in the world that want to give you hundreds of millions of dollars to go buy an enterprise to see whether or not your technology works. And so what we decided to do is to go and take on a customer, and, you know, called a dear friend, Jamie Reynolds. He's one of the co founders of Avenir, and basically framed for him, Hey, like, here's the problem that I've run into. And very fortunately, he his family happens to own a bank down in Georgia, and that's how it became our first customer.\n\nSpeaker 1 | 14:54 - 15:02\nStarted off August of last year. In fact, was August 4. It was my anniversary. I remember skipping it. And it was an incredible experience.\n\nSpeaker 1 | 15:02 - 15:33\nAnd so from August to about November, like kind of late November of last year, basically operated in a services motion and, like, really started to tackle kind of the key workflows that existed at the bank. Fortunate to us, you know, the family asked us at that point in time whether or we'd become a permanent partner, and that's how it became our first investment. We ended up closing the investment in March. It took us a little while to kind of negotiate everything as well as get fed an OCC approval. But I think it's I share all that context to say that like operating in a services motion and then being an investor, we saw a night and day difference.\n\nSpeaker 1 | 15:34 - 15:54\nRight? It's a lot of things. One is from an engineering perspective, you know you're going be here for a long time. So the level of complexity and depth that you're willing to take on versus being a service provider, knowing that you'll eventually leave and have to leave behind applications that other people have to maintain is demonstrably different. The second thing is just a lot of excitement from the employee base around, hey, these people are here to support us for a long time.\n\nSpeaker 1 | 15:54 - 16:20\nSo how do we push the most ambitious version of this? And then three is like, really, we can take a long term orientation around, like, what do we want this bank to look like three years, five years, ten years from now, and how do we lay the technological foundation such that we're always benefiting from model performance? And that's what we've been able to do. In a weird way, the bank was the perfect pilot for what we needed to do to validate our business model. It was an ability to buy into minority stakes, so a venture scale type check to operate in a real enterprise like environment.\n\nSpeaker 1 | 16:20 - 16:43\nAnd in a weird way, the regulated nature of the bank was a feature, not a bug. One of the nice things about a regulated institution is that how it operates is well defined. The data hygiene is excellent. There are well defined rules around how your business is supposed to operate. And so if you think about that context, it actually works extremely well for agents.\n\nSpeaker 1 | 16:44 - 17:03\nThat's one piece. The other piece that's really important for banking, which has been quite a learning for us in terms of how we think about investing, is a centralized nature of it. So when we think talk at sequence about companies we're looking for, we talk a lot about organizational physics. We like organizations that are quite dense and the operations are centralized. So anything you build can be amortized over a large base.\n\nSpeaker 1 | 17:03 - 17:13\nSo like take a bank, for example. A bank may have a bunch of different branches, but all the underwriting happens centrally. So everything we build at headquarters gets amortized over all the branches that they're working with.\n\nSpeaker 2 | 17:13 - 17:14\nYou\n\nSpeaker 1 | 17:14 - 17:40\ncontrast that with, you know, I think, you know, a lot of the roll ups that we see out in the marketplace today, which I think is an awesome strategy, but there's a lot of complexity with it. You have to integrate different systems, you have to send engineers to a number of different places, you have to standardize operating procedures, you have to standardize cultures. And for us, the nice thing about the bank is that while it's a large organization with, you know, dollars 100,000,000 plus of sales, like the physics of the business are quite dense. And therefore we've been able to make a lot of progress in a short period of time.\n\nSpeaker 2 | 17:40 - 17:45\nThere's a central nervous system, there's a ledger, there's some key processes, there are levers you can pull economically.\n\nSpeaker 1 | 17:45 - 17:46\nExactly right.\n\nSpeaker 2 | 17:46 - 17:48\nWhy insurance brokerage?\n\nSpeaker 1 | 17:48 - 18:05\nSo the brokerage space has been an area that we've been spending a lot of time in since the founding of Sequence. It fits a lot of the things that we look for. And so what do we look for broadly when we're as an organization? We think about, one, is scale of the market. You know, what we do here at Sequence doesn't scale.\n\nSpeaker 1 | 18:06 - 18:13\nSo if we're going to make an investment, we need it to count. We want to work on companies that we think we can build into $100,000,000,000 plus companies.\n\nSpeaker 2 | 18:13 - 18:15\nLike, you're not gonna do this 10 times a year?\n\nSpeaker 1 | 18:15 - 18:27\nNo. We're not we're not an investment shop. We partner with great companies to forge leaders. The second thing that we cared a lot about is, is it an industry where the incumbent has all the advantages? And I'm happy to go into that in greater detail.\n\nSpeaker 1 | 18:28 - 18:58\nAnd then three is if we think about what the organization does and what AI is good at today, and we think about the overlap, can we build something special? And the brokerage industry in a lot of ways fits all of that. It's a $2,000,000,000,000 plus of premiums per year going to carriers. The brokers take a vague on that, and it's been an industry that has minted dozens of very skilled company, large companies over time. In addition to that, it's just been a wonderful industry that's been really hard for startups to compete in, and it's for reasons that are less obvious to people than people think.\n\nSpeaker 1 | 18:59 - 19:23\nIf you think about the insurance value chain, there's three parts to it. You have the carriers, you have the distribution partners, and then you have the customer. The carrier makes money two ways. You have underwriting, which is I price risk, I hope to pay out less claims than what I receive, and then the other part of the business is investing. The insurance industry since the beginning of time has almost made no money underwriting and has made the principal amount of their money through investing.\n\nSpeaker 1 | 19:23 - 19:38\nSo what that incentivizes is asset gathering. So getting high quality gross written premium is the name of the game. And so that's why the brokerage industry is so powerful. Another interesting feature about the brokerage industry is that your customer doesn't actually pay you. The carrier does.\n\nSpeaker 1 | 19:39 - 20:17\nSo if you think about the nature of the business, which is a very relationship centric business, gross retention rates are 90%, and you think about the fact that a broker doesn't really compete on price, it's a very difficult industry for startups to get into. So if you think about what's perfect for sequences, it is a huge market. You have companies that are largely immune to startup risk. But what if we could partner with the right one? And that's what the opportunity at Baldwin presented, which is a scaled asset with a centralized technological foundation and a world class leadership team that is both ambitious, but also extremely excited about what's possible today with frontier technology.\n\nSpeaker 2 | 20:17 - 20:26\nWhat can you say about what is generalizable or shared from a, like a platform technology perspective across the different companies?\n\nSpeaker 1 | 20:27 - 20:49\nYeah. So I think if you take a step back, you know, we think about our shared platform capabilities as too broad, brought in two broad areas, right? One is Atlas, which is our platform, which I'll tell you about here more in a second, and then kind of our engineers and kind of, you know, we have a playbook for how we work with companies. Like, this is an art, not a science. You know, I often joke internally that we have two problems here at sequence.\n\nSpeaker 1 | 20:49 - 21:20\nWe have an engineering problem and a human engineering problem, and the human engineering problem is much more difficult than the engineering problem. But if we think about the engineering problem, we think about Atlas. So what is Atlas today? Atlas is our platform that we have built at the bank that we think that we expect to generalize over industries over time. And part of that is an observation that a number of our engineers have had from their prior lives, both at scale, Palantir and others, which is if you break down the business to its atomic units, 80% of it is largely homogenous and 20% of it is vertically specific.\n\nSpeaker 1 | 21:20 - 21:43\nAnd so if you think about what is Atlas? Atlas is basically our platform that both does a number of things. One, it helps improve the speed to which we can deploy, improves agent performance, improves our build rates for our own engineers, and ultimately it's a builder platform that allows the operating company engineers to build upon. There's four layers to it. So the first layer is the data ontology.\n\nSpeaker 1 | 21:44 - 22:24\nSo think about that as just simply how do we define the organization, the motion of that business in code? And that's extremely important. The way that we talk about internally is how do we make the business legible, the models, right? How does a business how does an agent know that this customer is the same as the customer in this system here, and how the properties of that customer interrelate with the claims or the loan policies that are associated with it. The layer on top of that is our agent builder, which is basically how do we build high performance agents grounded in ground truth, kind of the things that we, I think, we hear and read a lot about.\n\nSpeaker 1 | 22:24 - 22:59\nThe third component to it is what we call Lattice, which is our orchestration engine, which is like how do we actually instrument workflows using the agents that we've built. And on top of that, at the top is what we call artifacts, which is basically our application builder that sits on top of everything that we've built. And so if you think about what we've built in terms of Atlas and what we've built here at the bank, foundationally, the core infrastructure we've built is reusable at Baldwin and any future company that we do. And so that's like a core component of what we've built to date. On the playbook side from an engineering perspective, yeah, like, I think this part is is an art, not a science.\n\nSpeaker 1 | 22:59 - 23:35\nYou know, I think one of the nice things about having great talented engineers from places like Scale AI and Palantir that they have developed the playbook, But, you know, what we do is different. You know, I would say that, you know, one of the learnings that we've had with the bank post the investment is how much more hyper attuned we need to be and sensitive to how employees feel, which is like there's, you know, as exciting as it is, it does draw a lot of anxiety around like, what does this mean for us as an organization? And the key thing for us as Sequence is how do we make people feel like what we do and what we bring to bear here is how do we make elevate what you do here at the job? How do we exercise? What is the best parts of being a human?\n\nSpeaker 1 | 23:35 - 23:49\nHow do we think about making your job more fun, taking away really the rote kind of repetitive work out of your workflow? And how do we make feel make you feel like your organization's winning? And like that playbook is something that we're going to continue to refine. I think we've learned a lot here at the bank. We expect to learn a lot here at Baldwin.\n\nSpeaker 1 | 23:49 - 23:53\nAnd like, that's going be a key component of what compounds over time for us to sequence.\n\nSpeaker 2 | 23:53 - 24:35\nWhat do you think is going to be special for you guys over time here that's very hard for, let's say, more traditional large buyout shops to replicate, right? Because I don't know a single one that doesn't, I think, at least think about AI transformation today. And like much of what they do from a returns perspective is probably dominated by, you know, underwriting, consolidation to platforms, multiple expansion, some financial engineering. But I do think, you know, people have like, let's say, portfolio value teams. So how do you draw the distinction more strongly between we're not investing shop, and like, here's what we think it's still hard for other people to do without us?\n\nSpeaker 1 | 24:35 - 24:38\nSo I have a lot of admiration for all the big private equity firms.\n\nSpeaker 2 | 24:38 - 24:39\nYou used to work at Apollo.\n\nSpeaker 1 | 24:39 - 24:54\nI used to work at Apollo. I have a lot of friends who still work at all these various firms. I think they will continue to do great. But I deeply believe that we have a very different business, right? If you think about your typical private equity firm, they are set in a fund structure.\n\nSpeaker 1 | 24:54 - 25:24\nThe fund structure economics are such that it incentivizes you to deploy capital. They're in the business of finding great assets, pricing them attractively, putting the right capital structure in place, doing sufficient amount of value creation to generate the required rate of return to satisfy their LP base. Our business is very different. Our business is around how do we find world class organizations run by exceptional people and taking an extremely long term horizon around how do you forge the market leader. And what we do is different by virtue of that.\n\nSpeaker 1 | 25:24 - 25:43\nNow, I think there's a the pointed question I think you're getting to is can private equity firms over time do radical AI transformation through their motions? And I think many will definitely make a lot of progress on this front. Like, I certainly think private equity firms are incentivized. They have the resources. They have the capabilities to start to go and make meaningful progress on this front.\n\nSpeaker 1 | 25:43 - 26:03\nI do, however, think that there are a number of limitations that they do run into, and I think many will find ways to solve parts of these. One is like, how do you recruit world class engineers to come work at your firm? It's really difficult to do. Your typical PE firm has designed itself to celebrate the investor. And when I look at my great engineers, they want to be in the room when decisions are made.\n\nSpeaker 1 | 26:03 - 26:28\nThey want to have a say in terms of like, hey, like whether or not this is a good or bad business. My guess is that if you go to your typical large cap buyout firm, it'd be highly unusual to find a 25 year old engineer have any say in terms of that investment profile. So I think that will be challenging. I think the second part that's challenging is just the time horizon, right? The reality is, is if you think about your typical investment in a fund, it's, you know, they'll tell you it's a long time horizon.\n\nSpeaker 1 | 26:28 - 26:52\nYou're typically trying to figure out how do we start to package to sell this thing in three years. That is just a very different framing for how we think about technological transformation and what what are the investments that you're willing to bring to bear here. And I really think the last thing is just, you know, for us, we just have an extreme, extreme focus on like quality of business and team. And it's not to say that other private equity firms do not, but, like, we what we do is scarce. We're trying to do one deal per year.\n\nSpeaker 1 | 26:52 - 27:03\nThat's it. We don't have a deployment cadence. I don't have a group of investors and LPs who are telling us, hey, like, you guys were underinvested in the year. Our job is to do one. And if that means that we don't do any this year, that's fantastic.\n\nSpeaker 1 | 27:04 - 27:16\nAnd like, it's just like a very, I think, a very focused and deliberate approach that's just very different. We're gonna touch a very small surface area of the world, and then I expect all these other private equity firms to continue to do great. But I do think there are core differences in terms of the genetics of the companies that we've built.\n\nSpeaker 2 | 27:16 - 27:37\nI hope to hold Sequence Equity for, you know, the rest of my life. So, you know, go forth. Just one more question on your own underwriting and the scarcity. It must be true that every CEO in their earnings calls over the last few years has talked about AI. I think people recognize the change.\n\nSpeaker 2 | 27:37 - 27:52\nI think people genuinely want to invest in these capabilities for their companies. What are you looking for in management teams where you say like, we can help you become a leader, or even a more dominant leader?\n\nSpeaker 1 | 27:52 - 28:15\nYou know, I think you can learn a lot about a management team just in terms of like, how do they play the game in the industry upon which they grew up in? And like, that's like just like a core part of what we look for, which is at the end of the day, Sequence has wonderful engineers. We have a very talented investing team. By the end the day, like, I have no expertise running a broker. I have no expertise running a bank.\n\nSpeaker 1 | 28:15 - 28:42\nWe're heavily reliant on the management team to be the best at their craft and competing in their respective industries. And like, that's a core component of like how we evaluate management teams. The second piece, which is kind of more kind of central native to what we do, is what we do is difficult. Like change and transformation is hard. And as I alluded to earlier, like the human engineering piece is like the hardest problem that we're going to work on.\n\nSpeaker 1 | 28:42 - 29:14\nAnd so when we think about the management teams that we want to work with are management teams that have been excited about technology, that have already started to put the groundwork or lay the foundation around driving change. These are going to be small things around being in the cloud, like centralizing your data infrastructure. It probably means that you've already started to install OpenAI and or Anthropic across your organization. You're making those efforts. And it tells you a lot about the individual who is willing to go ahead and do that at a point in time where it's still like not obvious to go do.\n\nSpeaker 2 | 29:14 - 29:17\nThere's a lot of noise about like, is there any real ROI on AI today?\n\nSpeaker 1 | 29:17 - 29:49\nYeah. Then also there's a lot of angst and anxiety and understanding, you know, how do you get your employee base excited about the fact like this is where the world is going and we're going be at the forefront of it. And so, you know, I think Baldwin is a perfect example of that. You have, you know, in Trevor Baldwin, an exceptional CEO, He was early in terms of driving anthropic end to end within Baldwin. They are on a single instance of Applied Epic, which is your AMS, which is functionally called the core operating system and insurance broker.\n\nSpeaker 1 | 29:50 - 30:08\nAnd these are not easy things to do. It takes a lot of intent, kind of investments and change to go and do that. And so when we think about what is it that we look for in management teams, it's exactly that. Are you great at what you do on the field? And then two, have you already been driving the change in terms of adopting technology and leaning into what's possible today?\n\nSpeaker 2 | 30:08 - 30:26\nI remember when we first started talking about the sequence thesis, I was actually like a little mixed on the idea of roll ups. I just said like, hey, you know, there's the technology piece. There is change management. There's operating the actual company. And then there's underwriting.\n\nSpeaker 2 | 30:27 - 30:40\nAnd then there's deal making, right? There's like, there's a lot of pieces go. I believe that this is a way that enormous businesses can change and go win industries. And then I think it's much, much harder than people think. And I think it's better at scale.\n\nSpeaker 2 | 30:41 - 31:04\nAnd I remember you described, you and Alex described that to me much more clearly where they're like, actually, we think change management and operating the business is going to be hardest part. And we have to assemble the team to go attack it. But we're also to partner with people. And as a zero to one venture person, I'm like, ah, with incumbents. But I now believe that is the correct path with the right management teams, of course.\n\nSpeaker 2 | 31:04 - 31:11\nWhat have you actually already accomplished at the bank, if anything? And then what is giving you confidence on doing this at more scale?\n\nSpeaker 1 | 31:11 - 32:09\nYeah, as I mentioned earlier, you know, post investing in March, we took a giant step back and we thought about, as we look forward over the next decade, what does like the leading community bank look like? And so we break down a community bank into as simple as parts. It has three parts of the business. You have a part of the organization that hunts for deposits, you have a part of the organization that hunts for loans, and then you have the core apparatus in the middle today that works very closely around how do we underwrite loans and ensure that we're giving loans to the right people in the community, such that we're servicing the community in the right way, but we're also creating kind of the right economic model for Bank South. If you think about what we have done today, is if you think about your average bank, historically speaking, loan volumes grow linearly, we call it middle and back office headcount, For no other reason than the fact that, like, processing alone is a complex endeavor, and it does require a lot of individuals to be involved as a part of that process.\n\nSpeaker 1 | 32:10 - 32:45\nWhat we have spent a lot of time on since we've gotten involved with the bank is how do we not only improve underwriting, but how do we ensure that all the people at the organization are focused on the things that they're best at? And so how do we get the underwriting team to stop spending time in terms of inputting numbers, but spending much more time on loans that have exceptions? What we've done since we got involved with the bank since March, and so it's been, call it, roughly six months since we first invested. What we've done now today is we've built a system that can take on all consumer loans within the organization. So the average consumer underwriting today has decreased by 94% since we got started in March.\n\nSpeaker 1 | 32:47 - 32:48\nAnother good example of kind of what\n\nSpeaker 2 | 32:48 - 32:49\nwe've done- Sorry, the timeline.\n\nSpeaker 1 | 32:49 - 33:17\nThe timeline. So that's really powerful. We've started to roll out commercial loans underwriting over the last few months, and we functionally have taken the average loan at the bank, which used to take thirty days to go end to end to eleven days. I share that to say in that, why is that powerful and why does that matter? Is that foundationally what we've done with the tools is that we've allowed the organization to be able to take on significantly more loan volume than was ever possible before with the same amount of headcount.\n\nSpeaker 1 | 33:18 - 33:44\nThis is purely luck. I'm not going to say sequence had anything to do with this. But in Q2 of this year, relative to Q1, loan volumes doubled at the bank. Historically, the bank would actually turn away business and that like the middle and back office, you know, while everyone's working really hard, has limits to how much bandwidth that they can take on. Given the systems that we've built, actually, the bank was actually able to handle all the loan volume, not change their underwriting standards at all.\n\nSpeaker 1 | 33:44 - 34:08\nIn fact, we're able to do this with a significantly smaller underwriting team than what had existed prior to our investment. And the reason why the underwriting team is smaller is one person retired, and one person got moved into the front office. And I think that's just exemplary of kind of what is it that we do, which is like, how do we ensure that the right people are in the right places? How do we get them to work on the things that they enjoy working on? And how do we allow the organization to do more with less?\n\nSpeaker 1 | 34:08 - 34:39\nAnd what that has resulted in is that every individual at the bank today gets to spend time on what they do best. Loan officers are spending more time in the field versus writing credit memos. The credit underwriters are working on the hardest and most complex loans versus thinking about how do I figure out whether or not we should issue a loan for a boat when the person already clearly has enough money. That's what we've achieved at the bank so far. As we look forward, we think we've laid the foundation for what should be a really exciting roadmap ahead around spinning up new products and new businesses, giving new tools to the loan officers and relationship managers such that they can sell more products.\n\nSpeaker 1 | 34:39 - 34:45\nThen how do we start to think about delivering a differentiated customer experience that no one else in the industry can do?\n\nSpeaker 2 | 34:45 - 34:56\nSo when we met, you were leaving the privates business at Lone Pine, a career investor. What is the biggest surprise or realization having started a company?\n\nSpeaker 1 | 34:56 - 35:34\nYou know, I get asked this question from friends of mine in the investing business. And, you know, maybe like if you had to take a giant step back, the level of empathy I have for founders today versus even when I was running the private businesses, Lone Pine, is like just night and day. It is remarkable to see people take an idea and will it from nothing to something. It is not easy to attract people to come join you on your journey. It's not easy to attract capital to join you on this journey, but it's exceptionally fun and rewarding.\n\nSpeaker 1 | 35:35 - 36:07\nAnd I have an immense amount of gratitude to the people who supported us at the beginning, like yourself, like Joe and DruityVC, and to all of our early employees. And, you know, what I'd say is that it's a- it's a- it's- the highs are highs, the lows are low. There are days where it's extremely, exceptionally lonely, but I cannot be having more fun. And all I have to say is that everything that Elon and Jensen talk about in terms of being exceptionally painful is exceptionally true. But it's been a lot of fun.\n\nSpeaker 2 | 36:08 - 36:14\nI love this partnership of equals, Sequence Holdings, and the Dell family office. Tell me about how this happened.\n\nSpeaker 1 | 36:14 - 37:01\nIt's a great story. You know, as you can imagine, in a take private scenario, you do need to have certainty of capital. And as ambitious as we are, and as amazing our partners are, most people don't have billions of dollars around to support equity commitment letter for a take private. And so, you know, we started spending time with a number of partners in the market to think about approaching Baldwin together around kind of exploring the thesis that we brought to bear. We got introduced to the Dell family office, and, you know, I have to give Michael Dell, Dan Battar, who's the head of global direct investing, a tremendous amount of credit for working closely with us to underwrite the deal, underwrite our technology platform, our technology transformation motion, and supporting us in this transaction.\n\nSpeaker 1 | 37:02 - 37:09\nThey've been wonderful partners to us. We are going to be cool controlling this Baldwin together, and we expect to be partners for a long time.\n\nSpeaker 2 | 37:09 - 37:28\nSo you have been a private market semester, a public semester, an operator, you know, I guess you know what, you're doing take privates. How do you think your career has affected like the way you predict markets, the way you look at markets and the unrolling of this technology?\n\nSpeaker 1 | 37:28 - 38:19\nYou know, I think I've been very fortunate in my career to have the opportunity to wear a lot of different hats and learn the different, call it, crafts of investing. Know, so I worked at Goldman coming out of college. I went to work at Apollo, which was just like an awesome experience, learning how do you structure a deal, how do you think rigorously around capital structures, how do you understand credit agreements and documents, how do you design management incentive plans, and like really learn the blocking and tackling of like private equity. The opportunity to go to Lone Pine was really an opportunity to start to study the best companies in the world. You know, what's amazing about Lone Pine and working in an organization that gets to look at the full public company universe and have the difficult challenge of figuring out what are the best companies in the world is just an amazing aperture to learn, right?\n\nSpeaker 1 | 38:19 - 38:38\nLike why, what makes Nvidia great? What makes Microsoft great? What makes Visa great? And I think you learn, you know, this may be an overused term today, like a real taste for like what is a great business. And then you also learn to appreciate the benefits of long term compounding.\n\nSpeaker 1 | 38:38 - 39:46\nAnd that was a really, really powerful kind of five years that I did at Lone Pine around studying the greatest companies in the world, and like really deeply internalizing that the greatest companies in the world compound at rates that no one ever thinks that they can. The opportunity to kind of go and build out the private investing business at Lone Pine was really an opportunity to start to spend time at the frontier of technology, spending time with founders, working on really hard problems that like other people didn't really see, seeing what it takes for someone to will something from nothing to something, and then really getting really, really deep in terms of understanding where technology is taking the world. And so if I reflect on like how and why I think about the world that I do, it's kind of the amalgamation of these experiences, which was like, how do I think about kind of the benefits of ownership? How do I think about that with the taste of what is a great business and having a real appreciation for the benefits of long term compounding with like, man, like here's what's possible if you marry that with world class engineering and frontier technology.\n\nSpeaker 1 | 39:46 - 39:59\nAnd like, I think that's, you know, the that experience is really what colors how we think about investing here at Sequence Holdings, which is like, how do we marry kind of all the skill sets and the best of what I think are kind of the key domains for my investing career?\n\nSpeaker 2 | 40:00 - 40:07\nYou've never been officially an early stage venture capitalist. What do you think that this class of asset managers misses?\n\nSpeaker 1 | 40:07 - 40:47\nIf I were to take a giant step back and if I were to like rethink like how I would approach private investing today, I were ever to go back into it, which I won't, but is just finding exceptional people working on hard problems in big markets. If I've learned anything in terms of my experience at Sequence, spending time with other founders today, is that like ideas are cheap and execution is really hard. And like truly exceptional people will always figure out how to make something work. And that may be because it brings someone on board that highlights a weakness that they have. It may be that they're able to, with enough persistence, get the right people to come support them on something that everyone else thinks is crazy.\n\nSpeaker 1 | 40:48 - 41:17\nAnd so if I were to go back and do it again, I think betting on exceptional people is kind of the only thing that matters. Like, I just think that the vast majority of other things, whether it's the greatest idea I've ever seen, like the greatest hottest tragedy we've seen in a short period of time, like, I think are important signals. By the end the day, this is a people business, particularly early on, and people working on who are highly ambitious on really hard problems that are in very large markets, you should back them all the time, even if it seems crazy. Because I think the, you know, the upside convexity of backing those people largely offset kind of the rest.\n\nSpeaker 2 | 41:18 - 41:21\nThat's a very isn't that the most purest venture attitude?\n\nSpeaker 1 | 41:21 - 41:21\nI think that's\n\nSpeaker 2 | 41:21 - 41:27\nexactly Like, Mr. Michael Lee, private equity and public markets guy, is saying back great people in huge markets.\n\nSpeaker 1 | 41:27 - 41:47\nThat's exactly right. I think that's the name of the game. And I think that's also true in public markets as well. Like, if I think back and I reflect on, like, the best investments that we've made at Lone Pine, if I think about the the best companies that have been in the market today, it's been like, go find exceptional people. Like, I think the best example of that is like, I remember meeting Jensen Huang in 2017.\n\nSpeaker 1 | 41:47 - 42:20\nIt's kind of crazy to think at the time, like today, that like it wasn't what it is today, and he has been remarkably consistent. Clarity of thought, incredible execution, been able to surround himself with the smartest people in the world who are extremely loyal, and has constantly figured out ways to kind of refound his business to compete in an ever changing market, and find exceptional people working in big markets. And I think whether it's early stage or late stage, think I most people will be surprised to the upside in terms of how that always plays out.\n\nSpeaker 2 | 42:20 - 42:22\nThat's a great note to end on. Thanks so much, Michael.\n\nSpeaker 1 | 42:22 - 42:23\nThanks for having me.\n\nSpeaker 2 | 42:26 - 42:42\nFind us on Twitter nopriarspod. Subscribe to our YouTube channel if you wanna see our faces. Follow the show on Apple Podcasts, Spotify, or wherever you listen. That way you get a new episode every week. And sign up for emails or find transcripts for every episode at nopriors.com."
+    },
+    {
+      "source": "podcast",
       "name": "The MAD Podcast with Matt Turck",
       "title": "Who Feeds the GPUs? Inside AI's Hidden $30B Layer | Renen Hallak, VAST Data",
       "guid": "09985d98-67c4-4c5e-a1be-6d201c56bc55",
@@ -1397,8 +1604,8 @@
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "starsToday": 1171,
-      "totalStars": 76525,
-      "forks": 4566,
+      "totalStars": 76710,
+      "forks": 4577,
       "channel": "全语言热门"
     },
     {
@@ -1410,8 +1617,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 980,
-      "totalStars": 91183,
-      "forks": 8008,
+      "totalStars": 91353,
+      "forks": 8025,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -1423,8 +1630,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 490,
-      "totalStars": 25300,
-      "forks": 6532,
+      "totalStars": 25362,
+      "forks": 6548,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -1436,8 +1643,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 401,
-      "totalStars": 112504,
-      "forks": 14271,
+      "totalStars": 112563,
+      "forks": 14279,
       "channel": "TypeScript/前端"
     },
     {
@@ -1449,8 +1656,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 376,
-      "totalStars": 56903,
-      "forks": 5104,
+      "totalStars": 56986,
+      "forks": 5109,
       "channel": "TypeScript/前端"
     },
     {
@@ -1462,8 +1669,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 337,
-      "totalStars": 149447,
-      "forks": 25512,
+      "totalStars": 149458,
+      "forks": 25538,
       "channel": "TypeScript/前端"
     },
     {
@@ -1475,8 +1682,8 @@
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "starsToday": 336,
-      "totalStars": 101299,
-      "forks": 10623,
+      "totalStars": 101367,
+      "forks": 10628,
       "channel": "全语言热门"
     },
     {
@@ -1488,8 +1695,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 298,
-      "totalStars": 20597,
-      "forks": 1404,
+      "totalStars": 20765,
+      "forks": 1400,
       "channel": "Python AI 专区"
     }
   ]
