@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
   "isMondayLookback": false,
-  "fetchedAt": "2026-10-06T07:30:30.383Z",
+  "fetchedAt": "2026-10-06T10:37:56.703Z",
   "stats": {
     "buildersCount": 15,
     "totalTweets": 30,
@@ -465,19 +465,6 @@
   "blogs": [],
   "githubTrending": [
     {
-      "repo": "Panniantong/Agent-Reach",
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 1155,
-      "totalStars": 92152,
-      "forks": 8085,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
       "repo": "tester-army/e2e",
       "owner": "tester-army",
       "name": "e2e",
@@ -486,9 +473,22 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 1398,
-      "totalStars": 5213,
-      "forks": 221,
+      "totalStars": 5445,
+      "forks": 233,
       "channel": "全语言热门 / TypeScript/前端"
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "owner": "Panniantong",
+      "name": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 1155,
+      "totalStars": 92309,
+      "forks": 8096,
+      "channel": "全语言热门 / Python AI 专区"
     },
     {
       "repo": "boykopovar/AnyPS5",
@@ -499,8 +499,8 @@
       "language": "C++",
       "languageColor": "#f34b7d",
       "starsToday": 997,
-      "totalStars": 5166,
-      "forks": 379,
+      "totalStars": 5287,
+      "forks": 391,
       "channel": "全语言热门"
     },
     {
@@ -512,8 +512,8 @@
       "language": "Go",
       "languageColor": "#00ADD8",
       "starsToday": 515,
-      "totalStars": 77276,
-      "forks": 5082,
+      "totalStars": 77360,
+      "forks": 5086,
       "channel": "全语言热门"
     },
     {
@@ -525,8 +525,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 485,
-      "totalStars": 25717,
-      "forks": 6620,
+      "totalStars": 25763,
+      "forks": 6634,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -538,8 +538,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 485,
-      "totalStars": 76554,
-      "forks": 11705,
+      "totalStars": 76601,
+      "forks": 11714,
       "channel": "Python AI 专区"
     },
     {
@@ -551,8 +551,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 437,
-      "totalStars": 17581,
-      "forks": 1779,
+      "totalStars": 17668,
+      "forks": 1782,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -564,8 +564,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 321,
-      "totalStars": 31042,
-      "forks": 4349,
+      "totalStars": 31079,
+      "forks": 4352,
       "channel": "TypeScript/前端"
     }
   ]
