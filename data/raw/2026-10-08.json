@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "isMondayLookback": false,
-  "fetchedAt": "2026-10-08T07:17:40.582Z",
+  "fetchedAt": "2026-10-08T10:49:50.525Z",
   "stats": {
     "buildersCount": 19,
     "totalTweets": 41,
@@ -636,8 +636,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 4655,
-      "totalStars": 17597,
-      "forks": 1844,
+      "totalStars": 18956,
+      "forks": 1991,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -649,8 +649,21 @@
       "language": "C++",
       "languageColor": "#f34b7d",
       "starsToday": 2716,
-      "totalStars": 11690,
-      "forks": 891,
+      "totalStars": 12525,
+      "forks": 954,
+      "channel": "全语言热门"
+    },
+    {
+      "repo": "storytold/artcraft",
+      "owner": "storytold",
+      "name": "artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "starsToday": 1465,
+      "totalStars": 5827,
+      "forks": 754,
       "channel": "全语言热门"
     },
     {
@@ -662,9 +675,9 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 1390,
-      "totalStars": 7802,
-      "forks": 356,
-      "channel": "全语言热门 / TypeScript/前端"
+      "totalStars": 7973,
+      "forks": 366,
+      "channel": "TypeScript/前端"
     },
     {
       "repo": "anthropics/knowledge-work-plugins",
@@ -675,48 +688,22 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 766,
-      "totalStars": 27218,
-      "forks": 3178,
-      "channel": "Python AI 专区"
-    },
-    {
-      "repo": "addyosmani/agent-skills",
-      "owner": "addyosmani",
-      "name": "agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "starsToday": 677,
-      "totalStars": 103032,
-      "forks": 10785,
-      "channel": "全语言热门"
-    },
-    {
-      "repo": "ayghri/i-have-adhd",
-      "owner": "ayghri",
-      "name": "i-have-adhd",
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 619,
-      "totalStars": 55409,
-      "forks": 3168,
+      "totalStars": 27245,
+      "forks": 3181,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
-      "repo": "cloudflare/security-audit-skill",
-      "owner": "cloudflare",
-      "name": "security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "starsToday": 576,
-      "totalStars": 26256,
-      "forks": 1577,
-      "channel": "全语言热门"
+      "repo": "tashfeenahmed/freellmapi",
+      "owner": "tashfeenahmed",
+      "name": "freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 508,
+      "totalStars": 31913,
+      "forks": 4439,
+      "channel": "TypeScript/前端"
     },
     {
       "repo": "earthtojake/text-to-cad",
@@ -727,9 +714,22 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 447,
-      "totalStars": 18326,
-      "forks": 1822,
+      "totalStars": 18351,
+      "forks": 1823,
       "channel": "Python AI 专区"
+    },
+    {
+      "repo": "liquidslr/system-design-notes",
+      "owner": "liquidslr",
+      "name": "system-design-notes",
+      "url": "https://github.com/liquidslr/system-design-notes",
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "language": "Unknown",
+      "languageColor": "#e0e0e0",
+      "starsToday": 398,
+      "totalStars": 24151,
+      "forks": 4569,
+      "channel": "全语言热门"
     }
   ]
 }
