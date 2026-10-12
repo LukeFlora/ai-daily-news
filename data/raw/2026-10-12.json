@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
   "isMondayLookback": true,
-  "fetchedAt": "2026-10-12T11:12:34.937Z",
+  "fetchedAt": "2026-10-12T16:53:53.990Z",
   "stats": {
     "buildersCount": 18,
     "totalTweets": 100,
@@ -1334,23 +1334,10 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 25599,
-      "totalStars": 130230,
-      "forks": 29127,
+      "starsToday": 45495,
+      "totalStars": 143354,
+      "forks": 33085,
       "channel": "全语言热门 / TypeScript/前端"
-    },
-    {
-      "repo": "boykopovar/AnyPS5",
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "starsToday": 3952,
-      "totalStars": 31539,
-      "forks": 2703,
-      "channel": "全语言热门"
     },
     {
       "repo": "storytold/artcraft",
@@ -1360,9 +1347,22 @@
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
       "languageColor": "#dea584",
-      "starsToday": 2957,
-      "totalStars": 19791,
-      "forks": 3210,
+      "starsToday": 4106,
+      "totalStars": 20752,
+      "forks": 3357,
+      "channel": "全语言热门"
+    },
+    {
+      "repo": "bilawalsidhu/gods-eye-view",
+      "owner": "bilawalsidhu",
+      "name": "gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "starsToday": 1903,
+      "totalStars": 53106,
+      "forks": 10540,
       "channel": "全语言热门"
     },
     {
@@ -1373,9 +1373,9 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 1225,
-      "totalStars": 59561,
-      "forks": 6679,
+      "starsToday": 1688,
+      "totalStars": 59977,
+      "forks": 6724,
       "channel": "Python AI 专区"
     },
     {
@@ -1386,23 +1386,10 @@
       "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 1104,
-      "totalStars": 60793,
-      "forks": 4801,
+      "starsToday": 772,
+      "totalStars": 61009,
+      "forks": 4824,
       "channel": "Python AI 专区"
-    },
-    {
-      "repo": "bilawalsidhu/gods-eye-view",
-      "owner": "bilawalsidhu",
-      "name": "gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "starsToday": 886,
-      "totalStars": 52573,
-      "forks": 10481,
-      "channel": "全语言热门"
     },
     {
       "repo": "Alishahryar1/free-claude-code",
@@ -1412,22 +1399,35 @@
       "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 506,
-      "totalStars": 58245,
-      "forks": 9253,
-      "channel": "Python AI 专区"
+      "starsToday": 705,
+      "totalStars": 58654,
+      "forks": 9276,
+      "channel": "全语言热门 / Python AI 专区"
     },
     {
-      "repo": "huggingface/transformers",
-      "owner": "huggingface",
-      "name": "transformers",
-      "url": "https://github.com/huggingface/transformers",
-      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "repo": "paperclipai/paperclip",
+      "owner": "paperclipai",
+      "name": "paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 652,
+      "totalStars": 100807,
+      "forks": 16961,
+      "channel": "TypeScript/前端"
+    },
+    {
+      "repo": "pytorch/pytorch",
+      "owner": "pytorch",
+      "name": "pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 501,
-      "totalStars": 167557,
-      "forks": 34845,
+      "starsToday": 529,
+      "totalStars": 104725,
+      "forks": 32188,
       "channel": "Python AI 专区"
     }
   ]
