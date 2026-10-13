@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
   "isMondayLookback": false,
-  "fetchedAt": "2026-10-13T10:53:59.582Z",
+  "fetchedAt": "2026-10-13T15:12:08.919Z",
   "stats": {
     "buildersCount": 15,
     "totalTweets": 31,
@@ -493,9 +493,9 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 45327,
-      "totalStars": 183905,
-      "forks": 44502,
+      "starsToday": 54706,
+      "totalStars": 194119,
+      "forks": 47346,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -506,9 +506,9 @@
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
       "languageColor": "#dea584",
-      "starsToday": 4095,
-      "totalStars": 23786,
-      "forks": 3777,
+      "starsToday": 4078,
+      "totalStars": 24523,
+      "forks": 3875,
       "channel": "全语言热门"
     },
     {
@@ -519,9 +519,9 @@
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "starsToday": 1895,
-      "totalStars": 54473,
-      "forks": 10715,
+      "starsToday": 1961,
+      "totalStars": 54786,
+      "forks": 10752,
       "channel": "全语言热门"
     },
     {
@@ -533,9 +533,22 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 1691,
-      "totalStars": 61253,
-      "forks": 6868,
+      "totalStars": 61985,
+      "forks": 6926,
       "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "owner": "Alishahryar1",
+      "name": "free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 1591,
+      "totalStars": 59983,
+      "forks": 9408,
+      "channel": "Python AI 专区"
     },
     {
       "repo": "heygen-com/hyperframes",
@@ -546,8 +559,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 831,
-      "totalStars": 62175,
-      "forks": 5567,
+      "totalStars": 62354,
+      "forks": 5588,
       "channel": "TypeScript/前端"
     },
     {
@@ -559,8 +572,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 786,
-      "totalStars": 61457,
-      "forks": 4867,
+      "totalStars": 61580,
+      "forks": 4875,
       "channel": "Python AI 专区"
     },
     {
@@ -572,22 +585,9 @@
       "language": "Swift",
       "languageColor": "#F05138",
       "starsToday": 936,
-      "totalStars": 8508,
-      "forks": 348,
+      "totalStars": 8797,
+      "forks": 365,
       "channel": "全语言热门"
-    },
-    {
-      "repo": "Alishahryar1/free-claude-code",
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 626,
-      "totalStars": 59790,
-      "forks": 9383,
-      "channel": "Python AI 专区"
     }
   ]
 }
