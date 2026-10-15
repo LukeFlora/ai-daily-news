@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
   "isMondayLookback": false,
-  "fetchedAt": "2026-10-15T08:30:17.197Z",
+  "fetchedAt": "2026-10-15T12:45:45.311Z",
   "stats": {
     "buildersCount": 12,
     "totalTweets": 28,
@@ -436,9 +436,9 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 41034,
-      "totalStars": 253711,
-      "forks": 63747,
+      "starsToday": 32282,
+      "totalStars": 259085,
+      "forks": 65167,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -449,9 +449,9 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 3538,
-      "totalStars": 67452,
-      "forks": 7399,
+      "starsToday": 3027,
+      "totalStars": 67953,
+      "forks": 7447,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -462,23 +462,36 @@
       "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 2109,
-      "totalStars": 27942,
-      "forks": 1521,
-      "channel": "全语言热门 / Python AI 专区"
+      "starsToday": 1887,
+      "totalStars": 28140,
+      "forks": 1524,
+      "channel": "Python AI 专区"
     },
     {
-      "repo": "xtool-org/xtool",
-      "owner": "xtool-org",
-      "name": "xtool",
-      "url": "https://github.com/xtool-org/xtool",
-      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "starsToday": 1502,
-      "totalStars": 11266,
-      "forks": 516,
+      "repo": "NationalSecurityAgency/ghidra",
+      "owner": "NationalSecurityAgency",
+      "name": "ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "starsToday": 1366,
+      "totalStars": 88189,
+      "forks": 9839,
       "channel": "全语言热门"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "owner": "K-Dense-AI",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 1091,
+      "totalStars": 49989,
+      "forks": 4459,
+      "channel": "全语言热门 / Python AI 专区"
     },
     {
       "repo": "heygen-com/hyperframes",
@@ -489,35 +502,9 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 1089,
-      "totalStars": 63985,
-      "forks": 5743,
+      "totalStars": 64157,
+      "forks": 5760,
       "channel": "TypeScript/前端"
-    },
-    {
-      "repo": "vxcontrol/pentagi",
-      "owner": "vxcontrol",
-      "name": "pentagi",
-      "url": "https://github.com/vxcontrol/pentagi",
-      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "starsToday": 1025,
-      "totalStars": 30045,
-      "forks": 4498,
-      "channel": "全语言热门"
-    },
-    {
-      "repo": "NationalSecurityAgency/ghidra",
-      "owner": "NationalSecurityAgency",
-      "name": "ghidra",
-      "url": "https://github.com/NationalSecurityAgency/ghidra",
-      "description": "Ghidra is a software reverse engineering (SRE) framework",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "starsToday": 1008,
-      "totalStars": 87950,
-      "forks": 9814,
-      "channel": "全语言热门"
     },
     {
       "repo": "stablyai/orca",
@@ -528,9 +515,22 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 919,
-      "totalStars": 92835,
-      "forks": 5925,
+      "totalStars": 93010,
+      "forks": 5940,
       "channel": "TypeScript/前端"
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "owner": "HKUDS",
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 759,
+      "totalStars": 52929,
+      "forks": 4796,
+      "channel": "Python AI 专区"
     }
   ]
 }
