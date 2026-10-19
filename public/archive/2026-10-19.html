@@ -1,0 +1,2186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luke的一手消息 - 2026-10-19</title>
+  <meta name="description" content="Luke的一手消息：追踪前沿突破 · 汇聚一手洞见。大模型突破、开源工具、AI商业与论文前沿。">
+  <!-- OpenGraph & Twitter 社交媒体分享大卡片优化 -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Luke的一手消息 · 2026-10-19">
+  <meta property="og:description" content="Luke的一手消息：追踪前沿突破 · 汇聚一手洞见。大模型突破、开源工具、AI商业与论文前沿。">
+  <meta property="og:url" content="https://lukeflora.github.io/ai-daily-news/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Luke的一手消息 · 2026-10-19">
+  <meta name="twitter:description" content="Luke的一手消息：追踪前沿突破 · 汇聚一手洞见。追踪前沿突破，汇聚一手洞见。">
+  <!-- PWA 与浏览器高清图标 (Phase 3 体验升级) -->
+  <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
+  <link rel="apple-touch-icon" href="../assets/icon.svg">
+  <link rel="manifest" href="../manifest.json">
+  <meta name="theme-color" content="#060910">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Luke的一手消息">
+  <!-- RSS 2.0 动态订阅源 (Phase 4 体验升级) -->
+  <link rel="alternate" type="application/rss+xml" title="Luke的一手消息" href="../feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    /* 浏览器原生按钮外观安全重置 (允许类名覆盖 background 与 border) */
+    button, select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      font-family: inherit;
+    }
+  </style>
+  <script>
+    (function() {
+      try {
+        var savedTheme = localStorage.getItem('luke_news_theme');
+        if (savedTheme === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="../assets/style.css?v=1792390208317">
+</head>
+<body>
+  <!-- 太阳耀斑环境光晕 (RedSun Signature Glow) -->
+  <div class="sun-flare-wrapper">
+    <div class="sun-flare-circle"></div>
+  </div>
+
+  <div class="newspaper-container">
+    <!-- 顶部 RedSun 磨砂悬浮导航栏 -->
+    <nav class="top-nav-bar">
+      <div class="top-nav-left">
+        <div class="whats-new-badge">RedSun AI</div>
+        <button class="calendar-toggle-btn" id="open-calendar-btn" type="button" title="点击打开月度出版日历">
+          <span>📅</span>
+          <span>日历查阅</span>
+        </button>
+        <span class="nav-sep">|</span>
+        <span class="nav-label">往期回顾：</span>
+        <select class="vintage-select" onchange="if(this.value) location.href=this.value;">
+          <option value="../index.html" selected>2026-10-19</option><option value="../archive/2026-10-16.html" >2026-10-16</option><option value="../archive/2026-10-15.html" >2026-10-15</option><option value="../archive/2026-10-14.html" >2026-10-14</option><option value="../archive/2026-10-13.html" >2026-10-13</option><option value="../archive/2026-10-12.html" >2026-10-12</option><option value="../archive/2026-10-09.html" >2026-10-09</option><option value="../archive/2026-10-08.html" >2026-10-08</option><option value="../archive/2026-10-07.html" >2026-10-07</option><option value="../archive/2026-10-06.html" >2026-10-06</option><option value="../archive/2026-10-05.html" >2026-10-05</option><option value="../archive/2026-10-02.html" >2026-10-02</option><option value="../archive/2026-10-01.html" >2026-10-01</option><option value="../archive/2026-09-30.html" >2026-09-30</option><option value="../archive/2026-09-29.html" >2026-09-29</option><option value="../archive/2026-09-28.html" >2026-09-28</option><option value="../archive/2026-09-25.html" >2026-09-25</option><option value="../archive/2026-09-24.html" >2026-09-24</option><option value="../archive/2026-09-23.html" >2026-09-23</option><option value="../archive/2026-09-22.html" >2026-09-22</option><option value="../archive/2026-09-21.html" >2026-09-21</option><option value="../archive/2026-09-18.html" >2026-09-18</option><option value="../archive/2026-09-17.html" >2026-09-17</option><option value="../archive/2026-09-16.html" >2026-09-16</option><option value="../archive/2026-09-15.html" >2026-09-15</option><option value="../archive/2026-09-14.html" >2026-09-14</option>
+        </select>
+        <span class="nav-sep">|</span>
+        <a class="vintage-link" href="../archive/index.html">时间线总览</a>
+      </div>
+      <div class="top-nav-right">
+        <button class="theme-toggle-btn" id="theme-toggle-btn" type="button" title="点击切换 亮色 / 暗黑 模式">
+          <span class="theme-icon">☀️</span>
+          <span class="theme-text">亮色模式</span>
+        </button>
+        <span class="nav-sep">|</span>
+        <a class="vintage-link rss-link" href="../feed.xml" target="_blank" rel="noopener noreferrer" title="通过 RSS 阅读器订阅每日早报">📡 RSS</a>
+        <span class="nav-sep">|</span>
+        <a class="vintage-link" href="https://github.com/LukeFlora/ai-daily-news" target="_blank" rel="noopener noreferrer">GitHub 仓库 ↗</a>
+      </div>
+    </nav>
+
+    <!-- RedSun 旗舰主报头 -->
+    <header class="newspaper-header">
+      <div class="header-badge-holder">
+        <span class="badge-pulse-dot"></span>
+        <span>RedSun 智能动态汇编 · 第 26 期 · 晨报精编</span>
+      </div>
+      <h1 class="newspaper-title">Luke的一手消息</h1>
+      <p class="newspaper-subtitle">追踪前沿突破 · 汇聚一手洞见 | 大模型突破 · 开源生产力工具 · AI 投资商业 · 论文前沿</p>
+      <div class="header-meta-pills">
+        <span class="meta-pill highlight">📅 2026年10月19日 · 星期一</span>
+        <span class="meta-pill">⏱️ 预计阅读 44 分钟 · 共 29 条一手精要</span>
+        <span class="meta-pill">🔥 全球高热前沿追踪</span>
+        <span class="meta-pill">⚡ 真实一手信源可溯</span>
+      </div>
+    </header>
+
+    <!-- 交互控制中心：即时搜索与分类筛选 (Phase 2 体验升级) -->
+    <section class="newspaper-action-bar" aria-label="要闻搜索与分类筛选">
+      <div class="search-box-wrapper">
+        <div class="search-input-group">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input 
+            type="search" 
+            id="news-search-input" 
+            class="news-search-input" 
+            placeholder="搜索今日要闻（按 / 快速聚焦，如 OpenAI、Claude、开源...）" 
+            autocomplete="off"
+            spellcheck="false"
+            aria-label="搜索今日要闻"
+          >
+          <kbd class="search-kbd-hint" title="按 / 键快速聚焦搜索">/</kbd>
+          <button type="button" id="search-clear-btn" class="search-clear-btn" title="清空搜索" aria-label="清空搜索">✕</button>
+        </div>
+        <div id="search-status-hint" class="search-status-hint" style="display: none;"></div>
+      </div>
+
+      <!-- 分类即时交互筛选导航条 -->
+      <nav class="category-filter-bar" id="category-filter-bar" aria-label="要闻分类筛选">
+        <button class="filter-pill active" data-category="all" type="button">
+          <span>🔥 全部要闻</span>
+          <span class="filter-count">29</span>
+        </button>
+        <button class="filter-pill" data-category="大模型与技术突破" type="button">
+          <span>🤖 大模型突破</span>
+          <span class="filter-count">8</span>
+        </button>
+        <button class="filter-pill" data-category="开源生产力工具" type="button">
+          <span>🛠️ 开源工具</span>
+          <span class="filter-count">19</span>
+        </button>
+        <button class="filter-pill" data-category="AI 投资与商业" type="button">
+          <span>💰 商业投资</span>
+          <span class="filter-count">2</span>
+        </button>
+        <button class="filter-pill" data-category="论文前沿" type="button">
+          <span>📑 论文前沿</span>
+          <span class="filter-count">0</span>
+        </button>
+      </nav>
+    </section>
+
+    <!-- 主版面 4 列网格 -->
+    <main class="newspaper-grid" id="newspaper-grid">
+      
+    <article class="news-item news-card rank-1 is-top-tier" id="x-sama-17" data-category="大模型与技术突破" data-rank="1" data-heat="80052">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">大模型与技术突破</span>
+          
+      <span class="heat-pill item-heat heat-rank-1" title="全网热度 TOP 1：80052">
+        <span class="rank-crown">👑 TOP 1</span>
+        <span class="heat-num">80.1k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Sam Altman · The mission of OpenAI is...">
+        <strong>Sam Altman</strong><span> · The mission of OpenAI is...</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">Sam Altman 展示了 OpenAI 攻克纳维-斯托克斯（Navier-Stokes）方程里程碑的纪念 T 恤设计，特别指出其背面印有 AI 最终解题...</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">OpenAI 将 AI 解决前沿物理/数学难题（纳维-斯托克斯方程）的思维链印制成纪念衫，展现了其推理模型在复杂科学计算领域的突破。这标志着大模型正在从单纯的文本生成迈向驱动前沿科学探索的新阶段，非常值得大模型从业者关注。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">Sam Altman 展示了 OpenAI 攻克纳维-斯托克斯（Navier-Stokes）方程里程碑的纪念 T 恤设计，特别指出其背面印有 AI 最终解题思维链（Chain-of-Thought）的最后一行。此外，他还公开称赞了特斯拉新款 Roadster 的设计，并对 Nick 发布的最新内容表示祝贺。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">[推文 1] 纳维-斯托克斯（Navier-Stokes）里程碑纪念衫的背面，印的是解题思维链（Chain-of-Thought）的最后一行：https://t.co/W7mK8WmCz1
+[推文 2] 哇，新款 Roadster 看起来相当惊艳，干得漂亮 @elonmusk
+[推文 3] 非常高兴看到 Nick 发布的这个内容！https://t.co/BBSTgPHuy8</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/sama/status/2111139227761266699" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-2 is-top-tier" id="x-thsottiaux-2" data-category="开源生产力工具" data-rank="2" data-heat="23825">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat heat-rank-2" title="全网热度 TOP 2：23825">
+        <span class="rank-crown">🥈 TOP 2</span>
+        <span class="heat-num">23.8k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Thibault Sottiaux · Codex &amp; ChatGPT @OpenAI">
+        <strong>Thibault Sottiaux</strong><span> · Codex &amp; ChatGPT @OpenAI</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">OpenAI 开发者 Thibault Sottiaux 分享了 ChatGPT 的最新动态，包括 ChatGPT Space 团队刚为产品添加了幻灯片（s...</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">作者展示了“工作 Agent + 个人 Agent + 外部专业人员”跨场景异步协作的真实案例，揭示了未来多 Agent 协同落地工作流的演进方向。同时，ChatGPT 针对 Space 与幻灯片功能的持续迭代，也为 AI 产品设计与 Agent 系统架构提供了直观的参考样本。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">OpenAI 开发者 Thibault Sottiaux 分享了 ChatGPT 的最新动态，包括 ChatGPT Space 团队刚为产品添加了幻灯片（slides）支持（面向 Pro、Business 和 Enterprise 用户）。此外，他展示了工作端 AI 与个人端 AI 跨系统协同、并自动联络会计师在 20 分钟内完成报税的真实案例，展现了多 Agent 自动化协作的现实潜力。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">[推文 1] 应我个人的要求，我的工作端 AI 助手“Burger”与我的个人端 AI 助手“Dorito”通过电子邮件进行了协调以获取文件，随后又与我的注册会计师（CPA）配合完成了报税工作。整个过程只花了 20 分钟。我们目前仍处于非常早期阶段。
+[推文 2] 今天太平洋时间下班前某个时间上线。
+[推文 3] 另外，我们昨天刚刚添加了幻灯片（slides）支持，快去试试吧。目前已在 Pro、Business 和 Enterprise 版本中可用，以便我们根据大家的反馈进行改进。
+[推文 4] 到底什么是 ChatGPT Space，这是个好问题。有时显得笨拙得可爱，因为这确实是团队在实打实打造的产品。接下来你希望看到什么？
+[推文 5] 更新你的 App 来体验这个宝藏功能吧。
+[推文 6] 要么是我们没想法了，要么就是我们在酝酿大招。时间会给出答案。
+[推文 7] 我用法语编程。
+[推文 8] 你好（Bonjour）。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/thsottiaux/status/2111495392559067199" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-3 is-top-tier" id="x-bcherny-9" data-category="开源生产力工具" data-rank="3" data-heat="8673">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat heat-rank-3" title="全网热度 TOP 3：8673">
+        <span class="rank-crown">🥉 TOP 3</span>
+        <span class="heat-num">8.7k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Boris Cherny · Claude @anthropicai">
+        <strong>Boris Cherny</strong><span> · Claude @anthropicai</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">Anthropic 的 Boris Cherny 分享了 Claude 生态的最新生产力实践，包括利用 Claude Slides 自动化演示文稿制作，以及...</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">Boris 的分享展示了 AI Agent 如何从“辅助工具”进化为“工作流基础设施”。对于开发者而言，Claude Code Review 的应用实践提供了将 AI 深度集成至 CI/CD 流水线的范式参考，值得关注如何通过自动化手段平衡开发效率与代码质量。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">Anthropic 的 Boris Cherny 分享了 Claude 生态的最新生产力实践，包括利用 Claude Slides 自动化演示文稿制作，以及通过 Claude Code Review 显著提升代码质量与交付速度。此外，他还强调了行业在应对 Prompt 注入攻击方面的紧迫性，并宣布与 Gray Swan 合作举办相关安全竞赛。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">【推文 1】别忽视 Claude Slides。我现在都用它来制作演示文稿——再也不用像过去那样去搜“iPhone 边框 SVG”了。
+
+【推文 2】我无法想象没有 Claude Code Review 的工作状态。它会运行在我所有的 PR（合并请求）上，几乎能在 Bug 进入代码库前拦截所有问题。这是我和团队能够保持高速迭代并提升质量标准的“秘诀”之一。
+
+【推文 3】过去几年，我们在 Claude 模型的提示词注入（Prompt Injection）防御方面取得了重大进展。随着 Agent 能力的增强，在全行业范围内解决这一问题变得愈发紧迫。非常高兴能与 Gray Swan 合作举办这场竞赛，期待看到大家的发现！</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/bcherny/status/2111158659971699136" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-4 " id="x-rauchg-6" data-category="开源生产力工具" data-rank="4" data-heat="4906">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：4906">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#4 · 4.9k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Guillermo Rauch · @vercel CEO">
+        <strong>Guillermo Rauch</strong><span> · @vercel CEO</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">Vercel CEO Guillermo Rauch 近期分享了关于产品落地与开发者效能的核心观点</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">Guillermo Rauch 的观点切中 AI 时代的产品开发本质：无论底层大模型或基础设施多么复杂，能否为用户交付极致体验的“最终产品”才是关键。同时，关注 TypeScript 编译效能（如 scriptc）等底层性能突破，对构建高并发、高性能 AI Web 应用的开发者具有极高的参考价值。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">Vercel CEO Guillermo Rauch 近期分享了关于产品落地与开发者效能的核心观点。他强调无论是游戏还是底层引擎，最重要的永远是最终交付的“终端产品”本身。此外，他还关注了前端编译技术的最新突破，指出在 scriptc 编译下 TypeScript 的性能可超越 tsgo 2 至 4 倍，展现了对极致开发体验与高性能交付的持续关注。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">“最重要的永远是最终产品，无论它是一款游戏还是一套引擎。” 说的太好了！
+（ASCII 图形）
+重建了一个可玩的 Roadster 演示模拟器，高度还原且保留了大量现实生活中的细节。
+TypeScript 就是全新的 TypeScript 😂 当使用 𝚜𝚌𝚛𝚒𝚙𝚝𝚌 进行编译时，性能比 tsgo 提升了 2 到 4 倍。
+简单来说，我们在《GTA6》发售前就已经搞出了 Vercel 飞艇和飞行汽车。
+🤯
+这交付简直太棒了！</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/rauchg/status/2111643672274165938" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-5 " id="gh-claude-plugins-official-22" data-category="开源生产力工具" data-rank="5" data-heat="4138">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：4138">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#5 · 4.1k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author gh-repo-meta" title="GitHub: anthropics/claude-plugins-official">
+        <span class="lang-dot" style="background-color: #3572A5"></span>
+        <strong>anthropics/claude-plugins-official</strong><span> · +1,175 stars today · Python</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">Claude Plugins Official：Anthropic 官方认证的 Claude Code 高质量插件生态库</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">今日暴增超千星，显示出开发者对 Claude 生态扩展的高度渴求。作为官方背书的插件库，它是构建 AI 驱动开发工作流的权威参考，极具落地价值。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">该项目是 Anthropic 推出的官方插件目录，旨在为 Claude Code 提供标准化、高质量的扩展能力。通过插件化架构，开发者可将 Claude 的推理能力无缝接入本地开发环境、外部 API 及特定工具链中。项目解决了 AI 辅助编程中工具集成碎片化、兼容性差的痛点，确保了插件的安全性与执行效率。对于希望利用 Claude 构建自动化工作流、提升编码效率的开发者而言，这是获取官方背书、经过验证的插件首选来源。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">由 Anthropic 官方管理的高质量 Claude Code 插件目录，旨在为开发者提供经过审核、功能强大的工具扩展，以增强 Claude 在代码生成与任务执行中的实际生产力。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link is-github-link" href="https://github.com/anthropics/claude-plugins-official" target="_blank" rel="noopener noreferrer">
+          <span>🐙 GitHub 仓库</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-6 " id="gh-orca-23" data-category="开源生产力工具" data-rank="6" data-heat="4065">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：4065">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#6 · 4.1k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author gh-repo-meta" title="GitHub: stablyai/orca">
+        <span class="lang-dot" style="background-color: #3178c6"></span>
+        <strong>stablyai/orca</strong><span> · +1,146 stars today · TypeScript</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">Orca: 跨平台多Agent协作平台，支持凭自有订阅统一调度编程智能体</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">随着各类编程 Agent 的爆发，Orca 切中了多智能体统一调度与自带订阅（BYO）降本的强需求。今日 Star 暴涨 1,146，是探索下一代 AI 编程工作流极具价值的开源黑马。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">Orca 旨在解决当前 AI 编程智能体（如 Claude Code、Grok Bot 等）工具分散、无法统一调度的痛点。它提供了一个强大的多 Agent 协同管理平台，允许开发者绑定自己的 API 订阅服务无缝运行各类代码智能体。项目采用 TypeScript 开发，具备极佳的跨平台特性，完美支持桌面端、移动端以及远程运行时（Remote Runtime），为开发者构建了一个灵活、高效且不受单一厂商绑定的 Agent 统一工作台。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">Orca 是一个用于协同管理与运行多 Agent 舰队（如 Grok Bot、Claude Code 等）的统一平台。允许用户使用自己的订阅运行任何编程智能体，并支持桌面端、移动端及远程运行时的无缝部署。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link is-github-link" href="https://github.com/stablyai/orca" target="_blank" rel="noopener noreferrer">
+          <span>🐙 GitHub 仓库</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-7 " id="x-levie-7" data-category="开源生产力工具" data-rank="7" data-heat="3520">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：3520">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#7 · 3.5k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Aaron Levie · ceo @box - your business...">
+        <strong>Aaron Levie</strong><span> · ceo @box - your business...</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">Box CEO Aaron Levie 近期深度剖析了 AI 代理（Agent）浪潮对软件工程与经济结构的重塑</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">Levie 的观点精准捕捉了从“AI 辅助”到“AI 自主执行”的范式转移。对于从业者而言，理解“软件工程范畴扩大”与“代理集群协作”的逻辑，是布局未来 AI 产品架构与企业转型策略的核心参考。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">Box CEO Aaron Levie 近期深度剖析了 AI 代理（Agent）浪潮对软件工程与经济结构的重塑。他认为，随着 AI 具备自主执行任务与递归自我改进的能力，软件工程的范畴将无限扩大，知识工作将从“人机对话”转向“代理集群协作”，从而开启生产力爆发的新纪元。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">Aaron Levie 近期发布了一系列关于 AI 演进的深度观点：
+
+1. 软件工程的终结是误读：自动化并未减少对劳动力的需求，反而让一切事物都在“软件化”。由于 AI 代理能自主使用工具、编写代码并处理数据，工程化能力将渗透进银行、生命科学和制造业等领域，软件工程师的价值反而愈发凸显。
+
+2. 递归自我改进（RSI）的临界点：AI 训练模型的能力已超越人类工程师。随着模型性能提升、长效代理基础设施完善以及并行处理能力的增强，模型进步的飞轮效应将以惊人的速度推高技术前沿。
+
+3. 代理集群（Agent Swarms）的爆发：知识工作正从“聊天式交互”转向“后台自主执行”。未来，我们只需向代理集群下达目标，它们将自动完成代码审计、风险评估等复杂任务，这将带来百倍甚至千倍的 Token 消耗增长。
+
+4. 开源生态的加速：Meta 发布 Muse 开源权重模型是开源领域的重要里程碑，它将推动企业在高性能任务与定制化工作流之间实现更灵活的部署，进一步加速 AI 的普及与落地。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/levie/status/2111525362446520466" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-8 " id="x-claudeai-18" data-category="开源生产力工具" data-rank="8" data-heat="3334">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：3334">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#8 · 3.3k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Claude · Claude is an AI assistan...">
+        <strong>Claude</strong><span> · Claude is an AI assistan...</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">Anthropic 展示了开发者利用 Claude 构建的多样化创新应用案例</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">展示了轻量级模型（Haiku 5.5）在“文本生成到动态 JS 代码渲染”上的跨模态创作能力，以及 AI 辅助编程在垂直医疗教育领域的快速落地实践。对于关注轻量模型创意编程与领域特定 AI 工具开发的从业者极具启发。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">Anthropic 展示了开发者利用 Claude 构建的多样化创新应用案例。其中，Haiku 5.5 模型合成了 20 首俳句并用 JavaScript 实时绘制了每一帧动态画面；同时，一名心血管专科医生借助 Claude 开发出 3D 教学工具，帮助学员学习解读冠状动脉造影图。官方借此向社区发起互动，征集用户周末的 AI 创作项目。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">一位心血管专科医生构建了一个 3D 工具，旨在帮助实习生学习阅读冠状动脉造影图。
+Haiku 5.5 创作了 20 首俳句，随后用 JavaScript 绘制出了每一帧画面。
+你这个周末打算用 Claude 做点什么？</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/claudeai/status/2111177848228823102" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-9 " id="gh-scientific-agent-skills-24" data-category="开源生产力工具" data-rank="9" data-heat="2858">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：2858">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#9 · 2.9k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author gh-repo-meta" title="GitHub: K-Dense-AI/scientific-agent-skills">
+        <span class="lang-dot" style="background-color: #3572A5"></span>
+        <strong>K-Dense-AI/scientific-agent-skills</strong><span> · +663 stars today · Python</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">scientific-agent-skills: 将通用 AI Agent 转化为科研专家的开源技能库</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">随着 AI for Science 的爆发，该项目通过标准化技能范式大幅降低了科研级 AI 智能体的开发门槛。单日激增 663 Star 展现出其极高关注度，非常适合关注 AI 垂直领域落地与 Agent 工具链集成的开发者。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">该项目旨在解决通用 AI 模型在生物、化学、医学及新药研发等严谨科学领域缺乏专业工具与权威数据库集成的痛点。作为面向科学研究的 Agent 技能库，它提供了 177 个开箱即用且经过验证的科学技能，并集成了 100 多个权威科学数据库。项目全面兼容 Cursor、Claude Code、Codex 等主流智能体框架及开放 Agent Skills 标准，能帮助开发者快速构建具备高精度科研分析能力的 AI Scientist 系统。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">将任意 AI Agent 转化为 AI 科学家。全球超过 25 万名科学家使用的 No.1 科学 Agent 技能库。提供 177 个开箱即用且经过验证的技能，以及涵盖生物学、化学、医学和药物研发的 100 多个科学数据库。兼容 Cursor、Claude Code、Codex、Pi、Antigravity 及开放 Agent Skills 标准。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link is-github-link" href="https://github.com/K-Dense-AI/scientific-agent-skills" target="_blank" rel="noopener noreferrer">
+          <span>🐙 GitHub 仓库</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-10 " id="gh-graphify-25" data-category="开源生产力工具" data-rank="10" data-heat="2765">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：2765">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#10 · 2.8k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author gh-repo-meta" title="GitHub: Graphify-Labs/graphify">
+        <span class="lang-dot" style="background-color: #3572A5"></span>
+        <strong>Graphify-Labs/graphify</strong><span> · +626 stars today · Python</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">Graphify: 将代码库与文档全量转化为无向量检索的可查询知识图谱</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">该项目摒弃传统向量 RAG 模式，通过确定性 AST 知识图谱赋予 AI 助手精准的跨文件代码理解力。今日新增 626 颗 Star，是构建先进代码 Agent 知识基座的极佳选择。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">传统代码 RAG 依赖向量数据库，容易丢失精确的语法与依赖上下文。Graphify 解决这一痛点，通过本地确定性 AST 解析，将代码库及其配套文档、SQL Schema、配置文件和 PDF 转换为可查询的知识图谱。其架构完全摒弃了向量存储，确保图中的每条边均具备明确的可解释性。项目还支持作为 `/graphify` 技能集成至 Claude Code、Cursor、Codex 及 Gemini CLI，极大地提升了 AI 编程助手对大型复杂代码库全局架构的理解能力。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">将任何代码库及其配套文档、SQL Schema、配置文件和 PDF 转化为可查询的知识图谱。这是面向 Claude Code、Cursor、Codex 和 Gemini CLI 的 /graphify 技能：基于本地确定性 AST 解析，每条边均有明确解释，且无需任何向量数据库。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link is-github-link" href="https://github.com/Graphify-Labs/graphify" target="_blank" rel="noopener noreferrer">
+          <span>🐙 GitHub 仓库</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-11 " id="gh-cli-anything-26" data-category="开源生产力工具" data-rank="11" data-heat="2673">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：2673">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#11 · 2.7k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author gh-repo-meta" title="GitHub: HKUDS/CLI-Anything">
+        <span class="lang-dot" style="background-color: #3572A5"></span>
+        <strong>HKUDS/CLI-Anything</strong><span> · +589 stars today · Python</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">CLI-Anything：构建以AI Agent为核心的通用命令行交互生态</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">今日Star激增近600，反映了社区对AI Agent深度集成系统工具的迫切需求。对于关注AI自动化与系统工程的开发者，该项目是探索“Agent-Native”软件架构的最佳实践范本。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">CLI-Anything 旨在打破传统命令行工具与AI Agent之间的壁垒，通过统一的架构将各类软件“Agent化”。该项目通过构建 CLI-Hub 协议层，使AI模型能够无缝调用、理解并操作复杂的命令行工具，解决了AI在系统级任务自动化中交互碎片化、上下文理解困难的痛点。其核心架构支持跨平台的指令映射与意图识别，极大降低了开发者构建自主智能体（Autonomous Agents）的门槛，是实现人机协作自动化与系统级AI交互的关键基础设施。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">CLI-Anything：让所有软件都具备原生AI Agent能力。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link is-github-link" href="https://github.com/HKUDS/CLI-Anything" target="_blank" rel="noopener noreferrer">
+          <span>🐙 GitHub 仓库</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-12 " id="gh-ruflo-28" data-category="开源生产力工具" data-rank="12" data-heat="2483">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：2483">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#12 · 2.5k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author gh-repo-meta" title="GitHub: ruvnet/ruflo">
+        <span class="lang-dot" style="background-color: #3178c6"></span>
+        <strong>ruvnet/ruflo</strong><span> · +513 stars today · TypeScript</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">ruflo: 构建多智能体协作与自主工作流的开源编排框架</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">作为今日增长超 500 Star 的热门项目，ruflo 填补了从单一 Agent 到复杂 Swarm 架构的落地空白，是 AI 工程化领域值得深度跟进的生产力工具。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">ruflo 是一个专为复杂 AI 系统设计的智能体编排框架，旨在解决多智能体协作中的调度与通信难题。其核心架构支持多玩家集群（Multi-player Swarms），通过集成自适应记忆、联邦学习与向量 RAG 技术，使 AI 系统具备长效记忆与自我演进能力。该项目原生兼容 Claude Code、Codex 及 Hermes 等主流模型，开发者可利用其构建高度自动化的对话式 AI 系统。适用于需要复杂逻辑编排、多智能体协同及动态知识库更新的企业级 AI 应用场景。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">原始的智能体编排工具。部署智能多玩家集群，协调自主工作流，并构建对话式 AI 系统。具备自适应记忆、自学习智能、联邦架构、向量 RAG 集成，并原生支持 Claude Code、Codex、Hermes 等多种模型。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link is-github-link" href="https://github.com/ruvnet/ruflo" target="_blank" rel="noopener noreferrer">
+          <span>🐙 GitHub 仓库</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-13 " id="gh-dmnote-27" data-category="开源生产力工具" data-rank="13" data-heat="2117">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：2117">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#13 · 2.1k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author gh-repo-meta" title="GitHub: DmNote-App/DmNote">
+        <span class="lang-dot" style="background-color: #3178c6"></span>
+        <strong>DmNote-App/DmNote</strong><span> · +769 stars today · TypeScript</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">DmNote：高度可定制的跨游戏实时按键显示器</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">该项目今日激增 769 Star，反映了游戏辅助工具领域对高性能、高颜值 UI 交互的强劲需求。其对输入事件处理的优雅实现，非常值得前端开发者参考学习。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">DmNote 是一款专为音游玩家设计的实时按键显示工具，核心解决了《DJMAX RESPECT V》等高频操作游戏在直播或录屏时，观众无法直观观察玩家按键反馈的痛点。该项目采用 TypeScript 构建，具备极高的 UI 定制灵活性，支持用户自定义皮肤、按键布局与视觉特效。其架构轻量且响应迅速，通过底层 Hook 技术捕获输入信号，确保了低延迟的显示效果。除了音游场景，其通用的输入监听机制也使其能够适配各类需要展示实时操作反馈的游戏或软件演示场景。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">打造属于你的专属按键显示器：一款为《DJMAX RESPECT V》及其他游戏量身定制的高度可定制化工具。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link is-github-link" href="https://github.com/DmNote-App/DmNote" target="_blank" rel="noopener noreferrer">
+          <span>🐙 GitHub 仓库</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-14 " id="x-amasad-5" data-category="开源生产力工具" data-rank="14" data-heat="2091">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：2091">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#14 · 2.1k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Amjad Masad · ceo @replit">
+        <strong>Amjad Masad</strong><span> · ceo @replit</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">Replit CEO Amjad Masad 澄清 Replit 虽保持模型中立架构，但已将 OpenAI 列为驱动 Replit Agent 的首选默认合...</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">展现了 AI Agent 头部产品在模型合作架构与企业级商业落地上的关键战略：既要保留模型自由度，又需通过深度结合首选模型优化核心体验；同时通过私有化部署打通高合规门槛市场。这对探索 Agent 商业化与架构设计的从业者极具参考价值。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">Replit CEO Amjad Masad 澄清 Replit 虽保持模型中立架构，但已将 OpenAI 列为驱动 Replit Agent 的首选默认合作伙伴；同时宣布推出面向政府、金融等高敏感行业的私有云部署方案，保障数据不出户。此外，他还分享了关于数学学术界快速经历“悲伤五阶段”并逐步接受 AI 的观察。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">[推文 1]
+澄清一下：Replit 依然保持模型无关（Model Agnostic）。我们的用户可以选择 Anthropic 的模型以及许多其他支持的模型。
+我在 TC Disrupt 上想表达的是，基于性能、成本以及合作关系的深度，OpenAI 目前是我们驱动 Replit Agent 的首选合作伙伴。
+我们相信在给用户提供模型选择权的同时，应通过优化默认体验来以最佳价格提供最佳性能。
+
+[推文 2]
+您的数据属于您自己！我们将 Replit 部署到您的云端，数据永不出户。
+专为政府、金融和医疗等高风险环境设计。
+
+[推文 3]
+Frontier Slides，超级快 ;)
+
+[推文 4]
+看到数学家们在如此压缩的时间窗口内经历悲伤的所有阶段——否认、愤怒、讨价还价、沮丧和接受，真是令人叹为观止。
+我们现在处于沮丧的尾声，正在迈入接受阶段。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/amasad/status/2111494912562888939" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-15 " id="gh-ai-memory-29" data-category="开源生产力工具" data-rank="15" data-heat="1707">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：1707">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#15 · 1.7k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author gh-repo-meta" title="GitHub: akitaonrails/ai-memory">
+        <span class="lang-dot" style="background-color: #dea584"></span>
+        <strong>akitaonrails/ai-memory</strong><span> · +512 stars today · Rust</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">ai-memory: 专为 AI 编程 CLI 设计的长期记忆与跨厂商上下文接管工具</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">随着 AI 编程终端工具的爆发，跨工具的记忆断层问题日益突出。该项目凭 Rust 的极致性能与跨 Vendor 接管设计突破万星，单日大涨 512+ Star，是构建下一代 Agent 工作流极具潜力的基础设施。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">ai-memory 是一个采用 Rust 开发的高性能基础设施，旨在解决 AI 编程 CLI 工具在长周期任务中缺失“长期记忆”以及不同厂商 Agent 间难以协同接管的核心痛点。该项目通过持久化存储与结构化上下文管理，让 Agent 能够跨会话记住项目历史决策与代码演进。同时，它提供了标准化的上下文接管机制，支持开发者在不同 AI 厂商的 CLI 工具之间无缝切换并传递开发状态，极大地提升了多 Agent 协作与复杂代码库维护的效率。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">为 AI 编程 CLI 终端提供长期记忆能力的解决方案，并促进不同 AI 厂商 Agent 之间的无缝开发接管与协作。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link is-github-link" href="https://github.com/akitaonrails/ai-memory" target="_blank" rel="noopener noreferrer">
+          <span>🐙 GitHub 仓库</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-16 " id="x-garrytan-12" data-category="开源生产力工具" data-rank="16" data-heat="1643">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：1643">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#16 · 1.6k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Garry Tan · President &amp; CEO @ycombin...">
+        <strong>Garry Tan</strong><span> · President &amp; CEO @ycombin...</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">Y Combinator 总裁 Garry Tan 近日分享了他启动新项目时的 AI 开发者工作流，展示了如何通过 Capy 与 AsideAI 驱动的 A...</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">作为硅谷顶级孵化器 YC 的掌舵人，Garry Tan 的个人技术栈演进代表了顶级创投圈对 AI 原生开发工具的实践方向。他演示的“AI Agent 同时搞定业务代码与 DevOps”展示了全流程自动化开发的未来范式，值得 AI 工具开发者与独立创作者关注。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">Y Combinator 总裁 Garry Tan 近日分享了他启动新项目时的 AI 开发者工作流，展示了如何通过 Capy 与 AsideAI 驱动的 AI 智能体一气呵成地完成首版代码开发与 DevOps 配置。此外，他推荐了极简体验 GBrain 的托管方案，并再次强调了开源权重模型（Open-weight models）正在崛起的趋势。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">[推文 1] 想尝试 GBrain 但不知道如何入手？https://t.co/8Rhn51BZGP 是最简单、最便捷的托管上手方式。
+[推文 2] 今天启动了一个新项目，我最喜欢的是将 @capydotai 与 @AsideAI 结合使用，这意味着我的 AI 智能体既能编写首版本代码，又能帮我一气呵成搞定所有 DevOps 配置。
+[推文 3] Garry&#039;s List 很荣幸能与 @Metis65 联合举办本次活动。
+[推文 4] 开源权重模型正在崛起。
+[推文 5] 科技界的各位，我求求你们别再做那种只会在政治聚会上“虚伪发声（virtue signaling）”、却制造出危害我们在旧金山亚裔长者安全之恶性循环的人了。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/garrytan/status/2111282839740432423" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-17 " id="x-AmandaAskell-10" data-category="大模型与技术突破" data-rank="17" data-heat="1541">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">大模型与技术突破</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：1541">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#17 · 1.5k</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Amanda Askell · Philosopher &amp; ethicist t...">
+        <strong>Amanda Askell</strong><span> · Philosopher &amp; ethicist t...</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">Anthropic AI 伦理学家 Amanda Askell 近期在社交媒体分享了个人生活趣闻，包括对“火箭车”的兴趣以及对电影《不要抬头》中角色形象的幽...</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">作为 AI 伦理领域的关键人物，Amanda 的动态提醒从业者，即使是致力于构建安全 AI 的顶尖学者，也保持着对流行文化和科技创新的敏锐感知。这种人文视角有助于理解 AI 开发者如何将个人价值观与技术愿景相结合。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">Anthropic AI 伦理学家 Amanda Askell 近期在社交媒体分享了个人生活趣闻，包括对“火箭车”的兴趣以及对电影《不要抬头》中角色形象的幽默评价。这些动态展现了 AI 顶尖研究者在严谨工作之外的个人视角与生活化的一面。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">（推文 1）火箭车太酷了，我想要一辆。
+（推文 2）我真的很喜欢电影《不要抬头》（Don&#039;t Look Up），但它也让我很难再染回红发了。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/AmandaAskell/status/2111167134533611801" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-18 " id="x-nikunj-8" data-category="AI 投资与商业" data-rank="18" data-heat="965">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">AI 投资与商业</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：965">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#18 · 965</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Nikunj Kothari · partner @fpvventures - i...">
+        <strong>Nikunj Kothari</strong><span> · partner @fpvventures - i...</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">FPV Ventures 合伙人 Nikunj Kothari 近期分享了对当前创投圈融资轮次过度细分的调侃，并透露已领投一家深耕七个月的 AI 初创公司</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">Nikunj 的动态揭示了当前 AI 投融资市场的真实生态：一方面是融资轮次定义的极度碎片化，另一方面是投资人对营收真实性的回归理性审查。对于 AI 创业者而言，这提醒大家在融资时需准备好扎实的财务模型，而非仅靠叙事。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">FPV Ventures 合伙人 Nikunj Kothari 近期分享了对当前创投圈融资轮次过度细分的调侃，并透露已领投一家深耕七个月的 AI 初创公司。他同时展示了作为投资人对初创企业营收数据的严谨审查态度。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">推文 1：介绍 2026 年现代风险投资的融资轮次：pre-pre-seed、pre-seed、post-pre-seed、mid-seed、pre-post-seed、post-seed 以及 post-post-seed（？）。
+推文 2：纽约，我爱你。
+推文 3：勇敢尝试吧，你永远不知道宇宙会如何助你一臂之力。七个月前我写下了这个“预测”，期间接触了约 50 家相关领域的初创公司，终于找到了那家我们有幸领投 A 轮的企业。这是结束本周的完美方式。
+推文 4：创始人试图回避我关于“你到底是如何计算这笔收入”的问题时……
+推文 5：这条推文是对 @asc89 的人身攻击。
+推文 6：早安，纽约。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/nikunj/status/2111558586421920134" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-19 " id="x-petergyang-3" data-category="大模型与技术突破" data-rank="19" data-heat="702">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">大模型与技术突破</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：702">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#19 · 702</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Peter Yang · Practical AI tutorials a...">
+        <strong>Peter Yang</strong><span> · Practical AI tutorials a...</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">AI Builder Peter Yang 近期分享了关于 Claude Code 的使用体验、Google 账号权限审计的实用 Prompt，以及对 AI...</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">Peter Yang 的内容兼具极客工具流与产品思维，其分享的 Google 账号审计 Prompt 对提升个人数字安全与隐私管理极具参考价值。同时，他对 Claude Code 等前沿工具的实测评价，能帮助开发者快速定位当前 AI 辅助编程的最佳实践。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">AI Builder Peter Yang 近期分享了关于 Claude Code 的使用体验、Google 账号权限审计的实用 Prompt，以及对 AI 赋能游戏开发和创意表达的见解。他通过实际案例展示了如何利用 AI 提升工作流效率及进行产品化尝试。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">1. Tim 说得太对了。希望开发《星际争霸 3》的团队能看到这条推文，并拥抱 AI 技术，争取在 2030 年前发布。
+2. 如果你像我一样，Google 账号关联了太多应用和 Agent（45 个！），这里有一个审计并清理它们的 Prompt：[此处省略 Prompt 内容]。
+3. 必须给 @amorriscode 和他的团队点赞——Claude Code 应用现在快多了，而且可以说比 ChatGPT 更易用。目前唯一缺少的改进是更强的浏览器/电脑操作能力、全线程远程控制以及实时语音功能。
+4. 文档 -&gt; PPT -&gt; 视频 -&gt; 说唱对决，这是沟通的终极形式。我应该再做一个这样的视频吗？别担心，不是关于那些纷争的。
+5. 如果你喜欢这些内容，欢迎免费订阅我的时事通讯，获取我最好的 AI 和产品指南。加入 11 万+订阅者行列：https://t.co/yz9xcsfrhF
+6. @bot 请监控该帖下的所有回复，并在 24 小时内将最佳回复整理成列表发送给我。
+7. @Fourthwall @dubbaumann @bot 监控该帖下的所有回复，并在 12 小时内告诉我获胜者。
+8. 顺便展示一下我们从 @Fourthwall 定制的 T 恤样品，上面印着我女儿的企鹅设计。感谢 @dubbaumann 打造了这么棒的平台！
+9. 我 8 岁的女儿和我正在寻求反馈：如果你是家长，你会为孩子购买下面哪款 T 恤设计？你最喜欢哪个角色？请回复编号（如 A1）并说明理由。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/petergyang/status/2111663267995361287" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-20 " id="podcast-20" data-category="大模型与技术突破" data-rank="20" data-heat="500">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">大模型与技术突破</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：500">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#20 · 500</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">What Happens When Billions of AI Agents Hit Your Database? (Andy Pavlo)</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">如果你是数据库工程师或 AI 应用开发者，这期播客能帮你从“狂热的 AI 叙事”中抽离出来，从底层架构视角审视 AI 代理带来的系统性风险。Andy Pavlo 犀利且幽默的风格，让枯燥的数据库理论变得极具启发性。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">本期播客中，数据库领域权威 Andy Pavlo 与主持人 Matt Turck 探讨了 AI 代理（Agents）时代下数据库架构的范式转移。核心 Takeaway：AI 代理不再仅仅是数据的读取者，它们正演变为数据库的“写作者”甚至“破坏者”，这要求数据库系统必须具备更强的鲁棒性与权限管控。反直觉洞见在于，尽管向量数据库在 AI 热潮中被神化，但其核心技术（近似最近邻搜索）早在 2016 年就已存在，AI 代理的爆发只是让这些技术找到了真正的应用场景。Andy Pavlo 形象地比喻道：“现在的 AI 开发速度就像给一只吸了可卡因的猎豹开法拉利，失控风险极高。”</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">Andy Pavlo 指出，数据库与 AI 的关系已从早期的 RAG（检索增强生成）和向量搜索，演进为 AI 代理直接操作数据库的阶段。这种转变带来了巨大的安全隐患，因为代理拥有写入甚至删除生产数据的权限。他强调，数据库不仅是存储，更是 AI 代理执行任务的核心基础设施，开发者必须重新审视数据库的安全性与历史经验，以应对 AI 代理带来的不可预测行为。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://www.youtube.com/@DataDrivenNYC/videos" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-21 " id="podcast-21" data-category="开源生产力工具" data-rank="21" data-heat="500">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：500">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#21 · 500</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">The Changing Physics of Cybersecurity and Drug Development with OpenAI Preside...</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">深度播客能听到创始人和研究者不公开在社交媒体深谈的思考框架与真实踩坑经验，极具启发性。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">本期 No Priors 聚焦「The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman」，嘉宾从一线实践角度深入剖析了行业趋势与技术落地中的反直觉观察。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">Speaker 1 | 00:00 - 00:19
+To ensure AGI benefits all of humanity, we think that humans should be firmly in the driver&#039;s seat, should have control over the future, and this technology should amplify human agency. When I look at the world we&#039;re going to be in, where software in some ways is becoming like the barrier to entry, it&#039;s becoming so cheap. You don&#039;t just want software. Right? You want software that is reliable, that is secure, that you can believe in.
+
+Speaker 1 | 00:19 - 00:32
+And so cyber spend, security spend should actually vastly outstrip software spend. I think that people have not yet really internalized how much the physics around cybersecurity are going to change. I think there&#039;s to end up with a much more secure world.
+
+Speaker 2 | 00:39 - 01:02
+Hi, listeners. Welcome bac...</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://www.youtube.com/@NoPriorsPodcast" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-22 " id="x-danshipper-15" data-category="大模型与技术突破" data-rank="22" data-heat="302">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">大模型与技术突破</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：302">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#22 · 302</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Dan Shipper · ceo @every | the only su...">
+        <strong>Dan Shipper</strong><span> · ceo @every | the only su...</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">Dan Shipper 认为 AI 内容生成已实现高质低效，下一步的核心能力飞跃在于“编辑”与“监督”机制</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">Dan Shipper 指出了 AI 应用从“单纯生成”转向“精细化编辑与人机协同”的行业拐点。他对 AI 可解释性研究的讽刺也给从业者带来启发：不要迷信单一特征神经元的确立，真正的安全对齐需要透视模型更复杂的规划与行为机制。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">Dan Shipper 认为 AI 内容生成已实现高质低效，下一步的核心能力飞跃在于“编辑”与“监督”机制。此外，他还分享了团队将文本转化为视觉小说的最新尝试，并对当前 AI 可解释性（Interpretability）研究提出了犀利见解，指出仅定位特定的概念神经元无法真正解决超级智能的规划与对齐问题。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">[推文 1] AI 生成现在既便宜又高质量。我们现在需要的重大能力飞跃是编辑与监督。
+
+[推文 2] 在今天的 Show and Tell 环节，@leeknowlton 演示了他如何将我关于 Codex 的文章转化成互动视觉小说：https://t.co/phHV01KmoU
+
+[推文 3] 你当然会这么主张。你刚读完关于多语义性（polysemanticity）的内容，自然会认为可解释性意味着解开叠加态（superposition）。你会一直这么想，直到下学期你找到一个一提到“埃菲尔铁塔”就会激活的神经元。然后你整个夏天都在解释，我们之所以能对齐超级智能，是因为我们知道它什么时候在想法国。到了明年你就会意识到，知道它能识别埃菲尔铁塔，根本无法让你搞清楚它到底特么在规划什么。
+
+[推文 4] @every @gdb @thsottiaux @ajambrosino @embirico @mia_glaese @edbayes 正式上线了！！！https://t.co/StkXNkQ350</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/danshipper/status/2111174407637139668" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-23 " id="x-mattturck-13" data-category="AI 投资与商业" data-rank="23" data-heat="258">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">AI 投资与商业</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：258">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#23 · 258</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Matt Turck · VC at @FirstMarkCap">
+        <strong>Matt Turck</strong><span> · VC at @FirstMarkCap</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">知名投资人 Matt Turck 近期深度对话 TypeSafe CEO，探讨了其新产品 Jev 的技术逻辑与行业洞察</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">该对话深入剖析了当前 AI 行业对 RLHF 的过度依赖及模型在实际生产环境中的局限性，对于关注 AI 工程化落地、自动化架构设计以及“机器原生智能”趋势的从业者具有极高的参考价值。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">知名投资人 Matt Turck 近期深度对话 TypeSafe CEO，探讨了其新产品 Jev 的技术逻辑与行业洞察。Jev 强调“机器原生 AI”理念，旨在通过更高效的分类与自动化逻辑解决当前大模型在生产环境中的痛点。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">【推文 1】当一家 AI 初创公司获得算力配额时。
+
+【推文 2】与 TypeSafe AI 首席执行官 @CompleteSkeptic 关于 Jev 的深度对话现已上线 Spotify、Apple Podcasts 及 YouTube。
+
+【推文 3】疯狂的发布！模仿者！巨额融资！在 Jev 发布满月之际，我们与 TypeSafe CEO @CompleteSkeptic 进行了深入拆解：Jev 究竟是什么？它如何修复 AI 现有的缺陷？以及为什么那些快速跟进者忽略了最核心的难点。
+
+（视频时间轴涵盖：从“95% 爱因斯坦，5% 憨豆先生”的幽默比喻，到机器原生 AI 的架构设计、RLHF 的隐形成本、RLVR 与 RLCD 的对比，以及如何通过定义任务而非盲目堆算力来避免 AI 寒冬等硬核议题。）</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/mattturck/status/2111124247888199775" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-24 " id="x-swyx-1" data-category="大模型与技术突破" data-rank="24" data-heat="244">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">大模型与技术突破</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：244">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#24 · 244</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Swyx · achieve ambition with in...">
+        <strong>Swyx</strong><span> · achieve ambition with in...</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">知名 AI Builder 及 Latent Space 创办者 Swyx 分享了其 AI 科技内容阵地的最新运营数据与战略</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">作为 AI 领域顶级技术播客 Latent Space 的核心打造者，Swyx 透明化地展示了面向开发者群体的科技媒体运营数据与流量增长路径。对于希望构建技术品牌影响力、了解 AI 开发者受众行为习惯，或寻求 AI 内容创新的从业者而言，这些一手运营指标与方法论极具参考价值。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">知名 AI Builder 及 Latent Space 创办者 Swyx 分享了其 AI 科技内容阵地的最新运营数据与战略。自今年 5 月以来，其频道月独立观众已破 100 万，但未订阅比例高达 68%，正积极寻求与 Fireship、ThePrimeagen 等顶流科技 Creator 的联动。此外，历时近一年筹备的全新节目已正式拍摄上线，并同步释放了 AI 演讲的完整整理稿。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">[推文 1] @dexhorthy @Jeffdelaney23 @ThePrimeagen 我蛮喜欢用这张图来讲述我们的经历。基本上前两年无人问津，随后通过首页推荐慢慢有了起色。不过我们的点击率（CTR）确实挺烂的。
+[推文 2] @dexhorthy 频道受众关联度。我的目标基本上是与这张图里的每一位合作，毕竟大家已经非常喜欢他们了。拜托了 @Jeffdelaney23 @ThePrimeagen。
+[推文 3] @dexhorthy 自 5 月（AIE 欧洲大会后）以来，我们每月服务超过 100 万独立观众，几乎没有间断，但即便到现在，每月仍有 58% 是新观众，68% 的观众尚未订阅（笑）。每天观影高峰集中在太平洋时间上午 7 点到 11 点，晚上 5 点后就没人看了。
+[推文 4] 好的，我真的很需要这个视频的提示词（prompts），因为这解释的清晰度几乎达到了 Kurzegesagt（简而言之）的级别（虽然插画还没到那个水平）。
+[推文 5] 我筹备并等待发布这个节目已经近一年了！感谢测试人员以及 @NehallAgrawal @KaylinWardley 帮助我共同完成！这里有我们最新节目拍摄的一些幕后花絮！！
+[推文 6] @affaan @absurdistphil @aiDotEngineer 完整演讲逐字稿整理：https://www.latent.space/p/the-great-convergence</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/swyx/status/2111353401363902573" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-25 " id="x-steipete-19" data-category="开源生产力工具" data-rank="25" data-heat="243">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：243">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#25 · 243</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Peter Steinberger · Polyagentmorous ClawFather">
+        <strong>Peter Steinberger</strong><span> · Polyagentmorous ClawFather</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">知名 AI 开发者 Peter Steinberger 发推称赞开发工具/沙箱环境 crabbox，认为其价值被严重低估</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">在 AI Agent 从纯文本对话迈向自主代码执行和系统调度的过程中，安全沙箱是保障系统稳健性的核心。Peter 的推荐为正在探索智能体执行环境与安全隔离架构的开发者提供了值得关注的技术选型参考。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">知名 AI 开发者 Peter Steinberger 发推称赞开发工具/沙箱环境 crabbox，认为其价值被严重低估。随着 AI Agent（智能体）逐渐深入真实系统的复杂操作，高效且安全的隔离执行环境（Sandbox）正在成为智能体生态中关键却容易被忽视的基础设施。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">crabbox 被严重低估了。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/steipete/status/2110795475075084471" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-26 " id="x-adityaag-16" data-category="开源生产力工具" data-rank="26" data-heat="220">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：220">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#26 · 220</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Aditya Agarwal · General Partner @SPC, Co...">
+        <strong>Aditya Agarwal</strong><span> · General Partner @SPC, Co...</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">Aditya Agarwal 宣布 South Park Commons (SPC) 将于下周举办炉边对话，邀请曾参与白宫 AI 行动计划制定的 Srira...</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">Aditya 强调了 AI 领域的重要趋势：将可解释性与对齐等宏大课题转化为可落地的“工程问题”，这对关注 AI 底层安全与技术架构的开发者和创业者极具参考价值。同时，结合了产业、资本与政策背景的顶尖专家对话，也预示着 AI 合规与治理正在加速走入落地阶段。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">Aditya Agarwal 宣布 South Park Commons (SPC) 将于下周举办炉边对话，邀请曾参与白宫 AI 行动计划制定的 Sriram Krishnan 进行深度交流。此外，他高度赞赏了出自 SPC 的初创公司 Goodfire，指出其成功将 AI 可解释性（Interpretability）与对齐（Alignment）转化为了具体的工程化难题解决路径。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">[推文 1]
+RSVP 活动报名链接：https://t.co/XNKf12Zj8b
+
+[推文 2]
+非常高兴下周能在 @spc 欢迎一位挚友的到来。
+@sriramk 将与我们进行一场炉边对话及互动问答。
+他曾参与构建 Azure、推动 Meta 移动广告业务扩展，并主导了 a16z 的全球化扩张。此后他进入白宫，协助起草了《美国 AI 行动计划》。
+
+[推文 3]
+我坚信 Goodfire 可能是从 @spc 诞生的最重要公司之一。
+他们正在证明，AI 的可解释性和对齐完全可以作为工程问题来攻克。太震撼了。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/adityaag/status/2111162113184178631" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-27 " id="x-thenanyu-4" data-category="开源生产力工具" data-rank="27" data-heat="138">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">开源生产力工具</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：138">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#27 · 138</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Nan Yu · product, codex @openai">
+        <strong>Nan Yu</strong><span> · product, codex @openai</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">OpenAI Codex 产品负责人 Nan Yu 分享了对技术变迁与产品设计的深刻洞察</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">Nan Yu 兼具 Linear 与 OpenAI Codex 的顶级产品设计经验。他对“技术注意力转移”的打趣直击 AI 时代开发者工具链的范式变革，而他对“产品品味”的重新定义则为 AI 时代如何构建具备护城河的产品提供了深刻启示。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">OpenAI Codex 产品负责人 Nan Yu 分享了对技术变迁与产品设计的深刻洞察。他感叹在 AI 爆发前，技术圈的焦点大多集中在前端 JavaScript 框架上，而如今 AI 已经重塑了开发者的注意力。此外，针对科技界热议的“品味（Taste）”，他指出将品味仅仅理解为视觉美学是最浅薄的定义，真正的品味体现在更深层次的产品判断力与工程洞察中。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">[推文 1]
+前几天在团队 Offsite 聚会上，我们也聊到了同样的话题并唏嘘不已：
+“在 AI 出现之前，我们都在关注些什么？”
+“😅 前端 JavaScript 框架吧。”
+
+[推文 2]
+把这个收入我的武器库。
+
+[推文 3]
+品味（Taste）并不单指美学上的品味。那是对品味最浅薄的定义，而且因为太常见而显得毫无趣味。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/thenanyu/status/2111597172840083574" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-28 " id="x-zarazhangrui-14" data-category="大模型与技术突破" data-rank="28" data-heat="132">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">大模型与技术突破</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：132">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#28 · 132</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Zara Zhang · Builder">
+        <strong>Zara Zhang</strong><span> · Builder</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">AI Builder Zara Zhang 近期展示了一个极具创意的“哈利波特风格”动态报纸项目《The Toddler Times》，通过 AI 技术让静...</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">Zara Zhang 的项目展示了如何将 AI 视觉生成技术与叙事设计结合，创造出极具沉浸感的交互体验。对于 AI 从业者而言，她关于“受众认知设计”的思考对于提升 AI 产品的易用性与传播力具有极高的参考价值。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">AI Builder Zara Zhang 近期展示了一个极具创意的“哈利波特风格”动态报纸项目《The Toddler Times》，通过 AI 技术让静态图像实现生动交互。她不仅分享了创作成果，还公开邀请感兴趣的开发者交流实现细节，并引用了关于受众认知设计的深刻洞察。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">【推文 1】如果你想学习如何制作类似的东西，请私信我！
+【推文 2】制作这份哈利波特风格的报纸非常有趣，里面的图像可以动起来：《The Toddler Times》👧🏻
+【推文 3】在此处。
+【推文 4】“永远不要低估你受众的智力，也永远不要高估他们已有的知识储备。” —— @ezraklein</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/zarazhangrui/status/2110994667924050128" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+    <article class="news-item news-card rank-29 " id="x-ryolu_-11" data-category="大模型与技术突破" data-rank="29" data-heat="122">
+      <header class="card-meta-bar item-category-wrap">
+        <div class="meta-left">
+          <span class="category-chip item-category">大模型与技术突破</span>
+          
+      <span class="heat-pill item-heat" title="全网热度指数：122">
+        <span class="pulse-dot"></span>
+        <span class="heat-num">#29 · 122</span>
+      </span>
+    
+        </div>
+        <div class="meta-right">
+          
+      <span class="author-label item-author" title="Ryo Lu · Designed @Cursor_ai, @No...">
+        <strong>Ryo Lu</strong><span> · Designed @Cursor_ai, @No...</span>
+      </span>
+    
+        </div>
+      </header>
+
+      <h3 class="card-headline item-title">Cursor 与 Notion 前设计师 Ryo Lu 近期发布了一篇极具个人色彩的散文诗，记录了生活中的感官碎片与情感流动</h3>
+
+      
+    <div class="insight-callout">
+      <span class="insight-badge">✦ 洞察</span>
+      <p class="insight-text item-brief">作为 Cursor 和 Notion 等顶尖产品的设计参与者，Ryo Lu 的动态提醒我们：最好的软件设计往往源于对生活细节的敏锐感知。对于 AI 从业者而言，在追求算法效率的同时，保持对人类情感与生活质感的共情，是打造具有“灵魂”产品的关键。</p>
+    </div>
+  
+
+      
+    <div class="deep-dive-drawer item-expand-box">
+      <button class="drawer-trigger expand-toggle card-modal-trigger" type="button" aria-expanded="false" title="点击悬浮放大卡片并查阅深度背景与原帖译文">
+        <span class="trigger-icon">⤢</span>
+        <span class="trigger-text">展开深度背景与细节</span>
+      </button>
+      <div class="drawer-panel expand-content" style="display: none;">
+        <p class="drawer-summary item-summary">Cursor 与 Notion 前设计师 Ryo Lu 近期发布了一篇极具个人色彩的散文诗，记录了生活中的感官碎片与情感流动。在 AI 极速迭代的背景下，这位曾参与重塑软件构建方式的 Builder 选择回归生活本真，展现了科技创作者对“人性”与“体验”的深度思考。</p>
+        
+          <div class="translation-block">
+            <div class="translation-label">📜 原帖中文精译与推文细节</div>
+            <div class="translation-body">感受
+
+阳光穿过百叶窗
+窗边的鸟鸣
+咖啡粉，正在萃取
+
+在柏树林中漫步
+深呼吸，冷空气
+细雨轻拍在皮肤上
+追逐浪花
+无尽的海洋，唇齿间的咸味
+
+列车窗外，群山掠过
+牵着手，奔跑
+穿过黄昏的余晖
+酷热后的冷水澡
+让你像孩子一样再次大笑
+
+闭上双眼
+听着我们最爱的歌
+拥抱与亲吻
+你的呼吸轻拂我的颈间
+听见心碎的声音
+
+日复一日，任时光流逝
+从午夜到黎明
+生活本来的样子，就很美。</div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+      <footer class="card-dock item-footer">
+        <a class="source-action source-link " href="https://x.com/ryolu_/status/2111313045440078172" target="_blank" rel="noopener noreferrer">
+          <span>一手信源</span>
+          <span class="arrow">↗</span>
+        </a>
+        <div class="dock-controls item-footer-actions">
+          <button class="icon-tool-btn share-poster-btn" type="button" title="一键生成视觉分享海报" aria-label="生成海报">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </button>
+          <button class="icon-tool-btn copy-btn" type="button" title="复制卡片精编" aria-label="复制精编">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </footer>
+    </article>
+  
+      <div class="empty-category-notice" id="empty-category-notice" style="display: none;">
+        <div class="empty-notice-icon">🔍</div>
+        <div class="empty-notice-title">未找到匹配的要闻动态</div>
+        <p class="empty-notice-desc">换个关键词试试，或点击下方按钮重置筛选与搜索条件。</p>
+        <button type="button" id="empty-reset-btn" class="empty-reset-btn">清空搜索与筛选</button>
+      </div>
+    </main>
+
+    <!-- 报尾 -->
+    <footer class="newspaper-footer">
+      <div class="footer-divider"></div>
+      <div class="footer-content">
+        <p>《Luke的一手消息》由 GitHub Actions 每日自动搜集、提炼、排版与部署发布。</p>
+        <p>涵盖大模型与技术突破 · 开源生产力工具 · AI 投资与商业 · 论文前沿 | 纯净无依赖 · 打开即读</p>
+      </div>
+    </footer>
+
+    <!-- 返回顶部悬浮微按键 (Phase 2 体验升级) -->
+    <button id="back-to-top-btn" class="back-to-top-btn" type="button" aria-label="返回顶部" title="返回顶部">
+      <span class="btt-icon">↑</span>
+      <span class="btt-text">顶部</span>
+    </button>
+  </div>
+
+  <!-- 交互式日历弹窗遮罩与容器 -->
+  <div class="calendar-modal-backdrop" id="calendar-modal-backdrop">
+    <div class="calendar-modal-card">
+      <div class="calendar-modal-top">
+        <span class="modal-label">📅 《Luke的一手消息》出版日历</span>
+        <button class="calendar-close-btn" id="close-calendar-modal" type="button" title="关闭日历">✕</button>
+      </div>
+      <div id="modal-calendar-container"></div>
+    </div>
+  </div>
+
+  <!-- 视觉海报分享弹窗 (Phase 4 体验升级) -->
+  <div class="poster-modal-backdrop" id="poster-modal-backdrop" style="display: none;">
+    <div class="poster-modal-card">
+      <div class="poster-modal-top">
+        <span class="modal-label">📸 要闻视觉分享海报</span>
+        <button class="poster-close-btn" id="close-poster-modal" type="button" title="关闭海报弹窗">✕</button>
+      </div>
+      <div class="poster-preview-container">
+        <canvas id="poster-canvas" width="750" height="980" style="display: none;"></canvas>
+        <div class="poster-img-wrapper">
+          <img id="poster-preview-img" alt="要闻视觉海报加载中...">
+        </div>
+      </div>
+      <div class="poster-modal-actions">
+        <a id="poster-download-btn" class="poster-act-btn primary" download="luke-ai-news.png" href="#">⬇ 保存海报图片</a>
+        <button id="poster-copy-btn" class="poster-act-btn secondary" type="button">📋 复制海报图片</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 卡片深度解读悬浮放大弹窗 (Floating Card Modal) -->
+  <div class="card-detail-modal-backdrop" id="card-detail-modal-backdrop" style="display: none;" aria-hidden="true">
+    <div class="card-detail-modal-card" id="card-detail-modal-card" role="dialog" aria-modal="true" aria-labelledby="card-detail-title">
+      <div class="card-detail-modal-top">
+        <span class="modal-label">🔍 要闻深度解读与原帖精译</span>
+        <button class="card-detail-close-btn" id="close-card-detail-modal" type="button" title="关闭弹窗 (Esc)" aria-label="关闭弹窗">✕</button>
+      </div>
+      <div class="card-detail-modal-body" id="card-detail-modal-body">
+        <!-- 由 JS 动态填充卡片全部内容 -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    window.AVAILABLE_DATES = ["2026-10-19","2026-10-16","2026-10-15","2026-10-14","2026-10-13","2026-10-12","2026-10-09","2026-10-08","2026-10-07","2026-10-06","2026-10-05","2026-10-02","2026-10-01","2026-09-30","2026-09-29","2026-09-28","2026-09-25","2026-09-24","2026-09-23","2026-09-22","2026-09-21","2026-09-18","2026-09-17","2026-09-16","2026-09-15","2026-09-14"];
+    window.CURRENT_DATE = "2026-10-19";
+    window.RELATIVE_ROOT = "../";
+  </script>
+  <script src="../assets/app.js?v=1792390208317"></script>
+</body>
+</html>
