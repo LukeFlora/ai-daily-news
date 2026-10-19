@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
   "isMondayLookback": true,
-  "fetchedAt": "2026-10-19T09:11:42.446Z",
+  "fetchedAt": "2026-10-19T14:51:18.427Z",
   "stats": {
     "buildersCount": 20,
     "totalTweets": 103,
@@ -1348,19 +1348,6 @@
   ],
   "githubTrending": [
     {
-      "repo": "anthropics/claude-plugins-official",
-      "owner": "anthropics",
-      "name": "claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 1175,
-      "totalStars": 42977,
-      "forks": 4550,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
       "repo": "stablyai/orca",
       "owner": "stablyai",
       "name": "orca",
@@ -1368,22 +1355,35 @@
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 1146,
-      "totalStars": 97319,
-      "forks": 6204,
+      "starsToday": 1591,
+      "totalStars": 97765,
+      "forks": 6231,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "owner": "K-Dense-AI",
-      "name": "scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "repo": "Comfy-Org/ComfyUI",
+      "owner": "Comfy-Org",
+      "name": "ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 663,
-      "totalStars": 52755,
-      "forks": 4675,
+      "starsToday": 1011,
+      "totalStars": 139299,
+      "forks": 16546,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "anthropics/claude-plugins-official",
+      "owner": "anthropics",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 814,
+      "totalStars": 43078,
+      "forks": 4555,
       "channel": "Python AI 专区"
     },
     {
@@ -1395,8 +1395,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 626,
-      "totalStars": 128661,
-      "forks": 12399,
+      "totalStars": 128864,
+      "forks": 12428,
       "channel": "Python AI 专区"
     },
     {
@@ -1407,10 +1407,23 @@
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 589,
-      "totalStars": 54869,
-      "forks": 4962,
+      "starsToday": 607,
+      "totalStars": 55001,
+      "forks": 4968,
       "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "ruvnet/ruflo",
+      "owner": "ruvnet",
+      "name": "ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 564,
+      "totalStars": 76933,
+      "forks": 9082,
+      "channel": "全语言热门 / TypeScript/前端"
     },
     {
       "repo": "DmNote-App/DmNote",
@@ -1421,22 +1434,9 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 769,
-      "totalStars": 4944,
+      "totalStars": 5139,
       "forks": 377,
       "channel": "TypeScript/前端"
-    },
-    {
-      "repo": "ruvnet/ruflo",
-      "owner": "ruvnet",
-      "name": "ruflo",
-      "url": "https://github.com/ruvnet/ruflo",
-      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "starsToday": 513,
-      "totalStars": 76778,
-      "forks": 9069,
-      "channel": "全语言热门 / TypeScript/前端"
     },
     {
       "repo": "akitaonrails/ai-memory",
@@ -1446,9 +1446,9 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "languageColor": "#dea584",
-      "starsToday": 512,
-      "totalStars": 10779,
-      "forks": 764,
+      "starsToday": 666,
+      "totalStars": 10977,
+      "forks": 778,
       "channel": "全语言热门"
     }
   ]
