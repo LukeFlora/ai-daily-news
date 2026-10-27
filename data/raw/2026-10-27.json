@@ -1,7 +1,7 @@
 {
   "date": "2026-10-27",
   "isMondayLookback": false,
-  "fetchedAt": "2026-10-27T09:14:46.391Z",
+  "fetchedAt": "2026-10-27T13:29:02.723Z",
   "stats": {
     "buildersCount": 17,
     "totalTweets": 32,
@@ -520,10 +520,49 @@
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
       "languageColor": "#663399",
-      "starsToday": 2244,
-      "totalStars": 37513,
-      "forks": 1953,
+      "starsToday": 2859,
+      "totalStars": 38064,
+      "forks": 1981,
       "channel": "全语言热门"
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "owner": "TauricResearch",
+      "name": "TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 1702,
+      "totalStars": 117003,
+      "forks": 22407,
+      "channel": "Python AI 专区"
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "owner": "Panniantong",
+      "name": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 1623,
+      "totalStars": 104546,
+      "forks": 9264,
+      "channel": "Python AI 专区"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "owner": "HKUDS",
+      "name": "DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 1587,
+      "totalStars": 45011,
+      "forks": 5680,
+      "channel": "全语言热门 / Python AI 专区"
     },
     {
       "repo": "pbakaus/impeccable",
@@ -533,9 +572,9 @@
       "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "starsToday": 1506,
-      "totalStars": 89690,
-      "forks": 5330,
+      "starsToday": 1458,
+      "totalStars": 89944,
+      "forks": 5346,
       "channel": "全语言热门"
     },
     {
@@ -547,22 +586,9 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 1457,
-      "totalStars": 22403,
-      "forks": 3071,
+      "totalStars": 22491,
+      "forks": 3085,
       "channel": "Python AI 专区"
-    },
-    {
-      "repo": "TauricResearch/TradingAgents",
-      "owner": "TauricResearch",
-      "name": "TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 1395,
-      "totalStars": 116765,
-      "forks": 22367,
-      "channel": "全语言热门 / Python AI 专区"
     },
     {
       "repo": "makecindy/cindy",
@@ -572,49 +598,23 @@
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 1296,
-      "totalStars": 7000,
-      "forks": 841,
+      "starsToday": 1446,
+      "totalStars": 7174,
+      "forks": 859,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
-      "repo": "JetBrains/thinkrail",
-      "owner": "JetBrains",
-      "name": "thinkrail",
-      "url": "https://github.com/JetBrains/thinkrail",
-      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "repo": "heygen-com/hyperframes",
+      "owner": "heygen-com",
+      "name": "hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 1173,
-      "totalStars": 3365,
-      "forks": 179,
-      "channel": "全语言热门 / TypeScript/前端"
-    },
-    {
-      "repo": "Panniantong/Agent-Reach",
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 746,
-      "totalStars": 104320,
-      "forks": 9247,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
-      "repo": "pollen-robotics/microduck",
-      "owner": "pollen-robotics",
-      "name": "microduck",
-      "url": "https://github.com/pollen-robotics/microduck",
-      "description": "A Tiny biped duck robot 🦆",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "starsToday": 843,
-      "totalStars": 12623,
-      "forks": 1564,
-      "channel": "全语言热门"
+      "starsToday": 965,
+      "totalStars": 73590,
+      "forks": 6669,
+      "channel": "TypeScript/前端"
     }
   ]
 }
