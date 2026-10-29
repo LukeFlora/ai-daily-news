@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
   "isMondayLookback": false,
-  "fetchedAt": "2026-10-29T10:18:25.122Z",
+  "fetchedAt": "2026-10-29T14:34:05.417Z",
   "stats": {
     "buildersCount": 18,
     "totalTweets": 39,
@@ -598,45 +598,6 @@
   "blogs": [],
   "githubTrending": [
     {
-      "repo": "HKUDS/DeepTutor",
-      "owner": "HKUDS",
-      "name": "DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 2371,
-      "totalStars": 48911,
-      "forks": 6053,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
-      "repo": "Nutlope/hallmark",
-      "owner": "Nutlope",
-      "name": "hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "language": "CSS",
-      "languageColor": "#663399",
-      "starsToday": 2110,
-      "totalStars": 41345,
-      "forks": 2146,
-      "channel": "全语言热门"
-    },
-    {
-      "repo": "hmjz100/LinkSwift",
-      "owner": "hmjz100",
-      "name": "LinkSwift",
-      "url": "https://github.com/hmjz100/LinkSwift",
-      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "starsToday": 1616,
-      "totalStars": 35908,
-      "forks": 2546,
-      "channel": "全语言热门"
-    },
-    {
       "repo": "pbakaus/impeccable",
       "owner": "pbakaus",
       "name": "impeccable",
@@ -644,10 +605,23 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "starsToday": 1472,
-      "totalStars": 93986,
-      "forks": 5554,
+      "starsToday": 2881,
+      "totalStars": 94510,
+      "forks": 5583,
       "channel": "全语言热门"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "owner": "HKUDS",
+      "name": "DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 1926,
+      "totalStars": 49298,
+      "forks": 6081,
+      "channel": "全语言热门 / Python AI 专区"
     },
     {
       "repo": "togg53192-cmd/jailbreaks",
@@ -657,10 +631,23 @@
       "description": "LIST OF ALL MY JAILBREAKS",
       "language": "Unknown",
       "languageColor": "#e0e0e0",
-      "starsToday": 1477,
-      "totalStars": 7794,
-      "forks": 1102,
+      "starsToday": 1610,
+      "totalStars": 8179,
+      "forks": 1152,
       "channel": "全语言热门"
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "owner": "vectorize-io",
+      "name": "hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 1352,
+      "totalStars": 56008,
+      "forks": 6701,
+      "channel": "Python AI 专区"
     },
     {
       "repo": "gitroomhq/postiz-app",
@@ -671,21 +658,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 893,
-      "totalStars": 40051,
-      "forks": 7585,
-      "channel": "TypeScript/前端"
-    },
-    {
-      "repo": "heygen-com/hyperframes",
-      "owner": "heygen-com",
-      "name": "hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "starsToday": 846,
-      "totalStars": 75081,
-      "forks": 6819,
+      "totalStars": 40071,
+      "forks": 7596,
       "channel": "TypeScript/前端"
     },
     {
@@ -696,10 +670,36 @@
       "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 1068,
-      "totalStars": 5581,
-      "forks": 285,
+      "starsToday": 1116,
+      "totalStars": 5743,
+      "forks": 300,
       "channel": "全语言热门 / TypeScript/前端"
+    },
+    {
+      "repo": "AgriciDaniel/claude-seo",
+      "owner": "AgriciDaniel",
+      "name": "claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 581,
+      "totalStars": 23781,
+      "forks": 3197,
+      "channel": "Python AI 专区"
+    },
+    {
+      "repo": "KeygraphHQ/shannon",
+      "owner": "KeygraphHQ",
+      "name": "shannon",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "description": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 476,
+      "totalStars": 50310,
+      "forks": 5783,
+      "channel": "TypeScript/前端"
     }
   ]
 }
