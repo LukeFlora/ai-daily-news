@@ -1,194 +1,247 @@
 {
-  "date": "2026年10月28日 · 星期三",
+  "date": "2026年10月29日 · 星期四",
   "items": [
     {
-      "id": "x-trq212-4",
-      "title": "前 Anthropic Claude Code 开发者 Thariq 分享了他的最新实验项目：一款 AI 原生的 macOS Dock，通过 Agent 实...",
-      "brief": "【为何关注】作为前 Claude Code 核心开发者，Thariq 在操作系统级 HCI（人机交互）与 Agent 结合上的尝试非常具有前瞻性，展示了 Agent 如何深度介入桌面工作流。同时，他提到的“Agent 时代的开源分发与上游自动合并”直击代码生成普及后的分支膨胀痛点，非常值得 AI 工具开发者与开源社区思考。",
-      "summary": "前 Anthropic Claude Code 开发者 Thariq 分享了他的最新实验项目：一款 AI 原生的 macOS Dock，通过 Agent 实时分类用户的桌面活动与通知，动态切换与扩展专注模式（如写作、构建等）。此外，他还提出了对 Agent 时代开源分发模式的新思考，认为需要建立一种让用户既能用 Agent 自由修改代码、又能自动同步上游更新的新机制。",
-      "category": "开源生产力工具",
+      "id": "x-trq212-7",
+      "title": "前 Anthropic Claude Code 团队成员 Thariq 观察并探讨了 AI 时代下不同人群的心理悖论与交互痛点",
+      "brief": "【为何关注】作为一线 AI Agent 的构建者，Thariq 敏锐地揭示了“人机协作”中的知识壁垒转化与心态错位。这提示 AI 从业者：Agent 产品不应只是替代人力，而应致力于弥补非专家在专业领域（如艺术、架构）的表达鸿沟，帮助用户将模糊创意快速落地。",
+      "summary": "前 Anthropic Claude Code 团队成员 Thariq 观察并探讨了 AI 时代下不同人群的心理悖论与交互痛点。他指出，技术人员正因担心技能失效而沮丧，非技术人员却渴望掌握技术以更好地驾驭 Agent；同时在创意领域，AI 的真正价值在于帮跨界者补充专业语言、将草图转化为成品。他最后感叹，在当下的 AI 变革潮中，行动的勇气远比天才更为稀缺。",
+      "category": "大模型与技术突破",
       "sourceName": "Thariq (@trq212)",
-      "sourceUrl": "https://x.com/trq212/status/2115188992861970693"
+      "sourceUrl": "https://x.com/trq212/status/2115641110710419752"
     },
     {
-      "id": "x-thsottiaux-2",
-      "title": "OpenAI 开发者 Thibault Sottiaux（负责 Codex 与 ChatGPT）连续发布动态预告重磅更新",
-      "brief": "【为何关注】Thibault Sottiaux 是 OpenAI 代码生成模型 Codex 与 ChatGPT 的核心构建者之一，其预告往往对应着重要技术或功能的落地。关注 AI 辅助编程、大模型生态演进的从业者值得持续追踪其后续公布的具体细节。",
-      "summary": "OpenAI 开发者 Thibault Sottiaux（负责 Codex 与 ChatGPT）连续发布动态预告重磅更新。他确认部署工作已在太平洋时间午夜前完成（“it's done”），并提示大家关注次日公布的“好消息”。这预示着 OpenAI 即将发布与代码模型或 ChatGPT 相关的重大新功能。",
+      "id": "x-claudeai-18",
+      "title": "Anthropic 为 Claude 法律版（Claude for Legal）推出了全新的预置 Artifacts 模版库，涵盖合同审查、法规前瞻扫描、引...",
+      "brief": "【为何关注】该更新体现了 Anthropic 将通用 AI 可视化交互能力（Artifacts）深入垂直行业（法律）的落地策略。通过“预制模板+自定义数据连接器”的组合，显著降低了企业部署专有 AI 工作流的门槛，对垂直领域 AI 应用开发与 B 端落地具有重要参考价值。",
+      "summary": "Anthropic 为 Claude 法律版（Claude for Legal）推出了全新的预置 Artifacts 模版库，涵盖合同审查、法规前瞻扫描、引文核查等常见法律场景。用户可基于内置示例，轻松接入自有文档与数据连接器，并将其快速分享给企业内的其他成员。",
+      "category": "AI 投资与商业",
+      "sourceName": "Claude (@claudeai)",
+      "sourceUrl": "https://x.com/claudeai/status/2115467193626571174"
+    },
+    {
+      "id": "x-thsottiaux-4",
+      "title": "OpenAI 开发者 Thibault Sottiaux 近期展示了 AI Agent “Dot” 的交互新玩法，支持通过短信、语音指令实现自动化任务",
+      "brief": "【为何关注】Thibault 展示了 AI Agent 从“对话框”向“全渠道交互”演进的趋势，特别是利用短信和 Siri 快捷指令实现无缝调用，为 AI 产品设计提供了极佳的交互参考。其对产品整合的谨慎态度也体现了 OpenAI 在平衡用户体验与复杂功能时的策略考量。",
+      "summary": "OpenAI 开发者 Thibault Sottiaux 近期展示了 AI Agent “Dot” 的交互新玩法，支持通过短信、语音指令实现自动化任务。同时，他澄清了关于 Chat 与 Work 功能整合的进度，并对个人项目获得 300 万次访问量表示惊讶。",
       "category": "大模型与技术突破",
       "sourceName": "Thibault Sottiaux (@thsottiaux)",
-      "sourceUrl": "https://x.com/thsottiaux/status/2115330127886463244"
+      "sourceUrl": "https://x.com/thsottiaux/status/2115622002581188681"
     },
     {
-      "id": "gh-linkswift-14",
-      "title": "hmjz100/LinkSwift: 一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直...",
-      "brief": "【为何关注】基于 JavaScript 构建，今日新增 +3,209 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
-      "summary": "开源项目「hmjz100/LinkSwift」在 GitHub Trending 榜单引发广泛关注。项目主语言为 JavaScript，今日激增 +3,209 Stars。核心定位：一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘。",
-      "category": "开源生产力工具",
-      "sourceName": "GitHub: hmjz100/LinkSwift",
-      "sourceUrl": "https://github.com/hmjz100/LinkSwift"
-    },
-    {
-      "id": "gh-deeptutor-15",
-      "title": "HKUDS/DeepTutor: DeepTutor: Lifelong Personalized Tut...",
-      "brief": "【为何关注】基于 Python 构建，今日新增 +2,376 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
-      "summary": "开源项目「HKUDS/DeepTutor」在 GitHub Trending 榜单引发广泛关注。项目主语言为 Python，今日激增 +2,376 Stars。核心定位：DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.。",
+      "id": "gh-deeptutor-20",
+      "title": "DeepTutor: 基于大语言模型的终身个性化智能辅导与教学 Agent 系统",
+      "brief": "【为何关注】本项目将大模型 Agent 与教育场景深度融合，单日爆发式增长超 2,300 Star，展现了社区对 AI+教育变革的极高热情。非常适合从事 Agent 智能体架构、长效记忆机制与个性化推荐研究的从业者关注。",
+      "summary": "DeepTutor 是由香港大学 Data Intelligence 实验室开源的终身个性化智能辅导系统。该项目针对传统教育中资源分布不均、无法因材施教及缺乏长效学习追踪的痛点，构建了基于 LLM 的多 Agent 智能教学架构。系统结合动态学生认知建模、长短期记忆机制与自适应教学策略，能够根据用户的知识储备实时调整教学路径。其关键特性包括跨学科知识图谱引导、交互式答疑与个性化练习生成，适用于在线教育、智能硬件及个人 AI 学习助手场景。",
       "category": "开源生产力工具",
       "sourceName": "GitHub: HKUDS/DeepTutor",
       "sourceUrl": "https://github.com/HKUDS/DeepTutor"
     },
     {
-      "id": "gh-hallmark-16",
-      "title": "Nutlope/hallmark: Anti-AI-slop design skill for Claude...",
-      "brief": "【为何关注】基于 CSS 构建，今日新增 +2,109 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
-      "summary": "开源项目「Nutlope/hallmark」在 GitHub Trending 榜单引发广泛关注。项目主语言为 CSS，今日激增 +2,109 Stars。核心定位：Anti-AI-slop design skill for Claude Code, Cursor, and Codex.。",
+      "id": "gh-hallmark-21",
+      "title": "Hallmark：对抗AI生成式冗余内容的审美与设计规范工具",
+      "brief": "【为何关注】今日激增超2000星，反映了开发者对 AI 产出质量的深度焦虑；该项目是 AI 辅助开发进入“质量控制阶段”的标志性尝试，值得所有深度使用 AI 编程的工程师关注。",
+      "summary": "Hallmark 旨在解决当前 AI 辅助编程（如 Claude Code, Cursor, Codex）在代码生成过程中产生的“AI-slop”（即低质量、同质化、缺乏设计感的代码与界面）。该项目通过建立一套反冗余的设计准则与工程实践，帮助开发者在 AI 提效的同时，保持代码与 UI 的高审美水准与逻辑严密性。其核心价值在于为 AI 驱动的开发流程注入“人类审美”与“深度工程思维”，防止过度依赖 AI 导致的系统架构腐化与界面平庸化，是 AI 时代提升产出质量的关键配套工具。",
       "category": "开源生产力工具",
       "sourceName": "GitHub: Nutlope/hallmark",
       "sourceUrl": "https://github.com/Nutlope/hallmark"
     },
     {
-      "id": "gh-impeccable-17",
-      "title": "pbakaus/impeccable: The design vocabulary for your codin...",
-      "brief": "【为何关注】基于 Rust 构建，今日新增 +1,471 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
-      "summary": "开源项目「pbakaus/impeccable」在 GitHub Trending 榜单引发广泛关注。项目主语言为 Rust，今日激增 +1,471 Stars。核心定位：The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.。",
+      "id": "gh-linkswift-22",
+      "title": "LinkSwift：八大主流网盘直链解析与高速下载工具",
+      "brief": "【为何关注】今日激增 1600+ Star 反映了用户对高效网盘交互的强烈刚需。其对多协议的兼容处理逻辑，是开发者研究逆向工程与自动化下载架构的优质实战案例。",
+      "summary": "LinkSwift 是一款基于 JavaScript 开发的网盘直链获取工具，旨在解决用户在多平台网盘下载时面临的限速与繁琐操作痛点。该项目深度整合了百度、阿里、移动、天翼、迅雷、夸克、UC 及 123 云盘八大主流平台，通过解析底层下载接口实现直链提取。其架构轻量、易于集成，通过脚本化方式绕过客户端限制，极大提升了文件获取效率。该工具不仅是个人用户的提效利器，也为开发者研究不同网盘协议的鉴权与数据传输机制提供了极具价值的参考样本。",
+      "category": "开源生产力工具",
+      "sourceName": "GitHub: hmjz100/LinkSwift",
+      "sourceUrl": "https://github.com/hmjz100/LinkSwift"
+    },
+    {
+      "id": "gh-impeccable-23",
+      "title": "Impeccable: 专为 AI 编码代理设计的标准化设计词汇与质量审计框架",
+      "brief": "【为何关注】今日激增 1400+ Star，反映了开发者对 AI 生成代码质量失控的深层焦虑。Impeccable 填补了 AI 编码流程中“质量守门人”的空白，是构建高可靠 AI 研发工作流的必选工具。",
+      "summary": "Impeccable 是一个基于 Rust 构建的 AI 辅助开发质量控制系统。它通过定义一套标准化的“设计词汇”，为 AI 编码代理（Coding Agents）提供明确的执行约束与审美准则。该项目旨在解决 AI 生成代码中常见的“平庸化（AI Slop）”问题，通过内置的审计（Audit）与批判性审查（Critique）机制，在代码交付前进行深度校验。其架构通过强制执行代码风格与逻辑严谨性，确保 AI 输出不仅能运行，更具备生产级的代码质量与架构一致性。",
       "category": "开源生产力工具",
       "sourceName": "GitHub: pbakaus/impeccable",
       "sourceUrl": "https://github.com/pbakaus/impeccable"
     },
     {
-      "id": "gh-jailbreaks-18",
-      "title": "togg53192-cmd/jailbreaks: LIST OF ALL MY JAILBREAKS",
-      "brief": "【为何关注】今日在 GitHub 上斩获 +1,478 新增 Star（累计 6,541 Star），关注度极高，具备优质的工程参考价值。",
-      "summary": "开源项目「togg53192-cmd/jailbreaks」在 GitHub Trending 榜单引发广泛关注。项目主语言为 Unknown，今日激增 +1,478 Stars。核心定位：LIST OF ALL MY JAILBREAKS。",
+      "id": "gh-jailbreaks-24",
+      "title": "jailbreaks: LLM 安全对抗与提示词注入攻击指令集",
+      "brief": "【为何关注】今日激增近 1500 Star，反映了社区对 LLM 安全边界与提示词防御机制的高度关注。对于 AI 安全从业者而言，这是研究模型对齐失效与对抗性攻击不可多得的实战案例库。",
+      "summary": "该项目是一个高度集中的大型语言模型（LLM）“越狱”提示词（Jailbreak Prompts）合集。它通过收集并整理各类绕过 AI 安全护栏的指令，旨在测试模型在面对恶意诱导、角色扮演及逻辑陷阱时的防御边界。项目核心价值在于为安全研究人员、红队测试工程师及 AI 开发者提供了一套实战化的对抗样本库，用以评估模型在指令遵循与安全对齐方面的鲁棒性。该项目不仅是安全审计的工具箱，也是理解当前主流模型安全防御机制失效模式的重要参考资料。",
       "category": "开源生产力工具",
       "sourceName": "GitHub: togg53192-cmd/jailbreaks",
       "sourceUrl": "https://github.com/togg53192-cmd/jailbreaks"
     },
     {
-      "id": "gh-postiz-app-19",
+      "id": "gh-postiz-app-25",
       "title": "gitroomhq/postiz-app: 📨 The ultimate agentic social media...",
-      "brief": "【为何关注】基于 TypeScript 构建，今日新增 +1,007 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
-      "summary": "开源项目「gitroomhq/postiz-app」在 GitHub Trending 榜单引发广泛关注。项目主语言为 TypeScript，今日激增 +1,007 Stars。核心定位：📨 The ultimate agentic social media scheduling tool 🤖。",
+      "brief": "【为何关注】基于 TypeScript 构建，今日新增 +893 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
+      "summary": "开源项目「gitroomhq/postiz-app」在 GitHub Trending 榜单引发广泛关注。项目主语言为 TypeScript，今日激增 +893 Stars。核心定位：📨 The ultimate agentic social media scheduling tool 🤖。",
       "category": "开源生产力工具",
       "sourceName": "GitHub: gitroomhq/postiz-app",
       "sourceUrl": "https://github.com/gitroomhq/postiz-app"
     },
     {
-      "id": "gh-hyperframes-20",
-      "title": "heygen-com/hyperframes: Write HTML. Render video. Built for ...",
-      "brief": "【为何关注】基于 TypeScript 构建，今日新增 +934 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
-      "summary": "开源项目「heygen-com/hyperframes」在 GitHub Trending 榜单引发广泛关注。项目主语言为 TypeScript，今日激增 +934 Stars。核心定位：Write HTML. Render video. Built for agents.。",
+      "id": "gh-hyperframes-26",
+      "title": "Hyperframes: 基于 HTML 的高性能 AI 视频生成框架",
+      "brief": "【为何关注】今日激增 846 Star，反映了开发者对 AI 视频自动化生成工具的迫切需求。它是前端技术与 AI 视频合成的完美结合，极具落地潜力，值得 AI 应用开发者重点关注。",
+      "summary": "Hyperframes 是 HeyGen 团队推出的开源框架，旨在解决 AI Agent 在视频生成领域面临的“渲染复杂性”痛点。它允许开发者直接使用 HTML/CSS 构建视频内容，通过底层高性能渲染引擎将 Web 布局转化为高质量视频流。该项目架构高度模块化，特别适配 AI Agent 的动态内容生成需求，支持实时渲染与复杂交互逻辑。其核心价值在于将前端开发者的技能栈无缝迁移至视频创作领域，极大降低了自动化视频生产的门槛，是构建下一代 AI 视频交互应用的关键基础设施。",
       "category": "开源生产力工具",
       "sourceName": "GitHub: heygen-com/hyperframes",
       "sourceUrl": "https://github.com/heygen-com/hyperframes"
     },
     {
-      "id": "gh-thinkrail-21",
-      "title": "JetBrains/thinkrail: Vibe code with pi in a lightweight, ...",
-      "brief": "【为何关注】基于 TypeScript 构建，今日新增 +1,075 颗 Star 爆发增长，推荐关注其架构设计与开源实践。",
-      "summary": "开源项目「JetBrains/thinkrail」在 GitHub Trending 榜单引发广泛关注。项目主语言为 TypeScript，今日激增 +1,075 Stars。核心定位：Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need。",
+      "id": "x-bcherny-3",
+      "title": "美国犹他州在10个政府机构的34名开发者中开展了 Claude Code 试点项目",
+      "brief": "【为何关注】这一真实试点数据展示了 Claude Code 等 AI 编程工具在传统公共机构中的高易用性与实际落地价值。它不仅显著降低了开发环境的搭建门槛，更带来了可量化的生产力提升，为企业和机构评估 AI 编码工具的 ROI 提供了有力参考。",
+      "summary": "美国犹他州在10个政府机构的34名开发者中开展了 Claude Code 试点项目。数据显示，80%的参与者在30分钟内即搭建好工作环境，71%的人在四周试点后表示累计节省了超20小时。这验证了 AI 编码助手在传统公共部门落地提效的显著成果。",
+      "category": "大模型与技术突破",
+      "sourceName": "Boris Cherny (@bcherny)",
+      "sourceUrl": "https://x.com/bcherny/status/2115491259381072269"
+    },
+    {
+      "id": "gh-thinkrail-27",
+      "title": "JetBrains ThinkRail：基于AI驱动的轻量级个性化IDE开发环境",
+      "brief": "【为何关注】作为 JetBrains 进军轻量化 AI IDE 的先锋，该项目今日激增超千星，显示了开发者对“AI 原生”开发工具的强烈渴求，极具技术演进参考价值。",
+      "summary": "ThinkRail 是 JetBrains 推出的新一代轻量级 IDE 解决方案，旨在通过深度集成 AI 能力（Pi）实现“随心而动”的开发体验。该项目采用 TypeScript 构建，核心架构强调高度的自适应性，能够根据开发者的编码习惯自动调整工作流与交互界面。其核心痛点在于解决传统 IDE 臃肿且配置繁琐的问题，通过 AI 实时感知上下文，提供更具沉浸感与个性化的编码环境，特别适用于追求极致开发效率与 AI 辅助编程的现代开发者。",
       "category": "开源生产力工具",
       "sourceName": "GitHub: JetBrains/thinkrail",
       "sourceUrl": "https://github.com/JetBrains/thinkrail"
     },
     {
-      "id": "x-swyx-1",
-      "title": "Swyx 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Swyx 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Swyx 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
-      "category": "开源生产力工具",
-      "sourceName": "Swyx (@swyx)",
-      "sourceUrl": "https://x.com/swyx/status/2115156135875629109"
-    },
-    {
-      "id": "x-amasad-5",
-      "title": "Amjad Masad 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Amjad Masad 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Amjad Masad 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
-      "category": "开源生产力工具",
-      "sourceName": "Amjad Masad (@amasad)",
-      "sourceUrl": "https://x.com/amasad/status/2115207856496480261"
-    },
-    {
-      "id": "x-rauchg-6",
-      "title": "Guillermo Rauch 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Guillermo Rauch 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Guillermo Rauch 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
+      "id": "x-zarazhangrui-14",
+      "title": "AI 构建者 Zara Zhang 在社交平台上分享了一则有趣的内容，并评价其“太可爱了”",
+      "brief": "【为何关注】优秀的 AI 产品不仅需要硬核的技术支撑，趣味性与情感共鸣（Delightful UX）同样是打动用户的关键。关注 Builder 们在日常开发之余所喜爱的创意点子，能为产品体验设计提供新的灵感。",
+      "summary": "AI 构建者 Zara Zhang 在社交平台上分享了一则有趣的内容，并评价其“太可爱了”。该推文展现了开发者对兼具创意、趣味性与良好交互体验的 AI 衍生应用或内容的关注。",
       "category": "大模型与技术突破",
+      "sourceName": "Zara Zhang (@zarazhangrui)",
+      "sourceUrl": "https://x.com/zarazhangrui/status/2115336629770707254"
+    },
+    {
+      "id": "x-steipete-16",
+      "title": "OpenClaw 开发者 Peter Steinberger 宣布 OpenClaw 的 Web UI 现已支持离线工作，并配备智能 WebSocket 压...",
+      "brief": "【为何关注】本文展示了 AI Agent 开发者如何通过端侧与传输层优化（如 WebSocket 压缩与重连）解决弱网场景下的 AI 协作痛点。这启发 AI 从业者思考 Agent 时代的开发工程范式演进——软件开发正从传统的本地 CLI 与手工编码，迅速转向高度依托 Agent 辅助与高效 Web 端协同的新形态。",
+      "summary": "OpenClaw 开发者 Peter Steinberger 宣布 OpenClaw 的 Web UI 现已支持离线工作，并配备智能 WebSocket 压缩与重连机制，大幅提升了弱网（如机上 Wi-Fi）下的使用体验。此外，他调侃了仍依赖本地 CLI 和纯手写代码的传统开发习惯，指出 AI Agent 生成的代码及其 Bug 模式已与人类编写产生显著差异。这凸显了 AI 时代下软件工程交互范式与生产力工具的加速演进。",
+      "category": "开源生产力工具",
+      "sourceName": "Peter Steinberger (@steipete)",
+      "sourceUrl": "https://x.com/steipete/status/2115398725212238088"
+    },
+    {
+      "id": "x-joshwoodward-2",
+      "title": "Google Gemini 迎来重磅更新：不仅发布了性能更强的 Gemini 4 Carbon 模型，还正式接入 Strava 数据，利用 AI 将多年运动...",
+      "brief": "【为何关注】Gemini 4 系列的快速迭代展示了 Google 在模型研发上的高频节奏，值得关注其在安全领域的应用潜力。同时，Strava 的集成体现了 AI 从“通用助手”向“深度垂直领域专家”转型的趋势，为开发者提供了数据驱动型 AI 应用的落地参考。",
+      "summary": "Google Gemini 迎来重磅更新：不仅发布了性能更强的 Gemini 4 Carbon 模型，还正式接入 Strava 数据，利用 AI 将多年运动记录转化为个性化训练方案。目前新模型已率先向网络安全防御者开放，展现了 Google 在多模态应用与垂直领域落地上的极快节奏。",
+      "category": "大模型与技术突破",
+      "sourceName": "Josh Woodward (@joshwoodward)",
+      "sourceUrl": "https://x.com/joshwoodward/status/2115495943948902517"
+    },
+    {
+      "id": "x-rauchg-9",
+      "title": "Vercel CEO Guillermo Rauch 发布多项重磅更新：首先，Vercel AI Gateway 推出类“模型 DNS”功能，支持动态路由与...",
+      "brief": "【为何关注】当 AI Agent 生成代码的速度远超人类时，传统 CI/CD 正成为新的工程瓶颈。Vercel 提出的“模型 DNS”与“Agentic CI”展示了 AI 时代开发者工具和基础设施的演进方向，对 DevOps、平台工程及 AI 应用开发者具有极高的架构参考价值。",
+      "summary": "Vercel CEO Guillermo Rauch 发布多项重磅更新：首先，Vercel AI Gateway 推出类“模型 DNS”功能，支持动态路由与流量调度，并宣布与 Particle 合作提供推理服务。其次，Vercel CI 提出“Agentic CI”（智能体 CI）概念，通过高性能基础设施、Turborepo 依赖图缓存以及开放给 AI Agent 的控制接口，解决 AI 编程时代出现的 CI/CD 瓶颈，开启软件交付新范式。",
+      "category": "开源生产力工具",
       "sourceName": "Guillermo Rauch (@rauchg)",
-      "sourceUrl": "https://x.com/rauchg/status/2115218670389756243"
+      "sourceUrl": "https://x.com/rauchg/status/2115573969369845855"
     },
     {
-      "id": "x-danshipper-12",
-      "title": "Dan Shipper 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Dan Shipper 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Dan Shipper 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
-      "category": "开源生产力工具",
-      "sourceName": "Dan Shipper (@danshipper)",
-      "sourceUrl": "https://x.com/danshipper/status/2115112705162182754"
-    },
-    {
-      "id": "x-garrytan-8",
-      "title": "Garry Tan 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Garry Tan 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Garry Tan 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
-      "category": "开源生产力工具",
+      "id": "x-garrytan-12",
+      "title": "Y Combinator 掌门人 Garry Tan 分享了关于 AI 模型竞争力与公共教育现状的思考",
+      "brief": "【为何关注】Garry Tan 提炼出了 AI 模型竞争的新核心指标——“单位智能成本”（dollar per unit of intelligence），这对追求极致性价比与商业落地的 AI 创业者具有极高的指导意义。此外，他对技术变革背景下教育基建的关注，也提示从业者思考 AI 时代下人才培养与社会发展的深层矛盾。",
+      "summary": "Y Combinator 掌门人 Garry Tan 分享了关于 AI 模型竞争力与公共教育现状的思考。他高度评价初创公司 Particle，预判其将在“单位智能成本最低”的前沿高智商模型竞争中脱颖而出；同时他也对当前美国高中因预算紧张取消荣誉课程、转而开设其他课程的现象表达了警惕。",
+      "category": "AI 投资与商业",
       "sourceName": "Garry Tan (@garrytan)",
-      "sourceUrl": "https://x.com/garrytan/status/2115215790756794496"
+      "sourceUrl": "https://x.com/garrytan/status/2115639558935359941"
     },
     {
-      "id": "x-mattturck-9",
-      "title": "Matt Turck 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Matt Turck 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Matt Turck 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
-      "category": "大模型与技术突破",
-      "sourceName": "Matt Turck (@mattturck)",
-      "sourceUrl": "https://x.com/mattturck/status/2115132327131328806"
+      "id": "x-swyx-1",
+      "title": "Swyx 对 Gemini 在 AAv5 榜单上的强劲表现表示关注，并重新审视了当前模型实验室激增的行业现状",
+      "brief": "【为何关注】Swyx 对 AI 行业格局的敏锐洞察，揭示了当前模型生态正从“赢家通吃”向“多样化竞争”转变。对于从业者而言，这提醒我们不仅要关注单一模型的性能，更应思考模型多样性如何重塑行业竞争壁垒。",
+      "summary": "Swyx 对 Gemini 在 AAv5 榜单上的强劲表现表示关注，并重新审视了当前模型实验室激增的行业现状。他指出，这与“苦涩教训”（The Bitter Lesson）所预言的趋势形成了鲜明对比，标志着 AI 领域进入了百花齐放的“回归季”。",
+      "category": "论文前沿",
+      "sourceName": "Swyx (@swyx)",
+      "sourceUrl": "https://x.com/swyx/status/2115624308567658713"
     },
     {
-      "id": "x-levie-7",
-      "title": "Aaron Levie 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Aaron Levie 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Aaron Levie 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
+      "id": "x-levie-10",
+      "title": "Box CEO Aaron Levie 表示，随着 AI Agent 深入融入企业工作流、软件开发和安全防护，其 Token 消耗量将达到目前的 1,000...",
+      "brief": "【为何关注】该观点揭示了 Agent 普及将带来的 Token 需求爆发式增长，强调了闭源与开源模型在企业级规模化应用中的协同价值。对 AI 从业者而言，理解高并发、高负载场景下开源模型的效率与安全性优化，将是构筑下一代 Agent 基础设施的关键。",
+      "summary": "Box CEO Aaron Levie 表示，随着 AI Agent 深入融入企业工作流、软件开发和安全防护，其 Token 消耗量将达到目前的 1,000 倍以上。要支撑这种大规模应用，行业需要“闭源模型突破”与“开源权重模型演进”双管齐下，同时提升高负载下的效率与安全性。此外，他也对 Suhail 正在打造的 Particle 在该领域的探索表示期待。",
       "category": "开源生产力工具",
       "sourceName": "Aaron Levie (@levie)",
-      "sourceUrl": "https://x.com/levie/status/2115305369799110905"
+      "sourceUrl": "https://x.com/levie/status/2115516370695987435"
     },
     {
-      "id": "x-nikunj-11",
-      "title": "Nikunj Kothari 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Nikunj Kothari 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Nikunj Kothari 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
+      "id": "podcast-19",
+      "title": "Can You Use AI To Make Good Art? — With Fred Graver",
+      "brief": "【核心提炼】如果你是创意工作者或对AI内容生产感到迷茫，这期节目提供了从资深行业专家视角出发的实操建议，非常值得一听。",
+      "summary": "本期播客探讨了在AI浪潮下，创作者如何从“被替代的焦虑”转向“利用AI重塑职业生涯”。核心Takeaway在于：AI不仅是生成工具，更是个人创作能力的放大器，能帮助创作者在行业动荡中找到自我定位。反直觉洞见是，好莱坞内部早已广泛使用AI，但许多人对此秘而不宣；同时，像打字和校对这类看似基础的“技术硬实力”，在AI时代依然是进入核心创作圈的敲门砖。精彩金句：“AI能帮你认清你是谁，以及如何在这个世界生存。”",
       "category": "开源生产力工具",
-      "sourceName": "Nikunj Kothari (@nikunj)",
-      "sourceUrl": "https://x.com/nikunj/status/2115157188704612735"
+      "sourceUrl": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
     },
     {
-      "id": "x-petergyang-3",
-      "title": "Peter Yang 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Peter Yang 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Peter Yang 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
+      "id": "x-mattturck-13",
+      "title": "知名风投合伙人兼 MAD 生态图谱作者 Matt Turck 近期分享了一系列关于科技与 AI 创业圈的幽默观察",
+      "brief": "【为何关注】作为 FirstMarkVC 合伙人和 MAD（机器学习、AI 与数据）生态图谱的打造者，Matt Turck 的视角极具科技风投代表性。这些动态不仅以幽默的方式揭示了当前 AI 圈对算力焦虑和热门交易抢夺的真实现状，也为 AI 从业者提供了轻松且接地气的行业文化视角。",
+      "summary": "知名风投合伙人兼 MAD 生态图谱作者 Matt Turck 近期分享了一系列关于科技与 AI 创业圈的幽默观察。他调侃了法国创业者在公司起步阶段所面临的亲友质疑，并针对风投抢投热门项目以及行业内普遍存在的 GPU 算力短缺现象做出了风趣点评。这些内容生动折射出当前 AI 与科技投资圈的文化氛围与业内热点。",
+      "category": "AI 投资与商业",
+      "sourceName": "Matt Turck (@mattturck)",
+      "sourceUrl": "https://x.com/mattturck/status/2115596406077452628"
+    },
+    {
+      "id": "x-amasad-8",
+      "title": "Replit CEO Amjad Masad 分享了最新的 ViBench 2.0 基准测试结果，GPT-6.1 Sol 在“提示词转应用”任务中表现优异，...",
+      "brief": "【为何关注】对于 AI 开发者而言，ViBench 2.0 提供了一个更贴近真实开发场景的评估维度，即从 Prompt 到可运行 App 的端到端能力。关注该榜单有助于从业者评估模型在复杂工程任务中的实际交付水平。",
+      "summary": "Replit CEO Amjad Masad 分享了最新的 ViBench 2.0 基准测试结果，GPT-6.1 Sol 在“提示词转应用”任务中表现优异，成功登顶。该测试旨在评估 AI 模型在构建完整应用场景下的实际生产力。",
+      "category": "大模型与技术突破",
+      "sourceName": "Amjad Masad (@amasad)",
+      "sourceUrl": "https://x.com/amasad/status/2115565072734888447"
+    },
+    {
+      "id": "x-petergyang-5",
+      "title": "AI Builder Peter Yang 近期分享了对世界模型（World Models）演进的深度洞察，认为其正处于类似 GPT-3.5 的早期阶段，但...",
+      "brief": "【为何关注】Peter Yang 对世界模型从“视觉生成”到“交互式模拟”的演进路径分析极具前瞻性，为从业者指明了从影视特效到游戏开发的技术变革方向。其观点有助于理解 AI 如何从单纯的辅助工具转化为生产力引擎，是关注生成式 AI 应用落地者的必读内容。",
+      "summary": "AI Builder Peter Yang 近期分享了对世界模型（World Models）演进的深度洞察，认为其正处于类似 GPT-3.5 的早期阶段，但未来将彻底重塑影视制作与游戏开发行业。此外，他还探讨了 AI 在处理繁琐医疗文书中的实用价值，并幽默地指出手工制品市场将因 AI 自动化浪潮迎来复兴。",
       "category": "开源生产力工具",
       "sourceName": "Peter Yang (@petergyang)",
-      "sourceUrl": "https://x.com/petergyang/status/2115319325137731757"
+      "sourceUrl": "https://x.com/petergyang/status/2115642806010274271"
     },
     {
-      "id": "x-zarazhangrui-10",
-      "title": "Zara Zhang 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Zara Zhang 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Zara Zhang 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
+      "id": "x-adityaag-17",
+      "title": "前 Dropbox CTO、SPC 合伙人 Aditya Agarwal 分享了一封致 LP 的公开信，总结了他们在过去十年前沿科技投资中识别人才的经验",
+      "brief": "【为何关注】Aditya Agarwal 兼具顶级科技公司（Facebook 早期工程师、Dropbox CTO）的工程管理背景与资深前沿投资经验。在 AI 与硬科技创业热潮中，本文拒绝模糊的“看人”口号，试图用系统化、可复现的方法论拆解创始人特质，对 AI 创业者自我评估以及早期投资者建立判断力极具参考价值。",
+      "summary": "前 Dropbox CTO、SPC 合伙人 Aditya Agarwal 分享了一封致 LP 的公开信，总结了他们在过去十年前沿科技投资中识别人才的经验。信中打破了“早期投资 90% 看创始人”这句陈词滥调，试图建立一套具有可伪证性、具体性与可复现性的评估框架，以明确定义卓越创始人的维度及其转化为成功企业的路径。",
       "category": "开源生产力工具",
-      "sourceName": "Zara Zhang (@zarazhangrui)",
-      "sourceUrl": "https://x.com/zarazhangrui/status/2115288579173921266"
+      "sourceName": "Aditya Agarwal (@adityaag)",
+      "sourceUrl": "https://x.com/adityaag/status/2115486597739430004"
     },
     {
-      "id": "x-adityaag-13",
-      "title": "Aditya Agarwal 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Aditya Agarwal 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Aditya Agarwal 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
+      "id": "x-nikunj-15",
+      "title": "FPV Ventures 合伙人 Nikunj Kothari 分享了针对种子轮创业者的实用指南，旨在帮助他们填补“宏大愿景”与“A轮融资实际要求”之间的鸿沟",
+      "brief": "【为何关注】对于正处于种子轮并计划冲刺 A 轮的 AI 创业者而言，理解投资人真实的评估标准至关重要。本文来自经验丰富的资深投资人，能帮助创始人从 VC 视角反思业务进展，避免将“愿景”误当成“商业验证”，是极具实用价值的融资备战指南。",
+      "summary": "FPV Ventures 合伙人 Nikunj Kothari 分享了针对种子轮创业者的实用指南，旨在帮助他们填补“宏大愿景”与“A轮融资实际要求”之间的鸿沟。该内容从一线 VC 视角出发，剖析了跨越至 A 轮时投资人真正看重的核心能力与验证指标。文章草稿亦获得了多位资深投资人与种子轮创始人的审阅与建议。",
+      "category": "AI 投资与商业",
+      "sourceName": "Nikunj Kothari (@nikunj)",
+      "sourceUrl": "https://x.com/nikunj/status/2115613336200998979"
+    },
+    {
+      "id": "x-ryolu_-11",
+      "title": "Ryo Lu 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
+      "brief": "【为何关注】作为 Ryo Lu 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
+      "summary": "Ryo Lu 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
+      "category": "开源生产力工具",
+      "sourceName": "Ryo Lu (@ryolu_)",
+      "sourceUrl": "https://x.com/ryolu_/status/2115683366389559464"
+    },
+    {
+      "id": "x-thenanyu-6",
+      "title": "Nan Yu 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
+      "brief": "【为何关注】作为 Nan Yu 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
+      "summary": "Nan Yu 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
       "category": "大模型与技术突破",
-      "sourceName": "Aditya Agarwal (@adityaag)",
-      "sourceUrl": "https://x.com/adityaag/status/2115119516191801809"
+      "sourceName": "Nan Yu (@thenanyu)",
+      "sourceUrl": "https://x.com/thenanyu/status/2115638747002003968"
     }
   ]
 }
