@@ -3,45 +3,45 @@
   "items": [
     {
       "id": "x-thsottiaux-3",
-      "title": "Thibault Sottiaux 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Thibault Sottiaux 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Thibault Sottiaux 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
+      "title": "OpenAI 开发者 Thibault Sottiaux 近期宣布大幅提升 Pro 及 Business Premium 用户的模型使用限额，并确认 Pro...",
+      "brief": "【为何关注】该动态揭示了 OpenAI 在产品运营策略上的调整，即通过提升限额和优化多账号体验来增强用户留存。对于 AI 产品经理而言，如何平衡模型算力成本与用户体验（如本次对 Pro 200 限额的让步）具有极高的参考价值。",
+      "summary": "OpenAI 开发者 Thibault Sottiaux 近期宣布大幅提升 Pro 及 Business Premium 用户的模型使用限额，并确认 Pro 200 档位限额将保持不变。此外，移动端已支持多账号切换，桌面端功能更新也在推进中。",
       "category": "开源生产力工具",
       "sourceName": "Thibault Sottiaux (@thsottiaux)",
       "sourceUrl": "https://x.com/thsottiaux/status/2117035794678546764"
     },
     {
       "id": "x-karpathy-1",
-      "title": "Andrej Karpathy 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Andrej Karpathy 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Andrej Karpathy 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
-      "category": "开源生产力工具",
+      "title": "Andrej Karpathy 利用周末 2 小时开发了一个名为 HackerTube 的项目，以解决对 YouTube 推荐算法的不满",
+      "brief": "【为何关注】Karpathy 的这一实验生动展示了 Agentic Coding（智能体编程）对个人开发效率的颠覆性提升：开发者的角色正从“编写代码者”转变为“资源协调者与需求决策者”。这启发 AI 从业者重新思考软件构建流程，利用 AI Agent 连接数据源、计算资源与运维部署，将个人创意极速转化为落地产品。",
+      "summary": "Andrej Karpathy 利用周末 2 小时开发了一个名为 HackerTube 的项目，以解决对 YouTube 推荐算法的不满。他通过 Claude (Opus 5.5) 分析了 Hacker News 20 年间的 4300 万条评论，筛选出 6,454 个被反复推荐的高质量视频。除了申请 API、购买域名和启动 VPS 外，从数据分析到服务器加固与代码部署的全过程均由 Claude 自主完成，展示了 AI Agent 极速构建软件的强大能力。",
+      "category": "论文前沿",
       "sourceName": "Andrej Karpathy (@karpathy)",
       "sourceUrl": "https://x.com/karpathy/status/2116957135661945283"
     },
     {
       "id": "x-claudeai-20",
-      "title": "Anthropic 对 Claude 订阅方案进行品牌重命名，并取消了 Ultra 账户的 5 小时使用限制",
-      "brief": "【为何关注】此次更新展示了 Anthropic 在商业化策略上的精简与对高频用户体验的优化。对于 AI 从业者而言，其移动端对 CarPlay 和全局搜索的深度整合，是提升 AI 助手在碎片化场景下生产力价值的重要参考。",
-      "summary": "Anthropic 对 Claude 订阅方案进行品牌重命名，并取消了 Ultra 账户的 5 小时使用限制。同时，移动端迎来重大更新，包括 iOS 端的全局搜索功能以及支持 Apple CarPlay 的车载语音模式。",
+      "title": "Anthropic 宣布对其 Claude 订阅计划进行重命名：原 Max 5x 简化为 Max（$100/月），Max 20x 改名为 Ultra（$20...",
+      "brief": "【为何关注】值得重度 AI 用户及开发者关注。Ultra 方案取消 5 小时短期用量限制大幅提升了高强度代码编写与复杂任务的生产力上限；同时 CarPlay 的集成标志着 Anthropic 正在积极布局车载与全场景语音交互，展现了顶级 AI 助手向日常生活渗透的路线图。",
+      "summary": "Anthropic 宣布对其 Claude 订阅计划进行重命名：原 Max 5x 简化为 Max（$100/月），Max 20x 改名为 Ultra（$200/月），并取消了已验证 Ultra 账户的 5 小时使用限制。此外，移动端迎来重要升级，iOS 语音模式现已支持 Apple CarPlay 车载系统，iPhone 和 iPad 端还将推出全局下拉搜索功能。",
       "category": "大模型与技术突破",
       "sourceName": "Claude (@claudeai)",
       "sourceUrl": "https://x.com/claudeai/status/2116220869479428500"
     },
     {
       "id": "x-trq212-5",
-      "title": "前 Anthropic Claude Code 开发者 Thariq 分享了他最新的独立 AI 项目进展与行业思考",
-      "brief": "【为何关注】作为前 Anthropic 团队成员，Thariq 既展示了 AI 生成资产对独立游戏开发的降本增效，又深刻剖析了开发者在使用 Coding Agent 时容易陷入的“伪生产力狂热”。他对 AGI 经济效应的反悲观视角，对技术构建者极具启发意义。",
-      "summary": "前 Anthropic Claude Code 开发者 Thariq 分享了他最新的独立 AI 项目进展与行业思考。在实践层面，他正利用 AI 生成 Sprite 图替代传统 3D 模型快速迭代游戏；在认知层面，他警惕开发者陷入 Coding Agent 带来的“假性高产与忙碌虚无”，并呼吁行业摆脱“AI 导致大规模失业”的悲观决定论，转向以赋能个体为核心的积极 ASI 愿景。",
-      "category": "AI 投资与商业",
+      "title": "前 Anthropic（Claude Code 团队）开发者 Thariq 近期展示了利用 AI 生成精灵图（Sprites）研发游戏的最新进展，并分享了对...",
+      "brief": "【为何关注】作为前 Anthropic 核心成员，Thariq 既在一线使用 AI 工具探索独立游戏开发，又对 Agent 带来的心理陷阱与 AGI 的未来经济形态有清醒认知。他关于 Coding Agent“伪高产”的警示对当代 AI 开发者极具启发，而其以“增强人类能力”为核心的 ASI 观也为 AI 从业者提供了务实且积极的思考视角。",
+      "summary": "前 Anthropic（Claude Code 团队）开发者 Thariq 近期展示了利用 AI 生成精灵图（Sprites）研发游戏的最新进展，并分享了对 AI 编程与 AGI 经济影响的深度沉思。他指出开发者需警惕使用 Coding Agent 时容易陷入的“虚假高产”心理陷阱；同时反驳了“AGI 必将引发失业潮”的悲观叙事，坚定主张构建能够赋能个人最大效能、具可解释性的对齐超人工智能（ASI）。",
+      "category": "大模型与技术突破",
       "sourceName": "Thariq (@trq212)",
       "sourceUrl": "https://x.com/trq212/status/2116977363728867664"
     },
     {
       "id": "x-bcherny-15",
-      "title": "Anthropic 团队的 Boris Cherny 宣布，针对通过身份验证的 Ultra 订阅账号，正式取消原有的 5 小时使用时长限制",
-      "brief": "【为何关注】随着大模型推理效率提升与算力成本优化，头部厂商正逐步放开高阶用户的用量封顶限制。这对于关注 LLM 产品商业化策略、重度开发者生态以及算力调度的从业者具有重要参考价值。",
-      "summary": "Anthropic 团队的 Boris Cherny 宣布，针对通过身份验证的 Ultra 订阅账号，正式取消原有的 5 小时使用时长限制。这一调整大幅提升了重度用户在持续高强度使用场景下的体验。这也标志着 Claude 在算力资源调度与高级付费权益升级上迈出了重要一步。",
+      "title": "Anthropic 团队成员 Boris Cherny 宣布，将为通过验证的 Ultra 订阅账户取消原有的 5 小时使用限制",
+      "brief": "【为何关注】取消重度用户的窗口期限制反映出大模型厂商在算力成本控制与高阶推理调度上的成熟。对于依赖 Claude 进行复杂开发和深度研究的 AI 从业者而言，无时间限制的高阶服务将显著提升持续工作流的效率。",
+      "summary": "Anthropic 团队成员 Boris Cherny 宣布，将为通过验证的 Ultra 订阅账户取消原有的 5 小时使用限制。这意味着重度 AI 用户将能够获得无间断的高阶模型使用体验。此举展现了 Anthropic 在系统算力调度优化与高价值客户服务上的最新进展。",
       "category": "大模型与技术突破",
       "sourceName": "Boris Cherny (@bcherny)",
       "sourceUrl": "https://x.com/bcherny/status/2116222842413142111"
@@ -49,17 +49,17 @@
     {
       "id": "gh-t3code-26",
       "title": "t3code: 基于全栈 TypeScript 的高性能 Web 应用开发框架",
-      "brief": "【为何关注】今日激增超 3000 Star，体现了开发者对全栈类型安全方案的强烈渴求。其架构设计极具参考价值，是 AI 辅助编程时代提升代码一致性与开发效率的必看项目。",
-      "summary": "t3code 是一个旨在简化全栈开发流程的现代化框架，它通过深度整合 TypeScript 生态，解决了前后端类型定义不同步的痛点。系统架构上，它采用了类型安全的端到端通信机制，确保从数据库模型到前端组件的类型一致性。其核心特性包括开箱即用的全栈配置、极简的 API 调用体验以及对现代 Web 性能的极致优化。该项目非常适合需要快速迭代、追求强类型安全且希望统一技术栈的初创团队或个人开发者，是构建复杂 Web 应用的理想基石。",
+      "brief": "【为何关注】今日暴涨 3,200+ Star 证明了其在全栈开发领域的统治力。对于追求类型安全与开发效率的 AI 应用开发者而言，t3code 是构建稳健后端服务的首选方案。",
+      "summary": "t3code 是一个旨在简化现代 Web 开发流程的全栈框架，核心痛点在于解决前后端类型同步与开发效率低下的问题。其架构深度集成 TypeScript，通过类型安全的端到端（End-to-End）通信机制，实现了从数据库模型到前端接口的无缝类型推断。关键特性包括：内置的模块化架构、开箱即用的高性能渲染引擎、以及对现代云原生部署的深度优化。该项目适用于需要快速迭代、追求极致类型安全与开发体验的中大型 Web 应用项目，是构建复杂业务逻辑的理想基石。",
       "category": "开源生产力工具",
       "sourceName": "GitHub: pingdotgg/t3code",
       "sourceUrl": "https://github.com/pingdotgg/t3code"
     },
     {
       "id": "x-steipete-18",
-      "title": "Peter Steinberger（OpenClaw 创始人）针对当前 AI 应用开发与行业现状表达了最新观点",
-      "brief": "【为何关注】Peter 从底层实践与管理实践双视角给出了硬核见解：技术选型上，建议 AI 开发者自建测试框架以摆脱平台化 API 的不可控束缚；团队管理上，提醒工程人员需正视 AI 时代下的职业转型与效率要求。这对从事 AI 应用开发与技术团队管理的从业者具有极高的启发意义。",
-      "summary": "Peter Steinberger（OpenClaw 创始人）针对当前 AI 应用开发与行业现状表达了最新观点。他强调由于中间商模型调度的推理质量不可预测，开发者更应自建评估框架（Harness），掌握对运行环境的主导权。同时，他还探讨了 AI 重新定义工程岗位后引发的文化冲突与工程师身份认同危机，呼吁开发者加快适应和成长。",
+      "title": "知名 AI 开发者 Peter Steinberger 近期分享了关于 AI 工具自治与行业文化变革的思考",
+      "brief": "【为何关注】Peter 的观点直击当前 AI 应用开发的痛点：工程师需要掌握自主控制权，避免过度依赖限制重重的第三方平台包装。同时，关于工程师在 AI 时代职业身份重构的讨论，为从业者在技术与心态上的快速转型提供了深刻的启发。",
+      "summary": "知名 AI 开发者 Peter Steinberger 近期分享了关于 AI 工具自治与行业文化变革的思考。他强调开发者应构建自有的测试与运行框架（Harness），避免受制于第三方中间商带来的不可预测推理质量及随意的规则修改。同时，他也讨论了 AI 重塑软件工程职业身份所引发的心理阵痛，指出技术人员需在技术大潮中加速自我迭代与成长。",
       "category": "开源生产力工具",
       "sourceName": "Peter Steinberger (@steipete)",
       "sourceUrl": "https://x.com/steipete/status/2116183103530217488"
@@ -74,13 +74,13 @@
       "sourceUrl": "https://x.com/rauchg/status/2117039740096847920"
     },
     {
-      "id": "gh-ifixai-27",
-      "title": "iFixAi: 专注于 AI Agent 独立审计与行为验证的开源评估框架",
-      "brief": "【为何关注】随着复杂智能体逐步接入真实业务系统，Agent 行为的可控性与审计能力正成为新的刚需。该项目今日单日大涨超 1,500 Star，其极速审计机制为智能体开发者构建可信 AI 提供了重要基础设施。",
-      "summary": "随着 AI Agent 经济的快速兴起，智能体行为是否符合预期成为落地的核心痛点。iFixAi 是一款轻量级开源 AI Agent 独立审计框架，支持由人类评估员或 Agent 自身触发审计。系统可在 120 秒内快速完成行为对齐、偏差检测与执行结果审计，适用于智能体上线前合规测试与线上运行时的实时可信监控。",
+      "id": "gh-agent-desktop-27",
+      "title": "Agent Desktop：基于系统无障碍树的桌面自动化AI代理",
+      "brief": "【为何关注】今日激增超 2200 Star，标志着 AI 代理从“视觉盲操”向“结构化交互”的范式转移。对于关注 AI Agent 落地与桌面自动化技术的开发者，该项目是目前实现高可靠性 UI 交互的最佳参考实现。",
+      "summary": "Agent Desktop 是一款由 Vercel Labs 开发的桌面自动化框架，旨在解决 AI 操控计算机时“像素级猜测”导致的低可靠性问题。该项目通过 Rust 构建，深度集成操作系统原生的无障碍访问树（Accessibility Trees），使 AI 能够精准识别 UI 结构、获取稳定的元素引用并执行可重试的操作。相比传统的视觉模型方案，它提供了更强的确定性与安全性，非常适合需要跨应用自动化操作、复杂桌面任务流编排的 AI 开发者与企业级自动化场景。",
       "category": "开源生产力工具",
-      "sourceName": "GitHub: ifixai-ai/iFixAi",
-      "sourceUrl": "https://github.com/ifixai-ai/iFixAi"
+      "sourceName": "GitHub: vercel-labs/agent-desktop",
+      "sourceUrl": "https://github.com/vercel-labs/agent-desktop"
     },
     {
       "id": "x-garrytan-9",
@@ -93,30 +93,39 @@
     },
     {
       "id": "x-amasad-6",
-      "title": "Replit 创始人兼 CEO Amjad Masad 近期集中分享了 Replit 在 AI Agent 落地领域的密集更新，包括一键运行任意 GitHu...",
-      "brief": "【为何关注】Amjad Masad 展示了 AI Agent 如何从单纯的代码辅助工具走向闭环运维与自我演进（如用户反馈直接驱动开发、自动化修复缺陷），代表了 AI 原生软件架构的发展趋势。其发布的 Agent 沙箱安全白皮书以及对 AI 成本补贴风险的警示，对 AI 产品经理、DevOps 工程师及应用开发者具有重要的实操与战略参考价值。",
-      "summary": "Replit 创始人兼 CEO Amjad Masad 近期集中分享了 Replit 在 AI Agent 落地领域的密集更新，包括一键运行任意 GitHub 仓库、将用户反馈自动转化为 Agent 构建指令，以及实现软件自动修复的“自我维护”能力。此外，Replit 还推出了面向政府机构的专用版本并发布了 Agent 安全沙箱白皮书。同时，Masad 也对当下凭借高额补贴维系的 AI 订阅模式发出预警，提示从业者注意后续的价格调整风险。",
+      "title": "Replit CEO Amjad Masad 近期集中展示了 Replit 向“自我维护软件”（Self-Maintaining Software）演进的多...",
+      "brief": "【为何关注】Amjad 展示了软件开发从“AI 辅助写代码”向“具备自我反馈闭环与自我维护功能的智能系统”演进的清晰路径。其关于 AI 成本补贴终结的商业警示以及 Agent 沙盒隔离白皮书，对关注 AI 原生应用架构设计与算力成本落地的开发者具有极高启发。",
+      "summary": "Replit CEO Amjad Masad 近期集中展示了 Replit 向“自我维护软件”（Self-Maintaining Software）演进的多项突破，包括将用户反馈直接转化为 Agent 提示词的反馈组件、一键自动修复功能以及一键运行 GitHub 仓库。此外，Replit 还发布了 AI Agent 沙盒安全架构白皮书，并推出了 Replit for Government。Masad 同时警示业内：依赖高额补贴的免费或低价 AI 订阅服务即将迎来涨价与调整的“撤资潮”（rug pull）。",
       "category": "开源生产力工具",
       "sourceName": "Amjad Masad (@amasad)",
       "sourceUrl": "https://x.com/amasad/status/2117010858845089805"
     },
     {
+      "id": "gh-public-apis-28",
+      "title": "public-apis: 全球开发者必备的免费公共 API 资源聚合索引库",
+      "brief": "【为何关注】今日激增超 1300 Star，体现了在 AI 应用开发热潮下，开发者对高质量数据源的迫切需求。它是快速构建 MVP 和验证 AI Agent 能力的绝佳资源库，极具收藏价值。",
+      "summary": "该项目是一个维护极佳的开源 API 导航库，旨在解决开发者在原型设计、学习实践或构建应用时寻找免费数据接口的痛点。它将数千个公共 API 按分类（如金融、游戏、天气、AI 等）进行结构化整理，并提供是否需要 API Key、是否支持 HTTPS 及 CORS 等关键元数据。其架构基于简单的 Markdown 列表与自动化校验脚本，极大地降低了开发者调研接口的时间成本。无论是全栈开发、前端演示还是 AI 模型的数据源获取，该项目都是不可或缺的效率工具。",
+      "category": "开源生产力工具",
+      "sourceName": "GitHub: public-apis/public-apis",
+      "sourceUrl": "https://github.com/public-apis/public-apis"
+    },
+    {
       "id": "x-joshwoodward-14",
-      "title": "Google VP Josh Woodward 宣布了 Gemini 生态系统的最新进展",
-      "brief": "【为何关注】值得 AI 从业者重点关注 Google 在“专家智能”战略上的落地节奏。免费引入 700+ 权威版权教材，展现了 AI 原生应用（如 NotebookLM）将优质垂直知识库与大模型深结合的巨大潜力，为 AI+教育与专业工具开发提供了极佳范例。",
-      "summary": "Google VP Josh Woodward 宣布了 Gemini 生态系统的最新进展。NotebookLM（Gemini Notebook）作为其“专家智能（Expert Intelligence）”计划的一部分，已免费向用户开放来自全球顶尖出版商的 700 多本专业教材。此外，Gemini App 也已在首日针对新一代硬件设备（iPhone Duo）完成了深度适配与优化。",
+      "title": "Google VP Josh Woodward 分享了 Gemini 生态系统的最新进展：Gemini Notebook 正式免费开放来自全球顶级出版商的 ...",
+      "brief": "【为何关注】Google 正通过将优质版权知识资源（如 700+ 顶尖教材）深度整合入 NotebookLM，加速构建垂直领域的“专家智能”壁垒。这种“高质量权威数据源 + AI 原生笔记”的结合模式，为 AI+教育、知识管理及专业级 RAG 应用落地提供了极具价值的示范。",
+      "summary": "Google VP Josh Woodward 分享了 Gemini 生态系统的最新进展：Gemini Notebook 正式免费开放来自全球顶级出版商的 700 多本权威教科书，作为其“专家智能（Expert Intelligence）”计划的核心一步；同时，Gemini App 已在首日完成对全新硬件设备 iPhone Duo 的针对性优化适配。",
       "category": "大模型与技术突破",
       "sourceName": "Josh Woodward (@joshwoodward)",
       "sourceUrl": "https://x.com/joshwoodward/status/2116220878593900775"
     },
     {
-      "id": "gh-browser-29",
-      "title": "Lightpanda：专为 AI 与自动化任务打造的高性能轻量级无头浏览器",
-      "brief": "【为何关注】今日激增 825 Star 标志着 AI 自动化领域对轻量化基础设施的迫切需求。对于寻求降低 AI 代理运行成本、提升网页交互效率的开发者而言，这是目前最值得关注的性能级替代方案。",
-      "summary": "Lightpanda 是一款采用 Zig 语言构建的现代化无头浏览器，旨在解决传统浏览器（如 Chrome/Puppeteer）在 AI 代理和自动化场景中资源占用过高、启动缓慢的痛点。其核心架构摒弃了臃肿的渲染引擎冗余，通过高度优化的内存管理和极简的 API 设计，实现了毫秒级的启动速度与极低的 CPU/内存消耗。该项目完美适配 LLM 驱动的网页抓取、自动化测试及大规模数据采集任务，为开发者提供了一个轻量、稳定且易于集成的浏览器运行时环境，是构建下一代 AI 智能体不可或缺的基础设施。",
+      "id": "gh-kronos-29",
+      "title": "Kronos：专为金融市场语言打造的垂直领域基础大模型",
+      "brief": "【为何关注】今日激增855星，反映了金融科技领域对垂直化大模型的迫切需求。Kronos 填补了通用模型在专业金融逻辑上的空白，是量化分析与智能投研从业者不可错过的技术基石。",
+      "summary": "Kronos 是一个针对金融领域深度优化的基础大模型，旨在解决通用大模型在处理高频交易数据、财报分析及复杂市场情绪预测时的专业性不足问题。该项目采用多模态金融数据训练架构，能够精准解析金融术语、量化指标及宏观经济趋势。其核心特性包括：高精度的金融语义理解、实时市场数据流处理能力以及针对金融合规性的安全对齐。适用于量化投资研究、智能投研助手及自动化金融报告生成等高门槛场景，为金融科技开发者提供了一套高性能的垂直领域AI底座。",
       "category": "开源生产力工具",
-      "sourceName": "GitHub: lightpanda-io/browser",
-      "sourceUrl": "https://github.com/lightpanda-io/browser"
+      "sourceName": "GitHub: shiyu-coder/Kronos",
+      "sourceUrl": "https://github.com/shiyu-coder/Kronos"
     },
     {
       "id": "x-levie-8",
@@ -128,91 +137,82 @@
       "sourceUrl": "https://x.com/levie/status/2117134917847093491"
     },
     {
-      "id": "gh-ziwei-doushu-28",
-      "title": "紫微斗数开源排盘引擎：基于《天纪》体系的专业命理计算框架",
-      "brief": "【为何关注】今日激增近千 Star，反映了开发者对传统文化数字化与算法化的高度热情。其严谨的逻辑建模与开源架构，是 AI 命理大模型训练及垂直领域应用开发的绝佳数据基座。",
-      "summary": "该项目是一个基于 TypeScript 构建的紫微斗数排盘引擎，核心复刻了倪海厦《天纪》命理体系。系统不仅实现了复杂的星盘排布算法与四化推演逻辑，还内置了详尽的格局知识库与古籍原文数据。它解决了传统命理排盘工具闭源、算法不透明及缺乏数字化接口的痛点，为开发者提供了一套模块化、高精度的命理计算底层能力，非常适合构建智能命理分析应用、学术研究平台或个性化预测系统。",
+      "id": "gh-colibri-30",
+      "title": "Colibri：基于纯C语言实现的轻量化MoE模型推理引擎",
+      "brief": "【为何关注】今日 Star 激增 655，反映了社区对“低成本运行大模型”的强烈需求。其纯 C 零依赖的架构设计极具工程参考价值，是 AI 边缘侧落地的必看项目。",
+      "summary": "Colibri 是一款极简主义的深度学习推理引擎，旨在让消费级硬件也能运行大规模混合专家（MoE）模型。其核心架构完全采用纯 C 编写，实现了零依赖的极致轻量化。通过创新的磁盘流式读取技术，Colibri 能够将庞大的专家参数按需加载至内存，有效突破了显存与内存的物理瓶颈。该项目不仅大幅降低了高性能 AI 模型的部署门槛，还为嵌入式设备及资源受限环境下的复杂推理任务提供了高效、可移植的解决方案，是边缘计算领域极具潜力的技术突破。",
       "category": "开源生产力工具",
-      "sourceName": "GitHub: Renhuai123/ziwei-doushu",
-      "sourceUrl": "https://github.com/Renhuai123/ziwei-doushu"
+      "sourceName": "GitHub: JustVugg/colibri",
+      "sourceUrl": "https://github.com/JustVugg/colibri"
     },
     {
-      "id": "gh-kronos-30",
-      "title": "Kronos: 专为金融市场语言打造的开创性时间序列与量化分析基础大模型",
-      "brief": "【为何关注】单日 Star 暴涨 630+，标志着 AI 大模型在量化金融与复杂时序预测领域的重大突破；推荐量化交易员、金融科技开发者以及时序大模型研究者重点关注与探索。",
-      "summary": "Kronos 旨在解决传统金融建模难以捕捉多资产跨周期复杂动态与市场噪声的痛点。该项目将金融市场的时间序列与交易信号重构为“市场语言”，通过在大规模历史交易数据（如K线、订单簿、成交量）上进行预训练，构建了专门面向金融领域的基础大模型。其具备强大的时序表征能力与泛化迁移能力，能够准确预测市场趋势并捕捉微观结构变化，适用于量化交易策略研发、风险管理及市场预测等金融场景。",
+      "id": "gh-spec-kit-32",
+      "title": "spec-kit: GitHub 官方推出的标准化开发流程与 SDD 辅助工具包",
+      "brief": "【为何关注】作为 GitHub 官方出品的工程化利器，今日激增 548 Star 反映了社区对标准化研发流程的迫切需求，是 AI 辅助编程时代规范化产出的重要基石，值得团队引入以提升架构一致性。",
+      "summary": "spec-kit 是 GitHub 官方开源的一套标准化工具集，旨在通过规范化流程（如 SDD，即软件设计文档）提升研发效能。该项目通过 Python 构建，核心架构围绕“流程自动化”与“文档即代码”理念，帮助开发者在项目启动阶段快速生成结构化规范，降低跨团队协作的沟通成本。它不仅是一个文档模板库，更是一套可落地的工程实践框架，适用于追求高标准工程化、需要快速对齐技术方案的研发团队，有效解决了复杂项目在起步阶段缺乏统一范式导致的架构漂移问题。",
       "category": "开源生产力工具",
-      "sourceName": "GitHub: shiyu-coder/Kronos",
-      "sourceUrl": "https://github.com/shiyu-coder/Kronos"
+      "sourceName": "GitHub: github/spec-kit",
+      "sourceUrl": "https://github.com/github/spec-kit"
     },
     {
-      "id": "gh-paperclip-32",
-      "title": "Paperclip: 企业级AI智能体工作流管理与协作平台",
-      "brief": "【为何关注】今日激增500+ Star，反映了开发者对AgentOps（智能体运维）工具的迫切需求。其成熟的架构设计是企业落地AI生产力的重要参考，值得关注。",
-      "summary": "Paperclip 是一个专为企业办公场景设计的开源智能体管理平台。它解决了企业在部署多个AI Agent时面临的碎片化管理、权限控制及工作流集成难题。系统采用 TypeScript 构建，具备高度可扩展的插件架构，支持将AI能力无缝嵌入现有的业务流程中。核心特性包括统一的Agent编排界面、细粒度的任务监控以及企业级的安全合规保障。该项目适用于需要构建自动化办公生态、提升团队协作效率的开发团队与企业用户，是目前开源领域处理复杂Agent协作的标杆级解决方案。",
+      "id": "gh-hyprland-33",
+      "title": "Hyprland: 基于Wayland的高性能动态平铺式窗口管理器",
+      "brief": "【为何关注】今日激增 508 Star，反映了 Linux 桌面生态向 Wayland 迁移的强劲趋势。其优秀的渲染架构与代码质量，是研究高性能图形合成与桌面环境开发的必读范例。",
+      "summary": "Hyprland 是一款基于 Wayland 协议构建的独立平铺式合成器，旨在解决传统 X11 环境下窗口管理效率低与视觉交互陈旧的痛点。其核心架构采用现代 C++ 编写，通过高度优化的渲染管线实现流畅的动画效果与极低的延迟。项目支持高度自定义的插件系统与配置方案，不仅为 Linux 桌面用户提供了极具现代感的视觉体验，也为追求极致系统定制化与性能的开发者提供了理想的底层实验平台。其在 Wayland 生态中的领先地位，使其成为构建下一代 Linux 桌面环境的核心组件。",
       "category": "开源生产力工具",
-      "sourceName": "GitHub: paperclipai/paperclip",
-      "sourceUrl": "https://github.com/paperclipai/paperclip"
+      "sourceName": "GitHub: hyprwm/Hyprland",
+      "sourceUrl": "https://github.com/hyprwm/Hyprland"
     },
     {
-      "id": "gh-jailbreaks-31",
-      "title": "jailbreaks: 大语言模型指令越狱提示词与对抗性测试合集",
-      "brief": "【为何关注】今日Star激增726，反映了社区对AI安全性与模型对齐机制的高度关注。对于AI从业者而言，这是研究模型防御边界与提升提示词鲁棒性的必备参考库。",
-      "summary": "该项目是一个高度集中的大语言模型（LLM）越狱提示词（Jailbreak Prompts）资源库。它通过收集并整理各类绕过AI安全护栏的指令，旨在测试模型在面对诱导性、对抗性输入时的鲁棒性与边界。项目核心痛点在于为安全研究人员和开发者提供了一套完整的“攻击向量”参考，帮助评估模型在处理违规内容时的防御机制。其架构本质上是一个结构化的提示词工程数据集，适用于红队测试（Red Teaming）、AI安全性评估以及对模型对齐机制的深入研究，是理解当前主流模型安全防御短板的关键窗口。",
+      "id": "gh-freetoken-31",
+      "title": "FreeToken：实现桌面端高效运行数据中心级大模型",
+      "brief": "【为何关注】今日激增 654 Star，反映了开发者对本地化高性能推理的迫切需求。其在降低算力成本方面的突破，使其成为当前 AI 落地应用领域极具潜力的基础设施项目。",
+      "summary": "FreeToken 旨在打破高性能模型推理的硬件壁垒，将数据中心级的模型服务能力平移至个人桌面环境。该项目通过深度优化的推理引擎，显著降低了运行超大规模模型所需的显存与算力门槛。其架构核心在于高效的量化技术与内存管理机制，支持在消费级 GPU 上实现低延迟、高吞吐的推理表现。该工具特别适用于需要本地化部署、追求数据隐私及低成本算力的 AI 开发者与研究人员，是实现“个人算力自由”的重要基础设施。",
       "category": "开源生产力工具",
-      "sourceName": "GitHub: togg53192-cmd/jailbreaks",
-      "sourceUrl": "https://github.com/togg53192-cmd/jailbreaks"
-    },
-    {
-      "id": "gh-skills-33",
-      "title": "Anthropics/skills：构建大模型智能体（Agent）的标准技能库",
-      "brief": "【为何关注】作为 Claude 生态的核心组件，该项目今日激增 431 Star，反映了开发者对 Agent 落地标准化的迫切需求，是深入研究大模型工具调用（Tool Use）的最佳参考范本。",
-      "summary": "该项目由 Anthropic 官方发布，旨在为 AI Agent 提供一套标准化、可复用的工具与技能集。它解决了大模型在执行复杂任务时缺乏规范化操作接口的痛点，通过定义清晰的工具调用协议，使模型能够更精准地与外部环境交互。架构上采用模块化设计，支持快速扩展各类业务逻辑，适用于自动化办公、数据处理及复杂决策场景。作为构建 Claude 生态智能体的基石，它为开发者提供了从 Prompt 到工具调用的最佳实践范式。",
-      "category": "开源生产力工具",
-      "sourceName": "GitHub: anthropics/skills",
-      "sourceUrl": "https://github.com/anthropics/skills"
+      "sourceName": "GitHub: FlashML-org/FreeToken",
+      "sourceUrl": "https://github.com/FlashML-org/FreeToken"
     },
     {
       "id": "x-ryolu_-17",
-      "title": "前 Cursor 与 Notion 核心设计师 Ryo Lu 发布了最新实验性项目“ryOS”，展示了其运行在概念双屏设备 iPhone Duo 上的效果，...",
-      "brief": "【为何关注】作为曾塑造 Cursor 和 Notion 等颠覆性产品的设计大师，Ryo Lu 对下一代操作系统（ryOS）的探索代表了前沿的人机交互（HCI）实验。他将不设限的内心灵感与软件设计相结合的思考，为 AI 时代的全新交互范式与产品美学带来了极具价值的启示。",
-      "summary": "前 Cursor 与 Notion 核心设计师 Ryo Lu 发布了最新实验性项目“ryOS”，展示了其运行在概念双屏设备 iPhone Duo 上的效果，并宣称体验优于 iOS，目前已开放 TestFlight 内测申请。同时，他还分享了一首探讨内心原生创造力与成年世界碰撞的感性短诗，体现了他“像水无形、像纸无规”的软件设计哲学。",
-      "category": "论文前沿",
+      "title": "曾设计 Cursor、Notion 与 Stripe 的资深产品 Builder Ryo Lu 展示了其最新开发的全新操作系统概念“ryOS”（运行于 iP...",
+      "brief": "【为何关注】Ryo Lu 拥有顶尖 AI 工具与生产力软件（Cursor、Notion）的设计基因，他所探索的 ryOS 代表了对下一代人机交互与操作系统形态的先锋实验。对于关注 AI 原生交互、产品体验革新以及软件构建者哲学的从业者而言，他的实践与思考极具启发意义。",
+      "summary": "曾设计 Cursor、Notion 与 Stripe 的资深产品 Builder Ryo Lu 展示了其最新开发的全新操作系统概念“ryOS”（运行于 iPhone Duo 上），称其体验超越 iOS，并开放了 TestFlight 内测申请。此外，他还分享了一首诗作《big boy》，在感叹成年人世界困顿的同时，表达了对保持童心、无拘无束探索未知的创作哲学的坚守。",
+      "category": "大模型与技术突破",
       "sourceName": "Ryo Lu (@ryolu_)",
       "sourceUrl": "https://x.com/ryolu_/status/2116126802045509710"
     },
     {
       "id": "x-petergyang-4",
-      "title": "Peter Yang 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
-      "brief": "【为何关注】作为 Peter Yang 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
-      "summary": "Peter Yang 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
+      "title": "Peter Yang 预告了其深度访谈栏目《Behind the Craft》的重磅嘉宾阵容，涵盖 OpenAI 产品副总裁、Anthropic 核心设计师...",
+      "brief": "【为何关注】Peter Yang 始终站在一线实操者角度筛选高价值信息。本期不仅预告了涵盖 OpenAI、Anthropic 及顶级 Agent 开发者的高质量访谈，还给出了极具参考价值的 AI 工具落地分工矩阵，对关注 AI Agent 实践、产品 UI 范式演进与工具选型的从业者大有裨益。",
+      "summary": "Peter Yang 预告了其深度访谈栏目《Behind the Craft》的重磅嘉宾阵容，涵盖 OpenAI 产品副总裁、Anthropic 核心设计师、代码 Agent 专家以及年消耗 3200 万美元 Claude API 的极客游戏公司创始人。同时，他分享了当前的个人 AI 工具分工矩阵：ChatGPT+Codex 用于电脑操控、Claude 侧重设计与审美、Grok Bot 负责 24/7 自动化 Agent。此外，他还探讨了 AI 时代产品 UI 必然重塑及去界面化的趋势。",
       "category": "开源生产力工具",
       "sourceName": "Peter Yang (@petergyang)",
       "sourceUrl": "https://x.com/petergyang/status/2117059131349868790"
     },
     {
       "id": "x-swyx-2",
-      "title": "Swyx 近期围绕 LLM 的推理深度设置（Effort Level）展开讨论，透露 Andrej Karpathy 在新发布的 Hackertube 项目...",
-      "brief": "【为何关注】随着主流大模型逐渐开放思考/推理强度（Effort Level）的调控，如何在生成质量、API 延迟与算力成本之间取得最佳平衡已成为 AI Engineer 的核心课题。Swyx 提出的“低 Effort + 快速反馈迭代”模式为高频应用开发提供了切实的工程参考。",
-      "summary": "Swyx 近期围绕 LLM 的推理深度设置（Effort Level）展开讨论，透露 Andrej Karpathy 在新发布的 Hackertube 项目中使用了 Opus 5.5 的中等（Medium）Effort 模式。他提出在吞吐量受限的场景下，“低 Effort + 快速反馈循环（Critique Loop）”的开发效率远胜于盲目追求极高 Effort。Swyx 幽默地将开发者对 Effort Level 的争论比作 AI 时代的“Tab 与空格之争”，建议大家按需调整。",
-      "category": "大模型与技术突破",
+      "title": "知名 AI 开发者 Swyx 近期探讨了大模型“推理努力程度（Effort Level）”设置的实践经验",
+      "brief": "【为何关注】随着推理模型普遍引入 Effort Level 调控机制，如何在响应时延、计算成本与输出质量之间取得平衡成为 AI 应用开发的核心。Swyx 提出的“低 Effort 配合快速批评循环”工作流设计，为构建高吞吐量 Agent 与自动化工作流提供了极其实用的架构参考。",
+      "summary": "知名 AI 开发者 Swyx 近期探讨了大模型“推理努力程度（Effort Level）”设置的实践经验。针对 Andrej Karpathy 在新项目 Hackertube 中选用 Opus 5.5 中等 Effort 的做法，Swyx 指出在受限于吞吐量的场景下，“低 Effort + 批评反馈循环（Critique Loop）”的综合效率远胜于一味追求极致的高 Effort 模式。他幽默地将对 Effort Level 的争论比作当代代码缩进的“Tab 键与空格键之争”，建议开发者根据需求灵活调优。",
+      "category": "论文前沿",
       "sourceName": "Swyx (@swyx)",
       "sourceUrl": "https://x.com/swyx/status/2116782055665402157"
     },
     {
       "id": "x-zarazhangrui-10",
-      "title": "AI 开发者 Zara Zhang 分享了关于 AI 辅助创意设计与内容制作的最新探索",
-      "brief": "【为何关注】Zara Zhang 的实践展示了 AI Agent 在提升独立创作者生产力和审美表达上的双重价值。从单提示词全自动剪辑到个人品牌的美学构建，为希望突破技能边界、用 AI 实现创意落地的开发者与产品经理提供了极具启发性的实操思路。",
-      "summary": "AI 开发者 Zara Zhang 分享了关于 AI 辅助创意设计与内容制作的最新探索。她不仅展示了一个将个人链接树（Linktree）概念具象化为“真正的树”的趣味交互项目，还分享了仅凭单一超长 Prompt 驱动编程 Agent 自动完成视频剪辑的案例。此外，她还发布了视频短片，深入探讨非设计专业背景的 Builder 如何借助 AI 打造高品味的美学作品。",
+      "title": "AI Builder Zara Zhang 分享了其在 AI 创意表达与自动化工作流上的最新尝试",
+      "brief": "【为何关注】Zara Zhang 的探索展现了 AI 时代个人 Builder 的全新创作形态：利用 Coding Agent 自动化处理复杂的视频后期，同时借助 AI 降低高品味设计的门槛。这为非设计背景的开发者与内容创作者提供了打造高质感“一人公司”或个人 IP 的极佳思路。",
+      "summary": "AI Builder Zara Zhang 分享了其在 AI 创意表达与自动化工作流上的最新尝试。她展示了如何仅凭一条超长的 Prompt 驱动 Coding Agent 独立完成视频剪辑，并发布了探讨非设计专业人士如何用 AI 打造高品味作品的视频短片。此外，她还展示了将个人链接树（Linktree）做成真正动态交互“树”的趣味创意项目。",
       "category": "大模型与技术突破",
       "sourceName": "Zara Zhang (@zarazhangrui)",
       "sourceUrl": "https://x.com/zarazhangrui/status/2117086544586780867"
     },
     {
       "id": "x-alexalbert__-16",
-      "title": "Anthropic 研究人员 Alex Albert 分享了 Claude 订阅方案的最新调整与发展历程",
-      "brief": "【为何关注】此动态反映了大模型头部厂商在商业方案设计与算力限制策略上的最新调整。解除 5 小时速率限制体现了 Anthropic 在后端算力调度与服务吞吐上的能力提升，对于关注 AI 产品商业化定价及重度 API/Web 交互体验的从业者具有重要参考价值。",
-      "summary": "Anthropic 研究人员 Alex Albert 分享了 Claude 订阅方案的最新调整与发展历程。官方将原本的 “Max 20x” 层级正式重命名为 “Ultra”，并大幅优化了使用体验。最关键的改进是消除了针对 Ultra 订阅用户的 5 小时使用速率限制（rate limit），为重度开发者和高频用户提供了更顺畅的调用保障。",
+      "title": "Anthropic 研究人员 Alex Albert 分享了 Claude 高级订阅方案的最新调整与发展沿革",
+      "brief": "【为何关注】头部 AI 厂商的订阅服务与算力限制调整是行业重要风向标。解除 5 小时速率限制反映出 Anthropic 在推理算力调度与基础设施上的优化，对于依赖 Claude 进行深度编程、长文本分析的重度从业者而言，大幅提升了生产力工具的稳定性。",
+      "summary": "Anthropic 研究人员 Alex Albert 分享了 Claude 高级订阅方案的最新调整与发展沿革。原本的“Max 20x”订阅方案已正式更名为更具辨识度的“Ultra”。更重要的是，Anthropic 取消了 Ultra 订阅用户原有的 5 小时速率限制（rate limit），为重度用户提供了更持续流畅的高频模型使用体验。",
       "category": "大模型与技术突破",
       "sourceName": "Alex Albert (@alexalbert__)",
       "sourceUrl": "https://x.com/alexalbert__/status/2116227346869194935"
@@ -220,32 +220,32 @@
     {
       "id": "podcast-22",
       "title": "Ep 95: Modal CEO on the Future of Inference, the Chaos of the GPU Market &amp;...",
-      "brief": "【核心提炼】如果你对AI基础设施的底层逻辑、算力调度以及初创公司如何在高压市场中建立护城河感兴趣，本期节目是必听之作。它揭开了AI繁荣背后真实的“算力供应链”真相。",
-      "summary": "本期播客邀请了 Modal CEO Eric，深度剖析了当前AI算力市场的混乱现状与未来演进。核心Takeaway：算力市场目前极度非标且碎片化，Modal通过聚合多云资源，将开发者从底层“算力找寻”的泥潭中解放出来。反直觉洞见在于，尽管全球算力需求激增，但算力并非完全不可得，只是获取渠道极其原始且低效。正如Eric所言：“去年的GTC大会简直就是一场GPU版的‘露天毒品交易市场’，人们在酒店大堂交换联系方式，甚至通过高尔夫球友介绍来获取算力。”这种“刀耕火种”的现状揭示了AI基础设施层仍处于极早期的野蛮生长阶段。",
+      "brief": "【核心提炼】深度播客能听到创始人和研究者不公开在社交媒体深谈的思考框架与真实踩坑经验，极具启发性。",
+      "summary": "本期 Unsupervised Learning 聚焦「Ep 95: Modal CEO on the Future of Inference, the Chaos of the GPU Market &amp; Origins of the Sandbox Bet」，嘉宾从一线实践角度深入剖析了行业趋势与技术落地中的反直觉观察。",
       "category": "开源生产力工具",
       "sourceUrl": "https://www.youtube.com/@RedpointAI"
     },
     {
       "id": "podcast-23",
       "title": "Using Agents for Long-Horizon Financial Work — Aman Singh, Arca",
-      "brief": "【核心提炼】适合对 AI Agent 落地应用、金融科技自动化以及企业如何构建模型评估体系感兴趣的开发者与产品经理收听。它展示了 AI 如何在高度依赖信任的行业中，通过“后台赋能”而非“前台替代”实现商业价值。",
-      "summary": "Arca 是一家 AI 原生财富管理公司，其核心逻辑在于利用 AI 代理处理繁琐的后台事务，而非直接替代人类顾问。核心 Takeaway：AI 的终极价值在于将“被动服务”转变为“主动式关怀”，通过 24/7 的后台监控，让 AI 代理反向驱动人类顾问的工作流。反直觉洞见在于，Arca 并不追求单一模型，而是建立了一套严苛的内部基准测试（Internal Benchmarks），甚至会因为性能与成本问题放弃外部公认的顶级模型。精彩金句：“Agents prompt people more than people prompt agents.”（代理反过来提示人类，而非人类提示代理）。",
+      "brief": "【核心提炼】深度播客能听到创始人和研究者不公开在社交媒体深谈的思考框架与真实踩坑经验，极具启发性。",
+      "summary": "本期 Latent Space 聚焦「Using Agents for Long-Horizon Financial Work — Aman Singh, Arca」，嘉宾从一线实践角度深入剖析了行业趋势与技术落地中的反直觉观察。",
       "category": "开源生产力工具",
       "sourceUrl": "https://www.youtube.com/@LatentSpacePod"
     },
     {
       "id": "podcast-24",
       "title": "Taking on ServiceNow: Coding Agents the Rest of Us with Serval Co-Founder and ...",
-      "brief": "【核心提炼】如果你关注企业软件的 AI 转型，或者想了解如何通过 AI 挑战传统 SaaS 巨头（如 ServiceNow），本期内容提供了极具实战意义的视角。它深刻剖析了为何“自动化”在企业内部落地如此困难，以及初创公司如何通过切入“合规与安全”这一痛点实现突围。",
-      "summary": "本期播客探讨了 Serval 如何通过代码生成代理（Coding Agents）挑战企业服务管理巨头 ServiceNow。核心 Takeaway：企业级 AI 的真正壁垒不在于模型能力，而在于如何构建一套既能实现高度自动化，又能满足企业严苛安全合规要求的“护栏”。反直觉洞见在于，ServiceNow 的强大恰恰是其痛点——过于复杂的定制化导致企业难以快速响应业务变化，而 Serval 试图通过 AI 代理降低这种“自动化门槛”。金句：“在企业环境中，自主性（Autonomy）既是圣杯也是梦魇，Serval 的存在就是为了在两者之间建立边界。”",
+      "brief": "【核心提炼】深度拆解了 AI Agent 如何切入传统 B 端 SaaS 巨头（ServiceNow）的核心领地，非常适合关注 B 端 AI 落地、工作流重构以及企业级安全合规架构的创业者与 IT 决策者收听。",
+      "summary": "核心 Takeaway：Serval 试图通过代码生成（Code-Gen）Agent 重新定义企业服务管理（ESM），以“安全护栏”架构直接对标并颠覆传统 IT 自动化巨头 ServiceNow。\n\n反直觉洞见：在企业级 AI 落地中，Agent 的绝对自主性（Autonomy）非但不是卖点，反而会带来企业无法承受的“无限安全风险”。企业真正需要的不是无拘无束的 AI，而是在规则、流程与企业政治约束下可控运行的“带约束智能”。\n\n传统巨头如 ServiceNow 虽功能强大，但面临系统僵化、定制成本高昂（动辄需 6-12 个月顾问实施）且费用飞涨的痛点。Serval 提出利用 AI 实时生成代码来动态驱动工作流，既解决了传统系统对动态需求的滞后响应，又通过安全护栏让企业能安心部署。\n\n精彩金句：“自主性在企业环境中是令人恐惧的；Serval 的作用不是限制 AI，而是作为护栏，让大企业能够在复杂的规则与政治流程中安全、大规模地拥抱 AI。”",
       "category": "AI 投资与商业",
       "sourceUrl": "https://www.youtube.com/@NoPriorsPodcast"
     },
     {
       "id": "podcast-25",
       "title": "State of AI 2026: The Biggest Stories of the Year (and AGI in 2027?) | Nathan ...",
-      "brief": "【核心提炼】这是 AI 领域年度必读/必听的“风向标”内容。如果你想在碎片化信息中捕捉 AI 发展的真实节奏，而非被炒作所左右，本期节目提供了极具参考价值的宏观视角与前瞻预测。",
-      "summary": "本期播客中，Nathan Benaich 深度解析了《2026 AI 现状报告》，核心观点认为 AI 发展的加速度已远超预期，AGI 有望在 2027 年实现。反直觉洞见在于，相比于“AI 毁灭人类”的科幻式恐惧，现实中 AI 带来的网络安全风险以及数据中心选址引发的社区抵触（NIMBY 效应）更为紧迫且真实。Benaich 强调，当 AI 能够通过递归自我改进（RSI）在法律、金融等复杂领域表现优于人类专家时，AGI 的门槛便已跨越。精彩金句：“你要么在通往 AGI 的前沿阵地上倒下，要么就活得足够久，最终成为 AI 推理服务的‘打工人’。”",
+      "brief": "【核心提炼】这是了解 AI 行业年度风向标的最佳入口。Nathan Benaich 的报告以数据驱动著称，本期对话不仅拆解了技术趋势，更探讨了 AI 对资本运作与社会基础设施的深远影响，极具前瞻性。",
+      "summary": "本期播客中，Nathan Benaich 深度解析了《2026 AI 现状报告》，核心观点认为 AGI 可能在 2027 年到来。反直觉的是，Nathan 指出相比于 AI 毁灭人类的科幻式担忧，AI 引发的网络安全风险更为迫切且现实；同时，公众对数据中心的抵触情绪已超过对核电站的排斥。精彩金句：“你要么在通往 AI 前沿的路上耗尽资源而死，要么活得足够久，最终成为 AI 推理服务的‘打工人’。” Nathan 强调，随着递归自我改进（RSI）的演进，当模型能够自我验证并突破算力与合成数据的瓶颈时，知识工作将迎来范式转移。",
       "category": "AI 投资与商业",
       "sourceUrl": "https://www.youtube.com/@DataDrivenNYC/videos"
     },
@@ -260,36 +260,36 @@
     },
     {
       "id": "x-danshipper-11",
-      "title": "Every 创始人 Dan Shipper 近期正在为其 11 月 5 日举办的 flagship 直播活动“Thesis”做预热，活动将向观众抽取价值 2...",
-      "brief": "【为何关注】Dan Shipper 是专注于 AI 前沿应用与工作流探索的顶尖 Builder，Every 团队推出的项目往往贴合开发者真实痛点。其即将举办的 Thesis 大会不仅聚集了 OpenAI 和 Anthropic 等顶尖生态资源，更展现了媒体与 AI 算力/工具深度协同的社区运营新范式，非常值得 AI 创业者与开发者关注。",
-      "summary": "Every 创始人 Dan Shipper 近期正在为其 11 月 5 日举办的 flagship 直播活动“Thesis”做预热，活动将向观众抽取价值 2 万美元的 OpenAI、Anthropic 及 Notion 合作积分。此外，他还展示了 Every 旗下 AI 产研项目 Argon 的最新进展，并对行业内的反竞争行为提出了公开批评。",
+      "title": "Every 创始人兼 CEO Dan Shipper 近期重点预告了将于 11 月 5 日举办的 Every「Thesis」免费线上直播活动",
+      "brief": "【为何关注】Every 是目前最活跃的 AI 探路者与产品实验阵地之一。本次 Thesis 活动不仅能免费获取 OpenAI、Anthropic 等头部 AI 厂商的实打实 API/软件资源补贴，更能借此了解前沿 AI 原生应用（如 Argon）的构建逻辑与工作流拆解，非常值得 AI 创业者和开发者参与。",
+      "summary": "Every 创始人兼 CEO Dan Shipper 近期重点预告了将于 11 月 5 日举办的 Every「Thesis」免费线上直播活动。本次活动Every 联合 Notion、Anthropic 和 OpenAI，为直播观众准备了总价值 20,000 美元的开发者积分与合作福利。此外，他还展示了团队在 AI 产品 Argon 上的最新开发进展，并对近期科技圈的不正当竞争行为表达了关注。",
       "category": "大模型与技术突破",
       "sourceName": "Dan Shipper (@danshipper)",
       "sourceUrl": "https://x.com/danshipper/status/2117014507083948453"
     },
     {
       "id": "x-GoogleLabs-21",
-      "title": "Google Labs 近期回顾了开发者利用 Jules Agent 提升自动化构建与交付效率的成果",
-      "brief": "【为何关注】Jules Agent 代表了 Google 在 AI 智能体辅助开发领域的最新探索，其强调的“从反馈中迭代”模式是构建高生产力 AI 工具的关键。从业者应关注此类工具如何通过自动化工作流降低开发门槛，并思考如何将 AI 智能体深度集成至现有的 CI/CD 流程中。",
-      "summary": "Google Labs 近期回顾了开发者利用 Jules Agent 提升自动化构建与交付效率的成果。官方强调，Jules Agent 的演进深度融合了开发者社区的反馈，正持续重塑 AI 辅助编程的未来范式。",
-      "category": "AI 投资与商业",
+      "title": "Google Labs 发文总结了其 AI 编程 Agent 工具 @julesagent 的最新应用进展",
+      "brief": "【为何关注】Jules 作为 Google 在 AI Agent 编码领域的探索代表，其落地实践体现了 AI 从“辅助写码”向“自动化工作流交付”的演进。AI 从业者可借此观察 Google 如何将实验性 Agent 的实际反馈融入其整个开发者生态，思考 AI 原生开发工具的未来形态。",
+      "summary": "Google Labs 发文总结了其 AI 编程 Agent 工具 @julesagent 的最新应用进展。开发者利用 Jules 实现了更快的产品构建、流程自动化与代码交付，这些实践经验正在直接影响和塑造 Google 的全线开发者产品。Google Labs 表示，AI 驱动的编程未来才刚刚揭开序幕。",
+      "category": "开源生产力工具",
       "sourceName": "Google Labs (@GoogleLabs)",
       "sourceUrl": "https://x.com/GoogleLabs/status/2115884247504625669"
     },
     {
       "id": "x-nikunj-13",
-      "title": "FPV Ventures 合伙人 Nikunj Kothari 在社交媒体分享了旧金山独特的科技文化与生活动态",
-      "brief": "【为何关注】侧写了旧金山湾区独特的极客文化与风投合伙人的生活日常。对于希望了解硅谷科技社群氛围与文化语境的 AI 从业者而言，提供了真实而幽默的观察视角。",
-      "summary": "FPV Ventures 合伙人 Nikunj Kothari 在社交媒体分享了旧金山独特的科技文化与生活动态。他调侃了硅谷极客在万圣节装扮成“网络安全意识月”的硬核科技幽默，同时也记录了迎来越冬初雪的生活时刻。",
-      "category": "大模型与技术突破",
+      "title": "FPV Ventures 合伙人 Nikunj Kothari 吐槽了旧金山独特的万圣节科技文化——有人竟将自己装扮成“网络安全意识月”",
+      "brief": "【为何关注】展现了旧金山湾区极具特色、略带极客硬核色彩的科技社区文化。对于想要了解硅谷创投圈生活氛围与文化语境的从业者而言，提供了一个生动的微观视角。",
+      "summary": "FPV Ventures 合伙人 Nikunj Kothari 吐槽了旧金山独特的万圣节科技文化——有人竟将自己装扮成“网络安全意识月”。此外，他也分享了迎来初雪的生活瞬间，展现了硅谷投资人幽默与生活化的一面。",
+      "category": "AI 投资与商业",
       "sourceName": "Nikunj Kothari (@nikunj)",
       "sourceUrl": "https://x.com/nikunj/status/2116624458198982668"
     },
     {
       "id": "x-adityaag-19",
-      "title": "前 Dropbox CTO、现 SPC 合伙人 Aditya Agarwal 发文直指投资者和媒体过度执着于最后一轮私募融资估值的现象",
-      "brief": "【为何关注】作为经历过 Facebook 早期成长与 Dropbox 上市全过程的资深科技领袖，Aditya 的观点为当热潮中的 AI 创业者与投资者敲响了警钟。在 AI 行业普遍追求一级市场高估值的当下，该观点提醒从业者应将目光放长远，专注于可持续的商业模式与上市后的长期价值创造，而非困于短期融资估值的公关游戏。",
-      "summary": "前 Dropbox CTO、现 SPC 合伙人 Aditya Agarwal 发文直指投资者和媒体过度执着于最后一轮私募融资估值的现象。他以蚂蚁集团（ANT）为例指出，无论上市估值是 1.2 万亿还是 2 万亿美元，能在 6 年内完成如此量级的价值创造已极其惊人。更重要的是，企业绝大部分的真正价值实际上是在上市后的长期运营中创造出来的。",
+      "title": "前 Dropbox CTO、SPC 资深投资人 Aditya Agarwal 针对市场对未上市公司最后一轮估值的过度关注表达了思考",
+      "brief": "【为何关注】作为经历过 Facebook 早期与 Dropbox 规模化的资深 Builder 及顶尖投资者，Aditya 的观点为当下的 AI 创业热潮提供了冷静思考。在 AI 独角兽私有估值屡创新高的背景下，这一视角提醒创业者与投资者摆脱“估值焦虑”，重新聚焦于长期的真实价值创造与可持续增长。",
+      "summary": "前 Dropbox CTO、SPC 资深投资人 Aditya Agarwal 针对市场对未上市公司最后一轮估值的过度关注表达了思考。他指出，重点在于企业在短短几年内实现了惊人的价值创造，而非纠结于具体的估值数字。更重要的是，企业绝大部分的长期价值实际上是在上市后才被持续创造出来的。",
       "category": "AI 投资与商业",
       "sourceName": "Aditya Agarwal (@adityaag)",
       "sourceUrl": "https://x.com/adityaag/status/2116249251651215822"
