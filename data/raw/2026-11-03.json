@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-03T07:51:54.092Z",
+  "fetchedAt": "2026-11-03T11:11:58.324Z",
   "stats": {
     "buildersCount": 12,
     "totalTweets": 29,
@@ -448,9 +448,9 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 3229,
-      "totalStars": 42619,
-      "forks": 9140,
-      "channel": "全语言热门 / TypeScript/前端"
+      "totalStars": 43020,
+      "forks": 9163,
+      "channel": "TypeScript/前端"
     },
     {
       "repo": "vercel-labs/agent-desktop",
@@ -461,8 +461,8 @@
       "language": "Rust",
       "languageColor": "#dea584",
       "starsToday": 2275,
-      "totalStars": 10934,
-      "forks": 731,
+      "totalStars": 11487,
+      "forks": 779,
       "channel": "全语言热门"
     },
     {
@@ -474,8 +474,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 1311,
-      "totalStars": 495647,
-      "forks": 55334,
+      "totalStars": 495707,
+      "forks": 55345,
       "channel": "Python AI 专区"
     },
     {
@@ -487,21 +487,34 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 857,
-      "totalStars": 46137,
-      "forks": 7603,
+      "totalStars": 46216,
+      "forks": 7620,
       "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "tashfeenahmed/freellmapi",
+      "owner": "tashfeenahmed",
+      "name": "freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 689,
+      "totalStars": 46702,
+      "forks": 6383,
+      "channel": "TypeScript/前端"
     },
     {
       "repo": "JustVugg/colibri",
       "owner": "JustVugg",
       "name": "colibri",
       "url": "https://github.com/JustVugg/colibri",
-      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
       "language": "C",
       "languageColor": "#555555",
       "starsToday": 675,
-      "totalStars": 46794,
-      "forks": 5402,
+      "totalStars": 46908,
+      "forks": 5414,
       "channel": "全语言热门"
     },
     {
@@ -513,35 +526,22 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 653,
-      "totalStars": 16304,
-      "forks": 1601,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
-      "repo": "github/spec-kit",
-      "owner": "github",
-      "name": "spec-kit",
-      "url": "https://github.com/github/spec-kit",
-      "description": "💫 Toolkit to help you get started with SDD or any other process!",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 540,
-      "totalStars": 145917,
-      "forks": 13084,
+      "totalStars": 16394,
+      "forks": 1605,
       "channel": "Python AI 专区"
     },
     {
-      "repo": "hyprwm/Hyprland",
-      "owner": "hyprwm",
-      "name": "Hyprland",
-      "url": "https://github.com/hyprwm/Hyprland",
-      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "starsToday": 509,
-      "totalStars": 40102,
-      "forks": 2159,
-      "channel": "全语言热门"
+      "repo": "blader/humanizer",
+      "owner": "blader",
+      "name": "humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 460,
+      "totalStars": 64193,
+      "forks": 5078,
+      "channel": "Python AI 专区"
     }
   ]
 }
