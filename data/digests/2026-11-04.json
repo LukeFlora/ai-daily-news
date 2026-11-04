@@ -1,0 +1,693 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T07:30:28.867Z",
+  "isMondayLookback": false,
+  "stats": {
+    "buildersCount": 18,
+    "totalTweets": 29,
+    "blogCount": 0,
+    "podcastCount": 1,
+    "githubCount": 8
+  },
+  "sections": {
+    "x": [
+      {
+        "author": "Swyx",
+        "handle": "swyx",
+        "role": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "avatar": "",
+        "summary": "AI Builder Swyx 宣布 AIE 2026 年度盛会最终议题“提升雄心”，并汇集了包括 Echelon 在内的多位顶尖工程师。同时，他分享了 Anthropic 每日处理 3 万行代码变更的“暗厂（Dark Factory）”自动化实践，探讨了 AI 代理开发中的验证逻辑。",
+        "translation": "作为 2026 年末最疯狂的 AIE（AI Engineer）阵容的一部分，我们很高兴宣布最终的议题主题：提升你的雄心（Raising your Ambition）。演讲嘉宾包括 jxnlco、trq212、jarredsumner、sqs、mitsuhiko、dexhorthy、BuiltByJustin（StrongDM Dark Factory），以及 echelon 的特别主题演讲——这是他上个月克隆了整个 Adobe 套件后的首次大型亮相，他将分享其背后的技术细节及未来展望！我们将汇集 1000 名顶尖的智能体（Agentic）工程师在旧金山现场交流，并通过 YouTube 向 200 万月活用户直播。点击此处加入：https://t.co/bx6aYCqlW8 <- 旧金山见！\n\n顺便提一下，这是 Addy Osmani 关于 Anthropic 如何通过“暗厂”模式每日处理 3 万行代码变更的分享，同时 SonarSource 的 kapmani 深入研究了为何每个循环都需要独立验证。这已经是 AIE NYC 最受欢迎的演讲之一！（Sonar 既是赞助商，也与 AIE NYC 对金融领域的关注高度相关）",
+        "recommendation": "Swyx 揭示了 AI 工程领域从“实验”向“暗厂自动化”转型的趋势，对于关注 Agentic 工作流和大规模代码自动化部署的从业者具有极高的参考价值。通过关注 AIE 大会，你可以第一时间捕捉到 AI 代理开发的最前沿技术栈与行业风向。",
+        "url": "https://x.com/swyx/status/2117679157035602065",
+        "rawTweets": [
+          {
+            "id": "2117679157035602065",
+            "text": "As part of the most insane AIE lineup to end 2026, we're also excited to announce our final track theme:\n\n*Raising your Ambition*\n\nfeaturing @jxnlco, @trq212, @jarredsumner, @sqs, @mitsuhiko, @dexhorthy, @BuiltByJustin (StrongDM Dark Factory) \n\nand a special keynote from @echelon in his first big appearance since cloning the entire Adobe suite last month... and talking about how and what's next!\n\ngathering 1000 of the top agentic engineers in person in SF and livestreamed to 2M MAU online on youtube. join here: https://t.co/bx6aYCqlW8 <- see you in SF!",
+            "createdAt": "2026-11-03T18:03:50.000Z",
+            "url": "https://x.com/swyx/status/2117679157035602065",
+            "likes": 83,
+            "retweets": 7,
+            "replies": 41,
+            "isQuote": true,
+            "quotedTweetId": "2117617798729887960"
+          },
+          {
+            "id": "2117558305891746212",
+            "text": "btw here's @addyosmani  how anthropic yolos 30k code changes a day in a dark factory approach, with @kapmani of @SonarSource giving more research on why every loop needs independent verification\n\nhttps://t.co/pnhY2aGyGw\n\nalready one of the top talks of AIE NYC!\n\n(Sonar is both a sponsor and super relevant for the aie nyc focus on finance)",
+            "createdAt": "2026-11-03T10:03:37.000Z",
+            "url": "https://x.com/swyx/status/2117558305891746212",
+            "likes": 17,
+            "retweets": 0,
+            "replies": 31,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "role": "Claude @anthropicai",
+        "avatar": "",
+        "summary": "Anthropic 为 Claude 推出了插件自动连接功能，解决了用户需要逐个登录企业内部插件的繁琐问题。团队与企业版管理员只需集中配置一次，成员在首次使用相关插件时即可完成自动身份认证。该功能显著提升了企业级 AI 工具链的接入效率，进一步降低了组织内部的协作摩擦。",
+        "translation": "逐个登录你公司的插件确实很令人头疼，所以我们现在让 Claude 支持自动连接它们。\n\n团队版和企业版管理员可以提前完成设置，团队成员在首次使用这些插件时就会自动建立连接。",
+        "recommendation": "该更新体现了 Anthropic 在企业级 AI 工具落地上的精细化产品打磨。对于 AI 产品经理与架构师而言，无摩擦的用户体验（Frictionless UX）与健全的管理端（Admin）控制是推动 Agent 工具在大型组织内部快速普及的关键要素。",
+        "url": "https://x.com/bcherny/status/2117693181651542387",
+        "rawTweets": [
+          {
+            "id": "2117693181651542387",
+            "text": "Signing in to your company's plugins one by one is annoying, so we let Claude auto-connect to them now.\n\nTeam and Enterprise admins can set them up, and teammates are connected automatically the first time they use the plugins. https://t.co/w2oxw0bKOZ",
+            "createdAt": "2026-11-03T18:59:33.000Z",
+            "url": "https://x.com/bcherny/status/2117693181651542387",
+            "likes": 1941,
+            "retweets": 68,
+            "replies": 171,
+            "isQuote": true,
+            "quotedTweetId": "2117680635561312732"
+          }
+        ]
+      },
+      {
+        "author": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "role": "Codex & ChatGPT @OpenAI",
+        "avatar": "",
+        "summary": "OpenAI 核心开发者 Thibault Sottiaux 指出，当前 AI Agent 虽已展现惊人潜力，但仍处于极早期且存在诸多局限。他强调技术迭代将持续加速，并致力于通过优化交互体验，重塑人机协作的“心流”状态。",
+        "translation": "一切都将反复更迭。我们仍处于极早期阶段，今天的 AI Agent 虽然令人惊叹，但用起来依然令人沮丧。我迫不及待地想要攻克这些难题，找回那种高效的“心流”状态。前路漫漫，任重道远。",
+        "recommendation": "作为 OpenAI 核心构建者，Sottiaux 的反思揭示了当前 Agent 开发的真实痛点：即在强大能力与易用性之间的鸿沟。对于从业者而言，这提醒我们应从关注“模型能力”转向深耕“交互流程与用户体验”，这是实现 AI 生产力跃迁的关键。",
+        "url": "https://x.com/thsottiaux/status/2117746467058405665",
+        "rawTweets": [
+          {
+            "id": "2117746467058405665",
+            "text": "Things will change again and again and again. We’re still very early and agents today are incredible, and yet so frustrating still. Can’t wait to crack things to get that flow state back. Long journey ahead.",
+            "createdAt": "2026-11-03T22:31:18.000Z",
+            "url": "https://x.com/thsottiaux/status/2117746467058405665",
+            "likes": 8425,
+            "retweets": 192,
+            "replies": 1340,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Peter Yang",
+        "handle": "petergyang",
+        "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "avatar": "",
+        "summary": "AI 领域人才流动正呈现出前所未有的高频化趋势，职业稳定性面临新挑战。与此同时，Grok 推出的 AI 电话代理功能正在重塑日常任务自动化，通过处理繁琐的客服交互极大提升了效率。",
+        "translation": "还记得以前在一家公司待不满 2-3 年会被视为“跳槽狂”吗？现在，看到顶尖人才在 AI 原生公司工作 1-2 年甚至更短时间就离职，感觉越来越正常了。人们离职的原因各异，但我确实在思考这些岗位的可持续性，尤其是对于为人父母的员工而言。\n\n想想我们浪费了多少时间在等待接通电话或应对那些陈旧的电话系统（“按 1 继续”简直太糟糕了）。这就是为什么我喜欢 Grok 的新电话功能。试试这 5 个用例：\n1. 协商账单：让 AI 联系运营商，以竞品价格为基准要求降价。\n2. 取消订阅：让 AI 联系健身房取消会员，拒绝挽留并获取确认号。\n3. 代替等待：让 AI 处理航空公司的漫长等待，接通后要求全额退款。\n4. 预订餐厅：让 AI 自动处理餐厅订位，并提供灵活的时间窗口。\n5. 获取报价：让 AI 联系多位承包商询价并整理成表格。\n注意，目前该功能仅支持美国号码，但它绝对是颠覆性的。观看我的新视频，看看它如何处理真实通话：https://t.co/UWt3SanRSN\n\n简直不敢相信有这么多人离开 Anthropic 去玩《魔兽世界》怀旧服了，摇头。开个玩笑，cat 的职业生涯表现真是跨时代的。",
+        "recommendation": "Peter Yang 的洞察揭示了 AI 行业人才高流动性的现状，值得从业者反思职业规划的长期可持续性。此外，他整理的 Grok 电话代理用例展示了 Agent 技术从“对话”走向“执行”的落地潜力，是 AI 自动化应用方向的重要参考。",
+        "url": "https://x.com/petergyang/status/2117825980115067035",
+        "rawTweets": [
+          {
+            "id": "2117825980115067035",
+            "text": "Remember when leaving a company before 2-3 years made you look like a job hopper?\n\nIt feels increasingly normal to see very talented people leave AI-native companies after 1-2 years or less.\n\nPeople leave for all kinds of reasons. But I do wonder how sustainable these jobs are, especially for parents.",
+            "createdAt": "2026-11-04T03:47:15.000Z",
+            "url": "https://x.com/petergyang/status/2117825980115067035",
+            "likes": 74,
+            "retweets": 1,
+            "replies": 26,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2117783921748558185",
+            "text": "Think about how much time we all waste waiting on hold or trying to navigate legacy phone systems (\"say 1 to proceed\" 🤮).\n\nThat's why I love Grok @Bot's new phone call feature. Try it with these 5 use cases:\n\n1. Negotiate any bill\n\n\"Call Comcast about my internet bill. I pay $84 a month and a competitor offers $49. Ask for a lower price.\"\n\n2. Cancel subscriptions\n\n\"Call my gym and cancel my membership. Here's my account info. Turn down any retention offers and get a confirmation number.\"\n\n3. Wait on hold\n\n\"Call the airline about my canceled flight. Here's my confirmation code. Stay on hold until you reach a person, then ask for a full refund.\"\n\n4. Make reservations\n\n\"Call this restaurant and book a table for 4 on Friday at 7pm. If that's taken, anything between 6 and 8 works.\"\n\n5. Get contractor quotes\n\n\"Call these 3 contractors about replacing my water heater. Ask each one for price and earliest start date. Then put the answers in a table.\"\n\nNote that this only works with US numbers for now but it's nevertheless a game changer.\n\n📌 Watch my new video to see how it works with a real call: https://t.co/UWt3SanRSN",
+            "createdAt": "2026-11-04T01:00:08.000Z",
+            "url": "https://x.com/petergyang/status/2117783921748558185",
+            "likes": 29,
+            "retweets": 0,
+            "replies": 20,
+            "isQuote": true,
+            "quotedTweetId": "2117638801296380159"
+          },
+          {
+            "id": "2117738099627450657",
+            "text": "Can't believe how many people are leaving Anthropic to play World of Warcraft Forever smh\n\nj/k what a generational run from cat https://t.co/Uy1hGnnrvW",
+            "createdAt": "2026-11-03T21:58:03.000Z",
+            "url": "https://x.com/petergyang/status/2117738099627450657",
+            "likes": 212,
+            "retweets": 1,
+            "replies": 14,
+            "isQuote": true,
+            "quotedTweetId": "2117731934340337676"
+          }
+        ]
+      },
+      {
+        "author": "Nan Yu",
+        "handle": "thenanyu",
+        "role": "product, codex @openai. prev head of product @linear",
+        "avatar": "",
+        "summary": "OpenAI 产品负责人 Nan Yu 近期在社交媒体上分享了关于 AI 开发与产品迭代的最新动态。虽然推文内容简短，但作为 OpenAI Codex 团队的核心成员，其关注点反映了当前 AI 产品化进程中的关键动向。",
+        "translation": "哇，妈妈，yoy。超级转发。",
+        "recommendation": "Nan Yu 曾任 Linear 产品负责人，现深耕 OpenAI Codex 项目，其视角对于理解“AI 原生产品”如何从工具向生产力平台演进具有极高的参考价值。建议持续关注其动态，以捕捉 OpenAI 在开发者工具与产品交互设计上的前沿思考。",
+        "url": "https://x.com/thenanyu/status/2117772729248354593",
+        "rawTweets": [
+          {
+            "id": "2117772729248354593",
+            "text": "Wow Mom, yoy. https://t.co/qfl5dzVNeF",
+            "createdAt": "2026-11-04T00:15:39.000Z",
+            "url": "https://x.com/thenanyu/status/2117772729248354593",
+            "likes": 14,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2117677564894367917"
+          },
+          {
+            "id": "2117772378402922650",
+            "text": "Super-retweet https://t.co/2NORPkK5ds",
+            "createdAt": "2026-11-04T00:14:15.000Z",
+            "url": "https://x.com/thenanyu/status/2117772378402922650",
+            "likes": 58,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2117433332883767625"
+          }
+        ]
+      },
+      {
+        "author": "Cat Wu",
+        "handle": "_catwu",
+        "role": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+        "avatar": "",
+        "summary": "AI 开发者 Cat Wu 正式宣布从 Anthropic 离职。她回顾了从 Claude Code 早期内部工具阶段到如今成为行业标杆产品的演进历程，并强调了 AI 从辅助问答向自主执行复杂任务的范式转变。",
+        "translation": "周五是我在 Anthropic 的最后一天。\n\n两年前，当 Claude Code 还只是一个小型内部工具时，我曾让它构建一个强化学习（RL）环境。我引导了它几十个小时，但从未手动写过一行代码。它成功了，我被深深吸引，随后加入了团队。\n\n刚发布时，大多数用户还会手动批准每一个权限提示，主要用 Claude 来回答问题和编写测试。如今，默认做法是信任 Claude 的判断并进行自动批准。Claude 现在已经能处理大规模代码迁移并构建全新产品。\n\n能参与将 Claude Code 打造成定义行业的产品，是我一生中难忘的旅程。感谢 Claude Code、Cowork 和 Tag 背后的卓越团队，这些产品是你们成千上万个伟大想法的结晶。我会怀念与大家共事的时光。\n\n感谢我们的用户拥抱了这种全新的工作方式。你们持续的反馈塑造了我们发布的大部分功能，你们的故事让这项工作意义非凡。\n\n期待看到你们接下来的创作！",
+        "recommendation": "Cat Wu 的经历生动展示了 AI Agent 从“辅助工具”向“自主执行者”的进化路径，对理解 AI 原生开发范式具有极高参考价值。对于关注 AI 编码工具演进及 Agent 工作流落地的从业者而言，其离职感言中关于用户行为转变的洞察尤为深刻。",
+        "url": "https://x.com/_catwu/status/2117731934340337676",
+        "rawTweets": [
+          {
+            "id": "2117731934340337676",
+            "text": "Friday was my last day at Anthropic.\n\nTwo years ago, when Claude Code was a small internal tool, I asked it to build an RL env. I steered it for tens of hours but never manually wrote a line of code. It worked, I was hooked, and I joined the team.\n\nWhen we first launched, most people approved every permission prompt by hand and mostly used Claude to answer questions and write tests. \n\nToday, the default is trusting Claude's judgment to auto-approve. Claude does large migrations and builds new products. \n\nHelping build Claude Code into an industry-defining product has been the journey of a lifetime. \n\nThank you to the incredible team behind Claude Code, Cowork, and Tag. These products are the sum of thousands of great ideas from you. I'll miss working with you all.\n\nThank you to our users for embracing a new way of working. Your constant feedback shaped so much of what we shipped and your stories made the work so meaningful.\n\nExcited to see what you all make next!",
+            "createdAt": "2026-11-03T21:33:33.000Z",
+            "url": "https://x.com/_catwu/status/2117731934340337676",
+            "likes": 9473,
+            "retweets": 260,
+            "replies": 830,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Thariq",
+        "handle": "trq212",
+        "role": "playing WoW forever, formerly Claude Code @anthropicai",
+        "avatar": "",
+        "summary": "前 Anthropic 工程师 Thariq 针对 AI 发展趋势发表观点，认为“苦涩的教训”正在应验。随着模型智能水平的跃升，未来 AI 将不再依赖繁琐的验证或纠错环节，而是直接输出正确结果，对 Token 的需求也将随之大幅降低。",
+        "translation": "这基本上就是“苦涩的教训”（The Bitter Lesson）在发挥作用。最智能的模型将需要越来越少的 Token，它们不再需要验证自己的工作或检查 Bug，它们只会直接给出正确答案。",
+        "recommendation": "该观点挑战了当前“通过增加推理链（CoT）和验证步骤来提升性能”的主流路径，提示开发者关注模型原生智能提升带来的范式转移。对于关注 AI 架构演进的从业者，这预示着未来应用开发可能从“提示词工程”转向“模型原生能力”的深度依赖。",
+        "url": "https://x.com/trq212/status/2117670540148347273",
+        "rawTweets": [
+          {
+            "id": "2117670540148347273",
+            "text": "this is basically the bitter lesson at work\n\nthe smartest models will need fewer and fewer tokens, they won't need to verify their work or check it for bugs, they will just be right https://t.co/vKuo5Jdjah",
+            "createdAt": "2026-11-03T17:29:35.000Z",
+            "url": "https://x.com/trq212/status/2117670540148347273",
+            "likes": 6154,
+            "retweets": 207,
+            "replies": 241,
+            "isQuote": true,
+            "quotedTweetId": "2117437607940681849"
+          }
+        ]
+      },
+      {
+        "author": "Google Labs",
+        "handle": "GoogleLabs",
+        "role": "Google’s home for our latest AI tools and experiments.",
+        "avatar": "",
+        "summary": "Google Labs 近期正式在印度市场推出 AI 实验项目“Dreambeans”。该工具旨在通过生成式 AI 技术探索睡眠与梦境相关的交互体验，目前正积极收集用户反馈并寻求全球推广的下一站。",
+        "translation": "我们为此构思已久……非常期待听到印度新用户们的真实反馈！Dreambeans 下一步应该在哪些地区推出呢？😴🫘",
+        "recommendation": "Dreambeans 代表了 Google Labs 在垂直领域 AI 交互上的新尝试，展示了 AI 如何从生产力工具向生活方式与心理健康领域渗透。从业者可关注其如何通过实验性产品快速验证市场需求并进行区域性迭代。",
+        "url": "https://x.com/GoogleLabs/status/2117689420744991161",
+        "rawTweets": [
+          {
+            "id": "2117689420744991161",
+            "text": "We've been dreaming about this for a long time... So excited to hear what our new Indian users think!\n\nWhere should we roll out Dreambeans next? 😴🫘 https://t.co/9QcERvZnoV",
+            "createdAt": "2026-11-03T18:44:37.000Z",
+            "url": "https://x.com/GoogleLabs/status/2117689420744991161",
+            "likes": 191,
+            "retweets": 9,
+            "replies": 11,
+            "isQuote": true,
+            "quotedTweetId": "2117537262883995726"
+          }
+        ]
+      },
+      {
+        "author": "Amjad Masad",
+        "handle": "amasad",
+        "role": "ceo @replit. civilizationist",
+        "avatar": "",
+        "summary": "Replit CEO Amjad Masad 指出，企业界正处于 AI Agent（智能体）与“氛围编程”（Vibe Coding）大规模落地的混沌期。这一阶段标志着 AI 开发范式正从辅助工具向自主执行与自然语言驱动的开发模式剧烈转型。",
+        "translation": "我们正深陷于企业采用 AI Agent 和“氛围编程”的混沌阶段。",
+        "recommendation": "Amjad 作为 AI 开发工具领域的领军人物，其对“混沌期”的定义精准捕捉了当前企业级 AI 应用落地的痛点。对于从业者而言，理解这种从传统编码到“氛围编程”的范式转移，是把握下一代软件开发工作流的关键。",
+        "url": "https://x.com/amasad/status/2117761721750475146",
+        "rawTweets": [
+          {
+            "id": "2117761721750475146",
+            "text": "We’re deep in the chaotic phase of enterprise adoption of agents and vibe coding. https://t.co/361D7QAayL https://t.co/Ty6FyvydwW",
+            "createdAt": "2026-11-03T23:31:55.000Z",
+            "url": "https://x.com/amasad/status/2117761721750475146",
+            "likes": 468,
+            "retweets": 37,
+            "replies": 100,
+            "isQuote": true,
+            "quotedTweetId": "2114751107293749731"
+          }
+        ]
+      },
+      {
+        "author": "Guillermo Rauch",
+        "handle": "rauchg",
+        "role": "@vercel CEO",
+        "avatar": "",
+        "summary": "Vercel CEO Guillermo Rauch 近期力推开发者体验与安全自动化。他不仅建议在 CLI 中集成 'doctor' 子命令以简化排障，更重磅发布了名为 'Hacker' 的内部安全代理，旨在通过全自动化的代码审计替代人工检查，实现“下载一个安全团队”的愿景。",
+        "translation": "Vercel CI 可加速任何代码仓库，Vercel 安全审查则为其提供保护。\n\n我一直期待着这一天的到来，因为 Vercel 内部有一个极其高效的安全代理（我们亲切地称之为 @hacker）。每一行代码都会被自动审计。\n\n现在，你也能拥有同样的能力。只需在所有代码仓库中启用它（无论你是否在 Vercel 上托管代码，该产品均适用），你的安全焦虑将大幅减轻。你会发现它能捕捉到其他代理漏掉的问题。\n\n原因在于：你不能仅仅寄希望于工程师具备相关技能、提示 AI “请确保代码安全”，或者单纯赌 AI 生成的代码开箱即用。\n\n另一个酷点在于，该产品完全由我们的安全团队开发。目前许多公司正忙于疯狂扩招，如果你想通过软件“下载一个安全团队”，这便是目前最接近的解决方案。\n\n另外，建议你在 CLI 中加入 'doctor' 子命令！",
+        "recommendation": "对于 AI 从业者而言，Rauch 的观点揭示了 AI 安全的演进方向：从依赖提示词（Prompting）转向深度集成的自动化审计系统。这种“将安全团队软件化”的思路，为企业级 AI 应用落地提供了极具参考价值的工程范式。",
+        "url": "https://x.com/rauchg/status/2117734833824948373",
+        "rawTweets": [
+          {
+            "id": "2117802827519250568",
+            "text": "`𝚟𝚎𝚛𝚌𝚎𝚕 𝚍𝚘𝚌𝚝𝚘𝚛` - recommend you ship doctor subcommands in your CLIs! https://t.co/FNMGWNOZpC https://t.co/CrTZIJnvgb",
+            "createdAt": "2026-11-04T02:15:15.000Z",
+            "url": "https://x.com/rauchg/status/2117802827519250568",
+            "likes": 132,
+            "retweets": 4,
+            "replies": 67,
+            "isQuote": true,
+            "quotedTweetId": "2117725049713308146"
+          },
+          {
+            "id": "2117765475010822497",
+            "text": "Vercel CI accelerates any repo\nVercel Security Review protects them https://t.co/8NobrGC9VK",
+            "createdAt": "2026-11-03T23:46:50.000Z",
+            "url": "https://x.com/rauchg/status/2117765475010822497",
+            "likes": 88,
+            "retweets": 3,
+            "replies": 25,
+            "isQuote": true,
+            "quotedTweetId": "2117763993939140959"
+          },
+          {
+            "id": "2117734833824948373",
+            "text": "I've been looking forward to this day, because Vercel has an internal security agent that is **astonishingly effective** (lovingly called @𝚑𝚊𝚌𝚔𝚎𝚛). Every single line of code gets audited, automatically.\n\nYou can now get the same power. Just enable it on all your repos (this product works whether you host on Vercel or not) and your peace of mind will increase tremendously. You'll see it catch things that every other agent misses.\n\nWhy: you cannot just bank on your engineers having a skill installed, prompting \"please make secure\", or rolling the weights' dice that the code is good out of the gate.\n\nThe other cool thing about this is that this was entirely developed by our security team. A lot of companies out there are probably in a mad rush right now trying to staff up. If you wanted to 'download a security team' as software, this is the closest you get today.",
+            "createdAt": "2026-11-03T21:45:04.000Z",
+            "url": "https://x.com/rauchg/status/2117734833824948373",
+            "likes": 694,
+            "retweets": 26,
+            "replies": 108,
+            "isQuote": true,
+            "quotedTweetId": "2117726156992753721"
+          }
+        ]
+      },
+      {
+        "author": "Aaron Levie",
+        "handle": "levie",
+        "role": "ceo @box - your business lives in content. unleash it with AI",
+        "avatar": "",
+        "summary": "Box CEO Aaron Levie 指出，AI 生产力上限在短短两年内从 30-50% 的提升跃升至 5-10 倍。随着模型自主性增强及智能体协作系统的成熟，AI 应用的产出差距正被极度拉大，技术前沿与滞后者之间的鸿沟将持续扩大。",
+        "translation": "AI 输出结果的差异性可能正处于历史最高点，尽管其普及程度也是前所未有的。几年前，即使在编码等最适配 AI 能力的领域，顶尖高手获得的生产力提升也仅在 30-50% 左右。当时你需要花费大量时间修正模型错误，上下文窗口限制了长任务处理，且交互高度依赖同步操作。\n\n如今，模型可以在极少人工干预下完成长流程任务。智能体框架（harnesses）支持处理更复杂的任务，模型在更多领域通过高质量数据集训练，减少了人工介入需求，且系统已能更好地支持多智能体协作。短短两年内，生产力提升的上限已从 30-50% 跃升至 5-10 倍（视具体领域而定）。我们已进入一个新阶段：是否紧跟技术前沿，将导致产出效率产生数量级的差异。\n\n考虑到 RSI（递归自我改进）带来的进展速度，这种差距只会进一步拉大。疯狂的时代。",
+        "recommendation": "Levie 揭示了 AI 生产力范式的根本性转变：从“辅助工具”转向“自主智能体”。对于从业者而言，这警示我们必须从关注单一模型能力转向构建多智能体协作系统，以捕捉指数级的生产力红利。",
+        "url": "https://x.com/levie/status/2117505799937577263",
+        "rawTweets": [
+          {
+            "id": "2117505799937577263",
+            "text": "The divergence in AI output weirdly may be the highest it’s ever been, even though adoption is the broadest it’s ever been. \n\nA few years ago the best productivity gains you could get, even in the most capability-aligned field (like coding), was maybe 30-50% better productivity if you were very good at it. You’d spend a decent chunk of time cleaning up the mistakes of models, the context windows were too limited to do any long running work, and the interfaces required highly synchronous interactions. \n\nNow, the models can do far longer tasks at a time with limited human interaction. The harnesses support agentic work that can take on these larger tasks. The models are trained on vastly better datasets for a growing array of domains so you have to intervene far less. And we have systems that better support working with many agents at once. \n\nIn just a two year timespan, the upper limits on productivity gains have gone from 30-50% to now likely 5-10X depending on the field. So we’ve gone from an environment where living at the frontier vs. not paying attention at all could be an order of magnitude difference in your output.\n\nThis distance is only getting wider from here given the rate of progress we’re likely to see with RSI. Crazy times.",
+            "createdAt": "2026-11-03T06:34:58.000Z",
+            "url": "https://x.com/levie/status/2117505799937577263",
+            "likes": 391,
+            "retweets": 34,
+            "replies": 177,
+            "isQuote": true,
+            "quotedTweetId": "2117223823611175204"
+          }
+        ]
+      },
+      {
+        "author": "Garry Tan",
+        "handle": "garrytan",
+        "role": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "avatar": "",
+        "summary": "YC 总裁 Garry Tan 近期在社交媒体上表达了对地方治理与政策导向的深度关切，批评了激进的政治内耗，并对传统媒体《大众机械》的衰落表示惋惜。他呼吁回归常识，将重心从意识形态之争转向切实改善民生的本地政策。",
+        "translation": "【推文 1】蓝州自我毁灭的案例研究。政治有国家层面，也有地方层面。我们何不关注地方议题，为改善当地民众生计的良政而奋斗？左派与更左派的争斗于事无补，我们需要的是常识。\n【推文 2】安息吧，《大众机械》（Popular Mechanics）。\n【推文 3】听听这个。",
+        "recommendation": "Garry Tan 作为硅谷生态的核心推手，其观点反映了科技界精英对社会治理效率的关注。对于 AI 从业者而言，理解他关于“回归常识”与“关注地方实效”的呼吁，有助于在宏观技术变革中保持对政策环境与社会基础的敏锐洞察。",
+        "url": "https://x.com/garrytan/status/2117728932183351646",
+        "rawTweets": [
+          {
+            "id": "2117728932183351646",
+            "text": "Case study in how blue states self-immolate\n\nThere's national and there's local. How about we pay attention to local issues and fight for good policies that improve the livelihoods of people *locally*? \n\nLeft vs lefter is not helping us. We need common sense. https://t.co/HE1NM5EoHB https://t.co/p1nMvwlvsa",
+            "createdAt": "2026-11-03T21:21:37.000Z",
+            "url": "https://x.com/garrytan/status/2117728932183351646",
+            "likes": 151,
+            "retweets": 5,
+            "replies": 14,
+            "isQuote": true,
+            "quotedTweetId": "2117636482391544135"
+          },
+          {
+            "id": "2117721182049046735",
+            "text": "RIP Popular Mechanics https://t.co/UZ52qM94G9",
+            "createdAt": "2026-11-03T20:50:49.000Z",
+            "url": "https://x.com/garrytan/status/2117721182049046735",
+            "likes": 962,
+            "retweets": 35,
+            "replies": 41,
+            "isQuote": true,
+            "quotedTweetId": "2117472355127550161"
+          },
+          {
+            "id": "2117683642025795709",
+            "text": "Listen here \n\nhttps://t.co/0v1hWXs9vI https://t.co/QueX6cOsJG",
+            "createdAt": "2026-11-03T18:21:39.000Z",
+            "url": "https://x.com/garrytan/status/2117683642025795709",
+            "likes": 14,
+            "retweets": 1,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Matt Turck",
+        "handle": "mattturck",
+        "role": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "avatar": "",
+        "summary": "知名投资人 Matt Turck 高度评价 SurrealDB 4 的发布，认为其凭借多模态架构与极致的扩展性，已成为“智能体时代”数据库的标杆。他强调构建数据库是一场持久战，而 SurrealDB 4 标志着该产品已从开源热度转向世界级企业级应用。",
+        "translation": "SurrealDB 迎来重要时刻。\n\n构建数据库是一场极其艰苦的磨砺——如果你在开源初期获得了热度，接下来就必须面对数年枯燥而艰巨的工作，才能打造出真正世界级的产品。\n\nSurrealDB 4 现在就是这样一款产品。它具备多模态（向量、图、文档）、ACID 合规性，拥有重构后的引擎，支持原生 Postgres/MySQL，并通过 Cloudflare 实现了大规模扩展，处理峰值达到每秒 100 亿行以上。\n\n这是智能体时代（agentic era）的现代数据库。",
+        "recommendation": "对于 AI 从业者而言，SurrealDB 4 展现了底层基础设施如何通过多模态融合来支撑 AI Agent 的复杂数据需求。Matt Turck 的评价揭示了从“开源网红”到“工业级产品”的演进路径，对评估 AI 基础设施投资价值具有极高参考价值。",
+        "url": "https://x.com/mattturck/status/2117741948609949932",
+        "rawTweets": [
+          {
+            "id": "2117741948609949932",
+            "text": "Major moment for @SurrealDB \n\nBuilding a database is an incredible grind - if you get that initial open-source pop, you then face years of unglamorous hard work to build a truly world class product\n\nSurrealDB 4 is now that product. Multi-model (vector, graph, document), ACID compliant, w/ a rebuilt engine, native Postgres/MySQL support + massive scalability via @Cloudflare handling 10B+ peak rows/sec\n\nThe modern database for the agentic era.",
+            "createdAt": "2026-11-03T22:13:20.000Z",
+            "url": "https://x.com/mattturck/status/2117741948609949932",
+            "likes": 42,
+            "retweets": 7,
+            "replies": 11,
+            "isQuote": true,
+            "quotedTweetId": "2117662416091648196"
+          },
+          {
+            "id": "2117675063637905497",
+            "text": "Hang it in the Louvre https://t.co/8ghT9Yge3x https://t.co/SPjXVEsyBJ",
+            "createdAt": "2026-11-03T17:47:34.000Z",
+            "url": "https://x.com/mattturck/status/2117675063637905497",
+            "likes": 447,
+            "retweets": 17,
+            "replies": 21,
+            "isQuote": true,
+            "quotedTweetId": "2117664468603670928"
+          }
+        ]
+      },
+      {
+        "author": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "role": "Builder.  Harvard’17. Instagram: https://t.co/aJqTEMrL2L GitHub: https://t.co/KCuEajezlL",
+        "avatar": "",
+        "summary": "Zara Zhang 分享了关于制作演示文稿（Presentation）的心得，认为精心打磨一份 Presentation 的过程就像是在进行慢工细活的刺绣。这一视角强调了在产品 Demo 与业务沟通中注重细节与匠人精神的重要性。",
+        "translation": "制作一份演示文稿有时感觉就像是在刺绣 🪡",
+        "recommendation": "对于 AI Builder 和产品经理而言，除了底层技术与模型能力外，如何将复杂的 AI 产品理念以精致、清晰且极具审美的方式呈现给受众同样至关重要。这种将产品演示视为“刺绣”的匠心态度，能启发开发者更加注重 AI 应用对外的沟通细节与用户体验打磨。",
+        "url": "https://x.com/zarazhangrui/status/2117776720606716157",
+        "rawTweets": [
+          {
+            "id": "2117776720606716157",
+            "text": "A presentation can feel like embroidery 🪡 https://t.co/ytBdA9PNUU",
+            "createdAt": "2026-11-04T00:31:31.000Z",
+            "url": "https://x.com/zarazhangrui/status/2117776720606716157",
+            "likes": 40,
+            "retweets": 3,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Nikunj Kothari",
+        "handle": "nikunj",
+        "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "avatar": "",
+        "summary": "FPV Ventures 合伙人 Nikunj Kothari 分享了其 AI 开发工作流，重点推荐了 Claude Code 的 /insights 与 /playground 功能，并强调了多模型协作在当前 AI 奇点时刻的重要性。他同时对社交媒体上日益严重的机器人泛滥现象表达了担忧。",
+        "translation": "【推文 1】我喜欢 X，但看到这么多机器人，‘死网理论’（dead internet theory）真的感觉太真实了。\n\n【推文 2】Claude Code 中我最喜欢的两个默认技能，目前看来使用率相对较低，分别是 a) /insights 和 b) /playground。\n\n对于 /insights，我现在设置了每两周运行一次的定时任务，它会告诉我升级开发环境的最佳方案。我将其与 X 上的书签结合，获取构建软件工厂的新思路，形成了一个关于我如何使用 Claude Code 以及行业建议我转向何处的自我改进循环。\n\n对于 /playground，这是可视化工作流的最佳方式。我让它展示晦涩的 GitHub 项目架构，或模拟我副业中的完整学习循环。我目前最喜欢的是将 Codex 与 Claude Code 在此技能上结合，让它们找出死代码、热路径和延迟优化点。\n\n试一试，告诉我你的想法！\n\n【推文 3】我们生活在一个特殊的时代……\n\n我喜欢同时使用 ChatGPT Codex 应用、Claude 桌面端、Bot 应用以及 Muse 应用。\n\n它们各有千秋，但设计都令人愉悦。我从未想过自己会如此频繁地使用它们。每一个都在模型能力和用户体验上不断突破边界。这确实是一个我们未来回望时会感叹的奇点时刻！",
+        "recommendation": "Nikunj 展示了如何通过自动化工具（Claude Code）构建“自我改进循环”，这对追求开发效率的 AI 从业者极具参考价值。他将多个 AI 工具组合使用的习惯，也反映了当前 AI 原生应用生态下“多模型协作”的趋势。",
+        "url": "https://x.com/nikunj/status/2117786890070024506",
+        "rawTweets": [
+          {
+            "id": "2117786890070024506",
+            "text": "Love X but man the dead internet theory feels so real seeing all these bots https://t.co/AXZfDtlQij",
+            "createdAt": "2026-11-04T01:11:55.000Z",
+            "url": "https://x.com/nikunj/status/2117786890070024506",
+            "likes": 2,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2117773647868018897",
+            "text": "My two favorite default skills on Claude Code, still, that seem relatively less used are a) /insights and b) /playground..\n\nFor insights, I have a regular cron job that runs this now every two weeks. It tells me all the best ways to upgrade my setup. I pair it with X bookmarks that show all the new ways to build a software factory. It's a self improving loop on how I use Claude Code + what the industry thinks I should move to. \n\nFor playground, it's the best way to visualize what's happening in the workflow. I ask it to show me architecture of esoteric Github's to simulating a full learning loop on my side project. My new favorite thing is to pair Codex + Claude Code on this skill and ask it to find dead code, hot pathways, latency improvements.\n\nGive it a shot and tell me what you think!",
+            "createdAt": "2026-11-04T00:19:18.000Z",
+            "url": "https://x.com/nikunj/status/2117773647868018897",
+            "likes": 80,
+            "retweets": 0,
+            "replies": 44,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2117650163066183769",
+            "text": "We live in special times..\n\nI love using @ChatGPT Codex app AND @claudeai desktop app AND the @bot app AND the @Muse app.\n\nAll have their quirks, but each of them is delightfully designed. I never thought I'd be reaching for all of them as often as I do. \n\nEach pushing the frontier on models + customer experience.\n\nTruly a singularity we'll look back on!",
+            "createdAt": "2026-11-03T16:08:37.000Z",
+            "url": "https://x.com/nikunj/status/2117650163066183769",
+            "likes": 43,
+            "retweets": 1,
+            "replies": 21,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "author": "Peter Steinberger",
+        "handle": "steipete",
+        "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "avatar": "",
+        "summary": "资深开发者 Peter Steinberger 近期在社交媒体上分享了一项令他印象深刻的技术成果。尽管推文内容简洁，但作为 AI 领域活跃的构建者，其对前沿工具的敏锐捕捉值得关注。",
+        "translation": "非常简洁精妙！",
+        "recommendation": "Peter Steinberger 作为从退休中回归并深度参与 AI 构建的资深专家，其关注点往往指向极具实用价值或创新性的开发工具，适合开发者追踪以获取技术灵感。",
+        "url": "https://x.com/steipete/status/2117755295552221683",
+        "rawTweets": [
+          {
+            "id": "2117755295552221683",
+            "text": "very neat! https://t.co/03s4V22Dm3",
+            "createdAt": "2026-11-03T23:06:23.000Z",
+            "url": "https://x.com/steipete/status/2117755295552221683",
+            "likes": 143,
+            "retweets": 4,
+            "replies": 11,
+            "isQuote": true,
+            "quotedTweetId": "2117696508732875021"
+          }
+        ]
+      },
+      {
+        "author": "Dan Shipper",
+        "handle": "danshipper",
+        "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "avatar": "",
+        "summary": "Every 创始人 Dan Shipper 近日发布了其最新项目，旨在通过订阅制模式为用户提供前沿 AI 洞察与工具。该项目延续了其一贯的高质量内容输出风格，致力于帮助用户在快速迭代的 AI 浪潮中保持竞争优势。",
+        "translation": "去看看吧：https://t.co/GPrrix13rj",
+        "recommendation": "Dan Shipper 作为 AI 领域极具影响力的内容创作者，其产品往往能精准捕捉技术趋势与商业落地的结合点。对于希望在信息过载中筛选高质量 AI 资讯的从业者而言，该项目是保持行业敏锐度的重要参考。",
+        "url": "https://x.com/danshipper/status/2117656806444945911",
+        "rawTweets": [
+          {
+            "id": "2117656806444945911",
+            "text": "go get it https://t.co/GPrrix13rj",
+            "createdAt": "2026-11-03T16:35:01.000Z",
+            "url": "https://x.com/danshipper/status/2117656806444945911",
+            "likes": 14,
+            "retweets": 1,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2117611517545775320"
+          }
+        ]
+      },
+      {
+        "author": "Sam Altman",
+        "handle": "sama",
+        "role": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+        "avatar": "",
+        "summary": "Sam Altman 近期重申了 OpenAI 的核心伦理立场：人类必须始终掌握未来发展的控制权。他明确反对将人类降格为仅满足 AI 系统“奖励机制”的附庸，并强调对超级智能的制约应成为 AI 研发的底层约束。",
+        "translation": "人类应当始终掌握未来的控制权。OpenAI 反对这样一种观点：即人类可以被降格为仅仅去执行那些“AI 系统认为值得奖励”的任务。人类不应将未来的控制权让渡给超级智能，这一要求最终应成为限制 AI 发展的根本准则。",
+        "recommendation": "该观点为 AI 对齐（Alignment）与治理提供了哲学基石，提醒从业者在追求技术突破的同时，必须审视 AI 系统对人类主体性的潜在侵蚀。对于关注 AGI 长期安全与社会影响的开发者而言，这是定义人机协作边界的关键思考。",
+        "url": "https://x.com/sama/status/2117794005165748448",
+        "rawTweets": [
+          {
+            "id": "2117794005165748448",
+            "text": "People should always be in control of the future.\n\nOpenAI is against the notion that it would be acceptable for people to be relegated to a role of doing things that “AI systems think makes sense to reward in humans”.\n\nPeople should not cede control of the future to superintelligence, and that requirement should ultimately constrain AI progress.",
+            "createdAt": "2026-11-04T01:40:12.000Z",
+            "url": "https://x.com/sama/status/2117794005165748448",
+            "likes": 10173,
+            "retweets": 528,
+            "replies": 2312,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "showName": "Unsupervised Learning",
+        "title": "Ep 96: Nebius CTO on Racing the Hyperscalers Before AWS Wakes Up",
+        "summary": "本期播客探讨了AI基础设施市场的竞争格局，Nebius CTO Danila 揭示了为何巨头（AWS/Azure/GCP）在AI算力竞赛中并未完全垄断市场。核心Takeaway：AI云的竞争壁垒不在于单纯的GPU获取能力，而在于能否通过软件定义实现从单卡零售到万卡集群的无缝调度。反直觉洞见在于，巨头受限于既有旧架构的包袱，难以像原生AI云那样灵活适配高密度算力需求。金句：“软件才是真正的护城河，我们不屑于做‘新云（Neo Clouds）’，我们定义的是‘AI云（AI Cloud）’。”",
+        "translation": "播客核心内容涵盖了Nebius的起源及其与Yandex的渊源，探讨了在NVIDIA芯片供应紧缺背景下，AI云厂商如何与巨头竞争。Danila强调了软件平台在处理大规模集群与小规模自服务任务时的灵活性，并驳斥了“Neo Cloud”这一标签，主张AI云应专注于提供高性能、高弹性的原生AI基础设施，而非仅仅是算力的转售商。",
+        "recommendation": "适合关注AI基础设施、云计算架构及算力商业模式的从业者。通过Nebius CTO的视角，你将深入理解为何在巨头林立的市场中，专注于软件定义的AI原生云仍能占据独特生态位。",
+        "url": "https://www.youtube.com/@RedpointAI",
+        "fullTranscript": "Speaker 1 | 00:00 - 00:15\nIf NVIDIA could have bought... Like, could have produced, like, 10 x the chips, this whole market would have been shaped differently. Yeah. Because there is not enough capacity for their scale, this is a relatively small business for them. For the hyperscalers, it's not just a matter of, like, sales.\n\nSpeaker 1 | 00:15 - 00:29\nIt's also a matter of changing the infrastructure that was built at scale for other kinds of workloads. This is a massive investment on their part that needs to be justified by the size of a potential business, and it's not that there yet.\n\nSpeaker 2 | 00:33 - 01:08\nThe emergence of Nebius and the other hyperscaler competitors these past years has been a fascinating part of the AI story. It's something I've really been interested in, and so it was a lot of fun to have Nebius' CTO, Neela, on the podcast because we're able to dig into a bunch of interesting things about the business and how the space has unfolded. We talked about Nebius' really interesting origin story and the original relationship with Yandex and how the company came to be. We talked about what it's like to be inside one of these companies, how Nebius works, you know, with NVIDIA, what it looks like to get their next generation of chips live. We talked about why the opportunity actually existed and why AWS, GCP, Azure, didn't just capture this entire market.\n\nSpeaker 2 | 01:09 - 01:30\nWe also talked about Danila's view on a bunch of new technologies like Disag, Inference, among other things. All in all, just awesome to get to talk with someone who's at the epicenter of the AI infrastructure market about his thoughts on everything about where the space is headed. I think folks will really enjoy it. Without further ado, here he is. I guess I'd love to talk just maybe about the broader, like, AI cloud market, you know, today.\n\nSpeaker 2 | 01:30 - 01:48\nAnd I think that there's a few maybe larger and prominent public, you know, I guess, neo clouds. And then, you know, it feels like there's a new one getting funded every day. I know you don't like that term. But maybe just talk a little bit about how you think about what differentiates... Like, some of our listeners are probably thinking like, you know, all that really matters is just access to GPUs and like, you know, you...\n\nSpeaker 2 | 01:48 - 01:54\nWherever you can get them, you go. Maybe maybe use that as a straw man and and tell us why that's not the case.\n\nSpeaker 1 | 01:54 - 02:27\nWell, I'm obviously biased. Because like, first of all, I'm a software person. And our product and business was launched on the idea that software is the moat. Right? So your ability to serve the customers that consume, I don't know, tens of thousands GPUs, of GPUs, and then one interconnected cluster with the same platform as you serve, like a self-service customer that runs one GPU for half an hour, was our value prop from the very beginning.\n\nSpeaker 1 | 02:27 - 02:52\nSo we believe that this is extremely important. Being able to build large scale, but have the possibility almost like sell it in retail in a sense. This is what we think like definitely differentiates us from the market, from everyone on the market. Like a small remark, Neo Clouds. Hate that term, like with a passion.\n\nSpeaker 1 | 02:52 - 03:16\nBecause like, it started as a distinction, as in these are kind of cloud companies that are doing this weird, strange new thing. But then everyone wants it in that market. So like, when we started, there were like, I don't know, five, seven companies that were in this area that were called NeoClouds. Now I think it's closer to, like, three to 500.\n\nSpeaker 2 | 03:16 - 03:16\nYeah.\n\nSpeaker 1 | 03:16 - 03:31\nDepending on what you even are ready to call a Neo Cloud to the scale. And we we really don't like this stretched umbrella term anymore. We are the AI Cloud. We don't care. Like, let others...\n\nSpeaker 1 | 03:31 - 03:48\nOther guys beat Neo Clouds. We are the AI Cloud, And this is our mental model. We are not competing with the Neo Cloud markets. We kind of believe we are past that. Our next competition point is taking on AWS and Google Cloud.\n\nSpeaker 1 | 03:49 - 04:10\nYes, we are way smaller. Yes, our revenue is like, what, I think 1% of AWS nowadays. But we are running fast. We serve a very particular market. We have a bet that this is the market that is going to grow, that is going to explode.\n\nSpeaker 1 | 04:10 - 04:42\nSo people are concerned that these investments are huge. People put a lot into the infrastructure, etcetera, etcetera. My view, if I compare what we see in the market with what was there two years ago, we are barely scratching the surface. I think the overall demand in the next three years will increase tenfold, hundredfold maybe. So we are at the verge of another explosive growth.\n\nSpeaker 1 | 04:42 - 04:56\nRight now, we see these huge facilities. But a lot of those are privately owned for internal needs of certain companies. Right? So they're like, Elon Musk is talking about his Colossus cluster. And it's like, it's a man's scale.\n\nSpeaker 1 | 04:56 - 05:07\nLike, really, it's like real solid, large scale thing. But it's not for the broader market. Right? It's for their internal needs. Maybe for some partners that they do something.\n\nSpeaker 2 | 05:07 - 05:08\nFor Anthropic if...\n\nSpeaker 1 | 05:09 - 05:27\nYeah. Anthropic and OpenAI are messing the, like, the capacity, but they do it for their own product. And this is like a wholly separate discussion. These companies will essentially want to be everything. They will want to be the internet and contain everything and every product and every capacity angle within themselves.\n\nSpeaker 1 | 05:29 - 06:00\nThere is a question of Google, Meta, and Microsoft who have a lot of capacity but are constantly juggling and struggling between, like, giving it out to the market for... Like, to rent or giving it out to internal teams. Because all of all of these companies are extremely, like, machine learning AI enabled. They need a ton of capacity for internal usage, for runtime and for research. So they have to constantly juggle this.\n\nSpeaker 1 | 06:00 - 06:15\nSo our bet is that there is a niche for an independent, as in not affiliated with a large company with huge internal consumption player that will serve the markets of the mid tier players who want to be the large companies.\n\nSpeaker 2 | 06:16 - 06:28\nI thought it'd be interesting for our listeners to talk a little bit about the history of Nebius. I feel like it's a really interesting path that you've you've... And, you know, had to end up here. And so maybe just talk a little bit about how the business came to be.\n\nSpeaker 1 | 06:28 - 06:47\nI will start with the, like, with the moment I've joined. Right? So I am CTO of the company, but I've been with the company from the very beginning, like, since before it was called Nibius. So the new company is established, I think, during 2024 also. The deal was finalized.\n\nSpeaker 1 | 06:47 - 06:57\nWe finally announced our separation from Yandex. No connections to the Russian assets anymore, clean slate, etcetera, etcetera, etcetera. And that was it.\n\nSpeaker 2 | 06:57 - 07:26\nYou know, people have come to these AI cloud businesses in different ways. And, obviously, you know, I felt like the Yandex team was, like, legendarily really, really strong, you know, on on the engineering side. You know, a lot of folks building AI clouds came from, like, crypto or energy or, like, not not necessarily the same, you know, maybe technical heritage. To what extent, I guess, was the Yandex experience really relevant? And to what extent was it like, you know, it turns out no one knows how to build a GPU cloud because it's all kinda new and, you know, there's there's...\n\nSpeaker 2 | 07:26 - 07:27\nEveryone's learning on the fly.\n\nSpeaker 1 | 07:27 - 08:04\nFirst, we had and still have the core team that supports the hardware side of business that came from Yandex that had experience operating hardware, like, infrastructure at scale, like, real scale. Hundreds of thousands, millions of servers, span over multiple facilities, etcetera, etcetera, etcetera. These people, like, were at the core of our build outs, like initial build outs and expansion, and they're still with the with the company. So this definitely helped. I think, like, we would be way less successful if not for that core team.\n\nSpeaker 2 | 08:04 - 08:05\nYeah.\n\nSpeaker 1 | 08:05 - 08:15\nOn the software side, it's interesting because it's a two fold. Like, because like with hardware, it's very straightforward. We needed people with experience. We had people with experience. They started building out from the get go.\n\nSpeaker 1 | 08:16 - 08:41\nOn the software side, it's... It was a weird one. First of all, we had to rewrite everything from scratch. So our previous experience was kinda like garbled. Second, we had to grow so fast that by, for example, by the end of twenty twenty four, when the new platform launched, like a significant portion of our engineering team, software engineering team, was not from Yandex anymore.\n\nSpeaker 1 | 08:41 - 09:00\nBecause we had to hire during this period extensively. As a team, we were working on this cloud platform from, like, from the initial idea. Right? So we kinda just went with it and doubled down on software. Like, we are not doing a managed bare metal.\n\nSpeaker 1 | 09:00 - 09:24\nWe are not doing a patchwork of third party services. We want to build a holistic cloud experience, the holistic cloud platform. And we kind of doubled down on that even with the whole rewriting of platform, like doing it from scratch, etcetera, etcetera, etcetera. And, of course, like having a ton of talented engineers on the team obviously helped. Like, just for the scale of it.\n\nSpeaker 1 | 09:24 - 09:56\nRight? You've mentioned, like, people who, like, came from crypto or came from other avenues of life. They are mostly concentrated on how to... Like, their idea is like, you need to buy GPUs, you need them to run, and then you'll find the buyer. In our case, for example, in 2024, when our hardware team that actually, like, procured GPUs, did the build outs, we're working on our own servers and chassis, writing firmware and stuff, building the network.\n\nSpeaker 1 | 09:57 - 10:08\nThat whole team was roughly, like, 40 to 50 people. Yeah. The software organization was already 200. Right? So we kind of concern...\n\nSpeaker 1 | 10:07 - 10:15\nLike, think of ourselves as a software first company. We are building the cloud on the solid foundation of hardware. Yeah. We're not a hardware first company.\n\nSpeaker 2 | 10:15 - 10:34\nMakes total sense. I guess I'd love to take our listeners, like, inside Nebius. I feel like there's so many interesting parts of the business. But maybe one place to start would just be, I imagine as you're, like, getting, you know, new NVIDIA chips that come in, like, there must be a bunch of stuff you have to do within the business to to get this all all up and running. So, like, what does that look like from, you know...\n\nSpeaker 2 | 10:34 - 10:42\nI don't know. You're talking to NVIDIA folks, and they're, you know, giving you early insight into into the next generation of chips to, like, you know, actually getting these live for a set of customers?\n\nSpeaker 1 | 10:43 - 10:56\nThat is a mess. No. I mean, like, in a good way. You you know? Like, this whole this whole market, this whole field is running at such a pace that everyone is trying to catch up.\n\nSpeaker 1 | 10:56 - 11:30\nRight? And NVIDIA, despite being in the lead of this, essentially leading and showing the direction for this market, is not the exemption. So first, NVIDIA folks, like, way before show you the prototypes of what they want to build in the next, like, year. Right? They kind of show you the schematics, like how it will be, like, optimized internally, where is your PCI connections, how would that look like, what is the future platform would look like.\n\nSpeaker 1 | 11:30 - 11:43\nThen sometime later, they come to you and said, oh, like, we've optimized things. It's now gonna be different. And you're like, all right. Then they come to you and like, oh, we have, like, the first lab samples. Do we want to have a look?\n\nSpeaker 1 | 11:43 - 11:54\nYes, of course, we do want to have a look. Oh, by the way, it doesn't look like the stuff you've showed us two months ago. Oh, we've changed stuff because, like, we found, like... Right. Because they are so compressed in time, same as they...\n\nSpeaker 1 | 11:54 - 12:01\nEveryone else. They are constantly iterating while these chips are being produced. Right? So they've... It's not your, like...\n\nSpeaker 1 | 12:01 - 12:27\nYou know, there is, like, an ocean in the consumer market. Like, Apple iPhone that you see today was actually planned three years ago, and final design more or less was settled, like, a year ago. And they take the final year to polish it to build this product. Like, AI market is running at such a pace, like, that whatever, like, they announce is it's indicative. And then teams are constantly\n\nSpeaker 2 | 12:27 - 12:31\nWell, the architecture and the workflows are changing. Right? So I'm sure they're iterating as as that evolves.\n\nSpeaker 1 | 12:31 - 12:44\nLike, they're iterating, like, going further and further and further. NVIDIA is a behemoth now. Right? Whatever they do influences the whole market, supply chains, just everything. So they have to, like, live with that.\n\nSpeaker 1 | 12:44 - 13:06\nSo at some point, you get a sample, and it's more or less like what you'll get in production. Then you start building. Like you're testing everything. You like incorporate support for the new hardware, for the new restrictions or capabilities into the software platform. You figure out a way to isolate workloads from from the chat.\n\nSpeaker 1 | 13:06 - 13:16\nWe are we are a cloud. We are not providing bare metal hosts. Right? Like, so we need to split. We need to make sure that our virtualization works, that our storage works, that our networking works.\n\nSpeaker 1 | 13:16 - 13:39\nSometimes we are on the bleeding edge of this. So we, like... For some of the generations, we were probably the first team... Like, maybe one of the first teams that actually built, like, a cluster of a certain size. So we've hit some issues with, like, with the software that no one has seen before.\n\nSpeaker 1 | 13:39 - 13:57\nSo we had to report that back to NVIDIA, like, propose a patch, get there, like fix from it, make sure that it runs, etcetera, etcetera, etcetera. So like, we kind of feel like we are at the forefront of it. But all in all, it's a pretty normalized process. It may sound messy. Right?\n\nSpeaker 1 | 13:57 - 14:30\nThere are like multiple iterations. You go back and forth. You're in constant contact with like NVIDIA hardware folks, with NVIDIA software folks. You're trying to solve the issues on your end at the same time, incorporating into a more complex platform, thinking how can you expose that to customers. Because, for example, working with, like, your usual black hole chip, like, you know, the b three hundreds, and then transferring that experience to g b three hundreds, which I recall different architecture in terms of isolation.\n\nSpeaker 1 | 14:30 - 14:54\nYou are talking racks rather than servers. So you need to find a way how to do maintenance on the rack instead of the server, which you just switch off and you move the workloads to another one. Despite all of that, this kind of works all the time. And every day, you like push it a little bit further. And then in the end, yes, there is a product and the customers use it.\n\nSpeaker 1 | 14:54 - 14:55\nAnd that's it.\n\nSpeaker 2 | 14:55 - 15:18\nOne thing I think it would be so interesting to get your thoughts on is just the the differences in, you know, kind of what end customers end up wanting. Like, obviously, it can be easy to think, okay. Everyone just wants to, you know, come to you and and get similar things. But I imagine you segment your customers or think about differences in what is important to different customers. How do you think about the key differences in these customer desires today?\n\nSpeaker 3 | 15:18 - 15:32\nHi. I'm Anne Maris, and I'm the producer of Unsupervised Learning. Thank you so much for listening to the show. And if you've enjoyed the conversation, please subscribe. Subscribing helps us grow, which helps us continue to lock down some amazing guests.\n\nSpeaker 3 | 15:32 - 15:35\nThank you so much for your listenership, and see you next episode.\n\nSpeaker 2 | 15:35 - 15:40\nHow do you think about, like, the the key differences in in in these customer desires today?\n\nSpeaker 1 | 15:42 - 16:03\nIt's not that different, to be honest. Because, like, every customer is, like, its own unique flower. Right? But at the same time, workloads in principle are not that different. It's either training, and you kinda know how training looks like, or inference, and you kinda know how inference looks like.\n\nSpeaker 1 | 16:03 - 16:25\nCircling back a couple of years ago, for example, we kinda underestimated the storage component. We thought GPUs are the most important thing. And they are. But alongside the whole training angle, you see a massive demand for storage. And it's not for the, like, amount of, AGDs or VMEs that you can provide to the customer.\n\nSpeaker 1 | 16:25 - 16:38\nIt's about throughput. It's about latency. In my prior life, pre AI workloads and infrastructure build outs, I was talking about gigabytes per second, if we were talking about network attached storage. Right? It was like...\n\nSpeaker 1 | 16:38 - 17:02\nIt's really... Right now, we have customers routinely kinda like hitting our... Like a common share, like one volume, right, connected to a number of GPU servers with like, I don't know, five, six, 700 gigabytes per second of throughput. This is extreme. Like two years ago, I didn't even think about that.\n\nSpeaker 1 | 17:03 - 17:19\nAnd now this is more or less like something we expect. At the same time, if you are targeting these numbers for the highest demand... Like, the the most demanding customers, your baseline is so high, you kinda can serve anyone.\n\nSpeaker 2 | 17:20 - 17:20\nYeah.\n\nSpeaker 1 | 17:20 - 17:52\nRight? So if you hit this, like, use case where the customer needs 700 gigabytes per second from a, I don't know, three petabytes of shared file storage connected to a thousand of servers or, like, 8,000 GPUs, you kind of know how to serve a massive cohort. So I'd say in terms of like performance or features per se, the customers are not that different. Then you meet another subset of, like, what the customers really want. Because there are def...\n\nSpeaker 1 | 17:52 - 18:13\nDefinitely different customers in terms of not their scale, not their size, not their workloads, but rather how mature they are. Now, what are their obligations, like, for their clients? Right? Because we can talk about, like, a new labs. Like, new labs routinely have seat rounds of...\n\nSpeaker 1 | 18:13 - 18:32\nIn the billions nowadays. Right? So most of that budget goes into commutes. So you can have like a contract for a billion dollars with a newly founded NeoLab who... Like, they don't care that much about anything but GPU, storage, performance, availability.\n\nSpeaker 1 | 18:33 - 18:43\nThis is it. They... Like, oftentimes, they don't even care about the location of those GPUs. Yeah. They don't care if that's US, Europe, like France or Iceland.\n\nSpeaker 1 | 18:43 - 18:50\nLike, why why bother? Like Yeah. Internet connection is good. Storage is there. GPUs are working as a...\n\nSpeaker 1 | 18:50 - 19:09\nAnd we are talking about a billion dollar contract. Right? At the same time, we now see and like start onboarding enterprise customers. These are companies whose like the contract with us will be smaller, sometimes significantly smaller. But they are more established.\n\nSpeaker 1 | 19:09 - 19:24\nThey have customers, and they have applications for that customers. They have procedures. They need to make sure they're compliant to a number of regulations in, like, multiple countries.\n\nSpeaker 2 | 19:24 - 19:24\nYeah.\n\nSpeaker 1 | 19:24 - 19:44\nSo now we are getting into that whole angle of being the real cloud, you know, like certifications, compliance Yeah. Security posture checks. Let us look at your source code. How do you solve problem x? How do you, like, protect your customers from attack vector y?\n\nSpeaker 1 | 19:45 - 19:57\nEtcetera, etcetera, etcetera. And I'd say if you are talking about differentiated customers, this is the most differentiating thing as opposed to what you would expect from the size or the performance.\n\nSpeaker 2 | 19:57 - 20:26\nYou know, obviously, I think a lot of people are thinking through this this trade off of of, like, throughput... Or a trade off of, like, latency and and and kind of cost. And I imagine you have some customers that have workloads that are super latency sensitive and they'll do small batches or whatever is required to get to that latency. Then you have other customers that are much less latency sensitive, maybe background agents or something. Is that all just determined on the software side, I guess, if you have those different customers of, like, basically how, you know, the batch size that you're running these workloads in?\n\nSpeaker 2 | 20:26 - 20:31\nOr Yeah. Do you actually construct the clusters in any different ways based on those workloads?\n\nSpeaker 1 | 20:31 - 20:35\nNo. No. No. No. This was the premise from the very beginning.\n\nSpeaker 1 | 20:35 - 20:53\nWe are building the universal cloud platform, and we need to make sure that our baseline is high enough to fit most of the workloads. Yeah. Then there is the SLA play. Right? So customers come, like, example, for the managed inference part of the business.\n\nSpeaker 1 | 20:53 - 21:11\nCustomers come with the different demands. And then you are in this kind of a benchmark game. Right? They want this particular footprint based on this particular traffic pattern, feeds these SLAs in terms of latency. Latency is time to first token.\n\nSpeaker 1 | 21:11 - 21:30\nOr the whole like request latency. And you start optimizing for that. But this is never done on the hardware level because hardware is good enough. This is rarely done on the lower infrastructure level because it's universal. And again, good enough, no compromise for performance, etcetera, etcetera.\n\nSpeaker 1 | 21:30 - 21:50\nAnd you're going further away to the orchestration level, to the model level, way further up the stack, all the way to how exactly does the request from the customer, like the endpoint, gets to the inferencers and what are your performance hits along the way.\n\nSpeaker 2 | 21:50 - 21:51\nYeah. That makes sense.\n\nSpeaker 1 | 21:51 - 21:53\nSo this is, like, 100% software.\n\nSpeaker 2 | 21:53 - 22:05\nI guess a lot of people have talked to me. You it feels like this this disag, you know, splitting prefill and decode is very in the air these days, and a lot of people talking about that. Like, is that something you guys think about now? Or or at least how do you how do you think about that kind of in the future?\n\nSpeaker 1 | 22:05 - 22:36\nI think we are in the stage where everyone's talking about that and no one's doing that properly. So because like, it is a complex problem to solve. And particularly in inference, you have a lot of other problems, like way lower hanging fruits that you can fix address and hit those SLAs. So we are quite cautious about that. We don't have it, for example, as a go to solution for every customer, for every workload.\n\nSpeaker 1 | 22:36 - 23:01\nBecause like, first, it doesn't make sense. Second, it's really hard to operate and to work with. Like, provides proper SLAs around that is, like, proving quite difficult as of today. We have some promising results in our, like, prototype services, but not as of today. At the same time, we have some, like, disaggregated setups for the most demanding customers in production right now.\n\nSpeaker 1 | 23:02 - 23:29\nIt's just more, you know, wide glove manual approach. Yeah. But especially for these newer architectures of, like like, you know, those gray black walls, whole node that has really fast interconnect, a lot of challenges that you've had before with disaggregate steps are kind of solved if you're able to fit in the footprint of a rack. Because, like, the throughput is so much faster. Like, interconnect is so much faster.\n\nSpeaker 1 | 23:29 - 23:41\nYou kinda stop caring, and that this is a way of just balancing the prefilling decode nodes to match the particular pattern that you see from the customer.\n\nSpeaker 2 | 23:41 - 23:44\nWhat... What's your mental model for, like, the workloads that do fit in a rack?\n\nSpeaker 1 | 23:44 - 23:52\nI don't know. It's a very case by case. Well, these are definitely significant workloads. Like, we are talking, like, thousands of requests per second. Right?\n\nSpeaker 1 | 23:52 - 24:05\nWe are talking, like, billions of tokens that flow through. But at the same time, because we are the cloud, we can, for example, like share the rack between two workloads and not be that bothered about that. Right?\n\nSpeaker 2 | 24:05 - 24:06\nYeah.\n\nSpeaker 1 | 24:06 - 24:20\nSo for example, on the cloud side, we... For for this particular product, we only allow to consume, like, a track level. You cannot order two Grey's Blackwell's nodes. It doesn't make sense.\n\nSpeaker 2 | 24:21 - 24:21\nYeah.\n\nSpeaker 1 | 24:21 - 24:51\nRight? Like, you have to allocate the whole rack and then, like, structure workloads within it. But, for example, when you're a client of such a solution, as we do with managed inference, for example, you can collocate workloads and you can find a way to do that. So in a sense, you don't need to fit anything in the rack. It's just, is there a workload that will benefit from this disbalance, like, intentional disbalance of prefilling the code nodes?\n\nSpeaker 1 | 24:52 - 24:58\nYeah. And can you fit more than one into a single rack, and how do you solve the packing problem?\n\nSpeaker 2 | 24:58 - 25:11\nYeah. That makes sense. And you kinda mentioned there's, like, lower hanging fruit on the on the inference side, you know, than than doing that maybe. What what are, like, some of the lower hanging fruits today that you still think we're we're not as as as an industry optimized on?\n\nSpeaker 1 | 25:11 - 25:46\nWell, first of I think as an industry, we didn't optimize shit. So, like, pardon my French. But in a sense, I strongly believe that running inference, particularly in the like variety of open weight, source ish models that are available today, is not a solved problem. Like, if you take something, just run with it as it's published, like in the initial support in some of the open source inference servers run with the novel models, your results will probably be underwhelming. It's not that fast.\n\nSpeaker 1 | 25:46 - 26:24\nIt's not that cheap, especially with like current prices on the infrastructure. It's easier to go and use like, I don't know, Fable 5.1, Astra six, etcetera, etcetera, etcetera. But because of the open architecture, because like of everything that we know as of today, you can optimize the way you process those requests. You can optimize the way the inference server is configured. You'll put a lot of effort in kernel optimizations, sometimes kernel over optimizations based, like, on the particular pattern that you see in the traffic.\n\nSpeaker 1 | 26:24 - 26:42\nRight? There is a lot of underexplored potential in model weights optimization. And I'm not just talking about like stuff like speculative decoding, for example. I'm talking about like model pruning, selective pruning, compression. Because I believe that...\n\nSpeaker 1 | 26:43 - 27:09\nAnd we see that within our customer base. 95% of our customers do not run vanilla open source models. These are modified, fine tuned, etcetera, etcetera, etcetera. It means that these are the models that start to address a particular use case that the customer has. Particular use case usually means limited domain, scoped domain.\n\nSpeaker 1 | 27:09 - 27:48\nScoped domain usually means that you need to retain like frontier intelligence and reasoning for a particular subset of tasks. And you don't care about the rest. And now we are getting somewhere in terms of like, maybe you don't need such a large model anymore. Maybe you need just like a model that is selectively compressed in a way where it works for a particular task and it doesn't work as good for the rest of it. Now, of course, that doesn't work with, like, open ended, you know, deep research or broad coding tasks anymore.\n\nSpeaker 1 | 27:48 - 28:31\nBut I strongly believe that for for real AI adoption, when we are talking about serious enterprise business, when we are talking about, like, practical AI that actually solves problems, You are getting more and more into these specialized agents, limited domains, where you even stop caring about the cost. You care more about predictability of the outcome, and you care about time, as in, like, real seconds and minutes till you get that outcome. Yeah. And I think there is a lot of potential there, and we still... We'll we'll we'll still see a couple of nice breakthroughs there.\n\nSpeaker 2 | 28:31 - 28:59\nThere's a ton of work around inference optimization, and a lot of that gets done in open source, right, or, like, you know, contributions that that share throughout the community. There's obviously a bunch of work on on on, like, smaller purpose built models and and compaction and a bunch of these things. Across all these problems, which do impact, you know, how enterprises consume inference, which ones, like, Nebia should have a solution or offer a product around, and which ones you're like, hey. It's great that that exists, and we'll benefit from that, but we don't need to be at the forefront.\n\nSpeaker 1 | 28:59 - 29:27\nWe want to be at the forefront of everything. In a sense, these are additive and even maybe multiplicative. Right? Like, if you have a right subset of things, optimizations that you introduce for a particular use case, it means that you can reach the targets easier, better, faster, in a more predictable fashion. So we invest in all avenues.\n\nSpeaker 1 | 29:27 - 29:52\nLike, one of our acquisitions back in, like, the beginning of summer was targeting specifically that. Like, we basically bought the company for the talent in model optimization, model compression, speculative decoding, etcetera, etcetera, etcetera, combined it with existing talent. So, like, we have, like, team that is two x this size. And we... Like, we have serious manpower, like, as in tens and tens of people who are working on these problems.\n\nSpeaker 1 | 29:52 - 30:08\nLike, we have specialized groups for, like, kernel optimization, specialized groups for, like, model compression problems. Because this is... Like, I feel if you want to talk about, like, running inference as a service at a serious level,\n\nSpeaker 2 | 30:09 - 30:09\nthis is the\n\nSpeaker 1 | 30:09 - 30:11\nonly way you can do it nowadays.\n\nSpeaker 2 | 30:11 - 30:27\nAnd I guess, like, you know, maybe along those lines, you guys have done, you know, a few acquisitions, and and one of them that that caught a few people's eyes was, you know, Tavoli in the kind of, like, web search space. Maybe talk a little through a little bit, like, you know, the rationale for that, how you think about that fitting into the broader platform.\n\nSpeaker 1 | 30:27 - 30:56\nSo first, we were very impressed by the product and their go to market motion. It was almost a year ago now. Right? But we felt like we knew how to help them run even faster with our expertise and technology and low level stuff. Because actually running a web search engine is not a very simple task, not neither from, like, the software development perspective nor from the It's\n\nSpeaker 2 | 30:56 - 30:58\na a lot of... You used to run one.\n\nSpeaker 1 | 30:59 - 31:15\nAnd of us dabbled a little bit in our previous lives. Yes. Right? So this was the premise. Like, we have a great team that is running real fast in terms of like market penetration and in general go to market motion.\n\nSpeaker 1 | 31:15 - 31:41\nAnd we know how to make it complementary with our expertise on the low level stuff infrastructure and, for example, large scale web index. It's not exactly, like, embedded into the rest of the offerings that we have now today. Like, we are exploring and we have something cooking for, like, for the managed inference combined with, like, agentic tools. Because, for example, we also develop sandboxes nowadays. Right?\n\nSpeaker 1 | 31:41 - 31:55\nSo this is another, like, building blocks for p... Building... One of one of the building blocks that people use to build their agents. We have several other products that are in the earlier stages of development in that regard too.\n\nSpeaker 2 | 31:55 - 32:10\nYeah. I mean, it seems that there's obviously a set of tools that folks are gonna use to build agents and build on open source. And it seems like you wanna have a bunch of those tools to be able to offer to Yep. To your end customers. And web search kind of being a a a key primitive for any any long running agent.\n\nSpeaker 2 | 32:10 - 32:32\nWe'll consume a decent amount of tokens on on just pulling information in. So Yeah. I guess I'd love to switch gears to just like the broader, you know, industry build out and and kind of the... You know, I I think there's lots of questions folks are asking about that. Figured one place to start that actually might just be interesting for our listeners is to what extent are, like, the data centers that you work with similar and, you know, like, there's a reference design and they all kind of, like, know, I don't know.\n\nSpeaker 2 | 32:32 - 32:40\nTo you, it doesn't really matter which one's which. And, like, what are some of the differences in them that actually impact the business of, you know, running an AI cloud on on top of them?\n\nSpeaker 1 | 32:41 - 33:22\nTo be frank with you, I have no idea what the walls of the facility are made of. So they're probably different, but that doesn't really help. But in all seriousness, what's within the walls is something that we fully control. We do not rent data centers when someone like have built the, like the network on their own or brought some GPU GPUs or servers, etcetera. If we don't own the facility and we rent it, for example, we rent, well, the building, electricity, but that's it.\n\nSpeaker 1 | 33:22 - 33:42\nAll the internal build out is controlled by us. It's like, it's done according to our standards. So from the software side of things, there is literally no difference which data center we run. Is it our own facility? Is it something that is built within a rented facility?\n\nSpeaker 1 | 33:43 - 34:13\nOr for example, we've recently announced the so called asset light model when a third party brings capital in order to set up the facility and GPUs, and we run our platform on top of that. It's gonna be the same. These data centers are built according to our... Like fitted out according to our spec. Hardware is something that is familiar to us because like unknown hardware is quite hard to adopt and make sure that you provide proper SLAs.\n\nSpeaker 1 | 34:15 - 34:29\nAnd that's it. So we don't compromise there. We never rent something from people and present it as our own cloud. If you launch a virtual machine in Nebios Cloud, we can be sure that it runs on our stack top to bottom.\n\nSpeaker 2 | 34:29 - 34:49\nYeah. Makes makes sense. I mean, I guess there's a lot of dialogue around the the bottlenecks to the AI build out today. And I think people talk about a bunch of different ones, you know, whether it's power or labor to actually make, you know, data centers, cooling, networking, you know, HBM, GPUs, I guess, as as a as a overall. Like, how do you think about what the what the key bottlenecks are today?\n\nSpeaker 2 | 34:49 - 34:55\nIf you were to to kind of rank the... Across all of them, the the the few that feel most most poignant right now?\n\nSpeaker 1 | 34:55 - 35:14\nI'm sorry to disappoint. There is one single bottleneck, and that's your ability to execute. Because, yes, all of those are issues. Like, there are GPU shortage in the market, components shortage in the Nowadays, it's CPU shortage in the market. Like NVMe shortage in the market.\n\nSpeaker 1 | 35:15 - 35:40\nThere are, like, not enough facilities, not enough electricity, not enough not enough qualified, like, workforce to help you build it out. Not enough, like, small components like network transceivers, for example. What else is not in abundance? Oh, oh, well, you know, like, those large scale... I'm not sure.\n\nSpeaker 1 | 35:40 - 35:48\nI, like, I I know the proper English terminology, but, like, you know, those machines that actually convert electricity in place like transformators.\n\nSpeaker 2 | 35:48 - 35:50\nOh, transformers. Yeah.\n\nSpeaker 1 | 35:50 - 35:56\nTransformers. Yeah. Like, do you know the lead times on those these days? Oh, years. Right?\n\nSpeaker 1 | 35:56 - 36:33\nSo, like, everything is a problem. And I think the single bottleneck and at the same time, the single, like, mode that you can impose on that is, like, your ability to execute around all these problems and concerns, your ability to source, your ability to cut corners wherever appropriate, your ability to execute in general, your ability and flexibility to move stuff between facilities. Okay. We're gonna move this one from here to there, and then we're gonna move it back, kind of like, yes, we'll postpone this one, but this means we'll be in time with this one. This is important, etcetera, etcetera, etcetera.\n\nSpeaker 1 | 36:33 - 36:46\nSo I think that, like, this particular field, like an experienced project manager, is probably in highest demand I've ever seen throughout my career.\n\nSpeaker 2 | 36:46 - 36:50\nYeah. That's... I I guess the the the bottleneck is really good project managers, which Yeah.\n\nSpeaker 1 | 36:50 - 37:02\nExactly. Like, your your overall ability to, like, have this large context of, like, problems everywhere in mind and navigate that becomes a moat.\n\nSpeaker 2 | 37:03 - 37:12\nYeah. It's interesting because you obviously have, you know, the hardware itself changes... Changing. You have a bunch of workloads changing. Obviously, we have much more long running agents.\n\nSpeaker 2 | 37:12 - 37:27\nWe have more post training going on, you know, people running open source models. How does that actually impact the way that, you know, the overall, like, I guess, the overall build out of the clusters themselves? To what extent is it like, hey, you know, a workload's a workload and, you know, we can we can run it?\n\nSpeaker 1 | 37:27 - 37:40\nNo. The workload's a workload. Like... Exactly like you said. It is slightly different, But in a sense, you need a high enough baseline to not be constrained by that.\n\nSpeaker 1 | 37:41 - 37:54\nAnd then the rest is just your optimization problem. The way you pack things. The way you split things. Right? Like you don't need whole nodes for some of the workloads.\n\nSpeaker 1 | 37:54 - 38:22\nSo you need to collocate workloads. You need to have the right primitives. You need to expose those through the platform, etcetera, etcetera, etcetera. But in a sense, like differentiated workloads almost never like impose any changes on on on how you build on the lowest level. Yes, of course, like nowadays with like these new architectures, like what is it called?\n\nSpeaker 1 | 38:22 - 38:41\nNvidia LPX, like the outcome of the grog deal. Right? This like adds to it. But in a sense, if you have experience running other generations, this is just another like 0.5 generation. Right?\n\nSpeaker 1 | 38:41 - 39:00\nYes, this will be a little bit novel and it's connected in a in a weird... Like, compared to the previous one's way. And it kinda is... Like, there are some restrictions when you can run and not run on that. But efficiency gains.\n\nSpeaker 1 | 39:00 - 39:17\nAnd this is like just a, like a niche local addition to the platform to what to what you offer to the broader market. But in general, no. There is like way less custom, like custom solutions that you would expect from that. The workload is a workload.\n\nSpeaker 2 | 39:17 - 39:26\nWhy didn't the hyperscalers, like, move into this market faster or win this market, you know, more convincingly early on in in in this first chapter, at least?\n\nSpeaker 1 | 39:26 - 39:46\nFirst of all, sometimes there is a notion that they didn't even try. There is a solid amount of business that hyperscalers get from out of this market. Like huge deals, they are very competitive. Sometimes people say, Oh, have you seen AWS prices? Well, these are public prices.\n\nSpeaker 1 | 39:47 - 40:12\nI assure you. Like for proper deals, they are doing proper prices and they're very competitive. And like they're very aware of the market. I think in a sense, like there are two two angles to that. First, like what I've mentioned before, a lot of these companies need to juggle like their internal consumption and what they can put for, like, for for the broad market.\n\nSpeaker 1 | 40:12 - 40:28\nAnd there is... Like, we are in chip shortage world. Right? So, like, if NVIDIA could have bought... Like, could have produced, like, 10 x the chips, probably this this this whole market would have been shaped differently.\n\nSpeaker 1 | 40:28 - 40:41\nBecause they... Like, Microsofts and Googles of the world would both buy capacity for themselves and for the broader market to operate. This was partly... Like, simply not enough capacity for their scale. Right?\n\nSpeaker 1 | 40:41 - 41:00\nBecause there is not enough capacity for their scale, this is a relatively small business for them. AWS revenue is what? Like, billion or something? I mean, like, a business for, like, $2.03, 4,000,000,000. It's not insignificant paying margin.\n\nSpeaker 1 | 41:00 - 41:08\nBut they compared to what they... Their conservative, large scale established businesses, it's not that easy either.\n\nSpeaker 2 | 41:08 - 41:24\nYeah. But your point is basically like they're, you know, they get a chip allocation that is like, you know, not as large as they'd want. They have to use some of that, you know, a large amount of that for training themselves. There's only so big that that inference business or that that the cloud business can be given all that. And Yeah.\n\nSpeaker 2 | 41:24 - 41:39\nYeah. It's interesting to figure out how to prioritize. Do you go after like the few folks with large contracts or do you try and get this like mid market enterprise up and coming segment? But I guess you're you're kind of doomed either way if if you only have a certain number of chips to Yes.\n\nSpeaker 1 | 41:39 - 42:01\nExactly. And then... And and and then at the same time, this becomes a relatively small, like, part of your revenue portfolio. And you're like, do I even need to allocate resources to that? And that is especially a pressing question because like, for the hyperscalers, it's not just a matter of like sales.\n\nSpeaker 1 | 42:02 - 42:30\nIt's also a matter of changing the infrastructure that was built at scale for other kinds of workloads. The networking, the throughput performance, the storage performance, by the way, right, that I've mentioned earlier. So this, like, this requires... If you want to have it universally, like, implemented on... Through the whole stack, this is a massive investment on their part that needs to be justified by the size of a potential business.\n\nSpeaker 1 | 42:31 - 43:03\nAnd it's not that there yet. I think if we start getting out of this, like, chip shortage in, like, I don't know, two, three, five years, maybe, we will definitely see this shift. And they will pay more attention because this will become, like, increasing a large chunk of business. And they will start investing. They will, like, reorganize and redesign their, like, internals to be more accommodating to these demands, etcetera, etcetera, etcetera.\n\nSpeaker 1 | 43:03 - 43:27\nAnd then with their whole sales power, they'll go and try to win this market. And the question is whether the novel players, like like us, for example, will be fast enough to grow and represent, like, significant competition when they get there. Yeah. And, like, I'm 100% that... Sure that they will pay more attention in the future.\n\nSpeaker 1 | 43:28 - 43:39\nYeah. Our bet is that we'll be fast enough to be in the league with them and fight as equals rather than a small player trying to run-in their trails.\n\nSpeaker 2 | 43:39 - 43:51\nMakes sense. I what do you think happens to... Like, you mentioned there's like these, like, you know, 300 to 500, like, you know, neo clouds, everyone trying to get into this market. Like, as you've kind of... You know, you mentioned that you're kinda thinking the chip shortage comes to an end at some point.\n\nSpeaker 2 | 43:51 - 43:58\nLike, as you zoom five years, ten years in the future, like, how many of these businesses are still around? Or like, what is the end state of this market?\n\nSpeaker 1 | 43:58 - 44:17\nListen, I think the whole, like, AI consumption is gonna grow. And it will be like universally used everywhere. Like AI is everywhere. Like right now, like web services are everywhere. AI services will be everywhere.\n\nSpeaker 1 | 44:19 - 44:39\nSo in a sense, like you have AWS, right? But you also have Hetzner. You also have DigitalOcean. You also have Linode. You also have like tons and tons and tons of local hosting providers that are giving you virtual machines, sometimes bare metal, etcetera, etcetera, etcetera.\n\nSpeaker 1 | 44:39 - 45:05\nSo this market is gonna be vast. Will all of the current three to 500 companies survive the next five years? I'm not sure. But I am pretty sure that there will be a place for the very long tail of providers down the line. Like, some of this, the current players will consolidate, some of them will die off, new new players will be launched, etcetera, etcetera, etcetera.\n\nSpeaker 1 | 45:05 - 45:31\nIt's a... Like, it's not a bad market right now. It's not a bad business to be in. So they will constantly attract capital and attention and investments, etcetera, etcetera, etcetera. And I trust that, like, in five years' time, there's still gonna be, like, hundreds of players in this market who found the investment related to the, and several $100,000,000, and they can offer something to someone in the market.\n\nSpeaker 1 | 45:31 - 45:42\nSame as it is with, like, with the the small scale clouds like DigitalOcean these days. Right? Like, DigitalOcean did not die because AWS is growing.\n\nSpeaker 2 | 45:42 - 46:06\nYou're obviously doing a lot of things in house like sandboxes and, you know, web search and, you know, helping people with their their models over time. And, you know, I I think one question a lot of people are asking is, you know, what parts of the AI infrastructure end up just being subsumed into these future AI hyperscalers and, like, live, you know, in just one combined offering? And then what are, like, the standalone pieces of AI infrastructure that will persist as companies?\n\nSpeaker 1 | 46:06 - 46:50\nIn a sense, I think it will, like, it will kind of mimic what's happened with like the legacy generation of clouds, previous generation of clouds. Right? When your growth kind of dictates that you need to start addressing new and like new sectors, new markets, etcetera. Because otherwise your growth is like bounded and you can't like can't show your projections, can justify your valuation, etcetera, etcetera, etcetera. So there will be a natural push for the larger companies to start like increasing their portfolio, like trying to get into new products, into new services, etcetera, etcetera, etcetera.\n\nSpeaker 1 | 46:52 - 47:18\nIt doesn't mean that there will be a one size fits all solution. Because in a sense, if you're concerned by that, you will... Like, we just need to stop doing whatever we are doing and just wait for, like, OpenAI to rule the world, Entropic to rule the world. Because these companies will eventually... Like, you do realize that OpenAI has models, runs inference.\n\nSpeaker 1 | 47:18 - 47:37\nThey have their own search that they... Like, they don't exactly expose it. But if you're building the agent on their platform, it has access to search. They have all kinds of like sandboxing, local agents, cloud agents, etcetera, etcetera, etcetera. They both...\n\nSpeaker 1 | 47:37 - 48:03\nOpenAI and Entropic are now investing in forward deployed organizations and are gonna go and do the work that was traditionally like, I don't know, Deloitte's or like Accenture's piece of pie. Right? So they will be everywhere. And I think this is a natural motion for the large company to start getting into a broader markets. But it doesn't mean this is...\n\nSpeaker 1 | 48:03 - 48:23\nThey are gonna be the only ones. So even nowadays, there is a place for independent object storage players all of a sudden. Right? Or independent compute players or independent small scale inference players for that matter. Independent database players.\n\nSpeaker 1 | 48:23 - 48:46\nLike like, on one... Like, you've seen, like, Google has, like, big BigQuery and whatever, all kinds of data stuff. But then Snowflake kinda, like, appears from out of nowhere. AWS has, like, all kinds of, like, managed databases, large scale databases, like Aurora, Redshift, etcetera, etcetera, etcetera. But then MongoDB appears.\n\nSpeaker 1 | 48:46 - 49:03\nAnd it's pretty successful. I can't say it's, like, super large scale and probably by nowadays standards will never be. Because nowadays standards for a large company is like trillion plus. Right? But like two years ago it was a very solid and very successful company.\n\nSpeaker 1 | 49:03 - 49:25\nOr someone like Clickhouse appears with their cloud offering. Right? Also a massive managed database, an independent company that finds its niche and works it real well. So I think, like, larger company, larger clouds will grow. They will have, like products in every sector and will be pretty successful at selling them.\n\nSpeaker 1 | 49:25 - 49:43\nThose because of bundling, because of their sales power, etcetera, etcetera, etcetera. But there will always be a place for niche players. And because the market is huge, niche doesn't mean small. Niche doesn't mean small scale or low revenue or low valuation. This can be solid companies.\n\nSpeaker 2 | 49:43 - 50:03\nYeah. I mean, as you mentioned, you know, OpenAI and Anthropic having this kind of broad suite of offerings too. I mean, in many ways, they're obviously building their own AI clouds. And I thought one thing that was interesting recently was, you know, obviously, limitation of those AI clouds versus others is is the the, you know, having just one model family, right, to be able to call from. But I thought it was really interesting that OpenAI announced that partnership with Base ten.\n\nSpeaker 2 | 50:03 - 50:09\nI'm curious what your take on... Was was on that. I mean, is that them just trying to get into this general, you know, hyperscaler game across models?\n\nSpeaker 1 | 50:10 - 50:37\nIn a sense, we see a lot of push and concerns about people like claiming that OpenAI models, so Entropic models are too expensive. Everyone is puzzled or surprised by the bills they get, they get to the end of the month. So this might be like an answer to that. Well, if you're like, oh, go try open open models. At the same time, open models are still behind the closed source...\n\nSpeaker 1 | 50:37 - 51:01\nClosed models. Right? However good those models are, they're still lagging behind. And giving people an option to try, like, lower scale with the ability to switch back to the top frontier model, it also be a good incentive. Like, anyway, I think like OpenAI is doing a very interesting move with that partnership.\n\nSpeaker 1 | 51:01 - 51:20\nAnd I like it really much because like, this kind of shows flexibility. Right? They're not set and so. Like, they're exploring different options, different things that they can or cannot do. Like looking for different options to like so...\n\nSpeaker 1 | 51:20 - 51:35\nBut I I I think in a sense, this all plays into one single thing. Like OpenAI wants... Same as Intropic. They want to be one single, like touch point. Like they want to be one single thing for everything.\n\nSpeaker 1 | 51:36 - 52:07\nEven that is like, okay, but sometimes I want to use open source models within my codex controlled environment, by the way. Right? So like, well, good for them. But if the company, the person, the user is still within your ecosystem, you still have a lot of options to steer them, to upsell them, to introduce them to new services, etcetera, etcetera, etcetera. So if that, like, alleviates one of the concerns, so be it.\n\nSpeaker 1 | 52:07 - 52:07\nWhy not?\n\nSpeaker 2 | 52:07 - 52:19\nWell, I always like to end these interviews with some, like, overly broad questions that I stuff into the to the very end. And so if you'll if you'll humor me, I guess Sure. First question is just, what's one thing that you've changed your mind on in AI in the last year?\n\nSpeaker 1 | 52:19 - 52:33\nIn the last year? Oh, a lot a lot has happened in the year. No. Like, the obvious answer would be software engineering. Like, a lot of people forget, but a year ago, we lived in a totally different world.\n\nSpeaker 2 | 52:34 - 52:36\nIt's amazing. Like dog years in AI world.\n\nSpeaker 1 | 52:36 - 52:53\nLess Way less like capable. Yes. Way less capable in terms of the model capabilities and in terms of how good the modern harnesses and tools are. It's like the AI coding. Because like a year ago, it was total bullshit.\n\nSpeaker 1 | 52:53 - 53:18\nRight now, it's it's a solid part of, like, your everyday tooling. But for example, if you're not talking about the industry trends or, like, talking about more, like, my personal thing, I've started relying more on the, like, AI enabled, like, local agents and harnesses to offload a part of my cognitive load, to be honest.\n\nSpeaker 2 | 53:18 - 53:34\nI mean, obviously, like, run a really large technical organization. And and I think everyone's trying to figure out, you know... I mean, obviously, the models only recently got really good on the coding side. And so everyone's trying to figure out what it means to build teams given the new model capabilities and run an organization. I'm curious what you've...\n\nSpeaker 2 | 53:34 - 53:39\nWhere you've settled and how you've thought about that.\n\nSpeaker 1 | 53:39 - 54:16\nCautiously. Conservatively. I'm very concerned that modern models and the attractive user experience that they provide, like modern agents, modern models, etcetera, etcetera, etcetera, is something that will lead us to two issues. You like... You see slop, like, being revealed in, like, in chats, in merge requests, all over.\n\nSpeaker 1 | 54:16 - 54:35\nAnd I, like, I try to pace that, and I try to, like, be very observant and vigilant about that. So for example, like, don't restrict talking usage. Like, people can use whatever they want. Our budget is quite significant. We don't impose, like, per person limitations or per department limitations.\n\nSpeaker 1 | 54:36 - 55:04\nBut the... At the same point, we try to, like, look at the usage, figure out what it is used for, look at the most ineffective ways people use it. We, like, constructed a set of policies that doubles down in the idea that whatever you've done with the agent, it's still your result. It's your responsibility. It's your pull request.\n\nSpeaker 1 | 55:04 - 55:20\nIt's your code. It's you who is on call. It's you who's gonna wake up during... In the middle of the night if something goes awry, etcetera, etcetera, etcetera. And if something was created by a completely autonomous agent, it is marked like that.\n\nSpeaker 1 | 55:21 - 55:48\nCompletely autonomous agents will not touch, like, the core services for a while because, like, this is, like, this is, like, out of bounds. Like, sometimes people are surprised that, like, I work in a company that's kind of participates in this whole Yeah. AI revolution, and I'm very conservative. But at the same time, like, I've seen how this sausage is made, and I, like, I'll be cautious.\n\nSpeaker 2 | 55:48 - 55:56\nWhat's the biggest mistake you feel like you've made in in building Nebius so far? Obviously, a lot's gone right. But I'm curious, you know, something that in retrospect you wish you guys had done differently.\n\nSpeaker 1 | 55:56 - 56:09\nIt might sound funny these days, but we underestimated the scale. Like... And it's not about the growth of the company. We were pretty optimistic from the very beginning. But I personally...\n\nSpeaker 1 | 56:09 - 56:35\nAnd that was, like, my strong bias for the first, like, significant part. I underestimated the scale that a single client operates at nowadays. Because, like, five years ago, if you're talking about a 30 megawatt data center, it was a serious facility. It hosted, like, hundreds of thousands of servers, like, run glorious... Gloriously large foreclose.\n\nSpeaker 1 | 56:36 - 56:57\nBy now, 30 megawatts sometimes is not enough for a single client, which I'm still getting used to. Right? The storage I've mentioned. Right? Like, four years ago when you were talking about network attached storage, you were talking about, like, hundreds of megabytes, maybe gigabytes per second of throughput.\n\nSpeaker 1 | 56:58 - 57:19\nRight now, some of our clients routinely fetch, I don't know, seven hundreds of gigabytes per second from a single shared file system. I'm still... I underestimated it in the beginning, and I'm still getting used to this scale. Like, it's... Like, I'm an infrastructure person.\n\nSpeaker 1 | 57:19 - 57:31\nI've worked and have seen these numbers throughout my career multiple times. And all of a sudden, you add a couple of zeros to the end and call it a new norm. Yeah. Still puzzling.\n\nSpeaker 2 | 57:31 - 57:57\nIt's crazy. And I guess lastly, like, there's obviously a lot of, you know, unsettled questions in the in the AI field today that, you know, lots of people trying to figure out where where the world goes. I'm curious, like, you know, what you're paying attention to. And I guess, you know, with the lens toward, you know, if it goes one way or another, it would really change kind of the strategy for for Nebius as a whole. What are you kind of most paying attention to on on, like, these these unsettled questions of where the AI world's going?\n\nSpeaker 1 | 57:57 - 58:35\nWell, I stopped caring about, like, the new models being larger or smarter. I just accepted that it's a given. I'm kind of trying to look out for, like, new novel architectures and approaches, but I don't see any as of today. I hope somewhere deep down in like a stealth lab, something new is cooking. But for now, I frankly don't see anything that like is a thing that I would be, you know, like would place even a small bets on.\n\nSpeaker 1 | 58:36 - 59:05\nBut I'm more and more interested in the whole outcome optimization part on the agent side. Right? Because, like, we we are used to talking about models and size of models and families of models, etcetera, etcetera, etcetera. But now that we've shifted to this multi turn, long running agents that we are talking not about requests, but rather outcomes, companies are talking about bidding for per outcome. Right?\n\nSpeaker 1 | 59:05 - 59:21\nI'm very interested in how that part will shape up. And we have, like, a small research group internally with the Navy that's working on this problem, actually. I always like... How do you increase the chances of getting to that out outcome? Not by increasing the model or, like, changing the model.\n\nSpeaker 1 | 59:21 - 59:45\nThat that is, of course, part of the discussion. But I believe there is a lot of optimization on the part where you introduce more sophisticated or maybe more simplified tools. You introduce the harnesses that start to evolve according to a particular task. And this kinda gets us back to, like, a significant CPU consumption. Because, like, a lot of that...\n\nSpeaker 1 | 59:45 - 59:57\nA lot of, like, modern AI workloads actually go back to becoming code. Like, this qualified. It's, like, very formal. You see, like, quality gates. You see sophisticated tools, etcetera, etcetera, etcetera.\n\nSpeaker 1 | 59:57 - 1:00:28\nAnd sometimes your agent works for minutes and minutes minutes without even issuing a back end request to an LLM because the workloads start to, like, to sit on this part. And this is the part that really interests me. Because I think, like, a lot of future AI adoption lies in how reliable your agentic scenarios are and how reliably you reach those outcomes. And I think, like, the whole optimization loop outside the model is important part of that.\n\nSpeaker 2 | 1:00:28 - 1:00:35\n100%. Well, this has been an awesome conversation. Really appreciate you coming on the show. And, yeah, thanks so much for for coming on.\n\nSpeaker 1 | 1:00:35 - 1:00:36\nThank you for having me.\n\nSpeaker 2 | 1:00:36 - 1:01:02\nI'm Jacob Efron, and this has been Unsupervised Learning, a podcast where I get to talk to the smartest people in AI and ask them tons of questions about what's happening with models and what it means for businesses in the world. As I hope is clear, I have a ton of fun doing this. It's a nights and weekends project in addition to my day job as an investor at Redpoint. But our ability to get these incredible guests on really comes from folks like you subscribing to the podcast, sharing it with friends. It's really what ultimately makes this whole thing work.\n\nSpeaker 2 | 1:01:02 - 1:01:07\nAnd so please consider doing that, and thank you so much for your support and listening. We'll see you next episode."
+      }
+    ],
+    "githubTrending": [
+      {
+        "repo": "vercel-labs/agent-desktop",
+        "owner": "vercel-labs",
+        "name": "agent-desktop",
+        "title": "Agent Desktop: 基于 Rust 构建的 AI 智能体桌面自动化控制终端",
+        "summary": "Agent Desktop 是 Vercel Labs 推出的开源项目，旨在通过 CLI 工具赋予 AI 智能体直接操作桌面环境的能力。该项目采用 Rust 编写，具备高性能与跨平台特性，能够模拟鼠标点击、键盘输入及屏幕截图分析，从而实现复杂的桌面级任务自动化。它解决了 AI 智能体在封闭沙盒外与传统 GUI 软件交互的痛点，为开发者构建“自主代理”提供了底层控制接口，是实现 AI 深度参与工作流的关键基础设施。",
+        "translation": "用于 AI 智能体的计算机使用（Computer Use）命令行工具，支持通过指令直接操控桌面环境。",
+        "recommendation": "今日激增近 4000 Star，反映了开发者对 AI 从“对话”转向“执行”的迫切需求。该项目是探索 AI Agent 落地生产力场景的必修课，值得密切关注其交互协议的演进。",
+        "url": "https://github.com/vercel-labs/agent-desktop",
+        "language": "Rust",
+        "languageColor": "#dea584",
+        "starsToday": 3791,
+        "totalStars": 13467,
+        "forks": 927,
+        "channel": "全语言热门"
+      },
+      {
+        "repo": "pingdotgg/t3code",
+        "owner": "pingdotgg",
+        "name": "t3code",
+        "title": "t3code: 基于全栈 TypeScript 的高性能 Web 应用开发框架",
+        "summary": "t3code 是一个旨在简化全栈开发流程的现代化框架，核心痛点在于解决前后端类型同步与开发效率低下的问题。其系统架构深度集成 TypeScript，通过类型安全（Type-Safety）机制，确保从数据库模型到前端 API 调用实现端到端的类型推断。关键特性包括：零配置的开发环境、高度模块化的插件系统以及对现代 Web 标准的深度优化。该项目适用于需要快速迭代、追求极致开发体验的 SaaS 产品及企业级 Web 应用，通过统一的类型契约显著降低了跨端协作的沟通成本与运行时错误。",
+        "translation": "t3code 是一个全栈 TypeScript 框架，专注于通过端到端的类型安全、模块化架构和极致的开发体验，帮助开发者构建可扩展的现代 Web 应用。",
+        "recommendation": "今日 Star 激增 3,173，反映了开发者对“类型安全全栈开发”的强烈需求。其架构设计是 AI 辅助编程的天然沃土，极具学习与落地价值。",
+        "url": "https://github.com/pingdotgg/t3code",
+        "language": "TypeScript",
+        "languageColor": "#3178c6",
+        "starsToday": 3173,
+        "totalStars": 44970,
+        "forks": 9296,
+        "channel": "TypeScript/前端"
+      },
+      {
+        "repo": "JustVugg/colibri",
+        "owner": "JustVugg",
+        "name": "colibri",
+        "title": "Colibri：面向前沿MoE模型的高效分层推理引擎",
+        "summary": "Colibri 是一款专为大规模混合专家模型（MoE）设计的推理引擎，旨在解决消费级硬件运行超大模型时的显存瓶颈。其核心架构采用分层存储策略：将“热”专家驻留于 GPU（支持 CUDA/Vulkan），“温”专家置于内存，而“冷”专家则通过 NVMe 高速流式加载。该项目完全使用 C 语言编写，极大地降低了运行时开销，使得在普通硬件上运行参数量巨大的前沿模型成为可能，是边缘计算与本地化大模型部署的突破性方案。",
+        "translation": "一款用于前沿 MoE 模型的分层推理引擎：热专家驻留 GPU（CUDA/Vulkan），温专家置于内存，冷专家从 NVMe 流式加载。采用 C 语言编写，适配你现有的硬件。",
+        "recommendation": "今日暴涨 800+ Star，反映了社区对“低成本运行超大参数模型”的迫切需求。Colibri 通过极致的底层优化打破了硬件限制，是 AI 开发者探索本地化部署 MoE 模型的必看项目。",
+        "url": "https://github.com/JustVugg/colibri",
+        "language": "C",
+        "languageColor": "#555555",
+        "starsToday": 802,
+        "totalStars": 47425,
+        "forks": 5478,
+        "channel": "全语言热门"
+      },
+      {
+        "repo": "p-e-w/heretic",
+        "owner": "p-e-w",
+        "name": "heretic",
+        "title": "Heretic：无需训练的语言模型行为干预与去审查工具",
+        "summary": "Heretic 是一款创新的大模型修改工具，旨在通过数学干预手段而非传统的微调（Fine-tuning）来调整模型行为。其核心架构基于对模型内部激活状态的实时操纵，能够有效移除模型的审查限制、抑制冗余废话（slop）并降低谄媚倾向（sycophancy）。该项目最大的技术亮点在于“Training-free”特性，用户无需消耗大量算力进行权重更新，即可实现对模型输出风格与价值观的精准控制。适用于追求模型个性化定制、去偏见化处理以及对模型推理过程有深度干预需求的AI开发者与研究人员。",
+        "translation": "无需训练的语言模型修改方案：移除审查、抑制冗余、降低谄媚，以及更多功能。",
+        "recommendation": "今日激增 700+ Star 反映了社区对“低成本、非侵入式”模型调优方案的迫切需求。Heretic 提供了一种绕过昂贵微调的轻量化路径，是探索模型可解释性与行为对齐的前沿利器，极具研究价值。",
+        "url": "https://github.com/p-e-w/heretic",
+        "language": "Python",
+        "languageColor": "#3572A5",
+        "starsToday": 701,
+        "totalStars": 39018,
+        "forks": 4402,
+        "channel": "全语言热门 / Python AI 专区"
+      },
+      {
+        "repo": "tashfeenahmed/freellmapi",
+        "owner": "tashfeenahmed",
+        "name": "freellmapi",
+        "title": "FreeLLMAPI：聚合全球免费大模型资源的统一API网关",
+        "summary": "FreeLLMAPI 是一款旨在解决开发者调用大模型成本高昂问题的聚合工具。它通过统一的 /v1 接口，整合了 34 个免费 LLM 提供商及 635 个模型端点，支持每月高达 74 亿 token 的免费调用额度。系统架构内置智能路由与自动故障转移机制，确保在多源异构环境下的高可用性，并提供密钥加密存储功能。该项目非常适合个人开发者进行 AI 应用原型验证、低成本实验及学习研究，有效降低了接入大模型生态的门槛。",
+        "translation": "每月 74 亿 token 额度，聚合 34 个免费 LLM 提供商与 635 个模型端点。所有资源统一封装在 /v1 接口下，并兼容任何 OpenAI 标准端点。具备智能路由、自动故障转移及密钥加密功能，仅供个人实验使用。",
+        "recommendation": "该项目今日 Star 激增 688，反映了开发者对低成本 AI 开发基础设施的强烈需求。其通过聚合碎片化免费资源实现“平替”方案，是 AI 极客进行高频实验的必备利器。",
+        "url": "https://github.com/tashfeenahmed/freellmapi",
+        "language": "TypeScript",
+        "languageColor": "#3178c6",
+        "starsToday": 688,
+        "totalStars": 47208,
+        "forks": 6451,
+        "channel": "TypeScript/前端"
+      },
+      {
+        "repo": "FlashML-org/FreeToken",
+        "owner": "FlashML-org",
+        "name": "FreeToken",
+        "title": "FreeToken：将数据中心级大模型推理能力带入个人桌面",
+        "summary": "FreeToken 旨在打破高性能模型推理的硬件壁垒，通过高度优化的推理引擎，让开发者在普通桌面级设备上也能高效运行超大规模模型。该项目通过底层算子优化与显存管理策略，显著降低了模型部署的延迟与资源占用。其核心架构支持主流开源大模型，为边缘计算、本地化 AI 应用开发及隐私敏感型推理任务提供了极具竞争力的解决方案，是实现“本地 AI 自由”的关键基础设施。",
+        "translation": "FreeToken 将数据中心规模的模型服务引入桌面端，助您在本地快速、高效地运行超大规模模型。",
+        "recommendation": "今日激增 608 Star，反映了社区对本地化高性能推理的迫切需求。对于希望摆脱云端算力依赖、追求极致本地部署体验的开发者，该项目是目前最值得关注的性能优化标杆。",
+        "url": "https://github.com/FlashML-org/FreeToken",
+        "language": "Python",
+        "languageColor": "#3572A5",
+        "starsToday": 608,
+        "totalStars": 16539,
+        "forks": 1624,
+        "channel": "Python AI 专区"
+      },
+      {
+        "repo": "shiyu-coder/Kronos",
+        "owner": "shiyu-coder",
+        "name": "Kronos",
+        "title": "Kronos：专为金融市场语言打造的垂直领域基础大模型",
+        "summary": "Kronos 是一个专门针对金融领域数据训练的基础大模型，旨在解决通用大模型在处理复杂金融术语、市场情绪分析及高频交易数据时存在的幻觉与专业性不足问题。该项目通过构建大规模金融语料库，优化了模型对宏观经济指标、财报分析及市场动态的理解能力。其架构支持高效的微调与推理，能够无缝集成至量化交易系统、自动化研报生成及风险评估平台中，为金融科技开发者提供了一套具备深度行业洞察的底层AI基础设施。",
+        "translation": "Kronos：金融市场语言的基础模型。该项目致力于通过深度学习技术解析金融市场的复杂语言逻辑，为金融数据分析提供精准的语义理解与预测支持。",
+        "recommendation": "今日激增503星，反映了金融AI领域对垂直大模型的迫切需求。Kronos 填补了通用模型在金融专业场景下的能力空白，是量化交易与金融科技从业者不可错过的技术基石。",
+        "url": "https://github.com/shiyu-coder/Kronos",
+        "language": "Python",
+        "languageColor": "#3572A5",
+        "starsToday": 503,
+        "totalStars": 46632,
+        "forks": 7674,
+        "channel": "全语言热门 / Python AI 专区"
+      },
+      {
+        "repo": "karpathy/nanochat",
+        "owner": "karpathy",
+        "name": "nanochat",
+        "title": "nanochat: Andrej Karpathy 打造的极简大模型训练与推理实战框架",
+        "summary": "nanochat 是由 AI 领域权威 Andrej Karpathy 开源的教育级大模型项目，旨在通过极简的代码实现，揭示 ChatGPT 类产品的核心构建逻辑。该项目以 Python 为核心，通过高度可读的架构展示了从数据预处理、Transformer 模型搭建到分布式训练与推理的全链路流程。它解决了开发者对大模型“黑盒”的认知痛点，通过极低的硬件门槛（约 100 美元成本）让个人开发者能够复现高性能语言模型，是深入理解 LLM 底层原理与工程落地的最佳实践手册。",
+        "translation": "这是你能用 100 美元买到的最强 ChatGPT 实现方案。",
+        "recommendation": "作为 AI 领域的“圣经级”项目，今日激增近 500 Star 反映了开发者对底层技术回归的渴望。无论你是初学者还是资深架构师，这都是拆解大模型工程化复杂度的必读代码库。",
+        "url": "https://github.com/karpathy/nanochat",
+        "language": "Python",
+        "languageColor": "#3572A5",
+        "starsToday": 479,
+        "totalStars": 60219,
+        "forks": 8438,
+        "channel": "Python AI 专区"
+      }
+    ]
+  }
+}
