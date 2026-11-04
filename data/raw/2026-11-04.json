@@ -1,7 +1,7 @@
 {
   "date": "2026-11-04",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-04T11:23:03.376Z",
+  "fetchedAt": "2026-11-04T15:39:43.835Z",
   "stats": {
     "buildersCount": 18,
     "totalTweets": 29,
@@ -488,19 +488,6 @@
   "blogs": [],
   "githubTrending": [
     {
-      "repo": "pingdotgg/t3code",
-      "owner": "pingdotgg",
-      "name": "t3code",
-      "url": "https://github.com/pingdotgg/t3code",
-      "description": "",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "starsToday": 3173,
-      "totalStars": 45359,
-      "forks": 9337,
-      "channel": "TypeScript/前端"
-    },
-    {
       "repo": "vercel-labs/agent-desktop",
       "owner": "vercel-labs",
       "name": "agent-desktop",
@@ -509,8 +496,34 @@
       "language": "Rust",
       "languageColor": "#dea584",
       "starsToday": 2463,
-      "totalStars": 13934,
-      "forks": 951,
+      "totalStars": 14366,
+      "forks": 983,
+      "channel": "全语言热门"
+    },
+    {
+      "repo": "NVIDIA/auto-ontology",
+      "owner": "NVIDIA",
+      "name": "auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 2053,
+      "totalStars": 4172,
+      "forks": 354,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "JiaFeiMiao-K-Cat/DiscImageStudio",
+      "owner": "JiaFeiMiao-K-Cat",
+      "name": "DiscImageStudio",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "description": "",
+      "language": "C#",
+      "languageColor": "#7355dd",
+      "starsToday": 1792,
+      "totalStars": 6173,
+      "forks": 214,
       "channel": "全语言热门"
     },
     {
@@ -522,61 +535,48 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 979,
-      "totalStars": 17044,
-      "forks": 2900,
-      "channel": "全语言热门 / Python AI 专区"
+      "totalStars": 17102,
+      "forks": 2904,
+      "channel": "Python AI 专区"
     },
     {
-      "repo": "p-e-w/heretic",
-      "owner": "p-e-w",
-      "name": "heretic",
-      "url": "https://github.com/p-e-w/heretic",
-      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 726,
-      "totalStars": 39148,
-      "forks": 4414,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
-      "repo": "tashfeenahmed/freellmapi",
-      "owner": "tashfeenahmed",
-      "name": "freellmapi",
-      "url": "https://github.com/tashfeenahmed/freellmapi",
-      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "repo": "Renhuai123/ziwei-doushu",
+      "owner": "Renhuai123",
+      "name": "ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 688,
-      "totalStars": 47306,
-      "forks": 6462,
+      "starsToday": 946,
+      "totalStars": 15669,
+      "forks": 3034,
       "channel": "TypeScript/前端"
     },
     {
-      "repo": "JustVugg/colibri",
-      "owner": "JustVugg",
-      "name": "colibri",
-      "url": "https://github.com/JustVugg/colibri",
-      "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
-      "language": "C",
-      "languageColor": "#555555",
-      "starsToday": 635,
-      "totalStars": 47526,
-      "forks": 5487,
-      "channel": "全语言热门"
-    },
-    {
-      "repo": "FlashML-org/FreeToken",
-      "owner": "FlashML-org",
-      "name": "FreeToken",
-      "url": "https://github.com/FlashML-org/FreeToken",
-      "description": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
+      "repo": "github/spec-kit",
+      "owner": "github",
+      "name": "spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "💫 Toolkit to help you get started with SDD or any other process!",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 608,
-      "totalStars": 16553,
-      "forks": 1625,
-      "channel": "Python AI 专区"
+      "starsToday": 810,
+      "totalStars": 147081,
+      "forks": 13198,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "owner": "harry0703",
+      "name": "MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 615,
+      "totalStars": 138707,
+      "forks": 22141,
+      "channel": "全语言热门 / Python AI 专区"
     },
     {
       "repo": "shiyu-coder/Kronos",
@@ -587,9 +587,9 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 506,
-      "totalStars": 46700,
-      "forks": 7684,
-      "channel": "全语言热门 / Python AI 专区"
+      "totalStars": 46744,
+      "forks": 7692,
+      "channel": "Python AI 专区"
     }
   ]
 }
