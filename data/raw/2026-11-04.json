@@ -1,7 +1,7 @@
 {
   "date": "2026-11-04",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-04T07:27:41.903Z",
+  "fetchedAt": "2026-11-04T11:23:03.376Z",
   "stats": {
     "buildersCount": 18,
     "totalTweets": 29,
@@ -488,19 +488,6 @@
   "blogs": [],
   "githubTrending": [
     {
-      "repo": "vercel-labs/agent-desktop",
-      "owner": "vercel-labs",
-      "name": "agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "description": "Computer use CLI for AI agents",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "starsToday": 3791,
-      "totalStars": 13467,
-      "forks": 927,
-      "channel": "全语言热门"
-    },
-    {
       "repo": "pingdotgg/t3code",
       "owner": "pingdotgg",
       "name": "t3code",
@@ -509,22 +496,35 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 3173,
-      "totalStars": 44970,
-      "forks": 9296,
+      "totalStars": 45359,
+      "forks": 9337,
       "channel": "TypeScript/前端"
     },
     {
-      "repo": "JustVugg/colibri",
-      "owner": "JustVugg",
-      "name": "colibri",
-      "url": "https://github.com/JustVugg/colibri",
-      "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
-      "language": "C",
-      "languageColor": "#555555",
-      "starsToday": 802,
-      "totalStars": 47425,
-      "forks": 5478,
+      "repo": "vercel-labs/agent-desktop",
+      "owner": "vercel-labs",
+      "name": "agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "starsToday": 2463,
+      "totalStars": 13934,
+      "forks": 951,
       "channel": "全语言热门"
+    },
+    {
+      "repo": "Usagi-org/ai-goofish-monitor",
+      "owner": "Usagi-org",
+      "name": "ai-goofish-monitor",
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 979,
+      "totalStars": 17044,
+      "forks": 2900,
+      "channel": "全语言热门 / Python AI 专区"
     },
     {
       "repo": "p-e-w/heretic",
@@ -534,9 +534,9 @@
       "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 701,
-      "totalStars": 39018,
-      "forks": 4402,
+      "starsToday": 726,
+      "totalStars": 39148,
+      "forks": 4414,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -548,9 +548,22 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 688,
-      "totalStars": 47208,
-      "forks": 6451,
+      "totalStars": 47306,
+      "forks": 6462,
       "channel": "TypeScript/前端"
+    },
+    {
+      "repo": "JustVugg/colibri",
+      "owner": "JustVugg",
+      "name": "colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
+      "language": "C",
+      "languageColor": "#555555",
+      "starsToday": 635,
+      "totalStars": 47526,
+      "forks": 5487,
+      "channel": "全语言热门"
     },
     {
       "repo": "FlashML-org/FreeToken",
@@ -561,8 +574,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 608,
-      "totalStars": 16539,
-      "forks": 1624,
+      "totalStars": 16553,
+      "forks": 1625,
       "channel": "Python AI 专区"
     },
     {
@@ -573,23 +586,10 @@
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 503,
-      "totalStars": 46632,
-      "forks": 7674,
+      "starsToday": 506,
+      "totalStars": 46700,
+      "forks": 7684,
       "channel": "全语言热门 / Python AI 专区"
-    },
-    {
-      "repo": "karpathy/nanochat",
-      "owner": "karpathy",
-      "name": "nanochat",
-      "url": "https://github.com/karpathy/nanochat",
-      "description": "The best ChatGPT that $100 can buy.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 479,
-      "totalStars": 60219,
-      "forks": 8438,
-      "channel": "Python AI 专区"
     }
   ]
 }
