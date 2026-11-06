@@ -1,7 +1,7 @@
 {
   "date": "2026-11-06",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-06T11:18:34.126Z",
+  "fetchedAt": "2026-11-06T15:15:35.697Z",
   "stats": {
     "buildersCount": 13,
     "totalTweets": 29,
@@ -456,8 +456,8 @@
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "starsToday": 2524,
-      "totalStars": 62639,
-      "forks": 4063,
+      "totalStars": 63105,
+      "forks": 4092,
       "channel": "全语言热门"
     },
     {
@@ -468,9 +468,9 @@
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 2679,
-      "totalStars": 8245,
-      "forks": 659,
+      "starsToday": 2005,
+      "totalStars": 8524,
+      "forks": 689,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -482,8 +482,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 1696,
-      "totalStars": 97524,
-      "forks": 11587,
+      "totalStars": 97959,
+      "forks": 11632,
       "channel": "Python AI 专区"
     },
     {
@@ -495,9 +495,35 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 1199,
-      "totalStars": 117227,
-      "forks": 7429,
+      "totalStars": 117454,
+      "forks": 7447,
       "channel": "TypeScript/前端"
+    },
+    {
+      "repo": "microsoft/VibeVoice",
+      "owner": "microsoft",
+      "name": "VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 1001,
+      "totalStars": 56394,
+      "forks": 6352,
+      "channel": "Python AI 专区"
+    },
+    {
+      "repo": "google/skills",
+      "owner": "google",
+      "name": "skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 532,
+      "totalStars": 22676,
+      "forks": 1907,
+      "channel": "全语言热门 / Python AI 专区"
     },
     {
       "repo": "microsoft/vscode",
@@ -508,8 +534,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 295,
-      "totalStars": 194774,
-      "forks": 44403,
+      "totalStars": 194865,
+      "forks": 44406,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -521,35 +547,9 @@
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "starsToday": 244,
-      "totalStars": 252030,
-      "forks": 51774,
+      "totalStars": 252110,
+      "forks": 51796,
       "channel": "全语言热门"
-    },
-    {
-      "repo": "microsoft/VibeVoice",
-      "owner": "microsoft",
-      "name": "VibeVoice",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "description": "Open-Source Frontier Voice AI",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 223,
-      "totalStars": 56357,
-      "forks": 6345,
-      "channel": "Python AI 专区"
-    },
-    {
-      "repo": "google/skills",
-      "owner": "google",
-      "name": "skills",
-      "url": "https://github.com/google/skills",
-      "description": "Agent Skills for Google products and technologies",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 211,
-      "totalStars": 22602,
-      "forks": 1904,
-      "channel": "全语言热门 / Python AI 专区"
     }
   ]
 }
