@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-10T08:22:17.443Z",
+  "fetchedAt": "2026-11-10T11:30:12.970Z",
   "stats": {
     "buildersCount": 15,
     "totalTweets": 29,
@@ -464,19 +464,6 @@
   "blogs": [],
   "githubTrending": [
     {
-      "repo": "sherlock-project/sherlock",
-      "owner": "sherlock-project",
-      "name": "sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "description": "Hunt down social media accounts by username across social networks",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 4267,
-      "totalStars": 107881,
-      "forks": 12468,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
       "repo": "meta/astryx",
       "owner": "meta",
       "name": "astryx",
@@ -484,10 +471,23 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 3278,
-      "totalStars": 21006,
-      "forks": 1587,
+      "starsToday": 3111,
+      "totalStars": 21328,
+      "forks": 1658,
       "channel": "全语言热门 / TypeScript/前端"
+    },
+    {
+      "repo": "sherlock-project/sherlock",
+      "owner": "sherlock-project",
+      "name": "sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 2387,
+      "totalStars": 108158,
+      "forks": 12532,
+      "channel": "全语言热门 / Python AI 专区"
     },
     {
       "repo": "anthropics/skills",
@@ -497,10 +497,23 @@
       "description": "Public repository for Agent Skills",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 1038,
-      "totalStars": 191514,
-      "forks": 22479,
+      "starsToday": 1676,
+      "totalStars": 191738,
+      "forks": 22529,
       "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 1062,
+      "totalStars": 69451,
+      "forks": 56590,
+      "channel": "Python AI 专区"
     },
     {
       "repo": "vercel-labs/agent-browser",
@@ -510,23 +523,36 @@
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "starsToday": 916,
-      "totalStars": 48765,
-      "forks": 3321,
+      "starsToday": 775,
+      "totalStars": 48871,
+      "forks": 3386,
       "channel": "全语言热门"
     },
     {
-      "repo": "HKUDS/DeepTutor",
-      "owner": "HKUDS",
-      "name": "DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "repo": "homeassistant-ai/ha-mcp",
+      "owner": "homeassistant-ai",
+      "name": "ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 710,
-      "totalStars": 57762,
-      "forks": 7041,
-      "channel": "Python AI 专区"
+      "starsToday": 792,
+      "totalStars": 6314,
+      "forks": 348,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "garrytan/gbrain",
+      "owner": "garrytan",
+      "name": "gbrain",
+      "url": "https://github.com/garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 558,
+      "totalStars": 32389,
+      "forks": 4821,
+      "channel": "TypeScript/前端"
     },
     {
       "repo": "anthropics/claude-quickstarts",
@@ -536,36 +562,10 @@
       "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 551,
-      "totalStars": 20188,
-      "forks": 3329,
+      "starsToday": 530,
+      "totalStars": 20244,
+      "forks": 3383,
       "channel": "全语言热门 / Python AI 专区"
-    },
-    {
-      "repo": "google-deepmind/mujoco",
-      "owner": "google-deepmind",
-      "name": "mujoco",
-      "url": "https://github.com/google-deepmind/mujoco",
-      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "starsToday": 574,
-      "totalStars": 17094,
-      "forks": 2016,
-      "channel": "全语言热门"
-    },
-    {
-      "repo": "ranxianglei/billion-context",
-      "owner": "ranxianglei",
-      "name": "billion-context",
-      "url": "https://github.com/ranxianglei/billion-context",
-      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "starsToday": 760,
-      "totalStars": 5880,
-      "forks": 449,
-      "channel": "TypeScript/前端"
     }
   ]
 }
