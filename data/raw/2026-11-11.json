@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-11T07:43:25.478Z",
+  "fetchedAt": "2026-11-11T11:19:56.436Z",
   "stats": {
     "buildersCount": 15,
     "totalTweets": 32,
@@ -504,9 +504,9 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 3108,
-      "totalStars": 23695,
-      "forks": 1861,
+      "starsToday": 2842,
+      "totalStars": 24097,
+      "forks": 1882,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -517,10 +517,10 @@
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 2393,
-      "totalStars": 109470,
-      "forks": 12701,
-      "channel": "全语言热门 / Python AI 专区"
+      "starsToday": 1639,
+      "totalStars": 109725,
+      "forks": 12714,
+      "channel": "Python AI 专区"
     },
     {
       "repo": "anthropics/skills",
@@ -530,10 +530,10 @@
       "description": "Public repository for Agent Skills",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 1679,
-      "totalStars": 192641,
-      "forks": 22673,
-      "channel": "全语言热门 / Python AI 专区"
+      "starsToday": 1093,
+      "totalStars": 192785,
+      "forks": 22682,
+      "channel": "Python AI 专区"
     },
     {
       "repo": "ZhuLinsen/daily_stock_analysis",
@@ -544,48 +544,22 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 960,
-      "totalStars": 69646,
-      "forks": 56721,
-      "channel": "Python AI 专区"
+      "totalStars": 69701,
+      "forks": 56741,
+      "channel": "全语言热门 / Python AI 专区"
     },
     {
-      "repo": "vercel-labs/agent-browser",
-      "owner": "vercel-labs",
-      "name": "agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "starsToday": 780,
-      "totalStars": 49460,
-      "forks": 3465,
+      "repo": "we-promise/sure",
+      "owner": "we-promise",
+      "name": "sure",
+      "url": "https://github.com/we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "language": "Ruby",
+      "languageColor": "#701516",
+      "starsToday": 1079,
+      "totalStars": 12454,
+      "forks": 922,
       "channel": "全语言热门"
-    },
-    {
-      "repo": "homeassistant-ai/ha-mcp",
-      "owner": "homeassistant-ai",
-      "name": "ha-mcp",
-      "url": "https://github.com/homeassistant-ai/ha-mcp",
-      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 790,
-      "totalStars": 6840,
-      "forks": 439,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
-      "repo": "anthropics/claude-quickstarts",
-      "owner": "anthropics",
-      "name": "claude-quickstarts",
-      "url": "https://github.com/anthropics/claude-quickstarts",
-      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 531,
-      "totalStars": 20649,
-      "forks": 3478,
-      "channel": "全语言热门 / Python AI 专区"
     },
     {
       "repo": "addyosmani/agent-skills",
@@ -595,10 +569,36 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "starsToday": 465,
-      "totalStars": 115402,
-      "forks": 12110,
+      "starsToday": 788,
+      "totalStars": 115529,
+      "forks": 12118,
       "channel": "全语言热门"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "owner": "vercel-labs",
+      "name": "agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "starsToday": 712,
+      "totalStars": 49566,
+      "forks": 3470,
+      "channel": "全语言热门"
+    },
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "owner": "Alishahryar1",
+      "name": "free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 652,
+      "totalStars": 68429,
+      "forks": 10652,
+      "channel": "Python AI 专区"
     }
   ]
 }
