@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-12T08:14:41.107Z",
+  "fetchedAt": "2026-11-12T11:38:54.101Z",
   "stats": {
     "buildersCount": 16,
     "totalTweets": 32,
@@ -513,35 +513,9 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 2776,
-      "totalStars": 25624,
-      "forks": 1994,
+      "totalStars": 25884,
+      "forks": 2010,
       "channel": "全语言热门 / TypeScript/前端"
-    },
-    {
-      "repo": "sherlock-project/sherlock",
-      "owner": "sherlock-project",
-      "name": "sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "description": "Hunt down social media accounts by username across social networks",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 1483,
-      "totalStars": 110302,
-      "forks": 12772,
-      "channel": "Python AI 专区"
-    },
-    {
-      "repo": "anthropics/skills",
-      "owner": "anthropics",
-      "name": "skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 1032,
-      "totalStars": 193340,
-      "forks": 22750,
-      "channel": "Python AI 专区"
     },
     {
       "repo": "we-promise/sure",
@@ -552,8 +526,8 @@
       "language": "Ruby",
       "languageColor": "#701516",
       "starsToday": 1078,
-      "totalStars": 13255,
-      "forks": 978,
+      "totalStars": 13431,
+      "forks": 990,
       "channel": "全语言热门"
     },
     {
@@ -565,21 +539,8 @@
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "starsToday": 787,
-      "totalStars": 116195,
-      "forks": 12175,
-      "channel": "全语言热门"
-    },
-    {
-      "repo": "vercel-labs/agent-browser",
-      "owner": "vercel-labs",
-      "name": "agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "starsToday": 708,
-      "totalStars": 50075,
-      "forks": 3494,
+      "totalStars": 116315,
+      "forks": 12183,
       "channel": "全语言热门"
     },
     {
@@ -591,22 +552,61 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 636,
-      "totalStars": 68778,
-      "forks": 10713,
+      "totalStars": 68839,
+      "forks": 10718,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "homeassistant-ai/ha-mcp",
+      "owner": "homeassistant-ai",
+      "name": "ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 645,
+      "totalStars": 7643,
+      "forks": 461,
       "channel": "Python AI 专区"
     },
     {
-      "repo": "experientiallabs/experiential",
-      "owner": "experientiallabs",
-      "name": "experiential",
-      "url": "https://github.com/experientiallabs/experiential",
-      "description": "Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own.",
+      "repo": "NVIDIA/SkillSpector",
+      "owner": "NVIDIA",
+      "name": "SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 589,
-      "totalStars": 16628,
-      "forks": 300,
+      "starsToday": 302,
+      "totalStars": 25582,
+      "forks": 2258,
       "channel": "Python AI 专区"
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 278,
+      "totalStars": 70973,
+      "forks": 57070,
+      "channel": "Python AI 专区"
+    },
+    {
+      "repo": "n8n-io/n8n",
+      "owner": "n8n-io",
+      "name": "n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 220,
+      "totalStars": 210272,
+      "forks": 61480,
+      "channel": "TypeScript/前端"
     }
   ]
 }
