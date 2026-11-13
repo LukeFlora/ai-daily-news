@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-13T11:22:41.432Z",
+  "fetchedAt": "2026-11-13T15:34:40.927Z",
   "stats": {
     "buildersCount": 16,
     "totalTweets": 38,
@@ -579,8 +579,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 1875,
-      "totalStars": 4077,
-      "forks": 240,
+      "totalStars": 4391,
+      "forks": 249,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -592,8 +592,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 895,
-      "totalStars": 69686,
-      "forks": 10803,
+      "totalStars": 69764,
+      "forks": 10815,
       "channel": "Python AI 专区"
     },
     {
@@ -605,8 +605,8 @@
       "language": "Ruby",
       "languageColor": "#701516",
       "starsToday": 944,
-      "totalStars": 14335,
-      "forks": 1079,
+      "totalStars": 14465,
+      "forks": 1092,
       "channel": "全语言热门"
     },
     {
@@ -618,8 +618,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 799,
-      "totalStars": 11974,
-      "forks": 1465,
+      "totalStars": 12019,
+      "forks": 1471,
       "channel": "TypeScript/前端"
     },
     {
@@ -631,8 +631,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 754,
-      "totalStars": 12784,
-      "forks": 1002,
+      "totalStars": 12908,
+      "forks": 1009,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -644,9 +644,22 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 574,
-      "totalStars": 30076,
-      "forks": 3416,
+      "totalStars": 30098,
+      "forks": 3417,
       "channel": "TypeScript/前端"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "owner": "alibaba",
+      "name": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "starsToday": 206,
+      "totalStars": 50306,
+      "forks": 3737,
+      "channel": "全语言热门"
     },
     {
       "repo": "NVIDIA/SkillSpector",
@@ -656,23 +669,10 @@
       "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 297,
-      "totalStars": 25773,
-      "forks": 2281,
+      "starsToday": 185,
+      "totalStars": 25806,
+      "forks": 2285,
       "channel": "Python AI 专区"
-    },
-    {
-      "repo": "ZhuLinsen/daily_stock_analysis",
-      "owner": "ZhuLinsen",
-      "name": "daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 272,
-      "totalStars": 71204,
-      "forks": 57202,
-      "channel": "全语言热门 / Python AI 专区"
     }
   ]
 }
