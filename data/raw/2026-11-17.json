@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-17T12:16:34.495Z",
+  "fetchedAt": "2026-11-17T16:59:24.214Z",
   "stats": {
     "buildersCount": 14,
     "totalTweets": 29,
@@ -464,8 +464,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 1776,
-      "totalStars": 28656,
-      "forks": 2608,
+      "totalStars": 28757,
+      "forks": 2612,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -477,8 +477,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 1444,
-      "totalStars": 19763,
-      "forks": 2047,
+      "totalStars": 19872,
+      "forks": 2055,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -490,9 +490,35 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 1052,
-      "totalStars": 127323,
-      "forks": 8076,
+      "totalStars": 127591,
+      "forks": 8089,
       "channel": "TypeScript/前端"
+    },
+    {
+      "repo": "google-research/paper-orchestra",
+      "owner": "google-research",
+      "name": "paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 1175,
+      "totalStars": 2599,
+      "forks": 375,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "owner": "mvanhorn",
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 772,
+      "totalStars": 68772,
+      "forks": 6130,
+      "channel": "全语言热门 / Python AI 专区"
     },
     {
       "repo": "alibaba/open-code-review",
@@ -503,8 +529,8 @@
       "language": "Go",
       "languageColor": "#00ADD8",
       "starsToday": 764,
-      "totalStars": 53372,
-      "forks": 4385,
+      "totalStars": 53542,
+      "forks": 4411,
       "channel": "全语言热门"
     },
     {
@@ -516,8 +542,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 969,
-      "totalStars": 3160,
-      "forks": 447,
+      "totalStars": 3257,
+      "forks": 460,
       "channel": "Python AI 专区"
     },
     {
@@ -529,35 +555,9 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 649,
-      "totalStars": 53773,
-      "forks": 7560,
+      "totalStars": 53917,
+      "forks": 7581,
       "channel": "TypeScript/前端"
-    },
-    {
-      "repo": "Graphify-Labs/graphify",
-      "owner": "Graphify-Labs",
-      "name": "graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 615,
-      "totalStars": 149316,
-      "forks": 14360,
-      "channel": "Python AI 专区"
-    },
-    {
-      "repo": "backnotprop/plannotator",
-      "owner": "backnotprop",
-      "name": "plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "starsToday": 691,
-      "totalStars": 12886,
-      "forks": 1293,
-      "channel": "全语言热门 / TypeScript/前端"
     }
   ]
 }
