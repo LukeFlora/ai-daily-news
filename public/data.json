@@ -3,126 +3,126 @@
   "items": [
     {
       "id": "x-sama-13",
-      "title": "OpenAI 正式发布 6.2 Sol 与 Astra 模型，强调其卓越的智能水平与极高的 Token 效率",
-      "brief": "【为何关注】该动态标志着 OpenAI 在追求极致性能的同时，开始将产品重心向“易用性”与“交互体验”倾斜。对于开发者而言，关注 6.2 Sol 的高 Token 效率特性，有助于在实际业务中实现更低成本、更高响应速度的 AI 应用落地。",
-      "summary": "OpenAI 正式发布 6.2 Sol 与 Astra 模型，强调其卓越的智能水平与极高的 Token 效率。Sam Altman 表示，尽管目前模型在交互体验上仍有优化空间，但其强大的性能表现已达到新高度，未来将重点提升用户的使用体验。",
+      "title": "OpenAI 发布了全新的 6.2 Sol 和 Astra 模型，主打高智能与极高的 Token 效率",
+      "brief": "【为何关注】该动态揭示了 OpenAI 在追求极致智能的同时，开始将重心转向“交互体验”与“推理效率”。对于从业者而言，关注模型在 Token 效率上的突破，是降低大规模 AI 应用部署成本的关键信号。",
+      "summary": "OpenAI 发布了全新的 6.2 Sol 和 Astra 模型，主打高智能与极高的 Token 效率。Sam Altman 表示尽管模型在交互体验上仍有优化空间，但其卓越的性能表现将成为未来迭代的核心重点。",
       "category": "大模型与技术突破",
       "sourceName": "Sam Altman (@sama)",
       "sourceUrl": "https://x.com/sama/status/2122798042734633452"
     },
     {
       "id": "x-thsottiaux-3",
-      "title": "OpenAI 的 Thibault Sottiaux 近期力推 6.2 Sol ultrafast 模型，强调其在速度、效率及成本控制上的显著提升",
-      "brief": "【为何关注】Thibault 作为 OpenAI 核心开发者，其分享揭示了模型迭代的极快节奏（几天内即可产生显著差异），提醒从业者在评估模型性能时需注意测试时效性。此外，该动态展示了 OpenAI 在追求极致推理速度与成本效率方面的最新技术路径，对关注 AI 工程化落地的开发者极具参考价值。",
-      "summary": "OpenAI 的 Thibault Sottiaux 近期力推 6.2 Sol ultrafast 模型，强调其在速度、效率及成本控制上的显著提升。他同时回应了社区对模型表现的反馈，指出近期迭代迅速，未来将持续优化模型的使用体验与交互质感。",
+      "title": "OpenAI 工程师 Thibault Sottiaux 近期力推 6.2 Sol ultrafast 模型，强调其在响应速度、成本效益及使用体验上的显著提升",
+      "brief": "【为何关注】该动态揭示了 OpenAI 在模型迭代节奏上的极高频率（数日内即有重大调整），对 AI 从业者而言，理解模型性能的“动态窗口期”至关重要。同时，Thibault 对模型局限性的坦诚态度，为评估大模型落地应用提供了务实的参考视角。",
+      "summary": "OpenAI 工程师 Thibault Sottiaux 近期力推 6.2 Sol ultrafast 模型，强调其在响应速度、成本效益及使用体验上的显著提升。他同时回应了社区反馈，指出模型虽较 GPT 前代有质的飞跃，但仍处于持续迭代中，团队正致力于优化模型表现与用户体验。",
       "category": "AI 投资与商业",
       "sourceName": "Thibault Sottiaux (@thsottiaux)",
       "sourceUrl": "https://x.com/thsottiaux/status/2122929829863735594"
     },
     {
-      "id": "gh-univer-15",
-      "title": "Univer: 打造可嵌入式AI办公套件，重构文档与协作体验",
-      "brief": "【为何关注】今日激增近 1800 Star，标志着开发者对“AI 原生办公引擎”需求的爆发。无论你是想为应用添加文档功能，还是构建 AI 自动化工作流，Univer 都是目前最值得关注的开源基础设施。",
-      "summary": "Univer 是一个高性能、可扩展的开源办公套件 SDK，旨在帮助开发者将电子表格、文档编辑、实时协作及文件处理能力无缝集成到自有产品中。其架构设计高度模块化，不仅支持人机交互，还专门为 AI Agent 提供了友好的数据接口，使其能直接参与文档的计算与生成。通过提供类似 Google Docs/Sheets 的核心体验，Univer 解决了企业在构建垂直领域办公工具时，从零开发复杂文档引擎的巨大技术门槛，是构建下一代 AI 驱动型办公应用的核心基石。",
+      "id": "gh-t3code-15",
+      "title": "t3code: 跨设备统一控制 Claude Code 与 AI 编码工具的终端利器",
+      "brief": "【为何关注】今日激增 1,200+ Star，反映了开发者对“移动端 AI 编程”需求的爆发。t3code 成功填补了 AI 编码工具在多端协同上的空白，是 AI 辅助开发生态中极具潜力的基础设施。",
+      "summary": "t3code 旨在解决开发者在不同设备（手机、平板、远程服务器）上高效调用 Claude Code、Codex 等 AI 编程代理的痛点。其架构核心在于构建了一个轻量级的中间层，通过标准化的终端协议与 AI 模型交互，实现了跨平台的无缝衔接。该项目不仅支持多模型切换，还优化了上下文管理与指令执行效率，使得开发者无需依赖笨重的 IDE，即可在任何终端环境下获得一致的 AI 辅助编码体验，是移动办公与远程开发场景下的生产力倍增器。",
+      "category": "开源生产力工具",
+      "sourceName": "GitHub: pingdotgg/t3code",
+      "sourceUrl": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "id": "gh-univer-17",
+      "title": "Univer：构建下一代 AI 驱动的开源协同办公套件 SDK",
+      "brief": "【为何关注】今日激增超 1100 Star，反映出开发者对“AI 原生办公”基础设施的强烈需求。Univer 填补了开源领域在复杂文档协同与 AI 交互结合上的空白，是 AI 应用开发者不可错过的核心组件。",
+      "summary": "Univer 是一个高性能、可扩展的开源办公套件开发框架，旨在为开发者提供类似 Excel、Word 和 PPT 的核心编辑与计算能力。其核心架构采用模块化设计，支持深度定制与二次开发，能够轻松集成至各类 SaaS 产品中。该项目不仅支持多人实时协同编辑，还通过统一的 Office SDK 为 AI Agent 提供结构化数据接口，使得 AI 能够直接参与文档处理、复杂计算与数据分析，是构建企业级 AI 办公生态的理想基石。",
       "category": "开源生产力工具",
       "sourceName": "GitHub: dream-num/univer",
       "sourceUrl": "https://github.com/dream-num/univer"
     },
     {
-      "id": "gh-ag-ui-16",
-      "title": "AG-UI：定义 AI Agent 与前端交互的标准协议",
-      "brief": "【为何关注】今日激增 1,445 Star，反映了开发者对 AI Agent 落地前端的迫切需求。它是连接大模型与用户界面的关键桥梁，值得所有关注 AI 交互体验的开发者深入研究。",
-      "summary": "AG-UI 旨在解决 AI Agent 在前端应用中集成困难、交互逻辑碎片化的问题。它通过一套标准化的协议层，将 Agent 的推理过程、状态流转与 UI 组件进行解耦，使开发者能够像调用 API 一样轻松地将智能体嵌入 Web 界面。该项目采用 TypeScript 构建，具备极高的类型安全与扩展性，支持多模态交互反馈，是构建下一代“AI 原生”前端应用的核心基础设施，有效降低了复杂 Agent 系统的 UI 开发成本。",
-      "category": "开源生产力工具",
-      "sourceName": "GitHub: ag-ui-protocol/ag-ui",
-      "sourceUrl": "https://github.com/ag-ui-protocol/ag-ui"
-    },
-    {
-      "id": "gh-orca-17",
-      "title": "Orca: 支持自备订阅的跨平台 AI 编程 Agent 调度框架",
-      "brief": "【为何关注】单日增长超千赞，反映出开发者对“自带订阅”且无中间商赚差价的 Agent 调度工具的强烈需求。如果你希望跨端管理多个编程 Agent 并搭建自动化 Coding 流程，该项目非常值得关注与试用。",
-      "summary": "Orca 解决了开发者在使用多种 AI 编程 Agent（如 Claude Code、Codex）时面临的 API 额外计费、缺乏统一调度以及跨端协作困难等痛点。项目基于 TypeScript 开发，支持在桌面端、移动端及远程运行时中部署。其核心亮点在于允许用户“自带订阅”直接使用已有账号，同时能够统一管理与并行调度 Agent 集群。适用于希望构建自动化编程流水线、跨设备监控 Agent 执行状态的开发者与技术团队。",
-      "category": "开源生产力工具",
-      "sourceName": "GitHub: stablyai/orca",
-      "sourceUrl": "https://github.com/stablyai/orca"
-    },
-    {
-      "id": "x-garrytan-8",
-      "title": "YC总裁Garry Tan近日在社交媒体上公开呼吁股东及员工参与投票，旨在推动公司董事会改组",
-      "brief": "【为何关注】Garry Tan作为硅谷顶级孵化器YC的掌门人，其对公司治理的干预动作反映了科技圈对董事会决策效率的高度关注。此举为AI初创企业管理者提供了关于股权结构、股东权利及董事会博弈的实战参考。",
-      "summary": "YC总裁Garry Tan近日在社交媒体上公开呼吁股东及员工参与投票，旨在推动公司董事会改组。他明确提出将发起15%的股东投票，以罢免现任董事会中的三名成员，显示出其在公司治理层面采取的强硬姿态。",
-      "category": "AI 投资与商业",
-      "sourceName": "Garry Tan (@garrytan)",
-      "sourceUrl": "https://x.com/garrytan/status/2122913046603649325"
-    },
-    {
-      "id": "gh-open-code-review-19",
-      "title": "Open-Code-Review：阿里巴巴开源的AI驱动高性能代码审查系统",
-      "brief": "【为何关注】今日激增 763 Star，体现了业界对 AI 辅助工程化落地的迫切需求。该项目是目前将确定性静态分析与大模型智能审查结合得最成熟的开源方案之一，极具参考价值。",
-      "summary": "Open-Code-Review 是一款专为大规模工程实践设计的代码审查工具，旨在解决传统人工审查效率低下与规则覆盖不足的痛点。系统采用混合架构，将确定性规则引擎（针对NPE、线程安全、SQL注入等）与 LLM Agent 深度集成，支持 OpenAI 与 Anthropic 等主流模型接口。其核心优势在于能够实现精准的行级代码注释，并已在阿里巴巴内部海量代码库中经过实战验证，确保了在高并发、大规模代码库环境下的稳定与高效。",
-      "category": "开源生产力工具",
-      "sourceName": "GitHub: alibaba/open-code-review",
-      "sourceUrl": "https://github.com/alibaba/open-code-review"
-    },
-    {
-      "id": "gh-last30days-skill-20",
-      "title": "last30days-skill：跨平台多源信息聚合与AI深度研报生成工具",
-      "brief": "【为何关注】今日Star激增近700，反映了开发者对“AI Agent+实时情报分析”工作流的迫切需求。该项目展示了如何高效连接碎片化信息源，是构建智能研究助手极佳的参考范式。",
-      "summary": "该项目是一款专为AI Agent设计的技能插件，旨在解决用户在面对海量互联网信息时“获取难、筛选慢、总结浅”的痛点。系统通过集成Reddit、X、YouTube、Hacker News、Polymarket及通用搜索引擎的API接口，实现对特定主题的实时数据抓取。其核心价值在于利用大模型对多模态数据进行深度清洗与逻辑合成，输出具备事实依据（Grounded）的研报。该工具架构轻量且扩展性强，非常适合构建自动化情报分析、市场趋势调研及个性化知识库助手等AI应用场景。",
-      "category": "开源生产力工具",
-      "sourceName": "GitHub: mvanhorn/last30days-skill",
-      "sourceUrl": "https://github.com/mvanhorn/last30days-skill"
-    },
-    {
-      "id": "gh-graphify-21",
-      "title": "Graphify：将代码库与文档转化为可查询的确定性知识图谱",
-      "brief": "【为何关注】今日 Star 激增 649，显示出开发者对“非向量化”精准代码检索的强烈渴求。它是 AI 辅助编程从“模糊匹配”迈向“深度逻辑推理”的关键基础设施，极具落地价值。",
-      "summary": "Graphify 解决了传统 RAG 系统在处理复杂代码库时因向量检索导致的上下文丢失与幻觉问题。它通过本地确定性 AST 解析技术，将代码、SQL 模式、配置文件及文档深度关联，构建出结构化的知识图谱。该项目摒弃了传统的向量数据库，转而提供精准的边关系解释，并为 Claude Code、Cursor 等主流 AI 开发工具提供原生插件支持。其核心优势在于高确定性与可解释性，特别适用于大型企业级代码库的深度理解、架构分析及自动化重构场景。",
-      "category": "开源生产力工具",
-      "sourceName": "GitHub: Graphify-Labs/graphify",
-      "sourceUrl": "https://github.com/Graphify-Labs/graphify"
-    },
-    {
-      "id": "gh-paper-orchestra-18",
+      "id": "gh-paper-orchestra-16",
       "title": "PaperOrchestra：基于多智能体协作的自动化AI论文写作框架",
-      "brief": "【为何关注】今日激增超千星，显示出社区对 AI 自动化科研工具的强烈需求。该项目由 Google Research 背书，其多智能体编排逻辑是当前 AI 应用落地的核心范式，极具参考价值。",
-      "summary": "PaperOrchestra 是 Google Research 推出的多智能体框架，旨在解决学术写作中繁琐的文献综述、实验分析与文稿撰写流程。系统通过编排多个具备特定角色的 AI 智能体，实现从选题规划、数据处理到论文初稿生成的全链路自动化。其核心架构支持任务拆解与多轮迭代优化，有效降低了科研人员在重复性文档工作上的时间成本。该项目适用于需要快速产出高质量技术报告、综述文章或实验总结的 AI 研究人员与开发者，是迈向“AI 辅助科研”的重要基础设施。",
+      "brief": "【为何关注】该项目今日激增超 1500 Star，反映了社区对 AI 辅助科研（AI for Science）的高度关注。其多智能体编排架构为自动化复杂任务提供了极具参考价值的范式，值得 AI 从业者深入研究。",
+      "summary": "PaperOrchestra 是 Google Research 推出的多智能体系统，旨在解决学术写作中繁琐的文献综述、实验分析与文稿撰写痛点。该框架通过编排多个具备特定角色的 AI 智能体，实现从选题规划、数据处理到论文初稿生成的全流程自动化。其核心架构强调智能体间的协同与任务拆解，能够有效提升科研人员的产出效率，特别适用于需要大规模文献调研与复杂实验数据整合的 AI 研究场景，是多智能体应用在科研垂直领域的典型落地实践。",
       "category": "开源生产力工具",
       "sourceName": "GitHub: google-research/paper-orchestra",
       "sourceUrl": "https://github.com/google-research/paper-orchestra"
     },
     {
-      "id": "gh-freellmapi-22",
-      "title": "FreeLLMAPI：聚合87个免费LLM供应商的统一API网关",
-      "brief": "【为何关注】今日暴涨 613 Star，反映了开发者对低成本 AI 开发基础设施的迫切需求。其将碎片化的免费模型资源标准化，是个人开发者构建 AI 应用的“瑞士军刀”。",
-      "summary": "FreeLLMAPI 是一个旨在降低大模型开发门槛的聚合型 API 网关。它通过统一的 /v1 接口，将 87 个免费 LLM 供应商及 1,313 个模型端点整合在一起，每月可提供高达 100 亿 Token 的免费调用额度。系统架构内置了智能路由与自动故障转移机制，确保在调用不同免费源时的稳定性。此外，该项目支持自定义 OpenAI 兼容端点，并提供密钥加密存储功能。该工具非常适合个人开发者进行 AI 应用实验、原型开发及低成本测试，有效解决了频繁切换不同模型 API 接口的繁琐问题。",
+      "id": "gh-last30days-skill-18",
+      "title": "last30days-skill：基于多源实时数据的AI深度调研与智能合成助手",
+      "brief": "【为何关注】今日Star激增超千，反映了开发者对“AI Agent+实时数据源”应用场景的强烈需求。该项目展示了如何高效整合碎片化信息，是构建垂直领域智能调研系统的极佳参考范例。",
+      "summary": "该项目是一款专为AI Agent设计的深度调研插件，旨在解决信息过载与碎片化难题。它通过集成Reddit、X、YouTube、Hacker News、Polymarket及全网搜索引擎，自动抓取并处理过去30天的核心讨论与数据。系统架构采用模块化设计，支持跨平台数据聚合与语义清洗，最终生成具备事实依据（Grounded）的综合性摘要。该工具极大地提升了AI在市场调研、趋势分析及复杂议题研究中的落地效率，是构建智能研究型Agent的理想组件。",
       "category": "开源生产力工具",
-      "sourceName": "GitHub: tashfeenahmed/freellmapi",
-      "sourceUrl": "https://github.com/tashfeenahmed/freellmapi"
+      "sourceName": "GitHub: mvanhorn/last30days-skill",
+      "sourceUrl": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "id": "x-garrytan-8",
+      "title": "YC总裁Garry Tan近日在社交媒体上公开呼吁股东及员工参与投票，旨在推动公司董事会改组",
+      "brief": "【为何关注】Garry Tan作为硅谷顶级孵化器掌门人，其对公司治理的直接干预具有极高的行业风向标意义。AI从业者应关注此类事件如何影响初创企业的权力结构与决策效率，以及资本在公司战略转型中的博弈方式。",
+      "summary": "YC总裁Garry Tan近日在社交媒体上公开呼吁股东及员工参与投票，旨在推动公司董事会改组。他明确提出将发起15%的股东投票，意图罢免三名董事会成员，展现出对公司治理结构的强硬干预姿态。",
+      "category": "AI 投资与商业",
+      "sourceName": "Garry Tan (@garrytan)",
+      "sourceUrl": "https://x.com/garrytan/status/2122913046603649325"
+    },
+    {
+      "id": "gh-minimind-20",
+      "title": "MiniMind: 极致轻量化大模型，两小时内完成从零训练",
+      "brief": "【为何关注】今日激增 772 Star，反映了社区对“极简大模型”研究的强烈需求。对于想深入底层原理而非仅仅调用 API 的开发者，这是目前学习 LLM 训练的最佳实践项目。",
+      "summary": "MiniMind 是一个旨在降低大模型训练门槛的开源项目，通过仅 64M 参数的微型架构，实现了在消费级硬件上两小时内完成从零到预训练的完整流程。该项目不仅提供了简洁高效的 PyTorch 实现，还涵盖了从数据预处理、模型架构设计到分布式训练的全链路代码。它解决了大模型研究中“算力昂贵、门槛过高”的痛点，为开发者深入理解 Transformer 内部机制、进行算法实验以及在边缘设备部署轻量化 AI 应用提供了极佳的参考范式。",
+      "category": "开源生产力工具",
+      "sourceName": "GitHub: jingyaogong/minimind",
+      "sourceUrl": "https://github.com/jingyaogong/minimind"
+    },
+    {
+      "id": "gh-jiangshan-map-19",
+      "title": "江山时序：跨越两千年的中国历史地理交互式可视化地图",
+      "brief": "【为何关注】今日激增近千星，证明了高质量数字人文项目在技术与文化交汇点的巨大号召力。其对地理时序数据的处理逻辑，是AI辅助历史建模与地理信息可视化领域不可多得的开源范本。",
+      "summary": "该项目通过 JavaScript 构建了一个沉浸式的中国历史地理信息系统，涵盖从公元前403年至今的18个朝代、198个疆域快照。它不仅实现了动态时间轴与地理空间的深度耦合，还集成了古地名演变溯源与古典诗词地理路径映射。系统架构上，项目巧妙利用前端渲染技术处理海量地理矢量数据，解决了历史地理信息碎片化、可视化门槛高的痛点。对于历史研究者、教育工作者及数字人文开发者而言，这是一个极具参考价值的地理空间数据可视化范式，将枯燥的历史数据转化为直观的动态交互体验。",
+      "category": "开源生产力工具",
+      "sourceName": "GitHub: DeanChensj/jiangshan-map",
+      "sourceUrl": "https://github.com/DeanChensj/jiangshan-map"
+    },
+    {
+      "id": "gh-heretic-21",
+      "title": "Heretic: 无需训练的语言模型行为干预与去审查工具",
+      "brief": "【为何关注】今日激增 620 Star，反映了开发者对“轻量化模型对齐”的迫切需求。该项目绕过了繁琐的微调流程，为模型控制提供了极具性价比的黑盒/白盒干预方案，值得 AI 从业者深入研究。",
+      "summary": "Heretic 是一个创新的大模型后处理框架，旨在通过无需微调（Training-free）的干预手段，直接修改模型内部激活状态。该项目能够有效移除模型的审查限制、抑制冗余废话（slop）、降低谄媚倾向（sycophancy），并提升模型输出的客观性。其核心架构基于对模型推理过程中的特征干预，无需昂贵的算力资源即可实现对模型行为的精准调优。适用于开发者在不重新训练模型的前提下，快速定制符合特定需求、更具鲁棒性的 AI 助手。",
+      "category": "开源生产力工具",
+      "sourceName": "GitHub: p-e-w/heretic",
+      "sourceUrl": "https://github.com/p-e-w/heretic"
+    },
+    {
+      "id": "gh-skillevaluator-22",
+      "title": "NVIDIA SkillEvaluator：AI Agent 技能评估与质量控制框架",
+      "brief": "【为何关注】今日激增近 900 Star，反映了业界对 Agent 可靠性评估的迫切需求。作为 NVIDIA 出品的标准化工具，它填补了 Agent 技能治理的空白，是开发者构建生产级 AI 应用的必备利器。",
+      "summary": "SkillEvaluator 是 NVIDIA 推出的多层级 AI Agent 评估框架，旨在解决 Agent 技能（Skills）与插件（Plugins）在复杂任务中的质量评估难题。该系统通过引入质量门控（Quality Gates）、语义重叠检测（Semantic Overlap Detection）以及合成数据集生成技术，实现了对 Agent 行为影响的量化分析。它不仅支持离线评估，还能进行实时 Agent 运行测试，帮助开发者精准识别技能集成对 Agent 决策逻辑的实际影响，是构建工业级可靠 Agent 系统的关键基础设施。",
+      "category": "开源生产力工具",
+      "sourceName": "GitHub: NVIDIA/SkillEvaluator",
+      "sourceUrl": "https://github.com/NVIDIA/SkillEvaluator"
     },
     {
       "id": "x-rauchg-6",
-      "title": "Vercel CEO Guillermo Rauch 近期聚焦 AI 驱动的软件工程范式，重点推介了自优化工具 fx 与 agent-browser，并强调...",
-      "brief": "【为何关注】Rauch 的动态揭示了 AI 开发者工具的演进方向：从辅助编码向‘自我优化’与‘安全基准评估’跨越。对于从业者而言，关注 DeepsecBench 等闭源基准测试，能帮助理解 AI 在高安全性场景下的真实落地门槛。",
-      "summary": "Vercel CEO Guillermo Rauch 近期聚焦 AI 驱动的软件工程范式，重点推介了自优化工具 fx 与 agent-browser，并强调了 DeepsecBench 在评估 AI 网络安全能力方面的重要性。他认为 AI 正在从单纯的代码生成转向具备深度安全分析与自我优化能力的智能体阶段。",
+      "title": "Vercel CEO Guillermo Rauch 近期聚焦 AI 驱动的软件工程，重点推介了 fx 工具，并高度评价了自优化软件（agent-brows...",
+      "brief": "【为何关注】Rauch 的动态揭示了 AI 从“生成代码”向“自我优化与安全防御”演进的趋势。对于 AI 从业者而言，关注 DeepsecBench 这类高门槛、防污染的基准测试，是理解未来 AI 模型在复杂工程场景下真实安全能力的窗口。",
+      "summary": "Vercel CEO Guillermo Rauch 近期聚焦 AI 驱动的软件工程，重点推介了 fx 工具，并高度评价了自优化软件（agent-browser vitals）的性能潜力。同时，他强调了 DeepsecBench 作为首个闭源基准测试在评估 AI 网络安全能力方面的重要信号意义。",
       "category": "开源生产力工具",
       "sourceName": "Guillermo Rauch (@rauchg)",
       "sourceUrl": "https://x.com/rauchg/status/2122846434177531945"
     },
     {
       "id": "x-joshwoodward-2",
-      "title": "Google Gemini 迎来重大升级，正式推出基于 Gemini 4 Hydrogen 模型的免费任务执行功能，覆盖美、日、韩等六国",
-      "brief": "【为何关注】此次更新标志着 AI 从“内容生成”向“任务代理（Agentic AI）”的实质性跨越，特别是对 Google 生态系统的深度整合，为 AI 产品化落地提供了极佳范式。从业者应重点关注 Gemini 4 Hydrogen 的性能表现及其在复杂工作流中的触发稳定性，这对构建下一代 AI 助手具有重要参考价值。",
-      "summary": "Google Gemini 迎来重大升级，正式推出基于 Gemini 4 Hydrogen 模型的免费任务执行功能，覆盖美、日、韩等六国。此次更新不仅强化了与 Google Workspace 的深度集成，还新增了电话拨打、支付结算及 RCS 交互等实用功能，旨在通过 AI 自动化显著提升用户效率。",
+      "title": "Google Gemini 迎来重大升级，正式发布 Gemini 4 Hydrogen 模型，并向美、日、韩等六国用户免费开放任务执行功能",
+      "brief": "【为何关注】此次更新标志着 AI 从“对话生成”向“代理（Agent）执行”的实质性跨越，尤其是 Gemini 4 Hydrogen 对复杂任务流的自动化处理能力，为 AI 应用落地提供了极佳范式。从业者应重点关注其在多模态工具调用（Tool Use）与生态系统深度集成方面的技术路径。",
+      "summary": "Google Gemini 迎来重大升级，正式发布 Gemini 4 Hydrogen 模型，并向美、日、韩等六国用户免费开放任务执行功能。此次更新深度整合了 Google Workspace 与多项生活服务，支持自动拨打本地电话、支付结算及跨应用任务处理，旨在成为用户的全能智能助理。",
       "category": "开源生产力工具",
       "sourceName": "Josh Woodward (@joshwoodward)",
       "sourceUrl": "https://x.com/joshwoodward/status/2122737427970425171"
     },
     {
       "id": "x-swyx-1",
-      "title": "Swyx 深度评测了 Astra 模型与 Devin 的最新多智能体架构",
-      "brief": "【为何关注】Swyx 的观点精准捕捉了 AI 代理从“任务执行器”向“成果管理者”进化的行业趋势。对于正在构建或使用 AI 代理的从业者，这篇内容提供了关于多智能体架构设计、持久化记忆以及如何通过抽象层级提升生产力的宝贵实战洞察。",
-      "summary": "Swyx 深度评测了 Astra 模型与 Devin 的最新多智能体架构。他指出 Astra 在工作流自动化上表现卓越，而 Devin 通过从“瞬时代理”转向“具备持久身份的智能体集合”，成功实现了从任务执行到成果导向的范式转移。",
+      "title": "Swyx 深度评测了 Astra 模型与 Devin 的最新架构升级，指出 Astra 在工作流自动化上的卓越表现，并强调 AI 代理的未来在于“结果导向的...",
+      "brief": "【为何关注】Swyx 的深度思考揭示了 AI Agent 领域从“任务执行”向“结果管理”的范式转移，对于正在构建或集成 AI 代理的开发者极具参考价值。他关于“代理权（Agency）”的定义不仅适用于 AI 设计，也是评估团队协作效率的核心洞察。",
+      "summary": "Swyx 深度评测了 Astra 模型与 Devin 的最新架构升级，指出 Astra 在工作流自动化上的卓越表现，并强调 AI 代理的未来在于“结果导向的代理管理者”而非单纯的 AI 员工。他认为，具备长期记忆与独立身份的持久化 Bot 架构，正在彻底改变人机协作的范式。",
       "category": "AI 投资与商业",
       "sourceName": "Swyx (@swyx)",
       "sourceUrl": "https://x.com/swyx/status/2122862646265520150"
@@ -130,8 +130,8 @@
     {
       "id": "x-amasad-5",
       "title": "Replit CEO Amjad Masad 宣布平台正式支持“智能体集群”（Agent Swarms）一键部署",
-      "brief": "【为何关注】该动态标志着 AI 开发从“单体模型”向“多智能体协作”范式的关键转变。对于开发者而言，Replit 降低了编排复杂系统的门槛，是探索复杂任务自动化与多智能体协同架构的绝佳切入点。",
-      "summary": "Replit CEO Amjad Masad 宣布平台正式支持“智能体集群”（Agent Swarms）一键部署。他指出，通过并行运行多个智能体进行协作与博弈，将成为继模型规模化后的下一个 AI 增长前沿。",
+      "brief": "【为何关注】该动态标志着 AI 开发从“单一模型推理”向“多智能体协作”范式的关键落地。对于 AI 从业者而言，Replit 降低了复杂编排的门槛，是快速验证多智能体架构（如自我博弈、任务拆解）的最佳实验场。",
+      "summary": "Replit CEO Amjad Masad 宣布平台正式支持“智能体集群”（Agent Swarms）一键部署。他指出，通过并行运行多个智能体进行协作与博弈，将成为继模型规模化后的 AI 性能提升新范式。",
       "category": "论文前沿",
       "sourceName": "Amjad Masad (@amasad)",
       "sourceUrl": "https://x.com/amasad/status/2122809964649459861"
@@ -139,34 +139,34 @@
     {
       "id": "podcast-14",
       "title": "Building Visual Intelligence — Andreas Blattmann &amp; Dustin Podell, Black Fo...",
-      "brief": "【核心提炼】如果你关注生成式 AI 的技术路线演进，或对“图像生成模型如何赋能机器人控制”这一前沿课题感兴趣，本期节目是了解当前视觉智能领域最强团队思考逻辑的最佳窗口。",
-      "summary": "本期播客邀请了 Black Forest Labs 的核心成员 Andreas Blattmann 与 Dustin Podell，深入探讨了从 Stable Diffusion 到 Flux 系列模型的演进历程。核心 Takeaway：视觉智能的终局不仅是图像生成，而是通过构建世界模型（World Models）向机器人控制领域跨越。反直觉洞见在于，Flux Context 等模型并非旨在取代高端专业设计，而是通过自然语言交互彻底重塑日常办公流，使 Photoshop 等传统工具在常规编辑场景中变得冗余。精彩金句：“当一群站在前沿的聪明人同时向同一个方向倾斜时，你离重大突破通常只有 6 到 12 个月。”",
+      "brief": "【核心提炼】如果你关注生成式 AI 的技术演进路径，或者想了解 Flux 模型背后的工程哲学，本期节目是必听之作。它不仅揭示了视觉 AI 如何从“画图”转向“理解世界”，还预示了机器人技术即将到来的范式转移。",
+      "summary": "本期播客深度对话 Black Forest Labs 的核心成员 Andreas Blattmann 与 Dustin Podell。作为 Stable Diffusion 幕后功臣及 Flux 系列模型的缔造者，他们探讨了从潜空间扩散模型到视觉智能的演进。核心 Takeaway：视觉生成模型正从单纯的图像创作转向具备逻辑推理的“世界模型”，并向机器人控制领域跨越。反直觉洞见在于，Flux Context 等模型并非旨在取代高端专业设计，而是通过自然语言交互彻底重构日常图像编辑工作流。精彩金句：“当一群站在前沿的聪明人同时向同一个方向倾斜时，你离重大突破通常只有 6 到 12 个月。”",
       "category": "开源生产力工具",
       "sourceUrl": "https://www.youtube.com/watch?v=8cGfJOU3AlQ"
     },
     {
       "id": "x-danshipper-12",
-      "title": "Every 团队发布了针对 Astra 和 Sol 6.2 模型的前沿评测，并推出了“反向 Roon 基准测试”",
-      "brief": "【为何关注】Every 的评测体系以深度和实战导向著称，是评估前沿模型能力的重要参考。同时，其关于“视频替代 PPT”的观点反映了 AI 时代产品叙事方式的范式转移，值得团队管理者深思。",
-      "summary": "Every 团队发布了针对 Astra 和 Sol 6.2 模型的前沿评测，并推出了“反向 Roon 基准测试”。Dan Shipper 同时强调，视频演示已成为产品沟通的必备工具，PPT 汇报模式正迅速过时。",
-      "category": "开源生产力工具",
+      "title": "Every 团队发布了针对 Astra 和 Sol 6.2 模型的前沿评测，并推出了“逆向 Roon 基准测试”",
+      "brief": "【为何关注】Every 的深度评测为评估前沿模型提供了高质量的参考视角，其“逆向基准”概念极具创新性。同时，该推文强调了多模态内容在企业沟通中的统治地位，提醒从业者需尽快更新产品叙事工具栈。",
+      "summary": "Every 团队发布了针对 Astra 和 Sol 6.2 模型的前沿评测，并推出了“逆向 Roon 基准测试”。Dan Shipper 同时指出，视频演示已成为产品战略沟通的必备手段，PPT 汇报模式正迅速过时。",
+      "category": "大模型与技术突破",
       "sourceName": "Dan Shipper (@danshipper)",
       "sourceUrl": "https://x.com/danshipper/status/2122858139989012510"
     },
     {
       "id": "x-zarazhangrui-10",
       "title": "AI Builder Zara Zhang 近期分享了其利用 AI 生成的高质量视觉作品，展示了通过单次提示词（one-shot）实现精准图像创作的能力",
-      "brief": "【为何关注】Zara Zhang 展示了如何通过精炼的 Prompt Engineering 实现高质量的“一次性”生成效果，这对追求工作流效率的 AI 创作者极具参考价值。其对复古美学的关注也提示从业者：AI 创作的上限往往取决于创作者对经典视觉语言的理解与重构能力。",
-      "summary": "AI Builder Zara Zhang 近期分享了其利用 AI 生成的高质量视觉作品，展示了通过单次提示词（one-shot）实现精准图像创作的能力。她同时表达了对复古广告美学的浓厚兴趣，体现了 AI 创作者在审美构建与技术实践上的深度结合。",
-      "category": "AI 投资与商业",
+      "brief": "【为何关注】Zara Zhang 的实践展示了当前提示词工程（Prompt Engineering）在实现复杂视觉效果时的极高效率，值得关注其如何通过精简指令达成高质量输出。对于 AI 创作者而言，她对美学的敏锐捕捉与技术实现的结合，是提升 AI 辅助创作水平的重要参考。",
+      "summary": "AI Builder Zara Zhang 近期分享了其利用 AI 生成的高质量视觉作品，展示了通过单次提示词（one-shot）实现精准图像创作的能力。她不仅关注前沿生成式 AI 技术，还通过怀旧广告等素材探索美学表达，体现了技术与艺术的深度融合。",
+      "category": "大模型与技术突破",
       "sourceName": "Zara Zhang (@zarazhangrui)",
       "sourceUrl": "https://x.com/zarazhangrui/status/2122787795634987498"
     },
     {
       "id": "x-nikunj-11",
-      "title": "FPV Ventures 合伙人 Nikunj Kothari 分享了对近期大模型竞争格局的观察，指出 OpenAI、Anthropic 和 Google ...",
-      "brief": "【为何关注】Nikunj 敏锐捕捉到了 AI 行业“模型叙事”快速轮动的现状，提醒从业者在关注技术指标的同时，也要留意市场情绪的波动。此外，他作为资深投资人对高压工作与生活平衡的思考，对处于创业高压期的 AI 从业者具有很强的共鸣与参考价值。",
-      "summary": "FPV Ventures 合伙人 Nikunj Kothari 分享了对近期大模型竞争格局的观察，指出 OpenAI、Anthropic 和 Google Gemini 之间的领跑地位更迭频繁。同时，他在生日之际反思了高强度工作与生活平衡的挑战，并立志在未来一年实现更高效的“Funmaxxing”。",
+      "title": "FPV Ventures 合伙人 Nikunj Kothari 在生日之际反思了高强度工作与生活平衡的挑战，并敏锐捕捉到 AI 模型领域竞争格局的快速轮动",
+      "brief": "【为何关注】Nikunj 作为深耕早期投资的 AI Builder，其观点反映了硅谷一线对模型迭代速度的真实体感。对于从业者而言，关注这种“模型氛围”的快速轮动，有助于理解当前 AI 市场对技术领先性的极高敏感度及竞争压力。",
+      "summary": "FPV Ventures 合伙人 Nikunj Kothari 在生日之际反思了高强度工作与生活平衡的挑战，并敏锐捕捉到 AI 模型领域竞争格局的快速轮动。他指出 OpenAI、Anthropic 和 Google Gemini 之间的“模型氛围”竞争正处于白热化阶段，并对 Grok 的后续表现表示期待。",
       "category": "大模型与技术突破",
       "sourceName": "Nikunj Kothari (@nikunj)",
       "sourceUrl": "https://x.com/nikunj/status/2122889175053832557"
@@ -174,27 +174,27 @@
     {
       "id": "x-petergyang-4",
       "title": "AI Builder Peter Yang 近期对 GPT-6.2 Astra 进行了深度测评，并探讨了 AI 模型迭代过快导致的“保质期”焦虑",
-      "brief": "【为何关注】Peter Yang 的观点精准戳中了当前 AI 圈的“模型焦虑”，提醒开发者从追逐热点转向提升底层工程能力。对于关注 AI 生产力工具的从业者，其即将发布的 Astra 6.2 深度测评值得密切跟踪。",
-      "summary": "AI Builder Peter Yang 近期对 GPT-6.2 Astra 进行了深度测评，并探讨了 AI 模型迭代过快导致的“保质期”焦虑。他建议从业者应专注于构建模型无关的通用技能，而非过度沉迷于单一模型的更迭。",
+      "brief": "【为何关注】Peter Yang 深刻洞察了当前 AI 领域“模型崇拜”的虚无感，提醒从业者在模型快速迭代的周期中，核心竞争力应在于工作流与方法论的迁移能力，而非对特定工具的依赖。",
+      "summary": "AI Builder Peter Yang 近期对 GPT-6.2 Astra 进行了深度测评，并探讨了 AI 模型迭代过快导致的“保质期”焦虑。他建议从业者不必过度沉迷于单一模型，而应专注于构建跨模型的通用技能。",
       "category": "大模型与技术突破",
       "sourceName": "Peter Yang (@petergyang)",
       "sourceUrl": "https://x.com/petergyang/status/2122883865643720927"
     },
     {
       "id": "x-mattturck-9",
-      "title": "知名投资人 Matt Turck 近日动作频频，一方面关注 Daytona 在 macOS 智能体基础设施上的创新，另一方面宣布 FirstMark 领投了...",
-      "brief": "【为何关注】Matt Turck 的动态精准捕捉了 AI 基础设施的演进方向：从支持复杂操作的智能体沙箱，到解决模型“持续学习”能力的底层技术。对于关注 AI 落地与模型迭代效率的从业者，其投资逻辑极具参考价值。",
-      "summary": "知名投资人 Matt Turck 近日动作频频，一方面关注 Daytona 在 macOS 智能体基础设施上的创新，另一方面宣布 FirstMark 领投了 Remanence Labs 的 3000 万美元种子轮融资，重点布局“持续学习”AI 领域。",
+      "title": "Matt Turck 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考",
+      "brief": "【为何关注】作为 Matt Turck 的一手动态，展示了一线 Builder 的最新思考与产品探索，具备较高的行业参考价值。",
+      "summary": "Matt Turck 近期分享了关于技术与产品的最新动态，重点涉及技术路线、产品进展与一线实践思考。",
       "category": "开源生产力工具",
       "sourceName": "Matt Turck (@mattturck)",
       "sourceUrl": "https://x.com/mattturck/status/2122726760185741673"
     },
     {
       "id": "x-ryolu_-7",
-      "title": "Cursor 设计师 Ryo Lu 近期发文感慨，尽管 AI 让疯狂的创意变得触手可及，但高质量产品的打磨依然需要投入同等程度的专注与心血",
-      "brief": "【为何关注】Ryo Lu 作为顶级 AI 工具的设计者，其观点提醒从业者：AI 降低了开发门槛，但并未降低对产品细节和用户体验的极致追求。对于致力于打造 AI 原生应用的产品经理与开发者，这是一种必要的职业心态回归。",
-      "summary": "Cursor 设计师 Ryo Lu 近期发文感慨，尽管 AI 让疯狂的创意变得触手可及，但高质量产品的打磨依然需要投入同等程度的专注与心血。他强调了技术赋能与匠人精神在 AI 时代并不冲突，反而更加重要。",
-      "category": "大模型与技术突破",
+      "title": "Cursor 设计师 Ryo Lu 近期发文指出，AI 使得以往看似疯狂的创意变得触手可及",
+      "brief": "【为何关注】作为 Cursor 的核心设计者，Ryo Lu 的观点揭示了 AI 时代产品开发的本质：AI 缩短了从 0 到 1 的路径，但无法替代对产品细节的打磨。对于 AI 从业者而言，这提醒我们技术赋能不应成为降低产品标准的借口。",
+      "summary": "Cursor 设计师 Ryo Lu 近期发文指出，AI 使得以往看似疯狂的创意变得触手可及。但他强调，尽管工具门槛降低，打造高质量产品依然需要投入同等程度的匠心与努力。",
+      "category": "开源生产力工具",
       "sourceName": "Ryo Lu (@ryolu_)",
       "sourceUrl": "https://x.com/ryolu_/status/2122929249967554583"
     }
