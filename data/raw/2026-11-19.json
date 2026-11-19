@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-19T08:42:16.342Z",
+  "fetchedAt": "2026-11-19T11:58:52.955Z",
   "stats": {
     "buildersCount": 15,
     "totalTweets": 31,
@@ -486,45 +486,6 @@
   "blogs": [],
   "githubTrending": [
     {
-      "repo": "google-research/paper-orchestra",
-      "owner": "google-research",
-      "name": "paper-orchestra",
-      "url": "https://github.com/google-research/paper-orchestra",
-      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 1524,
-      "totalStars": 4653,
-      "forks": 573,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
-      "repo": "pingdotgg/t3code",
-      "owner": "pingdotgg",
-      "name": "t3code",
-      "url": "https://github.com/pingdotgg/t3code",
-      "description": "The best way to control Claude Code, Codex and more from any computer or phone",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "starsToday": 1220,
-      "totalStars": 65652,
-      "forks": 11491,
-      "channel": "TypeScript/前端"
-    },
-    {
-      "repo": "dream-num/univer",
-      "owner": "dream-num",
-      "name": "univer",
-      "url": "https://github.com/dream-num/univer",
-      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "starsToday": 1152,
-      "totalStars": 30189,
-      "forks": 2720,
-      "channel": "TypeScript/前端"
-    },
-    {
       "repo": "mvanhorn/last30days-skill",
       "owner": "mvanhorn",
       "name": "last30days-skill",
@@ -532,10 +493,49 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 1059,
-      "totalStars": 70364,
-      "forks": 6266,
+      "starsToday": 952,
+      "totalStars": 70494,
+      "forks": 6276,
       "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "google-research/paper-orchestra",
+      "owner": "google-research",
+      "name": "paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 1197,
+      "totalStars": 4797,
+      "forks": 585,
+      "channel": "Python AI 专区"
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "owner": "HKUDS",
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 899,
+      "totalStars": 60205,
+      "forks": 5462,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "firecrawl/firecrawl",
+      "owner": "firecrawl",
+      "name": "firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 795,
+      "totalStars": 203538,
+      "forks": 10662,
+      "channel": "全语言热门 / TypeScript/前端"
     },
     {
       "repo": "jingyaogong/minimind",
@@ -546,8 +546,21 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 687,
-      "totalStars": 66582,
-      "forks": 8750,
+      "totalStars": 66613,
+      "forks": 8755,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "owner": "microsoft",
+      "name": "markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 526,
+      "totalStars": 196873,
+      "forks": 14910,
       "channel": "Python AI 专区"
     },
     {
@@ -559,35 +572,22 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 515,
-      "totalStars": 42075,
-      "forks": 5183,
+      "totalStars": 42106,
+      "forks": 5189,
       "channel": "Python AI 专区"
     },
     {
-      "repo": "ag-ui-protocol/ag-ui",
-      "owner": "ag-ui-protocol",
-      "name": "ag-ui",
-      "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "repo": "solidjs/solid",
+      "owner": "solidjs",
+      "name": "solid",
+      "url": "https://github.com/solidjs/solid",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 513,
-      "totalStars": 20531,
-      "forks": 2109,
+      "starsToday": 459,
+      "totalStars": 36751,
+      "forks": 1193,
       "channel": "TypeScript/前端"
-    },
-    {
-      "repo": "HKUDS/CLI-Anything",
-      "owner": "HKUDS",
-      "name": "CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 389,
-      "totalStars": 60082,
-      "forks": 5456,
-      "channel": "全语言热门 / Python AI 专区"
     }
   ]
 }
