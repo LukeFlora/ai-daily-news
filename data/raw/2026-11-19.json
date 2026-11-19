@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-19T11:58:52.955Z",
+  "fetchedAt": "2026-11-19T16:41:55.910Z",
   "stats": {
     "buildersCount": 15,
     "totalTweets": 31,
@@ -494,8 +494,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 952,
-      "totalStars": 70494,
-      "forks": 6276,
+      "totalStars": 70627,
+      "forks": 6291,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -507,8 +507,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 1197,
-      "totalStars": 4797,
-      "forks": 585,
+      "totalStars": 4899,
+      "forks": 604,
       "channel": "Python AI 专区"
     },
     {
@@ -520,8 +520,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 899,
-      "totalStars": 60205,
-      "forks": 5462,
+      "totalStars": 60352,
+      "forks": 5473,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -533,22 +533,9 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 795,
-      "totalStars": 203538,
-      "forks": 10662,
+      "totalStars": 203825,
+      "forks": 10678,
       "channel": "全语言热门 / TypeScript/前端"
-    },
-    {
-      "repo": "jingyaogong/minimind",
-      "owner": "jingyaogong",
-      "name": "minimind",
-      "url": "https://github.com/jingyaogong/minimind",
-      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 687,
-      "totalStars": 66613,
-      "forks": 8755,
-      "channel": "全语言热门 / Python AI 专区"
     },
     {
       "repo": "microsoft/markitdown",
@@ -559,21 +546,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 526,
-      "totalStars": 196873,
-      "forks": 14910,
-      "channel": "Python AI 专区"
-    },
-    {
-      "repo": "p-e-w/heretic",
-      "owner": "p-e-w",
-      "name": "heretic",
-      "url": "https://github.com/p-e-w/heretic",
-      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 515,
-      "totalStars": 42106,
-      "forks": 5189,
+      "totalStars": 196949,
+      "forks": 14916,
       "channel": "Python AI 专区"
     },
     {
@@ -585,8 +559,34 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "starsToday": 459,
-      "totalStars": 36751,
-      "forks": 1193,
+      "totalStars": 36766,
+      "forks": 1197,
+      "channel": "TypeScript/前端"
+    },
+    {
+      "repo": "cursor/plugins",
+      "owner": "cursor",
+      "name": "plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 383,
+      "totalStars": 17479,
+      "forks": 1927,
+      "channel": "全语言热门 / TypeScript/前端"
+    },
+    {
+      "repo": "appwrite/appwrite",
+      "owner": "appwrite",
+      "name": "appwrite",
+      "url": "https://github.com/appwrite/appwrite",
+      "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 326,
+      "totalStars": 58400,
+      "forks": 5904,
       "channel": "TypeScript/前端"
     }
   ]
