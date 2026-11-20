@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-20T11:59:35.279Z",
+  "fetchedAt": "2026-11-20T16:17:47.815Z",
   "stats": {
     "buildersCount": 14,
     "totalTweets": 33,
@@ -507,10 +507,49 @@
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 825,
-      "totalStars": 204737,
-      "forks": 10731,
+      "starsToday": 1226,
+      "totalStars": 204958,
+      "forks": 10743,
       "channel": "全语言热门 / TypeScript/前端"
+    },
+    {
+      "repo": "XiaoYouChR/Ghost-Downloader-3",
+      "owner": "XiaoYouChR",
+      "name": "Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "description": "The only downloader you need. 下载器的集大成者。",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 1082,
+      "totalStars": 13483,
+      "forks": 830,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "zhouxiaoka/autoclip",
+      "owner": "zhouxiaoka",
+      "name": "autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 983,
+      "totalStars": 11994,
+      "forks": 1998,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "jingyaogong/minimind",
+      "owner": "jingyaogong",
+      "name": "minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 841,
+      "totalStars": 67555,
+      "forks": 8854,
+      "channel": "全语言热门 / Python AI 专区"
     },
     {
       "repo": "HKUDS/CLI-Anything",
@@ -521,8 +560,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 774,
-      "totalStars": 60966,
-      "forks": 5523,
+      "totalStars": 61131,
+      "forks": 5536,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -534,8 +573,21 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 685,
-      "totalStars": 71154,
-      "forks": 6336,
+      "totalStars": 71272,
+      "forks": 6340,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "Tracer-Cloud/opensre",
+      "owner": "Tracer-Cloud",
+      "name": "opensre",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "description": "The open-source agent for CI/CD reliability.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 465,
+      "totalStars": 13445,
+      "forks": 1919,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -546,61 +598,9 @@
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 434,
-      "totalStars": 197154,
+      "starsToday": 280,
+      "totalStars": 197206,
       "forks": 14936,
-      "channel": "Python AI 专区"
-    },
-    {
-      "repo": "cursor/plugins",
-      "owner": "cursor",
-      "name": "plugins",
-      "url": "https://github.com/cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "starsToday": 292,
-      "totalStars": 17704,
-      "forks": 1951,
-      "channel": "全语言热门 / TypeScript/前端"
-    },
-    {
-      "repo": "p-e-w/heretic",
-      "owner": "p-e-w",
-      "name": "heretic",
-      "url": "https://github.com/p-e-w/heretic",
-      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 252,
-      "totalStars": 42291,
-      "forks": 5241,
-      "channel": "Python AI 专区"
-    },
-    {
-      "repo": "google-research/paper-orchestra",
-      "owner": "google-research",
-      "name": "paper-orchestra",
-      "url": "https://github.com/google-research/paper-orchestra",
-      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 492,
-      "totalStars": 5269,
-      "forks": 657,
-      "channel": "Python AI 专区"
-    },
-    {
-      "repo": "Imbad0202/academic-research-skills",
-      "owner": "Imbad0202",
-      "name": "academic-research-skills",
-      "url": "https://github.com/Imbad0202/academic-research-skills",
-      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 244,
-      "totalStars": 57846,
-      "forks": 4409,
       "channel": "Python AI 专区"
     }
   ]
