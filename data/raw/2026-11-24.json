@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-24T10:51:49.576Z",
+  "fetchedAt": "2026-11-24T14:05:59.205Z",
   "stats": {
     "buildersCount": 17,
     "totalTweets": 41,
@@ -602,6 +602,19 @@
   "blogs": [],
   "githubTrending": [
     {
+      "repo": "HKUDS/CLI-Anything",
+      "owner": "HKUDS",
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 1075,
+      "totalStars": 64338,
+      "forks": 5866,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
       "repo": "XiaoYouChR/Ghost-Downloader-3",
       "owner": "XiaoYouChR",
       "name": "Ghost-Downloader-3",
@@ -609,9 +622,9 @@
       "description": "The only downloader you need. 下载器的集大成者。",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 1087,
-      "totalStars": 16877,
-      "forks": 1019,
+      "starsToday": 1102,
+      "totalStars": 17021,
+      "forks": 1027,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -622,23 +635,10 @@
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 924,
-      "totalStars": 208355,
-      "forks": 10886,
+      "starsToday": 990,
+      "totalStars": 208491,
+      "forks": 10896,
       "channel": "全语言热门 / TypeScript/前端"
-    },
-    {
-      "repo": "jingyaogong/minimind",
-      "owner": "jingyaogong",
-      "name": "minimind",
-      "url": "https://github.com/jingyaogong/minimind",
-      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 828,
-      "totalStars": 69868,
-      "forks": 9107,
-      "channel": "全语言热门 / Python AI 专区"
     },
     {
       "repo": "zhouxiaoka/autoclip",
@@ -648,9 +648,22 @@
       "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 907,
-      "totalStars": 14968,
-      "forks": 2244,
+      "starsToday": 981,
+      "totalStars": 15099,
+      "forks": 2253,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "jingyaogong/minimind",
+      "owner": "jingyaogong",
+      "name": "minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 727,
+      "totalStars": 69960,
+      "forks": 9115,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -661,22 +674,9 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 797,
-      "totalStars": 73764,
-      "forks": 6510,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
-      "repo": "HKUDS/CLI-Anything",
-      "owner": "HKUDS",
-      "name": "CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 790,
-      "totalStars": 64180,
-      "forks": 5838,
+      "starsToday": 695,
+      "totalStars": 73865,
+      "forks": 6518,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -687,9 +687,9 @@
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 397,
-      "totalStars": 18978,
-      "forks": 2054,
+      "starsToday": 359,
+      "totalStars": 19044,
+      "forks": 2057,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -700,9 +700,9 @@
       "description": "The open-source agent for CI/CD reliability.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 436,
-      "totalStars": 14985,
-      "forks": 2002,
+      "starsToday": 408,
+      "totalStars": 15048,
+      "forks": 2004,
       "channel": "全语言热门 / Python AI 专区"
     }
   ]
