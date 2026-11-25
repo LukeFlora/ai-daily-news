@@ -1,7 +1,7 @@
 {
   "date": "2026-11-25",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-25T09:46:13.227Z",
+  "fetchedAt": "2026-11-25T13:19:48.319Z",
   "stats": {
     "buildersCount": 16,
     "totalTweets": 34,
@@ -527,32 +527,6 @@
   "blogs": [],
   "githubTrending": [
     {
-      "repo": "HKUDS/CLI-Anything",
-      "owner": "HKUDS",
-      "name": "CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 1074,
-      "totalStars": 65227,
-      "forks": 5935,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
-      "repo": "XiaoYouChR/Ghost-Downloader-3",
-      "owner": "XiaoYouChR",
-      "name": "Ghost-Downloader-3",
-      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "description": "The only downloader you need. 下载器的集大成者。",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 1092,
-      "totalStars": 17784,
-      "forks": 1067,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
       "repo": "firecrawl/firecrawl",
       "owner": "firecrawl",
       "name": "firecrawl",
@@ -560,35 +534,22 @@
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 991,
-      "totalStars": 209370,
-      "forks": 10946,
+      "starsToday": 1131,
+      "totalStars": 209570,
+      "forks": 10960,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
-      "repo": "zhouxiaoka/autoclip",
-      "owner": "zhouxiaoka",
-      "name": "autoclip",
-      "url": "https://github.com/zhouxiaoka/autoclip",
-      "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+      "repo": "HKUDS/CLI-Anything",
+      "owner": "HKUDS",
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 980,
-      "totalStars": 15804,
-      "forks": 2306,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
-      "repo": "jingyaogong/minimind",
-      "owner": "jingyaogong",
-      "name": "minimind",
-      "url": "https://github.com/jingyaogong/minimind",
-      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 727,
-      "totalStars": 70640,
-      "forks": 9180,
+      "starsToday": 1094,
+      "totalStars": 65369,
+      "forks": 5942,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -599,9 +560,48 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 703,
-      "totalStars": 74637,
-      "forks": 6580,
+      "starsToday": 950,
+      "totalStars": 74770,
+      "forks": 6590,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "XiaoYouChR/Ghost-Downloader-3",
+      "owner": "XiaoYouChR",
+      "name": "Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "description": "The only downloader you need. 下载器的集大成者。",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 950,
+      "totalStars": 17911,
+      "forks": 1070,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "jingyaogong/minimind",
+      "owner": "jingyaogong",
+      "name": "minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 828,
+      "totalStars": 70755,
+      "forks": 9193,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "zhouxiaoka/autoclip",
+      "owner": "zhouxiaoka",
+      "name": "autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 868,
+      "totalStars": 15912,
+      "forks": 2307,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -612,9 +612,9 @@
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "starsToday": 360,
-      "totalStars": 19378,
-      "forks": 2091,
+      "starsToday": 408,
+      "totalStars": 19421,
+      "forks": 2096,
       "channel": "全语言热门 / TypeScript/前端"
     },
     {
@@ -625,9 +625,9 @@
       "description": "The open-source agent for CI/CD reliability.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 398,
-      "totalStars": 15324,
-      "forks": 2022,
+      "starsToday": 343,
+      "totalStars": 15370,
+      "forks": 2023,
       "channel": "全语言热门 / Python AI 专区"
     }
   ]
