@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "isMondayLookback": false,
-  "fetchedAt": "2026-11-27T09:37:58.174Z",
+  "fetchedAt": "2026-11-27T12:55:44.398Z",
   "stats": {
     "buildersCount": 12,
     "totalTweets": 18,
@@ -319,19 +319,6 @@
   "blogs": [],
   "githubTrending": [
     {
-      "repo": "firecrawl/firecrawl",
-      "owner": "firecrawl",
-      "name": "firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "starsToday": 1046,
-      "totalStars": 211230,
-      "forks": 11076,
-      "channel": "全语言热门 / TypeScript/前端"
-    },
-    {
       "repo": "XiaoYouChR/Ghost-Downloader-3",
       "owner": "XiaoYouChR",
       "name": "Ghost-Downloader-3",
@@ -339,22 +326,35 @@
       "description": "The only downloader you need. 下载器的集大成者。",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 889,
-      "totalStars": 19503,
-      "forks": 1188,
+      "starsToday": 843,
+      "totalStars": 19586,
+      "forks": 1212,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
-      "repo": "mvanhorn/last30days-skill",
-      "owner": "mvanhorn",
-      "name": "last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "repo": "firecrawl/firecrawl",
+      "owner": "firecrawl",
+      "name": "firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "starsToday": 833,
+      "totalStars": 211319,
+      "forks": 11099,
+      "channel": "全语言热门 / TypeScript/前端"
+    },
+    {
+      "repo": "zhouxiaoka/autoclip",
+      "owner": "zhouxiaoka",
+      "name": "autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 759,
-      "totalStars": 76030,
-      "forks": 6716,
+      "starsToday": 733,
+      "totalStars": 17364,
+      "forks": 2447,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -365,22 +365,9 @@
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 746,
-      "totalStars": 66639,
-      "forks": 6082,
-      "channel": "全语言热门 / Python AI 专区"
-    },
-    {
-      "repo": "zhouxiaoka/autoclip",
-      "owner": "zhouxiaoka",
-      "name": "autoclip",
-      "url": "https://github.com/zhouxiaoka/autoclip",
-      "description": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "starsToday": 774,
-      "totalStars": 17298,
-      "forks": 2424,
+      "starsToday": 668,
+      "totalStars": 66714,
+      "forks": 6103,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -391,9 +378,22 @@
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "starsToday": 702,
-      "totalStars": 71969,
-      "forks": 9363,
+      "starsToday": 667,
+      "totalStars": 72043,
+      "forks": 9386,
+      "channel": "全语言热门 / Python AI 专区"
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "owner": "mvanhorn",
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 664,
+      "totalStars": 76123,
+      "forks": 6748,
       "channel": "全语言热门 / Python AI 专区"
     },
     {
@@ -405,22 +405,22 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "starsToday": 501,
-      "totalStars": 9663,
-      "forks": 991,
+      "totalStars": 9687,
+      "forks": 999,
       "channel": "Python AI 专区"
     },
     {
-      "repo": "cursor/plugins",
-      "owner": "cursor",
-      "name": "plugins",
-      "url": "https://github.com/cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "starsToday": 270,
-      "totalStars": 19879,
-      "forks": 2171,
-      "channel": "全语言热门 / TypeScript/前端"
+      "repo": "Tracer-Cloud/opensre",
+      "owner": "Tracer-Cloud",
+      "name": "opensre",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "description": "The open-source agent for CI/CD reliability.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "starsToday": 326,
+      "totalStars": 15993,
+      "forks": 2111,
+      "channel": "全语言热门 / Python AI 专区"
     }
   ]
 }
